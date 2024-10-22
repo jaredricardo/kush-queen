@@ -1,0 +1,83 @@
+{% if blog.all_tags.size > 0 %}
+
+<div class="wrapper-sidebar">
+  {% assign c = 0 %} 
+  {% for t in blog.all_tags %}
+{%- comment -%} Wholesale_Club_Product_Visibility_For_Loop Start {%- endcomment -%}
+{%- capture hide_resource -%}{% render "wc_product_visibility", resource: t %}{%- endcapture -%}
+{%- if hide_resource == "true" -%}
+  {% continue %}
+{%- endif -%}
+{%- comment -%} Wholesale_Club_Product_Visibility_For_Loop End {%- endcomment -%}
+
+  {% capture cat %}{{ cat }}{% capture temp_cat %}{% if t contains '_' %}{% assign cat_grp = t | split: '_' %}{{ cat_grp.first }}{% endif %}{% endcapture %}{% unless cat contains temp_cat %}{% if t contains '_' %}{% assign new_cat_grp = t | split: '_' %}{{ new_cat_grp.first }}{% endif %}{% unless forloop.last %}+{% endunless %}{% assign c = c | plus: 1 %}{% endunless %}{% endcapture %}
+  {% endfor %}
+
+  {% assign cat_array = 'grid' | split: '+' %}
+
+  {% for i in cat_array %}
+{%- comment -%} Wholesale_Club_Product_Visibility_For_Loop Start {%- endcomment -%}
+{%- capture hide_resource -%}{% render "wc_product_visibility", resource: i %}{%- endcapture -%}
+{%- if hide_resource == "true" -%}
+  {% continue %}
+{%- endif -%}
+{%- comment -%} Wholesale_Club_Product_Visibility_For_Loop End {%- endcomment -%}
+
+  {% if i == 'grid' %}
+  <h4 class="title">Categories</h4>
+  {% endif %}
+  {% endfor %}
+  <ul class="nav">
+    {% for i in cat_array %}
+{%- comment -%} Wholesale_Club_Product_Visibility_For_Loop Start {%- endcomment -%}
+{%- capture hide_resource -%}{% render "wc_product_visibility", resource: i %}{%- endcapture -%}
+{%- if hide_resource == "true" -%}
+  {% continue %}
+{%- endif -%}
+{%- comment -%} Wholesale_Club_Product_Visibility_For_Loop End {%- endcomment -%}
+
+    {% unless i == '' %}
+     {% unless tag  contains 'grid_' %}
+    {% for t in blog.all_tags %}
+{%- comment -%} Wholesale_Club_Product_Visibility_For_Loop Start {%- endcomment -%}
+{%- capture hide_resource -%}{% render "wc_product_visibility", resource: t %}{%- endcapture -%}
+{%- if hide_resource == "true" -%}
+  {% continue %}
+{%- endif -%}
+{%- comment -%} Wholesale_Club_Product_Visibility_For_Loop End {%- endcomment -%}
+
+    {% if t contains i %}
+    
+    {% if current_tags contains t %}
+    <li>
+      <label class="check">
+        
+
+          <a href="/blogs/{{ t | handle | replace: 'blog', 'news' | split: "_" | last }}" class="article__grid-tag">{{ t | split: "_" | last}}</a>
+
+        
+        
+
+      </label>
+    </li>
+    {% else %}
+    <li>
+      <label class="check">
+        
+        <a href="/blogs/{{ t | handle | replace: 'blog', 'news' | split: "_" | last }}" class="article__grid-tag">{{ t | split: "_" | last}}</a>
+        
+
+      </label>
+    </li>
+    {% endif %}
+    {% endif %}
+    {% endfor %}
+    {% endunless %}
+    {% endunless %}
+    {% endfor %}
+    
+  </ul>
+</div>
+{% endif %}
+
+

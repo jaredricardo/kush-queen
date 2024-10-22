@@ -1,0 +1,30 @@
+<div class="collection-header page-width-2">
+    {% if section.settings.enable_breadcrumb %}
+        {% render 'breadcrumb' %}
+    {% endif %}
+    {% if collection.description != blank %}
+        <div class="rte text-center">
+          {{ collection.description }}
+        </div>
+    {% endif %}
+</div>
+
+
+{% schema %}
+{
+    "name": "Collection header",
+    "settings": [
+        {
+            "type":"checkbox",
+            "id": "enable_breadcrumb",
+            "label": "enable breadcrumb",
+            "default": true
+        }    
+    ],
+    "presets": [
+        {
+            "name": "Collection Header"
+        }
+    ]
+}
+{% endschema %}

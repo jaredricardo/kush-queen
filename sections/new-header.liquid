@@ -1,0 +1,335 @@
+{% if customer.b2b? %}
+    <style>
+.hs-content-discount-add {
+    display: none !important;
+}
+      </style>
+    {%  endif %}
+
+<div data-section-id="{{ section.id }}" data-section-type="header-section">
+  <header class="header-wrap clearfix" id="main-header-container">
+    {% if section.settings.top_head_img != blank or section.settings.head_site_link != blank or section.settings.head_site_king_link != blank  or section.settings.head_site_announcement != blank%}
+    <div class="header-top-bg">
+
+      <div class="second-nav">
+        <ul>
+          {% if section.settings.top_head_img != blank or section.settings.head_site_link != blank %}
+          <li class="home">
+            {% if section.settings.top_head_img != blank %}
+            <img src="{{section.settings.top_head_img | img_url: 'master'}}">
+            {% endif %}
+            {% if section.settings.head_site_link != blank %}
+            <a href="{{section.settings.head_site_link}}">
+              {{section.settings.head_site_link_txt}}
+            </a>
+            {% endif %}
+          </li>
+          {% endif %}
+
+          {% if section.settings.head_site_king_link != blank %}
+          <li>
+            <a href="{{section.settings.head_site_king_link}}">
+              {{section.settings.head_site_king_link_txt}}
+            </a>
+          </li>
+          {% endif %}
+        </ul>
+        
+
+
+{% assign announcement_text = section.settings.announcement_text %}
+{% assign cta_url = section.settings.announcement_cta_url %}
+{% assign cta_text = section.settings.announcement_cta_text %}
+
+
+  <div class="announcement">
+  <span class="announcement-text">{{ announcement_text }} <a href="{{ cta_url }}">{{ cta_text }}</a></span>
+</div>
+ 
+
+        
+      </div>
+
+    </div>
+    {% endif %}
+
+    <div class="mobile-navbar">
+      <script>
+        function menuScrollToTop() {
+          window.scrollTo({ top: 0 });
+        }
+      </script>
+        <div class="mobile-navbar-menu">
+          <a href="javascript:void(0)" aria-label="Open Navigation" role="button" id="trigger" class="nav-trigger open" aria-describedby="a11y-external-message" onclick="menuScrollToTop()">
+            <i class="ion-android-menu"></i>
+          </a>
+
+        </div>
+       <div class="mobile-navbar-logo">
+        <a href="/" aria-label="Logo" class="logo-img-wrap">
+          <img src="{{ section.settings.logo | img_url: 'master' }}"
+               alt="{{ section.settings.logo.alt | default: shop.name | escape }}">
+        </a>
+      </div>
+
+      <div class="mobile-navbar-cart">
+          <a href="/cart" class="head-cart-link-wrap a11y-tooltip">
+            <span class="items-cnt icon-cart-7">
+              <span id="cart-count">
+                {{cart.item_count}}
+              </span>
+            </span>
+          </a>
+      </div>
+          <nav class="mp-menu mp-cover" id="mp-menu"> 
+            <div class="mp-level">
+              {% include 'mob-site-nav' %}
+            </div>
+          </nav>
+    </div>
+
+    <div class="desktop-navbar">
+
+      <div class="desktop-navbar-logo">
+          <a href="/" class="logo-img-wrap">
+            <img src="{{ section.settings.logo | img_url: 'master' }}"
+                 alt="{{ section.settings.logo.alt | default: shop.name | escape }}">
+          </a>
+      </div>
+
+      <div class="desktop-navbar-navigation">
+      <nav class="menu-bar desktop-menu-wrap">
+            {% include 'new-site-nav' %}
+          </nav>
+      </div>
+      <div class="desktop-navbar-actions">
+          <ul class="head-menu-search-cart-wrap">
+            {% if section.settings.enable_search %}
+            <li><a href="javascript:void(0)" aria-label="Search" class="search-toggle"><i class="ion-ios-search-strong"></i></a></li>
+            {% endif %}
+            <li class="head-accnt">
+              <i class="fa fa-user-o"></i>
+              <div class="account-icon-dropdown">
+                <ul class="">
+                  <li class="">
+                    <a class="" href="/account/login">
+                      Account & Wholesale Login
+                    </a>
+                  </li>
+                  <li class="">
+                    <a class="" href="/a/account/login">
+                      Manage Subscriptions
+                    </a>
+                    </li>
+                  </ul>
+              </div>
+
+              {% comment %} {% if customer %}
+                {% if customer.b2b? %}
+                  <a aria-label="Account" href="/account"><i class="fa fa-user-o"></i></a>
+                {%  else %}
+                  <a aria-label="Account" href="/a/account/login"><i class="fa fa-user-o"></i></a>
+                {%  endif %}
+              {% else %}
+                <a aria-label="Account login" href="/a/account/login" ><i class="fa fa-user-o"></i></a>
+              {% endif %} {% endcomment %}
+            </li>
+            <li class="header-cart-wrapper">
+              <a href="/cart" class="head-cart-link-wrap a11y-tooltip">
+                <span class="items-cnt icon-cart-7">
+                  <span id="cart-count">
+                    {{cart.item_count}}
+                  </span>
+                </span>
+              </a>
+            </li>
+          </ul>
+      </div>
+
+      {% if section.settings.enable_search %}
+      <div class="serch-popup">
+        <button id="a11y-close-overlay" class="ion-ios-close-empty search-toggle"><span class="sr-only">Close</span></button>
+        <div class="page-width">
+          {% include 'new-search-form1' %}
+        </div>
+      </div>
+      {% endif %}
+    </div>
+    
+  </header>
+</div>
+
+<style>
+  .head-accnt .fa-user-o:before {
+    font-size: 25px;
+  }
+</style>
+
+{% schema %}
+{
+"name": "Header",
+"class": "spruced-header-wrap",
+"max_blocks": 10,
+"settings": [
+        {
+        "type": "text",
+        "id": "announcement_text",
+        "label": "Announcement Text",
+        "default": "Cannabinoids For Wellness"
+      },
+      {
+        "type": "text",
+        "id": "announcement_cta_url",
+        "label": "Announcement CTA URL",
+        "default": "https://kushqueen.shop/collections/all"
+      },
+      {
+        "type": "text",
+        "id": "announcement_cta_text",
+        "label": "Announcement CTA Text",
+        "default": "Shop Now"
+      },
+{
+"type": "header",
+"content": "Top Header"
+},
+{
+"type": "image_picker",
+"id": "top_head_img",
+"label": "Top image"
+},
+{
+"type": "url",
+"id": "head_site_link",
+"label": "Site link"
+},
+{
+"type": "text",
+"id": "head_site_link_txt",
+"label": "Link text"
+},
+{
+"type": "url",
+"id": "head_site_king_link",
+"label": "Kingdom link"
+},
+{
+"type": "text",
+"id": "head_site_king_link_txt",
+"label": "Link text"
+},
+
+{
+"type": "text",
+"id": "head_site_announcement",
+"label": "Announcement text"
+},
+
+
+
+{
+"type": "header",
+"content": "Logo"
+},
+{
+"type": "image_picker",
+"id": "logo",
+"label": "Logo image"
+},
+{
+"type": "header",
+"content": "Search Box"
+},
+{
+"type": "checkbox",
+"id": "enable_search",
+"label": "Enable Search",
+"default": true
+}
+
+
+],
+"blocks": [
+// SIMPLE LINK ////////////////////////////////////////////////////////////////////////////////
+{
+"type": "simple_link",
+"name": "Link",
+"settings": [
+{
+"type": "text",
+"id": "title",
+"label": "Title",
+"default": "Item"
+},
+{
+"type": "url",
+"id": "link",
+"label": "Link"
+}
+]
+},
+// LINK + LINKLIST ////////////////////////////////////////////////////////////////////////////////
+{
+"type": "link-linklist",
+"name": "Link + linklist",
+"settings": [
+{
+"type": "text",
+"id": "title",
+"label": "Title",
+"default": "Item"
+},
+{
+"type": "url",
+"id": "link",
+"label": "Link"
+},
+{
+"type": "link_list",
+"id": "links",
+"label": "Choose linklist"
+}
+]
+}
+]
+}
+{% endschema %}
+
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "name": "{{ shop.name }}",
+  {% if section.settings.logo %}
+    {% assign image_size = section.settings.logo.width | append:'x' %}
+    "logo": "https:{{ section.settings.logo | img_url: image_size }}",
+  {% endif %}
+  "sameAs": [
+    "{{ settings.social_twitter_link }}",
+    "{{ settings.social_facebook_link }}",
+    "{{ settings.social_pinterest_link }}",
+    "{{ settings.social_instagram_link }}",
+    "{{ settings.social_tumblr_link }}",
+    "{{ settings.social_snapchat_link }}",
+    "{{ settings.social_youtube_link }}",
+    "{{ settings.social_vimeo_link }}"
+  ],
+  "url": "{{ shop.url }}{{ page.url }}"
+}
+</script>
+
+{% if template.name == 'index' %}
+<script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "WebSite",
+      "name": "{{ shop.name }}",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "{{ shop.url }}/search?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      },
+      "url": "{{ shop.url }}{{ page.url }}"
+    }
+</script>
+{% endif %}

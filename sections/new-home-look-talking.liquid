@@ -1,0 +1,93 @@
+<section class="new-home-look-talk-wrapper icons">
+    <div class="new-home-look-container">
+        <div class="new-look-content">
+            {% if section.settings.look_subtitle != blank %}
+                <div role="heading" aria-level="2" class="home-look-talk-title-wrap queen-promise-subtitle-wrap "><h4>{{section.settings.look_subtitle}}</h4></div>
+            {% endif %}
+            {% if section.settings.look_title != blank %}
+                <div role="heading" aria-level="2" class="home-look-talk-title-wrap queen-promise-newtitle-wrap"><h2>{{section.settings.look_title}}</h2></div>
+            {% endif %}
+        </div>
+        
+
+      <div class="home-look-talk-service-wrap">
+          {% for block in section.blocks %}
+{%- comment -%} Wholesale_Club_Product_Visibility_For_Loop Start {%- endcomment -%}
+{%- capture hide_resource -%}{% render "wc_product_visibility", resource: block %}{%- endcapture -%}
+{%- if hide_resource == "true" -%}
+  {% continue %}
+{%- endif -%}
+{%- comment -%} Wholesale_Club_Product_Visibility_For_Loop End {%- endcomment -%}
+
+          {% if block.settings.look_sing_img != blank %}
+            <div class="new-home-look-talk-sing-wrap queen-promise-sing-wrap">
+              <a class="look-talk-link-wrap new" href="{{block.settings.look_sing_link}}">
+                <img class="lazyload" src="data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'%20width='{{ block.settings.look_sing_img.width }}'%20height='{{ block.settings.look_sing_img.height }}'></svg>" data-src="{{block.settings.look_sing_img | img_url: 'master'}}" alt="{{block.settings.look_sing_img.alt}}"/>
+              </a>
+            </div>
+          {% endif %}
+          {% endfor %}
+      </div>
+
+      {% if section.settings.look_talk_link != blank %}
+      <div class="home-look-talk-btn-wrap">
+        <a href="{{section.settings.look_talk_link}}">
+          {{section.settings.look_talk_link_text}}
+        </a>
+      </div>
+      {% endif %}
+    </div>
+</section>
+
+{% schema %}
+{
+"name": "New Home Look Talking",
+"settings": [
+{
+"id":"look_subtitle",
+"type":"text",
+"label":"Subtitle"
+},
+{
+"id":"look_title",
+"type":"text",
+"label":"Title"
+},
+{
+"id":"look_talk_link",
+"type":"url",
+"label":"Link"
+},
+{
+"id":"look_talk_link_text",
+"type":"text",
+"label":"Link text"
+}
+],
+"blocks":[
+{
+"type":"look_talk",
+
+"name":"Talking",
+"settings": [
+{
+"id": "look_sing_img",
+"type": "image_picker",
+"label": "Image"			
+},
+{
+"id": "look_sing_link",
+"type": "url",
+"label": "Link"			
+}
+]
+}
+],
+"presets":[
+{
+"name": "New Home Look Talking",
+"category":"Image"
+}
+]
+}
+{% endschema %}

@@ -1,0 +1,9 @@
+.klaviyo-bis-close {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.klaviyo-bis-close h3 {
+  font-family: inherit;
+}

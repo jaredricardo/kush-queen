@@ -1,0 +1,121 @@
+<style>
+#age-verification-overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  opacity: 0.85;
+  z-index: 9999999999;
+}
+
+#age-verification-popup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 360px;
+  width: 90%;
+  padding: 20px;
+  background-color: #fff;
+  z-index: 99999999999;
+  text-align: center;
+}
+
+#age-verification-popup img {
+    max-width: 200px;
+}
+#age-verification-popup p.age-prompt {
+    font-size: 18px;
+    max-width: 85%;
+    margin: 20px auto 10px;
+    display: block;
+}
+#age-verification-popup p {
+  margin: 10px 0;
+}
+#age-verification-popup .age-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    flex-direction: column;
+    row-gap: 10px;
+}
+  
+#age-verification-popup #over-18-button {
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 0px;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 15px;
+    line-height: 21px;
+}
+
+#age-verification-popup #under-18-button {
+    color: #444444;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: #eee;
+    padding: 6px;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+p.age-disclaim {
+    font-size: 12px;
+    line-height: 15px;
+}
+
+</style>
+
+<div id="age-verification-overlay"></div>
+<div id="age-verification-popup">
+    <img class="age-logo" src="{{ 'kq-logo.png' | file_url }}" alt="Logo">
+  <p class="age-prompt">Please confirm that you are 18 years of age or older.</p>
+  <div class="age-buttons">
+    <button id="over-18-button">I’m Over 18 years of age</button>
+    <a href="https://www.google.com" id="under-18-button">I’m Under 18 years of age</a>
+  </div>
+  <p class="age-disclaim">You must be of legal age in your respective country for entry. By entering you accept our terms and conditions and our privacy policy.</p>
+</div>
+
+
+<script>
+window.addEventListener('load', function() {
+  var ageVerificationPopup = document.getElementById('age-verification-popup');
+  var over18Button = document.getElementById('over-18-button');
+  var under18Button = document.getElementById('under-18-button');
+  var ageVerificationOverlay = document.getElementById('age-verification-overlay');
+
+  if (!localStorage.getItem('ageVerification')) {
+    ageVerificationOverlay.style.display = 'block';
+    ageVerificationPopup.style.display = 'block';
+    document.documentElement.style.overflow = 'hidden';
+    document.body.style.overflow = 'hidden';
+  }
+
+  over18Button.addEventListener('click', function() {
+    ageVerificationOverlay.style.display = 'none';
+    ageVerificationPopup.style.display = 'none';
+    document.documentElement.style.overflow = 'auto';
+    document.body.style.overflow = 'auto';
+    localStorage.setItem('ageVerification', true);
+  });
+
+  under18Button.addEventListener('click', function(event) {
+    event.preventDefault();
+    window.location.href = 'https://www.google.com';
+  });
+});
+
+
+
+</script>

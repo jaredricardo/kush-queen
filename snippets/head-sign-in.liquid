@@ -1,0 +1,63 @@
+<div class="account-dropdown">
+  <div class="account-wrap">
+    <div class="account-inner">
+      <div class="login-form-head">
+        <span class="login-form-title">Sign in</span>
+        <span class="pull-right">
+          <a class="register-link" href="/account/register" title="Register">Create an Account</a>
+        </span>
+      </div>
+
+      {% form 'customer_login', class: 'opal-login-form-ajax' %}
+
+      {%- if form.errors -%}
+      <div class="form-message form-message--error">
+        <h2 class="h3 form-message__title " tabindex="-1" data-form-status>{{ 'contact.form.error_heading' | t }}</h2>
+        {{ form.errors | default_errors }}
+      </div>
+      {%- endif -%}
+      <p>
+        <label for="CustomerEmail">{{ 'customer.login.email' | t }}<span class="required">*</span></label>
+        <input
+               type="email"
+               required="required" aria-label="Email" 
+               name="customer[email]"
+               id="HeadCustomerEmail"
+               autocomplete="email"
+               autocorrect="off"
+               autocapitalize="off"
+               placeholder="Email"
+               {%- if form.errors contains 'form' -%}
+               class="input--error"
+               aria-invalid="true"
+               {%- endif -%}
+               >
+      </p>
+      <p>
+        {% if form.password_needed %}
+        <label for="CustomerPassword">{{ 'customer.login.password' | t }}<span class="required">*</span></label>
+        <input
+               type="password"
+               value=""
+               required="required" aria-label="Password" 
+               name="customer[password]"
+               id="HeadCustomerPassword"
+               placeholder="Password"
+               {%- if form.errors contains 'form' -%}
+               class="input--error"
+               aria-invalid="true"
+               {%- endif -%}
+               >
+        {% endif %}
+      </p>
+      <div class="text-center">
+        <input type="submit" class="btn" value="{{ 'customer.login.sign_in' | t }}">
+      </div>
+
+      {% endform %}
+      <div class="login-form-bottom">
+        <a href="/account/login#recover" class="lostpass-link" title="Lost your password?">Lost your password?</a>
+      </div>
+    </div>
+  </div>
+</div>

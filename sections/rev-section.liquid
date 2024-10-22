@@ -1,0 +1,7 @@
+{% if section.settings.slider_id != 'no-slider' %}
+              {% include {{section.settings.slider_id}}, slider_id:section.settings.slider_id %}
+              {% endif %}
+
+              {% schema %}
+                    {"name":"Revolution Slider","class":"index-section index-section--flush","settings":[{"type":"select","id":"slider_id","label":"Select Slider","default":"no-slider","info":{"en":"Please make sure you click the SAVE button after selecting your slider."},"options":[{"label":"Select Slider","value":"no-slider"},{"label":"Secondary Slider - Q1 - 2020","value":"rev_secondary-slider-q1-2020"},{"label":"KUSH QUEEN PROMISE","value":"rev_kush-queen-promise"},{"label":"home-sliders-final-sept-2019-correct-order-21","value":"rev_home-sliders-final-sept-2019-correct-order-21"},{"label":"Holiday Prep","value":"rev_holiday-prep"},{"label":"HOLIDAY 21","value":"rev_holiday-21"}]}],"presets":[{"name":"Revolution Slider","category":"Image"}]}
+              {% endschema %}

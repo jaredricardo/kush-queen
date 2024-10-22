@@ -1,0 +1,24 @@
+<div class="handheld-footer-bar">
+  <ul class="columns-3">
+    <li class="my-account">
+      {% if customer %}
+      <a class="my-accrount-footer" aria-label="Account" href="/a/account/login"><i class="fa fa-user-o"></i></a>
+      {% else %}
+      <a class="my-accrount-footer" aria-label="Account" href="/a/account/login"><i class="fa fa-user-o"></i></a>
+      {% endif %}
+    </li>
+    <li class="search mob-search-wrap">
+      <a class="search-footer" aria-label="Search" href="">
+        <i class="ion-ios-search-strong"></i>
+      </a>
+      {% include 'mob-search-form' %}
+    </li>
+    <li class="cart">
+      <a class="footer-cart-contents" aria-label="Cart with {{cart.item_count}} item" href="/cart">
+        <i class="items-cnt icon-cart-7">
+          <span class="count">{{cart.item_count}}</span>
+        </i>
+      </a>
+    </li>
+  </ul>
+</div>

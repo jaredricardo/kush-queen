@@ -1,0 +1,77 @@
+
+{%- assign current_variant = product.selected_or_first_available_variant -%}
+<div class="colgrid item {% unless product.available %} product-price--sold-out grid-view-item--sold-out{% endunless %}"> 
+  <div class="prod-wrap">
+    <div class="microfull covermicroful">
+      <div class="prod-img">
+        <a class="img-effect" href="{{product.url | within:collection}}">
+          <img class="first_img lazyload" src="data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'%20width='{{ product.featured_image.width }}'%20height='{{ product.featured_image.height }}'></svg>" data-src="{{ product.featured_image.src | img_url: '1024x1024' }}" alt="{{ featured.featured_image.alt | escape }}">
+          {% if product.images[1].src != blank %}
+          <img class="hidden1 lazyload" src="data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'%20width='{{ product.images[1].width }}'%20height='{{ product.images[1].height }}'></svg>" data-src="{{ product.images[1].src | img_url: '1024x1024' }}" alt="" />  
+          {% endif %}
+          <span class="visually-hidden">{{product.title}}</span>
+        </a>   
+        {% unless current_variant.available %}
+          <div class="showrestock">
+            <div class="outofstock">
+              Out Of Stock
+            </div>
+            <a href="mailto:{{shop.email}}?subject=Request+for+Restock Product&body={{shop.url}}{{product.url | within: collection}}">Request Restock</a>
+          </div>
+        {% else %}
+          {% if product.variants.size > 1 %}
+             <div class="showoption">
+               
+                    
+                  <a href="{{product.url | within:collection}}"  class="addtocart1" aria-label="Select Option - {{product.title}}" >+ Select Option  </a>
+
+            </div>
+           
+          {% else %}
+          	<div class="showoption">
+               <form method="post" action="/cart/add" data-productid="{{ product.id }}">
+
+                    <input type="hidden" name="id" data-productid="{{ product.id }}" value="{{ product.variants.first.id }}" />
+                  <button type="submit" aria-label="Add to cart -  {{product.title}}" data-title="{{product.title}}" data-src="{{ product.featured_image.src | img_url: '1024x1024' }}" class="addtocart {% unless product.available %} soldout-img {% endunless %}" {% unless product.available %} disabled="disabled" {% endunless %}>+ Add to cart  </button>
+
+             </form>
+            </div> 	
+          {% endif %}
+          
+        {% endunless %}
+      </div>
+      <div class="prod-content">
+        <div class="block-inline">
+          <div class="title-wish">
+            <h5 role="heading" aria-level="3" class="prod-title"> <a href="{{ product.url | within: collection }}"> {{ product.title }} </a> </h5>
+            <div class="ruk_rating_snippet" data-sku="{{ product.handle }};{{ product.variants | map: 'sku' | join: ';' }};{{ product.variants | map: 'id' | join: ';' }}"></div>
+             <div class="prod-price">
+                {% if product.variants.size > 1 %}
+               	   {% if product.price_max > product.price_min %}	
+               		{{ product.price_min | money }} - {{ product.price_max | money }} 
+               	   {% else %}
+               		 {% include 'product-price', variant: product %}	
+                   {% endif %}
+               	{% else %}
+                {% include 'product-price', variant: product %}
+                
+              	{% endif %} 
+              </div> 
+          </div>
+         
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+
+  .ruk_rating_snippet {
+  
+    text-align: center;
+  
+  }
+
+</style>
+

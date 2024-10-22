@@ -1,0 +1,97 @@
+.pricacy-policy-title h1 {
+  font-size: 40px;
+  line-height: 42px;
+  font-weight: 700;
+  color:#222222;
+}
+.privacy-info h2 {
+  color: #000000;
+  text-transform: unset;
+  font-weight: 600;
+  font-size:24px;
+  letter-spacing:0px;
+  display: inline-block;
+  clear: both;
+  line-height: 1;
+  margin: 19px 0px 0px 0px;
+}
+.privacy-info p {
+  color: #666666;
+  font-size: 15px;
+  font-weight: 400;
+  margin-bottom:25px;
+  line-height:28px;
+  
+}
+.team-and-conditions-title h1{
+  font-size: 40px;
+  line-height: 42px;
+  font-weight: 700;
+  color:#222222;
+
+
+}
+.team-conditions-info a:hover{
+color:#c95813;
+}
+
+.team-conditions-info p{
+
+  color: #666666;
+  font-size: 15px;
+  font-weight: 400;
+  margin-bottom:24px;
+  line-height:28px;
+  
+}
+
+
+.team-conditions-info h2 {
+  color: #000000;
+  text-transform: unset;
+  font-weight: 600;
+  font-size:24px;
+  letter-spacing:0px;
+  display: inline-block;
+  clear: both;
+  line-height: 1;
+  margin: 19px 0px 0px 0px;
+}
+.team-into {
+  padding-left:72px;
+  display:block;
+
+}
+.team-into h2 {
+    margin-bottom: 20px;
+}
+.team-conditions-info ul li:before {
+     position: absolute;
+    left: 15px;
+    top: 7px;
+    content: "\f111";
+    font-family: FontAwesome;
+    font-size: 8px;
+    color: #555555;
+}
+
+
+.team-conditions-info ul li {
+    position: relative;
+    padding-left: 30px;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 400;
+    color: #666666;
+    margin-bottom:5px;
+    
+}
+
+
+@media (max-width:407px)  { 
+  .team-conditions-info h2 {
+  font-size: 22px;
+  
+  }
+ 
+}

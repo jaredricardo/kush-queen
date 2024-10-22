@@ -1,0 +1,394 @@
+    {% comment %} HOMEPAGE DISPLAYED ELEMENTS {% endcomment %}
+  <div class="home-featured-main-container-cards new-collection-list">
+    <div class=" page-width ">
+        <div class="home-featured-collection-cards">
+          <div class="home-featured-cards-title-icon">
+            {% if section.settings.icon != blank %}
+                <div class="icon-container">
+                  {% if section.settings.icon.image.src contains ".svg" %}
+                  <img class="featured-icon" src="{{ section.settings.icon | img_url: 'master' }}" alt="" width="60px" height="60px">
+                  {% else %}
+                  <img class="featured-icon" src="{{ section.settings.icon | img_url: '50x50' }}" alt="">
+                {% endif %}                
+                </div>
+            {% endif %}
+    
+            <div class="queen-promise-title-wrap-cards">
+              {% if section.settings.sub-title != blank %}
+              <h4 role="heading" aria-level="2" class="queen-promise-subtitle-cards">{{section.settings.sub-title}}</span>
+              {% endif %}
+              
+              {% if section.settings.title != blank %}
+              <h3 role="heading" aria-level="2" class="queen-promise-title-cards">{{section.settings.title}}</h3>
+              {% endif %}
+            </div>
+            </div>
+            {% if section.settings.desc != blank %}
+            <span class="queen-promise-desc-wrap-cards">{{section.settings.desc}}</span>
+            {% endif %}
+    
+            {% if section.settings.col_link_text != blank %}
+            <div class="queen-promise-button-wrap card-heading">
+              {% if customer.tags contains "Wholesale Customer" or customer.tags contains "Wholesale COVID Min" or customer.tags contains "Wholesale Lower Min" or customer.tags contains "Wholesale No Minimum" or customer.tags contains "Wholesale Dist. Acct" %}
+                <a class="queen-promise-cta border-rounded mobile-display-above-none" href="{{section.settings.col_link | replace: 'all', 'wholesale'}}">
+                {% else %}
+                <a class="queen-promise-cta border-rounded mobile-display-above-none" href="{{section.settings.col_link}}">
+                {% endif %}
+                {{section.settings.col_link_text}}
+              </a>
+            </div>
+            {% endif %}
+        </div>
+    </div>
+
+  {% case section.settings.grid %}
+    {% when 2 %}
+      {%- assign grid_item_width = 'medium-up--one-half' -%}
+    {% when 3 %}
+      {%- assign grid_item_width = 'small--one-whole medium-up--one-third ' -%}
+    {% when 4 %}
+      {%- assign grid_item_width = 'small--one-whole medium-up--one-quarter' -%}
+    {% when 5 %}
+      {%- assign grid_item_width = 'small--one-half medium-up--one-fifth' -%}
+  {% endcase %}
+
+  <div class="collection-grid collection-with-banner">
+    {% if section.settings.banner_image != blank %}
+    <div class="collection-banner-div desktop-image" style="background-image: url('{{ section.settings.banner_image | img_url: 'master' }}');background-repeat: no-repeat;
+    background-size: cover; background-position: center;">
+        {% if section.settings.col_link_text != blank %}
+            <div class="queen-promise-button-wrap ">
+                <a class="queen-promise-cta border-rounded mobile-display-below-full fresh-drops" href="{{section.settings.col_link}}">
+                {{section.settings.col_link_text}}
+              </a>
+            </div>
+            {% endif %}
+    </div>
+    {% endif %}
+    {% if section.settings.banner_image_mobile != blank %}
+    <div class="collection-banner-div mobile-image" style="background-image: url('{{ section.settings.banner_image_mobile | img_url: 'master' }}');background-repeat: no-repeat;
+    background-size: cover; background-position: center;">
+        {% if section.settings.col_link_text != blank %}
+            <div class="queen-promise-button-wrap ">
+                <a class="queen-promise-cta border-rounded mobile-display-below-full fresh-drops" href="{{section.settings.col_link}}">
+                {{section.settings.col_link_text}}
+              </a>
+            </div>
+            {% endif %}
+    </div>
+    {% endif %}
+    <div class="page-width collection-list new">
+<ul class="grid grid--uniform collection-list-collections">
+      {% for block in section.blocks limit: section.blocks.size %}
+{%- comment -%} Wholesale_Club_Product_Visibility_For_Loop Start {%- endcomment -%}
+{%- capture hide_resource -%}{% render "wc_product_visibility", resource: block %}{%- endcapture -%}
+{%- if hide_resource == "true" -%}
+  {% continue %}
+{%- endif -%}
+{%- comment -%} Wholesale_Club_Product_Visibility_For_Loop End {%- endcomment -%}
+
+        {{ product.image }}
+        <li class="grid__item {{ grid_item_width }} new-collection-item new" {{ block.shopify_attributes }}>
+          {%- assign collection = collections[block.settings.collection] -%}
+        {%- assign wholesale_collection = collections[block.settings.wholesale_collection] -%}
+          {% assign coll_description = block.settings.collection_description %}
+          {% assign coll_title = block.settings.coll_title %}
+          {% assign prod = block.settings.product %}
+          {% assign product_image = block.settings.product.featured_image %}
+          {% assign alt-img = block.settings.alt_image %}
+          {% include 'new-collection-grid-item', description: coll_description  %}
+        </li>
+      {% endfor %}
+    </ul>
+    </div>
+    
+  </div>
+
+  {% if section.blocks.size == 0 %}
+    {% include 'no-blocks' %}
+  {% endif %}
+  {% comment %} </div> {% endcomment %}
+</div>
+
+
+
+{% schema %}
+{
+  "name": {
+    "da": "New Kollektionsliste",
+    "de": "New Kategorien-Liste",
+    "en": "New Collection list",
+    "es": "New Lista de colecciones",
+    "fi": "New Kokoelmaluettelo",
+    "fr": "New Liste des collections",
+    "hi": "New कलेक्शन सूची",
+    "it": "New Elenco delle collezioni",
+    "ja": "New コレクションリスト",
+    "ko": "New 컬렉션 목록",
+    "ms": "New Senarai koleksi",
+    "nb": "New Samlingsliste",
+    "nl": "New Collectielijst",
+    "pt-BR": "New Lista de coleções",
+    "pt-PT": "New Lista de coleções",
+    "sv": "New Kollektionslista",
+    "th": "New รายการคอลเลกชัน",
+    "zh-CN": "New 产品系列列表",
+    "zh-TW": "New 商品系列清單"
+  },
+  "class": "index-section",
+  "max_blocks": 12,
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": {
+        "da": "Overskrift",
+        "de": "Titel",
+        "en": "Heading",
+        "es": "Título",
+        "fi": "Otsake",
+        "fr": "En-tête",
+        "hi": "शीर्षक",
+        "it": "Heading",
+        "ja": "見出し",
+        "ko": "제목",
+        "ms": "Tajuk",
+        "nb": "Overskrift",
+        "nl": "Kop",
+        "pt-BR": "Título",
+        "pt-PT": "Título",
+        "sv": "Rubrik",
+        "th": "ส่วนหัว",
+        "zh-CN": "标题",
+        "zh-TW": "標題"
+      },
+      "default": {
+        "da": "New Kollektionsliste",
+        "de": "Kategorien-Liste",
+        "en": "Collection list",
+        "es": "Lista de colecciones",
+        "fi": "Kokoelmaluettelo",
+        "fr": "Page de liste des collections",
+        "hi": "कलेक्शन सूची",
+        "it": "Elenco delle collezioni",
+        "ja": "コレクションリスト",
+        "ko": "컬렉션 목록",
+        "ms": "Senarai koleksi",
+        "nb": "Samlingsliste",
+        "nl": "Collectielijst",
+        "pt-BR": "Lista de coleções",
+        "pt-PT": "Lista de coleções",
+        "sv": "Kollektionslista",
+        "th": "รายการคอลเลกชัน",
+        "zh-CN": "产品系列列表",
+        "zh-TW": "商品系列清單"
+      }
+    },
+    {
+      "type": "range",
+      "id": "grid",
+      "label": {
+        "da": "Kollektioner pr. række",
+        "de": "Kategorien per Reihe",
+        "en": "Collections per row",
+        "es": "Colecciones por fila",
+        "fi": "Kokoelmia per rivi",
+        "fr": "Collections par rangée",
+        "hi": "प्रति पंक्ति कलेक्शन",
+        "it": "Collezioni per riga",
+        "ja": "行あたりのコレクション数",
+        "ko": "열 별 컬렉션",
+        "ms": "Koleksi setiap baris",
+        "nb": "Samlinger per rad",
+        "nl": "Collecties per rij",
+        "pt-BR": "Coleções por linha",
+        "pt-PT": "Coleções por linha",
+        "sv": "Produktserier per rad",
+        "th": "คอลเลกชันต่อแถว",
+        "zh-CN": "每行产品系列数",
+        "zh-TW": "每列商品系列數"
+      },
+      "min": 2,
+      "max": 5,
+      "step": 1,
+      "default": 3
+    },
+    {
+    "type": "image_picker",
+    "id": "icon",
+    "label": "Icon"
+    },
+{
+"type": "text",
+"id": "sub-title",
+"label": "Sub Heading",
+"default": "Our"
+},
+{
+"type": "text",
+"id": "desc",
+"label": "Description",
+"default": "CBD products simply designed to elevate you daily."
+},
+{
+"id":"col_link",
+"type":"url",
+"label":"Link"
+},
+{
+"id":"col_link_text",
+"type":"text",
+"label":"Link text",
+"default":"Shop All"
+},
+{
+    "type": "image_picker",
+    "id": "banner_image",
+    "label": "Banner Image",
+    "info":"Main Desktop Image: Ideally in a 3:5 aspect ratio"
+    },
+    {
+    "type": "image_picker",
+    "info":"Mobile Image: Ideally in a 4:3 aspect ratio",
+    "id": "banner_image_mobile",
+    "label": "Mobile Banner Image"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "featured_collection",
+      "name": {
+        "da": "Samling",
+        "de": "Kategorie",
+        "en": "Collection",
+        "es": "Colección",
+        "fi": "Kokoelma",
+        "fr": "Collection",
+        "hi": "कलेक्शन",
+        "it": "Collezione",
+        "ja": "コレクション",
+        "ko": "컬렉션",
+        "ms": "Koleksi",
+        "nb": "Samling",
+        "nl": "Collectie",
+        "pt-BR": "Coleção",
+        "pt-PT": "Coleção",
+        "sv": "Produktserie",
+        "th": "คอลเลกชัน",
+        "zh-CN": "收藏",
+        "zh-TW": "商品系列"
+      },
+      "settings": [
+        {
+          "label": {
+            "da": "Samling",
+            "de": "Kategorie",
+            "en": "New Collection",
+            "es": "Colección",
+            "fi": "Kokoelma",
+            "fr": "Collection",
+            "hi": "कलेक्शन",
+            "it": "Collezione",
+            "ja": "コレクション",
+            "ko": "컬렉션",
+            "ms": "Koleksi",
+            "nb": "Samling",
+            "nl": "Collectie",
+            "pt-BR": "Coleção",
+            "pt-PT": "Coleção",
+            "sv": "Produktserie",
+            "th": "คอลเลกชัน",
+            "zh-CN": "收藏",
+            "zh-TW": "商品系列"
+          },
+          "id": "collection",
+          "type": "collection"
+        },
+        {
+          "type":"collection",
+          "id":"wholesale_collection",
+          "label":"Wholesale Collection"
+        },
+        {
+          "id":"product",
+          "type": "product",
+          "label": "Poduct",
+          "info": "Select a featured product to display instead of the default collection image"
+        },
+    {
+      "type":"text",
+      "id": "collection_description",
+      "label": "Description"
+    },
+    {
+      "type":"text",
+      "id": "coll_title",
+      "label": "Alternative Collection Title"
+    },
+    {
+      "type": "image_picker",
+      "id": "alt_image",
+      "label": "Alternate Image"
+    }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": {
+        "da": "New Kollektionsliste",
+        "de": "New Kategorien-Liste",
+        "en": "New Collection list",
+        "es": "New Lista de colecciones",
+        "fi": "New Kokoelmaluettelo",
+        "fr": "New Page de liste des collections",
+        "hi": "New कलेक्शन सूची",
+        "it": "New Elenco delle collezioni",
+        "ja": "New コレクションリスト",
+        "ko": "New 컬렉션 목록",
+        "ms": "New Senarai koleksi",
+        "nb": "New Samlingsliste",
+        "nl": "New Collectielijst",
+        "pt-BR": "New Lista de coleções",
+        "pt-PT": "New Lista de coleções",
+        "sv": "New Kollektionslista",
+        "th": "New รายการคอลเลกชัน",
+        "zh-CN": "New 产品系列列表",
+        "zh-TW": "New 商品系列清單"
+      },
+      "category": {
+        "da": "Samling",
+        "de": "Kategorie",
+        "en": "Collection",
+        "es": "Colección",
+        "fi": "Kokoelma",
+        "fr": "Collection",
+        "hi": "कलेक्शन",
+        "it": "Collezione",
+        "ja": "コレクション",
+        "ko": "컬렉션",
+        "ms": "Koleksi",
+        "nb": "Samling",
+        "nl": "Collectie",
+        "pt-BR": "Coleção",
+        "pt-PT": "Coleção",
+        "sv": "Produktserie",
+        "th": "คอลเลกชัน",
+        "zh-CN": "收藏",
+        "zh-TW": "商品系列"
+      },
+      "blocks": [
+        {
+          "type": "featured_collection"
+        },
+        {
+          "type": "featured_collection"
+        },
+        {
+          "type": "featured_collection"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

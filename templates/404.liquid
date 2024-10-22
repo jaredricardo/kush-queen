@@ -1,0 +1,53 @@
+{% comment %}
+<div class="page-width">
+  <div class="empty-page-content text-center">
+    <h1>{{ 'general.404.title' | t }}</h1>
+    <p>{{ 'general.404.subtext' | t }}</p>
+    <p>
+      <a href="{{ routes.root_url }}" class="btn btn--has-icon-after">{{ 'general.404.link' | t }}{% include 'icon-arrow-right' %}</a>
+    </p>
+  </div>
+</div>
+{% endcomment %}
+<div class="page-width text-center">
+  <div class="search-max-540">
+    <h1 class="page-title title-404">Whoops!</h1>
+
+    <div class="subtitle-404-wrap">
+      Looks like this page needs some CBD.
+    </div>
+
+    <div class="press-blog-section">
+      <div class="article__grid-excerpt">
+        Any questions? Please contact us and we'll help you find what you need. Bath Bombs to GummiesRX and a good bit in between, you can count on Kush Queen for CBD desgined to elevate you daily.
+      </div>
+    </div>
+
+    <form action="{{ routes.search_url }}" method="get" role="search" class="search">
+      <div aria-live="polite" class="form-message form-message--error search-result-error-message hide" data-search-error-message>
+        <ul id="error-search-form">
+          <li>{{ 'general.search.empty_search_message' | t }}</li>
+        </ul>
+      </div>
+
+      <div class="input-group">
+        <input type="search"
+               id="SearchInput"
+               class="input-group__field search__input"
+               name="q"
+               value="{{ search.terms | escape }}"
+               placeholder="Search..."
+               aria-label="Search..."
+               >
+        <span class="input-group__btn">
+          <button id="SearchResultSubmit" class="btn search__submit" type="submit">{{ 'general.search.submit' | t }}</button>
+        </span>
+      </div>
+    </form>
+
+    <div class="text-center go-back-404">
+      <span>or </span>
+      <a href="javascript: history.go(-1)" class="go-back">Go back</a>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,276 @@
+<section class="new-science-section">
+  <div class="page-width-2">
+    <div class="grain"></div>
+    <div class="new-science-title">
+      {% render 'new-icon_leftstars' %}
+      <h2>{{ section.settings.title }}</h2>
+      {% render 'new-icon_rightstars' %}
+    </div>
+<div class='subtitle'>{{ section.settings.subtitle }}</div>
+    <div class="new-science-content">
+      <div class="column column-text">
+        <h3>{{ section.settings.left_heading }}</h3>
+        {{ section.settings.left_text }}
+      </div>
+      {% comment %}
+      <div class="column column-icon onlyDesk">
+        {% render 'new-icon_toleft' %}
+      </div>
+      <div class="column column-icon onlyMob">
+        <img src="https://cdn.shopify.com/s/files/1/0124/3594/7616/files/todwon-removebg-preview.png?v=1696336510">
+      </div>
+      {% endcomment %}
+      <div class="column column-image">
+        <img src="{{ section.settings.center_image | img_url:'master' }}" alt="Science Image" style="max-width: 315px;">
+        {{ section.settings.center_text }}
+      </div>
+      {% comment %}
+      <div class="column column-icon onlyDesk">
+        {% render 'new-icon_toright' %}
+      </div>
+      <div class="column column-icon onlyMob">
+        <img src="https://cdn.shopify.com/s/files/1/0124/3594/7616/files/todwon-removebg-preview.png?v=1696336510">
+      </div>
+      {% endcomment %}
+      <div class="column column-text">
+        <h3>{{ section.settings.right_heading }}</h3>
+        {{ section.settings.right_text }}
+      </div>
+    </div>
+  </div>
+</section>
+
+{% stylesheet %}
+  .subtitle p{
+    text-align: center;
+    color: #FFF; 
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; 
+    margin-bottom: 10rem;
+    margin-inline:auto;
+    max-width:800px;
+  }
+  
+  .grain {
+    position: absolute;
+    top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      pointer-event: none;
+      z-index: 300;
+      transform: translateZ(0);
+  }
+  .grain:before {
+    content: "";
+    top: -10rem;
+    left: -10rem;
+    width: calc(100% + 20rem);
+    height: calc(100% + 20rem);
+    z-index: 9999;
+    position: fixed;
+    background-image: url(https://cdn.shopify.com/s/files/1/0124/3594/7616/files/grain-noise.png?v=1696334044);
+    opacity: 0.15;
+    pointer-events: none;
+    -webkit-animation: noise 1s steps(2) infinite;
+    animation: noise 1s steps(2) infinite;
+  }
+  @-webkit-keyframes noise {
+    to {
+      transform: translate3d(-7rem, 0, 0);
+    }
+  }
+  @keyframes noise {
+    0% {
+      transform: translate3d(0, 9rem, 0);
+    }
+    10% {
+      transform: translate3d(-1rem, -4rem, 0);
+    }
+    20% {
+      transform: translate3d(-8rem, 2rem, 0);
+    }
+    30% {
+      transform: translate3d(9rem, -9rem, 0);
+    }
+    40% {
+      transform: translate3d(-2rem, 7rem, 0);
+    }
+    50% {
+      transform: translate3d(-9rem, -4rem, 0);
+    }
+    60% {
+      transform: translate3d(2rem, 6rem, 0);
+    }
+    70% {
+      transform: translate3d(7rem, -8rem, 0);
+    }
+    80% {
+      transform: translate3d(-9rem, 1rem, 0);
+    }
+    90% {
+      transform: translate3d(6rem, -5rem, 0);
+    }
+    to {
+      transform: translate3d(-7rem, 0, 0);
+    }
+  }
+  .new-science-section {
+    background-color: black;
+    color: white !important;
+    text-align: center;
+    padding: 8rem 3rem;
+    position: relative;
+    margin-block: 6rem;
+    overflow: hidden;
+  }
+
+  .new-science-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+
+  .new-science-title h2 {
+    margin: 0 1rem;
+    color: white !important;
+    font-family: Room205;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+  }
+
+  .new-science-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    align-items: start;
+  }
+  .new-science-content h3,
+  .new-science-content p{
+    color:white !important;
+    text-align:center;
+  }
+  .new-science-content h3{
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 2.25px;
+    opacity: 0.9;
+    padding-bottom: 24px;
+  }
+  .new-science-content p{
+    font-size: 18px;
+    margin-bottom: 0;
+    opacity: 0.75;
+  }
+  .column-icon {
+    display: flex;
+    justify-content: center;
+  }
+
+  .column-image img {
+    max-width: 315px;
+    margin-bottom:4rem;
+  }
+  @media(min-width:768px){
+    .column-image{
+      margin-top:-3rem;
+    }
+  }
+  @media (max-width: 768px) {
+    .new-science-content {
+      grid-template-columns: 1fr;
+      gap: 5rem;
+    }
+    .new-science-title h2{
+      font-size: 28px;
+    }
+    .new-science-content h3{
+      font-size: 18px;
+      padding-bottom:0px;
+    }
+    .new-science-content p{
+      font-size: 12px;
+    }
+    .column-icon img{
+      height:110px;
+    }
+    .column-image img {
+      width:200px;
+      margin-bottom:1rem;
+    }
+    .subtitle p{
+      font-size: 15px;
+      margin-bottom:6rem;
+    }
+    .subtitle{
+      margin-bottom:5rem;
+    }
+  }
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}
+
+{% schema %}
+{
+  "name": "New Science",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title",
+      "default": "TITLE"
+    },
+    {
+      "type": "richtext",
+      "id": "subtitle",
+      "label": "SubTitle",
+      "default": "<p>SUBTITLE</p>"
+    },    
+    {
+      "type": "text",
+      "id": "left_heading",
+      "label": "Left Column Heading"
+    },
+    {
+      "type": "richtext",
+      "id": "left_text",
+      "label": "Left Column Text"
+    },
+    {
+      "type": "image_picker",
+      "id": "center_image",
+      "label": "Center Image"
+    },
+    {
+      "type": "richtext",
+      "id": "center_text",
+      "label": "Text below Center Image"
+    },
+    {
+      "type": "text",
+      "id": "right_heading",
+      "label": "Right Column Heading"
+    },
+    {
+      "type": "richtext",
+      "id": "right_text",
+      "label": "Right Column Text"
+    }
+  ],
+  "presets": [
+    {
+      "name": "New Science",
+      "category": "Custom"
+    }
+  ]
+}
+{% endschema %}

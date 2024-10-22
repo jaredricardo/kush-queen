@@ -1,0 +1,245 @@
+{% assign blocks_with_images_count = 0 %}
+{% for block in section.blocks %}
+  {% if block.settings.block_image != blank %}
+    {% assign blocks_with_images_count = blocks_with_images_count | plus: 1 %}
+  {% endif %}
+{% endfor %}
+
+<section style="background-image: url({{ section.settings.bg_image | img_url: 'master' }});" class="two-col-container">
+  <div class="page-width-2">
+    <div class="two-column-section">
+      <div class="left-column">
+        <h2>{{ section.settings.left_heading }}</h2>
+        {{ section.settings.left_text }}
+      </div>
+      <div class="right-column">
+        <div class="table" style="grid-template-columns: repeat({{ blocks_with_images_count }}, 1fr);">
+          {% for block in section.blocks %}
+            {% if block.settings.block_image != blank %}
+              <div class="table-column">
+                <div class="table_top">
+                  <div class="table-image">
+                    <img src="{{ block.settings.block_image | img_url: 'master' }}" alt="">
+                  </div>
+                  <div>{{ block.settings.block_text_top }}</div>
+                </div>
+                <div class="table_cell">
+                  <div>{{ block.settings.block_text_1 }}</div>
+                </div>
+                <div class="table_cell">
+                  <div>{{ block.settings.block_text_2 }}</div>
+                </div>
+                <div class="table_cell">
+                  <div>{{ block.settings.block_text_3 }}</div>
+                </div>
+              </div>
+            {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  .two-col-container{
+    margin-top: -6rem;
+    position:relative;
+    padding: 6rem 3rem;
+    margin-bottom: 6rem;
+    background-repeat: no-repeat;
+    background-size:cover;
+  }
+   .two-col-container .page-width-2{
+     padding-top:40px;
+   }
+    .left-column h2 {
+      color: {{ section.settings.left_heading_color }};
+      font-family: Room205;
+      font-size: 50px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      text-transform: capitalize;
+    }
+
+    .left-column p,
+    .left-column p strong{
+      color: {{ section.settings.left_text_color }};
+      font-size: 20px;
+    }
+  .two-column-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3.2rem;
+    align-items: center;
+    justify-items: center;
+  }
+
+  .left-column {
+    /* Styles for the left column */
+  }
+
+  .right-column .table {
+    display: grid;
+    background: #fff;
+  }
+
+  .table-column {
+    display: grid;
+    grid-template-rows: auto 1fr 1fr 1fr;
+    text-align:center;
+  }
+  .table-column:not(:last-child) {
+    border-right: 1px solid #A09343;
+  }
+  .table-column p{
+    margin-bottom:0;
+  }
+  .table-column:first-child {
+    border-left: none;
+  }
+
+  .table-column:last-child {
+    border-right: none;
+  }
+
+  .table-image img {
+    width: 100%;
+    max-height: 100px;
+    object-fit: contain;
+  }
+  .table_top{
+    display:grid;
+    gap:1rem;
+    /*height:236px;*/
+    height:170px;
+    border-bottom: 1px solid #A09343;
+  }
+  .table_cell{
+    padding: 3rem 1rem;
+    display: grid;
+    align-items: center;
+  }
+  .table_cell:not(:last-child) {
+    border-bottom: 1px solid #A09343;
+  }
+
+
+  @media (max-width: 768px) {
+    .two-col-container{
+      {% if  section.settings.bg_image_mobile %}
+      background-image: url({{ section.settings.bg_image_mobile | img_url: 'master' }}) !important;
+        {% endif %}
+       padding: 6rem .5rem;
+       background-repeat: no-repeat;
+    }
+    .two-column-section {
+      grid-template-columns: 1fr;
+      gap:3rem;
+    }
+    .left-column{
+      text-align: center;
+    }
+    .left-column h2{
+      font-size: 28px;
+    }
+    .left-column p{
+     font-size: 15px;
+    }
+    .table_top{
+      height:150px;
+    }
+    .table-image img{
+      min-height:85px;
+    }
+    .table-column p{
+      font-size:12px;
+    }
+    .table_cell{
+      padding: 25px 10px;
+      line-height: 18px;
+    }
+  }
+</style>
+
+{% schema %}
+{
+  "name": "Two Column Section",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "bg_image",
+      "label": "Background Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "bg_image_mobile",
+      "label": "Background Image for Mobile"
+    },
+    {
+      "type": "text",
+      "id": "left_heading",
+      "label": "Left Column Heading",
+      "default": "Your Heading Here"
+    },
+    {
+      "type": "color",
+      "id": "left_heading_color",
+      "label": "Left Column Heading Color",
+      "default": "#FFFFFF"
+    },
+    {
+      "type": "richtext",
+      "id": "left_text",
+      "label": "Left Column Text",
+      "default": "<p>Your text here</p>"
+    },
+    {
+      "type": "color",
+      "id": "left_text_color",
+      "label": "Left Column Text Color",
+      "default": "#FFFFFF"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "table_block",
+      "name": "Table Block",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "block_image",
+          "label": "Upload Image"
+        },
+        {
+          "type": "richtext",
+          "id": "block_text_top",
+          "label": "Text Below Image"
+        },
+        {
+          "type": "richtext",
+          "id": "block_text_1",
+          "label": "Text 1"
+        },
+        {
+          "type": "richtext",
+          "id": "block_text_2",
+          "label": "Text 2"
+        },
+        {
+          "type": "richtext",
+          "id": "block_text_3",
+          "label": "Text 3"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Two Column Section",
+      "category": "Custom"
+    }
+  ]
+}
+{% endschema %}

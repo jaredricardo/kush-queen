@@ -1,0 +1,255 @@
+{% comment %}V3.0.2 - October 2019
+This liquid snippet is used by Discount Ninja, an app from Limoni Apps
+Do not modify or remove this snippet, this snippet can be overwritten when the app is upgraded
+{% endcomment %}
+
+<script>
+  {%- comment -%}Initialize object{%- endcomment -%}
+  window.discountNinjaContext = { Shop: "{{shop.permanent_domain}}", ShopCurrency: "{{shop.currency}}", PresentmentCurrency: "{{cart.currency.iso_code}}", EnabledCurrencies: [], MoneyFormat: "{{shop.money_with_currency_format | replace: '"', "'"}}", Customer: null, Cart: {{ cart | json }}, Product: null, CollectionProducts: [], ProductVariants: null, Labels: { From: "{{ 'discount_ninja.from' | t }}", Here: "{{ 'discount_ninja.here' | t }}", Free: "{{ 'discount_ninja.free' | t }}", SoldOut: "{{ 'discount_ninja.sold_out' | t }}" }, Settings: {% include 'limoniapps-discountninja-context-settings' %}, Flags: {% include 'limoniapps-discountninja-context-flags' %} };
+
+  {%- comment -%}Add details about enabled currencies{%- endcomment -%}
+  {% for currency in shop.enabled_currencies %}
+{%- comment -%} Wholesale_Club_Product_Visibility_For_Loop Start {%- endcomment -%}
+{%- capture hide_resource -%}{% render "wc_product_visibility", resource: currency %}{%- endcapture -%}
+{%- if hide_resource == "true" -%}
+  {% continue %}
+{%- endif -%}
+{%- comment -%} Wholesale_Club_Product_Visibility_For_Loop End {%- endcomment -%}
+
+  window.discountNinjaContext.EnabledCurrencies.push({ Name: "{{currency.name}}", IsoCode: "{{currency.iso_code}}", Symbol: "{{currency.symbol}}" });
+  {% endfor %}
+
+  {%- comment -%}If we are on a collection page, get the product details{%- endcomment -%}
+  {%- if collection -%}
+  {% for product in collection.products limit: 200 %}
+{%- comment %}<locksmith:9f60>{% endcomment -%}
+  {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: product, subject_parent: collection, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
+{%- comment %}</locksmith:9f60>{% endcomment -%}
+{%- comment -%} Wholesale_Club_Product_Visibility_For_Loop Start {%- endcomment -%}
+{%- capture hide_resource -%}{% render "wc_product_visibility", resource: product %}{%- endcapture -%}
+{%- if hide_resource == "true" -%}
+  {% continue %}
+{%- endif -%}
+{%- comment -%} Wholesale_Club_Product_Visibility_For_Loop End {%- endcomment -%}
+
+{% comment %} Wholesale_Club_Product_Prices Start {% endcomment %}
+{% assign base_product = product %}
+{% assign base_variant = product.selected_or_first_available_variant %}
+
+{% if shop.metafields.sawholesale['base_price'] == blank %}
+  {% assign base_price = 'compare_at_price' %}
+{% else %}
+  {% assign base_price = shop.metafields.sawholesale['base_price'] %}
+{% endif %}
+
+{% assign saw_discount = 0 %}{% assign saw_has_discount = false %}
+
+{% if customer.tags != blank %}
+  {% for mf in base_product.metafields.sawholesale %}
+{%- comment -%} Wholesale_Club_Product_Visibility_For_Loop Start {%- endcomment -%}
+{%- capture hide_resource -%}{% render "wc_product_visibility", resource: mf %}{%- endcapture -%}
+{%- if hide_resource == "true" -%}
+  {% continue %}
+{%- endif -%}
+{%- comment -%} Wholesale_Club_Product_Visibility_For_Loop End {%- endcomment -%}
+
+    {% capture product_customer_tag %}{{ mf | first | replace: 'discount_', '' }}{% endcapture %}
+    {% if customer.tags contains product_customer_tag %}
+      {% assign saw_has_discount = true %}
+      {% assign discount_key = product_customer_tag | prepend: 'discount_' %}
+      {% assign price_key = product_customer_tag | prepend: 'price_' %}
+      {% assign saw_discount = base_product.metafields.sawholesale[discount_key] | divided_by: 100.0 %}
+    {% endif %}
+  {% endfor %}
+{% endif %}
+
+{% assign saw_discount = 1 | minus: saw_discount %}
+
+{% if base_price == 'price' or base_variant.compare_at_price == blank  or base_variant.compare_at_price == 0 or base_variant.compare_at_price < base_variant.price %}
+  {% assign saw_variant_compare_at_price = base_variant.price %}
+{% else %}
+  {% assign saw_variant_compare_at_price = base_variant.compare_at_price %}
+{% endif %}
+
+{% assign cpe = shop.metafields.sawholesale['cpe'] | default: "true" %}
+{% if base_variant.metafields.sawholesale[price_key] != blank and cpe == "true" %}
+  {% assign saw_variant_price = base_variant.metafields.sawholesale[price_key] %}
+{% else %}
+  {% assign saw_variant_price = saw_variant_compare_at_price | times: saw_discount %}
+{% endif %}
+
+{% if saw_has_discount == false or saw_variant_price >= saw_variant_compare_at_price %}
+  {% assign WCProduct_Price = base_product.price %}
+  {% assign WCProduct_ComparePrice = base_product.compare_at_price %}
+  {% assign WCProduct_PriceMin = base_product.price_min %}
+  {% assign WCProduct_ComparePriceMin = base_product.compare_at_price_min %}
+  {% assign WCProduct_PriceMax = base_product.price_max %}
+  {% assign WCProduct_ComparePriceMax = base_product.compare_at_price_max %}
+  {% assign WCProduct_VariantPrice = base_variant.price %}
+  {% assign WCProduct_VariantComparePrice = base_variant.compare_at_price %}
+{% else %}   
+  {% assign WCProduct_Price = saw_variant_price %}
+  {% assign WCProduct_PriceMin = base_product.price_min | times: saw_discount %}
+  {% assign WCProduct_PriceMax = base_product.price_max | times: saw_discount %}
+  {% assign WCProduct_ComparePrice = saw_variant_compare_at_price %}
+  {% if base_product.compare_at_price_min != 0 %}{% assign WCProduct_ComparePriceMin = base_product.compare_at_price_min %}{% else %}{% assign WCProduct_ComparePriceMin = base_product.price_min %}{% endif %}
+  {% if base_product.compare_at_price_max != 0 %}{% assign WCProduct_ComparePriceMax = base_product.compare_at_price_max %}{% else %}{% assign WCProduct_ComparePriceMax = base_product.price_max %}{% endif %}
+  {% assign WCProduct_VariantPrice = saw_variant_price %}
+  {% assign WCProduct_VariantComparePrice = saw_variant_compare_at_price %}
+{% endif %}
+{% comment %} Wholesale_Club_Product_Prices End {% endcomment %}
+
+  {%- assign limoniapps-discountninja-collections = "" -%}{%- for collection in product.collections -%}{%- comment %}<locksmith:2f03>{% endcomment -%}{%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: collection, subject_parent: product, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}{%- comment %}</locksmith:2f03>{% endcomment -%}{%- assign limoniapps-discountninja-collections = limoniapps-discountninja-collections | append: collection.handle | append: "," -%}{%- endfor -%}
+{%- comment -%} Wholesale_Club_Product_Visibility_For_Loop Start {%- endcomment -%}
+{%- capture hide_resource -%}{% render "wc_product_visibility", resource: collection %}{%- endcapture -%}
+{%- if hide_resource == "true" -%}
+  {% continue %}
+{%- endif -%}
+{%- comment -%} Wholesale_Club_Product_Visibility_For_Loop End {%- endcomment -%}
+
+  window.discountNinjaContext.CollectionProducts.push({ Collections: "{{ limoniapps-discountninja-collections }}", Available: {{ product.available }}, Handle: "{{ product.handle }}", Price: {{ WCProduct_Price }}, CompareAtPrice: {{ WCProduct_ComparePriceMax }}, PriceVaries: {{ product.price_varies }}, PriceMin: {{ WCProduct_PriceMin }} });
+  {%- endfor -%}
+  {%- endif -%}
+
+  {%- comment -%}Add customer details if logged in{%- endcomment -%}
+  {%- if customer -%}
+  window.discountNinjaContext.Customer = { Email: "{{ customer.email }}", Tags: {{ customer.tags | json }}, FirstName: "{{ customer.first_name }}", LastName: "{{ customer.last_name }}" };
+  {%- endif -%}
+
+  {%- comment -%}If we are on a product page, get the first variant if available{%- endcomment -%}
+  {%- if product -%}
+  {%- if product.selected_or_first_available_variant.id -%}
+  {%- assign variantid = product.selected_or_first_available_variant.id -%}
+  {%- else -%}
+  {%- assign variantid = 'null' -%}
+  {%- endif -%}
+
+  {%- comment -%}If we are on a product page, add the id and first or selected variantid{%- endcomment -%}
+  window.discountNinjaContext.Product = {};
+  window.discountNinjaContext.Product.Id = {{ product.id }};
+  window.discountNinjaContext.Product.VariantId = {{ variantid }};
+
+  {%- comment -%}If we are on a product page, build a list of collection handles of the collections the product belongs to{%- endcomment -%}
+  {%- assign limoniapps_discountninja_collections = "" -%}
+  {%- for collection in product.collections -%}{%- comment %}<locksmith:3d50>{% endcomment -%}{%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: collection, subject_parent: product, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}{%- comment %}</locksmith:3d50>{% endcomment -%}  {%- assign limoniapps_discountninja_collections = limoniapps_discountninja_collections | append: collection.handle | append: "," -%} {%- endfor -%}
+{%- comment -%} Wholesale_Club_Product_Visibility_For_Loop Start {%- endcomment -%}
+{%- capture hide_resource -%}{% render "wc_product_visibility", resource: collection %}{%- endcapture -%}
+{%- if hide_resource == "true" -%}
+  {% continue %}
+{%- endif -%}
+{%- comment -%} Wholesale_Club_Product_Visibility_For_Loop End {%- endcomment -%}
+
+
+  {%- comment -%}If we are on a product page, add the collection handles and the featured image{%- endcomment -%}
+  window.discountNinjaContext.Product.Collections = '{{ limoniapps_discountninja_collections }}';
+  window.discountNinjaContext.Product.FeaturedImage = '{{ product.featured_image | img_url: '500x' }}';
+
+  {%- comment -%}If we are on a product page, initialize the list of product variants{%- endcomment -%}
+  window.discountNinjaContext.ProductVariants = [];
+
+  {%- comment -%}Loop through each variant of the product (maximum 200) {%- endcomment -%}
+  {%- for variant in product.variants limit: 200 -%}
+{%- comment -%} Wholesale_Club_Product_Visibility_For_Loop Start {%- endcomment -%}
+{%- capture hide_resource -%}{% render "wc_product_visibility", resource: variant %}{%- endcapture -%}
+{%- if hide_resource == "true" -%}
+  {% continue %}
+{%- endif -%}
+{%- comment -%} Wholesale_Club_Product_Visibility_For_Loop End {%- endcomment -%}
+
+{% comment %} Wholesale_Club_Product_Prices Start {% endcomment %}
+{% assign base_product = product %}
+{% assign base_variant = variant %}
+
+{% if shop.metafields.sawholesale['base_price'] == blank %}
+  {% assign base_price = 'compare_at_price' %}
+{% else %}
+  {% assign base_price = shop.metafields.sawholesale['base_price'] %}
+{% endif %}
+
+{% assign saw_discount = 0 %}{% assign saw_has_discount = false %}
+
+{% if customer.tags != blank %}
+  {% for mf in base_product.metafields.sawholesale %}
+{%- comment -%} Wholesale_Club_Product_Visibility_For_Loop Start {%- endcomment -%}
+{%- capture hide_resource -%}{% render "wc_product_visibility", resource: mf %}{%- endcapture -%}
+{%- if hide_resource == "true" -%}
+  {% continue %}
+{%- endif -%}
+{%- comment -%} Wholesale_Club_Product_Visibility_For_Loop End {%- endcomment -%}
+
+    {% capture product_customer_tag %}{{ mf | first | replace: 'discount_', '' }}{% endcapture %}
+    {% if customer.tags contains product_customer_tag %}
+      {% assign saw_has_discount = true %}
+      {% assign discount_key = product_customer_tag | prepend: 'discount_' %}
+      {% assign price_key = product_customer_tag | prepend: 'price_' %}
+      {% assign saw_discount = base_product.metafields.sawholesale[discount_key] | divided_by: 100.0 %}
+    {% endif %}
+  {% endfor %}
+{% endif %}
+
+{% assign saw_discount = 1 | minus: saw_discount %}
+
+{% if base_price == 'price' or base_variant.compare_at_price == blank  or base_variant.compare_at_price == 0 or base_variant.compare_at_price < base_variant.price %}
+  {% assign saw_variant_compare_at_price = base_variant.price %}
+{% else %}
+  {% assign saw_variant_compare_at_price = base_variant.compare_at_price %}
+{% endif %}
+
+{% assign cpe = shop.metafields.sawholesale['cpe'] | default: "true" %}
+{% if base_variant.metafields.sawholesale[price_key] != blank and cpe == "true" %}
+  {% assign saw_variant_price = base_variant.metafields.sawholesale[price_key] %}
+{% else %}
+  {% assign saw_variant_price = saw_variant_compare_at_price | times: saw_discount %}
+{% endif %}
+
+{% if saw_has_discount == false or saw_variant_price >= saw_variant_compare_at_price %}
+  {% assign WCProduct_Price = base_product.price %}
+  {% assign WCProduct_ComparePrice = base_product.compare_at_price %}
+  {% assign WCProduct_PriceMin = base_product.price_min %}
+  {% assign WCProduct_ComparePriceMin = base_product.compare_at_price_min %}
+  {% assign WCProduct_PriceMax = base_product.price_max %}
+  {% assign WCProduct_ComparePriceMax = base_product.compare_at_price_max %}
+  {% assign WCProduct_VariantPrice = base_variant.price %}
+  {% assign WCProduct_VariantComparePrice = base_variant.compare_at_price %}
+{% else %}   
+  {% assign WCProduct_Price = saw_variant_price %}
+  {% assign WCProduct_PriceMin = base_product.price_min | times: saw_discount %}
+  {% assign WCProduct_PriceMax = base_product.price_max | times: saw_discount %}
+  {% assign WCProduct_ComparePrice = saw_variant_compare_at_price %}
+  {% if base_product.compare_at_price_min != 0 %}{% assign WCProduct_ComparePriceMin = base_product.compare_at_price_min %}{% else %}{% assign WCProduct_ComparePriceMin = base_product.price_min %}{% endif %}
+  {% if base_product.compare_at_price_max != 0 %}{% assign WCProduct_ComparePriceMax = base_product.compare_at_price_max %}{% else %}{% assign WCProduct_ComparePriceMax = base_product.price_max %}{% endif %}
+  {% assign WCProduct_VariantPrice = saw_variant_price %}
+  {% assign WCProduct_VariantComparePrice = saw_variant_compare_at_price %}
+{% endif %}
+{% comment %} Wholesale_Club_Product_Prices End {% endcomment %}
+
+  {%- comment -%}Add inventory quantity if it is tracked{%- endcomment -%}
+  {%- assign inventory_quantity = variant.inventory_quantity -%}
+  {%- if inventory_quantity == nil or inventory_quantity <= 0 -%}
+              {%- assign inventory_quantity_below_zero = 1 -%}
+          {%- else -%}
+              {%- assign inventory_quantity_below_zero = 0 -%}
+          {%- endif -%}
+          {%- if variant.inventory_management and variant.inventory_policy == 'deny' -%}
+              {%- assign inventory_quantity_apply = 1 -%}
+          {%- else -%}
+              {%- assign inventory_quantity_apply = 0 -%}
+          {%- endif -%}
+          {%- if inventory_quantity_below_zero == 1 and inventory_quantity_apply == 0 -%}
+              {%- assign inventory_quantity = 'null' -%}
+          {%- endif -%}      
+       
+          {%- comment -%}Get price and compare at price of the variant{%- endcomment -%}
+          {%- assign variant_price = WCProduct_VariantPrice -%}
+          {%- assign compare_at_or_product_price = WCProduct_VariantComparePrice -%}   
+      
+          {%- comment -%}If compare at price if not available, default to price{%- endcomment -%}
+          {%- if compare_at_or_product_price == nil or compare_at_or_product_price < variant_price -%}
+              {%- assign compare_at_or_product_price = variant_price -%}
+          {%- endif -%}
+      
+          {%- comment -%}Add to array{%- endcomment -%}
+          window.discountNinjaContext.ProductVariants.push({ VariantId: {{variant.id}}, Price: {{variant_price}}, CompareAtPrice: {{compare_at_or_product_price}}, Inventory: {{inventory_quantity}} });                                                               
+        {%- endfor -%}
+  {%- endif -%}
+</script>

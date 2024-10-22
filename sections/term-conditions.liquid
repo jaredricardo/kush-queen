@@ -1,0 +1,55 @@
+<section class="team-and-conditions-section">
+  <div class="page-width">
+    <div class="team-and-conditions-title text-center"> 
+      
+    </div>
+    <div class="team-conditions-contant">
+      {% for block in section.blocks %}
+{%- comment -%} Wholesale_Club_Product_Visibility_For_Loop Start {%- endcomment -%}
+{%- capture hide_resource -%}{% render "wc_product_visibility", resource: block %}{%- endcapture -%}
+{%- if hide_resource == "true" -%}
+  {% continue %}
+{%- endif -%}
+{%- comment -%} Wholesale_Club_Product_Visibility_For_Loop End {%- endcomment -%}
+
+      <div class="team-conditions-info">
+       {% if block.settings.sec_heading != "" %} <h2>{{ block.settings.sec_heading }}</h2> {% endif %}
+        <p>{{ block.settings.large_text }}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+{% schema %}
+  {
+  "name": "Team Conditions Section",
+  "settings": [
+   {
+    "id": "team-condition_title",
+    "type": "text",
+    "label": "Title"			
+   }
+
+ ],
+    "blocks": [
+    {
+    "type": "select",
+    "name": "team Content",
+    "settings": [
+    {
+    "id": "sec_heading",
+    "type": "text",
+    "label": "Title"
+    },
+    {
+    "id": "large_text",
+    "type": "html",
+    "label": "Text"          
+    }
+   ]   
+  }
+ ]
+}
+{% endschema %}
+

@@ -1,0 +1,480 @@
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.about {
+
+}
+.meet-founder {
+
+}
+.meet-founder-inner {
+
+}
+.founder-pic {
+	position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  	float: left;
+    width: 100%;
+  	padding: 140px 0px;
+}
+.founder-pic-info {
+    float: right;
+    width: 50%;
+    position: relative;
+}
+.founder-pic-info h6 {
+	font-size: 15px;
+    line-height: 18px;
+    font-weight: 600;
+  	color:#fff;
+  	position:relative;
+  	padding: 5px 0px 0px 10px;
+  	margin-bottom:60px;
+}
+.founder-pic-info h6::before {
+	content:'';
+  	height:45px;
+  	width:1px;
+ 	display:block;
+  	background:#fff;
+  	position:absolute;
+  	left:0;
+  	top:0;
+}
+.founder-pic-info h1 {
+	font-size: 77px;
+    line-height: 80px;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 10px;
+  	display:block;
+}
+.founder-info h1 {
+	font-size: 28px;
+    line-height: 30px;
+    font-weight: 700;
+    color: #222;
+    letter-spacing: 2px;
+  	display:none;
+}
+.founder-info {
+    margin: 30px 0px;
+    clear: both;
+}
+.founder-info h2 {
+	color: #222222;
+  	text-transform:capitalize;
+  	font-weight: 600;
+  	font-size:28px;
+  	letter-spacing:0px;
+  	display: inline-block;
+    clear: both;
+  	margin: 30px 0px 40px 0px;
+}
+.founder-info p {
+	color: #222222;
+    font-size: 15px;
+  	font-weight: 400;
+  	margin-bottom:24px;
+  	line-height: 28px;
+}
+.divider {
+	border-bottom:1px solid #eeeeee;
+  	margin: 80px 0px;
+}
+.kush-cares {
+	padding:100px 0px;
+}
+.kush-cares h2 {
+	color: #222222;
+  	font-size:40px;
+  	font-weight: 600;
+  	text-transform: unset;
+  	text-align:center;
+  	margin-bottom:40px;
+}
+.kush-cares h6 {
+	font-style: italic;
+  	text-align:center;
+  	font-size:23px;
+  	color: #222222;
+  	font-weight: 600;
+  	margin-bottom:40px;
+}
+.kush-cares .kush-text {
+	color: #666666;
+    font-weight: 400;
+  	font-size: 15px;
+  	line-height: 28px;
+  	margin-bottom:24px;
+  	
+}
+.our-giving {
+	padding:0px 0px 100px 0px;
+}
+.our-giving h2 {
+	color: #666666;
+  	font-size: 34px;
+  	text-align:center;
+  	font-weight: 600;
+  	text-transform:uppercase;
+  	margin-bottom: 40px;
+  	letter-spacing:0px;
+}
+.giving-inner {
+
+}
+.giving-inner li {
+
+}
+.giving-inner li img {
+	width:100%;
+}
+.giving-slider li.slick-slide {
+    padding: 0px 15px;
+}
+.service-slider .slick-initialized .slick-slide {
+    display: block;
+    padding: 0px 15px;
+}
+.invest {
+
+}
+.invest-pic {
+	height: 482px;
+}
+.invest img {
+	max-height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.invest-title {
+	text-align:center;
+  	padding:100px 0px;
+}
+.invest-title h2 {
+	color: #222222;
+  	font-size: 40px;
+  	text-transform:unset;
+  	font-weight: 600;
+  	margin-bottom: 40px;
+  	letter-spacing:0px;
+}
+.invest-title p {
+	color: #666666;
+    font-weight: 400;
+  	line-height: 28px;
+  	font-size:15px;
+}
+.activity-partner h6 {
+	font-style: italic;
+    text-align: center;
+    font-size: 23px;
+    color: #222222;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+.activity-logo {
+    margin-bottom: 40px;
+}
+.activity-partner {
+text-align:center;
+  	margin-bottom: 40px;
+}
+.activity-logo img {
+	width:auto;
+  	margin:0 auto;
+}
+.single-logo {
+	
+}
+.single-logo img {
+	width:auto;
+  	margin:0 auto;
+}
+.investor-form {
+	padding:100px 0px;
+}
+.investor-form h2 {
+	color: #222222;
+  	font-weight: 600;
+  	font-size: 27px;
+  	text-transform:unset;
+}
+.investor-form label {
+    display: block;
+    font-weight: 400;
+    color: #666666;
+    font-size: 16px;
+  	margin-bottom:15px;
+}
+.investor-form input {
+  width:100%;
+}
+.inv-add {
+	margin-bottom:20px;
+}
+
+.add-submit {
+	text-align:center;
+}
+input.submit-btn {
+  background-color: #666666;
+  min-height: 40px;
+  color: #fff;
+    font-size: 16px;
+    line-height: 28px;
+  	max-width:120px;
+	margin:0 auto;
+}
+input.submit-btn:hover {
+	background-color: #c95813;
+    border-color: #c95813;
+    color: #fff;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+/*  */
+
+/* Queen promise css starts */
+
+.queen-promise {
+    margin-top: 30px;
+}
+.community {
+
+}
+.community-main-width {
+	max-width:1400px;
+  margin:0px auto;
+}
+
+.community-inner {
+	text-align:center;
+  	width: 66.666%;
+  	margin:0 auto;
+}
+.community-inner h2 {
+	color: #222222;
+  	font-weight: 600;
+  	font-size:28px;
+  	text-transform:unset;
+  	margin-bottom:40px;
+}
+.community-inner a {
+	font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    fill: #222222;
+    color: #222222;
+    background-color: rgba(0,0,0,0);
+    border-radius: 0px 0px 0px 0px;
+    padding: 18px 28px 18px 28px;
+  	border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    box-shadow: 0px -9px 0px 0px #f9d4bd inset;
+  	margin: 22px 0px 70px 0px;
+  	display:inline-block;
+}
+.community-inner p {
+	font-style: italic;
+  	color: #222;
+  	font-size: 16px;
+  	font-weight: 600;
+  	line-height: 28px;
+  	padding:60px 0px 100px 0px;
+}
+.community-images img {
+	width:100%;
+}
+
+
+.queen-inner-width {
+	text-align:center;
+  	width: 66.666%;
+  	margin:0 auto;
+}
+.queen-banner-img {
+	height:482px;
+}
+.queen-banner-img img {
+max-height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.queen-content {
+	margin-bottom: 100px;
+}
+
+
+.queen-info {
+
+}
+.queen-info h2 {
+	    color: #878787;
+    font-weight: 600;
+    line-height: 2.8em;
+  	font-size:27px;
+  	margin:30px 0px;
+}
+.queen-info p {
+	color: #666666;
+    font-weight: 400;
+  	font-size:16px;
+  	line-height: 28px;
+  	padding-bottom: 40px;
+}
+.queen-service {
+   display: inline-block;
+    padding-left: 35px;
+    padding-right: 20px;
+
+
+}
+.queen-service img {
+	width:auto;
+  	margin:0 auto;
+}
+.queen-banner {
+
+}
+.queen-banner-width {
+	max-width:1296px;
+  margin:0 auto;
+}
+
+.get-know {
+
+}
+.get-width {
+	text-align:center;
+  	width: 66.666%;
+  	margin:0 auto;
+}
+.get-inner {
+	padding:100px 0px;
+}
+.get-inner h2 {
+	color: #222222;
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: unset;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.get-inner p {
+	color: #666666;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28px;
+    margin-bottom: 24px;
+}
+
+
+/* Queen promise css ends */
+
+@media(max-width:1024px) {
+	.founder-pic-info h1 {
+        font-size: 44px;
+        line-height: 45px;
+        letter-spacing: 5px;
+    }
+  .founder-pic-info h6 {
+  	margin-bottom: 30px;
+  }
+  .founder-pic {
+  	padding: 120px 0px;
+  }
+  .invest-pic, .queen-banner-img {
+    height: auto;
+}
+}
+
+@media(max-width:749px) {
+  .founder-pic {
+  	padding: 100px 0px;
+  }
+  .giving-inner li {
+    padding-bottom: 40px;
+}
+  .kush-cares h2, .our-giving h2, .invest-title h2, .founder-info h1, .get-inner h2 {
+  	font-size:26px;
+  }
+  .kush-cares h6 {
+  	font-size:20px;
+  }
+  .community-inner p {
+  	    padding: 0px 0px 100px 0px;
+  }
+  .kush-cares, .invest-title, .investor-form, .get-inner {
+    padding: 50px 0px;
+}
+  .divider {
+    margin: 40px 0px;
+}
+  .kush-cares h6, .kush-cares h2, .invest-title h2, .queen-info p {
+  	margin-bottom:20px;
+  }
+  .our-giving {
+    padding: 0px 0px 50px 0px;
+}
+  .community-inner a {
+  	    margin: 22px 0px 20px 0px;
+  }
+  .community-inner p {
+    padding: 0px 0px 50px 0px;
+}
+ .queen-content {
+    margin-bottom: 50px;
+}
+  .queen-info p {
+  	padding-bottom: 20px;
+  }
+  
+}
+
+@media(max-width:640px) {
+  .founder-pic {
+  	padding: 70px 0px;
+  }
+  	.community-inner, .queen-inner-width {
+        width: 90%;
+    }
+  .queen-info h2 {
+  	line-height:30px;
+  }
+}
+@media(max-width:567px) {
+  .founder-info h1 {
+  	display:block;
+    margin:20px 0px;
+  }
+  .founder-pic-info h1 {
+  	display:none;
+  }
+  .founder-info h2 {
+  	font-size:21px;
+    margin:0px 0px 20px 0px;
+  }
+  .founder-pic {
+    margin-bottom: 30px;
+}
+  .single-logo img {
+    width: 100%;
+    margin: 0 auto;
+}
+  
+  
+}
+@media(max-width:360px) {
+.community-inner h2{
+font-size: 23px;
+}
+}

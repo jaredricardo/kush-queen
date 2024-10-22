@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Franklin:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap');
+
+@font-face {
+  font-family: Eina03;
+  src: url(Eina03-Bold.ttf) format("ttf"), url(Eina03-Bold.woff) format("woff"), url(Eina03-Bold.eot) format("eot");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Eina03;
+  src: url(Eina03-Regular.ttf) format("ttf"), url(Eina03-Regular.woff) format("woff"), url(Eina03-Regular.eot) format("eot");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Eina03;
+  src: url(Eina03-RegularItalic.ttf) format("ttf"), url(Eina03-RegularItalic.woff) format("woff"), url(Eina03-RegularItalic.eot) format("eot");
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: Eina03;
+  src: url(Eina03-SemiBold.ttf) format("ttf"), url(Eina03-SemiBold.woff) format("woff"), url(Eina03-SemiBold.eot) format("eot");
+  font-weight: 600;
+  font-style: normal;
+}
+
+/* @font-face {
+  font-family: Room205;
+  src: url(Room-205.woff) format("woff");
+  font-weight: 300;
+  font-style: normal;
+} */
+@font-face {
+  font-family: Gotham-bold;
+  src: url(Gotham-Bold.otf) format("opentype");
+  font-weight: 400;
+  font-style: bold;
+}
+
+
+@font-face {
+  font-family: Gotham;
+  src: url(Gotham.woff) format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Gotham;
+  src: url(Gotham-Light.woff) format("woff");
+  font-weight: 300;
+  font-style: light;
+}
+
+@font-face {
+  font-family: Room205;
+  src: url(Room-205.otf) format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}

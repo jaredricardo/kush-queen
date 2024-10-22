@@ -1,0 +1,21 @@
+<ul class="list--inline pagination">
+  
+    <li aria-hidden="true">
+      <button class="btn btn--tertiary btn--narrow" disabled>
+        Liquid error: This liquid context does not allow includes.
+        <span class="icon__fallback-text">Previous page</span>
+      </button>
+    </li>
+    
+  <li class="pagination__text">
+    Page  of 
+  </li>
+  
+    <li aria-hidden="true">
+      <button class="btn btn--tertiary btn--narrow" disabled>
+        Liquid error: This liquid context does not allow includes.
+        <span class="icon__fallback-text">Next page</span>
+      </button>
+    </li>
+  
+</ul>

@@ -1,0 +1,31 @@
+<style>
+.account-options{
+  display:block;
+  margin:20px auto;
+  text-align:center;
+}
+ .account-options ul{
+   margin:0px auto;
+ }
+  .account-options ul li{
+  display:block;
+  margin:20px auto;
+}
+  
+</style>
+{%  if customer %}
+  <div class="page-width">
+  <div class="grid">
+    <div class="grid__item medium-up--five-sixths medium-up--push-one-twelfth">
+      <div class="rte account-options">
+        <ul>
+          <li><a href="/account">View Orders &amp; Manage Account</a></li>
+          <li><a href="/a/account/login">Manage Subscriptions</a></li>
+          <li><a href="/account/logout">Log Out</a></li>
+        </ul>
+
+      </div>
+    </div>
+  </div>
+</div>
+{%  endif %}

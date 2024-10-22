@@ -1,0 +1,38 @@
+<div id="opal-canvas-filter" class="opal-canvas-filter left"><span tabindex="0" role="button" aria-label="Close filter" id="a11y-close-filter" class="filter-close">CLOSE</span>
+    <div class="opal-canvas-filter-wrap">
+        <section id="woocommerce_product_categories-2" class="widget woocommerce widget_product_categories">
+            <h2 class="widget-title">Product categories</h2>
+            <ul class="product-categories">
+               {% for link in linklists[section.settings.main_linklist].links %}
+
+
+              
+                {% if link.links != blank %}
+          			<li class="cat-item cat-item-61 {% if link.active %} current-cat cat-parent open{% endif %}"><a {% if link.active %}aria-current="true"{% endif %} href="{{link.url}}">{{link.title}}</a>
+                    <ul class="children" style="display: none;">
+                       {% for childlink in link.links %}
+
+
+                        <li class="cat-item cat-item-66"><a href="{{childlink.url}}">{{childlink.title}}</a></li>
+                      	{% endfor %}	  
+                    </ul>
+                    <i tabindex="0" role="button" aria-label="Toggle {{link.title}}" class="fa closed fa-chevron-down"></i>
+              </li>
+              {% else %}
+                <li class="cat-item cat-item-224"><a href="{{link.url}}">{{link.title}}</a></li>
+            {% endif %}   
+              {% endfor %}
+	
+            </ul>
+        </section>
+      {%- comment %}<section id="woocommerce_price_filter-2" class="widget woocommerce widget_price_filter">
+        <h2 class="widget-title">Filter by price</h2>
+        <ul role="none" class="accord">
+          <input id="ex2" aria-label="Price" type="text" class="span2" value="" data-slider-min="0" data-slider-max="250" data-slider-step="5" data-slider-value="[0,250]"/> 
+          <div class="priceleft colorfont">$ 0</div> <span>&nbsp;-&nbsp;</span>
+          <div class="priceright colorfont">$ 250</div>
+        </ul>
+      </section>{% endcomment -%}
+    </div>
+  	<div tabindex="0" id="last-div"></div>
+</div>

@@ -1,0 +1,87 @@
+<!-- Breadcumb -->
+<section class="site-breadcumb" role="navigation" aria-label="Breadcrumb">                
+   <div class="page-width-2">     
+          {% if template contains "product" %}
+              <h1 class="page-title">{{ product.title }}</h1>
+          {% elsif template contains "list-collections" %}
+             <h1 class="page-title">Collections</h1>
+          {% elsif template contains "collection" %}
+             <h1 class="page-title">{{ collection.title }}</h1>
+          {% elsif template contains "blog" %}
+             <h1 class="page-title">{{ request.path | split: '/' | last | split: '_' | last | replace: '-', ' ' | capitalize }}</h1>
+          {% elsif template contains "page" %}
+             <h1 class="page-title">{{ page.title }}</h1>
+          {% elsif template contains "article" %}
+              <h1 class="page-title">{{ article.title }}</h1>
+          {% elsif template contains "cart" %}
+              <h1 class="page-title">Cart</h1>
+          {% elsif template contains "404" %}
+             <h1 class="page-title">404</h1>
+          {% elsif template contains "search" %}
+            <h1 class="page-title">Search</h1>
+          {% elsif template contains "customers/login" %}
+             <h1 class="page-title">Log in</h1>
+          {% elsif template contains "customers/reset_password" %}
+             <h1 class="page-title">Reset Password</h1>
+          {% elsif template contains "customers/activate_account" %}
+              <h1 class="page-title">Activate Account</h1>
+          {% elsif template contains "customers/account" %}
+             <h1 class="page-title">My Account</h1>
+         {% elsif template contains "customers/register" %}
+             <h1 class="page-title">Register</h1>
+          {% elsif template contains "customers/addresses" %}
+             <h1 class="page-title">Your Address</h1>
+          {% elsif template contains "customers/order" %}
+             <h1 class="page-title">my order</h1>
+          {% endif %}
+       <ol>
+           <li> 
+           <a href="/"> Home </a> <!-- <span> Shop </span> -->  
+            {% if template contains "product" %}
+               {% if collection.id.size > 0 %}
+             <a href="{{ collection.url }}">{{ collection.title }} <span class="visually-hidden"> (Current Page)</span></a>
+                {% endif %}
+               <span>{{ product.title }} <span class="visually-hidden"> (Current Page)</span></span>
+            {% elsif template contains "list-collections" %}
+               <span>Collections <span class="visually-hidden"> (Current Page)</span></span>
+            {% elsif template contains "collection" %}
+            
+              <span>{{ collection.title }} <span class="visually-hidden"> (Current Page)</span></span>
+            {% elsif template contains "blog" %}
+               <span>{{ blog.title }} <span class="visually-hidden"> (Current Page)</span></span>
+              
+            {% elsif template contains "page" %}
+               <span>{{ page.title }} <span class="visually-hidden"> (Current Page)</span></span>
+            {% elsif template contains "article" %}
+               <span>{{ blog.title | link_to: blog.url }}</span>
+              <span>{{ article.title }} <span class="visually-hidden"> (Current Page)</span></span>
+            {% elsif template contains "cart" %}
+                <span>Cart <span class="visually-hidden"> (Current Page)</span></span>
+            {% elsif template contains "404" %}
+               <span>404 <span class="visually-hidden"> (Current Page)</span></span>
+            {% elsif template contains "search" %}
+              <span>Search <span class="visually-hidden"> (Current Page)</span></span>
+            {% elsif template contains "customers/login" %}
+               <span>Log in <span class="visually-hidden"> (Current Page)</span></span>
+            {% elsif template contains "customers/reset_password" %}
+               <span>Reset Password <span class="visually-hidden"> (Current Page)</span></span>
+            {% elsif template contains "customers/activate_account" %}
+                <span>Activate Account <span class="visually-hidden"> (Current Page)</span></span>
+            {% elsif template contains "customers/account" %}
+               <span>My Account <span class="visually-hidden"> (Current Page)</span></span>
+           {% elsif template contains "customers/register" %}
+               <span>Register <span class="visually-hidden"> (Current Page)</span></span>
+            {% elsif template contains "customers/addresses" %}
+               <a href="/account">account</a>
+               <span>Your Address <span class="visually-hidden"> (Current Page)</span></span>
+            {% elsif template contains "customers/order" %}
+              <a href="/account">account</a>
+               <span>my order <span class="visually-hidden"> (Current Page)</span></span>
+            {% endif %}
+           </li>                             
+       </ol>                  
+   </div>
+</section>
+<!-- /Breadcumb -->
+
+

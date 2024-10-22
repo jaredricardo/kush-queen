@@ -1,0 +1,63 @@
+<button class="visually-hidden" id="close-mob-nav">Close Menu</button>
+<ul class="top-level-menu heading-menu primary-navbar">
+
+  <form role="search" class="search-form" action="/search" method="get">
+    <div class="input-group">
+      <input type="search" aria-label="Search on the site" name="q" class="search-field form-control" placeholder="Search">
+        <button type="submit" aria-label="Search" class="search-submit">
+          <i class="ion-ios-search-strong form-search-icon"></i>
+        </button>
+    </div>
+  </form>
+  
+  <li><a href="{{shop.url}}" class="common-transition">Home</a></li>
+  {% for block in section.blocks %}
+
+  {% assign link_active_chck = shop.url | append: block.settings.link %}
+  <li class="{% if canonical_url == link_active_chck %}active{% endif %}{% case block.type %}{% when 'link-linklist' %} mega-dropdown has-submenu{% endcase %}">
+    <a class="a11y-par-properties common-transition{% if canonical_url == link_active_chck %} active{% endif %}" href=" {% if block.settings.links.size > 0 %}{{block.settings.link}}{%else%}{{block.settings.link}}{% endif %}">
+      {{block.settings.title}}
+    </a>
+     {% if block.settings.links.size > 0 %}
+       <i tabindex="0" role="button" aria-label="More {{block.settings.title}}" class="fa fa-chevron-right trigger a11y-properties"></i>
+      {% endif %}
+    {% case block.type %}
+    {% when 'link-linklist' %}
+    {% if block.settings.links.size > 0 %}
+    <div class="menu-dropdown mega-menu-dropdown style-1 top-level-drop mp-level">
+      <a class="mp-back a11y-back-button text-center" aria-label="Back" role="button" href="#"><i class="fa fa-arrow-left"></i></a>
+      {%- assign links_small = block.settings.links -%}
+      <ul class="ms-category-level second-level-menu">
+        {% for link in linklists[links_small].links %}
+
+ 
+        {%- comment %}<locksmith:d984>{% endcomment -%}
+          {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: link, subject_parent: linklists[links_small], variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
+        {%- comment %}</locksmith:d984>{% endcomment -%}
+
+ 
+        <li class="col-category level-1">
+          <a class="form-group{% if link.active %} active{% endif %}" href="{{link.url}}">
+            {{link.title}}
+          </a>
+        </li>
+        {% endfor %}
+
+      </ul>
+    </div>
+    {% endif %}
+    {% endcase %}
+  </li>
+  {% endfor %}
+
+    <li><a href="/account/login">Account & Wholesale Login</a></li>
+    <li><a href="/a/account/login">Manage Subscriptions</a></li>
+
+    {% if customer and customer.b2b? %}
+        <li>
+              <a  href="/collections/collections-whl">
+                Wholesale Exclusive
+              </a>   
+        </li>
+    {% endif %}
+</ul>

@@ -1,0 +1,478 @@
+{% comment %} Wholesale_Club_Product_Prices Start {% endcomment %}
+{% assign base_product = product %}
+{% assign base_variant = product.selected_or_first_available_variant %}
+
+<div class="product-template__container sec-space-both padding-bottom-0" id="ProductSection-{{ section.id }}" data-section-id="{{ section.id }}" data-section-type="product" data-enable-history-state="true">
+  {% comment %}
+  Get first variant, or deep linked one
+  {% endcomment %}
+  {%- assign current_variant = product.selected_or_first_available_variant -%}
+  {%- assign product_image_zoom_size = '1024x1024' -%}
+  {%- assign product_image_scale = '2' -%}
+
+
+  <section class="product-single">
+    
+
+    
+    
+    <div class="page-width-2">
+      <div class="grid">
+        
+        
+
+        
+        
+        
+        <div class="grid__item medium-up--one-half shopleft">
+          <div class="prod-single-slider">
+            <div class="right prod-slider single-product-image" style="{% if product.images.size == 1 %} width:100%;{% endif %}">
+
+              
+              
+              {% if product.images.size == 0 %}
+              <div class="product-single__photo-wrapper js">
+                <a href="#" class="MagicZoom product-single__photo" data-image-id="{{ image.id }}">
+                  <img class="product-image" src="{{ image | img_url: 'grande' }}" alt="{{ image.alt | escape }}" data-my-custom-image="{{image.id}}">
+                </a>
+              </div>
+              {% else %}
+              {%- assign featured_image = product.selected_or_first_available_variant.featured_image | default: product.featured_image -%}
+              {% for image in product.images %}
+              {%- assign img_url = image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+              <div class="product-single__photo-wrapper js">
+                <a href="{{ image | img_url: 'master' }}" class="MagicZoom product-single__photo" data-image-id="{{ image.id }}">
+                  <img src="{{ image | img_url: 'grande' }}" alt="{{ image.alt | escape }}" data-my-custom-image="{{image.id}}">
+                </a>
+              </div>
+              {% endfor %}
+              {% endif  %}
+            </div>
+            {% if product.images.size > 1 %}
+            <div class="left">
+              <div class="shop-slider-nav">
+                {% assign count = 0 %}
+                {% for image in product.images %}
+                <div data-zoom-id="zoom">
+                  <div class="thumb-container">
+                    <div class="thumbnail-table-container">
+                      <a data-image="{{ image.src | img_url: 'original', scale: 2 }}" data-slide-index="{{ count }}" href="{{ image.src | img_url: product_image_zoom_size, scale: product_image_scale }}" class="thumb text-link product-single__thumbnail product-single__thumbnail--{{ section.id }}" data-thumbnail-id="{{ image.id }}">
+                        <img class="product-single__thumbnail-image" src="{{ image.src | img_url: 'x130' }}" alt="{{ image.alt | escape }}" data-my-custom-image="{{image.id}}">
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                {% assign count = count | plus: 1 %}
+                {% endfor %}
+                {% for tag in product.tags %}
+                {% if tag contains 'productvideo_' %}
+                <div data-zoom-id="zoom">
+                  <div class="thumb-container">
+                    <div class="thumbnail-table-container">
+                      <a class="product-single__thumbnail popup-video" href="{{ tag | split:'productvideo_' | last}}">
+                        <img class="lazyload" src="{{'default.png' | asset_url}}" data-src="{{'default.png' | asset_url}}">
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                {% endif %}
+                {% endfor %} 
+              </div>
+            </div>
+            {% endif %}
+          </div>
+        </div>
+        <div class="grid__item small--one-whole medium-up--one-half large-up--one-half shoprightcontent">
+          <div class="gem_rt">
+            <h1 class="gem-title product-name"> {{product.title}}</h1>
+            
+            <div class="ruk_rating_snippet" data-sku="{{ product.handle }};{{ product.variants | map: 'sku' | join: ';' }};{{ product.variants | map: 'id' | join: ';' }}"></div>
+            <div id="api-product-long-desc">
+            </div>
+
+            <div class="gem-price">
+
+
+            
+              {% include 'product-price', variant: product %}
+
+            </div>
+            {% form 'product', product, data-productid: product.id, class:form_classes %}
+
+            <div class="product-form form-btn-none">
+              <select name="id" data-productid="{{ product.id }}" id="ProductSelect-{{ section.id }}" class="product-form__variants no-js main-prd-var">
+                {% for variant in product.variants %}
+
+                {% if variant.available %}
+                <option {% if variant==product.selected_or_first_available_variant %} selected="selected" {% endif %} value="{{ variant.id }}" data-my-custom-image="{{variant.image.id}}">
+                  {{ variant.title }}
+                </option>
+                {% else %}
+                <option disabled="disabled" value="{{ variant.id }}" data-my-custom-image="{{variant.image.id}}">{{ variant.title }} - {{ 'products.product.sold_out' | t }}</option>
+                {% endif %}
+                {% endfor %}
+              </select>
+              {% if product.variants.size > 1 %}
+                {% unless product.has_only_default_variant %}
+                  {% for option in product.options_with_values %}
+                  <div class="selector-wrapper product-form__item">
+                    <label {% if option.name=='default' %}class="label--hidden" {% endif %}for="SingleOptionSelector-{{ forloop.index0 }}">
+                      {{ option.name }}
+                    </label>
+                    <select class="single-option-selector single-option-selector-{{ section.id }} product-form__input" id="SingleOptionSelector-{{ forloop.index0 }}" data-index="option{{ forloop.index }}">
+                      {% for value in option.values %}
+                      <option value="{{ value | escape }}" {% if option.selected_value==value %} selected="selected" {% endif %}>{{ value }}</option>
+                      {% endfor %}
+                    </select>
+                  </div>
+                  {% endfor %}
+                {% endunless %}
+                {% comment %}
+              <div class="dw-variations">
+                {% include 'product-price', variant: product %}	
+              </div>
+                {% endcomment %}
+              {% endif %}               
+            </div>
+
+
+            {%  unless customer.b2b? %}
+              {% if product.available %}
+                {% assign skioSellingPlanGroups = product.selling_plan_groups | where: 'app_id', 'SKIO' %}
+                {% assign dynamicBoxSellingPlanGroups = product.selling_plan_groups | where: 'name', 'Dynamic Box Subscription' %}
+                {% assign validPlansLength = skioSellingPlanGroups.size | minus: dynamicBoxSellingPlanGroups.size %}
+                {% if validPlansLength > 0 %}
+                  <skio-plan-picker 
+                    product='{{ product | json | escape }}'
+                    selectedVariant='{{ product.selected_or_first_available_variant | json | escape }}'
+                    formId='{{ product_form_id }}'
+                    currency='{{ cart.currency.iso_code }}'
+                    useVariantInputClickEvents='false'
+                    variantInputSelector=''
+                    externalPriceSelector='.price span.price-item'
+                    >
+                  </skio-plan-picker>
+                  <input type="hidden" aria-hidden="true" name="selling_plan" value="">
+                  <script src="{{ 'skio-plan-picker-component.js' | asset_url }}" type="module"></script>
+                {% endif %}  
+              {% endif %}
+            {%  endunless %}
+            
+            <div class="woocommerce-message" role="alert"> <a href="/cart" tabindex="1" class="button wc-forward">View cart</a> “{{product.title}}” has been added to your cart.<span class="close-icon"></span></div>
+            <div class="form-group">
+              <div class="quantity">
+                {% if product.available %}
+                  <input value="1" name="quantity" aria-label="quantity" class="form-control qty" type="number" {% unless product.available %} style="display:none;" {%  endunless %}>
+                {% endif %}
+              </div>
+          <button id="AddToCart-{{ product.id }}" class="add-to-cart-btn shop-now-btn common-transition theme-btn-hover"  type="submit" name="add" {% unless current_variant.available %} disabled="disabled" {% endunless %}>
+                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                <span data-add-to-cart-text>
+                  {% unless current_variant.available %}
+                    {{ 'products.product.sold_out' | t }}
+                  {% else %}
+                    {{ 'products.product.add_to_cart' | t }}
+                  {% endunless %}
+                </span>
+              </button>
+              {% unless current_variant.available %}
+                <a class="klaviyo-bis-trigger add-to-cart-btn" href="#" style="text-align: center; margin-top: 10px;">Notify Me When Available</a>
+              {%  endunless %}
+              {% comment %} <button data-add-to-cart class="add-to-cart-btn shop-now-btn common-transition theme-btn-hover" type="submit" name="add" id="AddToCart-{{ section.id }}" {% unless current_variant.available %} disabled="disabled" {% endunless %}>
+                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                <span data-add-to-cart-text>
+                  {% unless current_variant.available %}
+                  {{ 'products.product.sold_out' | t }}
+                  {% else %}
+                  {{ 'products.product.add_to_cart' | t }}
+                  {% endunless %}
+                </span>
+              </button> {% endcomment %}
+            </div>
+
+
+            {% if product.description contains '<!-- split -->' %}
+
+            {{product.description | split:'<!-- split -->' | first }}
+            {% endif %}
+
+
+            {% endform %}
+
+            <!--Live region for announcing updated price and availability to screen readers-->
+            <p class="visually-hidden" data-product-status aria-live="polite" role="status"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="product-info">
+    <div class="page-width-2">
+      <!--Horizontal Tab-->
+      {% if product.description != blank %}
+      <div id="parentHorizontalTab">
+        {% include 'product-tabs' %}
+      </div>
+
+      {% endif %}
+    </div>
+
+
+
+  </section>
+  
+  <div class="page-width-2">
+
+<div
+     class="yotpo yotpo-pictures-widget"
+     data-gallery-id="5e3300c4148e65303115501c"
+     data-product-id="{{ product.id }}">
+</div>
+    
+  </div>
+
+
+  <div class="page-width-2">
+
+
+<!--div class="yotpo yotpo-main-widget" data-product-id="{{ product.id }}" data-name="{{ product.title | escape }}" data-url="{{ shop.url }}{{ product.url }}" data-image-url="{{ product.featured_image | product_img_url: 'large' |replace: '?', '%3F' | replace: '&','%26'}}" data-price="{{ WCProduct_VariantPrice | money_without_currency }}"
+data-currency=“{{ shop.currency }}” data-appkey="dKvesHTcjQgVmwJ3VGeawU22APvpVQ5GVQEuI5WQ" data-description=“{{ product.description | escape }}“>
+</div-->
+<link rel="stylesheet" href="https://d1azc1qln24ryf.cloudfront.net/40686/revsglobal-pr-mod/style-cf.css?-c0avz5">
+<script src="https://widget.reviews.io/combined/dist.js?v1"></script>
+<link rel="stylesheet" href="https://widget.reviews.io/combined/style.css?v1">
+<div id="ReviewsWidget"></div>
+<script>
+    new ReviewsWidget('#ReviewsWidget', {
+        store: 'kush-queen',
+        widget: 'combined-widget',
+        options: {
+            types: 'product_review', // store_review,product_review,questions (choose what content you prefer to show in this widget)
+            per_page: 7, // Any number (set how many reviews/questions you want to show per page)
+
+            /* Product Reviews Settings */
+            product_review: {
+                sku: '{{ product.variants | map: "sku" | join: ";" }};{{ product.variants | map: "id" | join: ";" }}',  //Multiple SKU's seperated by semicolon
+                enable_write_review:true,
+                enable_smart_filters:true,
+                enable_rating_filters:true,
+                enable_toggle_filters:true,
+                enable_social_sharing:false,
+                enable_helpful:false,
+                enable_featured_review_photos:true,
+                enable_featured_social_photos:true,
+                show_mention_text:true,
+                show_dates:true,
+                show_replies:true,
+                show_avatars:true,
+                show_photos:true,
+                show_verify_status:true,
+                structured_data: {
+                   category: {{ product.type | json }},
+                   gtin12:"{{product.variants.first.barcode}}",
+                  url: "{{ shop.url }}{{ product.url }}",
+                  {%- if product.featured_image -%}
+                  		image: 'https:{{ product.featured_image | product_img_url: 'grande' }}',
+                  {%- endif -%}
+                  {% if variant.image %}
+                  {% assign variant_image_size = variant.image.width | append: 'x' %}
+                        image: "http:{{ variant.image.src | img_url: variant_image_size }}",
+                  {% endif %}
+                  
+                  description: "{{ product.description | strip_html | strip_newlines | escape }}",
+                  offers: [{
+            		  type: 'Offer',
+                      price: "{{ product.selected_or_first_available_variant.price | money_without_currency | replace : ',', '' }}",
+                      priceCurrency: "{{ shop.currency }}",
+                      url: "{{ shop.url }}{{ product.url }}",
+                      availability: "http://schema.org/{% if product.available %}InStock{% else %}OutOfStock{% endif %}",
+                      priceValidUntil: "{{ "now" | date: "%s" | plus: 2592000 | date: "%Y-%m-%-d" }}",
+                  }],
+                  brand: {
+                    type: 'Brand',
+                    name: '{{ product.vendor | escape }}',
+                  },
+              }
+
+
+            },
+
+        },
+
+        /* Customise Colours & Fonts */
+        styles: {
+            starColor:'#f47e27',
+            textColor:'#333333',
+            primaryColor:'#333333',
+            textColor:'#666666',
+            neutralColor:'#ececec',
+            backgroundColor:'#ffffff',
+            formColor:'#dcdcdc',
+            baseTextSize:'14px',
+            header_style:''
+        },
+
+        /* Customise Buttons */
+        buttons:{
+            smart_filter:'solid',
+            write_review:'solid',
+            selected_page:'outline'
+        },
+
+        /* Avatar Settings */
+        avatars:{
+            enable_gravatar:false,
+            gravatar_fallback:'identicon'
+        },
+
+        /* Other Options*/
+        reviewsLogo:{
+            show_logo:true,
+            style:'black'
+        }
+        
+    });
+</script>
+  </div>
+</div>
+
+<div class="woocommerce-message" role="alert"> <a href="/cart" tabindex="1" class="button wc-forward">View cart</a> “{{product.title}}” has been added to your cart.<span class="close-icon"></span></div>
+
+{% unless product == empty %}
+<script type="application/json" id="ProductJson-{{ section.id }}">
+  {%- render 'wc_product_json', product: product -%}
+</script>
+{% endunless %}
+
+
+      
+
+
+
+
+{% schema %}
+{
+"name": "Product pages",
+"settings": [
+{
+"type": "checkbox",
+"id": "show_share_buttons",
+"label": "Show social sharing buttons",
+"default": true
+}
+],
+"blocks": [
+{
+"type": "related_products",
+"name": "Select Related Products",
+"settings": [
+{
+"type": "product",
+"id": "sel_product",
+"label": "Product"
+},
+{
+"type": "text",
+"id": "title",
+"label": "Heading",
+"default": "Featured Products"
+},
+{
+"id": "collection",
+"type": "collection",
+"label": "Collection"
+}
+]
+}
+]
+}
+{% endschema %}
+
+
+
+
+
+<script type="lazyload2">
+  $(".swatch .swatch-element").click(function() {
+    //console.log(currentHeight);
+    //$('.set-1').css("border","0px");
+    $(this).siblings().removeClass("activeat");
+    $(this).addClass("activeat");
+    // $(this).removeClass("activeat");
+
+
+  });
+
+  var firstValue = $(".color li:first-child").attr("data-value");
+  $('.color-name').text(firstValue);
+
+  $('.color .swatch-element').click(function() {
+    var attri = $(this).attr("data-value");
+    $('.color-name').text(attri);
+
+  });
+  jQuery('.swatch :radio').change(function() {
+
+    var optionIndex = jQuery(this).closest('.swatch').attr('data-option-index');
+    var optionValue = jQuery(this).val();
+    jQuery(this)
+    .closest('form')
+    .find('.single-option-selector')
+    .eq(optionIndex)
+    .val(optionValue)
+    .trigger('change');
+  });
+
+  $(document).ready(function() {
+
+    if($('#parentHorizontalTab').length){
+      $('#parentHorizontalTab').easyResponsiveTabs({
+        type: 'default', 
+        width: 'auto', 
+        fit: true, 
+        tabidentify: 'hor_1', 
+        activate: function (event) { 
+          var $tab = $(this);
+          var $info = $('#nested-tabInfo');
+          var $name = $('span', $info);
+          $name.text($tab.text());
+          $info.show();
+        }
+      });
+    }
+
+
+
+  });
+
+  $(document).ready(function () {
+    var get_img_no = '';
+    $('.template-product').on('change', '.single-option-selector', function(e) {
+      get_img_no = $(this).data('my-custom-image');
+      get_img_no = $(".main-prd-var option:selected").data('my-custom-image');
+      if (get_img_no != '') {
+        $(".shop-slider-nav .slick-slide").each(function () {
+          var current_slide_img = $(this).find('img').data('my-custom-image');
+          if (get_img_no == current_slide_img) {
+            var get_current_slide_no = $(this).data('slick-index');
+            $('.shop-slider-nav').slick('slickGoTo', get_current_slide_no);
+          }
+        });
+        $(".prod-slider .slick-slide").each(function () {
+          var current_slide_img = $(this).find('img').data('my-custom-image');
+          if (get_img_no == current_slide_img) {
+            var get_current_slide_no = $(this).data('slick-index');
+            $('.prod-slider').slick('slickGoTo', get_current_slide_no);
+          }
+        });
+      }
+    });
+    
+//     $("#api-product-detail-tabs-content-div h2[role='tab']").removeAttr('aria-controls').attr({"role":"button", "tabindex":"0"});
+//     $("#api-product-detail-tabs-content-div .api-tab.resp-tab-content").removeAttr('aria-labelledby');
+
+
+
+  });
+
+</script>

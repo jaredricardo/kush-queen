@@ -1,0 +1,81 @@
+<section class="queen-promise-wrapper">
+  <div class="page-width">
+    <div class="queen-main-wrap">
+      {% if section.settings.queen_pro_title != blank %}
+      <div role="heading" aria-level="2" class="queen-promise-title-wrap">{{section.settings.queen_pro_title}}</div>
+      {% endif %}
+
+      {% if section.settings.queen_pro_desc != blank %}
+      <div class="queen-promise-desc-wrap">{{section.settings.queen_pro_desc}}</div>
+      {% endif %}
+
+      <div class="queen-promise-service-wrap">
+        <div class="grid">
+          {% for block in section.blocks %}
+{%- comment -%} Wholesale_Club_Product_Visibility_For_Loop Start {%- endcomment -%}
+{%- capture hide_resource -%}{% render "wc_product_visibility", resource: block %}{%- endcapture -%}
+{%- if hide_resource == "true" -%}
+  {% continue %}
+{%- endif -%}
+{%- comment -%} Wholesale_Club_Product_Visibility_For_Loop End {%- endcomment -%}
+
+          {% if block.settings.queen_pro_sing_img != blank %}
+          <div class="grid__item medium-up--one-quarter small--one-half promise-box">
+            <div class="queen-promise-sing-wrap">
+
+              <a class="promise-link-wrap" data-fancybox="gallery" href="{{block.settings.queen_pro_sing_img | img_url: 'master'}}">
+                <img class="lazyload" src="data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'%20width='{{ block.settings.queen_pro_sing_img.width }}'%20height='{{ block.settings.queen_pro_sing_img.height }}'></svg>" data-src="{{ block.settings.queen_pro_sing_img | img_url: 'master'}}" alt="{{ block.settings.queen_pro_sing_img.alt}}"/>
+              </a>
+
+            </div>
+          </div>
+          {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+"name": "Home Promise",
+"settings": [
+{
+"id":"queen_pro_title",
+"type":"text",
+"label":"Title"
+},
+{
+"id":"queen_pro_desc",
+"type":"text",
+"label":"Description"
+}
+],
+"blocks":[
+{
+"type":"promise",
+"limit": 4,
+"name":"Service",
+"settings": [
+{
+"id": "queen_pro_sing_img",
+"type": "image_picker",
+"label": "Image"			
+}/*,
+{
+"id": "queen_pro_sing_link",
+"type": "url",
+"label": "Link"			
+}*/
+]
+}
+],
+"presets":[
+{
+"name": "Home Promise",
+"category":"Image"
+}
+]
+}
+{% endschema %}

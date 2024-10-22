@@ -1,0 +1,440 @@
+{%  comment %}
+Single Variants: Works - on change one/time sub - get variant - update price
+Multiple Variants:
+- Works: on change of onetime/sub, gets variant - updates price
+- To do: on change of dropdown when on subscription - need to update to subscription price
+
+{%  endcomment %}
+
+
+{% assign selling_plan_groups = product.selling_plan_groups %}
+{% if  selling_plan_groups.size >= 1 %}
+
+  
+  {% for sp in selling_plan_groups %}
+    {% for plan in sp.selling_plans %}
+
+      {% assign subscriptionPercentageOff = plan.price_adjustments[0].value | times:1.0 | divided_by:100 %}
+    
+      {% assign percent_off = plan.price_adjustments[0].value | times:1.0 | divided_by:100 %}
+      {% assign money_saved = current_variant.price | times: percent_off %}
+      {% assign total_sub_price = current_variant.price | minus: money_saved %}
+
+      
+    {% endfor %}
+  {% endfor %}
+
+  
+  <style>
+    
+  .subscription-price {
+    margin-left: 5px;
+    font-weight: 600;
+    font-size: 14px;
+    font-size: 28px;
+    line-height: 28px;
+    display: inline-block;
+    justify-content: center;
+    flex-direction: row-reverse;
+    color: #666666;
+    text-align: left;
+    width: auto;
+    font-weight: normal;
+}
+    .subscribe-save{
+      padding-bottom:15px;
+    }
+    .subscribe-save .purchase-type-labels{
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      margin-bottom:5px;
+    }
+    .subscribe-save .active-checkmark{
+      display:none;
+    }
+    .subscribe-save .multi-currency-custom-label{
+      padding:10px 16px;
+      color:#63656a !important;
+      font-size:16px;
+      border:1px solid #63656a;
+      position:relative;
+      text-align:center;
+      font-weight:bold;
+      width:48%;
+      cursor:pointer;
+      -webkit-text-fill-color:#63656a;
+    }
+    .subscribe-save .multi-currency-custom-label.active{
+      background:#63656a;
+      color:#fff !important;
+      -webkit-text-fill-color:#fff;
+    }
+    .subscribe-save .multi-currency-custom-label.active .active-checkmark{
+      width:20px;
+      height:20px;
+      position:absolute;
+      right:-10px;
+      top:-10px;
+      border-radius:15px;
+      display:block;
+    }
+    .subscribe-save .multi-currency-custom-label span{
+      z-index:2;
+      position:relative;
+    }
+    .subscribe-save .price-per-serving{
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+    }
+    .subscribe-save .pps-onetime,
+    .subscribe-save .pps-sub{
+      width:48%;
+    }
+    .subscribe-save #selling_plan_{{ product.id }}{
+      width:100%;
+      font-size:15px;
+    }
+    .subscribe-save .day-frequency-selector{
+      margin-bottom:20px;
+    }
+    @media(min-width:768px){
+      .subscribe-save .multi-currency-custom-label{
+        padding:10px 13px;
+      }
+    }
+    .prevent-scroll-on-open{
+        overflow:hidden;
+      }
+      .k-popup-overlay{        
+        background:rgba(11,11,11,0.8);
+        width:100%;
+        height:100%;
+        z-index:9999999999;
+        left:0;
+        position:fixed;
+        top:0;
+      }
+      .k-popup-wrapper{
+        background-color:#fff;
+        padding:28px 36px 40px;
+        position:relative;
+        width:100%;
+        max-width:300px;
+        top:50%;
+        transform:translateY(-50%);
+        margin:auto;
+        border-radius:15px;
+      }
+      .k-popup-wrapper h2{
+        font-weight:900;
+        font-size:25px;
+      }
+      .k-popup-wrapper h3{
+       font-size:17px;
+      }
+      .k-popup-wrapper .benefits-list{
+        margin-top:25px;
+        margin-bottom:25px;
+      }
+      .k-popup-wrapper .benefits-item{
+        font-size:16px;
+        line-height:24px;
+        background:url({{'checkbox.png'|file_url}});
+        background-repeat:no-repeat;
+        background-size:16px;
+        padding-left:30px;
+        background-position-y:3px;
+      }
+      .k-popup-wrapper .your-plan{
+        font-size:20px;
+        line-height:23px;
+      }
+      .k-popup-wrapper .close-btn{
+        cursor:pointer;
+        color:transparent;
+        background:url({{'icon-popup-close.svg'|file_url}});
+        width:22px;
+        background-size:cover;
+        top:20px;
+        right:20px;
+        position:absolute;
+        filter:grayscale(50%) contrast(0.5);
+      }
+      .k-popup-wrapper .full-details a{
+        color:#404040;
+        font-size:13px;
+        margin-top:30px;
+        text-decoration:underline;
+      }
+      .k-popup-wrapper .full-details{
+        text-align:center;
+        margin-top:20px;
+      }
+      .k-popup-wrapper .big-close{
+        width:100%;
+        padding:12px 0;
+      }
+      #ProductPrice{
+        opacity:0;
+      }
+      @media(min-width:700px){
+        .k-popup-wrapper{
+          max-width:680px;
+          padding-left:60px;
+          background-image:url({{''|file_url}});
+          background-size: 315px;
+          background-repeat: no-repeat;
+          background-position-x: calc(100% + 10px);
+          background-position-y: calc(100% + 10px);
+        }
+        .k-popup-wrapper h2{
+          font-size:40px;
+        }
+        .k-popup-wrapper h3{
+          font-size:17px;
+        }
+        .k-popup-wrapper .benefits-item{
+          font-size:20px;
+          line-height:20px;
+          background:url({{'checkbox.png'|file_url}});
+          background-repeat:no-repeat;
+          background-size:20px;
+          padding-left:30px;
+          background-position-y:unset;
+          margin-bottom:15px;
+        }
+        .k-popup-wrapper .big-close{
+          width:150px;
+        }
+        .k-popup-wrapper .full-details{
+          text-align:left;
+        }
+      }
+    
+  </style>
+  
+  <div class="subscribe-save">
+
+    <!-- ONE TIME OR SUB/SAVE -->
+    <div class="purchase-type-labels">
+      <div class="multi-currency-custom-label  active" data-purchase-type="onetime">
+        <span>One-Time Purchase</span>
+        <div class="active-checkmark">
+          <img src="{{ 'check-white.png' | file_url }}">
+        </div>
+      </div>
+      <div class="multi-currency-custom-label" data-purchase-type="subsave">
+        <span>Subscribe and Save {{ percent_off | times:100 | remove:'.0' }}%</span>
+        <div class="active-checkmark">
+          <img src="{{ 'check-white.png' | file_url }}">
+        </div>
+      </div>
+    </div>
+
+     {%  comment %}
+    <a class="custom-iframe" href="#" style="display:none;margin-left: 0px; text-transform: none;">
+      <div class="new-sub-text-info" style="width:48%;margin-left:auto;">
+        <span style="display:block; color:#374710;">Flexible Delivery. Cancel Anytime.</span>
+        <strong>Learn More</strong>
+      </div>
+    </a>
+      
+    <div class="k-popup-overlay" style="display:none">
+      <div class="k-popup-wrapper">
+        <div class="close-btn">
+          X
+        </div>
+        <h2>Subscribe & Save</h2>
+        <div class="benefits-headline">
+          <img src="{{'benefits_of_a_subscriptionsvg.svg'|file_url}}">
+        </div>
+        <div class="benefits-list">
+          <div class="benefits-item">Save 25% on your order today</div>
+          <div class="benefits-item">Get free gifts with qualifying orders</div>
+          <div class="benefits-item">Modify, skip, or cancel anytime</div>
+          <div class="benefits-item">Helps you stay consistent</div>
+          <div class="benefits-item">Exclusive access to seasonal shakes</div>
+        </div>
+        <button class="btn btn-primary big-close">
+          Close
+        </button>
+        <div class="full-details">
+          <a href="{{shop.url}}/pages/preferred-customer-program-subscribe-save" target="_blank">Click here for full details</a>
+        </div>
+      </div>      
+    </div>
+ {%  endcomment %}
+
+    {% assign amountOfSellingFrequencies = selling_plan_groups[0].selling_plans.size %}
+
+    <!-- SHIPPING FREQUENCY -->
+    <div class="day-frequency-selector" style="display:none;">
+      <label for="selling_plan_{{ product.id }}">Deliver Every:</label>
+      <select id="selling_plan_{{ product.id }}" name="">
+      {% for sp in selling_plan_groups %}
+        {% for plan in sp.selling_plans %}
+          <option {% if plan.name == "Delivery Every 30 Days" %}selected{% endif %} value="{{ plan.id }}">{{ plan.name | replace:"Delivery Every "}}{% if plan.name == "Delivery Every 30 Days" %} - Most Popular{% endif %}</option>
+        {% endfor %}
+      {% endfor %}
+      </select>
+    </div>
+    
+  </div>
+
+  
+  <script>
+
+    let ProductVariantsMap = {};
+    {% for pVariant in product.variants %}
+
+    {% assign subscriptionSavings = pVariant.price | times: subscriptionPercentageOff %}
+    {% assign subscriptionPrice = pVariant.price | minus: subscriptionSavings %}
+
+            
+      ProductVariantsMap[{{ pVariant.id }}] = {
+        "original_price": {{pVariant.price | money_without_currency}},
+        "subscription_price": parseFloat({{ subscriptionPrice | money_without_currency }}).toFixed(2)
+      }
+    {% endfor %}
+    
+    $(document).ready(function(){
+
+
+      function getSelectedID(){
+        const selectElement = document.querySelector('select[name="id"]');
+        const selectedOption = selectElement.querySelector('option[selected="selected"]');
+
+        if (selectedOption) {
+            selectedVariantID = selectedOption.value;
+          return selectedVariantID;
+        }
+        else{
+          return false;
+        }
+      }
+
+
+
+      // Get all input elements with the class "single-option-selector"
+      var selectElement = document.querySelector('select[name="id"]');
+
+      // Add a "change" event listener to the <select> element
+      selectElement.addEventListener('change', function(){
+          // Get the value of the changed input element
+          var selectedID = getSelectedID()
+          newPrice = ProductVariantsMap[selectedVariantID].subscription_price;
+          $('.subscription-price').text('$' + newPrice)
+
+            
+      });
+
+
+      function updatePrice(buyChoice, selectedVariantID){
+
+        //update price
+        let newPrice = "";
+
+        if(buyChoice == "subsave"){
+          newPrice = ProductVariantsMap[selectedVariantID].subscription_price;
+
+          
+          // Remove the "visually-hidden" class from the .subscription-price element
+          var subscriptionPriceElement = document.querySelector('.subscription-price');
+          if (subscriptionPriceElement) {
+            subscriptionPriceElement.classList.remove('visually-hidden');
+          }
+
+          
+          // Hide the .price-item.price-item--regular div
+          var salePriceDiv = document.querySelector('.gem-price .price__sale');
+          var regularPriceDiv = document.querySelector('.gem-price .price__regular');
+
+          
+            
+          if (salePriceDiv && window.getComputedStyle(salePriceDiv).getPropertyValue('display') !== 'none') {
+            salePriceDiv.style.display = 'none';
+          
+            // Add the data attribute when hiding the element
+            salePriceDiv.setAttribute('data-hidden-by-sub', 'true');
+          }
+          else if (regularPriceDiv) {
+            regularPriceDiv.style.display = 'none';
+          }
+ 
+
+           $('.subscription-price').text('$' + newPrice)
+
+
+        }else{
+          newPrice = ProductVariantsMap[selectedVariantID].original_price;
+
+          // Add the "visually-hidden" class to the .subscription-price element
+          var subscriptionPriceElement = document.querySelector('.subscription-price');
+          if (subscriptionPriceElement) {
+            subscriptionPriceElement.classList.add('visually-hidden');
+          }
+
+          // Hide the .price-item.price-item--regular div
+          var salePriceDiv = document.querySelector('.gem-price .price__sale');
+          var regularPriceDiv = document.querySelector('.gem-price .price__regular');
+          
+          if (
+            salePriceDiv &&
+            window.getComputedStyle(salePriceDiv).getPropertyValue('display') === 'none' &&
+            salePriceDiv.getAttribute('data-hidden-by-sub') === 'true'
+          ){
+            console.log(window.getComputedStyle(salePriceDiv).getPropertyValue('display'))
+            salePriceDiv.style.display = 'inline-block';
+          }
+          else if (regularPriceDiv) {
+            regularPriceDiv.style.display = 'block';
+          }
+
+
+          //$('.subscription-price').text('$' + newPrice)
+
+          
+        }
+
+
+
+       
+
+      }
+      
+      //trigger click of sub-save/onetime
+      $('.multi-currency-custom-label').on('click',function(){
+
+        //const selectElement = document.querySelector('select[name="id"]');
+        var selectedVariantID = getSelectedID();
+
+        //get buy choice
+        let buyChoice = $(this).data('purchase-type');
+
+        //set active
+        $('.multi-currency-custom-label').removeClass('active');
+        $(this).addClass('active');
+        
+        if(buyChoice == "onetime"){
+          $('#selling_plan_{{ product.id }}').attr('name','');
+          $('.day-frequency-selector').hide();
+        }else{
+          $('#selling_plan_{{ product.id }}').attr('name','selling_plan');
+          {%  if amountOfSellingFrequencies > 1 %}
+          $('.day-frequency-selector').show();
+          {%  endif %}
+        }
+
+        updatePrice(buyChoice, selectedVariantID);
+
+        
+      });
+
+      
+    })
+
+
+  </script>
+{% endif %}

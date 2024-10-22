@@ -1,0 +1,55 @@
+
+{% assign myproduct =  product.description | split:'<!-- split -->' | last %}
+
+{% assign combine_pretext = false %}
+{% if myproduct contains "<h4>" %}
+{% assign tab_heads = '' %}
+{% assign tab_texts = '' %}
+{% assign pretext = '' %}
+
+{% assign chunks = myproduct | strip | split: "<h4>" %}
+{% for c in chunks %}
+{% if c contains "</h4>" %}
+{% assign chunk = c | split: "</h4>" %}
+{% assign tab_heads = tab_heads | append: ",," | append: chunk.first %}
+{% assign tab_texts = tab_texts | append: ",," %}
+{% if pretext != blank  and combine_pretext %}
+{% assign tab_texts = tab_texts | append: pretext | append: "<br>" %}
+{% assign pretext = '' %}
+{% endif %}
+{% assign tab_texts = tab_texts | append: chunk.last  %}
+{% elsif forloop.first %}
+{% assign pretext =  c %}
+{% endif %}
+{% endfor %}
+
+{% assign tab_heads = tab_heads | remove_first: ",," | split: ",," %}
+{% assign tab_texts = tab_texts | remove_first: ",," | split: ",," %}
+
+<ul role="tablist" class="resp-tabs-list hor_1" id="api-product-detail-tabs-ul">
+  {% assign index =  1 %}
+  {% for head in tab_heads %}
+  <li role="tab" tabindex="0" data-content-id="#tab-{{- index -}}">{{ head }}</li>
+  {% assign index = index | plus: 1  %}
+  {% endfor %}
+
+</ul>
+
+
+{% assign index = 1 %}
+<div class="resp-tabs-container hor_1" id="api-product-detail-tabs-content-div">
+  {% for text in tab_texts %}
+  <div class="api-tab">
+    <div class="product_inner" id="tab-{{- index -}}">
+      {{ text }}
+    </div>
+  </div>
+  {% assign index = index | plus: 1  %}
+  {% endfor %}
+
+</div>
+
+
+
+
+{% endif %}

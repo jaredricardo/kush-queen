@@ -1,0 +1,135 @@
+<script>
+
+const test_options = {method: 'GET', headers: {accept: 'application/json'}};
+const prod_img_container = document.getElementById('prod-img');
+const reviewSection = document.getElementById('swiper-wraper');
+
+function TestFunction(message){
+  console.log(`TESTING: ${message}`)
+}
+
+function initSwiper() {
+    var swiper = new Swiper('.review-section', {
+      slidesPerView: 3,
+      spaceBetween: 30,
+    });
+    TestFunction("WORKS")
+  }
+
+
+
+fetch('https://api.reviews.io/product/review?store=kush-queen&sku=TPC-MT100HP2;BB-RX25HP25D8;TPC-WB30HP30ML&per_page=100', test_options)
+  .then(response => response.json())
+  .then(data => {
+    let product_rating_count = data.stats.count;
+    //prod_img_container.src = product_image;
+  
+    for(review in data.reviews.data)
+    {
+      let testText = data.reviews.data[review].review;
+      let reviewerName = data.reviews.data[review].reviewer.first_name;
+      if(testText != '' && reviewerName != "Anonymous" && testText.length < 130)
+      {
+        console.log("TEXT LENGTH TEST: ",testText.length)
+        let product_image = data.reviews.data[review].product.image_url;
+        let product_title = data.reviews.data[review].product.name;
+        let product_link = data.reviews.data[review].product.link;
+        let product_review_text = data.reviews.data[review].review;
+        let reviewer_name = `${data.reviews.data[review].reviewer.first_name} ${data.reviews.data[review].reviewer.last_name}`;
+        let reviewer_stars = data.reviews.data[review].rating;
+        let reviewer_verified = data.reviews.data[review].reviewer.verified_buyer
+        let review_card_content = `<div class="swiper-slide review-card">
+          <div class="review-card-heading">
+              <img id="prod-img" src="${product_image}" alt="" width="55px" height="55px">
+              <div class="review-card-header-content">
+                <h4 id="review-card-title">${product_title}</h4>
+                <div class="rating-star-section">
+                <span class="review-card-stars">
+                  <div class="review-star-container"><img class="star" src="{{ 'GoldStar.png' | asset_img_url }}"><img class="star" src="{{ 'GoldStar.png' | asset_img_url }}"><img class="star" src="{{ 'GoldStar.png' | asset_img_url }}"><img class="star" src="{{ 'GoldStar.png' | asset_img_url }}"><img class="star" src="{{ 'GoldStar.png' | asset_img_url }}"> ${reviewer_stars}</div></span>
+                <span class="review-card-count"><span class="review-count-number">${product_rating_count}</span>  REVIEWS</span>
+                </div>
+              </div>
+            </div>
+            <div class="review-card-text">
+                    <p class="review-card-text">${product_review_text}</p>
+            </div>
+            <div class="review-card-footer">
+              <div class="review-card-user-info">
+                <h4 class="review-card-user-name">${reviewer_name}</h4>
+                <span class="review-card-verified"><img class="verified-checkmark" src="{{ 'GoldCircle.png' | asset_img_url  }}" alt=""> VERIFIED BUYER</span>
+              </div>
+                <a href="${product_link}" class="review-card-product-link">SHOP NOW <img class="reviews-cta-arrow" src="{{ 'GoldArrow.png' | asset_img_url  }}" alt=""></a>
+        
+            </div>
+          </div>`;
+        reviewSection.insertAdjacentHTML("beforeend", review_card_content)
+        initSwiper();
+      }
+    }
+    console.log("divs created")
+})
+.then(() => {
+  TestFunction("Before swiper") 
+  window.onload = function() {
+  initSwiper();
+  TestFunction("SLIDER LOADED")
+};   
+  TestFunction("after slider")
+  });
+  
+
+
+
+
+
+
+
+
+
+ /*   $('.review-section').slick({
+      //nextArrow: '<div class="review-button"><i class="fa fa-caret-right"></i></div>',
+            nextArrow: '<div class="review-button next"><img src="{{ 'BlackArrowRight.png' | asset_img_url  }}"></div>',
+            prevArrow: '<div class="review-button prev"><img src="{{ 'BlackArrowLeft.png' | asset_img_url  }}"></div>',
+            autoplay: false,
+            arrows: true,
+            dots: false,
+            infinite: false,
+            centerMode: true,
+            slidesPerRow: 4,
+            slidesToShow: 4,
+            responsive: [
+              {
+                breakpoint: 1800,
+                settings: {
+                  slidesPerRow: 3,
+                  slidesToShow: 3
+                }
+              },
+              {
+                breakpoint: 1330,
+                settings: {
+                  slidesPerRow: 3,
+                  slidesToShow: 3
+                }
+              },
+              {
+                breakpoint: 1100,
+                settings: {
+                  arrows: true,
+                  slidesPerRow: 2,
+                  slidesToShow: 2
+                }
+              },
+              {
+                breakpoint: 780,
+                settings: {
+                  arrows: true,
+                  slidesPerRow: 1,
+                  slidesToShow: 1
+                }
+              }
+            ]
+      });
+
+*/
+</script>

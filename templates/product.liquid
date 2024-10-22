@@ -1,0 +1,119 @@
+<script type="text/javascript">
+    obApi('track', 'Content View');
+</script>
+
+{% assign allow_wholesale_item = false %}
+
+{%  if product.tags contains 'Wholesale' and customer.b2b? %}
+  {% assign allow_wholesale_item = true %}
+{% endif %}
+
+{%  if product.tags contains 'Wholesale' %}
+  {%  if allow_wholesale_item %}
+    {% section 'new-product-template' %}
+    {% section 'product-related' %}
+  {% endif %}
+{%  else %}
+  {% section 'new-product-template' %}
+  {% section 'product-related' %}
+{%  endif %}
+
+<script>
+  // Override default values of shop.strings for each template.
+  // Alternate product templates can change values of
+  // add to cart button, sold out, and unavailable states here.
+  theme.productStrings = {
+    addToCart: {{ 'products.product.add_to_cart' | t | json }},
+    soldOut: {{ 'products.product.sold_out' | t | json }},
+    unavailable: {{ 'products.product.unavailable' | t | json }}
+  }
+</script>
+
+{% assign current_variant = product.selected_or_first_available_variant %}
+
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org/",
+  "@type": "Product",
+  "name": {{ product.title | json }},
+  "url": {{ shop.url | append: product.url | json }},
+  {%- if product.featured_image -%}
+    {%- assign image_size = product.featured_image.width | append: 'x' -%}
+    "image": [
+      {{ product.featured_image.src | img_url: image_size | prepend: "https:" | json }}
+    ],
+  {%- endif -%}
+  "description": {{ product.description | strip_html | json }},
+  {%- if current_variant.sku != blank -%}
+    "sku": {{ current_variant.sku | json }},
+  {%- endif -%}
+  "brand": {
+    "@type": "Thing",
+    "name": {{ product.vendor | json }}
+  }
+}
+</script>
+
+<script type="text/javascript">
+  var _learnq = _learnq || [];
+
+  var item = {
+    Name: {{ product.title|json }},
+    ProductID: {{ product.id|json }},
+    Categories: {{ product.collections|map:'title'|json }},
+    ImageURL: "https:{{ product.featured_image.src|img_url:'grande' }}",
+    URL: "{{ shop.secure_url }}{{ product.url }}",
+    Brand: {{ product.vendor|json }},
+    Price: {{ product.price|money|json }},
+    CompareAtPrice: {{ product.compare_at_price_max|money|json }}
+  };
+
+  _learnq.push(['track', 'Viewed Product', item]);
+  _learnq.push(['trackViewedItem', {
+    Title: item.Name,
+    ItemId: item.ProductID,
+    Categories: item.Categories,
+    ImageUrl: item.ImageURL,
+    Url: item.URL,
+    Metadata: {
+      Brand: item.Brand,
+      Price: item.Price,
+      CompareAtPrice: item.CompareAtPrice
+    }
+  }]);
+</script>
+
+<script type="text/javascript">
+
+	var _learnq = _learnq || [];
+
+  const b3 = document.querySelector('#BuyThree')
+  const atc = document.querySelector('#AddToCart-{{ product.id }}')
+
+  if(atc !== null && atc !== undefined) {
+    document.querySelector('#AddToCart-{{ product.id }}').addEventListener('click', () => {
+      console.log('clicked atc tracking normal product')
+      _learnq.push(['track', 'Added to Cart', item]);
+      obApi('track', 'Add To Cart');
+    })
+  }
+
+  if(b3 !== null && b3 !== undefined) {
+    document.querySelector('#BuyThree').addEventListener('click', () => {
+      _learnq.push(['track', 'Added to Cart', item]);
+      obApi('track', 'Add To Cart');
+    })
+  }
+
+</script>
+
+{% if product.options.size > 1 %}
+  <select name="id" id="ProductSelect" class="product-form__input">
+    {% for variant in product.variants %}
+      <option value="{{ variant.id }}" {% if variant.available %}data-available="true"{% else %}data-available="false"{% endif %}>{{ variant.title }} - {{ variant.price | money }}</option>
+    {% endfor %}
+  </select>
+{% else %}
+  <span class="product-form__variant-title">{{ product.variants[0].title }}</span>
+  <input type="hidden" name="id" value="{{ product.variants[0].id }}" />
+{% endif %}

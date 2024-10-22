@@ -1,0 +1,10 @@
+<link rel="stylesheet" data-href="https://dropinblog.com/css/shopify.css" type="text/css">
+{%- if dropinblog_page_title -%}
+    {%- assign page_title = dropinblog_page_title -%}
+{%- endif -%}
+{%- if dropinblog_page_description -%}
+    {%- assign page_description = dropinblog_page_description -%}
+{%- endif -%}
+{%- if dropinblog_og_image -%}
+    {%- capture og_image_secure_url_tags -%}{%- comment %}<locksmith:18bd>{% endcomment -%}{%- capture var %}{% render 'locksmith-variables', variable: 'transparent', hiding_scope: 'resource' %}{% endcapture %}{% if var == 'true' %}<meta property="og:image" content="{{ dropinblog_og_image }}">{% endif -%}{%- comment %}original: <meta property="og:image" content="{{ dropinblog_og_image }}">{%- endcomment %}{%- comment %}</locksmith:18bd>{% endcomment -%}{%- endcapture -%}
+{%- endif -%}

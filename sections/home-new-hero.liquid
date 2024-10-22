@@ -1,0 +1,155 @@
+<style type="text/css">
+img.hero_img_desktop{
+  max-height: 500px;
+  object-fit: cover;
+  object-position: top;
+}
+  #home_hero_img { width: 100%; height: fit-content; margin-top: 25px; }
+  .home_hero_inner { position: relative; width: 100%; height: 100%; background-size: 100%; background-repeat: no-repeat no-repeat; }
+  .home_hero_content h4{color:white; letter-spacing: 0.2em; font-weight: 600;}
+  h1.home_hero_title b { color: #FFF !important; }
+  .home_hero_cta { position: unset; margin: 25px 0px; width: 50%; font-size: 14px; padding: 7px 15px !important; text-transform: uppercase; border: 1px solid white; ; color: white; bottom: 15px; left: 0px; right: 0px; text-align: center; font-family: Gotham-bold; font-weight: 700; letter-spacing: 0.15em; }
+  .home_hero_cta2 { margin: 25px 0px; width: 50%; font-size: 18px; padding: 15px !important; text-transform: uppercase; border: 1px solid white; background-color: transparent; color: #FFFFFF; bottom: 15px; left: 0px; right: 0px; text-align: center; font-family: Gotham-bold; font-weight: 700; letter-spacing: 0.15em; }  
+  .home_hero_cta2 b { color: #FFF !important; }
+  .hero_cta.alt { display: block; }
+  
+  
+  @media only screen and (max-width: 1023px) {
+    .hero_img_mobile { display: block; width: 100%; }
+    .hero_img_desktop { display: none; }
+    .home_hero_content { position: absolute; height: 100%; width: 100%; top: 0px; bottom: 0px; }
+    h1.home_hero_title { position: absolute; bottom: 140px; width: 100%; text-align: center; font-family: Room205; line-height: 28px; color: rgb(255, 255, 255) !important; font-weight: normal; font-size: calc(3vw + 12px); letter-spacing: 0.1em; margin-bottom: 20px}
+    .home_hero_content p { position: absolute; bottom: 60px; width: 100%; padding: 0 15px; text-align: center; font-size: 16px; color: white; font-family: Gotham; line-height: 16px; }
+    .home_hero_content h4 {position: absolute; bottom: 200px; width: 100%; padding: 0 15px; text-align: center; font-size: 12px; color: white; font-family: Gotham-bold; line-height: 16px; letter-spacing: 0.2em; margin-bottom: 0px;}
+    .home_hero_cta { padding: 8px !important; border: 1px solid white; color: white; position: absolute; bottom: 15px; left: 0px; right: 0px; width: calc(100% - 40px); margin: auto; font-size: 14px; text-align: center; font-family: Gotham-bold; font-weight: 700; letter-spacing: 0.15em; padding-right: 0px !important; }
+    .home_hero_cta2 { margin: 25px auto; position: absolute; top: 0; bottom: auto; width: calc(100% - 40px); }
+    .home_hero_cta2:hover { background-color: inherit; color: #FFF; }
+  }
+                    
+  @media only screen and (min-width: 1024px) {
+    .home_hero_content { width: 33%; display: flex; flex-direction: column; justify-content: center; top: 0px; bottom: 0px; left: 10%; margin: auto; position: absolute; height: 100%; }
+    .home_hero_content p { position: unset; text-align: left; font-size: 16px; line-height: 1.5; margin-bottom: 8px; bottom: 60px; width: 100%; color: white; font-family: Gotham; font-weight: 300;}
+    h1.home_hero_title { position: unset; font-size: 42px; text-align: left; line-height: 1.3; margin: 0px; margin-bottom: 5px; color: #FFF !important; bottom: 140px; width: 100%; font-family: Room205; font-weight: normal; letter-spacing: 0.2em; }
+    .hero_img_desktop { display: block; width: 100%;}
+    .hero_img_mobile { display: none; width: 100%; height: auto; }
+    {% comment %} a.home_hero_cta::after { content: ""; background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTkiIGhlaWdodD0iOSIgdmlld0JveD0iMCAwIDE5IDkiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+DQogICAgPHBhdGggZD0iTTE4Ljg1MzYgNC44NTM1NUMxOS4wNDg4IDQuNjU4MjkgMTkuMDQ4OCA0LjM0MTcxIDE4Ljg1MzYgNC4xNDY0NUwxNS42NzE2IDAuOTY0NDY2QzE1LjQ3NjMgMC43NjkyMDQgMTUuMTU5NyAwLjc2OTIwNCAxNC45NjQ1IDAuOTY0NDY2QzE0Ljc2OTIgMS4xNTk3MyAxNC43NjkyIDEuNDc2MzEgMTQuOTY0NSAxLjY3MTU3TDE3Ljc5MjkgNC41TDE0Ljk2NDUgNy4zMjg0M0MxNC43NjkyIDcuNTIzNjkgMTQuNzY5MiA3Ljg0MDI3IDE0Ljk2NDUgOC4wMzU1M0MxNS4xNTk3IDguMjMwOCAxNS40NzYzIDguMjMwOCAxNS42NzE2IDguMDM1NTNMMTguODUzNiA0Ljg1MzU1Wk0wLjUgNUgxOC41VjRIMC41VjVaIiBmaWxsPSIjMTQxNDE0Ii8+DQogICAgPC9zdmc+); background-size: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: initial; background-repeat: no-repeat no-repeat; background-position: 10px 13px; width: 35px; height: 25px; position: absolute; top: unset; bottom: unset; } {% endcomment %}
+    .home_hero_cta:hover { background: black; color: white; transition: ease .2s; border-color: black; }
+    .home_hero_cta2:hover { background-color: inherit; color: #FFF; }
+    .home_hero_cta:hover:after {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTkiIGhlaWdodD0iOCIgdmlld0JveD0iMCAwIDE5IDgiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxwYXRoIGQ9Ik0xOC4zNTM2IDQuMzUzNTVDMTguNTQ4OCA0LjE1ODI5IDE4LjU0ODggMy44NDE3MSAxOC4zNTM2IDMuNjQ2NDVMMTUuMTcxNiAwLjQ2NDQ2NkMxNC45NzYzIDAuMjY5MjA0IDE0LjY1OTcgMC4yNjkyMDQgMTQuNDY0NSAwLjQ2NDQ2NkMxNC4yNjkyIDAuNjU5NzI4IDE0LjI2OTIgMC45NzYzMTEgMTQuNDY0NSAxLjE3MTU3TDE3LjI5MjkgNEwxNC40NjQ1IDYuODI4NDNDMTQuMjY5MiA3LjAyMzY5IDE0LjI2OTIgNy4zNDAyNyAxNC40NjQ1IDcuNTM1NTNDMTQuNjU5NyA3LjczMDggMTQuOTc2MyA3LjczMDggMTUuMTcxNiA3LjUzNTUzTDE4LjM1MzYgNC4zNTM1NVpNMCA0LjVIMThWMy41SDBWNC41WiIgZmlsbD0id2hpdGUiLz4KPC9zdmc+Cg==);}
+  }
+
+  @media screen and (min-width: 450px) {
+    .home_hero_content p{ line-height: 25px;}
+  }
+
+  @media screen and (max-width: 450px) {
+    .home_hero_content h4{ font-size: 14px}
+    .home_hero_content p{ font-size: 12px; font-weight: 300;}
+  }
+</style>
+<section class="home-new-hero">
+    <div id="home_hero_img">
+        <div class="home_hero_inner">
+          
+          {% if section.settings.product_showcase_mobile != blank %}
+            <img src="{{section.settings.product_showcase_mobile | img_url: 'master'}}" class="hero_img_mobile" alt="hero">
+          {% endif %}
+          {% if section.settings.product_showcase_image != blank %}
+            <img src="{{section.settings.product_showcase_image | img_url: 'master'}}" class="hero_img_desktop" alt="hero">
+          {% endif %}
+          {% if section.settings.overlay-enabled %}
+            <div class="gradient-overlay-home-hero"> </div>
+          {% endif %}
+          
+            <div class="home_hero_content new">
+              {% if section.settings.title != blank %}
+                  <h4 class="uppercase">{{section.settings.title}}</h4>
+                {% endif %}
+                {% if section.settings.new_hero_title != blank %}
+                <h1 class="home_hero_title uppercase">
+                    <b class="new-home-hero-text-fix">{{section.settings.new_hero_title}}</b> 
+                </h1>
+                {% endif %}
+                {% if section.settings.new_hero_text != blank %}
+                  <p class="new-home-hero-text-fix">{{section.settings.new_hero_text}}</p>
+                {% endif %}
+                {% if customer.tags contains "Wholesale Customer" or customer.tags contains "Wholesale COVID Min" or customer.tags contains "Wholesale Lower Min" or customer.tags contains "Wholesale No Minimum" or customer.tags contains "Wholesale Dist. Acct" %}
+                <a class="home_hero_cta border-rounded new-home-hero-text-fix" href="{{section.settings.cta_button_link | replace: 'all', 'wholesale'}}" style="">
+                {% else %}
+                  <a class="home_hero_cta border-rounded new-home-hero-text-fix" href="{{ section.settings.cta_button_link }}" style="">
+                {% endif %}
+                  {% if section.settings.cta_button_text != blank %}
+                    {{section.settings.cta_button_text}}
+                  {% else %}
+                    SHOP NOW
+                  {% endif %}
+                </a>
+                {% if section.settings.booster_button_text != blank %}
+                <a class="home_hero_cta2 alt" style="font-weight: lighter !important; text-transform: uppercase;">{{section.settings.booster_button_text}}</a>
+                {% endif %}
+            </div>
+        </div>
+    </div> 
+    <noscript>
+      <div class="hero hero--medium hero__overlay" style="background-image: url('//cdn.shopify.com/s/files/1/0124/3594/7616/files/kush-queen-holiday-gifts_2048x.jpg?v=1667316107'); background-position: center center;"></div>
+    </noscript>
+</section>
+{% schema %}
+{
+"name": "Home New Hero",
+"settings": [
+  {
+  "type": "checkbox",
+  "id": "overlay-enabled",
+  "label": "Image Gradient Overlay"
+  },
+{
+"type": "text",
+"id": "title",
+"label": "Title"
+},
+{
+"type": "text",
+"id": "new_hero_title",
+"label": "Main Benefit Title"
+},
+{
+"type": "text",
+"id": "new_hero_text",
+"label": "Main Benefit Text (max 180 chars)"
+},
+{
+"type": "text",
+"id": "cta_button_text",
+"label": "CTA Button Text"
+},
+{
+"type": "url",
+"id": "cta_button_link",
+"label": "CTA Button Link"
+},
+{
+"type": "text",
+"id": "booster_button_text",
+"label": "Booster Button Text"
+},
+{
+"type": "image_picker",
+"id": "product_showcase_image",
+"label": "Product Showcast Image"
+},
+{
+"type": "image_picker",
+"id": "product_showcase_mobile",
+"label": "Product Showcast Image (Mobile)"
+}
+],
+"presets": [
+{
+"name": "Home New Hero",
+"category": "Image"
+}
+]
+}
+{% endschema %}

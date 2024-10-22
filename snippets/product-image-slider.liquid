@@ -1,0 +1,89 @@
+<script type="lazyloaded">
+  
+  $(document).ready(function(){
+    console.log(typeof(slider()))
+    $(".swatch .swatch-element").click(function() {
+    //console.log(currentHeight);
+    //$('.set-1').css("border","0px");
+    $(this).siblings().removeClass("activeat");
+    $(this).addClass("activeat");
+    // $(this).removeClass("activeat");
+
+
+  });
+
+  var firstValue = $(".color li:first-child").attr("data-value");
+  $('.color-name').text(firstValue);
+
+  $('.color .swatch-element').click(function() {
+    var attri = $(this).attr("data-value");
+    $('.color-name').text(attri);
+
+  });
+  jQuery('.swatch :radio').change(function() {
+
+    var optionIndex = jQuery(this).closest('.swatch').attr('data-option-index');
+    var optionValue = jQuery(this).val();
+    jQuery(this)
+    .closest('form')
+    .find('.single-option-selector')
+    .eq(optionIndex)
+    .val(optionValue)
+    .trigger('change');
+  });
+
+  $(document).ready(function() {
+
+    if($('#parentHorizontalTab').length){
+      $('#parentHorizontalTab').easyResponsiveTabs({
+        type: 'default', 
+        width: 'auto', 
+        fit: true, 
+        tabidentify: 'hor_1', 
+        activate: function (event) { 
+          var $tab = $(this);
+          var $info = $('#nested-tabInfo');
+          var $name = $('span', $info);
+          $name.text($tab.text());
+          $info.show();
+        }
+      });
+    }
+
+
+
+  });
+
+  $(document).ready(function () {
+    var get_img_no = '';
+    $('.template-product').on('change', '.single-option-selector', function(e) {
+      get_img_no = $(this).data('my-custom-image');
+      get_img_no = $(".main-prd-var option:selected").data('my-custom-image');
+      if (get_img_no != '') {
+        $(".shop-slider-nav .slick-slide").each(function () {
+          var current_slide_img = $(this).find('img').data('my-custom-image');
+          if (get_img_no == current_slide_img) {
+            var get_current_slide_no = $(this).data('slick-index');
+            $('.shop-slider-nav').slick('slickGoTo', get_current_slide_no);
+          }
+        });
+        $(".prod-slider .slick-slide").each(function () {
+          var current_slide_img = $(this).find('img').data('my-custom-image');
+          if (get_img_no == current_slide_img) {
+            var get_current_slide_no = $(this).data('slick-index');
+            $('.prod-slider').slick('slickGoTo', get_current_slide_no);
+          }
+        });
+      }
+    });
+    
+//     $("#api-product-detail-tabs-content-div h2[role='tab']").removeAttr('aria-controls').attr({"role":"button", "tabindex":"0"});
+//     $("#api-product-detail-tabs-content-div .api-tab.resp-tab-content").removeAttr('aria-labelledby');
+
+
+
+  });
+  })
+  
+
+</script>

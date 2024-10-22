@@ -1,0 +1,161 @@
+{% comment %} Wholesale_Club_Product_Prices Start {% endcomment %}
+{% assign base_product = product %}
+{% assign base_variant = product.selected_or_first_available_variant %}
+
+{% if shop.metafields.sawholesale['base_price'] == blank %}
+  {% assign base_price = 'compare_at_price' %}
+{% else %}
+  {% assign base_price = shop.metafields.sawholesale['base_price'] %}
+{% endif %}
+
+{% assign saw_discount = 0 %}{% assign saw_has_discount = false %}
+
+{% if customer.tags != blank %}
+  {% for mf in base_product.metafields.sawholesale %}
+{%- comment -%} Wholesale_Club_Product_Visibility_For_Loop Start {%- endcomment -%}
+{%- capture hide_resource -%}{% render "wc_product_visibility", resource: mf %}{%- endcapture -%}
+{%- if hide_resource == "true" -%}
+  {% continue %}
+{%- endif -%}
+{%- comment -%} Wholesale_Club_Product_Visibility_For_Loop End {%- endcomment -%}
+
+    {% capture product_customer_tag %}{{ mf | first | replace: 'discount_', '' }}{% endcapture %}
+    {% if customer.tags contains product_customer_tag %}
+      {% assign saw_has_discount = true %}
+      {% assign discount_key = product_customer_tag | prepend: 'discount_' %}
+      {% assign price_key = product_customer_tag | prepend: 'price_' %}
+      {% assign saw_discount = base_product.metafields.sawholesale[discount_key] | divided_by: 100.0 %}
+    {% endif %}
+  {% endfor %}
+{% endif %}
+
+{% assign saw_discount = 1 | minus: saw_discount %}
+
+{% if base_price == 'price' or base_variant.compare_at_price == blank  or base_variant.compare_at_price == 0 or base_variant.compare_at_price < base_variant.price %}
+  {% assign saw_variant_compare_at_price = base_variant.price %}
+{% else %}
+  {% assign saw_variant_compare_at_price = base_variant.compare_at_price %}
+{% endif %}
+
+{% assign cpe = shop.metafields.sawholesale['cpe'] | default: "true" %}
+{% if base_variant.metafields.sawholesale[price_key] != blank and cpe == "true" %}
+  {% assign saw_variant_price = base_variant.metafields.sawholesale[price_key] %}
+{% else %}
+  {% assign saw_variant_price = saw_variant_compare_at_price | times: saw_discount %}
+{% endif %}
+
+{% if saw_has_discount == false or saw_variant_price >= saw_variant_compare_at_price %}
+  {% assign WCProduct_Price = base_product.price %}
+  {% assign WCProduct_ComparePrice = base_product.compare_at_price %}
+  {% assign WCProduct_PriceMin = base_product.price_min %}
+  {% assign WCProduct_ComparePriceMin = base_product.compare_at_price_min %}
+  {% assign WCProduct_PriceMax = base_product.price_max %}
+  {% assign WCProduct_ComparePriceMax = base_product.compare_at_price_max %}
+  {% assign WCProduct_VariantPrice = base_variant.price %}
+  {% assign WCProduct_VariantComparePrice = base_variant.compare_at_price %}
+{% else %}   
+  {% assign WCProduct_Price = saw_variant_price %}
+  {% assign WCProduct_PriceMin = base_product.price_min | times: saw_discount %}
+  {% assign WCProduct_PriceMax = base_product.price_max | times: saw_discount %}
+  {% assign WCProduct_ComparePrice = saw_variant_compare_at_price %}
+  {% if base_product.compare_at_price_min != 0 %}{% assign WCProduct_ComparePriceMin = base_product.compare_at_price_min %}{% else %}{% assign WCProduct_ComparePriceMin = base_product.price_min %}{% endif %}
+  {% if base_product.compare_at_price_max != 0 %}{% assign WCProduct_ComparePriceMax = base_product.compare_at_price_max %}{% else %}{% assign WCProduct_ComparePriceMax = base_product.price_max %}{% endif %}
+  {% assign WCProduct_VariantPrice = saw_variant_price %}
+  {% assign WCProduct_VariantComparePrice = saw_variant_compare_at_price %}
+{% endif %}
+{% comment %} Wholesale_Club_Product_Prices End {% endcomment %}
+<!-- /snippets/social-meta-tags.liquid -->
+{%- assign og_title = page_title -%}
+{%- assign og_url = canonical_url -%}
+{%- assign og_type = 'website' -%}
+{%- assign og_description = page_description | default: shop.description | default: shop.name -%}
+{% if settings.share_image %}
+  {%- capture og_image_tags -%}{%- comment %}<locksmith:262d>{% endcomment -%}{%- capture var %}{% render 'locksmith-variables', variable: 'transparent', hiding_scope: 'resource' %}{% endcapture %}{% if var == 'true' %}<meta property="og:image" content="http:{{ settings.share_image | img_url: '1200x1200' }}">{% endif -%}{%- comment %}original: <meta property="og:image" content="http:{{ settings.share_image | img_url: '1200x1200' }}">{%- endcomment %}{%- comment %}</locksmith:262d>{% endcomment -%}{%- endcapture -%}
+  {%- capture og_image_secure_url_tags -%}{%- comment %}<locksmith:6fd3>{% endcomment -%}{%- capture var %}{% render 'locksmith-variables', variable: 'transparent', hiding_scope: 'resource' %}{% endcapture %}{% if var == 'true' %}<meta property="og:image:secure_url" content="https:{{ settings.share_image | img_url: '1200x1200' }}">{% endif -%}{%- comment %}original: <meta property="og:image:secure_url" content="https:{{ settings.share_image | img_url: '1200x1200' }}">{%- endcomment %}{%- comment %}</locksmith:6fd3>{% endcomment -%}{%- endcapture -%}
+{% endif %}
+
+{% comment %} Template specific overides {% endcomment %}
+{% if request.page_type == 'product' %}
+  {%- assign og_title = product.title | strip_html -%}
+  {%- assign og_type = 'product' -%}
+  {% if product.images.size > 0 %}
+    {%- capture og_image_tags -%}{% for image in product.images limit:3 -%}{%- comment %}<locksmith:21ac>{% endcomment -%}{%- capture var %}{% render 'locksmith-variables', variable: 'transparent', hiding_scope: 'resource' %}{% endcapture %}{% if var == 'true' %}<meta property="og:image" content="http:{{ image.src | product_img_url: '1200x1200' }}">{% endif -%}{%- comment %}original: <meta property="og:image" content="http:{{ image.src | product_img_url: '1200x1200' }}">{%- endcomment %}{%- comment %}</locksmith:21ac>{% endcomment -%}{% endfor -%}{% endcapture -%}
+{%- comment -%} Wholesale_Club_Product_Visibility_For_Loop Start {%- endcomment -%}
+{%- capture hide_resource -%}{% render "wc_product_visibility", resource: image %}{%- endcapture -%}
+{%- if hide_resource == "true" -%}
+  {% continue %}
+{%- endif -%}
+{%- comment -%} Wholesale_Club_Product_Visibility_For_Loop End {%- endcomment -%}
+
+    {%- capture og_image_secure_url_tags -%}{% for image in product.images limit:3 -%}{%- comment %}<locksmith:edef>{% endcomment -%}{%- capture var %}{% render 'locksmith-variables', variable: 'transparent', hiding_scope: 'resource' %}{% endcapture %}{% if var == 'true' %}<meta property="og:image:secure_url" content="https:{{ image.src | product_img_url: '1200x1200' }}">{% endif -%}{%- comment %}original: <meta property="og:image:secure_url" content="https:{{ image.src | product_img_url: '1200x1200' }}">{%- endcomment %}{%- comment %}</locksmith:edef>{% endcomment -%}{% endfor -%}{% endcapture -%}
+{%- comment -%} Wholesale_Club_Product_Visibility_For_Loop Start {%- endcomment -%}
+{%- capture hide_resource -%}{% render "wc_product_visibility", resource: image %}{%- endcapture -%}
+{%- if hide_resource == "true" -%}
+  {% continue %}
+{%- endif -%}
+{%- comment -%} Wholesale_Club_Product_Visibility_For_Loop End {%- endcomment -%}
+
+  {% endif %}
+
+{% elsif request.page_type == 'article' %}
+  {%- assign og_title = article.title | strip_html -%}
+  {%- assign og_type = 'article' -%}
+  {%- assign og_description = article.excerpt_or_content | strip_html -%}
+  {% if article.image %}
+    {%- capture og_image_tags -%}  {%- comment %}<locksmith:93b1>{% endcomment -%}{%- capture var %}{% render 'locksmith-variables', variable: 'transparent', hiding_scope: 'resource' %}{% endcapture %}{% if var == 'true' %}<meta property="og:image" content="http:{{ article.image | img_url: '1200x1200' }}">{% endif -%}{%- comment %}original: <meta property="og:image" content="http:{{ article.image | img_url: '1200x1200' }}">{%- endcomment %}{%- comment %}</locksmith:93b1>{% endcomment -%}  {%- endcapture -%}
+    {%- capture og_image_secure_url_tags -%}{%- comment %}<locksmith:99c8>{% endcomment -%}{%- capture var %}{% render 'locksmith-variables', variable: 'transparent', hiding_scope: 'resource' %}{% endcapture %}{% if var == 'true' %}<meta property="og:image:secure_url" content="https:{{ article.image | img_url: '1200x1200' }}">{% endif -%}{%- comment %}original: <meta property="og:image:secure_url" content="https:{{ article.image | img_url: '1200x1200' }}">{%- endcomment %}{%- comment %}</locksmith:99c8>{% endcomment -%}{%- endcapture -%}
+  {% endif %}
+
+{% elsif request.page_type == 'collection' %}
+  {%- assign og_title = collection.title | strip_html -%}
+  {%- assign og_type = 'product.group' -%}
+  {% if collection.image %}
+    {%- capture og_image_tags -%}  {%- comment %}<locksmith:d101>{% endcomment -%}{%- capture var %}{% render 'locksmith-variables', variable: 'transparent', hiding_scope: 'resource' %}{% endcapture %}{% if var == 'true' %}<meta property="og:image" content="http:{{ collection.image | img_url: '1200x1200' }}">{% endif -%}{%- comment %}original: <meta property="og:image" content="http:{{ collection.image | img_url: '1200x1200' }}">{%- endcomment %}{%- comment %}</locksmith:d101>{% endcomment -%}  {%- endcapture -%}
+    {%- capture og_image_secure_url_tags -%}{%- comment %}<locksmith:7c1f>{% endcomment -%}{%- capture var %}{% render 'locksmith-variables', variable: 'transparent', hiding_scope: 'resource' %}{% endcapture %}{% if var == 'true' %}<meta property="og:image:secure_url" content="https:{{ collection.image | img_url: '1200x1200' }}">{% endif -%}{%- comment %}original: <meta property="og:image:secure_url" content="https:{{ collection.image | img_url: '1200x1200' }}">{%- endcomment %}{%- comment %}</locksmith:7c1f>{% endcomment -%}{%- endcapture -%}
+  {% endif %}
+
+{% elsif request.page_type == 'password' %}
+  {%- assign og_title = shop.name -%}
+  {%- assign og_url = shop.url -%}
+  {%- assign og_description = shop.description | default: shop.name -%}
+{% endif %}
+
+<meta property="og:site_name" content="{{ shop.name }}">
+<meta property="og:url" content="{{ og_url }}">
+{%- comment %}<locksmith:7570>{% endcomment -%}
+  {%- capture var %}{% render 'locksmith-variables', variable: 'transparent', hiding_scope: 'resource' %}{% endcapture %}{% if var == 'true' %}<meta property="og:title" content="{{ og_title }}">{% endif -%}
+  {%- comment %}original: <meta property="og:title" content="{{ og_title }}">{%- endcomment %}
+{%- comment %}</locksmith:7570>{% endcomment -%}
+{%- comment %}<locksmith:7062>{% endcomment -%}
+  {%- capture var %}{% render 'locksmith-variables', variable: 'transparent', hiding_scope: 'resource' %}{% endcapture %}{% if var == 'true' %}<meta property="og:type" content="{{ og_type }}">{% endif -%}
+  {%- comment %}original: <meta property="og:type" content="{{ og_type }}">{%- endcomment %}
+{%- comment %}</locksmith:7062>{% endcomment -%}
+{%- comment %}<locksmith:cfdc>{% endcomment -%}
+  {%- capture var %}{% render 'locksmith-variables', variable: 'transparent', hiding_scope: 'resource' %}{% endcapture %}{% if var == 'true' %}<meta property="og:description" content="{{ og_description }}">{% endif -%}
+  {%- comment %}original: <meta property="og:description" content="{{ og_description }}">{%- endcomment %}
+{%- comment %}</locksmith:cfdc>{% endcomment -%}
+{% if request.page_type == 'product' %}
+  {%- comment %}<locksmith:70ee>{% endcomment -%}
+    {%- capture var %}{% render 'locksmith-variables', variable: 'access_granted' %}{% endcapture %}{% if var == 'true' %}<meta property="og:price:amount" content="{{ WCProduct_Price | money_without_currency | strip_html }}">{% endif -%}
+    {%- comment %}original: <meta property="og:price:amount" content="{{ WCProduct_Price | money_without_currency | strip_html }}">{%- endcomment %}
+  {%- comment %}</locksmith:70ee>{% endcomment -%}
+  {%- comment %}<locksmith:f372>{% endcomment -%}
+    {%- capture var %}{% render 'locksmith-variables', variable: 'access_granted' %}{% endcapture %}{% if var == 'true' %}<meta property="og:price:currency" content="{{ cart.currency.iso_code }}">{% endif -%}
+    {%- comment %}original: <meta property="og:price:currency" content="{{ cart.currency.iso_code }}">{%- endcomment %}
+  {%- comment %}</locksmith:f372>{% endcomment -%}
+{% endif %}
+{{ og_image_tags }}
+{{ og_image_secure_url_tags }}
+
+{% unless settings.social_twitter_link == blank %}
+  <meta name="twitter:site" content="{{ settings.social_twitter_link | split: 'twitter.com/' | last | prepend: '@' }}">
+{% endunless %}
+<meta name="twitter:card" content="summary_large_image">
+{%- comment %}<locksmith:ec90>{% endcomment -%}
+  {%- capture var %}{% render 'locksmith-variables', variable: 'transparent', hiding_scope: 'resource' %}{% endcapture %}{% if var == 'true' %}<meta name="twitter:title" content="{{ og_title }}">{% endif -%}
+  {%- comment %}original: <meta name="twitter:title" content="{{ og_title }}">{%- endcomment %}
+{%- comment %}</locksmith:ec90>{% endcomment -%}
+{%- comment %}<locksmith:21ce>{% endcomment -%}
+  {%- capture var %}{% render 'locksmith-variables', variable: 'transparent', hiding_scope: 'resource' %}{% endcapture %}{% if var == 'true' %}<meta name="twitter:description" content="{{ og_description }}">{% endif -%}
+  {%- comment %}original: <meta name="twitter:description" content="{{ og_description }}">{%- endcomment %}
+{%- comment %}</locksmith:21ce>{% endcomment -%}

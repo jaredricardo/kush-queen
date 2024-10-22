@@ -1,0 +1,16 @@
+<!-- **BEGIN** Hextom USB Integration // Collection - DO NOT MODIFY -->
+    <span class="htusb-ui-boost htusb-ui-coll-boost htusb-data"
+        data-v1="{{ product.id }}"
+        data-v2="{{ product.handle }}"
+        data-v3="{{ product.product_type }}"
+        data-v4="{% if product.tags %}{% for tag in product.tags %}{{ tag | escape | split: "" | reverse | join: "" }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endif %}
+{%- comment -%} Wholesale_Club_Product_Visibility_For_Loop Start {%- endcomment -%}
+{%- capture hide_resource -%}{% render "wc_product_visibility", resource: tag %}{%- endcapture -%}
+{%- if hide_resource == "true" -%}
+  {% continue %}
+{%- endif -%}
+{%- comment -%} Wholesale_Club_Product_Visibility_For_Loop End {%- endcomment -%}
+"
+    >
+    </span>
+<!-- **END** Hextom USB Integration // Collection - DO NOT MODIFY -->

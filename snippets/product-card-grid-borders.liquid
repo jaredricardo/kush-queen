@@ -1,0 +1,220 @@
+
+{% comment %} Wholesale_Club_Product_Prices Start {% endcomment %}
+{% assign base_product = product %}
+{% assign base_variant = product.selected_or_first_available_variant %}
+
+{% if shop.metafields.sawholesale['base_price'] == blank %}
+  {% assign base_price = 'compare_at_price' %}
+{% else %}
+  {% assign base_price = shop.metafields.sawholesale['base_price'] %}
+{% endif %}
+
+{% assign saw_discount = 0 %}{% assign saw_has_discount = false %}
+
+{% if customer.tags != blank %}
+  {% for mf in base_product.metafields.sawholesale %}
+    {% capture product_customer_tag %}{{ mf | first | replace: 'discount_', '' }}{% endcapture %}
+    {% if customer.tags contains product_customer_tag %}
+      {% assign saw_has_discount = true %}
+      {% assign discount_key = product_customer_tag | prepend: 'discount_' %}
+      {% assign price_key = product_customer_tag | prepend: 'price_' %}
+      {% assign saw_discount = base_product.metafields.sawholesale[discount_key] | divided_by: 100.0 %}
+    {% endif %}
+  {% endfor %}
+{% endif %}
+
+{% assign saw_discount = 1 | minus: saw_discount %}
+
+{% if base_price == 'price' or base_variant.compare_at_price == blank  or base_variant.compare_at_price == 0 or base_variant.compare_at_price < base_variant.price %}
+  {% assign saw_variant_compare_at_price = base_variant.price %}
+{% else %}
+  {% assign saw_variant_compare_at_price = base_variant.compare_at_price %}
+{% endif %}
+
+{% assign cpe = shop.metafields.sawholesale['cpe'] | default: "true" %}
+{% if base_variant.metafields.sawholesale[price_key] != blank and cpe == "true" %}
+  {% assign saw_variant_price = base_variant.metafields.sawholesale[price_key] %}
+{% else %}
+  {% assign saw_variant_price = saw_variant_compare_at_price | times: saw_discount %}
+{% endif %}
+
+{% if saw_has_discount == false or saw_variant_price >= saw_variant_compare_at_price %}
+  {% assign WCProduct_Price = base_product.price %}
+  {% assign WCProduct_ComparePrice = base_product.compare_at_price %}
+  {% assign WCProduct_PriceMin = base_product.price_min %}
+  {% assign WCProduct_ComparePriceMin = base_product.compare_at_price_min %}
+  {% assign WCProduct_PriceMax = base_product.price_max %}
+  {% assign WCProduct_ComparePriceMax = base_product.compare_at_price_max %}
+  {% assign WCProduct_VariantPrice = base_variant.price %}
+  {% assign WCProduct_VariantComparePrice = base_variant.compare_at_price %}
+{% else %}   
+  {% assign WCProduct_Price = saw_variant_price %}
+  {% assign WCProduct_PriceMin = base_product.price_min | times: saw_discount %}
+  {% assign WCProduct_PriceMax = base_product.price_max | times: saw_discount %}
+  {% assign WCProduct_ComparePrice = saw_variant_compare_at_price %}
+  {% if base_product.compare_at_price_min != 0 %}{% assign WCProduct_ComparePriceMin = base_product.compare_at_price_min %}{% else %}{% assign WCProduct_ComparePriceMin = base_product.price_min %}{% endif %}
+  {% if base_product.compare_at_price_max != 0 %}{% assign WCProduct_ComparePriceMax = base_product.compare_at_price_max %}{% else %}{% assign WCProduct_ComparePriceMax = base_product.price_max %}{% endif %}
+  {% assign WCProduct_VariantPrice = saw_variant_price %}
+  {% assign WCProduct_VariantComparePrice = saw_variant_compare_at_price %}
+{% endif %}
+{% comment %} Wholesale_Club_Product_Prices End {% endcomment %}
+
+
+
+
+{%- assign current_variant = product.selected_or_first_available_variant -%}
+<div class="colgrid item {% unless product.available %} product-price--sold-out grid-view-item--sold-out{% endunless %}"> 
+  <div class=" prod-wrap-card border-rounded">
+    <div class="microfull covermicroful">
+      <div class="prod-img">
+        <a class="img-effect" href="{{product.url | within:collection}}">
+          <img class="first_img lazyload border-top-rounded" src="data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'%20width='{{ product.featured_image.width }}'%20height='{{ product.featured_image.height }}'></svg>" data-src="{{ product.featured_image.src | img_url: '1024x1024' }}" alt="{{ featured.featured_image.alt | escape }}">
+          {% if product.images[1].src != blank %}
+          <img class="hidden1 lazyload border-top-rounded" src="data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'%20width='{{ product.images[1].width }}'%20height='{{ product.images[1].height }}'></svg>" data-src="{{ product.images[1].src | img_url: '1024x1024' }}" alt="" />  
+          {% endif %}
+          <span class="visually-hidden">{{product.title}}</span>
+        </a>   
+       {%- comment -%} {% unless current_variant.available %}
+          <div class="showrestock">
+            <h1 class="outofstock">
+              Out Of Stock
+            </h1>
+            <a href="mailto:{{shop.email}}?subject=Request+for+Restock Product&body={{shop.url}}{{product.url | within: collection}}">Request Restock</a>
+          </div>
+        {% else %}
+          {% if product.variants.size > 1 %}
+             <div class="showoption">
+               
+                    
+                  <a href="{{product.url | within:collection}}"  class="addtocart1" aria-label="Select Option - {{product.title}}" >+ Select Option  </a>
+
+            </div>
+           
+          {% else %}
+          		ADD TO CART FORM FROM ORIGIONAL SECTION CODE
+            <div class="showoption">
+               <form method="post" action="/cart/add" data-productid="{{ product.id }}">
+				
+				{% if product.available %}{% include 'subscription-product' %}{% endif %}
+                 
+                    <input type="hidden" name="id" data-productid="{{ product.id }}" value="{{ product.variants.first.id }}" />
+                  <button type="submit" aria-label="Add to cart -  {{product.title}}" data-title="{{product.title}}" data-src="{{ product.featured_image.src | img_url: '1024x1024' }}" class="addtocart {% unless product.available %} soldout-img {% endunless %}" {% unless product.available %} disabled="disabled" {% endunless %}>+ Add to cart  </button>
+
+             </form>
+            </div>
+           	
+          {% endif %}
+          
+        {% endunless %}{%- endcomment -%}	
+      </div>
+      <div class="prod-content card">
+        <div class="block-inline">
+          <div class="product-card-content title-wish ">
+            <h5 role="heading" aria-level="3" class="prod-title new"> <a class="product-card-link-wrap" href="{{ product.url | within: collection }}">
+                <span class="product-card-link-text bold">
+                  {{ product.title | split: ' ' | first }} {{ product.title | split: ' ' | slice: 1,1 }}
+                </span> <br>
+                <span class="product-card-link-text">
+                  {{ product.title | split: ' ' | slice: 2, 15 | join: ' '}} 
+                </span>
+              </a></h5>
+            <div class="prod-price-card">
+                {% if product.variants.size > 1 %}
+               	   {% if WCProduct_PriceMax > WCProduct_PriceMin %}	
+               		{{ WCProduct_PriceMax | money }} - {{ WCProduct_PriceMin | money }} 
+               	   {% else %}
+               		 {% include 'product-price', variant: product %}	
+                   {% endif %}
+               	{% else %}
+                {% include 'product-price', variant: product %}
+                
+              	{% endif %} 
+              </div> 
+            {% comment %} <div class="ruk_rating_snippet" data-sku="{{ product.handle }};{{ product.variants | map: 'sku' | join: ';' }};{{ product.variants | map: 'id' | join: ';' }}"></div> {% endcomment %}
+             
+          </div>
+          {% comment %} <div class="ruk_rating_snippet" data-sku="[Multiple SKUs Seperated by Semi-Colons e.g "sku1;sku2;" ]"></div> {% endcomment %}
+            <div class="ruk_rating_snippet" data-sku="{{ product.handle }};{{ product.variants | map: 'sku' | join: ';' }};{{ product.variants | map: 'id' | join: ';' }}"></div>
+          
+        </div>
+      </div>
+      <div class="product-card-cta">
+        <a class="product-card-cta-link" href="{{ product.url | within: collection }}"> SHOP NOW</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+
+  .ruk_rating_snippet {
+  
+    text-align: center;
+  
+  }
+
+  i.ruk-icon-percentage-star--100,i.ruk-icon-percentage-star--75,i.ruk-icon-percentage-star--50,i.ruk-icon-percentage-star--25 {
+    color: #7c6f4c !important;
+}
+
+</style>
+
+<script src="https://widget.reviews.io/rating-snippet/dist.js"></script>
+<link rel="stylesheet" href="https://widget.reviews.io/rating-snippet/dist.css"/>
+<script>
+ratingSnippet("ruk_rating_snippet", {
+  store: "kush-queen",
+  mode: "default",
+  color: "#7C6F4C",
+  linebreak: false,
+  text: "Reviews",
+  singularText: "Review",
+  lang: "en",
+  usePolaris: true,
+  showEmptyStars: false,
+});
+</script>
+<script>
+  $(document).ready(function() {
+      var touchStartX = 0;
+      var touchEndX = 0;
+      var slider = $('.slider');
+      var slides = $('.slide');
+      var currentSlide = 0;
+      var slideWidth = slides.width();
+      var slidesCount = slides.length;
+
+  slider.on('touchstart', function(e) {
+    touchStartX = e.originalEvent.touches[0].clientX;
+  });
+
+  slider.on('touchend', function(e) {
+    touchEndX = e.originalEvent.changedTouches[0].clientX;
+    handleTouch();
+  });
+
+  function handleTouch() {
+    if (touchStartX > touchEndX) {
+      currentSlide++;
+      if (currentSlide >= slidesCount) {
+        currentSlide = slidesCount - 1;
+        return;
+      }
+    } else {
+      currentSlide--;
+      if (currentSlide < 0) {
+        currentSlide = 0;
+        return;
+      }
+    }
+    moveSlider();
+  }
+
+  function moveSlider() {
+    slider.animate({
+      left: -currentSlide * slideWidth
+    });
+  }
+
+  });
+</script>

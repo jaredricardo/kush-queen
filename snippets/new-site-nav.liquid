@@ -1,0 +1,46 @@
+  <ul class="top-level-menu heading-menu primary-navbar">
+    {% for block in section.blocks %}
+
+    {% assign link_active_chck = shop.url | append: block.settings.link %}
+    <li class="{% if canonical_url == link_active_chck %}active{% endif %}{% case block.type %}{% when 'link-linklist' %} mega-dropdown has-submenu{% endcase %}">
+      <a {% if canonical_url == link_active_chck %}aria-current="page"{% endif %} {% case block.type %}{% when 'link-linklist' %} aria-expanded="false"{% endcase %} class="{% case block.type %}{% when 'link-linklist' %} expandable-link-a11y{% endcase %} common-transition{% if canonical_url == link_active_chck %} active{% endif %}" href="{{block.settings.link}}">
+        {{block.settings.title}}
+        {% if block.settings.links.size > 0 %}
+        <span class="submenu-dropdown ion-ios-arrow-down" data-submenu="menu_{{ block.id }}-{{ i }}"></span>
+        {% endif %}
+      </a>
+
+      {% case block.type %}
+      {% when 'link-linklist' %}
+      {% if block.settings.links.size > 0 %}
+      <div class="menu-dropdown mega-menu-dropdown style-1 top-level-drop">
+        {%- assign links_small = block.settings.links -%}
+        <ul class="ms-category-level second-level-menu">
+          {% for link in linklists[links_small].links %}
+          {%- comment %}<locksmith:0008>{% endcomment -%}
+            {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: link, subject_parent: linklists[links_small], variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
+          {%- comment %}</locksmith:0008>{% endcomment -%}
+          <li class="col-category level-1">
+            <a class="form-group{% if link.active %} active{% endif %}" href="{{link.url}}">
+              {{link.title}}
+            </a>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+      {% endif %}
+      {% endcase %}
+    </li>
+    {% endfor %}
+
+    {% if customer and customer.b2b? %}
+        <li class="">
+              <a class=" common-transition" href="/collections/collections-whl">
+                Exclusive
+              </a>   
+        </li>
+    {% endif %}
+
+
+    
+  </ul>

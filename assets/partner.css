@@ -1,0 +1,150 @@
+/* font-family: Eina03, Helvetica Neue, helvetica, arial, sans-serif; */ 
+
+/* font-family: Eina03; */ 
+
+.sec-space-both { 
+  padding:60px 0px; 
+} 
+.sec-space-top { padding-top:60px; } 
+.sec-space-bottom { padding-bottom:60px; } 
+
+.sec-heading { margin-bottom:0.5rem; } 
+.sec-heading h1 { 
+  font-size:40px; 
+  font-weight: 700; 
+} 
+
+.partner-box-in h4 {  
+  font-weight: 600; 
+  text-transform: uppercase; 
+  margin-bottom:16px; 
+  color:#5b5b5b; 
+  font-size:18px; 
+  line-height:normal; 
+}
+.partner-img {
+  padding-bottom:33px; 
+  position: relative;
+  margin:0 10px 22px 10px;
+  text-align:center;
+} 
+.partner-img::before {
+  position: absolute;
+  content: "";
+  background: #969696;
+  width: 30px;
+  height: 1px;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+} 
+.partner-img::after {
+  position: absolute;
+  content: "";
+  bottom: 5px;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  background: #969696;
+  width: 20px;
+  height: 1px;
+}
+
+
+
+/* wholesale */ 
+.wholesale-cnt { text-align:center; }
+.wholesale-cnt iframe { 
+  margin:0 auto;
+}
+
+
+/* Register css start */
+.affwp-form label { 
+  color:#222;
+  display: block;
+  margin-bottom: 1rem;
+  font-size:15px;
+  text-transform: capitalize;
+  font-family: Eina03; 
+  font-weight:400;
+  /*   cursor:pointer;  */
+} 
+
+.affwp-form input {
+  color:#666666;
+  font-size:16px;
+  /*   border: 1px solid #f6f6f6; */
+  border:1px solid #eaeaea;
+  display:block;
+  width:100%; 
+  padding:12px 15px;
+  background-color: #f6f6f6;
+  border-radius:0;
+  font-family: Eina03;
+  font-weight:300;
+  line-height:28px;
+}
+.affwp-form input[type=checkbox] {
+  display: inline-block;
+} 
+
+.affwp-form button, input[type="submit"], input[type="reset"], input[type="button"] {
+  background-color:#eb7025; 
+  color: #fff;
+  border-radius:0px; 
+  font-size:16px; 
+  line-height:28px; 
+  display:inline-block;
+  font-weight: 600;
+  text-align: center;
+  text-transform: capitalize;
+  vertical-align: middle;
+  border:1px solid transparent;
+  letter-spacing:1px;
+  padding:10px 20px 12px 20px; 
+}
+
+.affwp-lost-password {
+  font-size:16px; 
+}
+.form-title {
+  font-weight:400;
+  font-size:19px;
+  margin-bottom:20px;
+}
+
+
+
+
+
+
+
+
+/*=======Responsive Start=======*/
+
+@media(max-width:749px){  
+  .partner-box {
+    margin-bottom:30px;
+  } 
+  .affwp-form input {
+    padding:8px 15px;
+  }  
+  .sec-heading h1 { margin:0; }
+  .sec-space-both {
+    padding:30px 0px; 
+  } 
+} 
+
+@media(max-width:480px){ 
+  .wholesale-cnt .freebirdFormviewerViewItemsItemItemTitle {
+    font-size:17px !important; 
+  }  
+  .form-title {
+    font-size:18px; 
+  }
+
+}
+
+
