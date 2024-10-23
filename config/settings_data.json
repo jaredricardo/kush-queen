@@ -1203,22 +1203,6 @@
               "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/COA_Sour_Suver_Haze_VAPE.pdf?v=1694823782"
             }
           },
-          "labtest_AcD8W7": {
-            "type": "labtest",
-            "settings": {
-              "banner_btm_img": "shopify://shop_images/Screenshot_2024-06-06_at_4.03.47_PM.png",
-              "banner_btm_tp_text": "Hawaiian Haze CBD Pre-Roll",
-              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/Hawaiian_Haze_Pre_Roll.pdf?v=1717714811"
-            }
-          },
-          "labtest_eXREUX": {
-            "type": "labtest",
-            "settings": {
-              "banner_btm_img": "shopify://shop_images/Screenshot_2024-05-14_at_11.44.15_AM.png",
-              "banner_btm_tp_text": "Lemon Octane CBD Pre-Roll",
-              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/Lemon_Octane_Pre_Roll.pdf?v=1717714811"
-            }
-          },
           "7c15f73a-224a-4049-9b12-87b54df3e038": {
             "type": "labtest",
             "settings": {
@@ -1294,8 +1278,6 @@
           "1580317991671",
           "e2852aba-c7ac-494f-964b-825b024535dc",
           "47c979a9-0567-4466-96d2-122daf4c8268",
-          "labtest_AcD8W7",
-          "labtest_eXREUX",
           "7c15f73a-224a-4049-9b12-87b54df3e038",
           "labtest_UWagGR",
           "labtest_8xLKd6"
