@@ -1226,6 +1226,30 @@
               "banner_btm_tp_text": "Permanent Marker THCa Flower",
               "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/COA_-_Perm_Marker_2024.jpg?v=1729705093"
             }
+          },
+          "labtest_DEanR4": {
+            "type": "labtest",
+            "settings": {
+              "banner_btm_img": "shopify://shop_images/Screenshot_2024-10-23_at_11.23.36_AM.png",
+              "banner_btm_tp_text": "Zkittles THCa Flower",
+              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/Zkittles_COA.jpg?v=1729707781"
+            }
+          },
+          "labtest_YChPG8": {
+            "type": "labtest",
+            "settings": {
+              "banner_btm_img": "shopify://shop_images/Screenshot_2024-10-23_at_11.23.45_AM.png",
+              "banner_btm_tp_text": "White Runtz THCa Flower",
+              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/Runtz_COA.jpg?v=1729707781"
+            }
+          },
+          "labtest_JBPAYf": {
+            "type": "labtest",
+            "settings": {
+              "banner_btm_img": "shopify://shop_images/Screenshot_2024-10-23_at_11.23.17_AM.png",
+              "banner_btm_tp_text": "THCa AAA Buds Joints",
+              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/AAA_Joints_COA.pdf?v=1729707780"
+            }
           }
         },
         "block_order": [
@@ -1280,7 +1304,10 @@
           "47c979a9-0567-4466-96d2-122daf4c8268",
           "7c15f73a-224a-4049-9b12-87b54df3e038",
           "labtest_UWagGR",
-          "labtest_8xLKd6"
+          "labtest_8xLKd6",
+          "labtest_DEanR4",
+          "labtest_YChPG8",
+          "labtest_JBPAYf"
         ],
         "settings": {
         }
