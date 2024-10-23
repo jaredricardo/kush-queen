@@ -296,19 +296,12 @@
               "link": "https://kushqueen.shop/collections/all-cannabis-products"
             }
           },
-          "simple_link_NV3HhV": {
-            "type": "simple_link",
+          "link_linklist_ewiB9C": {
+            "type": "link-linklist",
             "settings": {
               "title": "Bundles",
-              "link": "shopify://collections/bundles"
-            }
-          },
-          "47dbf579-c272-4855-88fa-280f24e2846e": {
-            "type": "simple_link",
-            "disabled": true,
-            "settings": {
-              "title": "Flash Sale",
-              "link": "shopify://collections/flash-sale"
+              "link": "https://kushqueen.shop/collections/bundles",
+              "links": "bundles"
             }
           },
           "1f88e979-3c5b-443f-a00d-d626dc78106f": {
@@ -317,14 +310,6 @@
               "title": "Bath Bombs",
               "link": "shopify://collections/bath-bombs-near-me",
               "links": "bath-bombs"
-            }
-          },
-          "1580399341315": {
-            "type": "simple_link",
-            "disabled": true,
-            "settings": {
-              "title": "Bath Bombs",
-              "link": "shopify://collections/cbd-bath-bombs"
             }
           },
           "1571826560796": {
@@ -370,10 +355,8 @@
         },
         "block_order": [
           "12932e08-fa41-4c58-867f-e78e4087aa74",
-          "simple_link_NV3HhV",
-          "47dbf579-c272-4855-88fa-280f24e2846e",
+          "link_linklist_ewiB9C",
           "1f88e979-3c5b-443f-a00d-d626dc78106f",
-          "1580399341315",
           "1571826560796",
           "32f1f937-10ad-4ae8-a64b-705364661315",
           "779aa32a-4620-41dc-ba84-481a090c20d7",
