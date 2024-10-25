@@ -1290,7 +1290,8 @@ i.fa.opened.fa-chevron-up{
   /*  text-decoration: line-through;*/
   font-weight: 300;
 }
-.gem-price .price-item {
+.gem-price .price-item,
+.gem-price .price-item--no-skio-target {
   font-weight: 600;
   font-size: 14px;
   font-size: 28px;
