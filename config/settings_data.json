@@ -200,7 +200,7 @@
             "type": "select",
             "settings": {
               "sec_heading": "Privacy Policy",
-              "large_text": "<p>Last updated: January 2nd, 2018</p>\n<p>Kush Queen Shop (“us”, “we”, or “our”) operates http://www.KushQueen.Shop (the “Site”). This page informs you of our policies regarding the collection, use and disclosure of Personal Information we receive from users of the Site.</p>\n<p>We use your Personal Information only for providing and improving the Site. By using the Site, you agree to the collection and use of information in accordance with this policy.</p>"
+              "large_text": "<p>Last updated: January 2nd, 2024</p>\n<p>Kush Queen Shop (“us”, “we”, or “our”) operates http://www.KushQueen.Shop (the “Site”). This page informs you of our policies regarding the collection, use and disclosure of Personal Information we receive from users of the Site.</p>\n<p>We use your Personal Information only for providing and improving the Site. By using the Site, you agree to the collection and use of information in accordance with this policy.</p>"
             }
           },
           "1571813168863": {
@@ -242,14 +242,21 @@
             "type": "select",
             "settings": {
               "sec_heading": "Changes To This Privacy Policy",
-              "large_text": "<p>This Privacy Policy is effective as of June 9th, 2017 and will remain in effect except with respect to any changes in its provisions in the future, which will be in effect immediately after being posted on this page.</p>\n<p>We reserve the right to update or change our Privacy Policy at any time and you should check this Privacy Policy periodically. Your continued use of the Service after we post any modifications to the Privacy Policy on this page will constitute your acknowledgment of the modifications and your consent to abide and be bound by the modified Privacy Policy.</p>\n<p>If we make any material changes to this Privacy Policy, we will notify you either through the email address you have provided us, or by placing a prominent notice on our website</p>\n<p>TK Queens, LLC Registration #2017135101</p>\n<p>©2018 Kush Queen Shop</p>"
+              "large_text": "<p>This Privacy Policy is effective as of June 9th, 2017 and will remain in effect except with respect to any changes in its provisions in the future, which will be in effect immediately after being posted on this page.</p>\n<p>We reserve the right to update or change our Privacy Policy at any time and you should check this Privacy Policy periodically. Your continued use of the Service after we post any modifications to the Privacy Policy on this page will constitute your acknowledgment of the modifications and your consent to abide and be bound by the modified Privacy Policy.</p>\n<p>If we make any material changes to this Privacy Policy, we will notify you either through the email address you have provided us, or by placing a prominent notice on our website</p>\n<p>TK Queens, LLC Registration #2017135101</p>\n<p>©2024 Kush Queen Shop</p>"
+            }
+          },
+          "select_VkEk7H": {
+            "type": "select",
+            "settings": {
+              "sec_heading": "",
+              "large_text": ""
             }
           },
           "1602874234188": {
             "type": "select",
             "settings": {
               "sec_heading": "SMS",
-              "large_text": "SMS/MMS MOBILE MESSAGING MARKETING PROGRAM\nWe respect your privacy. We will only use information you provide through the Program to transmit your mobile messages and respond to you, if necessary. This includes, but is not limited to, sharing information with platform providers, phone companies, and other vendors who assist us in the delivery of mobile messages.  WE DO NOT SELL, RENT, LOAN, TRADE, LEASE, OR OTHERWISE TRANSFER FOR PROFIT ANY PHONE NUMBERS OR CUSTOMER INFORMATION COLLECTED THROUGH THE PROGRAM TO ANY THIRD PARTY. Nonetheless, We reserve the right at all times to disclose any information as necessary to satisfy any law, regulation or governmental request, to avoid liability, or to protect Our rights or property. When you complete forms online or otherwise provide Us information in connection with the Program, you agree to provide accurate, complete, and true information. You agree not to use a false or misleading name or a name that you are not authorized to use. If, in Our sole discretion, We believe that any such information is untrue, inaccurate, or incomplete, or you have opted into the Program for an ulterior purpose, We may refuse you access to the Program and pursue any appropriate legal remedies.\nCalifornia Civil Code Section 1798.83 permits Users of the Program that are California residents to request certain information regarding our disclosure of the information you provide through the Program to third parties for their direct marketing purposes.  To make such a request, please contact us at the following address:\nTK Queens INC. \n1440 S STATE COLLEGE BLVD. SUITE 5F\nANAHEIM CA 92806\nHello@kushqueen.shop\nThis Privacy Policy is strictly limited to the Program and has no effect on any other privacy policy(ies) that may govern the relationship between you and Us in other contexts."
+              "large_text": "SMS/MMS MOBILE MESSAGING MARKETING PROGRAM\nWe respect your privacy. We will only use information you provide through the Program to transmit your mobile messages and respond to you, if necessary. This includes, but is not limited to, sharing information with platform providers, phone companies, and other vendors who assist us in the delivery of mobile messages.  WE DO NOT SELL, RENT, LOAN, TRADE, LEASE, OR OTHERWISE TRANSFER FOR PROFIT ANY PHONE NUMBERS OR CUSTOMER INFORMATION COLLECTED THROUGH THE PROGRAM TO ANY THIRD PARTY. Nonetheless, We reserve the right at all times to disclose any information as necessary to satisfy any law, regulation or governmental request, to avoid liability, or to protect Our rights or property. When you complete forms online or otherwise provide Us information in connection with the Program, you agree to provide accurate, complete, and true information. You agree not to use a false or misleading name or a name that you are not authorized to use. If, in Our sole discretion, We believe that any such information is untrue, inaccurate, or incomplete, or you have opted into the Program for an ulterior purpose, We may refuse you access to the Program and pursue any appropriate legal remedies.\nCalifornia Civil Code Section 1798.83 permits Users of the Program that are California residents to request certain information regarding our disclosure of the information you provide through the Program to third parties for their direct marketing purposes.  To make such a request, please contact us at the following address\nHello@kushqueen.shop\nThis Privacy Policy is strictly limited to the Program and has no effect on any other privacy policy(ies) that may govern the relationship between you and Us in other contexts."
             }
           }
         },
@@ -261,6 +268,7 @@
           "1571813305156",
           "1571813351172",
           "1571813382788",
+          "select_VkEk7H",
           "1602874234188"
         ],
         "settings": {
