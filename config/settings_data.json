@@ -2384,9 +2384,8 @@
       },
       "d76d763c-6c70-4fea-b4ad-4348f38cb70e": {
         "type": "sitewide-sale-announcement",
-        "disabled": true,
         "settings": {
-          "text": "✨ Shop 30% Off Site Wide! ✨"
+          "text": "Shop & Save ✨ 15% Off $25<br>20% Off $50 | 30% Off $75"
         }
       }
     },
