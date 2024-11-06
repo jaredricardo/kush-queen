@@ -1,1 +1,421 @@
-{"sections":{"main":{"type":"new-pdp-template","blocks":{"7928b2dd-b717-4eca-9663-5a8b8feb1fe5":{"type":"review","settings":{"review_text":"{{ product.metafields.custom.new_pdp_template.value.review_1.value }}","reviewer":"<p>{{ product.metafields.custom.new_pdp_template.value.reviewer_1.value }}<\/p>"}},"3f72cdb0-a208-4efa-8c6c-304b3ab38bc6":{"type":"review","settings":{"review_text":"{{ product.metafields.custom.new_pdp_template.value.review_2.value }}","reviewer":"<p>{{ product.metafields.custom.new_pdp_template.value.reviewer_2.value }}<\/p>"}},"bb31f014-6fc2-430b-83b1-8abf26728b7c":{"type":"review","settings":{"review_text":"{{ product.metafields.custom.new_pdp_template.value.review_3.value }}","reviewer":"<p>{{ product.metafields.custom.new_pdp_template.value.reviewer_3.value }}<\/p>"}}},"block_order":["7928b2dd-b717-4eca-9663-5a8b8feb1fe5","3f72cdb0-a208-4efa-8c6c-304b3ab38bc6","bb31f014-6fc2-430b-83b1-8abf26728b7c"],"custom_css":[],"settings":{"badge_text":"{{ product.metafields.custom.new_pdp_template.value.badge_text.value }}","show_buymore_banner":true,"short_desc_text":"{{ product.metafields.custom.new_pdp_template.value.newpdp_short_description_text.value }}","promo_text":"<p>{{ product.metafields.custom.new_pdp_template.value.promo_text | metafield_tag }}<\/p>","image_1":"{{ product.metafields.custom.new_pdp_template.value.icon_1.value }}","svg_code_1":"","text_1":"{{ product.metafields.custom.new_pdp_template.value.icon_text_1.value }}","image_2":"{{ product.metafields.custom.new_pdp_template.value.icon_2.value }}","svg_code_2":"","text_2":"{{ product.metafields.custom.new_pdp_template.value.icon_text_2.value }}","image_3":"{{ product.metafields.custom.new_pdp_template.value.icon_3.value }}","svg_code_3":"","text_3":"{{ product.metafields.custom.new_pdp_template.value.icon_text_3.value }}"}},"3e7835e8-2f5b-45de-ba95-daff6cf35a6f":{"type":"new-tabs-section","blocks":{"65786ffe-1ceb-4af0-b489-a1cb02b9c57b":{"type":"tab_block","settings":{"tab_title":"{{ product.metafields.custom.new_pdp_details.value.how_to_use_title.value }}","tab_text":"<p>{{ product.metafields.custom.new_pdp_details.value.tab_section_text | metafield_tag }}<\/p>","image_1":"{{ product.metafields.custom.new_pdp_details.value.tab_section_how_to_use_img_1.value }}","image_2":"{{ product.metafields.custom.new_pdp_details.value.tab_section_how_to_use_img_2.value }}","image_3":"{{ product.metafields.custom.new_pdp_details.value.tab_section_how_to_use_img_3.value }}"}},"d5900363-161e-4e7e-bb7c-115f8031deb0":{"type":"tab_block","settings":{"tab_title":"{{ product.metafields.custom.new_pdp_details.value.tab_section_ingredients_title.value }}","tab_text":"{{ product.metafields.custom.new_pdp_details.value.tab_section_ingredients_text | metafield_tag }}","image_1":"{{ product.metafields.custom.new_pdp_details.value.tab_section_ingredients_img_1.value }}","image_2":"{{ product.metafields.custom.new_pdp_details.value.tab_section_ingredients_img_2.value }}","image_3":"{{ product.metafields.custom.new_pdp_details.value.tab_section_ingredients_img_3.value }}"}},"3c67e5e3-e474-4d6c-9898-f070614ab0a7":{"type":"tab_block","settings":{"tab_title":"{{ product.metafields.custom.new_pdp_details.value.tab_section_experience_title.value }}","tab_text":"{{ product.metafields.custom.new_pdp_details.value.tab_section_experience_text | metafield_tag }}","image_1":"{{ product.metafields.custom.new_pdp_details.value.tab_section_experience_img_1.value }}","image_2":"{{ product.metafields.custom.new_pdp_details.value.tab_section_experience_img_2.value }}","image_3":"{{ product.metafields.custom.new_pdp_details.value.tab_section_experience_img_3.value }}"}}},"block_order":["65786ffe-1ceb-4af0-b489-a1cb02b9c57b","d5900363-161e-4e7e-bb7c-115f8031deb0","3c67e5e3-e474-4d6c-9898-f070614ab0a7"],"settings":{"bg_color":"{{ product.metafields.custom.new_pdp_details.value.tab_section_background_color.value }}","caption_text":"{{ product.metafields.custom.new_pdp_details.value.tab_section_caption_text.value }}","section_heading":"{{ product.metafields.custom.new_pdp_details.value.tab_section_header.value }}"}},"ca7ed848-1ddd-4fb3-b937-28f6a45262e6":{"type":"new-two-column","blocks":{"86823289-bcbe-4fef-9fec-49b323627035":{"type":"table_block","settings":{"block_image":"{{ product.metafields.custom.new_pdp_details.value.table_img_1.value }}","block_text_top":"{{ product.metafields.custom.new_pdp_details.value.table_top_text_1a | metafield_tag }}","block_text_1":"{{ product.metafields.custom.new_pdp_details.value.table_column_1_text_1 | metafield_tag }}","block_text_2":"{{ product.metafields.custom.new_pdp_details.value.table_column_1_text_2 | metafield_tag }}","block_text_3":"{{ product.metafields.custom.new_pdp_details.value.table_column_1_text_3 | metafield_tag }}"}},"41672337-8f8c-4c3a-8276-c03f23a67bec":{"type":"table_block","settings":{"block_image":"{{ product.metafields.custom.new_pdp_details.value.table_img_2.value }}","block_text_top":"{{ product.metafields.custom.new_pdp_details.value.table_top_text_2a | metafield_tag }}","block_text_1":"{{ product.metafields.custom.new_pdp_details.value.table_column_2_text_1 | metafield_tag }}","block_text_2":"{{ product.metafields.custom.new_pdp_details.value.table_column_2_text_2 | metafield_tag }}","block_text_3":"{{ product.metafields.custom.new_pdp_details.value.table_column_2_text_3 | metafield_tag }}"}},"ce06693f-bc03-4640-89d1-446b6490feb6":{"type":"table_block","settings":{"block_image":"{{ product.metafields.custom.new_pdp_details.value.table_img_3.value }}","block_text_top":"{{ product.metafields.custom.new_pdp_details.value.table_top_text_3a | metafield_tag }}","block_text_1":"{{ product.metafields.custom.new_pdp_details.value.table_column_3_text_1 | metafield_tag }}","block_text_2":"{{ product.metafields.custom.new_pdp_details.value.table_column_3_text_2 | metafield_tag }}","block_text_3":"{{ product.metafields.custom.new_pdp_details.value.table_column_3_text_3 | metafield_tag }}"}}},"block_order":["86823289-bcbe-4fef-9fec-49b323627035","41672337-8f8c-4c3a-8276-c03f23a67bec","ce06693f-bc03-4640-89d1-446b6490feb6"],"disabled":true,"settings":{"bg_image":"{{ product.metafields.custom.new_pdp_details.value.two_column_section_desktop_background_image.value }}","bg_image_mobile":"{{ product.metafields.custom.new_pdp_details.value.two_column_section_mobile_background_image.value }}","left_heading":"{{ product.metafields.custom.new_pdp_details.value.two_column_section_left_column_heading.value }}","left_heading_color":"{{ product.metafields.custom.new_pdp_details.value.left_column_heading_color.value }}","left_text":"{{ product.metafields.custom.new_pdp_details.value.two_column_section_left_column_text | metafield_tag }}","left_text_color":"{{ product.metafields.custom.new_pdp_details.value.two_column_section_left_column_text_color.value }}"}},"816e593d-cbb0-4e5d-87a4-c22762bad62f":{"type":"new-icons-section","blocks":{"7018056c-df0e-44cc-a46e-050f89ef4123":{"type":"icon_block","settings":{"icon_image":"{{ product.metafields.custom.icons_science_product_recommendation_section.value.icon_img_1.value }}","icon_title":"{{ product.metafields.custom.icons_science_product_recommendation_section.value.title_for_image_1.value }}","icon_text":"{{ product.metafields.custom.icons_science_product_recommendation_section.value.text_for_image_1 | metafield_tag }}"}},"5c46803a-6c30-489c-982d-c03c9a27049d":{"type":"icon_block","settings":{"icon_image":"{{ product.metafields.custom.icons_science_product_recommendation_section.value.icon_img_2.value }}","icon_title":"{{ product.metafields.custom.icons_science_product_recommendation_section.value.title_for_image_2.value }}","icon_text":"{{ product.metafields.custom.icons_science_product_recommendation_section.value.text_for_image_2 | metafield_tag }}"}},"989a078f-8caf-4b81-b5fa-c4187e0965b7":{"type":"icon_block","settings":{"icon_image":"{{ product.metafields.custom.icons_science_product_recommendation_section.value.icon_img_3.value }}","icon_title":"{{ product.metafields.custom.icons_science_product_recommendation_section.value.title_for_image_3.value }}","icon_text":"{{ product.metafields.custom.icons_science_product_recommendation_section.value.text_for_image_3 | metafield_tag }}"}}},"block_order":["7018056c-df0e-44cc-a46e-050f89ef4123","5c46803a-6c30-489c-982d-c03c9a27049d","989a078f-8caf-4b81-b5fa-c4187e0965b7"],"custom_css":[".new-icons-section{padding-top:4rem;}"],"settings":{}},"7b3cdd9c-34a5-4d71-b216-fb079a080a74":{"type":"new-science","settings":{"title":"{{ product.metafields.custom.icons_science_product_recommendation_section.value.new_science_title.value }}","subtitle":"{{ product.metafields.custom.icons_science_product_recommendation_section.value.science_subtitle | metafield_tag }}","left_heading":"{{ product.metafields.custom.icons_science_product_recommendation_section.value.left_column_heading.value }}","left_text":"{{ product.metafields.custom.icons_science_product_recommendation_section.value.left_column_text | metafield_tag }}","center_image":"{{ product.metafields.custom.icons_science_product_recommendation_section.value.center_image.value }}","center_text":"{{ product.metafields.custom.icons_science_product_recommendation_section.value.text_below_center_image | metafield_tag }}","right_heading":"{{ product.metafields.custom.icons_science_product_recommendation_section.value.right_column_heading.value }}","right_text":"{{ product.metafields.custom.icons_science_product_recommendation_section.value.right_column_text | metafield_tag }}"}},"47137a95-f888-4703-b5c0-8415a0a3853d":{"type":"new-faq","blocks":{"abd38899-58e6-460e-9d90-6aa6058ee120":{"type":"faq_block","source":"{{ product.metafields.custom.faq.value }}","settings":{"question":"{{ product.metafields.custom.faq.value.question.value }}","answer":"{{ product.metafields.custom.faq.value.answer | metafield_tag }}"}},"cebfc745-801b-41ea-a21b-4564b588e0c1":{"type":"faq_block","source":"{{ product.metafields.custom.faq.value }}","settings":{"question":"{{ product.metafields.custom.faq.value.question2.value }}","answer":"{{ product.metafields.custom.faq.value.answer_2 | metafield_tag }}"}},"6bfd525d-8d2c-491f-b35e-ea72947b1d02":{"type":"faq_block","source":"{{ product.metafields.custom.faq.value }}","settings":{"question":"{{ product.metafields.custom.faq.value.question_3.value }}","answer":"{{ product.metafields.custom.faq.value.answer_3 | metafield_tag }}"}},"b834fe61-77f6-4c28-b95d-d0f5f86e0e10":{"type":"faq_block","source":"{{ product.metafields.custom.faq.value }}","settings":{"question":"{{ product.metafields.custom.faq.value.question_4.value }}","answer":"{{ product.metafields.custom.faq.value.answer_4 | metafield_tag }}"}},"2b0fecd9-9213-473b-8046-ff0d820fd841":{"type":"faq_block","source":"{{ product.metafields.custom.faq.value }}","settings":{"question":"{{ product.metafields.custom.faq.value.question_5.value }}","answer":"{{ product.metafields.custom.faq.value.answer_5 | metafield_tag }}"}},"5f5a8cb9-a83f-42ff-9c8c-485ef530824c":{"type":"faq_block","source":"{{ product.metafields.custom.faq.value }}","settings":{"question":"{{ product.metafields.custom.faq.value.question_6.value }}","answer":"{{ product.metafields.custom.faq.value.answer_6 | metafield_tag }}"}},"ed5e6186-bbfc-4912-aae3-ec20f3d5e0c1":{"type":"faq_block","source":"{{ product.metafields.custom.faq.value }}","settings":{"question":"{{ product.metafields.custom.faq.value.question_7.value }}","answer":"{{ product.metafields.custom.faq.value.answer_7 | metafield_tag }}"}},"ec2e1171-b620-4c07-a821-a0ce0f46923d":{"type":"faq_block","source":"{{ product.metafields.custom.faq.value }}","settings":{"question":"{{ product.metafields.custom.faq.value.question_8.value }}","answer":"{{ product.metafields.custom.faq.value.answer_8 | metafield_tag }}"}},"720e123d-be95-43a8-bc0f-d9422565a368":{"type":"faq_block","source":"{{ product.metafields.custom.faq.value }}","settings":{"question":"{{ product.metafields.custom.faq.value.question_9.value }}","answer":"{{ product.metafields.custom.faq.value.answer_9 | metafield_tag }}"}}},"block_order":["abd38899-58e6-460e-9d90-6aa6058ee120","cebfc745-801b-41ea-a21b-4564b588e0c1","6bfd525d-8d2c-491f-b35e-ea72947b1d02","b834fe61-77f6-4c28-b95d-d0f5f86e0e10","2b0fecd9-9213-473b-8046-ff0d820fd841","5f5a8cb9-a83f-42ff-9c8c-485ef530824c","ed5e6186-bbfc-4912-aae3-ec20f3d5e0c1","ec2e1171-b620-4c07-a821-a0ce0f46923d","720e123d-be95-43a8-bc0f-d9422565a368"],"settings":{"faq_title":"Frequently Asked Questions"}},"bbaa8eca-23b9-4734-9b3a-f0e81e692fec":{"type":"new-pdp-reviewsec","settings":{}},"44a5aa34-7324-41ac-ba1a-ad656f3d8220":{"type":"new-product-recommendation","blocks":{"706393a8-78fe-4887-b7a2-d4347630982f":{"type":"product_block","settings":{"selected-product":"{{ product.metafields.custom.icons_science_product_recommendation_section.value.recommended_product_1.value }}"}},"c3ed0bf3-500f-4419-a1bb-92e7dc8d2215":{"type":"product_block","settings":{"selected-product":"{{ product.metafields.custom.icons_science_product_recommendation_section.value.recommended_product_2.value }}"}},"ace95250-21c0-40fa-a6fb-edf945dc2eda":{"type":"product_block","settings":{"selected-product":"{{ product.metafields.custom.icons_science_product_recommendation_section.value.recommended_product_3.value }}"}},"9ff5d2e8-7a6b-4062-9e87-772a9792aa2a":{"type":"product_block","settings":{"selected-product":"{{ product.metafields.custom.icons_science_product_recommendation_section.value.recommended_product_4.value }}"}},"044bc35d-9efb-49db-970e-dbbab2d47ff8":{"type":"product_block","settings":{"selected-product":"{{ product.metafields.custom.icons_science_product_recommendation_section.value.recommended_product_5.value }}"}},"17c87d20-d72a-468a-8c56-975ec9695bd7":{"type":"product_block","settings":{"selected-product":"{{ product.metafields.custom.icons_science_product_recommendation_section.value.recommended_product_6.value }}"}},"5cd40e2e-3813-4032-b6f2-58cc1486e678":{"type":"product_block","settings":{"selected-product":"{{ product.metafields.custom.icons_science_product_recommendation_section.value.recommended_product_7.value }}"}},"a5c7d25d-4571-4306-b6bc-0cb6b04983d9":{"type":"product_block","settings":{"selected-product":"{{ product.metafields.custom.icons_science_product_recommendation_section.value.recommended_product_8.value }}"}}},"block_order":["706393a8-78fe-4887-b7a2-d4347630982f","c3ed0bf3-500f-4419-a1bb-92e7dc8d2215","ace95250-21c0-40fa-a6fb-edf945dc2eda","9ff5d2e8-7a6b-4062-9e87-772a9792aa2a","044bc35d-9efb-49db-970e-dbbab2d47ff8","17c87d20-d72a-468a-8c56-975ec9695bd7","5cd40e2e-3813-4032-b6f2-58cc1486e678","a5c7d25d-4571-4306-b6bc-0cb6b04983d9"],"settings":{"section_heading":"Recommended Products","slides_per_view":4}}},"order":["main","3e7835e8-2f5b-45de-ba95-daff6cf35a6f","ca7ed848-1ddd-4fb3-b937-28f6a45262e6","816e593d-cbb0-4e5d-87a4-c22762bad62f","7b3cdd9c-34a5-4d71-b216-fb079a080a74","47137a95-f888-4703-b5c0-8415a0a3853d","bbaa8eca-23b9-4734-9b3a-f0e81e692fec","44a5aa34-7324-41ac-ba1a-ad656f3d8220"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "new-pdp-template",
+      "blocks": {
+        "7928b2dd-b717-4eca-9663-5a8b8feb1fe5": {
+          "type": "review",
+          "settings": {
+            "review_text": "{{ product.metafields.custom.new_pdp_template.value.review_1.value }}",
+            "reviewer": "<p>{{ product.metafields.custom.new_pdp_template.value.reviewer_1.value }}</p>"
+          }
+        },
+        "3f72cdb0-a208-4efa-8c6c-304b3ab38bc6": {
+          "type": "review",
+          "settings": {
+            "review_text": "{{ product.metafields.custom.new_pdp_template.value.review_2.value }}",
+            "reviewer": "<p>{{ product.metafields.custom.new_pdp_template.value.reviewer_2.value }}</p>"
+          }
+        },
+        "bb31f014-6fc2-430b-83b1-8abf26728b7c": {
+          "type": "review",
+          "settings": {
+            "review_text": "{{ product.metafields.custom.new_pdp_template.value.review_3.value }}",
+            "reviewer": "<p>{{ product.metafields.custom.new_pdp_template.value.reviewer_3.value }}</p>"
+          }
+        }
+      },
+      "block_order": [
+        "7928b2dd-b717-4eca-9663-5a8b8feb1fe5",
+        "3f72cdb0-a208-4efa-8c6c-304b3ab38bc6",
+        "bb31f014-6fc2-430b-83b1-8abf26728b7c"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "badge_text": "{{ product.metafields.custom.new_pdp_template.value.badge_text.value }}",
+        "show_buymore_banner": true,
+        "short_desc_text": "{{ product.metafields.custom.new_pdp_template.value.newpdp_short_description_text.value }}",
+        "promo_text": "<p>{{ product.metafields.custom.new_pdp_template.value.promo_text | metafield_tag }}</p>",
+        "image_1": "{{ product.metafields.custom.new_pdp_template.value.icon_1.value }}",
+        "svg_code_1": "",
+        "text_1": "{{ product.metafields.custom.new_pdp_template.value.icon_text_1.value }}",
+        "image_2": "{{ product.metafields.custom.new_pdp_template.value.icon_2.value }}",
+        "svg_code_2": "",
+        "text_2": "{{ product.metafields.custom.new_pdp_template.value.icon_text_2.value }}",
+        "image_3": "{{ product.metafields.custom.new_pdp_template.value.icon_3.value }}",
+        "svg_code_3": "",
+        "text_3": "{{ product.metafields.custom.new_pdp_template.value.icon_text_3.value }}"
+      }
+    },
+    "3e7835e8-2f5b-45de-ba95-daff6cf35a6f": {
+      "type": "new-tabs-section",
+      "blocks": {
+        "65786ffe-1ceb-4af0-b489-a1cb02b9c57b": {
+          "type": "tab_block",
+          "settings": {
+            "tab_title": "{{ product.metafields.custom.new_pdp_details.value.how_to_use_title.value }}",
+            "tab_text": "<p>{{ product.metafields.custom.new_pdp_details.value.tab_section_text | metafield_tag }}</p>",
+            "image_1": "{{ product.metafields.custom.new_pdp_details.value.tab_section_how_to_use_img_1.value }}",
+            "image_2": "{{ product.metafields.custom.new_pdp_details.value.tab_section_how_to_use_img_2.value }}",
+            "image_3": "{{ product.metafields.custom.new_pdp_details.value.tab_section_how_to_use_img_3.value }}"
+          }
+        },
+        "d5900363-161e-4e7e-bb7c-115f8031deb0": {
+          "type": "tab_block",
+          "settings": {
+            "tab_title": "{{ product.metafields.custom.new_pdp_details.value.tab_section_ingredients_title.value }}",
+            "tab_text": "{{ product.metafields.custom.new_pdp_details.value.tab_section_ingredients_text | metafield_tag }}",
+            "image_1": "{{ product.metafields.custom.new_pdp_details.value.tab_section_ingredients_img_1.value }}",
+            "image_2": "{{ product.metafields.custom.new_pdp_details.value.tab_section_ingredients_img_2.value }}",
+            "image_3": "{{ product.metafields.custom.new_pdp_details.value.tab_section_ingredients_img_3.value }}"
+          }
+        },
+        "3c67e5e3-e474-4d6c-9898-f070614ab0a7": {
+          "type": "tab_block",
+          "settings": {
+            "tab_title": "{{ product.metafields.custom.new_pdp_details.value.tab_section_experience_title.value }}",
+            "tab_text": "{{ product.metafields.custom.new_pdp_details.value.tab_section_experience_text | metafield_tag }}",
+            "image_1": "{{ product.metafields.custom.new_pdp_details.value.tab_section_experience_img_1.value }}",
+            "image_2": "{{ product.metafields.custom.new_pdp_details.value.tab_section_experience_img_2.value }}",
+            "image_3": "{{ product.metafields.custom.new_pdp_details.value.tab_section_experience_img_3.value }}"
+          }
+        }
+      },
+      "block_order": [
+        "65786ffe-1ceb-4af0-b489-a1cb02b9c57b",
+        "d5900363-161e-4e7e-bb7c-115f8031deb0",
+        "3c67e5e3-e474-4d6c-9898-f070614ab0a7"
+      ],
+      "settings": {
+        "bg_color": "{{ product.metafields.custom.new_pdp_details.value.tab_section_background_color.value }}",
+        "caption_text": "{{ product.metafields.custom.new_pdp_details.value.tab_section_caption_text.value }}",
+        "section_heading": "{{ product.metafields.custom.new_pdp_details.value.tab_section_header.value }}"
+      }
+    },
+    "ca7ed848-1ddd-4fb3-b937-28f6a45262e6": {
+      "type": "new-two-column",
+      "blocks": {
+        "86823289-bcbe-4fef-9fec-49b323627035": {
+          "type": "table_block",
+          "settings": {
+            "block_image": "{{ product.metafields.custom.new_pdp_details.value.table_img_1.value }}",
+            "block_text_top": "{{ product.metafields.custom.new_pdp_details.value.table_top_text_1a | metafield_tag }}",
+            "block_text_1": "{{ product.metafields.custom.new_pdp_details.value.table_column_1_text_1 | metafield_tag }}",
+            "block_text_2": "{{ product.metafields.custom.new_pdp_details.value.table_column_1_text_2 | metafield_tag }}",
+            "block_text_3": "{{ product.metafields.custom.new_pdp_details.value.table_column_1_text_3 | metafield_tag }}"
+          }
+        },
+        "41672337-8f8c-4c3a-8276-c03f23a67bec": {
+          "type": "table_block",
+          "settings": {
+            "block_image": "{{ product.metafields.custom.new_pdp_details.value.table_img_2.value }}",
+            "block_text_top": "{{ product.metafields.custom.new_pdp_details.value.table_top_text_2a | metafield_tag }}",
+            "block_text_1": "{{ product.metafields.custom.new_pdp_details.value.table_column_2_text_1 | metafield_tag }}",
+            "block_text_2": "{{ product.metafields.custom.new_pdp_details.value.table_column_2_text_2 | metafield_tag }}",
+            "block_text_3": "{{ product.metafields.custom.new_pdp_details.value.table_column_2_text_3 | metafield_tag }}"
+          }
+        },
+        "ce06693f-bc03-4640-89d1-446b6490feb6": {
+          "type": "table_block",
+          "settings": {
+            "block_image": "{{ product.metafields.custom.new_pdp_details.value.table_img_3.value }}",
+            "block_text_top": "{{ product.metafields.custom.new_pdp_details.value.table_top_text_3a | metafield_tag }}",
+            "block_text_1": "{{ product.metafields.custom.new_pdp_details.value.table_column_3_text_1 | metafield_tag }}",
+            "block_text_2": "{{ product.metafields.custom.new_pdp_details.value.table_column_3_text_2 | metafield_tag }}",
+            "block_text_3": "{{ product.metafields.custom.new_pdp_details.value.table_column_3_text_3 | metafield_tag }}"
+          }
+        }
+      },
+      "block_order": [
+        "86823289-bcbe-4fef-9fec-49b323627035",
+        "41672337-8f8c-4c3a-8276-c03f23a67bec",
+        "ce06693f-bc03-4640-89d1-446b6490feb6"
+      ],
+      "disabled": true,
+      "settings": {
+        "bg_image": "{{ product.metafields.custom.new_pdp_details.value.two_column_section_desktop_background_image.value }}",
+        "bg_image_mobile": "{{ product.metafields.custom.new_pdp_details.value.two_column_section_mobile_background_image.value }}",
+        "left_heading": "{{ product.metafields.custom.new_pdp_details.value.two_column_section_left_column_heading.value }}",
+        "left_heading_color": "{{ product.metafields.custom.new_pdp_details.value.left_column_heading_color.value }}",
+        "left_text": "{{ product.metafields.custom.new_pdp_details.value.two_column_section_left_column_text | metafield_tag }}",
+        "left_text_color": "{{ product.metafields.custom.new_pdp_details.value.two_column_section_left_column_text_color.value }}"
+      }
+    },
+    "816e593d-cbb0-4e5d-87a4-c22762bad62f": {
+      "type": "new-icons-section",
+      "blocks": {
+        "7018056c-df0e-44cc-a46e-050f89ef4123": {
+          "type": "icon_block",
+          "settings": {
+            "icon_image": "{{ product.metafields.custom.icons_science_product_recommendation_section.value.icon_img_1.value }}",
+            "icon_title": "{{ product.metafields.custom.icons_science_product_recommendation_section.value.title_for_image_1.value }}",
+            "icon_text": "{{ product.metafields.custom.icons_science_product_recommendation_section.value.text_for_image_1 | metafield_tag }}"
+          }
+        },
+        "5c46803a-6c30-489c-982d-c03c9a27049d": {
+          "type": "icon_block",
+          "settings": {
+            "icon_image": "{{ product.metafields.custom.icons_science_product_recommendation_section.value.icon_img_2.value }}",
+            "icon_title": "{{ product.metafields.custom.icons_science_product_recommendation_section.value.title_for_image_2.value }}",
+            "icon_text": "{{ product.metafields.custom.icons_science_product_recommendation_section.value.text_for_image_2 | metafield_tag }}"
+          }
+        },
+        "989a078f-8caf-4b81-b5fa-c4187e0965b7": {
+          "type": "icon_block",
+          "settings": {
+            "icon_image": "{{ product.metafields.custom.icons_science_product_recommendation_section.value.icon_img_3.value }}",
+            "icon_title": "{{ product.metafields.custom.icons_science_product_recommendation_section.value.title_for_image_3.value }}",
+            "icon_text": "{{ product.metafields.custom.icons_science_product_recommendation_section.value.text_for_image_3 | metafield_tag }}"
+          }
+        }
+      },
+      "block_order": [
+        "7018056c-df0e-44cc-a46e-050f89ef4123",
+        "5c46803a-6c30-489c-982d-c03c9a27049d",
+        "989a078f-8caf-4b81-b5fa-c4187e0965b7"
+      ],
+      "custom_css": [
+        ".new-icons-section {padding-top: 4rem;}"
+      ],
+      "settings": {
+      }
+    },
+    "7b3cdd9c-34a5-4d71-b216-fb079a080a74": {
+      "type": "new-science",
+      "settings": {
+        "title": "{{ product.metafields.custom.icons_science_product_recommendation_section.value.new_science_title.value }}",
+        "subtitle": "{{ product.metafields.custom.icons_science_product_recommendation_section.value.science_subtitle | metafield_tag }}",
+        "left_heading": "{{ product.metafields.custom.icons_science_product_recommendation_section.value.left_column_heading.value }}",
+        "left_text": "{{ product.metafields.custom.icons_science_product_recommendation_section.value.left_column_text | metafield_tag }}",
+        "center_image": "{{ product.metafields.custom.icons_science_product_recommendation_section.value.center_image.value }}",
+        "center_text": "{{ product.metafields.custom.icons_science_product_recommendation_section.value.text_below_center_image | metafield_tag }}",
+        "right_heading": "{{ product.metafields.custom.icons_science_product_recommendation_section.value.right_column_heading.value }}",
+        "right_text": "{{ product.metafields.custom.icons_science_product_recommendation_section.value.right_column_text | metafield_tag }}"
+      }
+    },
+    "47137a95-f888-4703-b5c0-8415a0a3853d": {
+      "type": "new-faq",
+      "blocks": {
+        "abd38899-58e6-460e-9d90-6aa6058ee120": {
+          "type": "faq_block",
+          "source": "{{ product.metafields.custom.faq.value }}",
+          "settings": {
+            "question": "What are female sexual enhancement gummies?",
+            "answer": "<p>Female sexual enhancement gummies, like <strong>Wetter (For Her)</strong> from Kush Queen, are designed to naturally boost <strong>libido</strong>, <strong>increase desire</strong>, and <strong>enhance sexual satisfaction</strong>. These gummies are crafted with powerful plant-based ingredients that work together to promote better mood, improve lubrication, and heighten orgasm intensity—all without any cannabinoids.</p>"
+          }
+        },
+        "cebfc745-801b-41ea-a21b-4564b588e0c1": {
+          "type": "faq_block",
+          "source": "{{ product.metafields.custom.faq.value }}",
+          "settings": {
+            "question": "Do libido gummies really work for women?",
+            "answer": "<p>Yes, our <strong>Wetter (For Her)</strong> gummies are formulated with <strong>clinically effective doses</strong> of ingredients like <strong>Maca Extract</strong>, <strong>Damiana</strong>, and <strong>Saffron</strong>—all of which have been traditionally used to support sexual wellness. While results can vary from person to person, many women experience a noticeable difference in <strong>desire</strong>, <strong>mood</strong>, and <strong>overall sexual satisfaction</strong>.</p>"
+          }
+        },
+        "6bfd525d-8d2c-491f-b35e-ea72947b1d02": {
+          "type": "faq_block",
+          "source": "{{ product.metafields.custom.faq.value }}",
+          "settings": {
+            "question": "What makes Kush Queen's libido gummies different from others?",
+            "answer": "<p>We take pride in using <strong>high-quality, clinically effective ingredients</strong> without fillers or artificial additives. <strong>Wetter (For Her)</strong> is specifically formulated for women and contains <strong>zero cannabinoids</strong>, focusing purely on enhancing <strong>female sexual wellness</strong> through natural extracts. Our gummies are also 100% <strong>vegan</strong>, <strong>gluten-free</strong>, and <strong>cruelty-free</strong>, giving you peace of mind while prioritizing your pleasure.</p>"
+          }
+        },
+        "b834fe61-77f6-4c28-b95d-d0f5f86e0e10": {
+          "type": "faq_block",
+          "source": "{{ product.metafields.custom.faq.value }}",
+          "settings": {
+            "question": "How long do libido gummies take to work?",
+            "answer": "<p><strong>Wetter (For Her)</strong> gummies are designed for <strong>on-the-go convenience</strong>, meaning you can simply take one about <strong>an hour before sexual activity</strong> to feel the full benefits. Effects may vary, but many users report enhanced sensations and increased desire within this time frame.</p>"
+          }
+        },
+        "2b0fecd9-9213-473b-8046-ff0d820fd841": {
+          "type": "faq_block",
+          "source": "{{ product.metafields.custom.faq.value }}",
+          "settings": {
+            "question": "Are there any side effects from using these sexual enhancement gummies?",
+            "answer": "<p>Our gummies are formulated with <strong>natural plant extracts</strong>, and while side effects are rare, everyone's body is different. You may want to consult your healthcare provider if you have any concerns or if you're taking medication. Overall, <strong>Wetter (For Her)</strong> is made without any artificial ingredients, making it a safe choice for most women looking to enhance their sexual health.</p>"
+          }
+        },
+        "5f5a8cb9-a83f-42ff-9c8c-485ef530824c": {
+          "type": "faq_block",
+          "source": "{{ product.metafields.custom.faq.value }}",
+          "settings": {
+            "question": "What are the key ingredients in Kush Queen’s female sexual enhancement gummies?",
+            "answer": "<p>Our <strong>Wetter (For Her)</strong> gummies contain a powerful blend of libido-boosting ingredients:</p><ul><li><strong>Maca Extract</strong>: Known to improve sexual desire and stamina.</li><li><strong>Damiana Extract</strong>: A natural aphrodisiac that enhances pleasure.</li><li><strong>Saffron Extract</strong>: Helps improve mood and sexual satisfaction.</li><li><strong>Horny Goat Weed</strong>: Traditionally used to support libido and sexual function.</li></ul><p><strong>DHEA</strong>: A hormone precursor that may help with hormonal balance and libido.</p>"
+          }
+        },
+        "ed5e6186-bbfc-4912-aae3-ec20f3d5e0c1": {
+          "type": "faq_block",
+          "source": "{{ product.metafields.custom.faq.value }}",
+          "settings": {
+            "question": "What are the specific benefits of Maca Extract for sexual health?",
+            "answer": "<p><strong>Maca Extract</strong> is a well-known adaptogen that supports hormonal balance and helps improve <strong>sexual desire</strong>, <strong>stamina</strong>, and <strong>fertility</strong>. It’s a popular ingredient in female sexual wellness products for its ability to boost energy and libido naturally.</p>"
+          }
+        },
+        "ec2e1171-b620-4c07-a821-a0ce0f46923d": {
+          "type": "faq_block",
+          "source": "{{ product.metafields.custom.faq.value }}",
+          "settings": {
+            "question": "How does Damiana Extract enhance female libido?",
+            "answer": "<p><strong>Damiana Extract</strong> has been used for centuries as a natural aphrodisiac. It’s known to promote <strong>relaxation</strong>, enhance <strong>sensations</strong>, and increase <strong>sexual desire</strong>. By helping reduce anxiety and increasing blood flow, it plays a significant role in improving overall sexual satisfaction.</p>"
+          }
+        },
+        "720e123d-be95-43a8-bc0f-d9422565a368": {
+          "type": "faq_block",
+          "source": "{{ product.metafields.custom.faq.value }}",
+          "settings": {
+            "question": "Are libido gummies only for women, or can men use them too?",
+            "answer": "<p><strong>Wetter (For Her)</strong> gummies are specifically designed for women, with ingredients tailored to support female sexual health. However, we do offer other products for men's sexual wellness in our shop. If you're looking for male enhancement products, check out our other formulations that address those needs.</p>"
+          }
+        },
+        "faq_block_MLCtrb": {
+          "type": "faq_block",
+          "settings": {
+            "question": "Can I take these gummies with other forms of libido enhancement, like medication?",
+            "answer": "<p>We always recommend talking to your healthcare provider before combining supplements with any medications. While <strong>Wetter (For Her)</strong> uses natural ingredients, it’s best to ensure that there are no interactions with your current treatments or prescriptions.</p>"
+          }
+        },
+        "faq_block_JqEGwG": {
+          "type": "faq_block",
+          "settings": {
+            "question": "Do you ship internationally?",
+            "answer": "<p>Yes, we do! We ship to select international locations. If you're outside the U.S., create your cart and then email us at <strong>support@kushqueen.shop</strong>. We'll provide an accurate shipping cost and further details for your location.</p>"
+          }
+        },
+        "faq_block_JM6DPD": {
+          "type": "faq_block",
+          "settings": {
+            "question": "How long does it take to receive my order?",
+            "answer": "<p>Once your order is placed, it will typically ship within <strong>5-7 business days</strong>. You’ll receive a confirmation email with tracking information, and the shipping time will depend on your location. For international orders, please allow extra time for delivery based on customs processing.</p>"
+          }
+        },
+        "faq_block_bDgheb": {
+          "type": "faq_block",
+          "settings": {
+            "question": "What is your return policy?",
+            "answer": "<p>All <strong>Kush Queen products</strong> are <strong>final sale</strong>, which means we are unable to accept returns or exchanges. However, if you receive a damaged or incorrect item, please contact us within <strong>48 hours</strong> at <strong>support@kushqueen.shop</strong>, and we’ll do everything we can to resolve the issue.</p>"
+          }
+        },
+        "faq_block_cCVV9E": {
+          "type": "faq_block",
+          "settings": {
+            "question": "Can I purchase these gummies in bulk or wholesale?",
+            "answer": "<p>Absolutely! We offer <strong>wholesale options</strong> for retailers or individuals looking to stock up on <strong>Wetter (For Her)</strong> or any of our products. If you’re interested in purchasing in bulk or wholesale, contact us at <strong>support@kushqueen.shop</strong> to get started.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "abd38899-58e6-460e-9d90-6aa6058ee120",
+        "cebfc745-801b-41ea-a21b-4564b588e0c1",
+        "6bfd525d-8d2c-491f-b35e-ea72947b1d02",
+        "b834fe61-77f6-4c28-b95d-d0f5f86e0e10",
+        "2b0fecd9-9213-473b-8046-ff0d820fd841",
+        "5f5a8cb9-a83f-42ff-9c8c-485ef530824c",
+        "ed5e6186-bbfc-4912-aae3-ec20f3d5e0c1",
+        "ec2e1171-b620-4c07-a821-a0ce0f46923d",
+        "720e123d-be95-43a8-bc0f-d9422565a368",
+        "faq_block_MLCtrb",
+        "faq_block_JqEGwG",
+        "faq_block_JM6DPD",
+        "faq_block_bDgheb",
+        "faq_block_cCVV9E"
+      ],
+      "settings": {
+        "faq_title": "Frequently Asked Questions"
+      }
+    },
+    "bbaa8eca-23b9-4734-9b3a-f0e81e692fec": {
+      "type": "new-pdp-reviewsec",
+      "settings": {
+      }
+    },
+    "44a5aa34-7324-41ac-ba1a-ad656f3d8220": {
+      "type": "new-product-recommendation",
+      "blocks": {
+        "706393a8-78fe-4887-b7a2-d4347630982f": {
+          "type": "product_block",
+          "settings": {
+            "selected-product": "{{ product.metafields.custom.icons_science_product_recommendation_section.value.recommended_product_1.value }}"
+          }
+        },
+        "c3ed0bf3-500f-4419-a1bb-92e7dc8d2215": {
+          "type": "product_block",
+          "settings": {
+            "selected-product": "{{ product.metafields.custom.icons_science_product_recommendation_section.value.recommended_product_2.value }}"
+          }
+        },
+        "ace95250-21c0-40fa-a6fb-edf945dc2eda": {
+          "type": "product_block",
+          "settings": {
+            "selected-product": "{{ product.metafields.custom.icons_science_product_recommendation_section.value.recommended_product_3.value }}"
+          }
+        },
+        "9ff5d2e8-7a6b-4062-9e87-772a9792aa2a": {
+          "type": "product_block",
+          "settings": {
+            "selected-product": "{{ product.metafields.custom.icons_science_product_recommendation_section.value.recommended_product_4.value }}"
+          }
+        },
+        "044bc35d-9efb-49db-970e-dbbab2d47ff8": {
+          "type": "product_block",
+          "settings": {
+            "selected-product": "{{ product.metafields.custom.icons_science_product_recommendation_section.value.recommended_product_5.value }}"
+          }
+        },
+        "17c87d20-d72a-468a-8c56-975ec9695bd7": {
+          "type": "product_block",
+          "settings": {
+            "selected-product": "{{ product.metafields.custom.icons_science_product_recommendation_section.value.recommended_product_6.value }}"
+          }
+        },
+        "5cd40e2e-3813-4032-b6f2-58cc1486e678": {
+          "type": "product_block",
+          "settings": {
+            "selected-product": "{{ product.metafields.custom.icons_science_product_recommendation_section.value.recommended_product_7.value }}"
+          }
+        },
+        "a5c7d25d-4571-4306-b6bc-0cb6b04983d9": {
+          "type": "product_block",
+          "settings": {
+            "selected-product": "{{ product.metafields.custom.icons_science_product_recommendation_section.value.recommended_product_8.value }}"
+          }
+        }
+      },
+      "block_order": [
+        "706393a8-78fe-4887-b7a2-d4347630982f",
+        "c3ed0bf3-500f-4419-a1bb-92e7dc8d2215",
+        "ace95250-21c0-40fa-a6fb-edf945dc2eda",
+        "9ff5d2e8-7a6b-4062-9e87-772a9792aa2a",
+        "044bc35d-9efb-49db-970e-dbbab2d47ff8",
+        "17c87d20-d72a-468a-8c56-975ec9695bd7",
+        "5cd40e2e-3813-4032-b6f2-58cc1486e678",
+        "a5c7d25d-4571-4306-b6bc-0cb6b04983d9"
+      ],
+      "settings": {
+        "section_heading": "Recommended Products",
+        "slides_per_view": 4
+      }
+    }
+  },
+  "order": [
+    "main",
+    "3e7835e8-2f5b-45de-ba95-daff6cf35a6f",
+    "ca7ed848-1ddd-4fb3-b937-28f6a45262e6",
+    "816e593d-cbb0-4e5d-87a4-c22762bad62f",
+    "7b3cdd9c-34a5-4d71-b216-fb079a080a74",
+    "47137a95-f888-4703-b5c0-8415a0a3853d",
+    "bbaa8eca-23b9-4734-9b3a-f0e81e692fec",
+    "44a5aa34-7324-41ac-ba1a-ad656f3d8220"
+  ]
+}
