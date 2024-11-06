@@ -21,7 +21,7 @@
         "icon_jzAW3E": {
           "type": "icon",
           "settings": {
-            "icon_link": "shopify://collections/delta-8-gummies",
+            "icon_link": "#",
             "icon": "shopify://shop_images/Vegan-icon.png",
             "title": "VEGAN"
           }
@@ -29,7 +29,7 @@
         "icon_BfenYq": {
           "type": "icon",
           "settings": {
-            "icon_link": "shopify://collections/delta-8-gummies",
+            "icon_link": "#",
             "icon": "shopify://shop_images/Taste-Icon_84dfb26f-491b-4f45-9855-f4de11df68c7.png",
             "title": "DELICIOUS FLAVOR"
           }
@@ -37,7 +37,7 @@
         "icon_9HWK7y": {
           "type": "icon",
           "settings": {
-            "icon_link": "shopify://collections/delta-8-gummies",
+            "icon_link": "#",
             "icon": "shopify://shop_images/Group_219199028_4_small_d2a9bc30-937f-4590-915e-1a4977232511.webp",
             "title": "STRESS REDUCING"
           }
