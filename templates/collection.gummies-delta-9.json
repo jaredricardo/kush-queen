@@ -254,13 +254,6 @@
             "answer": "<p>Yes, we do! We ship to select international locations. If you're outside the U.S. and want to order, just fill your cart and shoot us an email at <strong>support@kushqueen.shop</strong>. We'll provide you with an accurate shipping charge based on where you’re located.</p>"
           }
         },
-        "faq_block_UYJKz8": {
-          "type": "faq_block",
-          "settings": {
-            "question": "Sample Question",
-            "answer": "<p>Sample Answer</p>"
-          }
-        },
         "faq_block_wJMPdd": {
           "type": "faq_block",
           "settings": {
@@ -304,7 +297,6 @@
         "faq_block_VgHKGP",
         "faq_block_at9pqC",
         "faq_block_e9rHt6",
-        "faq_block_UYJKz8",
         "faq_block_wJMPdd",
         "faq_block_MzhjG9",
         "faq_block_Mimfdk",
