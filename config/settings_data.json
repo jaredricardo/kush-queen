@@ -295,12 +295,28 @@
               "link": "https://kushqueen.shop/collections/all-cannabis-products"
             }
           },
+          "link_linklist_94W3pb": {
+            "type": "link-linklist",
+            "settings": {
+              "title": "Bundles",
+              "link": "shopify://collections/bundles",
+              "links": "bundles"
+            }
+          },
           "47dbf579-c272-4855-88fa-280f24e2846e": {
             "type": "simple_link",
             "disabled": true,
             "settings": {
               "title": "Flash Sale",
               "link": "shopify://collections/flash-sale"
+            }
+          },
+          "1571826560796": {
+            "type": "link-linklist",
+            "settings": {
+              "title": "Gummies",
+              "link": "https://kushqueen.shop/collections/weed-gummies",
+              "links": "gummies"
             }
           },
           "1f88e979-3c5b-443f-a00d-d626dc78106f": {
@@ -317,14 +333,6 @@
             "settings": {
               "title": "Bath Bombs",
               "link": "shopify://collections/cbd-bath-bombs"
-            }
-          },
-          "1571826560796": {
-            "type": "link-linklist",
-            "settings": {
-              "title": "Gummies",
-              "link": "https://kushqueen.shop/collections/weed-gummies",
-              "links": "gummies"
             }
           },
           "32f1f937-10ad-4ae8-a64b-705364661315": {
@@ -358,27 +366,19 @@
               "link": "shopify://collections/topical-thc-cbd",
               "links": "topicals"
             }
-          },
-          "link_linklist_94W3pb": {
-            "type": "link-linklist",
-            "settings": {
-              "title": "Bundles",
-              "link": "shopify://collections/bundles",
-              "links": "bundles"
-            }
           }
         },
         "block_order": [
           "12932e08-fa41-4c58-867f-e78e4087aa74",
+          "link_linklist_94W3pb",
           "47dbf579-c272-4855-88fa-280f24e2846e",
+          "1571826560796",
           "1f88e979-3c5b-443f-a00d-d626dc78106f",
           "1580399341315",
-          "1571826560796",
           "32f1f937-10ad-4ae8-a64b-705364661315",
           "779aa32a-4620-41dc-ba84-481a090c20d7",
           "4f5ec842-39ff-4f79-9428-f0efaf6153af",
-          "1571826552382",
-          "link_linklist_94W3pb"
+          "1571826552382"
         ],
         "settings": {
           "announcement_text": "Save Up To 30% Off + Free Shipping On Orders Over $100!",
