@@ -1,1 +1,420 @@
-{"sections":{"main":{"type":"new-pdp-template","blocks":{"7928b2dd-b717-4eca-9663-5a8b8feb1fe5":{"type":"review","settings":{"review_text":"{{ product.metafields.custom.new_pdp_template.value.review_1.value }}","reviewer":"<p>{{ product.metafields.custom.new_pdp_template.value.reviewer_1.value }}<\/p>"}},"3f72cdb0-a208-4efa-8c6c-304b3ab38bc6":{"type":"review","settings":{"review_text":"{{ product.metafields.custom.new_pdp_template.value.review_2.value }}","reviewer":"<p>{{ product.metafields.custom.new_pdp_template.value.reviewer_2.value }}<\/p>"}},"bb31f014-6fc2-430b-83b1-8abf26728b7c":{"type":"review","settings":{"review_text":"{{ product.metafields.custom.new_pdp_template.value.review_3.value }}","reviewer":"<p>{{ product.metafields.custom.new_pdp_template.value.reviewer_3.value }}<\/p>"}}},"block_order":["7928b2dd-b717-4eca-9663-5a8b8feb1fe5","3f72cdb0-a208-4efa-8c6c-304b3ab38bc6","bb31f014-6fc2-430b-83b1-8abf26728b7c"],"custom_css":[],"settings":{"badge_text":"{{ product.metafields.custom.new_pdp_template.value.badge_text.value }}","show_buymore_banner":true,"short_desc_text":"{{ product.metafields.custom.new_pdp_template.value.newpdp_short_description_text.value }}","promo_text":"<p>{{ product.metafields.custom.new_pdp_template.value.promo_text | metafield_tag }}<\/p>","image_1":"{{ product.metafields.custom.new_pdp_template.value.icon_1.value }}","svg_code_1":"","text_1":"{{ product.metafields.custom.new_pdp_template.value.icon_text_1.value }}","image_2":"{{ product.metafields.custom.new_pdp_template.value.icon_2.value }}","svg_code_2":"","text_2":"{{ product.metafields.custom.new_pdp_template.value.icon_text_2.value }}","image_3":"{{ product.metafields.custom.new_pdp_template.value.icon_3.value }}","svg_code_3":"","text_3":"{{ product.metafields.custom.new_pdp_template.value.icon_text_3.value }}"}},"3e7835e8-2f5b-45de-ba95-daff6cf35a6f":{"type":"new-tabs-section","blocks":{"65786ffe-1ceb-4af0-b489-a1cb02b9c57b":{"type":"tab_block","settings":{"tab_title":"{{ product.metafields.custom.new_pdp_details.value.how_to_use_title.value }}","tab_text":"{{ product.metafields.custom.new_pdp_details.value.tab_section_text | metafield_tag }}","image_1":"{{ product.metafields.custom.new_pdp_details.value.tab_section_how_to_use_img_1.value }}","image_2":"{{ product.metafields.custom.new_pdp_details.value.tab_section_how_to_use_img_2.value }}","image_3":"{{ product.metafields.custom.new_pdp_details.value.tab_section_how_to_use_img_3.value }}"}},"d5900363-161e-4e7e-bb7c-115f8031deb0":{"type":"tab_block","settings":{"tab_title":"{{ product.metafields.custom.new_pdp_details.value.tab_section_ingredients_title.value }}","tab_text":"{{ product.metafields.custom.new_pdp_details.value.tab_section_ingredients_text | metafield_tag }}","image_1":"{{ product.metafields.custom.new_pdp_details.value.tab_section_ingredients_img_1.value }}","image_2":"{{ product.metafields.custom.new_pdp_details.value.tab_section_ingredients_img_2.value }}","image_3":"{{ product.metafields.custom.new_pdp_details.value.tab_section_ingredients_img_3.value }}"}},"3c67e5e3-e474-4d6c-9898-f070614ab0a7":{"type":"tab_block","settings":{"tab_title":"{{ product.metafields.custom.new_pdp_details.value.tab_section_experience_title.value }}","tab_text":"{{ product.metafields.custom.new_pdp_details.value.tab_section_experience_text | metafield_tag }}","image_1":"{{ product.metafields.custom.new_pdp_details.value.tab_section_experience_img_1.value }}","image_2":"{{ product.metafields.custom.new_pdp_details.value.tab_section_experience_img_2.value }}","image_3":"{{ product.metafields.custom.new_pdp_details.value.tab_section_experience_img_3.value }}"}}},"block_order":["65786ffe-1ceb-4af0-b489-a1cb02b9c57b","d5900363-161e-4e7e-bb7c-115f8031deb0","3c67e5e3-e474-4d6c-9898-f070614ab0a7"],"settings":{"bg_color":"{{ product.metafields.custom.new_pdp_details.value.tab_section_background_color.value }}","caption_text":"{{ product.metafields.custom.new_pdp_details.value.tab_section_caption_text.value }}","section_heading":"{{ product.metafields.custom.new_pdp_details.value.tab_section_header.value }}"}},"ca7ed848-1ddd-4fb3-b937-28f6a45262e6":{"type":"new-two-column","blocks":{"86823289-bcbe-4fef-9fec-49b323627035":{"type":"table_block","settings":{"block_image":"{{ product.metafields.custom.new_pdp_details.value.table_img_1.value }}","block_text_top":"{{ product.metafields.custom.new_pdp_details.value.table_top_text_1a | metafield_tag }}","block_text_1":"{{ product.metafields.custom.new_pdp_details.value.table_column_1_text_1 | metafield_tag }}","block_text_2":"{{ product.metafields.custom.new_pdp_details.value.table_column_1_text_2 | metafield_tag }}","block_text_3":"{{ product.metafields.custom.new_pdp_details.value.table_column_1_text_3 | metafield_tag }}"}},"41672337-8f8c-4c3a-8276-c03f23a67bec":{"type":"table_block","settings":{"block_image":"{{ product.metafields.custom.new_pdp_details.value.table_img_2.value }}","block_text_top":"{{ product.metafields.custom.new_pdp_details.value.table_top_text_2a | metafield_tag }}","block_text_1":"{{ product.metafields.custom.new_pdp_details.value.table_column_2_text_1 | metafield_tag }}","block_text_2":"{{ product.metafields.custom.new_pdp_details.value.table_column_2_text_2 | metafield_tag }}","block_text_3":"{{ product.metafields.custom.new_pdp_details.value.table_column_2_text_3 | metafield_tag }}"}},"ce06693f-bc03-4640-89d1-446b6490feb6":{"type":"table_block","settings":{"block_image":"{{ product.metafields.custom.new_pdp_details.value.table_img_3.value }}","block_text_top":"{{ product.metafields.custom.new_pdp_details.value.table_top_text_3a | metafield_tag }}","block_text_1":"{{ product.metafields.custom.new_pdp_details.value.table_column_3_text_1 | metafield_tag }}","block_text_2":"{{ product.metafields.custom.new_pdp_details.value.table_column_3_text_2 | metafield_tag }}","block_text_3":"{{ product.metafields.custom.new_pdp_details.value.table_column_3_text_3 | metafield_tag }}"}}},"block_order":["86823289-bcbe-4fef-9fec-49b323627035","41672337-8f8c-4c3a-8276-c03f23a67bec","ce06693f-bc03-4640-89d1-446b6490feb6"],"settings":{"bg_image":"{{ product.metafields.custom.new_pdp_details.value.two_column_section_desktop_background_image.value }}","bg_image_mobile":"{{ product.metafields.custom.new_pdp_details.value.two_column_section_mobile_background_image.value }}","left_heading":"{{ product.metafields.custom.new_pdp_details.value.two_column_section_left_column_heading.value }}","left_heading_color":"{{ product.metafields.custom.new_pdp_details.value.left_column_heading_color.value }}","left_text":"{{ product.metafields.custom.new_pdp_details.value.two_column_section_left_column_text | metafield_tag }}","left_text_color":"{{ product.metafields.custom.new_pdp_details.value.two_column_section_left_column_text_color.value }}"}},"816e593d-cbb0-4e5d-87a4-c22762bad62f":{"type":"new-icons-section","blocks":{"7018056c-df0e-44cc-a46e-050f89ef4123":{"type":"icon_block","settings":{"icon_image":"{{ product.metafields.custom.icons_science_product_recommendation_section.value.icon_img_1.value }}","icon_title":"{{ product.metafields.custom.icons_science_product_recommendation_section.value.title_for_image_1.value }}","icon_text":"{{ product.metafields.custom.icons_science_product_recommendation_section.value.text_for_image_1 | metafield_tag }}"}},"5c46803a-6c30-489c-982d-c03c9a27049d":{"type":"icon_block","settings":{"icon_image":"{{ product.metafields.custom.icons_science_product_recommendation_section.value.icon_img_2.value }}","icon_title":"{{ product.metafields.custom.icons_science_product_recommendation_section.value.title_for_image_2.value }}","icon_text":"{{ product.metafields.custom.icons_science_product_recommendation_section.value.text_for_image_2 | metafield_tag }}"}},"989a078f-8caf-4b81-b5fa-c4187e0965b7":{"type":"icon_block","settings":{"icon_image":"{{ product.metafields.custom.icons_science_product_recommendation_section.value.icon_img_3.value }}","icon_title":"{{ product.metafields.custom.icons_science_product_recommendation_section.value.title_for_image_3.value }}","icon_text":"{{ product.metafields.custom.icons_science_product_recommendation_section.value.text_for_image_3 | metafield_tag }}"}}},"block_order":["7018056c-df0e-44cc-a46e-050f89ef4123","5c46803a-6c30-489c-982d-c03c9a27049d","989a078f-8caf-4b81-b5fa-c4187e0965b7"],"settings":{}},"7b3cdd9c-34a5-4d71-b216-fb079a080a74":{"type":"new-science","settings":{"title":"{{ product.metafields.custom.icons_science_product_recommendation_section.value.new_science_title.value }}","subtitle":"{{ product.metafields.custom.icons_science_product_recommendation_section.value.science_subtitle | metafield_tag }}","left_heading":"{{ product.metafields.custom.icons_science_product_recommendation_section.value.left_column_heading.value }}","left_text":"{{ product.metafields.custom.icons_science_product_recommendation_section.value.left_column_text | metafield_tag }}","center_image":"{{ product.metafields.custom.icons_science_product_recommendation_section.value.center_image.value }}","center_text":"{{ product.metafields.custom.icons_science_product_recommendation_section.value.text_below_center_image | metafield_tag }}","right_heading":"{{ product.metafields.custom.icons_science_product_recommendation_section.value.right_column_heading.value }}","right_text":"{{ product.metafields.custom.icons_science_product_recommendation_section.value.right_column_text | metafield_tag }}"}},"47137a95-f888-4703-b5c0-8415a0a3853d":{"type":"new-faq","blocks":{"abd38899-58e6-460e-9d90-6aa6058ee120":{"type":"faq_block","source":"{{ product.metafields.custom.faq.value }}","settings":{"question":"{{ product.metafields.custom.faq.value.question.value }}","answer":"{{ product.metafields.custom.faq.value.answer | metafield_tag }}"}},"cebfc745-801b-41ea-a21b-4564b588e0c1":{"type":"faq_block","source":"{{ product.metafields.custom.faq.value }}","settings":{"question":"{{ product.metafields.custom.faq.value.question2.value }}","answer":"{{ product.metafields.custom.faq.value.answer_2 | metafield_tag }}"}},"6bfd525d-8d2c-491f-b35e-ea72947b1d02":{"type":"faq_block","source":"{{ product.metafields.custom.faq.value }}","settings":{"question":"{{ product.metafields.custom.faq.value.question_3.value }}","answer":"{{ product.metafields.custom.faq.value.answer_3 | metafield_tag }}"}},"b834fe61-77f6-4c28-b95d-d0f5f86e0e10":{"type":"faq_block","source":"{{ product.metafields.custom.faq.value }}","settings":{"question":"{{ product.metafields.custom.faq.value.question_4.value }}","answer":"{{ product.metafields.custom.faq.value.answer_4 | metafield_tag }}"}},"2b0fecd9-9213-473b-8046-ff0d820fd841":{"type":"faq_block","source":"{{ product.metafields.custom.faq.value }}","settings":{"question":"{{ product.metafields.custom.faq.value.question_5.value }}","answer":"{{ product.metafields.custom.faq.value.answer_5 | metafield_tag }}"}},"5f5a8cb9-a83f-42ff-9c8c-485ef530824c":{"type":"faq_block","source":"{{ product.metafields.custom.faq.value }}","settings":{"question":"{{ product.metafields.custom.faq.value.question_6.value }}","answer":"{{ product.metafields.custom.faq.value.answer_6 | metafield_tag }}"}},"ed5e6186-bbfc-4912-aae3-ec20f3d5e0c1":{"type":"faq_block","source":"{{ product.metafields.custom.faq.value }}","settings":{"question":"{{ product.metafields.custom.faq.value.question_7.value }}","answer":"{{ product.metafields.custom.faq.value.answer_7 | metafield_tag }}"}},"ec2e1171-b620-4c07-a821-a0ce0f46923d":{"type":"faq_block","source":"{{ product.metafields.custom.faq.value }}","settings":{"question":"{{ product.metafields.custom.faq.value.question_8.value }}","answer":"{{ product.metafields.custom.faq.value.answer_8 | metafield_tag }}"}},"720e123d-be95-43a8-bc0f-d9422565a368":{"type":"faq_block","source":"{{ product.metafields.custom.faq.value }}","settings":{"question":"{{ product.metafields.custom.faq.value.question_9.value }}","answer":"{{ product.metafields.custom.faq.value.answer_9 | metafield_tag }}"}}},"block_order":["abd38899-58e6-460e-9d90-6aa6058ee120","cebfc745-801b-41ea-a21b-4564b588e0c1","6bfd525d-8d2c-491f-b35e-ea72947b1d02","b834fe61-77f6-4c28-b95d-d0f5f86e0e10","2b0fecd9-9213-473b-8046-ff0d820fd841","5f5a8cb9-a83f-42ff-9c8c-485ef530824c","ed5e6186-bbfc-4912-aae3-ec20f3d5e0c1","ec2e1171-b620-4c07-a821-a0ce0f46923d","720e123d-be95-43a8-bc0f-d9422565a368"],"settings":{"faq_title":"Frequently Asked Questions"}},"bbaa8eca-23b9-4734-9b3a-f0e81e692fec":{"type":"new-pdp-reviewsec","settings":{}},"44a5aa34-7324-41ac-ba1a-ad656f3d8220":{"type":"new-product-recommendation","blocks":{"706393a8-78fe-4887-b7a2-d4347630982f":{"type":"product_block","settings":{"selected-product":"{{ product.metafields.custom.icons_science_product_recommendation_section.value.recommended_product_1.value }}"}},"c3ed0bf3-500f-4419-a1bb-92e7dc8d2215":{"type":"product_block","settings":{"selected-product":"{{ product.metafields.custom.icons_science_product_recommendation_section.value.recommended_product_2.value }}"}},"ace95250-21c0-40fa-a6fb-edf945dc2eda":{"type":"product_block","settings":{"selected-product":"{{ product.metafields.custom.icons_science_product_recommendation_section.value.recommended_product_3.value }}"}},"9ff5d2e8-7a6b-4062-9e87-772a9792aa2a":{"type":"product_block","settings":{"selected-product":"{{ product.metafields.custom.icons_science_product_recommendation_section.value.recommended_product_4.value }}"}},"044bc35d-9efb-49db-970e-dbbab2d47ff8":{"type":"product_block","settings":{"selected-product":"{{ product.metafields.custom.icons_science_product_recommendation_section.value.recommended_product_5.value }}"}},"17c87d20-d72a-468a-8c56-975ec9695bd7":{"type":"product_block","settings":{"selected-product":"{{ product.metafields.custom.icons_science_product_recommendation_section.value.recommended_product_6.value }}"}},"5cd40e2e-3813-4032-b6f2-58cc1486e678":{"type":"product_block","settings":{"selected-product":"{{ product.metafields.custom.icons_science_product_recommendation_section.value.recommended_product_7.value }}"}},"a5c7d25d-4571-4306-b6bc-0cb6b04983d9":{"type":"product_block","settings":{"selected-product":"{{ product.metafields.custom.icons_science_product_recommendation_section.value.recommended_product_8.value }}"}}},"block_order":["706393a8-78fe-4887-b7a2-d4347630982f","c3ed0bf3-500f-4419-a1bb-92e7dc8d2215","ace95250-21c0-40fa-a6fb-edf945dc2eda","9ff5d2e8-7a6b-4062-9e87-772a9792aa2a","044bc35d-9efb-49db-970e-dbbab2d47ff8","17c87d20-d72a-468a-8c56-975ec9695bd7","5cd40e2e-3813-4032-b6f2-58cc1486e678","a5c7d25d-4571-4306-b6bc-0cb6b04983d9"],"settings":{"section_heading":"Recommended Products","slides_per_view":4}}},"order":["main","3e7835e8-2f5b-45de-ba95-daff6cf35a6f","ca7ed848-1ddd-4fb3-b937-28f6a45262e6","816e593d-cbb0-4e5d-87a4-c22762bad62f","7b3cdd9c-34a5-4d71-b216-fb079a080a74","47137a95-f888-4703-b5c0-8415a0a3853d","bbaa8eca-23b9-4734-9b3a-f0e81e692fec","44a5aa34-7324-41ac-ba1a-ad656f3d8220"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "new-pdp-template",
+      "blocks": {
+        "7928b2dd-b717-4eca-9663-5a8b8feb1fe5": {
+          "type": "review",
+          "settings": {
+            "review_text": "{{ product.metafields.custom.new_pdp_template.value.review_1.value }}",
+            "reviewer": "<p>{{ product.metafields.custom.new_pdp_template.value.reviewer_1.value }}</p>"
+          }
+        },
+        "3f72cdb0-a208-4efa-8c6c-304b3ab38bc6": {
+          "type": "review",
+          "settings": {
+            "review_text": "{{ product.metafields.custom.new_pdp_template.value.review_2.value }}",
+            "reviewer": "<p>{{ product.metafields.custom.new_pdp_template.value.reviewer_2.value }}</p>"
+          }
+        },
+        "bb31f014-6fc2-430b-83b1-8abf26728b7c": {
+          "type": "review",
+          "settings": {
+            "review_text": "{{ product.metafields.custom.new_pdp_template.value.review_3.value }}",
+            "reviewer": "<p>{{ product.metafields.custom.new_pdp_template.value.reviewer_3.value }}</p>"
+          }
+        }
+      },
+      "block_order": [
+        "7928b2dd-b717-4eca-9663-5a8b8feb1fe5",
+        "3f72cdb0-a208-4efa-8c6c-304b3ab38bc6",
+        "bb31f014-6fc2-430b-83b1-8abf26728b7c"
+      ],
+      "custom_css": [],
+      "settings": {
+        "badge_text": "{{ product.metafields.custom.new_pdp_template.value.badge_text.value }}",
+        "show_buymore_banner": true,
+        "short_desc_text": "{{ product.metafields.custom.new_pdp_template.value.newpdp_short_description_text.value }}",
+        "promo_text": "<p>{{ product.metafields.custom.new_pdp_template.value.promo_text | metafield_tag }}</p>",
+        "image_1": "{{ product.metafields.custom.new_pdp_template.value.icon_1.value }}",
+        "svg_code_1": "",
+        "text_1": "{{ product.metafields.custom.new_pdp_template.value.icon_text_1.value }}",
+        "image_2": "{{ product.metafields.custom.new_pdp_template.value.icon_2.value }}",
+        "svg_code_2": "",
+        "text_2": "{{ product.metafields.custom.new_pdp_template.value.icon_text_2.value }}",
+        "image_3": "{{ product.metafields.custom.new_pdp_template.value.icon_3.value }}",
+        "svg_code_3": "",
+        "text_3": "{{ product.metafields.custom.new_pdp_template.value.icon_text_3.value }}"
+      }
+    },
+    "3e7835e8-2f5b-45de-ba95-daff6cf35a6f": {
+      "type": "new-tabs-section",
+      "blocks": {
+        "65786ffe-1ceb-4af0-b489-a1cb02b9c57b": {
+          "type": "tab_block",
+          "settings": {
+            "tab_title": "{{ product.metafields.custom.new_pdp_details.value.how_to_use_title.value }}",
+            "tab_text": "{{ product.metafields.custom.new_pdp_details.value.tab_section_text | metafield_tag }}",
+            "image_1": "{{ product.metafields.custom.new_pdp_details.value.tab_section_how_to_use_img_1.value }}",
+            "image_2": "{{ product.metafields.custom.new_pdp_details.value.tab_section_how_to_use_img_2.value }}",
+            "image_3": "{{ product.metafields.custom.new_pdp_details.value.tab_section_how_to_use_img_3.value }}"
+          }
+        },
+        "d5900363-161e-4e7e-bb7c-115f8031deb0": {
+          "type": "tab_block",
+          "settings": {
+            "tab_title": "{{ product.metafields.custom.new_pdp_details.value.tab_section_ingredients_title.value }}",
+            "tab_text": "{{ product.metafields.custom.new_pdp_details.value.tab_section_ingredients_text | metafield_tag }}",
+            "image_1": "{{ product.metafields.custom.new_pdp_details.value.tab_section_ingredients_img_1.value }}",
+            "image_2": "{{ product.metafields.custom.new_pdp_details.value.tab_section_ingredients_img_2.value }}",
+            "image_3": "{{ product.metafields.custom.new_pdp_details.value.tab_section_ingredients_img_3.value }}"
+          }
+        },
+        "3c67e5e3-e474-4d6c-9898-f070614ab0a7": {
+          "type": "tab_block",
+          "settings": {
+            "tab_title": "{{ product.metafields.custom.new_pdp_details.value.tab_section_experience_title.value }}",
+            "tab_text": "{{ product.metafields.custom.new_pdp_details.value.tab_section_experience_text | metafield_tag }}",
+            "image_1": "{{ product.metafields.custom.new_pdp_details.value.tab_section_experience_img_1.value }}",
+            "image_2": "{{ product.metafields.custom.new_pdp_details.value.tab_section_experience_img_2.value }}",
+            "image_3": "{{ product.metafields.custom.new_pdp_details.value.tab_section_experience_img_3.value }}"
+          }
+        }
+      },
+      "block_order": [
+        "65786ffe-1ceb-4af0-b489-a1cb02b9c57b",
+        "d5900363-161e-4e7e-bb7c-115f8031deb0",
+        "3c67e5e3-e474-4d6c-9898-f070614ab0a7"
+      ],
+      "settings": {
+        "bg_color": "{{ product.metafields.custom.new_pdp_details.value.tab_section_background_color.value }}",
+        "caption_text": "{{ product.metafields.custom.new_pdp_details.value.tab_section_caption_text.value }}",
+        "section_heading": "{{ product.metafields.custom.new_pdp_details.value.tab_section_header.value }}"
+      }
+    },
+    "ca7ed848-1ddd-4fb3-b937-28f6a45262e6": {
+      "type": "new-two-column",
+      "blocks": {
+        "86823289-bcbe-4fef-9fec-49b323627035": {
+          "type": "table_block",
+          "settings": {
+            "block_image": "{{ product.metafields.custom.new_pdp_details.value.table_img_1.value }}",
+            "block_text_top": "{{ product.metafields.custom.new_pdp_details.value.table_top_text_1a | metafield_tag }}",
+            "block_text_1": "{{ product.metafields.custom.new_pdp_details.value.table_column_1_text_1 | metafield_tag }}",
+            "block_text_2": "{{ product.metafields.custom.new_pdp_details.value.table_column_1_text_2 | metafield_tag }}",
+            "block_text_3": "{{ product.metafields.custom.new_pdp_details.value.table_column_1_text_3 | metafield_tag }}"
+          }
+        },
+        "41672337-8f8c-4c3a-8276-c03f23a67bec": {
+          "type": "table_block",
+          "settings": {
+            "block_image": "{{ product.metafields.custom.new_pdp_details.value.table_img_2.value }}",
+            "block_text_top": "{{ product.metafields.custom.new_pdp_details.value.table_top_text_2a | metafield_tag }}",
+            "block_text_1": "{{ product.metafields.custom.new_pdp_details.value.table_column_2_text_1 | metafield_tag }}",
+            "block_text_2": "{{ product.metafields.custom.new_pdp_details.value.table_column_2_text_2 | metafield_tag }}",
+            "block_text_3": "{{ product.metafields.custom.new_pdp_details.value.table_column_2_text_3 | metafield_tag }}"
+          }
+        },
+        "ce06693f-bc03-4640-89d1-446b6490feb6": {
+          "type": "table_block",
+          "settings": {
+            "block_image": "{{ product.metafields.custom.new_pdp_details.value.table_img_3.value }}",
+            "block_text_top": "{{ product.metafields.custom.new_pdp_details.value.table_top_text_3a | metafield_tag }}",
+            "block_text_1": "{{ product.metafields.custom.new_pdp_details.value.table_column_3_text_1 | metafield_tag }}",
+            "block_text_2": "{{ product.metafields.custom.new_pdp_details.value.table_column_3_text_2 | metafield_tag }}",
+            "block_text_3": "{{ product.metafields.custom.new_pdp_details.value.table_column_3_text_3 | metafield_tag }}"
+          }
+        }
+      },
+      "block_order": [
+        "86823289-bcbe-4fef-9fec-49b323627035",
+        "41672337-8f8c-4c3a-8276-c03f23a67bec",
+        "ce06693f-bc03-4640-89d1-446b6490feb6"
+      ],
+      "settings": {
+        "bg_image": "{{ product.metafields.custom.new_pdp_details.value.two_column_section_desktop_background_image.value }}",
+        "bg_image_mobile": "{{ product.metafields.custom.new_pdp_details.value.two_column_section_mobile_background_image.value }}",
+        "left_heading": "{{ product.metafields.custom.new_pdp_details.value.two_column_section_left_column_heading.value }}",
+        "left_heading_color": "{{ product.metafields.custom.new_pdp_details.value.left_column_heading_color.value }}",
+        "left_text": "{{ product.metafields.custom.new_pdp_details.value.two_column_section_left_column_text | metafield_tag }}",
+        "left_text_color": "{{ product.metafields.custom.new_pdp_details.value.two_column_section_left_column_text_color.value }}"
+      }
+    },
+    "816e593d-cbb0-4e5d-87a4-c22762bad62f": {
+      "type": "new-icons-section",
+      "blocks": {
+        "7018056c-df0e-44cc-a46e-050f89ef4123": {
+          "type": "icon_block",
+          "settings": {
+            "icon_image": "{{ product.metafields.custom.icons_science_product_recommendation_section.value.icon_img_1.value }}",
+            "icon_title": "{{ product.metafields.custom.icons_science_product_recommendation_section.value.title_for_image_1.value }}",
+            "icon_text": "{{ product.metafields.custom.icons_science_product_recommendation_section.value.text_for_image_1 | metafield_tag }}"
+          }
+        },
+        "5c46803a-6c30-489c-982d-c03c9a27049d": {
+          "type": "icon_block",
+          "settings": {
+            "icon_image": "{{ product.metafields.custom.icons_science_product_recommendation_section.value.icon_img_2.value }}",
+            "icon_title": "{{ product.metafields.custom.icons_science_product_recommendation_section.value.title_for_image_2.value }}",
+            "icon_text": "{{ product.metafields.custom.icons_science_product_recommendation_section.value.text_for_image_2 | metafield_tag }}"
+          }
+        },
+        "989a078f-8caf-4b81-b5fa-c4187e0965b7": {
+          "type": "icon_block",
+          "settings": {
+            "icon_image": "{{ product.metafields.custom.icons_science_product_recommendation_section.value.icon_img_3.value }}",
+            "icon_title": "{{ product.metafields.custom.icons_science_product_recommendation_section.value.title_for_image_3.value }}",
+            "icon_text": "{{ product.metafields.custom.icons_science_product_recommendation_section.value.text_for_image_3 | metafield_tag }}"
+          }
+        }
+      },
+      "block_order": [
+        "7018056c-df0e-44cc-a46e-050f89ef4123",
+        "5c46803a-6c30-489c-982d-c03c9a27049d",
+        "989a078f-8caf-4b81-b5fa-c4187e0965b7"
+      ],
+      "settings": {}
+    },
+    "7b3cdd9c-34a5-4d71-b216-fb079a080a74": {
+      "type": "new-science",
+      "settings": {
+        "title": "{{ product.metafields.custom.icons_science_product_recommendation_section.value.new_science_title.value }}",
+        "subtitle": "{{ product.metafields.custom.icons_science_product_recommendation_section.value.science_subtitle | metafield_tag }}",
+        "left_heading": "{{ product.metafields.custom.icons_science_product_recommendation_section.value.left_column_heading.value }}",
+        "left_text": "{{ product.metafields.custom.icons_science_product_recommendation_section.value.left_column_text | metafield_tag }}",
+        "center_image": "{{ product.metafields.custom.icons_science_product_recommendation_section.value.center_image.value }}",
+        "center_text": "{{ product.metafields.custom.icons_science_product_recommendation_section.value.text_below_center_image | metafield_tag }}",
+        "right_heading": "{{ product.metafields.custom.icons_science_product_recommendation_section.value.right_column_heading.value }}",
+        "right_text": "{{ product.metafields.custom.icons_science_product_recommendation_section.value.right_column_text | metafield_tag }}"
+      }
+    },
+    "47137a95-f888-4703-b5c0-8415a0a3853d": {
+      "type": "new-faq",
+      "blocks": {
+        "faq_block_T38Qj6": {
+          "type": "faq_block",
+          "settings": {
+            "question": "What is CBG, and why should I care?",
+            "answer": "<p>CBG, or cannabigerol, is often called the \"mother of all cannabinoids\" because it’s the precursor to all other cannabinoids, including CBD and THC. Unlike THC, CBG won’t get you high, but it does offer a different kind of buzz: an uplifting, euphoric vibe that’s perfect for boosting your mood and clearing mental fog. Combined with CBD, our Bliss CBG gummies offer a balanced experience—think calm but motivated, relaxed but ready to tackle whatever the day throws at you.</p>"
+          }
+        },
+        "faq_block_fRyUDP": {
+          "type": "faq_block",
+          "settings": {
+            "question": "Are CBG gummies different from CBD gummies?",
+            "answer": "<p>Yes, they are! While CBD is loved for its calming, relaxing effects, CBG brings in a more uplifting, feel-good energy. It’s like the sunshiny counterpart to CBD’s cozy vibe. Together, they’re the perfect mood-boosting power couple, giving you the best of both worlds with each gummy.</p>"
+          }
+        },
+        "faq_block_Yw89fN": {
+          "type": "faq_block",
+          "settings": {
+            "question": "Will CBG get me stoned or make me feel high?",
+            "answer": "<p>Nope! CBG is non-psychoactive, which means you won’t feel “high” or out of it. Instead, expect subtle, uplifting vibes that enhance your mood without any of the heady effects associated with THC. It’s all about feeling clear-headed, focused, and blissful.</p>"
+          }
+        },
+        "faq_block_ADmdaf": {
+          "type": "faq_block",
+          "settings": {
+            "question": "How does CBG help with mood?",
+            "answer": "<p>CBG interacts with your body’s endocannabinoid system in a way that can help boost serotonin levels and balance out stress, leaving you feeling more positive and energized. Combined with CBD, which is known for its relaxing properties, these gummies offer a balanced experience that lifts your mood and soothes any tension.</p>"
+          }
+        },
+        "faq_block_Emrr7G": {
+          "type": "faq_block",
+          "settings": {
+            "question": "What’s the recommended dose for CBG gummies?",
+            "answer": "<p>If you're new to CBG or cannabis edibles, start with half a gummy (7.5mg of CBG + 7.5mg of CBD) and see how you feel. Experienced users can enjoy a full gummy (15mg CBG + 15mg CBD) to unlock that daily dose of bliss. Remember, everyone’s tolerance is different, so find what works best for your vibe!</p>"
+          }
+        },
+        "faq_block_fEgxYm": {
+          "type": "faq_block",
+          "settings": {
+            "question": "How long does it take for CBG gummies to work?",
+            "answer": "<p>On average, you’ll start feeling the effects within 30-90 minutes. Since they’re absorbed through your digestive system, they take a bit longer to kick in than something like a tincture, but the effects also tend to last longer. Ideal for those slow, blissful mornings or afternoon pick-me-ups.</p>"
+          }
+        },
+        "faq_block_CHcVNH": {
+          "type": "faq_block",
+          "settings": {
+            "question": "Will CBG make me sleepy?",
+            "answer": "<p>Not usually! CBG is known for its uplifting, mood-enhancing effects rather than sedative effects. It’s a great daytime option to help you feel clear-headed and energized. However, everyone’s body is different—some people might feel more relaxed than usual, so start slow and see how you feel.</p>"
+          }
+        },
+        "faq_block_BHmaaP": {
+          "type": "faq_block",
+          "settings": {
+            "question": "What does “full-spectrum” mean in these gummies?",
+            "answer": "<p>Full-spectrum means our gummies include the full range of cannabinoids found in the hemp plant (like CBD, CBG, and trace amounts of THC) to create a synergistic effect known as the “entourage effect.” This maximizes the potential wellness benefits by working together in harmony, but don’t worry—the THC content is below 0.3%, so there’s no “high,” just balanced, feel-good vibes.</p>"
+          }
+        },
+        "faq_block_4zWXER": {
+          "type": "faq_block",
+          "settings": {
+            "question": "Will full-spectrum CBG gummies make me fail a drug test?",
+            "answer": "<p>It’s rare, but possible. Since our full-spectrum CBG gummies contain only trace amounts of THC (within legal limits), using them consistently over time could potentially show up on a drug test. If you’re concerned about testing, consider consulting your HR department or exploring our broad-spectrum or THC-free products for peace of mind.</p>"
+          }
+        },
+        "faq_block_Kqw8U8": {
+          "type": "faq_block",
+          "settings": {
+            "question": "Are CBG gummies safe to use daily?",
+            "answer": "<p>Yes! Many people find that using CBG gummies daily provides the best mood-boosting benefits. Consistent use can help balance your mood, relieve stress, and support overall wellness, making them a fantastic addition to your daily routine.</p>"
+          }
+        },
+        "faq_block_K9eRQQ": {
+          "type": "faq_block",
+          "settings": {
+            "question": "Do you ship CBG gummies internationally?",
+            "answer": "<p>Yes! We’re excited to offer international shipping to select locations. Just add your items to the cart, and email us at support@kushqueen.shop to confirm details. We’ll help you figure out all the shipping deets!</p>"
+          }
+        },
+        "faq_block_gE7KaR": {
+          "type": "faq_block",
+          "settings": {
+            "question": "Can you ship to Canada?",
+            "answer": "<p>Sadly, no. Due to strict Canadian regulations, we can’t currently ship to Canada. But hey, we’re always keeping an eye out for changes—follow us on Instagram and sign up for our newsletter to stay in the loop!</p>"
+          }
+        },
+        "faq_block_cQdd7J": {
+          "type": "faq_block",
+          "settings": {
+            "question": "What are Kush Queen’s CBG gummies made of?",
+            "answer": "<p>Our CBG gummies are crafted with only the best ingredients: full-spectrum hemp extract, natural fruit flavors, and zero fillers. They’re vegan, cruelty-free, and made without any artificial colors or flavors. Each gummy is hand-crafted in small batches to ensure you get a consistent, delicious, and mood-boosting experience every time.</p>"
+          }
+        },
+        "faq_block_cNPF7b": {
+          "type": "faq_block",
+          "settings": {
+            "question": "What makes Kush Queen’s CBG gummies unique?",
+            "answer": "<p>We pour a whole lot of love and science into these gummies! From our small-batch approach to our commitment to quality ingredients, every Bliss CBG gummy is designed to uplift your mood and help you feel good. Plus, our 1:1 ratio of CBD and CBG offers a balanced experience you won’t find just anywhere.</p>"
+          }
+        },
+        "faq_block_k3f67X": {
+          "type": "faq_block",
+          "settings": {
+            "question": "Are there any side effects to be aware of?",
+            "answer": "<p>CBG is generally well-tolerated, but everyone’s body is different. Possible side effects could include mild drowsiness or dry mouth, especially if you’re new to cannabinoids. We recommend starting with a small dose and seeing how your body responds.</p>"
+          }
+        },
+        "faq_block_bGNxmG": {
+          "type": "faq_block",
+          "settings": {
+            "question": "What flavors are the Bliss CBG gummies?",
+            "answer": "<p>Our Bliss CBG gummies feature a blend of ripe raspberries and blueberries with a vibrant, fruity finish. Sweet, sour, and absolutely delicious—a treat for both your taste buds and your mood.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "faq_block_T38Qj6",
+        "faq_block_fRyUDP",
+        "faq_block_Yw89fN",
+        "faq_block_ADmdaf",
+        "faq_block_Emrr7G",
+        "faq_block_fEgxYm",
+        "faq_block_CHcVNH",
+        "faq_block_BHmaaP",
+        "faq_block_4zWXER",
+        "faq_block_Kqw8U8",
+        "faq_block_K9eRQQ",
+        "faq_block_gE7KaR",
+        "faq_block_cQdd7J",
+        "faq_block_cNPF7b",
+        "faq_block_k3f67X",
+        "faq_block_bGNxmG"
+      ],
+      "settings": {
+        "faq_title": "Frequently Asked Questions"
+      }
+    },
+    "bbaa8eca-23b9-4734-9b3a-f0e81e692fec": {
+      "type": "new-pdp-reviewsec",
+      "settings": {}
+    },
+    "44a5aa34-7324-41ac-ba1a-ad656f3d8220": {
+      "type": "new-product-recommendation",
+      "blocks": {
+        "706393a8-78fe-4887-b7a2-d4347630982f": {
+          "type": "product_block",
+          "settings": {
+            "selected-product": "{{ product.metafields.custom.icons_science_product_recommendation_section.value.recommended_product_1.value }}"
+          }
+        },
+        "c3ed0bf3-500f-4419-a1bb-92e7dc8d2215": {
+          "type": "product_block",
+          "settings": {
+            "selected-product": "{{ product.metafields.custom.icons_science_product_recommendation_section.value.recommended_product_2.value }}"
+          }
+        },
+        "ace95250-21c0-40fa-a6fb-edf945dc2eda": {
+          "type": "product_block",
+          "settings": {
+            "selected-product": "{{ product.metafields.custom.icons_science_product_recommendation_section.value.recommended_product_3.value }}"
+          }
+        },
+        "9ff5d2e8-7a6b-4062-9e87-772a9792aa2a": {
+          "type": "product_block",
+          "settings": {
+            "selected-product": "{{ product.metafields.custom.icons_science_product_recommendation_section.value.recommended_product_4.value }}"
+          }
+        },
+        "044bc35d-9efb-49db-970e-dbbab2d47ff8": {
+          "type": "product_block",
+          "settings": {
+            "selected-product": "{{ product.metafields.custom.icons_science_product_recommendation_section.value.recommended_product_5.value }}"
+          }
+        },
+        "17c87d20-d72a-468a-8c56-975ec9695bd7": {
+          "type": "product_block",
+          "settings": {
+            "selected-product": "{{ product.metafields.custom.icons_science_product_recommendation_section.value.recommended_product_6.value }}"
+          }
+        },
+        "5cd40e2e-3813-4032-b6f2-58cc1486e678": {
+          "type": "product_block",
+          "settings": {
+            "selected-product": "{{ product.metafields.custom.icons_science_product_recommendation_section.value.recommended_product_7.value }}"
+          }
+        },
+        "a5c7d25d-4571-4306-b6bc-0cb6b04983d9": {
+          "type": "product_block",
+          "settings": {
+            "selected-product": "{{ product.metafields.custom.icons_science_product_recommendation_section.value.recommended_product_8.value }}"
+          }
+        }
+      },
+      "block_order": [
+        "706393a8-78fe-4887-b7a2-d4347630982f",
+        "c3ed0bf3-500f-4419-a1bb-92e7dc8d2215",
+        "ace95250-21c0-40fa-a6fb-edf945dc2eda",
+        "9ff5d2e8-7a6b-4062-9e87-772a9792aa2a",
+        "044bc35d-9efb-49db-970e-dbbab2d47ff8",
+        "17c87d20-d72a-468a-8c56-975ec9695bd7",
+        "5cd40e2e-3813-4032-b6f2-58cc1486e678",
+        "a5c7d25d-4571-4306-b6bc-0cb6b04983d9"
+      ],
+      "settings": {
+        "section_heading": "Recommended Products",
+        "slides_per_view": 4
+      }
+    }
+  },
+  "order": [
+    "main",
+    "3e7835e8-2f5b-45de-ba95-daff6cf35a6f",
+    "ca7ed848-1ddd-4fb3-b937-28f6a45262e6",
+    "816e593d-cbb0-4e5d-87a4-c22762bad62f",
+    "7b3cdd9c-34a5-4d71-b216-fb079a080a74",
+    "47137a95-f888-4703-b5c0-8415a0a3853d",
+    "bbaa8eca-23b9-4734-9b3a-f0e81e692fec",
+    "44a5aa34-7324-41ac-ba1a-ad656f3d8220"
+  ]
+}
