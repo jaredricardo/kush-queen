@@ -1,12 +1,3 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "current": {
     "color_text": "#3d4246",
@@ -32,18 +23,20 @@
     "share_facebook": true,
     "share_twitter": true,
     "share_pinterest": true,
-    "social_twitter_link": "https://twitter.com/kushqueenshop",
-    "social_facebook_link": "https://www.facebook.com/kushqueenwellness",
-    "social_pinterest_link": "https://www.pinterest.com/TheKushQueenShop/",
-    "social_instagram_link": "https://www.instagram.com/kushqueenshop/",
+    "social_twitter_link": "https:\/\/twitter.com\/kushqueenshop",
+    "social_facebook_link": "https:\/\/www.facebook.com\/kushqueenwellness",
+    "social_pinterest_link": "https:\/\/www.pinterest.com\/TheKushQueenShop\/",
+    "social_instagram_link": "https:\/\/www.instagram.com\/kushqueenshop\/",
     "social_tumblr_link": "",
     "social_snapchat_link": "",
-    "social_youtube_link": "https://www.youtube.com/channel/UCCzceDGj0poKiqwkv9x3MBg/feed",
+    "social_youtube_link": "https:\/\/www.youtube.com\/channel\/UCCzceDGj0poKiqwkv9x3MBg\/feed",
     "social_vimeo_link": "",
-    "favicon": "shopify://shop_images/kq-flower.jpg",
+    "favicon": "shopify:\/\/shop_images\/kq-flower.jpg",
     "enable_ajax": true,
+    "b2b_nav_text": "Exclusive",
+    "b2b_nav_url": "shopify:\/\/products\/mini-bath-bomb-sample-set",
     "checkout_header_image": "",
-    "checkout_logo_image": "shopify://shop_images/kqlogostacked-2-1-e1556030634848_1.png",
+    "checkout_logo_image": "shopify:\/\/shop_images\/kqlogostacked-2-1-e1556030634848_1.png",
     "checkout_logo_position": "left",
     "checkout_logo_size": "medium",
     "checkout_body_background_image": "",
@@ -86,7 +79,7 @@
             "type": "text",
             "settings": {
               "title": "Talk about your business",
-              "text": "<p>Share store details, promotions, or brand content with your customers.</p>"
+              "text": "<p>Share store details, promotions, or brand content with your customers.<\/p>"
             }
           },
           "newsletter": {
@@ -113,55 +106,55 @@
           "1571814241764": {
             "type": "giving-set",
             "settings": {
-              "giving_pic": "shopify://shop_images/giving1_bornthisway.jpg"
+              "giving_pic": "shopify:\/\/shop_images\/giving1_bornthisway.jpg"
             }
           },
           "1571814250788": {
             "type": "giving-set",
             "settings": {
-              "giving_pic": "shopify://shop_images/giving1_beyoutiful.jpg"
+              "giving_pic": "shopify:\/\/shop_images\/giving1_beyoutiful.jpg"
             }
           },
           "1571814314204": {
             "type": "giving-set",
             "settings": {
-              "giving_pic": "shopify://shop_images/giving1_translifeline.jpg"
+              "giving_pic": "shopify:\/\/shop_images\/giving1_translifeline.jpg"
             }
           },
           "1571814324516": {
             "type": "giving-set",
             "settings": {
-              "giving_pic": "shopify://shop_images/giving1_beaglefreedom.jpg"
+              "giving_pic": "shopify:\/\/shop_images\/giving1_beaglefreedom.jpg"
             }
           },
           "17070819-b452-4437-b518-f8f42e9ffd2f": {
             "type": "giving-set",
             "settings": {
-              "giving_pic": "shopify://shop_images/SIC_Logo_New_Horz_1.jpg"
+              "giving_pic": "shopify:\/\/shop_images\/SIC_Logo_New_Horz_1.jpg"
             }
           },
           "93e1f4cf-ac5f-4e3d-83ec-8b33c657071f": {
             "type": "giving-set",
             "settings": {
-              "giving_pic": "shopify://shop_images/InReach_Logo.jpg"
+              "giving_pic": "shopify:\/\/shop_images\/InReach_Logo.jpg"
             }
           },
           "1571823807996": {
             "type": "activity-logo",
             "settings": {
-              "activity_pic": "shopify://shop_images/partners3_bellacures.jpg"
+              "activity_pic": "shopify:\/\/shop_images\/partners3_bellacures.jpg"
             }
           },
           "1571823819877": {
             "type": "activity-logo",
             "settings": {
-              "activity_pic": "shopify://shop_images/partners2_1.png"
+              "activity_pic": "shopify:\/\/shop_images\/partners2_1.png"
             }
           },
           "1571823831773": {
             "type": "activity-logo",
             "settings": {
-              "activity_pic": "shopify://shop_images/partners3_connected.jpg"
+              "activity_pic": "shopify:\/\/shop_images\/partners3_connected.jpg"
             }
           }
         },
@@ -177,16 +170,16 @@
           "1571823831773"
         ],
         "settings": {
-          "founder_pic": "shopify://shop_images/newimg_smaller.jpg",
+          "founder_pic": "shopify:\/\/shop_images\/newimg_smaller.jpg",
           "small_text": "OLIVIA<br> ALEXANDER",
           "large_text": "MEET THE <br>FOUNDER",
-          "founder_info": "<h1>MEET THE FOUNDER</h1>\n<h2>Our namesake, Kush Queen…</h2>\n<p>In six years, Kush Queen has grown into a multi-million dollar, multifaceted cannabis brand manufacturing category-leading hemp, compliant cannabis, transdermal, and minor cannabinoid products. The Kush Queen product line includes award-winning cannabis infused bath bombs, transdermal topicals, flower, pre-rolls, edibles, wellness supplements, and skincare.</p>\n<p>Like all good things, Kush Queen was born out of community; at the intersection of social media and cannabis. Here’s the story of who we are and how we got here.</p>\n<p>It’s 2006 and co-founder and CEO Oilvia Alexander is a budtender in California’s medical market, working behind the counter weighing eighths, learning why people were seeking medical cannabis, and seeing first-hand how patients used cannabis for health and well-being. Most importantly, Olivia got to see what the industry was lacking: products with true efficacy and repeatable effect that also represent people that weren’t the typical stoner bro, like women and the LGBTQ+ communities.</p> \n<p>Fast forward to the next chapter and the Kush Queen community comes alive online. Alexander was running The Crystal Cult selling crystallized vapes and was one of the largest digital influencers in cannabis with over 2.5 million followers and an average of 100 million monthly impressions. Kush Queen was born out of <a href=\"https://www.mic.com/articles/125997/fashion-vapes-are-the-latest-trend-that-can-get-you-high\" target=\"_blank\">The Crystal Cult</a> and @TheKushQueens online community celebrating women who love cannabis. The Crystal Cult’s best selling vape pen called “Kush Queen” was a magnet for consumers who did not see themselves represented in cannabis culture.</p>\n<p>At this time Olivia met co-founder Michael Sawyer, a California native cultivator who was growing and processing indoor cannabis. Michael’s passion for high-quality cannabis, innovation and technology was a perfect match for Olivia’s desire to make cannabis a tool for elevating daily life.  After gaining years of experience working behind the scenes with some of the top cannabis companies executing digital media digital strategy, marketing, and branding, Alexander and Sawyer sought out to create their own cannabis brand and products because they did not see themselves being represented in the culture. From this point forward, Kush Queen has developed and delivered cannabis products from a wellness perspective that is accessible to everyone.</p>\n<p>Alexander explains, “I approach cannabis from a wellness perspective, and wanted to create products that would make cannabis more accessible and harness the true power of the plant. A lot of people think topicals are snake oil or that they don’t work, but I believe they’re one of the best delivery methods. After all, the skin is the biggest organ. I really just created products for myself that improved my quality of life and helped me cope with my bipolar disorder. Kush Queen is truly an expression of my experiences in products.”</p>\n<p>In the pre-prop 64 era, Kush Queen operated in the California market connecting with the community winning multiple High Times Cannabis Cup awards and innovated the topicals category with transdermal technology long before people really understood the power of nanoparticle applications. From this time on, Kush Queen has adapted and evolved with every turn of cannabis legalization.</p>\n<p>After 2016, Kush Queen began recreational sales in California with the award-winning infused bath bomb. Today, Kush Queen is the number one cannabis bath bomb on the market. Expanding the topical line through innovation and technology, Soaked Shower Gel, THC Lube, and Melt Pain Relief Lotion followed in production. In 2022, Kush Queen launched ultra-premium indoor flower and infused pre-rolls in the California market.</p>\n<p>In 2017, the opportunity for e-commerce and wholesale prompted Kush Queen to adapt the product line into hemp. Our groundbreaking mainstream collaborations with <a href=\"https://bellacures.com/olivia-alexander/\" target=\"_blank\">Bellacures Canna-cure</a> and <a href=\"https://www.papermag.com/alice-olivia-cbd-line-2639314544.html\" target=\"_blank\">Alice+ Olivia</a> have driven KQ beyond the traditional hemp company. Today, Kush Queen has over 50 hemp products, leads the market in minor cannabinoids and transdermal innovation. With over 1,000 wholesale partners, you can find Kush Queen products through the United States, Asia, and the United Kingdom.</p>\n<p>Since day one Olivia’s belief in, and passion for cannabis shapes her determination to normalize lifestyle and medical usage for everyone. As a voice for progressive change and female industry inclusion, Olivia was recognized as Dope Magazine’s “2017 Social Media Influencer of the Year”, <a href=\"https://variety.com/lists/women-of-weed-marijuana-industry/\" target=\"_blank\">“Top Women In Weed” by Variety</a>, and  was called “The Mariah Carey of Weed” by Elle. Kush Queen won <a href=\"https://www.refinery29.com/en-us/shop/beauty-innovator-awards-shop-2019-c2196510\" target=\"_blank\">Refinery 2019’s Beauty Innovator Award</a>, <a href=\"https://hightimes.com/events/the-emerald-cup-awards-rocks-hollywood-with-unforgettable-genetics-and-guests/\" target=\"_blank\">2022 Emerald Cup 2nd place for best therapeutic topical</a>, and <a href=\"https://hightimes.com/culture/all-of-the-top-10-entries-from-the-2017-norcal-cannabis-cup/\" target=\"_blank\">2 High Times Cannabis Cups</a>. Kush Queen has been featured in the <a href=\"https://www.latimes.com/lifestyle/story/2019-10-03/olivia-alexander-kush-queen-cbd\" target=\"_blank\">LA Times</a>, <a href=\"https://www.kushqueencannabis.com/blog/2018/9/12/kush-queen-featured-vogue-paris\" target=\"_blank\">Vogue</a>, <a href=\"https://wwd.com/beauty-industry-news/beauty-features/vagina-products-vibrators-feminist-1202758743/\" target=\"_blank\">WWD</a>, <a href=\"https://www.instyle.com/beauty/products-tools/kush-queen-delta-8-cbd-bath-bomb\" target=\"_blank\">Instyle</a>, <a href=\"https://www.forbes.com/sites/warrenbobrow/2020/06/27/june-is-pride-month-for-lgbtqia-and-their-allies-in-cannabis/\" target=\"_blank\">Forbes</a>, <a href=\"https://www.rollingstone.com/product-recommendations/lifestyle/best-cbd-lubes-sex-products-1352492/\" target=\"_blank\">Rolling Stone</a>, <a href=\"https://kushqueen.shop/blogs/all/kush-queen-featured-harper-s-bazaar\" target=\"_blank\">Harper's Bazaar</a>, <a href=\"https://www.elle.com/culture/a28068790/pride-brands-rainbow-merch-review/\" target=\"_blank\">Elle</a>, and countless other mainstream publications. Beloved by celebrities like Lady Gaga, Olivia Wilde, Viola Davis, Harvey Guillen, Ariana Madix, and Ruby Rose to name a few. Kush Queen has had the ability to cross over into fashion, wellness, and pop culture while maintaining legacy status as cannabis operators.</p>\n<p>You can feel that passion and determination throughout Kush Queen’s team, branding and community care efforts. Relentlessly committed to our community we have worked with organizations pursuing real change like Social Impact Center, Asylum Connect, BeYOUtiFul Foundation, Born This Way Foundation, Expungement Works, and Endo Black.</p>\n<p>You can keep up with her on the daily,<a aria-label=\"here - keep up with her on the daily\" href=\"https://www.instagram.com/thelivalexander/?hl=en\"> here.</a></p>",
-          "add_banner": "shopify://shop_images/about-img2_1.png",
+          "founder_info": "<h1>MEET THE FOUNDER<\/h1>\n<h2>Our namesake, Kush Queen…<\/h2>\n<p>In six years, Kush Queen has grown into a multi-million dollar, multifaceted cannabis brand manufacturing category-leading hemp, compliant cannabis, transdermal, and minor cannabinoid products. The Kush Queen product line includes award-winning cannabis infused bath bombs, transdermal topicals, flower, pre-rolls, edibles, wellness supplements, and skincare.<\/p>\n<p>Like all good things, Kush Queen was born out of community; at the intersection of social media and cannabis. Here’s the story of who we are and how we got here.<\/p>\n<p>It’s 2006 and co-founder and CEO Oilvia Alexander is a budtender in California’s medical market, working behind the counter weighing eighths, learning why people were seeking medical cannabis, and seeing first-hand how patients used cannabis for health and well-being. Most importantly, Olivia got to see what the industry was lacking: products with true efficacy and repeatable effect that also represent people that weren’t the typical stoner bro, like women and the LGBTQ+ communities.<\/p> \n<p>Fast forward to the next chapter and the Kush Queen community comes alive online. Alexander was running The Crystal Cult selling crystallized vapes and was one of the largest digital influencers in cannabis with over 2.5 million followers and an average of 100 million monthly impressions. Kush Queen was born out of <a href=\"https:\/\/www.mic.com\/articles\/125997\/fashion-vapes-are-the-latest-trend-that-can-get-you-high\" target=\"_blank\">The Crystal Cult<\/a> and @TheKushQueens online community celebrating women who love cannabis. The Crystal Cult’s best selling vape pen called “Kush Queen” was a magnet for consumers who did not see themselves represented in cannabis culture.<\/p>\n<p>At this time Olivia met co-founder Michael Sawyer, a California native cultivator who was growing and processing indoor cannabis. Michael’s passion for high-quality cannabis, innovation and technology was a perfect match for Olivia’s desire to make cannabis a tool for elevating daily life.  After gaining years of experience working behind the scenes with some of the top cannabis companies executing digital media digital strategy, marketing, and branding, Alexander and Sawyer sought out to create their own cannabis brand and products because they did not see themselves being represented in the culture. From this point forward, Kush Queen has developed and delivered cannabis products from a wellness perspective that is accessible to everyone.<\/p>\n<p>Alexander explains, “I approach cannabis from a wellness perspective, and wanted to create products that would make cannabis more accessible and harness the true power of the plant. A lot of people think topicals are snake oil or that they don’t work, but I believe they’re one of the best delivery methods. After all, the skin is the biggest organ. I really just created products for myself that improved my quality of life and helped me cope with my bipolar disorder. Kush Queen is truly an expression of my experiences in products.”<\/p>\n<p>In the pre-prop 64 era, Kush Queen operated in the California market connecting with the community winning multiple High Times Cannabis Cup awards and innovated the topicals category with transdermal technology long before people really understood the power of nanoparticle applications. From this time on, Kush Queen has adapted and evolved with every turn of cannabis legalization.<\/p>\n<p>After 2016, Kush Queen began recreational sales in California with the award-winning infused bath bomb. Today, Kush Queen is the number one cannabis bath bomb on the market. Expanding the topical line through innovation and technology, Soaked Shower Gel, THC Lube, and Melt Pain Relief Lotion followed in production. In 2022, Kush Queen launched ultra-premium indoor flower and infused pre-rolls in the California market.<\/p>\n<p>In 2017, the opportunity for e-commerce and wholesale prompted Kush Queen to adapt the product line into hemp. Our groundbreaking mainstream collaborations with <a href=\"https:\/\/bellacures.com\/olivia-alexander\/\" target=\"_blank\">Bellacures Canna-cure<\/a> and <a href=\"https:\/\/www.papermag.com\/alice-olivia-cbd-line-2639314544.html\" target=\"_blank\">Alice+ Olivia<\/a> have driven KQ beyond the traditional hemp company. Today, Kush Queen has over 50 hemp products, leads the market in minor cannabinoids and transdermal innovation. With over 1,000 wholesale partners, you can find Kush Queen products through the United States, Asia, and the United Kingdom.<\/p>\n<p>Since day one Olivia’s belief in, and passion for cannabis shapes her determination to normalize lifestyle and medical usage for everyone. As a voice for progressive change and female industry inclusion, Olivia was recognized as Dope Magazine’s “2017 Social Media Influencer of the Year”, <a href=\"https:\/\/variety.com\/lists\/women-of-weed-marijuana-industry\/\" target=\"_blank\">“Top Women In Weed” by Variety<\/a>, and  was called “The Mariah Carey of Weed” by Elle. Kush Queen won <a href=\"https:\/\/www.refinery29.com\/en-us\/shop\/beauty-innovator-awards-shop-2019-c2196510\" target=\"_blank\">Refinery 2019’s Beauty Innovator Award<\/a>, <a href=\"https:\/\/hightimes.com\/events\/the-emerald-cup-awards-rocks-hollywood-with-unforgettable-genetics-and-guests\/\" target=\"_blank\">2022 Emerald Cup 2nd place for best therapeutic topical<\/a>, and <a href=\"https:\/\/hightimes.com\/culture\/all-of-the-top-10-entries-from-the-2017-norcal-cannabis-cup\/\" target=\"_blank\">2 High Times Cannabis Cups<\/a>. Kush Queen has been featured in the <a href=\"https:\/\/www.latimes.com\/lifestyle\/story\/2019-10-03\/olivia-alexander-kush-queen-cbd\" target=\"_blank\">LA Times<\/a>, <a href=\"https:\/\/www.kushqueencannabis.com\/blog\/2018\/9\/12\/kush-queen-featured-vogue-paris\" target=\"_blank\">Vogue<\/a>, <a href=\"https:\/\/wwd.com\/beauty-industry-news\/beauty-features\/vagina-products-vibrators-feminist-1202758743\/\" target=\"_blank\">WWD<\/a>, <a href=\"https:\/\/www.instyle.com\/beauty\/products-tools\/kush-queen-delta-8-cbd-bath-bomb\" target=\"_blank\">Instyle<\/a>, <a href=\"https:\/\/www.forbes.com\/sites\/warrenbobrow\/2020\/06\/27\/june-is-pride-month-for-lgbtqia-and-their-allies-in-cannabis\/\" target=\"_blank\">Forbes<\/a>, <a href=\"https:\/\/www.rollingstone.com\/product-recommendations\/lifestyle\/best-cbd-lubes-sex-products-1352492\/\" target=\"_blank\">Rolling Stone<\/a>, <a href=\"https:\/\/kushqueen.shop\/blogs\/all\/kush-queen-featured-harper-s-bazaar\" target=\"_blank\">Harper's Bazaar<\/a>, <a href=\"https:\/\/www.elle.com\/culture\/a28068790\/pride-brands-rainbow-merch-review\/\" target=\"_blank\">Elle<\/a>, and countless other mainstream publications. Beloved by celebrities like Lady Gaga, Olivia Wilde, Viola Davis, Harvey Guillen, Ariana Madix, and Ruby Rose to name a few. Kush Queen has had the ability to cross over into fashion, wellness, and pop culture while maintaining legacy status as cannabis operators.<\/p>\n<p>You can feel that passion and determination throughout Kush Queen’s team, branding and community care efforts. Relentlessly committed to our community we have worked with organizations pursuing real change like Social Impact Center, Asylum Connect, BeYOUtiFul Foundation, Born This Way Foundation, Expungement Works, and Endo Black.<\/p>\n<p>You can keep up with her on the daily,<a aria-label=\"here - keep up with her on the daily\" href=\"https:\/\/www.instagram.com\/thelivalexander\/?hl=en\"> here.<\/a><\/p>",
+          "add_banner": "shopify:\/\/shop_images\/about-img2_1.png",
           "kush_title": "Kush Queen Cares",
           "kush_subtitle": "We give, you give.",
-          "kush_text": "<p>With cannabis, we see an opportunity not just to improve our lives, but improve our world. At Kush Queen, we began behind the counter of dispensaries and in the garden so our passion for the plant runs deep.</p>\n<p>Our vision goes beyond bringing you great products to showing our care for people by giving back. From the beginning and until the very end, we will always look for ways to use our platform for the highest good.</p>",
+          "kush_text": "<p>With cannabis, we see an opportunity not just to improve our lives, but improve our world. At Kush Queen, we began behind the counter of dispensaries and in the garden so our passion for the plant runs deep.<\/p>\n<p>Our vision goes beyond bringing you great products to showing our care for people by giving back. From the beginning and until the very end, we will always look for ways to use our platform for the highest good.<\/p>",
           "giving_title": "OUR GIVING",
-          "sec_pic": "shopify://shop_images/KQ-About-Page-Invest-min_1140x1140_1.png",
+          "sec_pic": "shopify:\/\/shop_images\/KQ-About-Page-Invest-min_1140x1140_1.png",
           "main_title": "Invest In Kush Queen",
           "main_subtext": "Grow with us as we take our vision of cannabis to the moon.",
           "activity_title": "Our Active Partners Include:",
@@ -200,56 +193,56 @@
             "type": "select",
             "settings": {
               "sec_heading": "Privacy Policy",
-              "large_text": "<p>Last updated: January 2nd, 2018</p>\n<p>Kush Queen Shop (“us”, “we”, or “our”) operates http://www.KushQueen.Shop (the “Site”). This page informs you of our policies regarding the collection, use and disclosure of Personal Information we receive from users of the Site.</p>\n<p>We use your Personal Information only for providing and improving the Site. By using the Site, you agree to the collection and use of information in accordance with this policy.</p>"
+              "large_text": "<p>Last updated: January 2nd, 2018<\/p>\n<p>Kush Queen Shop (“us”, “we”, or “our”) operates http:\/\/www.KushQueen.Shop (the “Site”). This page informs you of our policies regarding the collection, use and disclosure of Personal Information we receive from users of the Site.<\/p>\n<p>We use your Personal Information only for providing and improving the Site. By using the Site, you agree to the collection and use of information in accordance with this policy.<\/p>"
             }
           },
           "1571813168863": {
             "type": "select",
             "settings": {
               "sec_heading": "Information Collection And Use",
-              "large_text": "<p>While using our Site, we may ask you to provide us with certain personally identifiable information that can be used to contact or identify you. Personally identifiable information may include, but is not limited to your name (“Personal Information”).</p>"
+              "large_text": "<p>While using our Site, we may ask you to provide us with certain personally identifiable information that can be used to contact or identify you. Personally identifiable information may include, but is not limited to your name (“Personal Information”).<\/p>"
             }
           },
           "1571813196444": {
             "type": "select",
             "settings": {
               "sec_heading": "Log Data",
-              "large_text": "<p>Like many site operators, we collect information that your browser sends whenever you visit our Site (“Log Data”).</p>\n<p>This Log Data may include information such as your computer’s Internet Protocol (“IP”) address, browser type, browser version, the pages of our Site that you visit, the time and date of your visit, the time spent on those pages and other statistics.</p>\n<p>In addition, we may use third party services such as Google Analytics that collect, monitor and analyze this.</p>"
+              "large_text": "<p>Like many site operators, we collect information that your browser sends whenever you visit our Site (“Log Data”).<\/p>\n<p>This Log Data may include information such as your computer’s Internet Protocol (“IP”) address, browser type, browser version, the pages of our Site that you visit, the time and date of your visit, the time spent on those pages and other statistics.<\/p>\n<p>In addition, we may use third party services such as Google Analytics that collect, monitor and analyze this.<\/p>"
             }
           },
           "1571813277541": {
             "type": "select",
             "settings": {
               "sec_heading": "Communications",
-              "large_text": "<p>We may use your Personal Information to contact you with newsletters, marketing or promotional materials and other information that.</p>"
+              "large_text": "<p>We may use your Personal Information to contact you with newsletters, marketing or promotional materials and other information that.<\/p>"
             }
           },
           "1571813305156": {
             "type": "select",
             "settings": {
               "sec_heading": "Cookies",
-              "large_text": "<p>Cookies are files with small amount of data, which may include an anonymous unique identifier. Cookies are sent to your browser from a web site and stored on your computer’s hard drive.</p>\n<p>Like many sites, we use “cookies” to collect information. You can instruct your browser to refuse all cookies or to indicate when a cookie is being sent. However, if you do not accept cookies, you may not be able to use some portions of our Site.</p>"
+              "large_text": "<p>Cookies are files with small amount of data, which may include an anonymous unique identifier. Cookies are sent to your browser from a web site and stored on your computer’s hard drive.<\/p>\n<p>Like many sites, we use “cookies” to collect information. You can instruct your browser to refuse all cookies or to indicate when a cookie is being sent. However, if you do not accept cookies, you may not be able to use some portions of our Site.<\/p>"
             }
           },
           "1571813351172": {
             "type": "select",
             "settings": {
               "sec_heading": "Security",
-              "large_text": "<p>The security of your Personal Information is important to us, but remember that no method of transmission over the Internet, or method of electronic storage, is 100% secure. While we strive to use commercially acceptable means to protect your Personal Information, we cannot guarantee its absolute security.</p>"
+              "large_text": "<p>The security of your Personal Information is important to us, but remember that no method of transmission over the Internet, or method of electronic storage, is 100% secure. While we strive to use commercially acceptable means to protect your Personal Information, we cannot guarantee its absolute security.<\/p>"
             }
           },
           "1571813382788": {
             "type": "select",
             "settings": {
               "sec_heading": "Changes To This Privacy Policy",
-              "large_text": "<p>This Privacy Policy is effective as of June 9th, 2017 and will remain in effect except with respect to any changes in its provisions in the future, which will be in effect immediately after being posted on this page.</p>\n<p>We reserve the right to update or change our Privacy Policy at any time and you should check this Privacy Policy periodically. Your continued use of the Service after we post any modifications to the Privacy Policy on this page will constitute your acknowledgment of the modifications and your consent to abide and be bound by the modified Privacy Policy.</p>\n<p>If we make any material changes to this Privacy Policy, we will notify you either through the email address you have provided us, or by placing a prominent notice on our website</p>\n<p>TK Queens, LLC Registration #2017135101</p>\n<p>©2018 Kush Queen Shop</p>"
+              "large_text": "<p>This Privacy Policy is effective as of June 9th, 2017 and will remain in effect except with respect to any changes in its provisions in the future, which will be in effect immediately after being posted on this page.<\/p>\n<p>We reserve the right to update or change our Privacy Policy at any time and you should check this Privacy Policy periodically. Your continued use of the Service after we post any modifications to the Privacy Policy on this page will constitute your acknowledgment of the modifications and your consent to abide and be bound by the modified Privacy Policy.<\/p>\n<p>If we make any material changes to this Privacy Policy, we will notify you either through the email address you have provided us, or by placing a prominent notice on our website<\/p>\n<p>TK Queens, LLC Registration #2017135101<\/p>\n<p>©2018 Kush Queen Shop<\/p>"
             }
           },
           "1602874234188": {
             "type": "select",
             "settings": {
               "sec_heading": "SMS",
-              "large_text": "SMS/MMS MOBILE MESSAGING MARKETING PROGRAM\nWe respect your privacy. We will only use information you provide through the Program to transmit your mobile messages and respond to you, if necessary. This includes, but is not limited to, sharing information with platform providers, phone companies, and other vendors who assist us in the delivery of mobile messages.  WE DO NOT SELL, RENT, LOAN, TRADE, LEASE, OR OTHERWISE TRANSFER FOR PROFIT ANY PHONE NUMBERS OR CUSTOMER INFORMATION COLLECTED THROUGH THE PROGRAM TO ANY THIRD PARTY. Nonetheless, We reserve the right at all times to disclose any information as necessary to satisfy any law, regulation or governmental request, to avoid liability, or to protect Our rights or property. When you complete forms online or otherwise provide Us information in connection with the Program, you agree to provide accurate, complete, and true information. You agree not to use a false or misleading name or a name that you are not authorized to use. If, in Our sole discretion, We believe that any such information is untrue, inaccurate, or incomplete, or you have opted into the Program for an ulterior purpose, We may refuse you access to the Program and pursue any appropriate legal remedies.\nCalifornia Civil Code Section 1798.83 permits Users of the Program that are California residents to request certain information regarding our disclosure of the information you provide through the Program to third parties for their direct marketing purposes.  To make such a request, please contact us at the following address:\nTK Queens INC. \n1440 S STATE COLLEGE BLVD. SUITE 5F\nANAHEIM CA 92806\nHello@kushqueen.shop\nThis Privacy Policy is strictly limited to the Program and has no effect on any other privacy policy(ies) that may govern the relationship between you and Us in other contexts."
+              "large_text": "SMS\/MMS MOBILE MESSAGING MARKETING PROGRAM\nWe respect your privacy. We will only use information you provide through the Program to transmit your mobile messages and respond to you, if necessary. This includes, but is not limited to, sharing information with platform providers, phone companies, and other vendors who assist us in the delivery of mobile messages.  WE DO NOT SELL, RENT, LOAN, TRADE, LEASE, OR OTHERWISE TRANSFER FOR PROFIT ANY PHONE NUMBERS OR CUSTOMER INFORMATION COLLECTED THROUGH THE PROGRAM TO ANY THIRD PARTY. Nonetheless, We reserve the right at all times to disclose any information as necessary to satisfy any law, regulation or governmental request, to avoid liability, or to protect Our rights or property. When you complete forms online or otherwise provide Us information in connection with the Program, you agree to provide accurate, complete, and true information. You agree not to use a false or misleading name or a name that you are not authorized to use. If, in Our sole discretion, We believe that any such information is untrue, inaccurate, or incomplete, or you have opted into the Program for an ulterior purpose, We may refuse you access to the Program and pursue any appropriate legal remedies.\nCalifornia Civil Code Section 1798.83 permits Users of the Program that are California residents to request certain information regarding our disclosure of the information you provide through the Program to third parties for their direct marketing purposes.  To make such a request, please contact us at the following address:\nTK Queens INC. \n1440 S STATE COLLEGE BLVD. SUITE 5F\nANAHEIM CA 92806\nHello@kushqueen.shop\nThis Privacy Policy is strictly limited to the Program and has no effect on any other privacy policy(ies) that may govern the relationship between you and Us in other contexts."
             }
           }
         },
@@ -273,10 +266,10 @@
           "1571813865161": {
             "type": "queen",
             "settings": {
-              "partner_img": "shopify://shop_images/partner-with-us-img1_1.jpg",
-              "img_link": "/pages/wholesale",
+              "partner_img": "shopify:\/\/shop_images\/partner-with-us-img1_1.jpg",
+              "img_link": "\/pages\/wholesale",
               "partner_title": "BECOME A KUSH QUEEN WHOLESALER",
-              "title_link": "/pages/wholesale"
+              "title_link": "\/pages\/wholesale"
             }
           }
         },
@@ -292,14 +285,14 @@
             "type": "simple_link",
             "settings": {
               "title": "Shop All",
-              "link": "https://kushqueen.shop/collections/all-cannabis-products"
+              "link": "https:\/\/kushqueen.shop\/collections\/all-cannabis-products"
             }
           },
           "link_linklist_94W3pb": {
             "type": "link-linklist",
             "settings": {
               "title": "Bundles",
-              "link": "shopify://collections/bundles",
+              "link": "shopify:\/\/collections\/bundles",
               "links": "bundles"
             }
           },
@@ -308,14 +301,14 @@
             "disabled": true,
             "settings": {
               "title": "Flash Sale",
-              "link": "shopify://collections/flash-sale"
+              "link": "shopify:\/\/collections\/flash-sale"
             }
           },
           "1571826560796": {
             "type": "link-linklist",
             "settings": {
               "title": "Gummies",
-              "link": "https://kushqueen.shop/collections/weed-gummies",
+              "link": "https:\/\/kushqueen.shop\/collections\/weed-gummies",
               "links": "gummies"
             }
           },
@@ -323,7 +316,7 @@
             "type": "link-linklist",
             "settings": {
               "title": "Bath Bombs",
-              "link": "shopify://collections/bath-bombs-near-me",
+              "link": "shopify:\/\/collections\/bath-bombs-near-me",
               "links": "bath-bombs"
             }
           },
@@ -332,14 +325,14 @@
             "disabled": true,
             "settings": {
               "title": "Bath Bombs",
-              "link": "shopify://collections/cbd-bath-bombs"
+              "link": "shopify:\/\/collections\/cbd-bath-bombs"
             }
           },
           "32f1f937-10ad-4ae8-a64b-705364661315": {
             "type": "link-linklist",
             "settings": {
               "title": "Lube",
-              "link": "shopify://collections/water-based-lube",
+              "link": "shopify:\/\/collections\/water-based-lube",
               "links": "water-based-lube"
             }
           },
@@ -347,7 +340,7 @@
             "type": "link-linklist",
             "settings": {
               "title": "Flower",
-              "link": "shopify://collections/thca-flower",
+              "link": "shopify:\/\/collections\/thca-flower",
               "links": "smokeables"
             }
           },
@@ -355,7 +348,7 @@
             "type": "link-linklist",
             "settings": {
               "title": "Tinctures",
-              "link": "shopify://collections/thc-tinctures",
+              "link": "shopify:\/\/collections\/thc-tinctures",
               "links": "tinctures"
             }
           },
@@ -363,7 +356,7 @@
             "type": "link-linklist",
             "settings": {
               "title": "Topicals",
-              "link": "shopify://collections/topical-thc-cbd",
+              "link": "shopify:\/\/collections\/topical-thc-cbd",
               "links": "topicals"
             }
           }
@@ -389,7 +382,7 @@
           "head_site_king_link": "",
           "head_site_king_link_txt": "KINGDM",
           "head_site_announcement": "Elevating You Daily!",
-          "logo": "shopify://shop_images/Asset_2_400.png",
+          "logo": "shopify:\/\/shop_images\/Asset_2_400.png",
           "enable_search": true
         }
       },
@@ -400,119 +393,119 @@
             "type": "select",
             "settings": {
               "sec_heading": "In General",
-              "large_text": "<p>Kush Queen Shop (“www.KushQueen.Shop”) owns and operate this Website.  This document governs your relationship with www.KushQueen.Shop (“Website”). Access to and use of this Website and the products and services available through this Website (collectively, the “Services”) are subject to the following terms, conditions and notices (the “Terms of Service”). By using the Services, you are agreeing to all of the Terms of Service, as may be updated by us from time to time. You should check this page regularly to take notice of any changes we may have made to the Terms of Service.</p>\n<p>?Access to this Website is permitted on a temporary basis, and we reserve the right to withdraw or amend the Services without notice. We will not be liable if for any reason this Website is unavailable at any time or for any period. From time to time, we may restrict access to some parts or all of this Website.</p>\n<p>This Website may contain links to other websites (the “Linked Sites”), which are not operated by www.KushQueen.Shop. www.KushQueen.Shop has no control over the Linked Sites and accepts no responsibility for them or for any loss or damage that may arise from your use of them. Your use of the Linked Sites will be subject to the terms of use and service contained within each such site.</p>"
+              "large_text": "<p>Kush Queen Shop (“www.KushQueen.Shop”) owns and operate this Website.  This document governs your relationship with www.KushQueen.Shop (“Website”). Access to and use of this Website and the products and services available through this Website (collectively, the “Services”) are subject to the following terms, conditions and notices (the “Terms of Service”). By using the Services, you are agreeing to all of the Terms of Service, as may be updated by us from time to time. You should check this page regularly to take notice of any changes we may have made to the Terms of Service.<\/p>\n<p>?Access to this Website is permitted on a temporary basis, and we reserve the right to withdraw or amend the Services without notice. We will not be liable if for any reason this Website is unavailable at any time or for any period. From time to time, we may restrict access to some parts or all of this Website.<\/p>\n<p>This Website may contain links to other websites (the “Linked Sites”), which are not operated by www.KushQueen.Shop. www.KushQueen.Shop has no control over the Linked Sites and accepts no responsibility for them or for any loss or damage that may arise from your use of them. Your use of the Linked Sites will be subject to the terms of use and service contained within each such site.<\/p>"
             }
           },
           "1571824787149": {
             "type": "select",
             "settings": {
               "sec_heading": "Privacy Policy",
-              "large_text": "<p>Our privacy policy, which sets out how we will use your information, can be found <b>here</b>. By using this Website, you consent to the processing described therein and warrant that all data provided by you is accurate.</p>"
+              "large_text": "<p>Our privacy policy, which sets out how we will use your information, can be found <b>here<\/b>. By using this Website, you consent to the processing described therein and warrant that all data provided by you is accurate.<\/p>"
             }
           },
           "1571824840340": {
             "type": "select",
             "settings": {
               "sec_heading": "Prohibitions",
-              "large_text": "<p>You must not misuse this Website. You will not: commit or encourage a criminal offense; transmit or distribute a virus, trojan, worm, logic bomb or any other material which is malicious, technologically harmful, in breach of confidence or in any way offensive or obscene; hack into any aspect of the Service; corrupt data; cause annoyance to other users; infringe upon the rights of any other person’s proprietary rights; send any unsolicited advertising or promotional material, commonly referred to as “spam”; or attempt to affect the performance or functionality of any computer facilities of or accessed through this Website. Breaching this provision would constitute a criminal offense and www.KushQueen.Shop will report any such breach to the relevant law enforcement authorities and disclose your identity to them.</p>\n<p>We will not be liable for any loss or damage caused by a distributed denial-of-service attack, viruses or other technologically harmful material that may infect your computer equipment, computer programs, data or other proprietary material due to your use of this Website or to your downloading of any material posted on it, or on any website linked to it.</p>"
+              "large_text": "<p>You must not misuse this Website. You will not: commit or encourage a criminal offense; transmit or distribute a virus, trojan, worm, logic bomb or any other material which is malicious, technologically harmful, in breach of confidence or in any way offensive or obscene; hack into any aspect of the Service; corrupt data; cause annoyance to other users; infringe upon the rights of any other person’s proprietary rights; send any unsolicited advertising or promotional material, commonly referred to as “spam”; or attempt to affect the performance or functionality of any computer facilities of or accessed through this Website. Breaching this provision would constitute a criminal offense and www.KushQueen.Shop will report any such breach to the relevant law enforcement authorities and disclose your identity to them.<\/p>\n<p>We will not be liable for any loss or damage caused by a distributed denial-of-service attack, viruses or other technologically harmful material that may infect your computer equipment, computer programs, data or other proprietary material due to your use of this Website or to your downloading of any material posted on it, or on any website linked to it.<\/p>"
             }
           },
           "1571824897692": {
             "type": "select",
             "settings": {
               "sec_heading": "Intellectual Property, Software and Content",
-              "large_text": "<p>The intellectual property rights in all software and content (including photographic images) made available to you on or through this Website remains the property of www.KushQueen.Shop or its licensors and are protected by copyright laws and treaties around the world. All such rights are reserved by www.KushQueen.Shop and its licensors. You may store, print and display the content supplied solely for your own personal use. You are not permitted to publish, manipulate, distribute or otherwise reproduce, in any format, any of the content or copies of the content supplied to you or which appears on this Website nor may you use any such content in connection with any business or commercial enterprise.</p>"
+              "large_text": "<p>The intellectual property rights in all software and content (including photographic images) made available to you on or through this Website remains the property of www.KushQueen.Shop or its licensors and are protected by copyright laws and treaties around the world. All such rights are reserved by www.KushQueen.Shop and its licensors. You may store, print and display the content supplied solely for your own personal use. You are not permitted to publish, manipulate, distribute or otherwise reproduce, in any format, any of the content or copies of the content supplied to you or which appears on this Website nor may you use any such content in connection with any business or commercial enterprise.<\/p>"
             }
           },
           "1571824939613": {
             "type": "select",
             "settings": {
               "sec_heading": "Intellectual Property, Software and Content",
-              "large_text": "<p>The intellectual property rights in all software and content (including photographic images) made available to you on or through this Website remains the property of www.KushQueen.Shop or its licensors and are protected by copyright laws and treaties around the world. All such rights are reserved by www.KushQueen.Shop and its licensors. You may store, print and display the content supplied solely for your own personal use. You are not permitted to publish, manipulate, distribute or otherwise reproduce, in any format, any of the content or copies of the content supplied to you or which appears on this Website nor may you use any such content in connection with any business or commercial enterprise.</p>"
+              "large_text": "<p>The intellectual property rights in all software and content (including photographic images) made available to you on or through this Website remains the property of www.KushQueen.Shop or its licensors and are protected by copyright laws and treaties around the world. All such rights are reserved by www.KushQueen.Shop and its licensors. You may store, print and display the content supplied solely for your own personal use. You are not permitted to publish, manipulate, distribute or otherwise reproduce, in any format, any of the content or copies of the content supplied to you or which appears on this Website nor may you use any such content in connection with any business or commercial enterprise.<\/p>"
             }
           },
           "1571824966964": {
             "type": "select",
             "settings": {
               "sec_heading": "Terms of Sale",
-              "large_text": "<p>By placing an order you are offering to purchase a product on and subject to the following terms and conditions. All orders are subject to availability and confirmation of the order price.</p>\n<p>Dispatch times may vary according to availability and subject to any delays resulting from postal delays or force majeure for which we will not be responsible.</p>\n<p>In order to contract with www.KushQueen.Shop you must be over 18 years of age and possess a valid credit or debit card issued by a bank acceptable to us. www.KushQueen.Shop retains the right to refuse any request made by you. If your order is accepted we will inform you by email and we will confirm the identity of the party which you have contracted with. This will usually be www.KushQueen.Shop or may in some cases be a third party. Where a contract is made with a third party www.KushQueen.Shop is not acting as either agent or principal and the contract is made between yourself and that third party and will be subject to the terms of sale which they supply you. When placing an order you undertake that all details you provide to us are true and accurate, that you are an authorized user of the credit or debit card used to place your order and that there are sufficient funds to cover the cost of the goods. The cost of foreign products and services may fluctuate. All prices advertised are subject to such changes.</p>\n<p>All Sales are FINAL.</p>\n<div class=\"team-into\">\n<h2 role=\"heading\" aria-level=\"3\">(a) Pricing and Availability</h2>\n<p>When you place an order, you will receive an acknowledgement e-mail confirming receipt of your order: this email will only be an acknowledgement and will not constitute acceptance of your order. A contract between us will not be formed until we send you confirmation by e-mail that the goods which you ordered have been dispatched to you. Only those goods listed in the confirmation e-mail sent at the time of dispatch will be included in the contract formed.</p>\n<h2 role=\"heading\" aria-level=\"3\">(b) Pricing and Availability</h2>\n<p>Whilst we try and ensure that all details, descriptions and prices which appear on this Website are accurate, errors may occur. If we discover an error in the price of any goods which you have ordered we will inform you of this as soon as possible and give you the option of reconfirming your order at the correct price or cancelling it. If we are unable to contact you we will treat the order as cancelled. If you cancel and you have already paid for the goods, you will receive a full refund.</p>\n<p>Delivery costs will be charged in addition; such additional charges are clearly displayed where applicable and included in the ‘Total Cost’.</p>\n<h2 role=\"heading\" aria-level=\"3\">(c) Payment </h2>\n<p>Upon receiving your order we carry out a standard authorization check on your payment card to ensure there are sufficient funds to fulfill the transaction. Your card will be debited upon authorization being received. The monies received upon the debiting of your card shall be treated as a deposit against the value of the goods you wish to purchase. Once the goods have been dispatched and you have been sent a confirmation email the monies paid as a deposit shall be used as consideration for the value of goods you have purchased as listed in the confirmation email.</p>\n<h2 role=\"heading\" aria-level=\"3\">(d) Shipping</h2>\n<p>We require a signature for delivery to ensure your products reach the right person. We will ship your order within 7 business days of your order date</p>\n</div>"
+              "large_text": "<p>By placing an order you are offering to purchase a product on and subject to the following terms and conditions. All orders are subject to availability and confirmation of the order price.<\/p>\n<p>Dispatch times may vary according to availability and subject to any delays resulting from postal delays or force majeure for which we will not be responsible.<\/p>\n<p>In order to contract with www.KushQueen.Shop you must be over 18 years of age and possess a valid credit or debit card issued by a bank acceptable to us. www.KushQueen.Shop retains the right to refuse any request made by you. If your order is accepted we will inform you by email and we will confirm the identity of the party which you have contracted with. This will usually be www.KushQueen.Shop or may in some cases be a third party. Where a contract is made with a third party www.KushQueen.Shop is not acting as either agent or principal and the contract is made between yourself and that third party and will be subject to the terms of sale which they supply you. When placing an order you undertake that all details you provide to us are true and accurate, that you are an authorized user of the credit or debit card used to place your order and that there are sufficient funds to cover the cost of the goods. The cost of foreign products and services may fluctuate. All prices advertised are subject to such changes.<\/p>\n<p>All Sales are FINAL.<\/p>\n<div class=\"team-into\">\n<h2 role=\"heading\" aria-level=\"3\">(a) Pricing and Availability<\/h2>\n<p>When you place an order, you will receive an acknowledgement e-mail confirming receipt of your order: this email will only be an acknowledgement and will not constitute acceptance of your order. A contract between us will not be formed until we send you confirmation by e-mail that the goods which you ordered have been dispatched to you. Only those goods listed in the confirmation e-mail sent at the time of dispatch will be included in the contract formed.<\/p>\n<h2 role=\"heading\" aria-level=\"3\">(b) Pricing and Availability<\/h2>\n<p>Whilst we try and ensure that all details, descriptions and prices which appear on this Website are accurate, errors may occur. If we discover an error in the price of any goods which you have ordered we will inform you of this as soon as possible and give you the option of reconfirming your order at the correct price or cancelling it. If we are unable to contact you we will treat the order as cancelled. If you cancel and you have already paid for the goods, you will receive a full refund.<\/p>\n<p>Delivery costs will be charged in addition; such additional charges are clearly displayed where applicable and included in the ‘Total Cost’.<\/p>\n<h2 role=\"heading\" aria-level=\"3\">(c) Payment <\/h2>\n<p>Upon receiving your order we carry out a standard authorization check on your payment card to ensure there are sufficient funds to fulfill the transaction. Your card will be debited upon authorization being received. The monies received upon the debiting of your card shall be treated as a deposit against the value of the goods you wish to purchase. Once the goods have been dispatched and you have been sent a confirmation email the monies paid as a deposit shall be used as consideration for the value of goods you have purchased as listed in the confirmation email.<\/p>\n<h2 role=\"heading\" aria-level=\"3\">(d) Shipping<\/h2>\n<p>We require a signature for delivery to ensure your products reach the right person. We will ship your order within 7 business days of your order date<\/p>\n<\/div>"
             }
           },
           "1571825157700": {
             "type": "select",
             "settings": {
               "sec_heading": "Payments",
-              "large_text": "<p>During the checkout process, you will be asked to enter your payment details. By completing your payment details you confirm that the credit or debit card being used is yours. All fields indicated as required must be completed. Please note that we may collect and store your information, using an encrypted secure payment mechanism and will only use your information in accordance with our Privacy and Cookie Policy.</p>"
+              "large_text": "<p>During the checkout process, you will be asked to enter your payment details. By completing your payment details you confirm that the credit or debit card being used is yours. All fields indicated as required must be completed. Please note that we may collect and store your information, using an encrypted secure payment mechanism and will only use your information in accordance with our Privacy and Cookie Policy.<\/p>"
             }
           },
           "1571825566330": {
             "type": "select",
             "settings": {
               "sec_heading": "Disclaimer of Liability",
-              "large_text": "<p>The material displayed on this Website is provided without any guarantees, conditions or warranties as to its accuracy. Unless expressly stated to the contrary to the fullest extent permitted by law www.KushQueen.Shop and its suppliers, content providers and advertisers hereby expressly exclude all conditions, warranties and other terms which might otherwise be implied by statute, common law or the law of equity and shall not be liable for any damages whatsoever, including but without limitation to any direct, indirect, special, consequential, punitive or incidental damages, or damages for loss of use, profits, data or other intangibles, damage to goodwill or reputation, or the cost of procurement of substitute goods and services, arising out of or related to the use, inability to use, performance or failures of this Website or the Linked Sites and any materials posted thereon, irrespective of whether such damages were foreseeable or arise in contract, tort, equity, restitution, by statute, at common law or otherwise. This does not affect www.KushQueen.Shop’s liability for death or personal injury arising from its negligence, fraudulent misrepresentation, misrepresentation as to a fundamental matter or any other liability which cannot be excluded or limited under applicable law.</p>"
+              "large_text": "<p>The material displayed on this Website is provided without any guarantees, conditions or warranties as to its accuracy. Unless expressly stated to the contrary to the fullest extent permitted by law www.KushQueen.Shop and its suppliers, content providers and advertisers hereby expressly exclude all conditions, warranties and other terms which might otherwise be implied by statute, common law or the law of equity and shall not be liable for any damages whatsoever, including but without limitation to any direct, indirect, special, consequential, punitive or incidental damages, or damages for loss of use, profits, data or other intangibles, damage to goodwill or reputation, or the cost of procurement of substitute goods and services, arising out of or related to the use, inability to use, performance or failures of this Website or the Linked Sites and any materials posted thereon, irrespective of whether such damages were foreseeable or arise in contract, tort, equity, restitution, by statute, at common law or otherwise. This does not affect www.KushQueen.Shop’s liability for death or personal injury arising from its negligence, fraudulent misrepresentation, misrepresentation as to a fundamental matter or any other liability which cannot be excluded or limited under applicable law.<\/p>"
             }
           },
           "1571825672159": {
             "type": "select",
             "settings": {
               "sec_heading": "Medical Disclaimer",
-              "large_text": "<p>We, at Kush Queen, pride ourselves on our meticulously crafted products and quality ingredients. We do, however, encourage caution when using any new skin care or beauty products. If you are undergoing any treatments, recovering from surgery, have sensitive skin, allergies or other medical conditions, please consult with your physician to determine whether or not our products are a good fit.</p>\n<ul>\n<li>Content on our website is provided for general informational purposes and should not be considered medical advice. Product information is not intended to diagnose, treat, cure or prevent any disease.</li>\n<li>Comments and feedback about product effectiveness are based on customer, staff and family opinions and should not be substituted for medical care.</li>\n<li>Kush Queen is not liable for any individual reaction to any particular ingredient. Remember to read our labels and ingredient lists carefully and follow the appropriate directions for use. If you have a specific allergy or sensitivity, do not use ingredients that may trigger a reaction. An allergy patch test is recommended if there is any doubt or history of skin reactions. Discontinue use if a reaction occurs.</li>\n<li>Please consult a healthcare provider if you have any questions about a particular health condition.</li>\n<li>Information on this website has not been evaluated or approved by the Food &amp; Drug Administration.</li>\n</ul>\n<p>Have further questions or concerns? Contact us at support@kushqueen.shop</p>"
+              "large_text": "<p>We, at Kush Queen, pride ourselves on our meticulously crafted products and quality ingredients. We do, however, encourage caution when using any new skin care or beauty products. If you are undergoing any treatments, recovering from surgery, have sensitive skin, allergies or other medical conditions, please consult with your physician to determine whether or not our products are a good fit.<\/p>\n<ul>\n<li>Content on our website is provided for general informational purposes and should not be considered medical advice. Product information is not intended to diagnose, treat, cure or prevent any disease.<\/li>\n<li>Comments and feedback about product effectiveness are based on customer, staff and family opinions and should not be substituted for medical care.<\/li>\n<li>Kush Queen is not liable for any individual reaction to any particular ingredient. Remember to read our labels and ingredient lists carefully and follow the appropriate directions for use. If you have a specific allergy or sensitivity, do not use ingredients that may trigger a reaction. An allergy patch test is recommended if there is any doubt or history of skin reactions. Discontinue use if a reaction occurs.<\/li>\n<li>Please consult a healthcare provider if you have any questions about a particular health condition.<\/li>\n<li>Information on this website has not been evaluated or approved by the Food &amp; Drug Administration.<\/li>\n<\/ul>\n<p>Have further questions or concerns? Contact us at support@kushqueen.shop<\/p>"
             }
           },
           "1571825938995": {
             "type": "select",
             "settings": {
               "sec_heading": "Linking to this Website",
-              "large_text": "<p>You may link to our home page, provided you do so in a way that is fair and legal and does not damage our reputation or take advantage of it, but you must not establish a link in such a way as to suggest any form of association, approval or endorsement on our part where none exists. You must not establish a link from any website that is not owned by you. This Website must not be framed on any other site, nor may you create a link to any part of this Website other than the home page. We reserve the right to withdraw linking permission without notice.</p>"
+              "large_text": "<p>You may link to our home page, provided you do so in a way that is fair and legal and does not damage our reputation or take advantage of it, but you must not establish a link in such a way as to suggest any form of association, approval or endorsement on our part where none exists. You must not establish a link from any website that is not owned by you. This Website must not be framed on any other site, nor may you create a link to any part of this Website other than the home page. We reserve the right to withdraw linking permission without notice.<\/p>"
             }
           },
           "1571825968436": {
             "type": "select",
             "settings": {
               "sec_heading": "Disclaimer as to ownership of trademarks, images of personalities and third party copyright",
-              "large_text": "<p>Except where expressly stated to the contrary all persons (including their names and images), third party trademarks and content, services and/or locations featured on this Website are in no way associated, linked or affiliated with www.KushQueen.Shop and you should not rely on the existence of such a connection or affiliation. Any trade marks/names featured on this Website are owned by the respective trade mark owners. Where a trade mark or brand name is referred to it is used solely to describe or identify the products and services and is in no way an assertion that such products or services are endorsed by or connected to www.KushQueen.Shop.</p>"
+              "large_text": "<p>Except where expressly stated to the contrary all persons (including their names and images), third party trademarks and content, services and\/or locations featured on this Website are in no way associated, linked or affiliated with www.KushQueen.Shop and you should not rely on the existence of such a connection or affiliation. Any trade marks\/names featured on this Website are owned by the respective trade mark owners. Where a trade mark or brand name is referred to it is used solely to describe or identify the products and services and is in no way an assertion that such products or services are endorsed by or connected to www.KushQueen.Shop.<\/p>"
             }
           },
           "1571825998220": {
             "type": "select",
             "settings": {
               "sec_heading": "Indemnity",
-              "large_text": "<p>You agree to indemnify, defend and hold harmless www.KushQueen.Shop, its directors, officers, employees, consultants, agents, and affiliates, from any and all third party claims, liability, damages and/or costs (including, but not limited to, legal fees) arising from your use this Website or your breach of the Terms of Service.</p>"
+              "large_text": "<p>You agree to indemnify, defend and hold harmless www.KushQueen.Shop, its directors, officers, employees, consultants, agents, and affiliates, from any and all third party claims, liability, damages and\/or costs (including, but not limited to, legal fees) arising from your use this Website or your breach of the Terms of Service.<\/p>"
             }
           },
           "1571826035611": {
             "type": "select",
             "settings": {
               "sec_heading": "Variation",
-              "large_text": "<p>www.KushQueen.Shop shall have the right in its absolute discretion at any time and without notice to amend, remove or vary the Services and/or any page of this Website.</p>"
+              "large_text": "<p>www.KushQueen.Shop shall have the right in its absolute discretion at any time and without notice to amend, remove or vary the Services and\/or any page of this Website.<\/p>"
             }
           },
           "1571826077835": {
             "type": "select",
             "settings": {
               "sec_heading": "Invalidity",
-              "large_text": "<p>If any part of the Terms of Service is unenforceable (including any provision in which we exclude our liability to you) the enforceability of any other part of the Terms of Service will not be affected all other clauses remaining in full force and effect. So far as possible where any clause/sub-clause or part of a clause/sub-clause can be severed to render the remaining part valid, the clause shall be interpreted accordingly. Alternatively, you agree that the clause shall be rectified and interpreted in such a way that closely resembles the original meaning of the clause /sub-clause as is permitted by law.</p>"
+              "large_text": "<p>If any part of the Terms of Service is unenforceable (including any provision in which we exclude our liability to you) the enforceability of any other part of the Terms of Service will not be affected all other clauses remaining in full force and effect. So far as possible where any clause\/sub-clause or part of a clause\/sub-clause can be severed to render the remaining part valid, the clause shall be interpreted accordingly. Alternatively, you agree that the clause shall be rectified and interpreted in such a way that closely resembles the original meaning of the clause \/sub-clause as is permitted by law.<\/p>"
             }
           },
           "1571826105052": {
             "type": "select",
             "settings": {
               "sec_heading": "Complaints",
-              "large_text": "<p>We operate a complaints handling procedure which we will use to try to resolve disputes when they first arise, please let us know if you have any complaints or comments.</p>"
+              "large_text": "<p>We operate a complaints handling procedure which we will use to try to resolve disputes when they first arise, please let us know if you have any complaints or comments.<\/p>"
             }
           },
           "1571826126748": {
             "type": "select",
             "settings": {
               "sec_heading": "Waiver",
-              "large_text": "<p>If you breach these conditions and we take no action, we will still be entitled to use our rights and remedies in any other situation where you breach these conditions.</p>"
+              "large_text": "<p>If you breach these conditions and we take no action, we will still be entitled to use our rights and remedies in any other situation where you breach these conditions.<\/p>"
             }
           },
           "1571826153060": {
             "type": "select",
             "settings": {
               "sec_heading": "Entire Agreement",
-              "large_text": "<p>The above Terms of Service constitute the entire agreement of the parties and supersede any and all preceding and contemporaneous agreements between you and www.KushQueen.Shop. Any waiver of any provision of the Terms of Service will be effective only if in writing and signed by a Director of </p>\n<p><a href=\"www.kushqueen.shop\">www.kushqueen.shop</a></p>\n<p>TK Queens, LLC Registration #2017135101</p>\n<p>©2018 Kush Queen Shop</p>"
+              "large_text": "<p>The above Terms of Service constitute the entire agreement of the parties and supersede any and all preceding and contemporaneous agreements between you and www.KushQueen.Shop. Any waiver of any provision of the Terms of Service will be effective only if in writing and signed by a Director of <\/p>\n<p><a href=\"www.kushqueen.shop\">www.kushqueen.shop<\/a><\/p>\n<p>TK Queens, LLC Registration #2017135101<\/p>\n<p>©2018 Kush Queen Shop<\/p>"
             }
           },
           "1571826170116": {
@@ -553,13 +546,13 @@
           "1571830815640": {
             "type": "community-pic",
             "settings": {
-              "commun_pic": "shopify://shop_images/KushQueen-Lifestyle11-Gummies-RX-min-600x400.jpg"
+              "commun_pic": "shopify:\/\/shop_images\/KushQueen-Lifestyle11-Gummies-RX-min-600x400.jpg"
             }
           },
           "1571830824962": {
             "type": "community-pic",
             "settings": {
-              "commun_pic": "shopify://shop_images/promise2_1.png"
+              "commun_pic": "shopify:\/\/shop_images\/promise2_1.png"
             }
           },
           "1571830845846": {
@@ -600,25 +593,25 @@
           "1571831278519": {
             "type": "services-pic",
             "settings": {
-              "service_pic": "shopify://shop_images/ser1_1.png"
+              "service_pic": "shopify:\/\/shop_images\/ser1_1.png"
             }
           },
           "1571831287503": {
             "type": "services-pic",
             "settings": {
-              "service_pic": "shopify://shop_images/ser2_1_fe98d577-4757-4b7f-a44c-9d7dd9130449.png"
+              "service_pic": "shopify:\/\/shop_images\/ser2_1_fe98d577-4757-4b7f-a44c-9d7dd9130449.png"
             }
           },
           "1571831295295": {
             "type": "services-pic",
             "settings": {
-              "service_pic": "shopify://shop_images/ser3_1.png"
+              "service_pic": "shopify:\/\/shop_images\/ser3_1.png"
             }
           },
           "1571831304950": {
             "type": "services-pic",
             "settings": {
-              "service_pic": "shopify://shop_images/ser4_1.png"
+              "service_pic": "shopify:\/\/shop_images\/ser4_1.png"
             }
           }
         },
@@ -638,12 +631,12 @@
         "settings": {
           "community_title": "We Are Our Community",
           "community_btn": "+ See All Blog Posts",
-          "community_btn_url": "https://kush-queen-shop.myshopify.com/pages/blog",
+          "community_btn_url": "https:\/\/kush-queen-shop.myshopify.com\/pages\/blog",
           "community_contant": "Kush Queen started with listening to our community and recognizing the lack of representation in cannabis. We will always treat all individuals with care and respect and promise to use our passion for cannabis to help shape normalization and usage for everyone.",
-          "queen_banner_img": "shopify://shop_images/KushQueen-Lifestyle3-min_1.png",
+          "queen_banner_img": "shopify:\/\/shop_images\/KushQueen-Lifestyle3-min_1.png",
           "get_title": "Get to Know Kush Queen",
           "get_text": "Read our blog to hear from the voices of Kush Queen and learn about the science of CBD.",
-          "get_btn_url": "https://kush-queen-shop.myshopify.com/pages/blog",
+          "get_btn_url": "https:\/\/kush-queen-shop.myshopify.com\/pages\/blog",
           "get_btn": "+ SEE ALL BLOG POSTS"
         }
       },
@@ -666,12 +659,12 @@
             "type": "banner_slide",
             "settings": {
               "banner_bg_clr": "#ededed",
-              "banner_img": "shopify://shop_images/AliceandOliviaxKushQueenProducts-Slider4_1.png",
+              "banner_img": "shopify:\/\/shop_images\/AliceandOliviaxKushQueenProducts-Slider4_1.png",
               "banner_tp_text": "ALICE AND OLIVIA<br>X KUSH QUEEN",
               "banner_title_text": "GO LOVE<br>YOURSELF",
               "banner_from_text": "FROM",
               "banner_amt_text": "$20.00",
-              "banner_link": "shopify://products/alice-olivia-200mg-cbd-bath-bomb",
+              "banner_link": "shopify:\/\/products\/alice-olivia-200mg-cbd-bath-bomb",
               "banner_link_text": "Shop Now",
               "banner_btm_text": "COLLABORATIONS"
             }
@@ -680,12 +673,12 @@
             "type": "banner_slide",
             "settings": {
               "banner_bg_clr": "#ddcfbd",
-              "banner_img": "shopify://shop_images/ignitelube-slider-photo_102220ed-ab83-47f2-98af-c94da156fe3b.png",
+              "banner_img": "shopify:\/\/shop_images\/ignitelube-slider-photo_102220ed-ab83-47f2-98af-c94da156fe3b.png",
               "banner_tp_text": "TOPICALS",
               "banner_title_text": "SMOOTH<br>AND SILKY",
               "banner_from_text": "FROM",
               "banner_amt_text": "$49.99",
-              "banner_link": "shopify://products/cbd-lube",
+              "banner_link": "shopify:\/\/products\/cbd-lube",
               "banner_link_text": "Shop Now",
               "banner_btm_text": "CBD LUBE"
             }
@@ -694,12 +687,12 @@
             "type": "banner_slide",
             "settings": {
               "banner_bg_clr": "#ed989b",
-              "banner_img": "shopify://shop_images/ignitelube-slider-photo1.png",
+              "banner_img": "shopify:\/\/shop_images\/ignitelube-slider-photo1.png",
               "banner_tp_text": "INGESTIBLES",
               "banner_title_text": "DAILY<br>WELLNESS",
               "banner_from_text": "FROM",
               "banner_amt_text": "$35.99",
-              "banner_link": "shopify://collections/canna-gummies",
+              "banner_link": "shopify:\/\/collections\/canna-gummies",
               "banner_link_text": "Shop Now",
               "banner_btm_text": "CBD SUPPLEMENTS"
             }
@@ -723,16 +716,16 @@
           "1571860426689-0": {
             "type": "add_collection",
             "settings": {
-              "collection_img": "shopify://shop_images/kush-queen-daily-faves.jpg",
-              "collection_title_link": "shopify://collections/water-based-lube",
+              "collection_img": "shopify:\/\/shop_images\/kush-queen-daily-faves.jpg",
+              "collection_title_link": "shopify:\/\/collections\/water-based-lube",
               "collection_link_title": "Shop Lube"
             }
           },
           "1571860426689-1": {
             "type": "add_collection",
             "settings": {
-              "collection_img": "shopify://shop_images/kush-queen-daily-wellness.jpg",
-              "collection_title_link": "shopify://collections/the-season-of-love",
+              "collection_img": "shopify:\/\/shop_images\/kush-queen-daily-wellness.jpg",
+              "collection_title_link": "shopify:\/\/collections\/the-season-of-love",
               "collection_link_title": "Gifts For Love"
             }
           }
@@ -764,10 +757,10 @@
       "new-footer": {
         "type": "new-footer",
         "settings": {
-          "footer_logo": "shopify://shop_images/kq-logo-long-web-white-02.png",
-          "foot_phn_hrs_content": "<p>\n\n<strong>Processing notice</strong> - Please allow 5 to 7 business days for handling, in most cases we will ship the following business day.<br><br> \n            <strong>BUSINESS HOURS: </strong><br>Monday – Friday<br>9am – 5pm PST\n          </p>",
+          "footer_logo": "shopify:\/\/shop_images\/kq-logo-long-web-white-02.png",
+          "foot_phn_hrs_content": "<p>\n\n<strong>Processing notice<\/strong> - Please allow 5 to 7 business days for handling, in most cases we will ship the following business day.<br><br> \n            <strong>BUSINESS HOURS: <\/strong><br>Monday – Friday<br>9am – 5pm PST\n          <\/p>",
           "foot_email_add": "support@kushqueen.shop",
-          "foot_disclaimer_add": "<p>The statements made regarding these products have not been evaluated by the Food and Drug Administration. The efficacy of these products has not been confirmed by FDA-approved research. These products are not intended to diagnose, treat, cure or prevent any disease.</p>",
+          "foot_disclaimer_add": "<p>The statements made regarding these products have not been evaluated by the Food and Drug Administration. The efficacy of these products has not been confirmed by FDA-approved research. These products are not intended to diagnose, treat, cure or prevent any disease.<\/p>",
           "footer_linklist": "customer-service",
           "footer_linklist_two": "useful-links",
           "footer_newsletter_enable": false,
@@ -775,7 +768,7 @@
           "footer_newsletter_description": "",
           "copyright_txt": "Copyright © 2024 Kush Queen. All rights reserved.",
           "foot_accept_txt": "Accepted Payments:",
-          "foot_accept_img": "shopify://shop_images/cclogos_1_6addc97c-2673-42f5-9e45-3b8f95a26911.png"
+          "foot_accept_img": "shopify:\/\/shop_images\/cclogos_1_6addc97c-2673-42f5-9e45-3b8f95a26911.png"
         }
       },
       "press-section": {
@@ -814,47 +807,47 @@
           "8f4ce21f-a01b-44df-935b-996f81665d7b": {
             "type": "labtest",
             "settings": {
-              "banner_btm_img": "shopify://shop_images/kush-queen-cbd-bath-bomb-250mg.jpg",
+              "banner_btm_img": "shopify:\/\/shop_images\/kush-queen-cbd-bath-bomb-250mg.jpg",
               "banner_btm_tp_text": "Relieve CBD Bath Bomb",
-              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/Relieve_250mg_Bath_Bomb.pdf?v=1712596141"
+              "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0124\/3594\/7616\/files\/Relieve_250mg_Bath_Bomb.pdf?v=1712596141"
             }
           },
           "11510b8e-43ba-4e6e-8e98-98d03abc620b": {
             "type": "labtest",
             "settings": {
-              "banner_btm_img": "shopify://shop_images/kush-queen-relax-bath-bomb-250mg-bb.jpg",
+              "banner_btm_img": "shopify:\/\/shop_images\/kush-queen-relax-bath-bomb-250mg-bb.jpg",
               "banner_btm_tp_text": "Relax CBD Bath Bomb",
-              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/Relax_250mg_Bath_Bomb.pdf?v=1712596141"
+              "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0124\/3594\/7616\/files\/Relax_250mg_Bath_Bomb.pdf?v=1712596141"
             }
           },
           "baa556ef-d522-4918-9abc-b35710706d6b": {
             "type": "labtest",
             "settings": {
-              "banner_btm_img": "shopify://shop_images/kush-queen-cbd-bath-bomb-shield-for-immunity-cbd-bath-bomb-30-00-off-auto-renew-39056430792949.jpg",
+              "banner_btm_img": "shopify:\/\/shop_images\/kush-queen-cbd-bath-bomb-shield-for-immunity-cbd-bath-bomb-30-00-off-auto-renew-39056430792949.jpg",
               "banner_btm_tp_text": "Shield For Immunity CBD Bath Bomb",
-              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/Shield_250mg_Bath_Bomb.pdf?v=1712596141"
+              "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0124\/3594\/7616\/files\/Shield_250mg_Bath_Bomb.pdf?v=1712596141"
             }
           },
           "b5b3c11f-6f03-4fb5-b2cd-8dbe7c3ab391": {
             "type": "labtest",
             "settings": {
-              "banner_btm_img": "shopify://shop_images/kush-queen-sleep-bath-bomb-250mg.jpg",
+              "banner_btm_img": "shopify:\/\/shop_images\/kush-queen-sleep-bath-bomb-250mg.jpg",
               "banner_btm_tp_text": "Sleep CBD Bath Bomb",
-              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/Sleep_250mg_Bath_Bomb.pdf?v=1712596141"
+              "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0124\/3594\/7616\/files\/Sleep_250mg_Bath_Bomb.pdf?v=1712596141"
             }
           },
           "d82d81a3-25d7-40b4-b08c-fee57020d03a": {
             "type": "labtest",
             "settings": {
-              "banner_btm_img": "shopify://shop_images/kush-queen-black-magic-cbd-bath-bomb-250.jpg",
+              "banner_btm_img": "shopify:\/\/shop_images\/kush-queen-black-magic-cbd-bath-bomb-250.jpg",
               "banner_btm_tp_text": "Black Magic CBD Bath Bomb",
-              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/Black_Magic_250mg_Bath_Bomb.pdf?v=1712596141"
+              "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0124\/3594\/7616\/files\/Black_Magic_250mg_Bath_Bomb.pdf?v=1712596141"
             }
           },
           "labtest_cihhCe": {
             "type": "labtest",
             "settings": {
-              "banner_btm_img": "shopify://shop_images/Love_250_pic_8d3eb74b-1221-4f26-acb2-aacd5b3c8ec9.webp",
+              "banner_btm_img": "shopify:\/\/shop_images\/Love_250_pic_8d3eb74b-1221-4f26-acb2-aacd5b3c8ec9.webp",
               "banner_btm_tp_text": "Love CBD Bath Bomb",
               "link": ""
             }
@@ -862,409 +855,409 @@
           "1583297276483": {
             "type": "labtest",
             "settings": {
-              "banner_btm_img": "shopify://shop_images/kush-queen-cbd-bath-bomb-1000mg-cbd-bath-bomb-39402213540085.jpg",
+              "banner_btm_img": "shopify:\/\/shop_images\/kush-queen-cbd-bath-bomb-1000mg-cbd-bath-bomb-39402213540085.jpg",
               "banner_btm_tp_text": "Relieve 1000mg CBD Bath Bomb",
-              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/COA-Kush_Queen_-_Relieve_1000MG.pdf?v=1694790239"
+              "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0124\/3594\/7616\/files\/COA-Kush_Queen_-_Relieve_1000MG.pdf?v=1694790239"
             }
           },
           "0f0ba79e-b560-40fc-8f27-f09e62f8568d": {
             "type": "labtest",
             "settings": {
-              "banner_btm_img": "shopify://shop_images/kush-queen-cbd-bath-bomb-1000mg-cbd-bath-bomb-39402213474549.jpg",
+              "banner_btm_img": "shopify:\/\/shop_images\/kush-queen-cbd-bath-bomb-1000mg-cbd-bath-bomb-39402213474549.jpg",
               "banner_btm_tp_text": "Relax 1000mg CBD Bath Bomb",
-              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/COA_Kush_Queen_-_Relax_1000MG.pdf?v=1694790239"
+              "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0124\/3594\/7616\/files\/COA_Kush_Queen_-_Relax_1000MG.pdf?v=1694790239"
             }
           },
           "edb9a1ac-9fd4-428d-9c58-b0fd76d42b21": {
             "type": "labtest",
             "settings": {
-              "banner_btm_img": "shopify://shop_images/kush-queen-cbd-bath-bomb-1000mg-cbd-bath-bomb-39402213441781.jpg",
+              "banner_btm_img": "shopify:\/\/shop_images\/kush-queen-cbd-bath-bomb-1000mg-cbd-bath-bomb-39402213441781.jpg",
               "banner_btm_tp_text": "Shield 1000mg CBD Bath Bomb",
-              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/COA_Kush_Queen_-_Shield_1000MG.pdf?v=1694790238"
+              "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0124\/3594\/7616\/files\/COA_Kush_Queen_-_Shield_1000MG.pdf?v=1694790238"
             }
           },
           "58108bde-c48e-47ee-8c9b-c912824eb65d": {
             "type": "labtest",
             "settings": {
-              "banner_btm_img": "shopify://shop_images/kush-queen-cbd-bath-bomb-1000mg-cbd-bath-bomb-39402213572853.jpg",
+              "banner_btm_img": "shopify:\/\/shop_images\/kush-queen-cbd-bath-bomb-1000mg-cbd-bath-bomb-39402213572853.jpg",
               "banner_btm_tp_text": "Sleep 1000mg CBD Bath Bomb",
-              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/COA_Kush_Queen_-_Sleep_1000MG.pdf?v=1694790239"
+              "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0124\/3594\/7616\/files\/COA_Kush_Queen_-_Sleep_1000MG.pdf?v=1694790239"
             }
           },
           "8968b661-c525-484f-b5a4-5bf7a90e689a": {
             "type": "labtest",
             "settings": {
-              "banner_btm_img": "shopify://shop_images/kush-queen-cbd-bath-bomb-1000mg-cbd-bath-bomb-39402213507317.jpg",
+              "banner_btm_img": "shopify:\/\/shop_images\/kush-queen-cbd-bath-bomb-1000mg-cbd-bath-bomb-39402213507317.jpg",
               "banner_btm_tp_text": "Black Magic 1000mg CBD Bath Bomb",
-              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/COA_Kush_Queen_-_Black_Magic_1000MG.pdf?v=1694790238"
+              "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0124\/3594\/7616\/files\/COA_Kush_Queen_-_Black_Magic_1000MG.pdf?v=1694790238"
             }
           },
           "b87622a3-28a9-44bc-9def-8bada59b9198": {
             "type": "labtest",
             "settings": {
-              "banner_btm_img": "shopify://shop_images/kush-queen-cbd-bath-bomb-relieve-1-1-cbd-delta-9-thc-bath-bomb-39607738368245.jpg",
+              "banner_btm_img": "shopify:\/\/shop_images\/kush-queen-cbd-bath-bomb-relieve-1-1-cbd-delta-9-thc-bath-bomb-39607738368245.jpg",
               "banner_btm_tp_text": "Relieve 1:1 CBD & Delta 9 THC Bath Bomb",
-              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/Relieve_1-1_COA_05aea208-b3b5-48da-9358-98254ef1eb60.pdf?v=1712853937"
+              "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0124\/3594\/7616\/files\/Relieve_1-1_COA_05aea208-b3b5-48da-9358-98254ef1eb60.pdf?v=1712853937"
             }
           },
           "d69cc50c-bd41-4396-861b-39c39c28b2da": {
             "type": "labtest",
             "settings": {
-              "banner_btm_img": "shopify://shop_images/Relax_1_1_pic.jpg",
+              "banner_btm_img": "shopify:\/\/shop_images\/Relax_1_1_pic.jpg",
               "banner_btm_tp_text": "Relax 1:1 CBD & Delta 9 THC Bath Bomb",
-              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/Relax_1_1_D9.pdf?v=1708657195"
+              "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0124\/3594\/7616\/files\/Relax_1_1_D9.pdf?v=1708657195"
             }
           },
           "96264f71-3fbe-4e14-b28c-76521912ed43": {
             "type": "labtest",
             "settings": {
-              "banner_btm_img": "shopify://shop_images/Sleep_1_1_pic.webp",
+              "banner_btm_img": "shopify:\/\/shop_images\/Sleep_1_1_pic.webp",
               "banner_btm_tp_text": "Sleep 1:1 CBD & Delta 9 THC Bath Bomb",
-              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/Sleep_1_1_D9.pdf?v=1708657195"
+              "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0124\/3594\/7616\/files\/Sleep_1_1_D9.pdf?v=1708657195"
             }
           },
           "labtest_pyNNUG": {
             "type": "labtest",
             "settings": {
-              "banner_btm_img": "shopify://shop_images/Screenshot_2024-05-14_at_11.31.10_AM.png",
+              "banner_btm_img": "shopify:\/\/shop_images\/Screenshot_2024-05-14_at_11.31.10_AM.png",
               "banner_btm_tp_text": "Mini Relax 100mg CBD Bath Bomb",
-              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/Relax_100mg_Mini.pdf?v=1715711392"
+              "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0124\/3594\/7616\/files\/Relax_100mg_Mini.pdf?v=1715711392"
             }
           },
           "labtest_CMzHxF": {
             "type": "labtest",
             "settings": {
-              "banner_btm_img": "shopify://shop_images/Screenshot_2024-05-14_at_11.31.27_AM.png",
+              "banner_btm_img": "shopify:\/\/shop_images\/Screenshot_2024-05-14_at_11.31.27_AM.png",
               "banner_btm_tp_text": "Mini Black Magic 100mg CBD Bath Bomb",
-              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/BM_100mg_Mini.pdf?v=1715711392"
+              "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0124\/3594\/7616\/files\/BM_100mg_Mini.pdf?v=1715711392"
             }
           },
           "labtest_E6NfUp": {
             "type": "labtest",
             "settings": {
-              "banner_btm_img": "shopify://shop_images/Screenshot_2024-05-14_at_11.31.41_AM.png",
+              "banner_btm_img": "shopify:\/\/shop_images\/Screenshot_2024-05-14_at_11.31.41_AM.png",
               "banner_btm_tp_text": "Mini Shield 100mg CBD Bath Bomb",
-              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/Shield_100mg_Mini.pdf?v=1715711392"
+              "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0124\/3594\/7616\/files\/Shield_100mg_Mini.pdf?v=1715711392"
             }
           },
           "labtest_hibL8U": {
             "type": "labtest",
             "settings": {
-              "banner_btm_img": "shopify://shop_images/Screenshot_2024-05-14_at_11.31.56_AM.png",
+              "banner_btm_img": "shopify:\/\/shop_images\/Screenshot_2024-05-14_at_11.31.56_AM.png",
               "banner_btm_tp_text": "Mini Relieve 100mg CBD Bath Bomb",
-              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/Relieve_100mg_Mini.pdf?v=1715712013"
+              "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0124\/3594\/7616\/files\/Relieve_100mg_Mini.pdf?v=1715712013"
             }
           },
           "labtest_ytQfzK": {
             "type": "labtest",
             "settings": {
-              "banner_btm_img": "shopify://shop_images/Screenshot_2024-05-14_at_11.32.22_AM.png",
+              "banner_btm_img": "shopify:\/\/shop_images\/Screenshot_2024-05-14_at_11.32.22_AM.png",
               "banner_btm_tp_text": "Mini Sleep 100mg CBD Bath Bomb",
-              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/Sleep_100mg_Mini.pdf?v=1715711392"
+              "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0124\/3594\/7616\/files\/Sleep_100mg_Mini.pdf?v=1715711392"
             }
           },
           "1577955936293": {
             "type": "labtest",
             "settings": {
-              "banner_btm_img": "shopify://shop_images/Renew_Sugarscrub_2oz_min_1024x1024_4d01ed1d-ad12-4c39-93da-682de49f61e5.jpg",
+              "banner_btm_img": "shopify:\/\/shop_images\/Renew_Sugarscrub_2oz_min_1024x1024_4d01ed1d-ad12-4c39-93da-682de49f61e5.jpg",
               "banner_btm_tp_text": "Renew CBD Sugar Scrub 2oz",
-              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/Renew_100mg.pdf?v=1708657195"
+              "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0124\/3594\/7616\/files\/Renew_100mg.pdf?v=1708657195"
             }
           },
           "1577955903350": {
             "type": "labtest",
             "settings": {
-              "banner_btm_img": "shopify://shop_images/Renew_Sugarscrub_16oz_min_1024x1024_e3f17ec3-1aac-4120-9398-765d1629baa7.jpg",
+              "banner_btm_img": "shopify:\/\/shop_images\/Renew_Sugarscrub_16oz_min_1024x1024_e3f17ec3-1aac-4120-9398-765d1629baa7.jpg",
               "banner_btm_tp_text": "Renew CBD Sugar Scrub 16oz",
-              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/Renew_1000mg.pdf?v=1708657195"
+              "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0124\/3594\/7616\/files\/Renew_1000mg.pdf?v=1708657195"
             }
           },
           "2f32799c-8af2-4218-bca9-921be728fc3c": {
             "type": "labtest",
             "settings": {
-              "banner_btm_img": "shopify://shop_images/kush-queen-topical-melt-1-1-thc-cbd-lotion-30-00-off-auto-renew-39350362243317.jpg",
+              "banner_btm_img": "shopify:\/\/shop_images\/kush-queen-topical-melt-1-1-thc-cbd-lotion-30-00-off-auto-renew-39350362243317.jpg",
               "banner_btm_tp_text": "Melt 1:1 Relief Lotion, 2oz",
-              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/Melt_1_1_2oz.pdf?v=1723079004"
+              "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0124\/3594\/7616\/files\/Melt_1_1_2oz.pdf?v=1723079004"
             }
           },
           "76a8be38-59d2-4fbf-960d-2c85c65ad8e7": {
             "type": "labtest",
             "settings": {
-              "banner_btm_img": "shopify://shop_images/kush-queen-topical-melt-1-1-thc-cbd-lotion-30-00-off-auto-renew-39350362308853.png",
+              "banner_btm_img": "shopify:\/\/shop_images\/kush-queen-topical-melt-1-1-thc-cbd-lotion-30-00-off-auto-renew-39350362308853.png",
               "banner_btm_tp_text": "Melt 1:1 Relief Lotion 16oz",
-              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/COA_Melt_1_1_16oz.pdf?v=1694823782"
+              "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0124\/3594\/7616\/files\/COA_Melt_1_1_16oz.pdf?v=1694823782"
             }
           },
           "1577955701847": {
             "type": "labtest",
             "settings": {
-              "banner_btm_img": "shopify://shop_images/kush-queen-topical-melt-cbd-lotion-2-oz-39335961624821.jpg",
+              "banner_btm_img": "shopify:\/\/shop_images\/kush-queen-topical-melt-cbd-lotion-2-oz-39335961624821.jpg",
               "banner_btm_tp_text": "Melt CBD Lotion 2 oz 100mg",
-              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/Melt_2oz_CBD.pdf?v=1723079077"
+              "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0124\/3594\/7616\/files\/Melt_2oz_CBD.pdf?v=1723079077"
             }
           },
           "1577955727746": {
             "type": "labtest",
             "settings": {
-              "banner_btm_img": "shopify://shop_images/Melt_200_Photo.webp",
+              "banner_btm_img": "shopify:\/\/shop_images\/Melt_200_Photo.webp",
               "banner_btm_tp_text": "Melt CBD Lotion 16 oz 200mg",
-              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/Melt_200mg_54956b2f-5907-4e7c-b852-6b16624e0c62.pdf?v=1708657195"
+              "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0124\/3594\/7616\/files\/Melt_200mg_54956b2f-5907-4e7c-b852-6b16624e0c62.pdf?v=1708657195"
             }
           },
           "1577955740941": {
             "type": "labtest",
             "settings": {
-              "banner_btm_img": "shopify://shop_images/melt_800_photo.webp",
+              "banner_btm_img": "shopify:\/\/shop_images\/melt_800_photo.webp",
               "banner_btm_tp_text": "Melt CBD Lotion 16 oz 800mg",
-              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/Melt_800mg.pdf?v=1708657195"
+              "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0124\/3594\/7616\/files\/Melt_800mg.pdf?v=1708657195"
             }
           },
           "db7b8a0c-b43e-44a5-a9b7-da2a5ca3f676": {
             "type": "labtest",
             "settings": {
-              "banner_btm_img": "shopify://shop_images/kush-queen-ingestibles-boost-liquid-cannabinoid-concentrate-30-00-off-auto-renew-39014405308661.jpg",
+              "banner_btm_img": "shopify:\/\/shop_images\/kush-queen-ingestibles-boost-liquid-cannabinoid-concentrate-30-00-off-auto-renew-39014405308661.jpg",
               "banner_btm_tp_text": "Bôost Liquid Cannabinoid Concentrate",
-              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/Boost.pdf?v=1708657195"
+              "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0124\/3594\/7616\/files\/Boost.pdf?v=1708657195"
             }
           },
           "1577955825051": {
             "type": "labtest",
             "settings": {
-              "banner_btm_img": "shopify://shop_images/kush-queen-topical-water-based-cbd-lube-30-00-off-auto-renew-39385627492597.jpg",
+              "banner_btm_img": "shopify:\/\/shop_images\/kush-queen-topical-water-based-cbd-lube-30-00-off-auto-renew-39385627492597.jpg",
               "banner_btm_tp_text": "Water-Based CBD Lube",
-              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/CBD_Lube_1oz.pdf?v=1723079004"
+              "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0124\/3594\/7616\/files\/CBD_Lube_1oz.pdf?v=1723079004"
             }
           },
           "24506604-9c7c-4310-930d-e9a44bfe3edf": {
             "type": "labtest",
             "settings": {
-              "banner_btm_img": "shopify://shop_images/kush-queen-topical-pride-edition-delta-8-thc-lube-38980098588917.jpg",
+              "banner_btm_img": "shopify:\/\/shop_images\/kush-queen-topical-pride-edition-delta-8-thc-lube-38980098588917.jpg",
               "banner_btm_tp_text": "Delta 9 THC Lube",
-              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/Lube_D9_1ox.pdf?v=1723079005"
+              "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0124\/3594\/7616\/files\/Lube_D9_1ox.pdf?v=1723079005"
             }
           },
           "e324de0f-9eb7-4629-adf4-16f412de805a": {
             "type": "labtest",
             "settings": {
-              "banner_btm_img": "shopify://shop_images/kush-queen-topical-delta-9-thc-lube-39154602508533.jpg",
+              "banner_btm_img": "shopify:\/\/shop_images\/kush-queen-topical-delta-9-thc-lube-39154602508533.jpg",
               "banner_btm_tp_text": "Delta 9 THC Lube",
-              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/Delta_9_Lube_8oz.pdf?v=1712596141"
+              "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0124\/3594\/7616\/files\/Delta_9_Lube_8oz.pdf?v=1712596141"
             }
           },
           "2157461f-0560-48cd-8554-bcf100797f7e": {
             "type": "labtest",
             "settings": {
-              "banner_btm_img": "shopify://shop_images/kush-queen-infused-chocolate-chip-cookie.jpg",
+              "banner_btm_img": "shopify:\/\/shop_images\/kush-queen-infused-chocolate-chip-cookie.jpg",
               "banner_btm_tp_text": "Let's Get Baked Chocolate Chip Cookie",
-              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/Cookie_COA.pdf?v=1708663530"
+              "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0124\/3594\/7616\/files\/Cookie_COA.pdf?v=1708663530"
             }
           },
           "1577955969162": {
             "type": "labtest",
             "settings": {
-              "banner_btm_img": "shopify://shop_images/kush-queen-ingestibles-full-spectrum-cbd-gummies-39097205194997.jpg",
+              "banner_btm_img": "shopify:\/\/shop_images\/kush-queen-ingestibles-full-spectrum-cbd-gummies-39097205194997.jpg",
               "banner_btm_tp_text": "Full Spectrum CBD Gummies",
-              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/Full_Spec_750mg_30.pdf?v=1708657195"
+              "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0124\/3594\/7616\/files\/Full_Spec_750mg_30.pdf?v=1708657195"
             }
           },
           "1583807005682": {
             "type": "labtest",
             "settings": {
-              "banner_btm_img": "shopify://shop_images/kush-queen-ingestibles-bliss-cbg-cbd-gummies-39254765240565.jpg",
+              "banner_btm_img": "shopify:\/\/shop_images\/kush-queen-ingestibles-bliss-cbg-cbd-gummies-39254765240565.jpg",
               "banner_btm_tp_text": "Bliss CBG + CBD Gummies",
-              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/Bliss_CBG_30.pdf?v=1708657195"
+              "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0124\/3594\/7616\/files\/Bliss_CBG_30.pdf?v=1708657195"
             }
           },
           "f5471b71-b2a8-4422-ad60-3c20a0e4c92a": {
             "type": "labtest",
             "settings": {
-              "banner_btm_img": "shopify://shop_images/kq-shop-ingestibles-sleep-cbn-cbd-gummies-39254781690101_1024x1024_2x_b979c0e8-1efa-4989-932c-8c6013f3ddc8.webp",
+              "banner_btm_img": "shopify:\/\/shop_images\/kq-shop-ingestibles-sleep-cbn-cbd-gummies-39254781690101_1024x1024_2x_b979c0e8-1efa-4989-932c-8c6013f3ddc8.webp",
               "banner_btm_tp_text": "Sleep CBN + CBD Gummies 10 Pack",
-              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/Sleep_10ct_CBN.pdf?v=1723079005"
+              "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0124\/3594\/7616\/files\/Sleep_10ct_CBN.pdf?v=1723079005"
             }
           },
           "1583807405411": {
             "type": "labtest",
             "settings": {
-              "banner_btm_img": "shopify://shop_images/Sleep_30_3a7336a3-9069-4dee-bbe8-762f7da377a2.webp",
+              "banner_btm_img": "shopify:\/\/shop_images\/Sleep_30_3a7336a3-9069-4dee-bbe8-762f7da377a2.webp",
               "banner_btm_tp_text": "Sleep CBN + CBD Gummies 30 Pack",
-              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/Sleep_CBN_30.pdf?v=1708657195"
+              "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0124\/3594\/7616\/files\/Sleep_CBN_30.pdf?v=1708657195"
             }
           },
           "8e75f206-472e-49f2-b65d-acf8c64ce602": {
             "type": "labtest",
             "settings": {
-              "banner_btm_img": "shopify://shop_images/kush-queen-ingestibles-focus-thcv-cbd-gummies-39097194250485.jpg",
+              "banner_btm_img": "shopify:\/\/shop_images\/kush-queen-ingestibles-focus-thcv-cbd-gummies-39097194250485.jpg",
               "banner_btm_tp_text": "Focus THCv + CBD Gummies",
-              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/Focus_30.pdf?v=1708657195"
+              "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0124\/3594\/7616\/files\/Focus_30.pdf?v=1708657195"
             }
           },
           "bdcb606f-82e7-4059-b999-d37dde8764ba": {
             "type": "labtest",
             "settings": {
-              "banner_btm_img": "shopify://shop_images/kush-queen-ingestibles-gummies-rx-elevated-strawberry-cbd-delta-8-thc-chews-30-00-off-auto-renew-39081636462837.jpg",
+              "banner_btm_img": "shopify:\/\/shop_images\/kush-queen-ingestibles-gummies-rx-elevated-strawberry-cbd-delta-8-thc-chews-30-00-off-auto-renew-39081636462837.jpg",
               "banner_btm_tp_text": "Strawberry Delta 8 THC + CBD Gummies",
-              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/Strawberry_D8_10ct.pdf?v=1723079070"
+              "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0124\/3594\/7616\/files\/Strawberry_D8_10ct.pdf?v=1723079070"
             }
           },
           "1310a778-2fc2-4e79-9496-2b1a31889663": {
             "type": "labtest",
             "settings": {
-              "banner_btm_img": "shopify://shop_images/kush-queen-ingestibles-gummies-rx-delta-9-thc-chews-39083967021301.jpg",
+              "banner_btm_img": "shopify:\/\/shop_images\/kush-queen-ingestibles-gummies-rx-delta-9-thc-chews-39083967021301.jpg",
               "banner_btm_tp_text": "Delta 9 THC Gummies 10 Pack",
-              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/Strawberry_D9_10ct.pdf?v=1723079065"
+              "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0124\/3594\/7616\/files\/Strawberry_D9_10ct.pdf?v=1723079065"
             }
           },
           "c4001af2-b84d-4a09-a30c-88cad9871043": {
             "type": "labtest",
             "settings": {
-              "banner_btm_img": "shopify://shop_images/kush-queen-ingestibles-gummies-rx-delta-9-thc-chews-39083967021301.jpg",
+              "banner_btm_img": "shopify:\/\/shop_images\/kush-queen-ingestibles-gummies-rx-delta-9-thc-chews-39083967021301.jpg",
               "banner_btm_tp_text": "Delta 9 THC Gummies 30 Pack",
-              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/COA_Delta_9_30Ct_Gummy.pdf?v=1694823782"
+              "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0124\/3594\/7616\/files\/COA_Delta_9_30Ct_Gummy.pdf?v=1694823782"
             }
           },
           "e7d76775-1452-4414-bf8c-40041e72d037": {
             "type": "labtest",
             "settings": {
-              "banner_btm_img": "shopify://shop_images/kush-queen-ingestibles-gummies-rx-elevated-watermelon-cbd-delta-8-thc-chews-39081641279733.jpg",
+              "banner_btm_img": "shopify:\/\/shop_images\/kush-queen-ingestibles-gummies-rx-elevated-watermelon-cbd-delta-8-thc-chews-39081641279733.jpg",
               "banner_btm_tp_text": "Watermelon Delta 8 THC + CBD Gummies",
-              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/Watermelon_D8_10.pdf?v=1708657195"
+              "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0124\/3594\/7616\/files\/Watermelon_D8_10.pdf?v=1708657195"
             }
           },
           "labtest_yb6th7": {
             "type": "labtest",
             "settings": {
-              "banner_btm_img": "shopify://shop_images/Watermelon_9_pic_fb7ad807-5a4d-412c-a046-57fa7ee94902.webp",
+              "banner_btm_img": "shopify:\/\/shop_images\/Watermelon_9_pic_fb7ad807-5a4d-412c-a046-57fa7ee94902.webp",
               "banner_btm_tp_text": "Watermelon Delta 9 THC + CBD Gummies",
-              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/Watermelon_D9_10pc_COA.pdf?v=1713221381"
+              "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0124\/3594\/7616\/files\/Watermelon_D9_10pc_COA.pdf?v=1713221381"
             }
           },
           "79c714a8-c107-4ab1-b784-ca496d8a7dd4": {
             "type": "labtest",
             "settings": {
-              "banner_btm_img": "shopify://shop_images/kush-queen-ingestibles-gummies-rx-elevated-lemon-cbd-delta-8-thc-chews-30-00-off-auto-renew-39081621618933.jpg",
+              "banner_btm_img": "shopify:\/\/shop_images\/kush-queen-ingestibles-gummies-rx-elevated-lemon-cbd-delta-8-thc-chews-30-00-off-auto-renew-39081621618933.jpg",
               "banner_btm_tp_text": "Lemon Delta 8 THC + CBD Gummies",
-              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/Lemon_D8_10.pdf?v=1708657195"
+              "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0124\/3594\/7616\/files\/Lemon_D8_10.pdf?v=1708657195"
             }
           },
           "labtest_QzCUFp": {
             "type": "labtest",
             "settings": {
-              "banner_btm_img": "shopify://shop_images/Lemon_9_pic_f20c6b41-df9e-496d-b2ca-c8709145960f.webp",
+              "banner_btm_img": "shopify:\/\/shop_images\/Lemon_9_pic_f20c6b41-df9e-496d-b2ca-c8709145960f.webp",
               "banner_btm_tp_text": "Lemon Delta 9 THC + CBD Gummies",
-              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/Lemon_D9_10pc_COA.pdf?v=1713221381"
+              "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0124\/3594\/7616\/files\/Lemon_D9_10pc_COA.pdf?v=1713221381"
             }
           },
           "labtest_aR6twL": {
             "type": "labtest",
             "settings": {
-              "banner_btm_img": "shopify://shop_images/Tangie_9_pic_432ffbc5-d840-4c88-94db-5b41f3bc149e.webp",
+              "banner_btm_img": "shopify:\/\/shop_images\/Tangie_9_pic_432ffbc5-d840-4c88-94db-5b41f3bc149e.webp",
               "banner_btm_tp_text": "Tangerine Delta 9 THC + CBD Gummies",
-              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/Tangerine_D9_10pc_COA.pdf?v=1713221381"
+              "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0124\/3594\/7616\/files\/Tangerine_D9_10pc_COA.pdf?v=1713221381"
             }
           },
           "labtest_UUGYa4": {
             "type": "labtest",
             "settings": {
-              "banner_btm_img": "shopify://shop_images/Mystery_9_pic_c533d1d8-e658-42f5-8f4d-7b570f62ef2e.webp",
+              "banner_btm_img": "shopify:\/\/shop_images\/Mystery_9_pic_c533d1d8-e658-42f5-8f4d-7b570f62ef2e.webp",
               "banner_btm_tp_text": "Delta 9 THC Mystery Gummies",
-              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/Mystery_D9_10pc_COA.pdf?v=1713221381"
+              "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0124\/3594\/7616\/files\/Mystery_D9_10pc_COA.pdf?v=1713221381"
             }
           },
           "1577955943336": {
             "type": "labtest",
             "settings": {
-              "banner_btm_img": "shopify://shop_images/kush-queen-ingestibles-500mg-bare-cbd-tincture-broad-spectrum-30070610198686.jpg",
+              "banner_btm_img": "shopify:\/\/shop_images\/kush-queen-ingestibles-500mg-bare-cbd-tincture-broad-spectrum-30070610198686.jpg",
               "banner_btm_tp_text": "Bäre CBD Tincture: Broad-Spectrum 500mg",
-              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/Bare_500mg.pdf?v=1708657195"
+              "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0124\/3594\/7616\/files\/Bare_500mg.pdf?v=1708657195"
             }
           },
           "1580317702987": {
             "type": "labtest",
             "settings": {
-              "banner_btm_img": "shopify://shop_images/kush-queen-ingestibles-1000mg-bare-cbd-tincture-broad-spectrum-30070610264222.jpg",
+              "banner_btm_img": "shopify:\/\/shop_images\/kush-queen-ingestibles-1000mg-bare-cbd-tincture-broad-spectrum-30070610264222.jpg",
               "banner_btm_tp_text": "Bäre CBD Tincture: Broad-Spectrum 1000mg",
-              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/Bare_1000mg.pdf?v=1708657195"
+              "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0124\/3594\/7616\/files\/Bare_1000mg.pdf?v=1708657195"
             }
           },
           "1580318024221": {
             "type": "labtest",
             "settings": {
-              "banner_btm_img": "shopify://shop_images/kush-queen-ingestibles-2500mg-bare-cbd-tincture-broad-spectrum-29944961958046.jpg",
+              "banner_btm_img": "shopify:\/\/shop_images\/kush-queen-ingestibles-2500mg-bare-cbd-tincture-broad-spectrum-29944961958046.jpg",
               "banner_btm_tp_text": "Bäre CBD Tincture: Broad-Spectrum 2500mg",
-              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/Bare_2500mg.pdf?v=1708657195"
+              "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0124\/3594\/7616\/files\/Bare_2500mg.pdf?v=1708657195"
             }
           },
           "1580317991671": {
             "type": "labtest",
             "settings": {
-              "banner_btm_img": "shopify://shop_images/kush-queen-ingestibles-5000mg-bare-cbd-tincture-broad-spectrum-30097981800606.jpg",
+              "banner_btm_img": "shopify:\/\/shop_images\/kush-queen-ingestibles-5000mg-bare-cbd-tincture-broad-spectrum-30097981800606.jpg",
               "banner_btm_tp_text": "Bäre CBD Tincture: Broad-Spectrum 5000mg",
-              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/Bare_5000mg.pdf?v=1708657195"
+              "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0124\/3594\/7616\/files\/Bare_5000mg.pdf?v=1708657195"
             }
           },
           "e2852aba-c7ac-494f-964b-825b024535dc": {
             "type": "labtest",
             "settings": {
-              "banner_btm_img": "shopify://shop_images/kush-queen-live-resin-vape-sour-space-candy.jpg",
+              "banner_btm_img": "shopify:\/\/shop_images\/kush-queen-live-resin-vape-sour-space-candy.jpg",
               "banner_btm_tp_text": "Sour Space Candy Live Resin Vape",
-              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/COA_Sour_Space_Candy_VAPE.pdf?v=1694823782"
+              "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0124\/3594\/7616\/files\/COA_Sour_Space_Candy_VAPE.pdf?v=1694823782"
             }
           },
           "47c979a9-0567-4466-96d2-122daf4c8268": {
             "type": "labtest",
             "settings": {
-              "banner_btm_img": "shopify://shop_images/kush-queen-hemp-flower-sour-suver-haze-live-resin-vape-37730488680693.jpg",
+              "banner_btm_img": "shopify:\/\/shop_images\/kush-queen-hemp-flower-sour-suver-haze-live-resin-vape-37730488680693.jpg",
               "banner_btm_tp_text": "Sour Suver Haze Live Resin Vape",
-              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/COA_Sour_Suver_Haze_VAPE.pdf?v=1694823782"
+              "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0124\/3594\/7616\/files\/COA_Sour_Suver_Haze_VAPE.pdf?v=1694823782"
             }
           },
           "labtest_AcD8W7": {
             "type": "labtest",
             "settings": {
-              "banner_btm_img": "shopify://shop_images/Screenshot_2024-06-06_at_4.03.47_PM.png",
+              "banner_btm_img": "shopify:\/\/shop_images\/Screenshot_2024-06-06_at_4.03.47_PM.png",
               "banner_btm_tp_text": "Hawaiian Haze CBD Pre-Roll",
-              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/Hawaiian_Haze_Pre_Roll.pdf?v=1717714811"
+              "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0124\/3594\/7616\/files\/Hawaiian_Haze_Pre_Roll.pdf?v=1717714811"
             }
           },
           "labtest_eXREUX": {
             "type": "labtest",
             "settings": {
-              "banner_btm_img": "shopify://shop_images/Screenshot_2024-05-14_at_11.44.15_AM.png",
+              "banner_btm_img": "shopify:\/\/shop_images\/Screenshot_2024-05-14_at_11.44.15_AM.png",
               "banner_btm_tp_text": "Lemon Octane CBD Pre-Roll",
-              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/Lemon_Octane_Pre_Roll.pdf?v=1717714811"
+              "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0124\/3594\/7616\/files\/Lemon_Octane_Pre_Roll.pdf?v=1717714811"
             }
           },
           "7c15f73a-224a-4049-9b12-87b54df3e038": {
             "type": "labtest",
             "settings": {
-              "banner_btm_img": "shopify://shop_images/kush-queen-hemp-flower-lemon-cherry-gelato-thca-flower-39770655129845.jpg",
+              "banner_btm_img": "shopify:\/\/shop_images\/kush-queen-hemp-flower-lemon-cherry-gelato-thca-flower-39770655129845.jpg",
               "banner_btm_tp_text": "Lemon Cherry Gelato THCA Flower",
-              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/THCa-lemoncherrygelato-COA.jpg?v=1702671843"
+              "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0124\/3594\/7616\/files\/THCa-lemoncherrygelato-COA.jpg?v=1702671843"
             }
           },
           "92404e03-1dcb-4224-bde6-5ff80619fe53": {
             "type": "labtest",
             "settings": {
-              "banner_btm_img": "shopify://shop_images/kush-queen-hemp-flower-super-boof-thca-flower-39770701299957.jpg",
+              "banner_btm_img": "shopify:\/\/shop_images\/kush-queen-hemp-flower-super-boof-thca-flower-39770701299957.jpg",
               "banner_btm_tp_text": "Super Boof THCA Flower",
-              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/THCa-superboof-COA.jpg?v=1702671843"
+              "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0124\/3594\/7616\/files\/THCa-superboof-COA.jpg?v=1702671843"
             }
           },
           "2b58e27c-3965-4411-90f4-c304f794affe": {
             "type": "labtest",
             "settings": {
-              "banner_btm_img": "shopify://shop_images/kush-queen-hemp-flower-kush-cake-pr-thca-flower-39770666074357.jpg",
+              "banner_btm_img": "shopify:\/\/shop_images\/kush-queen-hemp-flower-kush-cake-pr-thca-flower-39770666074357.jpg",
               "banner_btm_tp_text": "Kush Cake THCA Flower",
-              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/THCa-kushcake-COA.jpg?v=1702671843"
+              "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0124\/3594\/7616\/files\/THCa-kushcake-COA.jpg?v=1702671843"
             }
           },
           "99f3c15e-63ea-487d-8d91-793577fbd316": {
             "type": "labtest",
             "settings": {
-              "banner_btm_img": "shopify://shop_images/kush-queen-hemp-flower-gelato-41-thca-flower-39770615185653.jpg",
+              "banner_btm_img": "shopify:\/\/shop_images\/kush-queen-hemp-flower-gelato-41-thca-flower-39770615185653.jpg",
               "banner_btm_tp_text": "Gelato 41 THCA Flower",
-              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/THCa-gelato41-COA.jpg?v=1702671843"
+              "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0124\/3594\/7616\/files\/THCa-gelato41-COA.jpg?v=1702671843"
             }
           }
         },
@@ -1335,49 +1328,49 @@
           "1573075430257": {
             "type": "gallrey",
             "settings": {
-              "banner_btm_img": "shopify://shop_images/CBDProcess005_1_1.jpg"
+              "banner_btm_img": "shopify:\/\/shop_images\/CBDProcess005_1_1.jpg"
             }
           },
           "1573075492553": {
             "type": "gallrey",
             "settings": {
-              "banner_btm_img": "shopify://shop_images/image-asset-e1561561163362_1_1.jpeg"
+              "banner_btm_img": "shopify:\/\/shop_images\/image-asset-e1561561163362_1_1.jpeg"
             }
           },
           "1573075530000": {
             "type": "gallrey",
             "settings": {
-              "banner_btm_img": "shopify://shop_images/image-asset-1_1_1.jpeg"
+              "banner_btm_img": "shopify:\/\/shop_images\/image-asset-1_1_1.jpeg"
             }
           },
           "1573075670809": {
             "type": "gallrey",
             "settings": {
-              "banner_btm_img": "shopify://shop_images/CBDProcess006-e1561561031527_1_1.jpg"
+              "banner_btm_img": "shopify:\/\/shop_images\/CBDProcess006-e1561561031527_1_1.jpg"
             }
           },
           "1573075741456": {
             "type": "gallrey",
             "settings": {
-              "banner_btm_img": "shopify://shop_images/image-asset-2_1_1.jpeg"
+              "banner_btm_img": "shopify:\/\/shop_images\/image-asset-2_1_1.jpeg"
             }
           },
           "1573075779718": {
             "type": "gallrey",
             "settings": {
-              "banner_btm_img": "shopify://shop_images/CBDProcess009-e1561561099752_1_1.jpg"
+              "banner_btm_img": "shopify:\/\/shop_images\/CBDProcess009-e1561561099752_1_1.jpg"
             }
           },
           "1573075863474": {
             "type": "gallrey",
             "settings": {
-              "banner_btm_img": "shopify://shop_images/CBDProcess008-e1561561072139_1_1.jpg"
+              "banner_btm_img": "shopify:\/\/shop_images\/CBDProcess008-e1561561072139_1_1.jpg"
             }
           },
           "1573075885913": {
             "type": "gallrey",
             "settings": {
-              "banner_btm_img": "shopify://shop_images/image-asset-3-e1561561139485_1_1.jpeg"
+              "banner_btm_img": "shopify:\/\/shop_images\/image-asset-3-e1561561139485_1_1.jpeg"
             }
           }
         },
@@ -1392,11 +1385,11 @@
           "1573075885913"
         ],
         "settings": {
-          "founder_pic": "shopify://shop_images/IMG_20181023_095934-min_1_1.jpg",
+          "founder_pic": "shopify:\/\/shop_images\/IMG_20181023_095934-min_1_1.jpg",
           "small_text": "HOW CBD PRODUCTS <br> ARE MADE",
           "large_text": "OUR <br>HEMP CBD",
-          "logotxt": "shopify://shop_images/KQ-Logo-whhite_1.png",
-          "get_btn_url": "shopify://collections/all",
+          "logotxt": "shopify:\/\/shop_images\/KQ-Logo-whhite_1.png",
+          "get_btn_url": "shopify:\/\/collections\/all",
           "get_btn": "Shop Now"
         }
       },
@@ -1914,28 +1907,28 @@
           "1578410330724": {
             "type": "need-Support",
             "settings": {
-              "iconimg": "shopify://shop_images/Chat_Support.png",
+              "iconimg": "shopify:\/\/shop_images\/Chat_Support.png",
               "texts": "Chat Support"
             }
           },
           "1578410389252": {
             "type": "need-Support",
             "settings": {
-              "iconimg": "shopify://shop_images/Tweet_Support.png",
+              "iconimg": "shopify:\/\/shop_images\/Tweet_Support.png",
               "texts": "Tweet Support"
             }
           },
           "1578410407392": {
             "type": "need-Support",
             "settings": {
-              "iconimg": "shopify://shop_images/Phone_Consultant.png",
+              "iconimg": "shopify:\/\/shop_images\/Phone_Consultant.png",
               "texts": "Phone Consultant"
             }
           },
           "1578410417317": {
             "type": "need-Support",
             "settings": {
-              "iconimg": "shopify://shop_images/Visit_Our_Forum.png",
+              "iconimg": "shopify:\/\/shop_images\/Visit_Our_Forum.png",
               "texts": "Visit Our Forum"
             }
           }
@@ -1957,7 +1950,7 @@
             "type": "select",
             "settings": {
               "question": "How to shopping with Auros online?",
-              "answer": "<p>Add items to your bag:</p>\n<ol>\n<li>Ensure you are on the website.</li>\n<li>Browse the categories across the top navigation bar which includes New In, Clothing, Bags &amp; Accessories, Shoes, Collections, Stores, and Sale.</li>\n<li>Once you have found an item to purchase, select your preferred colour, size (if applicable) and the quantity you wish to purchase then simply click ‘ADD TO CART’.</li>\n<li>You can then continue shopping or click ‘CHECKOUT’ to review the items in your bag and to finalise your order.</li>\n</ol>\n<p>Proceed to purchasing items:</p>\n<ol>\n<li>Once you have finished browsing and have added the items you wish to purchase to your bag, click\nthe ‘CHECKOUT’ button located at the top right of the website.</li>\n<li>Within the checkout you can also amend the quantity selected for each item or delete unwanted\nby simply clicking the ‘EDIT’ button that is located on the right hand side within the Order Overview\nsection of the checkout. Your amendments will be updated and allow you to proceed with the\ncheckout process.</li>\n</ol>"
+              "answer": "<p>Add items to your bag:<\/p>\n<ol>\n<li>Ensure you are on the website.<\/li>\n<li>Browse the categories across the top navigation bar which includes New In, Clothing, Bags &amp; Accessories, Shoes, Collections, Stores, and Sale.<\/li>\n<li>Once you have found an item to purchase, select your preferred colour, size (if applicable) and the quantity you wish to purchase then simply click ‘ADD TO CART’.<\/li>\n<li>You can then continue shopping or click ‘CHECKOUT’ to review the items in your bag and to finalise your order.<\/li>\n<\/ol>\n<p>Proceed to purchasing items:<\/p>\n<ol>\n<li>Once you have finished browsing and have added the items you wish to purchase to your bag, click\nthe ‘CHECKOUT’ button located at the top right of the website.<\/li>\n<li>Within the checkout you can also amend the quantity selected for each item or delete unwanted\nby simply clicking the ‘EDIT’ button that is located on the right hand side within the Order Overview\nsection of the checkout. Your amendments will be updated and allow you to proceed with the\ncheckout process.<\/li>\n<\/ol>"
             }
           },
           "1578412905726": {
@@ -1978,7 +1971,7 @@
         "type": "new-top-image-overlay",
         "disabled": true,
         "settings": {
-          "image": "shopify://shop_images/kush-queen-holiday-gifts.jpg",
+          "image": "shopify:\/\/shop_images\/kush-queen-holiday-gifts.jpg",
           "alignment": "center",
           "hero_layout": "full_width",
           "hero_size": "medium",
@@ -1986,7 +1979,7 @@
           "title": "Find Your Feeling",
           "text": "",
           "button_label": "Shop Now",
-          "button_link": "shopify://collections/all"
+          "button_link": "shopify:\/\/collections\/all"
         }
       },
       "checkout-promise": {
@@ -1995,25 +1988,25 @@
           "4ca7da74-6ab9-4048-9b23-f3a3361f3493": {
             "type": "promise",
             "settings": {
-              "queen_pro_sing_img": "shopify://shop_images/KQ_Icons-04_e235faee-d9c3-424d-8931-d6bd08939bba.webp"
+              "queen_pro_sing_img": "shopify:\/\/shop_images\/KQ_Icons-04_e235faee-d9c3-424d-8931-d6bd08939bba.webp"
             }
           },
           "b3dd1f50-e77b-4168-bafa-5abeffce6fb5": {
             "type": "promise",
             "settings": {
-              "queen_pro_sing_img": "shopify://shop_images/KQ_Icons-03_b36038cb-8926-4c32-856b-effe20d7bf71.webp"
+              "queen_pro_sing_img": "shopify:\/\/shop_images\/KQ_Icons-03_b36038cb-8926-4c32-856b-effe20d7bf71.webp"
             }
           },
           "4d48e971-ddf1-4e8a-af50-658c2196101c": {
             "type": "promise",
             "settings": {
-              "queen_pro_sing_img": "shopify://shop_images/KQ_Icons-02.webp"
+              "queen_pro_sing_img": "shopify:\/\/shop_images\/KQ_Icons-02.webp"
             }
           },
           "c66aea39-741c-4b7a-834e-d6f6d13cc7f3": {
             "type": "promise",
             "settings": {
-              "queen_pro_sing_img": "shopify://shop_images/KQ_Icons-01.webp"
+              "queen_pro_sing_img": "shopify:\/\/shop_images\/KQ_Icons-01.webp"
             }
           }
         },
@@ -2031,12 +2024,12 @@
       "99ac90b0-667e-465c-a70f-75217bd1fdf8": {
         "type": "home-featured-collection-cards",
         "settings": {
-          "icon": "shopify://shop_images/KQ_ICON_3.svg",
+          "icon": "shopify:\/\/shop_images\/KQ_ICON_3.svg",
           "sub-title": "Our",
           "title": "Best Sellers",
-          "desc": "Join 50,000 others who love these for <strong>wellness, lifted chill, and all over relief!</strong>",
+          "desc": "Join 50,000 others who love these for <strong>wellness, lifted chill, and all over relief!<\/strong>",
           "collection": "all-cannabis-products",
-          "col_link": "https://kushqueen.shop/collections/all-cannabis-products",
+          "col_link": "https:\/\/kushqueen.shop\/collections\/all-cannabis-products",
           "collection_wholesale": "wholesale-homepage-collection",
           "col_link_wholesale": "",
           "col_link_text": "Shop All"
@@ -2053,7 +2046,7 @@
               "product": "",
               "collection_description": "Get legal THC products shipped to your door.",
               "coll_title": "Get Elevated",
-              "alt_image": "shopify://shop_images/kush-queen-gummies-home.jpg"
+              "alt_image": "shopify:\/\/shop_images\/kush-queen-gummies-home.jpg"
             }
           },
           "14933143-69e3-4693-9cc8-025178803dbd": {
@@ -2064,7 +2057,7 @@
               "product": "",
               "collection_description": "Kush Queen bath bombs are next level. Period.",
               "coll_title": "CBD Bath Bombs",
-              "alt_image": "shopify://shop_images/starsofthetub.jpg"
+              "alt_image": "shopify:\/\/shop_images\/starsofthetub.jpg"
             }
           },
           "b49e170a-f5b7-4b17-b460-9dbb4385fb11-167536121917a3c9fa-1": {
@@ -2075,7 +2068,7 @@
               "product": "",
               "collection_description": "The perfect amount of enhanced pleasure.",
               "coll_title": "Sexual Wellness",
-              "alt_image": "shopify://shop_images/kush-queen-sexual-wellness.jpg"
+              "alt_image": "shopify:\/\/shop_images\/kush-queen-sexual-wellness.jpg"
             }
           },
           "b49e170a-f5b7-4b17-b460-9dbb4385fb11-167536121917a3c9fa-0": {
@@ -2086,7 +2079,7 @@
               "product": "boost-cannabinoid-concentrate",
               "collection_description": "Wellness products you can’t live without.",
               "coll_title": "Mood Boosters",
-              "alt_image": "shopify://shop_images/Kush-queen-wellness_home.jpg"
+              "alt_image": "shopify:\/\/shop_images\/Kush-queen-wellness_home.jpg"
             }
           },
           "b49e170a-f5b7-4b17-b460-9dbb4385fb11-167536121917a3c9fa-2": {
@@ -2097,7 +2090,7 @@
               "product": "",
               "collection_description": "Don’t go another night without sleep.",
               "coll_title": "Rest & Reset",
-              "alt_image": "shopify://shop_images/rest.jpg"
+              "alt_image": "shopify:\/\/shop_images\/rest.jpg"
             }
           },
           "3d3634c2-7368-40da-b4f0-3a3ba695031c": {
@@ -2108,7 +2101,7 @@
               "product": "melt-cbd-lotion",
               "collection_description": "Give your body the relief it’s asking for.",
               "coll_title": "Get Real Relief",
-              "alt_image": "shopify://shop_images/kush-queen-pain-relief.jpg"
+              "alt_image": "shopify:\/\/shop_images\/kush-queen-pain-relief.jpg"
             }
           }
         },
@@ -2123,13 +2116,13 @@
         "settings": {
           "title": "BY EFFECT",
           "grid": 3,
-          "icon": "shopify://shop_images/KQ_ICON_4.svg",
+          "icon": "shopify:\/\/shop_images\/KQ_ICON_4.svg",
           "sub-title": "Shop",
-          "desc": "Build a cannabis routine for real life, shop by effect for <strong>mood, relief, sleep, sex and getting elevated.</strong>",
-          "col_link": "shopify://collections/all",
+          "desc": "Build a cannabis routine for real life, shop by effect for <strong>mood, relief, sleep, sex and getting elevated.<\/strong>",
+          "col_link": "shopify:\/\/collections\/all",
           "col_link_text": "Shop All",
-          "banner_image": "shopify://shop_images/kush-queen-home-lower.jpg",
-          "banner_image_mobile": "shopify://shop_images/kush-queen-home-lower.jpg"
+          "banner_image": "shopify:\/\/shop_images\/kush-queen-home-lower.jpg",
+          "banner_image_mobile": "shopify:\/\/shop_images\/kush-queen-home-lower.jpg"
         }
       },
       "cd11dcb9-5075-433e-a1f2-bf2f76dd893c": {
@@ -2138,7 +2131,7 @@
           "d1ce0b64-b5b7-4d5d-9569-02b4a2e20987": {
             "type": "promise",
             "settings": {
-              "queen_pro_sing_img": "shopify://shop_images/KQ_ICON_6.svg",
+              "queen_pro_sing_img": "shopify:\/\/shop_images\/KQ_ICON_6.svg",
               "queen_pro_sing_title": "Community First",
               "queen_pro_sing_desc": "Kush Queen is rooted in our passion for cannabis and our commitment to help shape normalization and usage for everyone. All are welcome."
             }
@@ -2146,7 +2139,7 @@
           "01e32f74-5485-41f4-89af-d17bcd86fc03": {
             "type": "promise",
             "settings": {
-              "queen_pro_sing_img": "shopify://shop_images/KQ_ICON_7.svg",
+              "queen_pro_sing_img": "shopify:\/\/shop_images\/KQ_ICON_7.svg",
               "queen_pro_sing_title": "Advanced Formulas",
               "queen_pro_sing_desc": "Our products are developed with 3 key values in mind. Science, technology, and delivery methods that make sense."
             }
@@ -2154,7 +2147,7 @@
           "b38eee6b-560d-40a8-9474-1387c9d526b4": {
             "type": "promise",
             "settings": {
-              "queen_pro_sing_img": "shopify://shop_images/KQ_ICON_1_9e5f09cd-fbcf-4569-8501-cd414664b9c5.svg",
+              "queen_pro_sing_img": "shopify:\/\/shop_images\/KQ_ICON_1_9e5f09cd-fbcf-4569-8501-cd414664b9c5.svg",
               "queen_pro_sing_title": "Quality Is Supreme",
               "queen_pro_sing_desc": "We bend the knee to the plant. Only the highest-quality, lab tested cannabinoids are sourced for Kush Queen products. Made in the USA."
             }
@@ -2162,7 +2155,7 @@
           "1db6edb9-bdf3-41c8-8ec6-3145c0fd89fa": {
             "type": "promise",
             "settings": {
-              "queen_pro_sing_img": "shopify://shop_images/atomic.svg",
+              "queen_pro_sing_img": "shopify:\/\/shop_images\/atomic.svg",
               "queen_pro_sing_title": "Effects You Feel",
               "queen_pro_sing_desc": "All Kush Queen products feature advanced technology, and innovative hemp molecules that make you feel something real."
             }
@@ -2178,15 +2171,15 @@
           "queen_pro_title": "Bend",
           "queen_pro_subtitle": "The Knee",
           "queen_pro_desc": "In 2015 Kush Queen was born to create intelligently designed cannabis products. We are the source for cannabis wellness tools, where your favorite plant and great products intersect- the fun & functional.",
-          "queen_pro_icon": "shopify://shop_images/KQ_MIND_BODY_VERTICAL.png"
+          "queen_pro_icon": "shopify:\/\/shop_images\/KQ_MIND_BODY_VERTICAL.png"
         }
       },
       "237dbedb-9d1f-47c0-b144-99e8f417ff78": {
         "type": "reviews-home-section",
         "settings": {
           "title": "Recent Reviews",
-          "review-counter-text": "4,100 Verified Reviews, <strong>Average 4.5 Star Rating</strong>",
-          "icon": "shopify://shop_images/KQ_ICON_5.svg",
+          "review-counter-text": "4,100 Verified Reviews, <strong>Average 4.5 Star Rating<\/strong>",
+          "icon": "shopify:\/\/shop_images\/KQ_ICON_5.svg",
           "sub-title": "Loved By Many",
           "desc": "lorem ipsum",
           "col_link": "",
@@ -2196,11 +2189,11 @@
       "472c0296-a3b4-410c-bdfd-b5308fc72c55": {
         "type": "brand-message-with-image",
         "settings": {
-          "main_image": "shopify://shop_images/hailley_howard_-2_3_1.png",
-          "icon": "shopify://shop_images/Vector.png",
+          "main_image": "shopify:\/\/shop_images\/hailley_howard_-2_3_1.png",
+          "icon": "shopify:\/\/shop_images\/Vector.png",
           "subheading": "kush queen",
           "heading": "Elevating You Daily",
-          "description": "<p>Kush Queen delivers perfected wellness tools to elevate daily life.</p><p>Today, with over 55,000 customers we offer a range of daily solutions for wellness that address issues like sleep, stress, mood, relief, and pleasure.</p><p>When legacy status, a relentless commitment to the cannabis plant, and award winning products (that speak to everyone) come together, that’s Kush Queen.</p>"
+          "description": "<p>Kush Queen delivers perfected wellness tools to elevate daily life.<\/p><p>Today, with over 55,000 customers we offer a range of daily solutions for wellness that address issues like sleep, stress, mood, relief, and pleasure.<\/p><p>When legacy status, a relentless commitment to the cannabis plant, and award winning products (that speak to everyone) come together, that’s Kush Queen.<\/p>"
         }
       },
       "8e1019d2-50f7-496a-8a48-7a24ee814bef": {
@@ -2209,42 +2202,42 @@
           "b4140f1c-43c5-45d0-a523-85c5d9ea639f": {
             "type": "look_talk",
             "settings": {
-              "look_sing_img": "shopify://shop_images/Press-Logos-13-1-300x300_1_665524d6-2c72-4bec-afc6-7a45a1fd9391.jpg",
+              "look_sing_img": "shopify:\/\/shop_images\/Press-Logos-13-1-300x300_1_665524d6-2c72-4bec-afc6-7a45a1fd9391.jpg",
               "look_sing_link": ""
             }
           },
           "a46cd5e1-46af-4d69-9742-a5e748934052": {
             "type": "look_talk",
             "settings": {
-              "look_sing_img": "shopify://shop_images/Press-Logos-10-1-300x300_1_553cc908-5fb0-4348-b1d1-ec4273cf2992.jpg",
+              "look_sing_img": "shopify:\/\/shop_images\/Press-Logos-10-1-300x300_1_553cc908-5fb0-4348-b1d1-ec4273cf2992.jpg",
               "look_sing_link": ""
             }
           },
           "e114d9bc-f46e-456c-8db5-f5fbf4323817": {
             "type": "look_talk",
             "settings": {
-              "look_sing_img": "shopify://shop_images/Press-Logos-09-1-300x300_1_664f48e4-f192-4236-864d-8d6249fae74f.jpg",
+              "look_sing_img": "shopify:\/\/shop_images\/Press-Logos-09-1-300x300_1_664f48e4-f192-4236-864d-8d6249fae74f.jpg",
               "look_sing_link": ""
             }
           },
           "3049f7ab-f00f-49b6-9d18-246c283ffd2f": {
             "type": "look_talk",
             "settings": {
-              "look_sing_img": "shopify://shop_images/Press-Logos-08-1-300x300_1_7c89d89c-e7cb-4763-a5a2-9e7c0912cf54.jpg",
+              "look_sing_img": "shopify:\/\/shop_images\/Press-Logos-08-1-300x300_1_7c89d89c-e7cb-4763-a5a2-9e7c0912cf54.jpg",
               "look_sing_link": ""
             }
           },
           "302a85e0-64fe-41fe-b9af-0c6ca14870cd": {
             "type": "look_talk",
             "settings": {
-              "look_sing_img": "shopify://shop_images/download_1_69d45aae-e7ab-44f6-98ae-1442cc53b4c4.png",
+              "look_sing_img": "shopify:\/\/shop_images\/download_1_69d45aae-e7ab-44f6-98ae-1442cc53b4c4.png",
               "look_sing_link": ""
             }
           },
           "8f4bed02-c9e2-4b99-8920-f79f7ecb4992": {
             "type": "look_talk",
             "settings": {
-              "look_sing_img": "shopify://shop_images/191-1918173_los-angeles-times-logo-png-transparent-png_21710c4d-3fb1-443a-825c-00abc34fdcba.png",
+              "look_sing_img": "shopify:\/\/shop_images\/191-1918173_los-angeles-times-logo-png-transparent-png_21710c4d-3fb1-443a-825c-00abc34fdcba.png",
               "look_sing_link": ""
             }
           }
@@ -2271,7 +2264,7 @@
             "type": "look_talk",
             "settings": {
               "product_link": "melt-cbd-lotion",
-              "look_sing_img": "shopify://shop_images/image_26_1.png",
+              "look_sing_img": "shopify:\/\/shop_images\/image_26_1.png",
               "look_sing_link": ""
             }
           },
@@ -2279,7 +2272,7 @@
             "type": "look_talk",
             "settings": {
               "product_link": "full-spectrum-cbd-chews",
-              "look_sing_img": "shopify://shop_images/Screen_Shot_2023-03-27_at_1.23.33_PM.png",
+              "look_sing_img": "shopify:\/\/shop_images\/Screen_Shot_2023-03-27_at_1.23.33_PM.png",
               "look_sing_link": ""
             }
           },
@@ -2287,7 +2280,7 @@
             "type": "look_talk",
             "settings": {
               "product_link": "highly-hemp-infused-beverage",
-              "look_sing_img": "shopify://shop_images/IMG_6078.jpg",
+              "look_sing_img": "shopify:\/\/shop_images\/IMG_6078.jpg",
               "look_sing_link": ""
             }
           },
@@ -2295,7 +2288,7 @@
             "type": "look_talk",
             "settings": {
               "product_link": "relax-cbd-delta-9-thc-bath-bomb",
-              "look_sing_img": "shopify://shop_images/Screen_Shot_2023-03-27_at_1.23.00_PM.png",
+              "look_sing_img": "shopify:\/\/shop_images\/Screen_Shot_2023-03-27_at_1.23.00_PM.png",
               "look_sing_link": ""
             }
           }
@@ -2319,25 +2312,25 @@
           "b015e7b6-8eb0-4cb2-8409-8c2ade1b7340": {
             "type": "icon",
             "settings": {
-              "icon_block": "shopify://shop_images/Vector_871c2f6f-75cd-44df-bb37-2f9d2b9775cc.png"
+              "icon_block": "shopify:\/\/shop_images\/Vector_871c2f6f-75cd-44df-bb37-2f9d2b9775cc.png"
             }
           },
           "3cc6544f-480b-4a80-ae7c-ccd7d1972b6c": {
             "type": "icon",
             "settings": {
-              "icon_block": "shopify://shop_images/Vector-1.png"
+              "icon_block": "shopify:\/\/shop_images\/Vector-1.png"
             }
           },
           "590e3fa8-0283-42fb-88a4-40b400560f01": {
             "type": "icon",
             "settings": {
-              "icon_block": "shopify://shop_images/Vector-2.png"
+              "icon_block": "shopify:\/\/shop_images\/Vector-2.png"
             }
           },
           "2f408eb3-5c17-40f1-9370-f663fd840144": {
             "type": "icon",
             "settings": {
-              "icon_block": "shopify://shop_images/Vector-3.png"
+              "icon_block": "shopify:\/\/shop_images\/Vector-3.png"
             }
           }
         },
@@ -2348,7 +2341,7 @@
           "2f408eb3-5c17-40f1-9370-f663fd840144"
         ],
         "settings": {
-          "icon": "shopify://shop_images/Vector.png",
+          "icon": "shopify:\/\/shop_images\/Vector.png",
           "section_title": "Join The KQ Fam",
           "subheading": "Our emails deliver deals, community cares, and cannabinoid education.",
           "show_background": true,
@@ -2398,13 +2391,13 @@
           "8c649c9d-5c4d-44ce-a56b-4ac4d7760ea5"
         ],
         "settings": {
-          "desktop_image": "shopify://shop_images/kush-queen-holiday-desktop.png",
-          "mobile_image": "shopify://shop_images/kush-queen-mobile-home-holidau.png",
+          "desktop_image": "shopify:\/\/shop_images\/kush-queen-holiday-desktop.png",
+          "mobile_image": "shopify:\/\/shop_images\/kush-queen-mobile-home-holidau.png",
           "show_ratings": true,
           "ratings_count": "6,500",
           "main_header": "Cannabinoids For All-Day Wellness",
           "call_to_action_text": "SHOP NOW",
-          "call_to_action_url": "https://kushqueen.shop/collections/all-cannabis-products"
+          "call_to_action_url": "https:\/\/kushqueen.shop\/collections\/all-cannabis-products"
         }
       },
       "d76d763c-6c70-4fea-b4ad-4348f38cb70e": {
@@ -2431,17 +2424,17 @@
     ],
     "blocks": {
       "855628211100114053": {
-        "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/klaviyo-onsite-embed/2632fe16-c075-4321-a88b-50b567f42507",
+        "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507",
         "disabled": false,
         "settings": {}
       },
       "10910696115237310528": {
-        "type": "shopify://apps/sticky-cart-slide-cart-drawer/blocks/slide-cart-app-embed/06f96c51-92d4-4ccf-8798-f65ef7359208",
+        "type": "shopify:\/\/apps\/sticky-cart-slide-cart-drawer\/blocks\/slide-cart-app-embed\/06f96c51-92d4-4ccf-8798-f65ef7359208",
         "disabled": false,
         "settings": {}
       },
       "1291562577487733835": {
-        "type": "shopify://apps/black-crow-ai-that-delivers/blocks/blackcrow_ai_script/3e73f597-cb71-47a1-8a06-0c931482ecd2",
+        "type": "shopify:\/\/apps\/black-crow-ai-that-delivers\/blocks\/blackcrow_ai_script\/3e73f597-cb71-47a1-8a06-0c931482ecd2",
         "disabled": false,
         "settings": {}
       }
