@@ -87,8 +87,8 @@
       "type": "rich-text",
       "settings": {
         "full_width": false,
-        "section_title": "What types of bundles does Kush Queen offer?",
-        "text": "<p>Our bundles cover a range of experiences, from bath bomb collections and THC gummies to lube bundles and flower trios. Whether you're looking to relax, elevate, or try a mix of products, there’s a bundle to match your needs.</p>",
+        "section_title": "What types of cannabis products does Kush Queen offer?",
+        "text": "<p>We’ve got you covered with a variety of options, from THC and CBD-infused gummies and tinctures to bath bombs, lube, flower, and topicals. Each product is crafted to bring a unique experience to your wellness routine, whether you're looking to relax, get relief, or simply enjoy a good vibe.</p>",
         "text_size": "small"
       }
     },
@@ -96,8 +96,8 @@
       "type": "rich-text",
       "settings": {
         "full_width": false,
-        "section_title": "Why should I buy a bundle instead of individual products?",
-        "text": "<p>Bundles are a convenient way to try our best sellers and products that pair well together. They allow you to stock up on your favorites or try multiple new products —perfect for both loyal fans and new customers.</p>",
+        "section_title": "Will THC products make me feel high?",
+        "text": "<p>Yes, our THC-infused products are designed to bring on those classic cannabis effects. If you’re new to THC, start with a low dose to get a feel for how it affects you. And if you’re just here for the relaxation without the high, check out our CBD-only options!</p>",
         "text_size": "small"
       }
     },
@@ -105,8 +105,8 @@
       "type": "rich-text",
       "settings": {
         "full_width": false,
-        "section_title": "Do I get additional discounts on bundles during sales?",
-        "text": "<p>Yes, bundles are often included in our promotions. Plus, if your bundle order qualifies, you’ll still enjoy free shipping on orders over $100!</p>",
+        "section_title": "What’s the difference between Delta-8 and Delta-9 THC?",
+        "text": "<p>Delta-9 THC is the one that most people know—it’s what gives you that strong “high” feeling. Delta-8 is a bit more mellow and offers a smoother experience that many find less intense. Both bring something special, so it’s all about what vibe you’re looking for.</p>",
         "text_size": "small"
       }
     },
@@ -114,8 +114,8 @@
       "type": "rich-text",
       "settings": {
         "full_width": false,
-        "section_title": "Can I customize a bundle with different products?",
-        "text": "<p>Yes, we offer a build your own bundle subscription where you can create a stack of products. There are 3 discount tiers you can unlock depending on how many products you add to the bundle with the highest discounted by 40%. </p>",
+        "section_title": "How long do edibles take to kick in?",
+        "text": "<p>Edibles, like our THC gummies, usually take about 30 to 90 minutes to start working since they need to be digested first. So, don’t rush it! Start with a low dose and give it some time to see how it feels before taking more.</p>",
         "text_size": "small"
       }
     },
@@ -123,8 +123,8 @@
       "type": "rich-text",
       "settings": {
         "full_width": false,
-        "section_title": "Are all bundles eligible for free shipping?",
-        "text": "<p>Yes, any bundle order over $100 qualifies for free shipping. Just add it to your cart, and if you reach the minimum, free shipping will apply automatically.</p>",
+        "section_title": "How should I store my cannabis products?",
+        "text": "<p>Keep your products in a cool, dark place away from heat and light to maintain their freshness and potency. And be sure to keep them out of reach of kiddos and pets!</p>",
         "text_size": "small"
       }
     },
@@ -132,8 +132,8 @@
       "type": "rich-text",
       "settings": {
         "full_width": false,
-        "section_title": "What are the benefits of each bundle type?",
-        "text": "<p>Each bundle offers unique benefits. For example, our CBD Bath Bomb Bundle is perfect for relaxation, while our Delta 9 THC Gummies Bundle is ideal for those seeking a more euphoric experience. The Gummies Best Seller Bundle includes fan favorites, giving you a taste of our best offerings.</p>",
+        "section_title": "Will THC products show up on a drug test?",
+        "text": "<p>Yes, THC can show up on a drug test, so if you’re regularly tested, you might want to stick to our CBD-only products. THC can stay in your system for a while, depending on how often you use it.</p>",
         "text_size": "small"
       }
     },
@@ -141,8 +141,8 @@
       "type": "rich-text",
       "settings": {
         "full_width": false,
-        "section_title": "Are the bundles only for recreational use?",
-        "text": "<p>Not at all! Our bundles cater to a variety of needs, including wellness and therapeutic benefits. From relaxation and pain relief to mood enhancement, there’s a bundle to suit different lifestyles and goals.</p>",
+        "section_title": "How do I know which dosage is right for me?",
+        "text": "<p>If you’re new to THC or cannabis in general, start with a low dose—think 2.5 to 5 mg of THC—and see how you feel. Everyone’s body is different, so take it slow and increase only if you’re comfortable. For CBD, many people start with 10-20 mg and adjust as needed.</p>",
         "text_size": "small"
       }
     },
@@ -150,8 +150,8 @@
       "type": "rich-text",
       "settings": {
         "full_width": false,
-        "section_title": "Do bundles include lab-tested products?",
-        "text": "<p>Absolutely. Every product in our bundles is third-party lab tested for quality, safety, and consistency. We’re committed to transparency, so you can trust what’s inside each bundle.</p>",
+        "section_title": "Do your products contain artificial additives or fillers?",
+        "text": "<p>Nope! We’re all about clean, plant-based ingredients, so our products are free from unnecessary additives, fillers, or artificial flavors. Just pure, effective formulas you can feel good about.</p>",
         "text_size": "small"
       }
     },
@@ -159,8 +159,8 @@
       "type": "rich-text",
       "settings": {
         "full_width": false,
-        "section_title": "Can I return or exchange items in a bundle?",
-        "text": "<p>All sales are final, including bundles. However, if you receive a damaged or incorrect item in your bundle, please contact us at support@kushqueen.shop within 48 hours, and we’ll make it right.</p>",
+        "section_title": "Can I use these products with other medications?",
+        "text": "<p>It’s best to check with your healthcare provider if you’re on any medications, especially if you’re new to cannabis. They can help you understand any potential interactions.</p>",
         "text_size": "small"
       }
     },
@@ -168,8 +168,8 @@
       "type": "rich-text",
       "settings": {
         "full_width": false,
-        "section_title": "Is there a bundle best suited for beginners?",
-        "text": "<p>For those new to Kush Queen, the Gummies Best Seller Bundle is a great starting point. It includes a variety of gummies, so you can sample different flavors and effects to find your favorites.</p>",
+        "section_title": "Are these products vegan and cruelty-free?",
+        "text": "<p>Yes! Kush Queen products are vegan, cruelty-free, and made with the highest-quality ingredients. We’re committed to ethical products that are safe and enjoyable for everyone.</p>",
         "text_size": "small"
       }
     },
@@ -177,8 +177,8 @@
       "type": "rich-text",
       "settings": {
         "full_width": false,
-        "section_title": "How should I store my bundle products?",
-        "text": "<p>Keep your products in a cool, dry place away from direct sunlight to preserve their freshness and potency. For edibles like gummies, make sure they’re sealed tightly and stored in a cool spot.</p>",
+        "section_title": "How long will the effects of THC products last?",
+        "text": "<p>The effects of THC products, especially edibles, can last anywhere from 4 to 8 hours, depending on your tolerance and the dose. You’ll usually feel the strongest effects 2-3 hours after taking them, so sit back, relax, and enjoy!</p>",
         "text_size": "small"
       }
     },
@@ -186,8 +186,8 @@
       "type": "rich-text",
       "settings": {
         "full_width": false,
-        "section_title": "Are there bundles that include THC products?",
-        "text": "<p>Yes! We offer THC-infused bundles, like the Delta 9 THC Gummies Bundle and Delta 8 THC Gummies Bundle, for customers looking for a bit of an elevated experience. Just remember to start with a low dose if you’re new to THC.</p>",
+        "section_title": "Can I return a product if it doesn’t work for me?",
+        "text": "<p>All sales are final, but if you received a damaged or incorrect item, just reach out to us at support@kushqueen.shop within 48 hours, and we’ll make it right.</p>",
         "text_size": "small"
       }
     },
@@ -195,8 +195,8 @@
       "type": "rich-text",
       "settings": {
         "full_width": false,
-        "section_title": "Can I purchase a bundle as a gift?",
-        "text": "<p>Of course! Our bundles make fantastic gifts, whether for a friend or for treating yourself. Just place the order and enter the recipient's shipping details during checkout.</p>",
+        "section_title": "Do you offer international shipping?",
+        "text": "<p>We ship to select international locations. If you’re outside the U.S., shoot us an email at support@kushqueen.shop to get the details on availability and shipping costs for your area.</p>",
         "text_size": "small"
       }
     },
@@ -204,17 +204,8 @@
       "type": "rich-text",
       "settings": {
         "full_width": false,
-        "section_title": "How often do you update or change the bundles?",
-        "text": "<p>We occasionally introduce seasonal or limited-edition bundles, so check back regularly or sign up for our newsletter to stay updated on new releases and special offers.</p>",
-        "text_size": "small"
-      }
-    },
-    "rich_text_Af6kk6": {
-      "type": "rich-text",
-      "settings": {
-        "full_width": false,
-        "section_title": "Is there a subscription option for bundles?",
-        "text": "<p>Currently, bundles are available as one-time purchases, but you can <a href=\"https://kushqueen.shop/a/account/custom-tools/dynamic-box?product=8318096965877\"><span style=\"text-decoration:underline\">create your own custom bundle</span></a> where you can choose the products and match the bundle offerings. </p>",
+        "section_title": "What’s the best way to save on Kush Queen products?",
+        "text": "<p>Keep an eye on our site for promotions, bundle deals, and special discounts. You can also sign up for our newsletter to stay in the loop on sales and exclusive offers!</p>",
         "text_size": "small"
       }
     }
@@ -237,7 +228,6 @@
     "rich_text_nj6bAP",
     "rich_text_qtEMfC",
     "rich_text_xyH6EH",
-    "rich_text_P8PYAy",
-    "rich_text_Af6kk6"
+    "rich_text_P8PYAy"
   ]
 }
