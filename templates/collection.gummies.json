@@ -113,7 +113,7 @@
         "h3_Me3DNz": {
           "type": "h3",
           "settings": {
-            "h3": "<p><strong>Full Spectrum CBD Gummies</strong></p>",
+            "h3": "<p><strong>Relax and Rejuvenate with Full Spectrum CBD Gummies</strong></p>",
             "font_size_d": 24,
             "font_size_m": 18,
             "font_family": "Eina03"
@@ -155,7 +155,7 @@
         "h3_X6HhVz": {
           "type": "h3",
           "settings": {
-            "h3": "<p><strong>Pairing CBN & CBD for the Best Night’s Sleep</strong></p>",
+            "h3": "<p><strong>Say Goodbye to Sleepless Nights with CBN Gummies</strong></p>",
             "font_size_d": 24,
             "font_size_m": 18,
             "font_family": "Eina03"
@@ -171,7 +171,7 @@
         "button_w438bn": {
           "type": "button",
           "settings": {
-            "button_text": "Shop CBN Gummies",
+            "button_text": "Shop CBN Gummies for Sleep",
             "button_url": "shopify://products/cbn-gummies-for-sleep",
             "button_bg_color": "#000000",
             "button_text_color": "#ffffff",
@@ -197,7 +197,7 @@
         "h3_gkxbGr": {
           "type": "h3",
           "settings": {
-            "h3": "<p><strong>Boost Your Mood with the Perfect Combo of CBG & CBD</strong></p>",
+            "h3": "<p><strong>Boost Focus and Clarity with CBG Gummies</strong></p>",
             "font_size_d": 24,
             "font_size_m": 18,
             "font_family": "Eina03"
@@ -213,7 +213,7 @@
         "button_dgMLyN": {
           "type": "button",
           "settings": {
-            "button_text": "Shop CBG Gummies",
+            "button_text": "Shop CBG Gummies for Focus",
             "button_url": "shopify://products/cbg-gummies",
             "button_bg_color": "#000000",
             "button_text_color": "#ffffff",
@@ -239,7 +239,7 @@
         "h3_3ir83P": {
           "type": "h3",
           "settings": {
-            "h3": "<p><strong>Gaining Focus & Energy with THCv & CBD</strong> </p>",
+            "h3": "<p><strong>Elevate Your Mood with THCv Gummies</strong></p>",
             "font_size_d": 24,
             "font_size_m": 18,
             "font_family": "Eina03"
@@ -255,7 +255,7 @@
         "button_JM474m": {
           "type": "button",
           "settings": {
-            "button_text": "Shop THCv Gummies",
+            "button_text": "Shop THCv Gummies for Energy",
             "button_url": "shopify://products/thcv-gummies",
             "button_bg_color": "#000000",
             "button_text_color": "#ffffff",
