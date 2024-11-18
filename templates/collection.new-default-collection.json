@@ -1,1 +1,243 @@
-{"sections":{"collection_header_7bBjxG":{"type":"collection-header","settings":{"enable_breadcrumb":true}},"icon_links_L3CAzk":{"type":"icon-links","blocks":{"icon_jzAW3E":{"type":"icon","settings":{"icon_link":"shopify:\/\/collections\/bath-bomb-reject-sale","icon":"shopify:\/\/shop_images\/Vector_2_70x_8f3d5bc2-c8e7-42df-94de-f8c510ec5b23.webp","title":"shop all"}},"icon_BfenYq":{"type":"icon","settings":{"icon_link":"","icon":"shopify:\/\/shop_images\/Vector_2_70x_d97f53ba-ea04-4eac-8938-377ee437440e.webp","title":"bundles"}},"icon_9HWK7y":{"type":"icon","settings":{"icon_link":"","icon":"shopify:\/\/shop_images\/Vector_2_70x_d97f53ba-ea04-4eac-8938-377ee437440e.webp","title":"bath bombes"}},"icon_mALUW6":{"type":"icon","settings":{"icon_link":"","icon":"shopify:\/\/shop_images\/Vector_2_70x_68c03c91-0d81-4448-bfbe-96248c221621.webp","title":"topicals"}}},"block_order":["icon_jzAW3E","icon_BfenYq","icon_9HWK7y","icon_mALUW6"],"disabled":true,"settings":{"background_color":"#ffffff","text_color":"#000000","icon_title_font":"Gotham-bold"}},"new-collection-template":{"type":"new-collection-template","settings":{"layout":"grid","grid":4,"rows":30,"show_collection_image":true,"show_vendor":false,"sort_enable":true,"tags_enable":true,"main_linklist":"product-category"}}},"order":["collection_header_7bBjxG","icon_links_L3CAzk","new-collection-template"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "collection_header_7bBjxG": {
+      "type": "collection-header",
+      "settings": {
+        "enable_breadcrumb": true
+      }
+    },
+    "icon_links_L3CAzk": {
+      "type": "icon-links",
+      "blocks": {
+        "icon_jzAW3E": {
+          "type": "icon",
+          "settings": {
+            "icon_link": "shopify://collections/bath-bomb-reject-sale",
+            "icon": "shopify://shop_images/Vector_2_70x_8f3d5bc2-c8e7-42df-94de-f8c510ec5b23.webp",
+            "title": "shop all"
+          }
+        },
+        "icon_BfenYq": {
+          "type": "icon",
+          "settings": {
+            "icon_link": "",
+            "icon": "shopify://shop_images/Vector_2_70x_d97f53ba-ea04-4eac-8938-377ee437440e.webp",
+            "title": "bundles"
+          }
+        },
+        "icon_9HWK7y": {
+          "type": "icon",
+          "settings": {
+            "icon_link": "",
+            "icon": "shopify://shop_images/Vector_2_70x_d97f53ba-ea04-4eac-8938-377ee437440e.webp",
+            "title": "bath bombes"
+          }
+        },
+        "icon_mALUW6": {
+          "type": "icon",
+          "settings": {
+            "icon_link": "",
+            "icon": "shopify://shop_images/Vector_2_70x_68c03c91-0d81-4448-bfbe-96248c221621.webp",
+            "title": "topicals"
+          }
+        }
+      },
+      "block_order": [
+        "icon_jzAW3E",
+        "icon_BfenYq",
+        "icon_9HWK7y",
+        "icon_mALUW6"
+      ],
+      "disabled": true,
+      "settings": {
+        "background_color": "#ffffff",
+        "text_color": "#000000",
+        "icon_title_font": "Gotham-bold"
+      }
+    },
+    "new-collection-template": {
+      "type": "new-collection-template",
+      "settings": {
+        "layout": "grid",
+        "grid": 4,
+        "rows": 30,
+        "show_collection_image": true,
+        "show_vendor": false,
+        "sort_enable": true,
+        "tags_enable": true,
+        "main_linklist": "product-category"
+      }
+    },
+    "new_faq_jRdWVL": {
+      "type": "new-faq",
+      "settings": {
+        "faq_title": "Frequently Asked Questions"
+      }
+    },
+    "rich_text_EYVeTD": {
+      "type": "rich-text",
+      "settings": {
+        "full_width": false,
+        "section_title": "What types of bundles does Kush Queen offer?",
+        "text": "<p>Our bundles cover a range of experiences, from bath bomb collections and THC gummies to lube bundles and flower trios. Whether you're looking to relax, elevate, or try a mix of products, there’s a bundle to match your needs.</p>",
+        "text_size": "small"
+      }
+    },
+    "rich_text_HUKmMb": {
+      "type": "rich-text",
+      "settings": {
+        "full_width": false,
+        "section_title": "Why should I buy a bundle instead of individual products?",
+        "text": "<p>Bundles are a convenient way to try our best sellers and products that pair well together. They allow you to stock up on your favorites or try multiple new products —perfect for both loyal fans and new customers.</p>",
+        "text_size": "small"
+      }
+    },
+    "rich_text_gMeixc": {
+      "type": "rich-text",
+      "settings": {
+        "full_width": false,
+        "section_title": "Do I get additional discounts on bundles during sales?",
+        "text": "<p>Yes, bundles are often included in our promotions. Plus, if your bundle order qualifies, you’ll still enjoy free shipping on orders over $100!</p>",
+        "text_size": "small"
+      }
+    },
+    "rich_text_WaebmE": {
+      "type": "rich-text",
+      "settings": {
+        "full_width": false,
+        "section_title": "Can I customize a bundle with different products?",
+        "text": "<p>Yes, we offer a build your own bundle subscription where you can create a stack of products. There are 3 discount tiers you can unlock depending on how many products you add to the bundle with the highest discounted by 40%. </p>",
+        "text_size": "small"
+      }
+    },
+    "rich_text_RhJGdh": {
+      "type": "rich-text",
+      "settings": {
+        "full_width": false,
+        "section_title": "Are all bundles eligible for free shipping?",
+        "text": "<p>Yes, any bundle order over $100 qualifies for free shipping. Just add it to your cart, and if you reach the minimum, free shipping will apply automatically.</p>",
+        "text_size": "small"
+      }
+    },
+    "rich_text_kmwKV6": {
+      "type": "rich-text",
+      "settings": {
+        "full_width": false,
+        "section_title": "What are the benefits of each bundle type?",
+        "text": "<p>Each bundle offers unique benefits. For example, our CBD Bath Bomb Bundle is perfect for relaxation, while our Delta 9 THC Gummies Bundle is ideal for those seeking a more euphoric experience. The Gummies Best Seller Bundle includes fan favorites, giving you a taste of our best offerings.</p>",
+        "text_size": "small"
+      }
+    },
+    "rich_text_YA4wLe": {
+      "type": "rich-text",
+      "settings": {
+        "full_width": false,
+        "section_title": "Are the bundles only for recreational use?",
+        "text": "<p>Not at all! Our bundles cater to a variety of needs, including wellness and therapeutic benefits. From relaxation and pain relief to mood enhancement, there’s a bundle to suit different lifestyles and goals.</p>",
+        "text_size": "small"
+      }
+    },
+    "rich_text_W9aH7C": {
+      "type": "rich-text",
+      "settings": {
+        "full_width": false,
+        "section_title": "Do bundles include lab-tested products?",
+        "text": "<p>Absolutely. Every product in our bundles is third-party lab tested for quality, safety, and consistency. We’re committed to transparency, so you can trust what’s inside each bundle.</p>",
+        "text_size": "small"
+      }
+    },
+    "rich_text_PaYHRd": {
+      "type": "rich-text",
+      "settings": {
+        "full_width": false,
+        "section_title": "Can I return or exchange items in a bundle?",
+        "text": "<p>All sales are final, including bundles. However, if you receive a damaged or incorrect item in your bundle, please contact us at support@kushqueen.shop within 48 hours, and we’ll make it right.</p>",
+        "text_size": "small"
+      }
+    },
+    "rich_text_AHnqtd": {
+      "type": "rich-text",
+      "settings": {
+        "full_width": false,
+        "section_title": "Is there a bundle best suited for beginners?",
+        "text": "<p>For those new to Kush Queen, the Gummies Best Seller Bundle is a great starting point. It includes a variety of gummies, so you can sample different flavors and effects to find your favorites.</p>",
+        "text_size": "small"
+      }
+    },
+    "rich_text_nj6bAP": {
+      "type": "rich-text",
+      "settings": {
+        "full_width": false,
+        "section_title": "How should I store my bundle products?",
+        "text": "<p>Keep your products in a cool, dry place away from direct sunlight to preserve their freshness and potency. For edibles like gummies, make sure they’re sealed tightly and stored in a cool spot.</p>",
+        "text_size": "small"
+      }
+    },
+    "rich_text_qtEMfC": {
+      "type": "rich-text",
+      "settings": {
+        "full_width": false,
+        "section_title": "Are there bundles that include THC products?",
+        "text": "<p>Yes! We offer THC-infused bundles, like the Delta 9 THC Gummies Bundle and Delta 8 THC Gummies Bundle, for customers looking for a bit of an elevated experience. Just remember to start with a low dose if you’re new to THC.</p>",
+        "text_size": "small"
+      }
+    },
+    "rich_text_xyH6EH": {
+      "type": "rich-text",
+      "settings": {
+        "full_width": false,
+        "section_title": "Can I purchase a bundle as a gift?",
+        "text": "<p>Of course! Our bundles make fantastic gifts, whether for a friend or for treating yourself. Just place the order and enter the recipient's shipping details during checkout.</p>",
+        "text_size": "small"
+      }
+    },
+    "rich_text_P8PYAy": {
+      "type": "rich-text",
+      "settings": {
+        "full_width": false,
+        "section_title": "How often do you update or change the bundles?",
+        "text": "<p>We occasionally introduce seasonal or limited-edition bundles, so check back regularly or sign up for our newsletter to stay updated on new releases and special offers.</p>",
+        "text_size": "small"
+      }
+    },
+    "rich_text_Af6kk6": {
+      "type": "rich-text",
+      "settings": {
+        "full_width": false,
+        "section_title": "Is there a subscription option for bundles?",
+        "text": "<p>Currently, bundles are available as one-time purchases, but you can <a href=\"https://kushqueen.shop/a/account/custom-tools/dynamic-box?product=8318096965877\"><span style=\"text-decoration:underline\">create your own custom bundle</span></a> where you can choose the products and match the bundle offerings. </p>",
+        "text_size": "small"
+      }
+    }
+  },
+  "order": [
+    "collection_header_7bBjxG",
+    "icon_links_L3CAzk",
+    "new-collection-template",
+    "new_faq_jRdWVL",
+    "rich_text_EYVeTD",
+    "rich_text_HUKmMb",
+    "rich_text_gMeixc",
+    "rich_text_WaebmE",
+    "rich_text_RhJGdh",
+    "rich_text_kmwKV6",
+    "rich_text_YA4wLe",
+    "rich_text_W9aH7C",
+    "rich_text_PaYHRd",
+    "rich_text_AHnqtd",
+    "rich_text_nj6bAP",
+    "rich_text_qtEMfC",
+    "rich_text_xyH6EH",
+    "rich_text_P8PYAy",
+    "rich_text_Af6kk6"
+  ]
+}
