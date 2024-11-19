@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -7,21 +16,21 @@
           "type": "review",
           "settings": {
             "review_text": "{{ product.metafields.custom.new_pdp_template.value.review_1.value }}",
-            "reviewer": "<p>{{ product.metafields.custom.new_pdp_template.value.reviewer_1.value }}<\/p>"
+            "reviewer": "<p>{{ product.metafields.custom.new_pdp_template.value.reviewer_1.value }}</p>"
           }
         },
         "3f72cdb0-a208-4efa-8c6c-304b3ab38bc6": {
           "type": "review",
           "settings": {
             "review_text": "{{ product.metafields.custom.new_pdp_template.value.review_2.value }}",
-            "reviewer": "<p>{{ product.metafields.custom.new_pdp_template.value.reviewer_2.value }}<\/p>"
+            "reviewer": "<p>{{ product.metafields.custom.new_pdp_template.value.reviewer_2.value }}</p>"
           }
         },
         "bb31f014-6fc2-430b-83b1-8abf26728b7c": {
           "type": "review",
           "settings": {
             "review_text": "{{ product.metafields.custom.new_pdp_template.value.review_3.value }}",
-            "reviewer": "<p>{{ product.metafields.custom.new_pdp_template.value.reviewer_3.value }}<\/p>"
+            "reviewer": "<p>{{ product.metafields.custom.new_pdp_template.value.reviewer_3.value }}</p>"
           }
         }
       },
@@ -35,7 +44,7 @@
         "badge_text": "{{ product.metafields.custom.new_pdp_template.value.badge_text.value }}",
         "show_buymore_banner": true,
         "short_desc_text": "{{ product.metafields.custom.new_pdp_template.value.newpdp_short_description_text.value }}",
-        "promo_text": "<p>{{ product.metafields.custom.new_pdp_template.value.promo_text | metafield_tag }}<\/p>",
+        "promo_text": "<p>{{ product.metafields.custom.new_pdp_template.value.promo_text | metafield_tag }}</p>",
         "image_1": "{{ product.metafields.custom.new_pdp_template.value.icon_1.value }}",
         "svg_code_1": "",
         "text_1": "{{ product.metafields.custom.new_pdp_template.value.icon_text_1.value }}",
@@ -194,113 +203,71 @@
         "faq_block_T38Qj6": {
           "type": "faq_block",
           "settings": {
-            "question": "What is CBG, and why should I care?",
-            "answer": "<p>CBG, or cannabigerol, is often called the \"mother of all cannabinoids\" because it’s the precursor to all other cannabinoids, including CBD and THC. Unlike THC, CBG won’t get you high, but it does offer a different kind of buzz: an uplifting, euphoric vibe that’s perfect for boosting your mood and clearing mental fog. Combined with CBD, our Bliss CBG gummies offer a balanced experience—think calm but motivated, relaxed but ready to tackle whatever the day throws at you.<\/p>"
+            "question": "What is CBN and what does it do?",
+            "answer": "<p>CBN, or cannabinol, is a minor cannabinoid found in the cannabis plant and is commonly used for its calming and sedating properties to promote sleep and relaxation.</p>"
           }
         },
         "faq_block_fRyUDP": {
           "type": "faq_block",
           "settings": {
-            "question": "Are CBG gummies different from CBD gummies?",
-            "answer": "<p>Yes, they are! While CBD is loved for its calming, relaxing effects, CBG brings in a more uplifting, feel-good energy. It’s like the sunshiny counterpart to CBD’s cozy vibe. Together, they’re the perfect mood-boosting power couple, giving you the best of both worlds with each gummy.<\/p>"
+            "question": "Is CBN legal?",
+            "answer": "<p>Similar to other minor cannabinoids, CBN is linked to the 2018 U.S. Farm Bill, which legalized the cultivation of industrial hemp, defined as cannabis plants with less than 0.3% THC content on a dry weight basis.</p>"
           }
         },
         "faq_block_Yw89fN": {
           "type": "faq_block",
           "settings": {
-            "question": "Will CBG get me stoned or make me feel high?",
-            "answer": "<p>Nope! CBG is non-psychoactive, which means you won’t feel “high” or out of it. Instead, expect subtle, uplifting vibes that enhance your mood without any of the heady effects associated with THC. It’s all about feeling clear-headed, focused, and blissful.<\/p>"
+            "question": "What is the difference between CBN vs CBD?",
+            "answer": "<p>There are distinct differences between CBN and CBD. CBN is primed to promote sleep and relaxation, while CBD works to reduce inflammation. Although different, Kush Queen believes that the superior impact for sleep can be felt by harmonious blending these cannabinoids to create a well-rounded natural sleep gummy.</p>"
           }
         },
-        "faq_block_ADmdaf": {
+        "faq_block_TicqA9": {
           "type": "faq_block",
           "settings": {
-            "question": "How does CBG help with mood?",
-            "answer": "<p>CBG interacts with your body’s endocannabinoid system in a way that can help boost serotonin levels and balance out stress, leaving you feeling more positive and energized. Combined with CBD, which is known for its relaxing properties, these gummies offer a balanced experience that lifts your mood and soothes any tension.<\/p>"
+            "question": "Is CBN more powerful than CBD?",
+            "answer": "<p>CBN and CBD work differently in the body, so it’s not about which is more powerful—it’s about what you need. CBN is often praised for its calming and sleep-promoting properties, while CBD tends to focus more on reducing anxiety, pain, and inflammation. Together, they can create a synergistic effect, but CBN shines when you're looking for deep relaxation or sleep support</p>"
           }
         },
-        "faq_block_Emrr7G": {
+        "faq_block_LqGkDG": {
           "type": "faq_block",
           "settings": {
-            "question": "What’s the recommended dose for CBG gummies?",
-            "answer": "<p>If you're new to CBG or cannabis edibles, start with half a gummy (7.5mg of CBG + 7.5mg of CBD) and see how you feel. Experienced users can enjoy a full gummy (15mg CBG + 15mg CBD) to unlock that daily dose of bliss. Remember, everyone’s tolerance is different, so find what works best for your vibe!<\/p>"
+            "question": "Will CBN put me to sleep?",
+            "answer": "<p>CBN has a reputation for promoting restful sleep, especially when combined with relaxing cannabinoids like CBD or natural sleep aids. Many Kush Queen users say they drift off easier and stay asleep longer after taking our CBN gummies. If you’re struggling with sleep, CBN may be the gentle nudge your body needs.</p>"
           }
         },
-        "faq_block_fEgxYm": {
+        "faq_block_LVNfYC": {
           "type": "faq_block",
           "settings": {
-            "question": "How long does it take for CBG gummies to work?",
-            "answer": "<p>On average, you’ll start feeling the effects within 30-90 minutes. Since they’re absorbed through your digestive system, they take a bit longer to kick in than something like a tincture, but the effects also tend to last longer. Ideal for those slow, blissful mornings or afternoon pick-me-ups.<\/p>"
+            "question": "How long does a CBN gummy take to kick in?",
+            "answer": "<p>Most people feel the effects of CBN gummies within 30 to 90 minutes. This can vary based on your metabolism, whether you've eaten recently, and the dosage. For the best results, take your gummy about an hour before bed, and let it work its magic as you wind down.</p>"
           }
         },
-        "faq_block_CHcVNH": {
+        "faq_block_PpJgCk": {
           "type": "faq_block",
           "settings": {
-            "question": "Will CBG make me sleepy?",
-            "answer": "<p>Not usually! CBG is known for its uplifting, mood-enhancing effects rather than sedative effects. It’s a great daytime option to help you feel clear-headed and energized. However, everyone’s body is different—some people might feel more relaxed than usual, so start slow and see how you feel.<\/p>"
+            "question": "What are CBN gummies best used for?",
+            "answer": "<p>CBN gummies are perfect for relaxation, reducing stress, and supporting better sleep. They can also help calm a restless mind, making them a great addition to your nighttime routine. If you struggle with staying asleep or want to wake up feeling refreshed, CBN gummies are worth trying.</p>"
           }
         },
-        "faq_block_BHmaaP": {
+        "faq_block_RNXiaP": {
           "type": "faq_block",
           "settings": {
-            "question": "What does “full-spectrum” mean in these gummies?",
-            "answer": "<p>Full-spectrum means our gummies include the full range of cannabinoids found in the hemp plant (like CBD, CBG, and trace amounts of THC) to create a synergistic effect known as the “entourage effect.” This maximizes the potential wellness benefits by working together in harmony, but don’t worry—the THC content is below 0.3%, so there’s no “high,” just balanced, feel-good vibes.<\/p>"
+            "question": "How do CBN gummies work in the body?",
+            "answer": "<p>CBN interacts with your body’s endocannabinoid system, specifically targeting receptors related to relaxation and sleep. This helps calm your nervous system and support a peaceful state, making it easier to drift off or unwind after a long day.</p><p></p>"
           }
         },
-        "faq_block_4zWXER": {
+        "faq_block_jyLdY6": {
           "type": "faq_block",
           "settings": {
-            "question": "Will full-spectrum CBG gummies make me fail a drug test?",
-            "answer": "<p>It’s rare, but possible. Since our full-spectrum CBG gummies contain only trace amounts of THC (within legal limits), using them consistently over time could potentially show up on a drug test. If you’re concerned about testing, consider consulting your HR department or exploring our broad-spectrum or THC-free products for peace of mind.<\/p>"
+            "question": "Can I take CBN gummies every night?",
+            "answer": "<p>Yes, CBN gummies are gentle enough for nightly use. Whether you’re looking to establish a sleep routine or occasionally need extra help, Kush Queen’s CBN gummies are a safe and consistent option. Just follow the recommended dosage to see what works best for you.</p><p></p>"
           }
         },
-        "faq_block_Kqw8U8": {
+        "faq_block_ieyQNC": {
           "type": "faq_block",
           "settings": {
-            "question": "Are CBG gummies safe to use daily?",
-            "answer": "<p>Yes! Many people find that using CBG gummies daily provides the best mood-boosting benefits. Consistent use can help balance your mood, relieve stress, and support overall wellness, making them a fantastic addition to your daily routine.<\/p>"
-          }
-        },
-        "faq_block_K9eRQQ": {
-          "type": "faq_block",
-          "settings": {
-            "question": "Do you ship CBG gummies internationally?",
-            "answer": "<p>Yes! We’re excited to offer international shipping to select locations. Just add your items to the cart, and email us at support@kushqueen.shop to confirm details. We’ll help you figure out all the shipping deets!<\/p>"
-          }
-        },
-        "faq_block_gE7KaR": {
-          "type": "faq_block",
-          "settings": {
-            "question": "Can you ship to Canada?",
-            "answer": "<p>Sadly, no. Due to strict Canadian regulations, we can’t currently ship to Canada. But hey, we’re always keeping an eye out for changes—follow us on Instagram and sign up for our newsletter to stay in the loop!<\/p>"
-          }
-        },
-        "faq_block_cQdd7J": {
-          "type": "faq_block",
-          "settings": {
-            "question": "What are Kush Queen’s CBG gummies made of?",
-            "answer": "<p>Our CBG gummies are crafted with only the best ingredients: full-spectrum hemp extract, natural fruit flavors, and zero fillers. They’re vegan, cruelty-free, and made without any artificial colors or flavors. Each gummy is hand-crafted in small batches to ensure you get a consistent, delicious, and mood-boosting experience every time.<\/p>"
-          }
-        },
-        "faq_block_cNPF7b": {
-          "type": "faq_block",
-          "settings": {
-            "question": "What makes Kush Queen’s CBG gummies unique?",
-            "answer": "<p>We pour a whole lot of love and science into these gummies! From our small-batch approach to our commitment to quality ingredients, every Bliss CBG gummy is designed to uplift your mood and help you feel good. Plus, our 1:1 ratio of CBD and CBG offers a balanced experience you won’t find just anywhere.<\/p>"
-          }
-        },
-        "faq_block_k3f67X": {
-          "type": "faq_block",
-          "settings": {
-            "question": "Are there any side effects to be aware of?",
-            "answer": "<p>CBG is generally well-tolerated, but everyone’s body is different. Possible side effects could include mild drowsiness or dry mouth, especially if you’re new to cannabinoids. We recommend starting with a small dose and seeing how your body responds.<\/p>"
-          }
-        },
-        "faq_block_bGNxmG": {
-          "type": "faq_block",
-          "settings": {
-            "question": "What flavors are the Bliss CBG gummies?",
-            "answer": "<p>Our Bliss CBG gummies feature a blend of ripe raspberries and blueberries with a vibrant, fruity finish. Sweet, sour, and absolutely delicious—a treat for both your taste buds and your mood.<\/p>"
+            "question": "Do CBN gummies contain THC?",
+            "answer": "<p>Our CBN gummies are crafted with a focus on CBN and CBD. Depending on the product, they may have trace amounts of THC (less than 0.3%), so check the label if you’re curious. Rest assured, they’re federally compliant and made with care.</p><p></p>"
           }
         }
       },
@@ -308,19 +275,13 @@
         "faq_block_T38Qj6",
         "faq_block_fRyUDP",
         "faq_block_Yw89fN",
-        "faq_block_ADmdaf",
-        "faq_block_Emrr7G",
-        "faq_block_fEgxYm",
-        "faq_block_CHcVNH",
-        "faq_block_BHmaaP",
-        "faq_block_4zWXER",
-        "faq_block_Kqw8U8",
-        "faq_block_K9eRQQ",
-        "faq_block_gE7KaR",
-        "faq_block_cQdd7J",
-        "faq_block_cNPF7b",
-        "faq_block_k3f67X",
-        "faq_block_bGNxmG"
+        "faq_block_TicqA9",
+        "faq_block_LqGkDG",
+        "faq_block_LVNfYC",
+        "faq_block_PpJgCk",
+        "faq_block_RNXiaP",
+        "faq_block_jyLdY6",
+        "faq_block_ieyQNC"
       ],
       "settings": {
         "faq_title": "Frequently Asked Questions"
