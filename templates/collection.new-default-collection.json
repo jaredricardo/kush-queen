@@ -76,30 +76,11 @@
         "tags_enable": true,
         "main_linklist": "product-category"
       }
-    },
-    "new_faq_YEn6AK": {
-      "type": "new-faq",
-      "blocks": {
-        "faq_block_Ca9gWk": {
-          "type": "faq_block",
-          "settings": {
-            "question": "What types of bundles does Kush Queen offer?",
-            "answer": "<p>Our bundles cover a range of experiences, from bath bomb collections and THC gummies to lube bundles and flower trios. Whether you're looking to relax, elevate, or try a mix of products, there’s a bundle to match your needs.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "faq_block_Ca9gWk"
-      ],
-      "settings": {
-        "faq_title": "Frequently Asked Questions"
-      }
     }
   },
   "order": [
     "collection_header_7bBjxG",
     "icon_links_L3CAzk",
-    "new-collection-template",
-    "new_faq_YEn6AK"
+    "new-collection-template"
   ]
 }
