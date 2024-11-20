@@ -54,9 +54,9 @@
     <li><a href="/a/account/login">Manage Subscriptions</a></li>
 
     {% if customer and customer.b2b? %}
-        <li>
-              <a  href="/collections/collections-whl">
-                Wholesale Exclusive
+        <li class="">
+              <a href="{{ settings.b2b_nav_url }}">
+                {{ settings.b2b_nav_text }}
               </a>   
         </li>
     {% endif %}

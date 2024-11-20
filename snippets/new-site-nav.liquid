@@ -35,8 +35,8 @@
 
     {% if customer and customer.b2b? %}
         <li class="">
-              <a class=" common-transition" href="/collections/collections-whl">
-                Exclusive
+              <a class="common-transition" href="{{ settings.b2b_nav_url }}">
+                {{ settings.b2b_nav_text }}
               </a>   
         </li>
     {% endif %}

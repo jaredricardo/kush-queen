@@ -3,9 +3,11 @@
         {% render 'breadcrumb' %}
     {% endif %}
     {% if collection.description != blank %}
-        <div class="rte text-center">
-          {{ collection.description }}
-        </div>
+        {% unless collection.metafields.custom.disable_plp_auto_description %}
+            <div class="rte text-center">
+            {{ collection.description }}
+            </div>
+        {% endunless %}
     {% endif %}
 </div>
 

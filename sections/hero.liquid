@@ -1,3 +1,19 @@
+{% liquid 
+
+assign margin_adjustments = ''
+
+case section.settings.text_alignment
+  when 'left'
+    assign alignment = 'text-align: left;'
+    assign margin_adjustments = 'margin: 0; max-width: 700px;'
+  when 'center'
+     assign alignment = 'text-align: center;'
+  when 'right'
+    assign alignment = 'text-align: right;'
+endcase 
+
+-%}
+
 {% style %}
   [data-section-id="{{ section.id }}"] h2, 
   [data-section-id="{{ section.id }}"] h3,
@@ -12,6 +28,30 @@
   [data-section-id="{{ section.id }}"] p {
     font-family: "{{ section.settings.subheading_font }}";
   }
+
+  [data-section-id="{{ section.id }}"] .hero__overlay:before {
+    background-color: black !important;
+    opacity: {{ section.settings.overlay_percent }}% !important;
+  }
+
+  [data-section-id="{{ section.id }}"] .btn {
+    background-color: transparent;
+    color: white;
+    border: 0.5px solid white;
+  }
+  [data-section-id="{{ section.id }}"] .btn:hover {
+    background-color: black;
+    border: 0.5px solid black;
+  }
+
+  [data-section-id="{{ section.id }}"] .page-width {
+    {{ alignment }}
+  }
+
+  [data-section-id="{{ section.id }}"] .page-width .mega-subtitle {
+    {{ margin_adjustments }}
+  }
+
 {% endstyle %}
 
 {%- if section.settings.hero_layout == 'full_width' and section.settings.hero_size == 'adapt' -%}
@@ -42,7 +82,7 @@
         {%- assign slide_width = section.settings.image.width -%}
       {%- endif -%}
       <div class="hero-fixed-width__content">
-        <div class="page-width text-center">
+        <div class="page-width">
           {%- if section.settings.title != blank -%}
             <h2 class="h1 mega-title{% if section.settings.text_size == 'large' %} mega-title--large{% endif %}">{{ section.settings.title | escape }}</h2>
           {%- endif -%}
@@ -95,7 +135,7 @@
       </div>
     {%- endif -%}
       <div class="hero__inner">
-        <div class="page-width text-center">
+        <div class="page-width">
           {%- if section.settings.title != blank -%}
             <h2 class="h1 mega-title{% if section.settings.text_size == 'large' %} mega-title--large{% endif %}">{{ section.settings.title | escape }}</h2>
           {%- endif -%}
@@ -137,7 +177,7 @@
   "name": {
     "da": "Billede med tekstoverlejring",
     "de": "Foto mit überlegtem Text",
-    "en": "Image with text overlay",
+    "en": "Image Overlay modded",
     "es": "Imagen con texto",
     "fi": "Kuva päällä olevalla tekstillä",
     "fr": "Image avec texte",
@@ -279,6 +319,26 @@
             "zh-CN": "底部",
             "zh-TW": "底部"
           }
+        }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "text_alignment",
+      "label": "text alignment",
+      "default": "center",
+      "options": [
+        {
+          "value": "left",
+          "label": "left"
+        },
+        {
+          "value": "center",
+          "label": "center"
+        },
+        {
+          "value": "right",
+          "label": "right"
         }
       ]
     },
@@ -659,6 +719,15 @@
       "default": "#FFFFFF"
     },
     {
+      "type": "range",
+      "id": "overlay_percent",
+      "label": "Overlay Percent",
+      "default": 40,
+      "min": 0,
+      "max": 100,
+      "step": 1
+    },
+    {
       "type": "select",
       "id": "heading_font",
       "label": "Heading Font",
@@ -847,6 +916,11 @@
         "zh-CN": "图片",
         "zh-TW": "圖片"
       }
+    }
+  ],
+  "presets": [
+    {
+      "name": "Image Overlay Modded"
     }
   ]
 }

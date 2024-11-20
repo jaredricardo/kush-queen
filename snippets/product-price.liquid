@@ -78,6 +78,11 @@
 
 {%- assign money_price = price | money -%}
 
+<script>
+  console.log('//////')
+  console.log({{ product | json}})
+</script>
+
 <dl role="none" class="price{% if available and compare_at_price > price %} price--on-sale {% endif %}{% if available and variant.unit_price_measurement %} price--unit-available{% endif %}" data-price>
 
   {% if section.settings.show_vendor %}
@@ -100,19 +105,19 @@
       {% if available %}
         {% if compare_at_price > price %}
           
-          <span role="none" class="price-item price-item--regular" data-regular-price>
+          <span role="none" class="price-item price-item--regular" data-regular-price data-price-1>
           <!--<span style="font-size:28px; color: rgb(102,102,102);" data-regular-price>-->
             {% if compare_at_price != price %}
               {{ compare_at_price | money }}  
             {% endif %}
           </span>
         {% else %}
-        <span class="price-item price-item--regular" data-regular-price>
+        <span class="price-item price-item--regular" data-regular-price data-price-2>
           {{ money_price }}
         </span>
         {% endif %}
       {% else %}
-        <span class="price-item price-item--regular" data-regular-price>
+        <span class="price-item price-item--regular" data-regular-price data-price-3>
           {{ 'products.product.sold_out' | t }}
         </span>
       {% endif %}
