@@ -271,14 +271,6 @@
             "question": "{{ product.metafields.custom.faq.value.question_9.value }}",
             "answer": "{{ product.metafields.custom.faq.value.answer_9 | metafield_tag }}"
           }
-        },
-        "faq_block_jyLdY6": {
-          "type": "faq_block",
-          "source": "{{ product.metafields.custom.faq.value }}",
-          "settings": {
-            "question": "{{ product.metafields.custom.faq.value.question_10.value }}",
-            "answer": "{{ product.metafields.custom.faq.value.answer_10 | metafield_tag }}"
-          }
         }
       },
       "block_order": [
@@ -290,8 +282,7 @@
         "faq_block_LqGkDG",
         "faq_block_LVNfYC",
         "faq_block_PpJgCk",
-        "faq_block_RNXiaP",
-        "faq_block_jyLdY6"
+        "faq_block_RNXiaP"
       ],
       "settings": {
         "faq_title": "Frequently Asked Questions"
