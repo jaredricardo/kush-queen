@@ -103,6 +103,11 @@
   });
 {% endjavascript %}
 
+<script>
+  console.log('???????')
+  console.log({{ product.metafields.custom.faq.value | json }})
+</script>
+
 {% schema %}
 {
   "name": "NEW FAQ",

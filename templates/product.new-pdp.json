@@ -1,12 +1,3 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "sections": {
     "main": {
@@ -16,21 +7,21 @@
           "type": "review",
           "settings": {
             "review_text": "{{ product.metafields.custom.new_pdp_template.value.review_1.value }}",
-            "reviewer": "<p>{{ product.metafields.custom.new_pdp_template.value.reviewer_1.value }}</p>"
+            "reviewer": "<p>{{ product.metafields.custom.new_pdp_template.value.reviewer_1.value }}<\/p>"
           }
         },
         "3f72cdb0-a208-4efa-8c6c-304b3ab38bc6": {
           "type": "review",
           "settings": {
             "review_text": "{{ product.metafields.custom.new_pdp_template.value.review_2.value }}",
-            "reviewer": "<p>{{ product.metafields.custom.new_pdp_template.value.reviewer_2.value }}</p>"
+            "reviewer": "<p>{{ product.metafields.custom.new_pdp_template.value.reviewer_2.value }}<\/p>"
           }
         },
         "bb31f014-6fc2-430b-83b1-8abf26728b7c": {
           "type": "review",
           "settings": {
             "review_text": "{{ product.metafields.custom.new_pdp_template.value.review_3.value }}",
-            "reviewer": "<p>{{ product.metafields.custom.new_pdp_template.value.reviewer_3.value }}</p>"
+            "reviewer": "<p>{{ product.metafields.custom.new_pdp_template.value.reviewer_3.value }}<\/p>"
           }
         }
       },
@@ -44,7 +35,7 @@
         "badge_text": "{{ product.metafields.custom.new_pdp_template.value.badge_text.value }}",
         "show_buymore_banner": true,
         "short_desc_text": "{{ product.metafields.custom.new_pdp_template.value.newpdp_short_description_text.value }}",
-        "promo_text": "<p>{{ product.metafields.custom.new_pdp_template.value.promo_text | metafield_tag }}</p>",
+        "promo_text": "<p>{{ product.metafields.custom.new_pdp_template.value.promo_text | metafield_tag }}<\/p>",
         "image_1": "{{ product.metafields.custom.new_pdp_template.value.icon_1.value }}",
         "svg_code_1": "",
         "text_1": "{{ product.metafields.custom.new_pdp_template.value.icon_text_1.value }}",
@@ -202,72 +193,73 @@
       "blocks": {
         "faq_block_T38Qj6": {
           "type": "faq_block",
+          "source": "{{ product.metafields.custom.faq.value }}",
           "settings": {
-            "question": "What is CBN and what does it do?",
-            "answer": "<p>CBN, or cannabinol, is a minor cannabinoid found in the cannabis plant and is commonly used for its calming and sedating properties to promote sleep and relaxation.</p>"
+            "question": "{{ product.metafields.custom.faq.value.question.value }}",
+            "answer": "{{ product.metafields.custom.faq.value.answer | metafield_tag }}"
           }
         },
         "faq_block_fRyUDP": {
           "type": "faq_block",
           "settings": {
             "question": "Is CBN legal?",
-            "answer": "<p>Similar to other minor cannabinoids, CBN is linked to the 2018 U.S. Farm Bill, which legalized the cultivation of industrial hemp, defined as cannabis plants with less than 0.3% THC content on a dry weight basis.</p>"
+            "answer": "<p>Similar to other minor cannabinoids, CBN is linked to the 2018 U.S. Farm Bill, which legalized the cultivation of industrial hemp, defined as cannabis plants with less than 0.3% THC content on a dry weight basis.<\/p>"
           }
         },
         "faq_block_Yw89fN": {
           "type": "faq_block",
           "settings": {
             "question": "What is the difference between CBN vs CBD?",
-            "answer": "<p>There are distinct differences between CBN and CBD. CBN is primed to promote sleep and relaxation, while CBD works to reduce inflammation. Although different, Kush Queen believes that the superior impact for sleep can be felt by harmonious blending these cannabinoids to create a well-rounded natural sleep gummy.</p>"
+            "answer": "<p>There are distinct differences between CBN and CBD. CBN is primed to promote sleep and relaxation, while CBD works to reduce inflammation. Although different, Kush Queen believes that the superior impact for sleep can be felt by harmonious blending these cannabinoids to create a well-rounded natural sleep gummy.<\/p>"
           }
         },
         "faq_block_TicqA9": {
           "type": "faq_block",
           "settings": {
             "question": "Is CBN more powerful than CBD?",
-            "answer": "<p>CBN and CBD work differently in the body, so it’s not about which is more powerful—it’s about what you need. CBN is often praised for its calming and sleep-promoting properties, while CBD tends to focus more on reducing anxiety, pain, and inflammation. Together, they can create a synergistic effect, but CBN shines when you're looking for deep relaxation or sleep support</p>"
+            "answer": "<p>CBN and CBD work differently in the body, so it’s not about which is more powerful—it’s about what you need. CBN is often praised for its calming and sleep-promoting properties, while CBD tends to focus more on reducing anxiety, pain, and inflammation. Together, they can create a synergistic effect, but CBN shines when you're looking for deep relaxation or sleep support<\/p>"
           }
         },
         "faq_block_LqGkDG": {
           "type": "faq_block",
           "settings": {
             "question": "Will CBN put me to sleep?",
-            "answer": "<p>CBN has a reputation for promoting restful sleep, especially when combined with relaxing cannabinoids like CBD or natural sleep aids. Many Kush Queen users say they drift off easier and stay asleep longer after taking our CBN gummies. If you’re struggling with sleep, CBN may be the gentle nudge your body needs.</p>"
+            "answer": "<p>CBN has a reputation for promoting restful sleep, especially when combined with relaxing cannabinoids like CBD or natural sleep aids. Many Kush Queen users say they drift off easier and stay asleep longer after taking our CBN gummies. If you’re struggling with sleep, CBN may be the gentle nudge your body needs.<\/p>"
           }
         },
         "faq_block_LVNfYC": {
           "type": "faq_block",
           "settings": {
             "question": "How long does a CBN gummy take to kick in?",
-            "answer": "<p>Most people feel the effects of CBN gummies within 30 to 90 minutes. This can vary based on your metabolism, whether you've eaten recently, and the dosage. For the best results, take your gummy about an hour before bed, and let it work its magic as you wind down.</p>"
+            "answer": "<p>Most people feel the effects of CBN gummies within 30 to 90 minutes. This can vary based on your metabolism, whether you've eaten recently, and the dosage. For the best results, take your gummy about an hour before bed, and let it work its magic as you wind down.<\/p>"
           }
         },
         "faq_block_PpJgCk": {
           "type": "faq_block",
           "settings": {
             "question": "What are CBN gummies best used for?",
-            "answer": "<p>CBN gummies are perfect for relaxation, reducing stress, and supporting better sleep. They can also help calm a restless mind, making them a great addition to your nighttime routine. If you struggle with staying asleep or want to wake up feeling refreshed, CBN gummies are worth trying.</p>"
+            "answer": "<p>CBN gummies are perfect for relaxation, reducing stress, and supporting better sleep. They can also help calm a restless mind, making them a great addition to your nighttime routine. If you struggle with staying asleep or want to wake up feeling refreshed, CBN gummies are worth trying.<\/p>"
           }
         },
         "faq_block_RNXiaP": {
           "type": "faq_block",
           "settings": {
             "question": "How do CBN gummies work in the body?",
-            "answer": "<p>CBN interacts with your body’s endocannabinoid system, specifically targeting receptors related to relaxation and sleep. This helps calm your nervous system and support a peaceful state, making it easier to drift off or unwind after a long day.</p><p></p>"
+            "answer": "<p>CBN interacts with your body’s endocannabinoid system, specifically targeting receptors related to relaxation and sleep. This helps calm your nervous system and support a peaceful state, making it easier to drift off or unwind after a long day.<\/p><p><\/p>"
           }
         },
         "faq_block_jyLdY6": {
           "type": "faq_block",
           "settings": {
             "question": "Can I take CBN gummies every night?",
-            "answer": "<p>Yes, CBN gummies are gentle enough for nightly use. Whether you’re looking to establish a sleep routine or occasionally need extra help, Kush Queen’s CBN gummies are a safe and consistent option. Just follow the recommended dosage to see what works best for you.</p><p></p>"
+            "answer": "<p>Yes, CBN gummies are gentle enough for nightly use. Whether you’re looking to establish a sleep routine or occasionally need extra help, Kush Queen’s CBN gummies are a safe and consistent option. Just follow the recommended dosage to see what works best for you.<\/p><p><\/p>"
           }
         },
         "faq_block_ieyQNC": {
           "type": "faq_block",
           "settings": {
             "question": "Do CBN gummies contain THC?",
-            "answer": "<p>Our CBN gummies are crafted with a focus on CBN and CBD. Depending on the product, they may have trace amounts of THC (less than 0.3%), so check the label if you’re curious. Rest assured, they’re federally compliant and made with care.</p><p></p>"
+            "answer": "<p>Our CBN gummies are crafted with a focus on CBN and CBD. Depending on the product, they may have trace amounts of THC (less than 0.3%), so check the label if you’re curious. Rest assured, they’re federally compliant and made with care.<\/p><p><\/p>"
           }
         }
       },

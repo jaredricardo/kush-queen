@@ -1,12 +1,3 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "sections": {
     "collection_header_7bBjxG": {
@@ -21,32 +12,32 @@
         "icon_jzAW3E": {
           "type": "icon",
           "settings": {
-            "icon_link": "shopify://collections/weed-gummies",
-            "icon": "shopify://shop_images/cbd-full-spec-gummies-icon.png",
+            "icon_link": "shopify:\/\/collections\/weed-gummies",
+            "icon": "shopify:\/\/shop_images\/cbd-full-spec-gummies-icon.png",
             "title": "Weed Gummies"
           }
         },
         "icon_BfenYq": {
           "type": "icon",
           "settings": {
-            "icon_link": "shopify://products/cbn-gummies-for-sleep",
-            "icon": "shopify://shop_images/cbn-sleep-gummies-icon.png",
+            "icon_link": "shopify:\/\/products\/cbn-gummies-for-sleep",
+            "icon": "shopify:\/\/shop_images\/cbn-sleep-gummies-icon.png",
             "title": "CBN  Gummies"
           }
         },
         "icon_9HWK7y": {
           "type": "icon",
           "settings": {
-            "icon_link": "shopify://products/cbg-gummies",
-            "icon": "shopify://shop_images/cbg-mood-gummies-icon.png",
+            "icon_link": "shopify:\/\/products\/cbg-gummies",
+            "icon": "shopify:\/\/shop_images\/cbg-mood-gummies-icon.png",
             "title": "CBG  Gummies"
           }
         },
         "icon_mALUW6": {
           "type": "icon",
           "settings": {
-            "icon_link": "shopify://products/thcv-gummies",
-            "icon": "shopify://shop_images/thcv-focus-gummies-icon.png",
+            "icon_link": "shopify:\/\/products\/thcv-gummies",
+            "icon": "shopify:\/\/shop_images\/thcv-focus-gummies-icon.png",
             "title": "THCv  Gummies"
           }
         }
@@ -82,7 +73,7 @@
         "h3_kJAKFc": {
           "type": "h3",
           "settings": {
-            "h3": "<p><strong>About Our CBD </strong></p>",
+            "h3": "<p><strong>About Our CBD <\/strong><\/p>",
             "font_size_d": 24,
             "font_size_m": 18,
             "font_family": "Eina03"
@@ -91,7 +82,7 @@
         "p_dfpDm3": {
           "type": "p",
           "settings": {
-            "p": "<p>At Kush Queen, our CBD stands out with a full-spectrum hemp extract that’s engineered for unmatched quality and consistency. Made in the USA, our proprietary <strong>\"KQ Spec\"</strong> formulation ensures a perfectly balanced cannabinoid ratio in every gummy. This means you’ll get the same reliable, high-quality experience with every dose, making our gummies ideal for both daily use and targeted wellness.</p><p>Our CBD gummies are available in three targeted ratio effects: <strong>Sleep, Focus and Bliss.</strong> Each blend pairs CBD with a minor cannabinoids so you can choose the effect that fits your needs—whether you’re looking for a mild calming effect, a before bed gummy, or a dose with help with energy and focus. We also feature a variety of flavors, such as strawberry, blue raspberry, and pink lemonade.</p><p>From relaxation to pain relief, our gummies are designed to elevate your wellness routine, helping you feel great every single time.</p>",
+            "p": "<p>At Kush Queen, our CBD stands out with a full-spectrum hemp extract that’s engineered for unmatched quality and consistency. Made in the USA, our proprietary <strong>\"KQ Spec\"<\/strong> formulation ensures a perfectly balanced cannabinoid ratio in every gummy. This means you’ll get the same reliable, high-quality experience with every dose, making our gummies ideal for both daily use and targeted wellness.<\/p><p>Our CBD gummies are available in three targeted ratio effects: <strong>Sleep, Focus and Bliss.<\/strong> Each blend pairs CBD with a minor cannabinoids so you can choose the effect that fits your needs—whether you’re looking for a mild calming effect, a before bed gummy, or a dose with help with energy and focus. We also feature a variety of flavors, such as strawberry, blue raspberry, and pink lemonade.<\/p><p>From relaxation to pain relief, our gummies are designed to elevate your wellness routine, helping you feel great every single time.<\/p>",
             "font_family": "Eina03"
           }
         }
@@ -104,7 +95,7 @@
         "background_color": "#ffffff",
         "col_order": "reverse",
         "text_alignment": "left-aligned",
-        "image": "shopify://shop_images/kush-queen-delta-8-thc-gummies-bundle.jpg"
+        "image": "shopify:\/\/shop_images\/kush-queen-delta-8-thc-gummies-bundle.jpg"
       }
     },
     "jr_50_50_FH9dqD": {
@@ -113,7 +104,7 @@
         "h3_Me3DNz": {
           "type": "h3",
           "settings": {
-            "h3": "<p><strong>Relax and Rejuvenate with Full Spectrum CBD Gummies</strong></p>",
+            "h3": "<p><strong>Relax and Rejuvenate with Full Spectrum CBD Gummies<\/strong><\/p>",
             "font_size_d": 24,
             "font_size_m": 18,
             "font_family": "Eina03"
@@ -122,7 +113,7 @@
         "p_AJJh6d": {
           "type": "p",
           "settings": {
-            "p": "<p>Meet your go-to for daily calm and total wellness. Each vegan gummy is infused with 25mg of full-spectrum CBD, capturing the full range of cannabinoids and terpenes to bring you the complete benefits of the hemp plant. Artfully handcrafted in small batches, these gummies are as delicious as they are effective, with a burst of sweet, tart strawberry flavor. Whether you need to unwind after a long day or ease inflammation, these gummies are here to help.</p>",
+            "p": "<p>Meet your go-to for daily calm and total wellness. Each vegan gummy is infused with 25mg of full-spectrum CBD, capturing the full range of cannabinoids and terpenes to bring you the complete benefits of the hemp plant. Artfully handcrafted in small batches, these gummies are as delicious as they are effective, with a burst of sweet, tart strawberry flavor. Whether you need to unwind after a long day or ease inflammation, these gummies are here to help.<\/p>",
             "font_family": "Eina03"
           }
         },
@@ -130,7 +121,7 @@
           "type": "button",
           "settings": {
             "button_text": "Shop full Spectrum Gummies",
-            "button_url": "shopify://products/full-spectrum-cbd-chews",
+            "button_url": "shopify:\/\/products\/full-spectrum-cbd-chews",
             "button_bg_color": "#000000",
             "button_text_color": "#ffffff",
             "font_family": "Eina03"
@@ -146,7 +137,7 @@
         "background_color": "#ffffff",
         "col_order": "",
         "text_alignment": "left-aligned",
-        "image": "shopify://shop_images/kush-queen-ingestibles-750-mg-full-spectrum-cbd-gummies-30-00-off-auto-renew-39895396483317.jpg"
+        "image": "shopify:\/\/shop_images\/kush-queen-ingestibles-750-mg-full-spectrum-cbd-gummies-30-00-off-auto-renew-39895396483317.jpg"
       }
     },
     "jr_50_50_aNgxzY": {
@@ -155,7 +146,7 @@
         "h3_X6HhVz": {
           "type": "h3",
           "settings": {
-            "h3": "<p><strong>Say Goodbye to Sleepless Nights with CBN Gummies</strong></p>",
+            "h3": "<p><strong>Say Goodbye to Sleepless Nights with CBN Gummies<\/strong><\/p>",
             "font_size_d": 24,
             "font_size_m": 18,
             "font_family": "Eina03"
@@ -164,7 +155,7 @@
         "p_UTJKqi": {
           "type": "p",
           "settings": {
-            "p": "<p>Our CBN Sleep Gummies are vegan and formulated to ease body tension while promoting peaceful sleep. Each gummy contains a 1:1 ratio of CBD and CBN, delivering 15mg of CBN and 15mg of CBD per serving. Made with single-source full-spectrum hemp extract, these gummies harness the sedative effects of CBN, a minor cannabinoid known for supporting better rest. As one satisfied customer shares, \"After a lifetime of trouble getting to sleep, I can finally rest better with the help of Kush Queen's Sleep Gummies.</p>",
+            "p": "<p>Our CBN Sleep Gummies are vegan and formulated to ease body tension while promoting peaceful sleep. Each gummy contains a 1:1 ratio of CBD and CBN, delivering 15mg of CBN and 15mg of CBD per serving. Made with single-source full-spectrum hemp extract, these gummies harness the sedative effects of CBN, a minor cannabinoid known for supporting better rest. As one satisfied customer shares, \"After a lifetime of trouble getting to sleep, I can finally rest better with the help of Kush Queen's Sleep Gummies.<\/p>",
             "font_family": "Eina03"
           }
         },
@@ -172,7 +163,7 @@
           "type": "button",
           "settings": {
             "button_text": "Shop CBN Gummies for Sleep",
-            "button_url": "shopify://products/cbn-gummies-for-sleep",
+            "button_url": "shopify:\/\/products\/cbn-gummies-for-sleep",
             "button_bg_color": "#000000",
             "button_text_color": "#ffffff",
             "font_family": "Eina03"
@@ -188,7 +179,7 @@
         "background_color": "#ffffff",
         "col_order": "reverse",
         "text_alignment": "left-aligned",
-        "image": "shopify://shop_images/kq-shop-ingestibles-sleep-cbn-cbd-gummies-30-00-off-auto-renew-39273964634357.jpg"
+        "image": "shopify:\/\/shop_images\/kq-shop-ingestibles-sleep-cbn-cbd-gummies-30-00-off-auto-renew-39273964634357.jpg"
       }
     },
     "jr_50_50_wVxNEr": {
@@ -197,7 +188,7 @@
         "h3_gkxbGr": {
           "type": "h3",
           "settings": {
-            "h3": "<p><strong>Boost Focus and Clarity with CBG Gummies</strong></p>",
+            "h3": "<p><strong>Boost Focus and Clarity with CBG Gummies<\/strong><\/p>",
             "font_size_d": 24,
             "font_size_m": 18,
             "font_family": "Eina03"
@@ -206,7 +197,7 @@
         "p_TqfH6e": {
           "type": "p",
           "settings": {
-            "p": "<p>Discover your daily dose of happiness with our Bliss CBG Gummies. Packed with a 1:1 blend of 15mg CBG and 15mg CBD, these gummies are the perfect pick-me-up for when you need an uplifting mood boost. Designed to melt stress away and energize your outlook, each gummy bursts with vibrant raspberry flavors, delivering a sweet moment of bliss. Whether you’re looking to brighten your day or find calm in the everyday hustle, Bliss CBG Gummies are your delicious path to balance and clarity.</p>",
+            "p": "<p>Discover your daily dose of happiness with our Bliss CBG Gummies. Packed with a 1:1 blend of 15mg CBG and 15mg CBD, these gummies are the perfect pick-me-up for when you need an uplifting mood boost. Designed to melt stress away and energize your outlook, each gummy bursts with vibrant raspberry flavors, delivering a sweet moment of bliss. Whether you’re looking to brighten your day or find calm in the everyday hustle, Bliss CBG Gummies are your delicious path to balance and clarity.<\/p>",
             "font_family": "Eina03"
           }
         },
@@ -214,7 +205,7 @@
           "type": "button",
           "settings": {
             "button_text": "Shop CBG Gummies for Focus",
-            "button_url": "shopify://products/cbg-gummies",
+            "button_url": "shopify:\/\/products\/cbg-gummies",
             "button_bg_color": "#000000",
             "button_text_color": "#ffffff",
             "font_family": "Eina03"
@@ -230,7 +221,7 @@
         "background_color": "#ffffff",
         "col_order": "",
         "text_alignment": "left-aligned",
-        "image": "shopify://shop_images/kush-queen-ingestibles-bliss-cbg-cbd-gummies-30-off-subscription-39273963290869.jpg"
+        "image": "shopify:\/\/shop_images\/kush-queen-ingestibles-bliss-cbg-cbd-gummies-30-off-subscription-39273963290869.jpg"
       }
     },
     "jr_50_50_XiK9jV": {
@@ -239,7 +230,7 @@
         "h3_3ir83P": {
           "type": "h3",
           "settings": {
-            "h3": "<p><strong>Elevate Your Mood with THCv Gummies</strong></p>",
+            "h3": "<p><strong>Elevate Your Mood with THCv Gummies<\/strong><\/p>",
             "font_size_d": 24,
             "font_size_m": 18,
             "font_family": "Eina03"
@@ -248,7 +239,7 @@
         "p_KHHgCR": {
           "type": "p",
           "settings": {
-            "p": "<p>Unlock your focus and elevate your energy with our THCv Gummies - Focus & Energize. Crafted with a 7:1 blend of CBD and delta-9  -derived THCV, these gummies are your secret weapon for powering through your day. Whether you need a productivity boost or want to curb your appetite, these vegan, sweet, and tangy gummies have got you covered. With each bite, enjoy smooth, steady energy that helps you stay sharp and focused without the jitters. It’s time to embrace your flow state and get things done</p>",
+            "p": "<p>Unlock your focus and elevate your energy with our THCv Gummies - Focus & Energize. Crafted with a 7:1 blend of CBD and delta-9  -derived THCV, these gummies are your secret weapon for powering through your day. Whether you need a productivity boost or want to curb your appetite, these vegan, sweet, and tangy gummies have got you covered. With each bite, enjoy smooth, steady energy that helps you stay sharp and focused without the jitters. It’s time to embrace your flow state and get things done<\/p>",
             "font_family": "Eina03"
           }
         },
@@ -256,7 +247,7 @@
           "type": "button",
           "settings": {
             "button_text": "Shop THCv Gummies for Energy",
-            "button_url": "shopify://products/thcv-gummies",
+            "button_url": "shopify:\/\/products\/thcv-gummies",
             "button_bg_color": "#000000",
             "button_text_color": "#ffffff",
             "font_family": "Eina03"
@@ -272,7 +263,7 @@
         "background_color": "#ffffff",
         "col_order": "reverse",
         "text_alignment": "left-aligned",
-        "image": "shopify://shop_images/kush-queen-ingestibles-focus-thcv-cbd-gummies-39097194250485.jpg"
+        "image": "shopify:\/\/shop_images\/kush-queen-ingestibles-focus-thcv-cbd-gummies-39097194250485.jpg"
       }
     },
     "new_faq_RpW4gz": {
@@ -282,105 +273,105 @@
           "type": "faq_block",
           "settings": {
             "question": "What are CBD gummies good for?",
-            "answer": "<p>CBD gummies are perfect for those moments when you just need to chill, reset, or catch some extra Zzz’s. They’re easy, pre-dosed, and tasty, making them a go-to for stress relief, better sleep, and all-around wellness. Plus, they’re discreet enough to toss in your bag and take anywhere—like a little secret to keep you feeling good on the go.</p>"
+            "answer": "<p>CBD gummies are perfect for those moments when you just need to chill, reset, or catch some extra Zzz’s. They’re easy, pre-dosed, and tasty, making them a go-to for stress relief, better sleep, and all-around wellness. Plus, they’re discreet enough to toss in your bag and take anywhere—like a little secret to keep you feeling good on the go.<\/p>"
           }
         },
         "faq_block_fY7AmD": {
           "type": "faq_block",
           "settings": {
             "question": "Are there any side effects from taking CBD gummies?",
-            "answer": "<p>Most people vibe well with CBD, but hey, everyone’s body is different! Some folks experience mild effects like drowsiness, dry mouth, or a slight shift in appetite. We recommend starting with a lower dose to see how you feel, and if you have any concerns, reach out to a healthcare provider.</p>"
+            "answer": "<p>Most people vibe well with CBD, but hey, everyone’s body is different! Some folks experience mild effects like drowsiness, dry mouth, or a slight shift in appetite. We recommend starting with a lower dose to see how you feel, and if you have any concerns, reach out to a healthcare provider.<\/p>"
           }
         },
         "faq_block_ncayAy": {
           "type": "faq_block",
           "settings": {
             "question": "Will CBD gummies make me high?",
-            "answer": "<p>Nope, not a chance. Our CBD gummies are made with hemp-derived CBD, meaning they contain less than 0.3% THC—way too little to make you feel high. So you can enjoy all the wellness benefits of CBD without any of the “heady” vibes. Just pure relaxation, naturally.</p>"
+            "answer": "<p>Nope, not a chance. Our CBD gummies are made with hemp-derived CBD, meaning they contain less than 0.3% THC—way too little to make you feel high. So you can enjoy all the wellness benefits of CBD without any of the “heady” vibes. Just pure relaxation, naturally.<\/p>"
           }
         },
         "faq_block_jBtPRG": {
           "type": "faq_block",
           "settings": {
             "question": "What’s the difference between CBD gummies and CBD oil tinctures?",
-            "answer": "<p>Think of CBD gummies as your low-key, tasty treat that’s ready to go whenever you are. Gummies take a little longer to kick in (usually 30-90 minutes) but offer longer-lasting effects. CBD tinctures, on the other hand, are faster-acting because you drop them under your tongue for quick absorption. So, if you want a quicker boost, tinctures are where it’s at. Want something that feels more like a treat? Gummies are your BFF.</p>"
+            "answer": "<p>Think of CBD gummies as your low-key, tasty treat that’s ready to go whenever you are. Gummies take a little longer to kick in (usually 30-90 minutes) but offer longer-lasting effects. CBD tinctures, on the other hand, are faster-acting because you drop them under your tongue for quick absorption. So, if you want a quicker boost, tinctures are where it’s at. Want something that feels more like a treat? Gummies are your BFF.<\/p>"
           }
         },
         "faq_block_gMVPhf": {
           "type": "faq_block",
           "settings": {
             "question": "How long do CBD gummies last?",
-            "answer": "<p>Think of CBD gummies as your low-key, tasty treat that’s ready to go whenever you are. Gummies take a little longer to kick in (usually 30-90 minutes) but offer longer-lasting effects. <a href=\"https://kushqueen.shop/products/bare-cbd-tincture\" title=\"https://kushqueen.shop/products/bare-cbd-tincture\">CBD tinctures</a>, on the other hand, are faster-acting because you drop them under your tongue for quick absorption. So, if you want a quicker boost, tinctures are where it’s at. Want something that feels more like a treat? Gummies are your BFF. Answer</p>"
+            "answer": "<p>Think of CBD gummies as your low-key, tasty treat that’s ready to go whenever you are. Gummies take a little longer to kick in (usually 30-90 minutes) but offer longer-lasting effects. <a href=\"https:\/\/kushqueen.shop\/products\/bare-cbd-tincture\" title=\"https:\/\/kushqueen.shop\/products\/bare-cbd-tincture\">CBD tinctures<\/a>, on the other hand, are faster-acting because you drop them under your tongue for quick absorption. So, if you want a quicker boost, tinctures are where it’s at. Want something that feels more like a treat? Gummies are your BFF. Answer<\/p>"
           }
         },
         "faq_block_7Rhyy4": {
           "type": "faq_block",
           "settings": {
             "question": "Will full-spectrum CBD make me fail a drug test?",
-            "answer": "<p>It’s rare, but possible. Our <a href=\"https://kushqueen.shop/products/full-spectrum-cbd-chews\" title=\"https://kushqueen.shop/products/full-spectrum-cbd-chews\">full-spectrum CBD gummies</a> contain only trace amounts of THC (within the legal limit), but if you’re taking high doses consistently, there’s a slim chance it could show up on a drug test. If this is a big concern, we recommend going with a broad-spectrum or THC-free option just to be extra safe.</p>"
+            "answer": "<p>It’s rare, but possible. Our <a href=\"https:\/\/kushqueen.shop\/products\/full-spectrum-cbd-chews\" title=\"https:\/\/kushqueen.shop\/products\/full-spectrum-cbd-chews\">full-spectrum CBD gummies<\/a> contain only trace amounts of THC (within the legal limit), but if you’re taking high doses consistently, there’s a slim chance it could show up on a drug test. If this is a big concern, we recommend going with a broad-spectrum or THC-free option just to be extra safe.<\/p>"
           }
         },
         "faq_block_WbqHam": {
           "type": "faq_block",
           "settings": {
             "question": "How should I take my CBD gummies for the best effect?",
-            "answer": "<p>It’s simple—pop a gummy and see how you feel! If you’re new to CBD, start with one gummy and give it about an hour to work its magic. You can adjust from there depending on your needs. Consistency is key, so taking your gummies around the same time each day can help you enjoy those long-term benefits.</p>"
+            "answer": "<p>It’s simple—pop a gummy and see how you feel! If you’re new to CBD, start with one gummy and give it about an hour to work its magic. You can adjust from there depending on your needs. Consistency is key, so taking your gummies around the same time each day can help you enjoy those long-term benefits.<\/p>"
           }
         },
         "faq_block_NKEgnq": {
           "type": "faq_block",
           "settings": {
             "question": "Are CBD gummies legal in my state?",
-            "answer": "<p>Maybe! CBD from hemp (with less than 0.3% THC) is federally legal, thanks to the 2018 Farm Bill. Most states allow CBD, but it’s always smart to double-<a href=\"https://www.fda.gov/news-events/public-health-focus/fda-regulation-cannabis-and-cannabis-derived-products-including-cannabidiol-cbd\" title=\"https://www.fda.gov/news-events/public-health-focus/fda-regulation-cannabis-and-cannabis-derived-products-including-cannabidiol-cbd\">check local regulations</a> if you’re unsure.</p>"
+            "answer": "<p>Maybe! CBD from hemp (with less than 0.3% THC) is federally legal, thanks to the 2018 Farm Bill. Most states allow CBD, but it’s always smart to double-<a href=\"https:\/\/www.fda.gov\/news-events\/public-health-focus\/fda-regulation-cannabis-and-cannabis-derived-products-including-cannabidiol-cbd\" title=\"https:\/\/www.fda.gov\/news-events\/public-health-focus\/fda-regulation-cannabis-and-cannabis-derived-products-including-cannabidiol-cbd\">check local regulations<\/a> if you’re unsure.<\/p>"
           }
         },
         "faq_block_PFJ8cA": {
           "type": "faq_block",
           "settings": {
             "question": "How long does it take for CBD gummies to work?",
-            "answer": "<p>Expect your gummies to start working in about 30 to 90 minutes. Since they’re digested like regular food, they take a bit longer than other forms of CBD, but the effects tend to last longer, too. Perfect for sustained chill!</p>"
+            "answer": "<p>Expect your gummies to start working in about 30 to 90 minutes. Since they’re digested like regular food, they take a bit longer than other forms of CBD, but the effects tend to last longer, too. Perfect for sustained chill!<\/p>"
           }
         },
         "faq_block_nPtGA6": {
           "type": "faq_block",
           "settings": {
             "question": "What are Kush Queen’s CBD gummies made of?",
-            "answer": "<p>We’re all about quality ingredients! Our CBD gummies are crafted with full-spectrum hemp-derived CBD and natural flavors, giving you a clean, delicious experience with no artificial colors or fillers. Plus, they’re vegan, cruelty-free, and made with love—only the best for our community!</p>"
+            "answer": "<p>We’re all about quality ingredients! Our CBD gummies are crafted with full-spectrum hemp-derived CBD and natural flavors, giving you a clean, delicious experience with no artificial colors or fillers. Plus, they’re vegan, cruelty-free, and made with love—only the best for our community!<\/p>"
           }
         },
         "faq_block_3pkPYL": {
           "type": "faq_block",
           "settings": {
             "question": "Do you ship CBD gummies internationally?",
-            "answer": "<p>Yes! We’re excited to offer international shipping to select locations. Just pop your items in the cart and reach out to us at support@kushqueen.shop, and we’ll get back to you with international shipping details!</p>"
+            "answer": "<p>Yes! We’re excited to offer international shipping to select locations. Just pop your items in the cart and reach out to us at support@kushqueen.shop, and we’ll get back to you with international shipping details!<\/p>"
           }
         },
         "faq_block_3hyj4M": {
           "type": "faq_block",
           "settings": {
             "question": "What’s the recommended dose for CBD gummies?",
-            "answer": "<p>Most people start with one gummy (about 25mg CBD) and see how they feel. You can adjust your dose over time to find what works best for your body. It’s all about listening to your body and finding your sweet spot.</p>"
+            "answer": "<p>Most people start with one gummy (about 25mg CBD) and see how they feel. You can adjust your dose over time to find what works best for your body. It’s all about listening to your body and finding your sweet spot.<\/p>"
           }
         },
         "faq_block_MzM6Kw": {
           "type": "faq_block",
           "settings": {
             "question": "Can I take CBD gummies every day?",
-            "answer": "<p>Absolutely! In fact, a lot of our customers find that taking CBD daily gives them the best results. Whether it’s to keep calm, manage stress, or support sleep, consistent use can make a big difference.</p>"
+            "answer": "<p>Absolutely! In fact, a lot of our customers find that taking CBD daily gives them the best results. Whether it’s to keep calm, manage stress, or support sleep, consistent use can make a big difference.<\/p>"
           }
         },
         "faq_block_qKXUmt": {
           "type": "faq_block",
           "settings": {
             "question": "Are CBD gummies suitable for beginners?",
-            "answer": "<p>Yes! CBD gummies are perfect for beginners because they’re pre-dosed, tasty, and so easy to use. Just start with a low dose, enjoy, and adjust as you go.</p>"
+            "answer": "<p>Yes! CBD gummies are perfect for beginners because they’re pre-dosed, tasty, and so easy to use. Just start with a low dose, enjoy, and adjust as you go.<\/p>"
           }
         },
         "faq_block_WxkBNP": {
           "type": "faq_block",
           "settings": {
             "question": "What makes Kush Queen’s CBD gummies stand out?",
-            "answer": "<p>At Kush Queen, we’re all about transparency, quality, and creating products you can trust. Our CBD is sourced from nutrient-rich farms, grown with organic practices, and lab-tested to ensure the highest standards of potency and purity. Plus, every gummy is made with love (and a whole lot of care) to give you the ultimate CBD experience.</p>"
+            "answer": "<p>At Kush Queen, we’re all about transparency, quality, and creating products you can trust. Our CBD is sourced from nutrient-rich farms, grown with organic practices, and lab-tested to ensure the highest standards of potency and purity. Plus, every gummy is made with love (and a whole lot of care) to give you the ultimate CBD experience.<\/p>"
           }
         }
       },
@@ -410,7 +401,7 @@
       "settings": {
         "full_width": false,
         "section_title": "Need some guidance?",
-        "text": "<p><em>Kush Queen, your trusted wellness partner since 2015, serving over 95,000 customers with 5 star-rated cbd gummies. Reach out to us at hello@kushqueen.shop. Your well-being is our priority.</em></p>",
+        "text": "<p><em>Kush Queen, your trusted wellness partner since 2015, serving over 95,000 customers with 5 star-rated cbd gummies. Reach out to us at hello@kushqueen.shop. Your well-being is our priority.<\/em><\/p>",
         "text_size": "medium"
       }
     }
