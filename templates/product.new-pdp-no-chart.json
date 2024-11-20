@@ -39,9 +39,7 @@
         "3f72cdb0-a208-4efa-8c6c-304b3ab38bc6",
         "bb31f014-6fc2-430b-83b1-8abf26728b7c"
       ],
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "badge_text": "{{ product.metafields.custom.new_pdp_template.value.badge_text.value }}",
         "show_buymore_banner": true,
@@ -188,8 +186,7 @@
       "custom_css": [
         ".new-icons-section {padding-top: 4rem;}"
       ],
-      "settings": {
-      }
+      "settings": {}
     },
     "7b3cdd9c-34a5-4d71-b216-fb079a080a74": {
       "type": "new-science",
@@ -207,136 +204,16 @@
     "47137a95-f888-4703-b5c0-8415a0a3853d": {
       "type": "new-faq",
       "blocks": {
-        "faq_block_xV4Akz": {
+        "faq_block_awk6zY": {
           "type": "faq_block",
           "settings": {
-            "question": "What is liquid CBD, and how does it work?",
-            "answer": "<p>Liquid CBD, also known as a CBD tincture, is a concentrated oil extract that provides the benefits of CBD in an easy-to-use liquid form. At Kush Queen, our Bäre CBD Tincture is crafted with just two powerful ingredients: full-spectrum CBD and extra virgin olive oil. It’s designed for quick absorption under the tongue, so you can feel the benefits faster. Think of it as a super efficient way to add CBD to your daily wellness routine.</p>"
-          }
-        },
-        "faq_block_a6eFwj": {
-          "type": "faq_block",
-          "settings": {
-            "question": "Why choose liquid CBD over other forms like gummies or capsules?",
-            "answer": "<p>Great question! Liquid CBD is loved for its versatility and quick onset. Since you take it sublingually (under the tongue), it absorbs directly into your bloodstream, allowing you to feel the effects in about 15-30 minutes. Plus, liquid CBD gives you control over your dosage—just add a few extra drops if you need a stronger effect or stick with a small dose for gentle support.</p>"
-          }
-        },
-        "faq_block_HUeyQQ": {
-          "type": "faq_block",
-          "settings": {
-            "question": "How do I use Bäre CBD Tincture?",
-            "answer": "<p>Using our liquid CBD tincture is as simple as it gets. Place a few drops under your tongue, hold for 30-60 seconds, and then swallow. This method helps the CBD absorb faster. You can also add it to your morning coffee or evening tea if you prefer, but keep in mind that mixing it with food or drinks may delay the effects slightly.</p>"
-          }
-        },
-        "faq_block_qV3Kqb": {
-          "type": "faq_block",
-          "settings": {
-            "question": "How much liquid CBD should I take?",
-            "answer": "<p>Dosage can vary based on your personal needs and experience with CBD. If you’re new to liquid CBD, we recommend starting with half a dropper of our 500mg Bäre CBD Tincture and working your way up as needed. For more experienced users or those dealing with chronic issues, you might prefer a higher strength like our 2500mg option. The key is to start low and find what works best for your body!</p>"
-          }
-        },
-        "faq_block_QGhP6L": {
-          "type": "faq_block",
-          "settings": {
-            "question": "What are the benefits of Bäre CBD Tincture?",
-            "answer": "<p>Our Bäre CBD Tincture is designed to support your overall wellness. Users report feeling more relaxed, less anxious, and often use it to ease pain and improve sleep. The full-spectrum formula also contains other cannabinoids and terpenes from the hemp plant, offering what’s known as the “entourage effect”—a more potent, well-rounded CBD experience.</p>"
-          }
-        },
-        "faq_block_bdMBpw": {
-          "type": "faq_block",
-          "settings": {
-            "question": "How quickly will I feel the effects of liquid CBD?",
-            "answer": "<p>Thanks to the sublingual (under-the-tongue) method, our Bäre CBD Tincture can start working within 15-30 minutes. If you add it to food or drinks, it might take a bit longer—around 45 minutes to an hour—as it has to pass through your digestive system first.</p>"
-          }
-        },
-        "faq_block_XVkdaX": {
-          "type": "faq_block",
-          "settings": {
-            "question": "Will Bäre CBD Tincture make me feel high?",
-            "answer": "<p>Not at all! Our Bäre CBD Tincture is non-psychoactive, meaning it won’t get you high. It contains only trace amounts of THC (below 0.3%), which is not enough to produce any psychoactive effects. Instead, you’ll feel a calm, relaxed sensation—perfect for unwinding without feeling “out of it.”</p>"
-          }
-        },
-        "faq_block_z8qxNq": {
-          "type": "faq_block",
-          "settings": {
-            "question": "Is liquid CBD safe for daily use?",
-            "answer": "<p>Yes, liquid CBD is safe for most people to use daily. Our Bäre CBD Tincture is made with simple, non-GMO ingredients and crafted with care for consistent, reliable effects. However, as with any supplement, we recommend consulting with a healthcare provider if you’re pregnant, breastfeeding, or taking other medications.</p>"
-          }
-        },
-        "faq_block_kCjYxk": {
-          "type": "faq_block",
-          "settings": {
-            "question": "What’s the difference between full-spectrum and CBD isolate?",
-            "answer": "<p>Full-spectrum CBD (like the kind we use in Bäre) includes a range of cannabinoids, terpenes, and other beneficial compounds from the hemp plant, while CBD isolate contains only pure CBD. The full-spectrum blend works synergistically, creating a more balanced and powerful effect, known as the entourage effect.</p>"
-          }
-        },
-        "faq_block_c9PhYP": {
-          "type": "faq_block",
-          "settings": {
-            "question": "Does Bäre CBD Tincture contain THC?",
-            "answer": "<p>Yes, but just a tiny amount! Our Bäre CBD Tincture is made with full-spectrum hemp extract, which means it contains less than 0.3% THC—well within legal limits. This trace amount is not enough to make you feel high, but it does contribute to the overall wellness benefits.</p>"
-          }
-        },
-        "faq_block_PJfg3J": {
-          "type": "faq_block",
-          "settings": {
-            "question": "Will liquid CBD show up on a drug test?",
-            "answer": "<p>It’s unlikely, but not impossible. Since our full-spectrum tincture contains a very small amount of THC (under 0.3%), regular use could potentially lead to a positive drug test. If you’re concerned about drug testing, you may want to consider a broad-spectrum or THC-free CBD product.</p>"
-          }
-        },
-        "faq_block_bzihC8": {
-          "type": "faq_block",
-          "settings": {
-            "question": "How is Kush Queen’s Bäre CBD Tincture made?",
-            "answer": "<p>We start with high-quality hemp grown in the nutrient-rich soils, processed to the highest standards. Our Bäre CBD Tincture combines this premium full-spectrum extract with non-GMO, extra virgin olive oil—a choice backed by science for its excellent absorption and stability. Every bottle is handcrafted with care, ensuring you get a clean, effective product every time.</p>"
-          }
-        },
-        "faq_block_MF3r3n": {
-          "type": "faq_block",
-          "settings": {
-            "question": "Does Bäre CBD Tincture contain any additives?",
-            "answer": "<p>Nope! We keep it simple. Bäre CBD Tincture has just two ingredients: full-spectrum hemp extract and non-GMO extra virgin olive oil. No fillers, no artificial flavors, and absolutely no junk—just pure, plant-based goodness.</p>"
-          }
-        },
-        "faq_block_MTANEh": {
-          "type": "faq_block",
-          "settings": {
-            "question": "What does Bäre CBD Tincture taste like?",
-            "answer": "<p>Our Bäre CBD Tincture has a mild, earthy flavor with hints of olive oil. It’s subtle, smooth, and easy to take on its own or mix into your favorite drinks.</p>"
-          }
-        },
-        "faq_block_jJWdYN": {
-          "type": "faq_block",
-          "settings": {
-            "question": "Can I travel with my Bäre CBD Tincture?",
-            "answer": "<p>Yes, you can travel within the U.S. with our Bäre CBD Tincture as it contains less than 0.3% THC, making it compliant with federal laws. However, if you’re flying internationally, check the regulations of your destination, as CBD laws vary widely.</p>"
-          }
-        },
-        "faq_block_8QCakE": {
-          "type": "faq_block",
-          "settings": {
-            "question": "Is there a difference between CBD tincture and liquid CBD oil?",
-            "answer": "<p>Not really! “Tincture” and “liquid CBD oil” are often used interchangeably. Both refer to a CBD product in liquid form that you take sublingually. Our Bäre CBD Tincture is a classic, clean, effective CBD oil designed for easy daily use.</p>"
+            "question": "{{ product.metafields.custom.faq.value.question.value }}",
+            "answer": "{{ product.metafields.custom.faq.value.answer | metafield_tag }}<p></p>"
           }
         }
       },
       "block_order": [
-        "faq_block_xV4Akz",
-        "faq_block_a6eFwj",
-        "faq_block_HUeyQQ",
-        "faq_block_qV3Kqb",
-        "faq_block_QGhP6L",
-        "faq_block_bdMBpw",
-        "faq_block_XVkdaX",
-        "faq_block_z8qxNq",
-        "faq_block_kCjYxk",
-        "faq_block_c9PhYP",
-        "faq_block_PJfg3J",
-        "faq_block_bzihC8",
-        "faq_block_MF3r3n",
-        "faq_block_MTANEh",
-        "faq_block_jJWdYN",
-        "faq_block_8QCakE"
+        "faq_block_awk6zY"
       ],
       "settings": {
         "faq_title": "Frequently Asked Questions"
@@ -344,8 +221,7 @@
     },
     "bbaa8eca-23b9-4734-9b3a-f0e81e692fec": {
       "type": "new-pdp-reviewsec",
-      "settings": {
-      }
+      "settings": {}
     },
     "44a5aa34-7324-41ac-ba1a-ad656f3d8220": {
       "type": "new-product-recommendation",
