@@ -210,10 +210,82 @@
             "question": "{{ product.metafields.custom.faq.value.question.value }}",
             "answer": "{{ product.metafields.custom.faq.value.answer | metafield_tag }}<p></p>"
           }
+        },
+        "faq_block_3UCAxz": {
+          "type": "faq_block",
+          "settings": {
+            "question": "{{ product.metafields.custom.faq.value.question2.value }}",
+            "answer": "<p>Sample Answer</p>{{ product.metafields.custom.faq.value.answer_2 | metafield_tag }}"
+          }
+        },
+        "faq_block_kGfyUU": {
+          "type": "faq_block",
+          "settings": {
+            "question": "{{ product.metafields.custom.faq.value.question_3.value }}",
+            "answer": "{{ product.metafields.custom.faq.value.answer_3 | metafield_tag }}"
+          }
+        },
+        "faq_block_3mpkFy": {
+          "type": "faq_block",
+          "settings": {
+            "question": "{{ product.metafields.custom.faq.value.question_4.value }}",
+            "answer": "{{ product.metafields.custom.faq.value.answer_4 | metafield_tag }}"
+          }
+        },
+        "faq_block_TrqwFN": {
+          "type": "faq_block",
+          "settings": {
+            "question": "{{ product.metafields.custom.faq.value.question_5.value }}",
+            "answer": "{{ product.metafields.custom.faq.value.answer_5 | metafield_tag }}"
+          }
+        },
+        "faq_block_MkkMJY": {
+          "type": "faq_block",
+          "settings": {
+            "question": "{{ product.metafields.custom.faq.value.question_6.value }}",
+            "answer": "{{ product.metafields.custom.faq.value.answer_6 | metafield_tag }}"
+          }
+        },
+        "faq_block_j6j4qR": {
+          "type": "faq_block",
+          "settings": {
+            "question": "{{ product.metafields.custom.faq.value.question_7.value }}",
+            "answer": "{{ product.metafields.custom.faq.value.answer_7 | metafield_tag }}"
+          }
+        },
+        "faq_block_R4z7X9": {
+          "type": "faq_block",
+          "settings": {
+            "question": "{{ product.metafields.custom.faq.value.question_8.value }}",
+            "answer": "{{ product.metafields.custom.faq.value.answer_8 | metafield_tag }}"
+          }
+        },
+        "faq_block_eh3XHU": {
+          "type": "faq_block",
+          "settings": {
+            "question": "{{ product.metafields.custom.faq.value.question_9.value }}",
+            "answer": "{{ product.metafields.custom.faq.value.answer_9 | metafield_tag }}"
+          }
+        },
+        "faq_block_8zbzNM": {
+          "type": "faq_block",
+          "settings": {
+            "question": "{{ product.metafields.custom.faq.value.question_10.value }}",
+            "answer": "{{ product.metafields.custom.faq.value.answer_10 | metafield_tag }}"
+          }
         }
       },
       "block_order": [
-        "faq_block_awk6zY"
+        "faq_block_awk6zY",
+        "faq_block_3UCAxz",
+        "faq_block_kGfyUU",
+        "faq_block_3mpkFy",
+        "faq_block_TrqwFN",
+        "faq_block_MkkMJY",
+        "faq_block_j6j4qR",
+        "faq_block_R4z7X9",
+        "faq_block_eh3XHU",
+        "faq_block_8zbzNM"
       ],
       "settings": {
         "faq_title": "Frequently Asked Questions"
