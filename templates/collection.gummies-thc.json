@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "collection_header_7bBjxG": {
@@ -12,24 +21,24 @@
         "icon_jzAW3E": {
           "type": "icon",
           "settings": {
-            "icon_link": "shopify:\/\/collections\/weed-gummies",
-            "icon": "shopify:\/\/shop_images\/cbd-full-spec-gummies-icon.png",
+            "icon_link": "shopify://collections/weed-gummies",
+            "icon": "shopify://shop_images/cbd-full-spec-gummies-icon.png",
             "title": "All Weed Gummies"
           }
         },
         "icon_BfenYq": {
           "type": "icon",
           "settings": {
-            "icon_link": "shopify:\/\/collections\/delta-8-gummies",
-            "icon": "shopify:\/\/shop_images\/cbg-mood-gummies-icon.png",
+            "icon_link": "shopify://collections/delta-8-gummies",
+            "icon": "shopify://shop_images/cbg-mood-gummies-icon.png",
             "title": "Delta 8 Gummies"
           }
         },
         "icon_9HWK7y": {
           "type": "icon",
           "settings": {
-            "icon_link": "shopify:\/\/collections\/delta-9-gummies",
-            "icon": "shopify:\/\/shop_images\/cbn-sleep-gummies-icon.png",
+            "icon_link": "shopify://collections/delta-9-gummies",
+            "icon": "shopify://shop_images/cbn-sleep-gummies-icon.png",
             "title": "Delta 9 Gummies"
           }
         },
@@ -37,8 +46,8 @@
           "type": "icon",
           "disabled": true,
           "settings": {
-            "icon_link": "shopify:\/\/products\/thcv-gummies",
-            "icon": "shopify:\/\/shop_images\/thcv-focus-gummies-icon.png",
+            "icon_link": "shopify://products/thcv-gummies",
+            "icon": "shopify://shop_images/thcv-focus-gummies-icon.png",
             "title": "THCv Focus Gummies"
           }
         }
@@ -74,7 +83,7 @@
         "h3_bhxK6V": {
           "type": "h3",
           "settings": {
-            "h3": "<p><strong>THC Gummies Crafted With Excellence<\/strong><\/p>",
+            "h3": "<p><strong>THC Gummies Crafted With Excellence</strong></p>",
             "font_size_d": 24,
             "font_size_m": 14,
             "font_family": "Eina03"
@@ -83,7 +92,7 @@
         "p_Dca7Nx": {
           "type": "p",
           "settings": {
-            "p": "<p>✓ Perfect for anyone seeking relief from chronic pain, stress, or simply wanting to elevate their day. <\/p><p>✓ For newbies or seasoned pros<\/p><p>✓ Made with premium ingredients <\/p><p>✓ Precisely dosed for a consistent, predictable experience every time. <\/p><p>✓ Rigorously tested for purity and potency<\/p><p>✓ The tastiest way to enjoy the therapeutic benefits of THC<\/p>",
+            "p": "<p>✓ Perfect for anyone seeking relief from chronic pain, stress, or simply wanting to elevate their day. </p><p>✓ For newbies or seasoned pros</p><p>✓ Made with premium ingredients </p><p>✓ Precisely dosed for a consistent, predictable experience every time. </p><p>✓ Rigorously tested for purity and potency</p><p>✓ The tastiest way to enjoy the therapeutic benefits of THC</p>",
             "font_family": "Eina03"
           }
         }
@@ -97,7 +106,7 @@
         "background_color": "#ffffff",
         "col_order": "",
         "text_alignment": "left-aligned",
-        "image": "shopify:\/\/shop_images\/Gummies_753f6687-8680-4b94-991a-99c3ee88f64d.png"
+        "image": "shopify://shop_images/Gummies_753f6687-8680-4b94-991a-99c3ee88f64d.png"
       }
     },
     "jr_50_50_D6MknF": {
@@ -106,7 +115,7 @@
         "h3_jVnVHG": {
           "type": "h3",
           "settings": {
-            "h3": "<p><strong>Delta 9 THC Gummies<\/strong><\/p><p><\/p>",
+            "h3": "<p><strong>Delta 9 THC Gummies</strong></p><p></p>",
             "font_size_d": 24,
             "font_size_m": 18,
             "font_family": "Eina03"
@@ -115,7 +124,7 @@
         "p_VdgX66": {
           "type": "p",
           "settings": {
-            "p": "<p>Kush Queen Delta 9 <a href=\"https:\/\/kushqueen.shop\/collections\/weed-gummies\" title=\"https:\/\/kushqueen.shop\/collections\/weed-gummies\">THC gummies<\/a> were made for people looking for the sweet spot of getting high and being totally relaxed. Our in house gummy formula is vegan, gluten-free, and made with high-quality, natural ingredients ensuring a delicious taste without any artificial additives. Handcrafted in small batches creates consistent potency and superior quality with every gummy.<\/p><p><\/p>",
+            "p": "<p>Kush Queen Delta 9 <a href=\"https://kushqueen.shop/collections/weed-gummies\" title=\"https://kushqueen.shop/collections/weed-gummies\">THC gummies</a> were made for people looking for the sweet spot of getting high and being totally relaxed. Our in house gummy formula is vegan, gluten-free, and made with high-quality, natural ingredients ensuring a delicious taste without any artificial additives. Handcrafted in small batches creates consistent potency and superior quality with every gummy.</p><p></p>",
             "font_family": "Eina03"
           }
         },
@@ -123,7 +132,7 @@
           "type": "button",
           "settings": {
             "button_text": "Shop Delta 9 gummies",
-            "button_url": "https:\/\/kushqueen.shop\/collections\/delta-9-gummies",
+            "button_url": "https://kushqueen.shop/collections/delta-9-gummies",
             "button_bg_color": "#000000",
             "button_text_color": "#ffffff",
             "font_family": "Eina03"
@@ -139,7 +148,7 @@
         "background_color": "#ffffff",
         "col_order": "reverse",
         "text_alignment": "left-aligned",
-        "image": "shopify:\/\/shop_images\/kush-queen-ingestibles-420-party-pack-40494826651893.png"
+        "image": "shopify://shop_images/kush-queen-ingestibles-420-party-pack-40494826651893.png"
       }
     },
     "jr_50_50_tD6qTd": {
@@ -148,7 +157,7 @@
         "h3_Ph9RcC": {
           "type": "h3",
           "settings": {
-            "h3": "<p><strong>Delta 8 THC Gummies<\/strong><\/p>",
+            "h3": "<p><strong>Delta 8 THC Gummies</strong></p>",
             "font_size_d": 24,
             "font_size_m": 18,
             "font_family": "Eina03"
@@ -157,7 +166,7 @@
         "p_93fQ4b": {
           "type": "p",
           "settings": {
-            "p": "<p>Delta-8 <a href=\"https:\/\/kushqueen.shop\/collections\/delta-8-gummies\" title=\"https:\/\/kushqueen.shop\/collections\/delta-8-gummies\">THC gummies<\/a> are an excellent choice for those seeking a milder high, yet still enjoyable psychoactive experience. Each gummy is crafted with high-quality, natural ingredients, and offers a precise dosage of Delta-8 THC, known for its calming and uplifting effects without the intense high often associated with Delta-9 THC. With their delicious natural flavors and easy-to-consume form factor, Kush Queen Delta-8 THC gummies provide a delightful and reliable way to relax, relieve stress, and enjoy a chill state of mind.<\/p>",
+            "p": "<p>Delta-8 <a href=\"https://kushqueen.shop/collections/delta-8-gummies\" title=\"https://kushqueen.shop/collections/delta-8-gummies\">THC gummies</a> are an excellent choice for those seeking a milder high, yet still enjoyable psychoactive experience. Each gummy is crafted with high-quality, natural ingredients, and offers a precise dosage of Delta-8 THC, known for its calming and uplifting effects without the intense high often associated with Delta-9 THC. With their delicious natural flavors and easy-to-consume form factor, Kush Queen Delta-8 THC gummies provide a delightful and reliable way to relax, relieve stress, and enjoy a chill state of mind.</p>",
             "font_family": "Eina03"
           }
         },
@@ -165,7 +174,7 @@
           "type": "button",
           "settings": {
             "button_text": "Shop Delta 8 Gummies",
-            "button_url": "shopify:\/\/collections\/delta-8-gummies",
+            "button_url": "shopify://collections/delta-8-gummies",
             "button_bg_color": "#000000",
             "button_text_color": "#ffffff",
             "font_family": "Eina03"
@@ -181,85 +190,97 @@
         "background_color": "#ffffff",
         "col_order": "",
         "text_alignment": "left-aligned",
-        "image": "shopify:\/\/shop_images\/kush-queen-delta-8-thc-gummies-bundle-exp.jpg"
+        "image": "shopify://shop_images/kush-queen-delta-8-thc-gummies-bundle-exp.jpg"
       }
     },
     "new_faq_w8dhdC": {
       "type": "new-faq",
+      "blocks": {
+        "faq_block_WwBmMh": {
+          "type": "faq_block",
+          "settings": {
+            "question": "What are THC gummies good for?",
+            "answer": "<p>THC gummies are great for relieving stress, boosting mood, and soothing physical discomfort. Whether you're looking to unwind after a long day, ease anxiety, or enjoy a mild euphoric buzz, our THC gummies provide a delicious, convenient way to experience the benefits of cannabis. They also help with sleep, pain relief, and body relaxation.</p>"
+          }
+        },
+        "faq_block_fbqA3V": {
+          "type": "faq_block",
+          "settings": {
+            "question": "What’s the difference between a CBD and a THC gummy?",
+            "answer": "<p>THC gummies are psychoactive, which means they can produce a mild to moderate high. In contrast, CBD gummies are non-psychoactive and focus more on relaxation and overall wellness. THC provides a euphoric or body buzz, while CBD is more about easing tension without altering your mental state. Want the best of both? Our 1:1 ratio gummies balance THC and CBD for a smooth, balanced experience.</p>"
+          }
+        },
+        "faq_block_rYJfxN": {
+          "type": "faq_block",
+          "settings": {
+            "question": "How long do THC gummies take to kick in?",
+            "answer": "<p>THC gummies typically take between 30-60 minutes to kick in, but the timing can vary based on your metabolism and whether you’ve eaten beforehand. Because they’re edibles, the effects are usually more prolonged, lasting anywhere from 4 to 8 hours.</p>"
+          }
+        },
+        "faq_block_pH8qiP": {
+          "type": "faq_block",
+          "settings": {
+            "question": "What are Kush Queen THC gummies made of?",
+            "answer": "<p>Kush Queen THC gummies are made from natural, vegan ingredients that we craft in small batches. Each gummy contains:</p><ul><li>Full-spectrum hemp extract with THC and CBD</li><li>Natural flavors and colors derived from fruits and vegetables</li><li>Sugar, glucose syrup, pectin, and citric acid</li></ul><p>We never use artificial flavors, gluten, or GMOs, and our products are 100% cruelty-free. You get delicious gummies packed with natural goodness in every bite!</p>"
+          }
+        },
+        "faq_block_jEgqUF": {
+          "type": "faq_block",
+          "settings": {
+            "question": "What side effects do THC gummies have?",
+            "answer": "<p>While most people enjoy the relaxing and euphoric effects of THC gummies, there can be some side effects like dry mouth, drowsiness, dizziness, or changes in perception. These are generally mild and temporary. If you're new to THC, start with a low dose and gradually increase to find what feels best for you.</p>"
+          }
+        },
+        "faq_block_zbLhXP": {
+          "type": "faq_block",
+          "settings": {
+            "question": "What’s the difference between Delta-9 and Delta-8 THC?",
+            "answer": "<p>Delta-9 THC is the classic form of THC and provides a stronger high. Delta-8 THC, on the other hand, offers a milder, smoother experience that’s great for people who want the benefits of THC without an intense high. Think of Delta-9 as the full-blown experience and Delta-8 as the more relaxed, functional version.</p>"
+          }
+        },
+        "faq_block_h9GtGD": {
+          "type": "faq_block",
+          "settings": {
+            "question": "What are Kush Queen’s shipping policies?",
+            "answer": "<p>We ship nationwide to states where THC products are legal. Processing times typically range from 5-7 business days, and we strive to ship out orders as soon as possible—often the next business day. However, shipping times may vary based on your location and state laws.</p><ul><li>Pro Tip: Always check your local state laws before ordering to ensure compliance with THC regulations in your area.</li></ul>"
+          }
+        },
+        "faq_block_yenLNA": {
+          "type": "faq_block",
+          "settings": {
+            "question": "Can I return THC gummies if I don’t like them?",
+            "answer": "<p>Unfortunately, all Kush Queen products are final sale, including our THC gummies. We’re unable to accept returns, exchanges, or provide refunds. If your order arrives damaged or incorrect, please contact us within 48 hours at support@kushqueen.shop, and we’ll make it right.</p>"
+          }
+        },
+        "faq_block_x6GRKw": {
+          "type": "faq_block",
+          "settings": {
+            "question": "How do I store THC gummies to keep them fresh?",
+            "answer": "<p>To keep your THC gummies fresh and potent, store them in a cool, dark place, away from direct sunlight or moisture. We recommend using an airtight container. If you live in a warmer climate, refrigeration is also a good option.</p>"
+          }
+        },
+        "faq_block_BJATBW": {
+          "type": "faq_block",
+          "settings": {
+            "question": "Can THC gummies show up on a drug test?",
+            "answer": "<p>Yes, consuming THC gummies can cause a positive drug test, as most tests screen for THC metabolites. If you’re regularly drug tested, be mindful of this when using any THC products.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "faq_block_WwBmMh",
+        "faq_block_fbqA3V",
+        "faq_block_rYJfxN",
+        "faq_block_pH8qiP",
+        "faq_block_jEgqUF",
+        "faq_block_zbLhXP",
+        "faq_block_h9GtGD",
+        "faq_block_yenLNA",
+        "faq_block_x6GRKw",
+        "faq_block_BJATBW"
+      ],
       "settings": {
         "faq_title": "Frequently Asked Questions"
-      }
-    },
-    "rich_text_A7dBAD": {
-      "type": "rich-text",
-      "settings": {
-        "full_width": false,
-        "section_title": "What are THC gummies good for?",
-        "text": "<p>Kush Queen THC gummies are perfect for unwinding, easing stress, lifting your mood, or enhancing your sleep routine. Fans use them for a variety of vibes—from easing pain and feeling blissed out to sparking a little creative energy. Start with a low dose and see how you feel before going all in.<\/p>",
-        "text_size": "small"
-      }
-    },
-    "rich_text_KJtMgU": {
-      "type": "rich-text",
-      "settings": {
-        "full_width": false,
-        "section_title": "What's the difference between CBD and THC gummies?",
-        "text": "<p>CBD gummies bring all the calm, anti-inflammatory, and pain-relieving benefits without any high, while THC gummies are your go-to for that classic “high” feeling. Both can be super helpful for wellness, but if you’re looking for psychoactive effects, THC is your best friend, while CBD will keep things mellow and clear-headed.<\/p>",
-        "text_size": "small"
-      }
-    },
-    "rich_text_chfdtF": {
-      "type": "rich-text",
-      "settings": {
-        "full_width": false,
-        "section_title": "What side effects do THC gummies have?",
-        "text": "<p> Some folks experience dry mouth, dizziness, shifts in perception, or increased heart rate after taking THC gummies, especially if the dose is on the higher side. Others may feel anxious or get a little paranoid. Start low, go slow, and give your body time to adjust so you can enjoy the experience without the unwelcome surprises.<\/p>",
-        "text_size": "small"
-      }
-    },
-    "rich_text_EHTr4X": {
-      "type": "rich-text",
-      "settings": {
-        "full_width": false,
-        "section_title": "Is 10mg of THC a day too much?",
-        "text": "<p>For newbies, 10mg can pack a punch, so we usually recommend starting with 2-5mg to get a feel for it. If you’re a seasoned THC fan, 10mg might feel just right. Listen to your body, and remember—start small and increase gradually to find your sweet spot.<\/p>",
-        "text_size": "small"
-      }
-    },
-    "rich_text_LDgzJN": {
-      "type": "rich-text",
-      "settings": {
-        "full_width": false,
-        "section_title": "What’s the difference between Delta-9 and Delta-8 THC?",
-        "text": "<p>Delta-9 THC is the heavy hitter responsible for the classic cannabis high, while Delta-8 THC is like its mellower cousin. Delta-8 offers similar effects but with a gentler, more relaxed vibe. If you’re looking for a lighter experience, Delta-8 might be your match!<\/p>",
-        "text_size": "small"
-      }
-    },
-    "rich_text_nPy9hQ": {
-      "type": "rich-text",
-      "settings": {
-        "full_width": false,
-        "section_title": "What does a 1:1 ratio mean in cannabis products?",
-        "text": "<p>A 1:1 ratio means equal parts THC and CBD, creating a balanced effect that delivers the best of both worlds. This combo gives you the psychoactive lift of THC, mellowed out by the calming benefits of CBD. It’s perfect for those who want an elevated experience without feeling overwhelmed, and it’s all about that synergistic “entourage effect.”<\/p>",
-        "text_size": "small"
-      }
-    },
-    "rich_text_bgpRDD": {
-      "type": "rich-text",
-      "settings": {
-        "full_width": false,
-        "section_title": "Do you offer shipping on THC gummies?",
-        "text": "<p>Yes! Kush Queen ships THC gummies to all locations where hemp-derived THC products are legally permitted. All orders are processed within 1-2 business days, and we offer discreet packaging for privacy. Check local laws to ensure compliance, as regulations can vary by location.<\/p>",
-        "text_size": "small"
-      }
-    },
-    "rich_text_rYEJqY": {
-      "type": "rich-text",
-      "settings": {
-        "full_width": false,
-        "section_title": "What is your return policy on THC gummies?",
-        "text": "<p>We want you to love your Kush Queen products! If you’re not satisfied with your THC gummies, reach out to us within 30 days of purchase for assistance. Due to the nature of consumable products, we handle returns on a case-by-case basis to ensure the best experience for our customers.<\/p>",
-        "text_size": "small"
       }
     },
     "rich_text_Kyrk4Y": {
@@ -267,7 +288,7 @@
       "settings": {
         "full_width": false,
         "section_title": "Need some guidance?",
-        "text": "<p><em>Kush Queen, your trusted wellness partner since 2015, serving over 95,000 customers with 5 star-rated weed gummies. Reach out to us at hello@kushqueen.shop. Your well-being is our priority.<\/em><\/p>",
+        "text": "<p><em>Kush Queen, your trusted wellness partner since 2015, serving over 95,000 customers with 5 star-rated weed gummies. Reach out to us at hello@kushqueen.shop. Your well-being is our priority.</em></p>",
         "text_size": "medium"
       }
     }
@@ -280,14 +301,6 @@
     "jr_50_50_D6MknF",
     "jr_50_50_tD6qTd",
     "new_faq_w8dhdC",
-    "rich_text_A7dBAD",
-    "rich_text_KJtMgU",
-    "rich_text_chfdtF",
-    "rich_text_EHTr4X",
-    "rich_text_LDgzJN",
-    "rich_text_nPy9hQ",
-    "rich_text_bgpRDD",
-    "rich_text_rYEJqY",
     "rich_text_Kyrk4Y"
   ]
 }
