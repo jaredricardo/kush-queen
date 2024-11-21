@@ -124,14 +124,14 @@
         "p_ez9brm": {
           "type": "p",
           "settings": {
-            "p": "<p>At Kush Queen, we know that what you put in your body matters—so we make sure every product meets the highest standards of care, quality, and consistency.</p><ul><li>Third-Party Lab Tested: Every batch of our Delta 8 Gummies is tested for potency and purity, so you know exactly what you’re getting.</li><li>Handmade with Love: Crafted in small batches, our team carefully weighs, mixes, and inspects each gummy to ensure consistent effects every time.</li><li>Vegan & Cruelty-Free: No animal testing, no sketchy ingredients—just premium quality you can trust.</li></ul><p>From farm to your hands, everything we create is designed with your wellness in mind—because you deserve the best.</p>",
+            "p": "<p>At Kush Queen, we know that what you put in your body matters—so we make sure every product meets the highest standards of care, quality, and consistency.</p><p><strong>Third-Party Lab Tested:</strong> Every batch of our Delta 8 Gummies is tested for potency and purity, so you know exactly what you’re getting.</p><p><strong>Handmade with Love:</strong> Crafted in small batches, our team carefully weighs, mixes, and inspects each gummy to ensure consistent effects every time.</p><p><strong>Vegan & Cruelty-Free:</strong> No animal testing, no sketchy ingredients—just premium quality you can trust.</p><p>From farm to your hands, everything we create is designed with your wellness in mind—because you deserve the best.</p>",
             "font_family": "Eina03"
           }
         },
         "button_UVnbTY": {
           "type": "button",
           "settings": {
-            "button_text": "Shop CBD Gummies",
+            "button_text": "The Kush Queen Promise",
             "button_url": "https://kushqueen.shop/pages/the-kush-queen-promise",
             "button_bg_color": "#000000",
             "button_text_color": "#ffffff",
