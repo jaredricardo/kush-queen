@@ -154,131 +154,68 @@
     "new_faq_HmgqnV": {
       "type": "new-faq",
       "blocks": {
-        "faq_block_iB7J8g": {
-          "type": "faq_block",
-          "settings": {
-            "question": "What are Delta 8 THC + CBD Gummies?",
-            "answer": "<p>Kush Queen’s Delta 8 THC + CBD Gummies are a perfectly balanced blend of 10mg Delta 8 THC and 10mg CBD per gummy. These gummies are designed to offer a mild psychoactive experience while providing calming and stress-relieving effects. With delicious flavors like Strawberry, Watermelon, and Lemon, they are vegan, gluten-free, and made with all-natural ingredients.</p>"
-          }
-        },
-        "faq_block_96qTxw": {
-          "type": "faq_block",
-          "settings": {
-            "question": "How will Delta 8 THC make me feel?",
-            "answer": "<p>Delta 8 THC offers a smooth, less intense high than Delta 9 THC, providing relaxation, mild euphoria, and an overall calming effect. Users often describe the experience as feeling like they’re in a soothing cocoon, with increased body and mind relaxation without the \"haze\" or anxiety that can come from Delta 9 THC. You can expect a zen-like mood without feeling too high.</p>"
-          }
-        },
-        "faq_block_xNcmri": {
-          "type": "faq_block",
-          "settings": {
-            "question": "What is the difference between Delta 8 THC and Delta 9 THC?",
-            "answer": "<p>Delta 8 THC and Delta 9 THC are similar cannabinoids but differ in their effects. Delta 9 THC is the primary psychoactive compound in cannabis, known for its strong high. Delta 8 THC, on the other hand, offers a milder experience, with less intensity and psychoactivity. It provides euphoria, relaxation, and stress relief but without the overwhelming effects of Delta 9.</p>"
-          }
-        },
-        "faq_block_TzzQDG": {
-          "type": "faq_block",
-          "settings": {
-            "question": "How long does it take Delta 8 THC gummies to kick in?",
-            "answer": "<p>Delta 8 THC gummies generally take about 30 to 60 minutes to take effect, depending on factors like your metabolism, tolerance, and whether you’ve eaten beforehand. Some users report feeling effects within 30 minutes, while others may experience the onset after an hour. For most, you can expect the full effects to be felt within this window.</p>"
-          }
-        },
-        "faq_block_dwd9jz": {
-          "type": "faq_block",
-          "settings": {
-            "question": "How long do the effects of Delta 8 THC gummies last?",
-            "answer": "<p>The effects of Delta 8 THC gummies typically last between 4 to 6 hours. Many users enjoy a prolonged sense of relaxation and relief throughout this period, with the effects tapering off gradually. For some, depending on their tolerance and body chemistry, effects can last up to 8 hours.</p>"
-          }
-        },
         "faq_block_jMUhBm": {
           "type": "faq_block",
           "settings": {
-            "question": "How much Delta 8 THC should I take?",
-            "answer": "<p>If you’re new to Delta 8 THC, it’s recommended to start with half a gummy (5mg of CBD + 5mg of Delta 8 THC) to see how your body responds. If you’re experienced or looking for more profound effects, a whole gummy (10mg of CBD + 10mg of Delta 8 THC) should provide a deep sense of calm and relaxation. Always start low and slow, and adjust your dosage based on your comfort and desired effect.</p>"
+            "question": "What do Delta-8 gummies do to you?",
+            "answer": "<p>Delta-8 gummies offer a smooth, less intense high that’s milder than Delta-9 THC. Users often experience a sense of relaxation and a gentle buzz without the intense psychoactive effects typical of Delta-9. Beyond the mild high, Delta-8 is also known for its ability to help with pain, anxiety, and sleep issues, making it a great option for those who want the therapeutic benefits of THC without feeling too stoned.</p>"
           }
         },
         "faq_block_73pnQb": {
           "type": "faq_block",
           "settings": {
-            "question": "Are Delta 8 THC gummies legal?",
-            "answer": "<p>Delta 8 THC is legal under federal law according to the 2018 Farm Bill, which allows hemp-derived cannabinoids, including Delta 8 THC, as long as they contain less than 0.3% Delta 9 THC. However, some states have enacted laws that ban or restrict Delta 8 THC, so it’s important to check your local laws before purchasing. Kush Queen complies with local regulations and will not ship Delta 8 THC products to states where they are restricted or prohibited.</p>"
+            "question": "Do Delta-8 gummies give you a body high?",
+            "answer": "<p>Yes, Delta-8 gummies may cause body high but this is mild compared to the body high caused by Delta-9 THC. It would usually involve the physical relaxation, release of tension and the general feeling of comfort and soothing on the body.</p>"
           }
         },
         "faq_block_xPRrxy": {
           "type": "faq_block",
           "settings": {
-            "question": "Will Delta 8 THC show up on a drug test?",
-            "answer": "<p>Yes, Delta 8 THC may show up on a drug test. Since most drug tests look for THC metabolites, Delta 8 can cause a positive result for THC, as it is chemically similar to Delta 9 THC. If you are subject to routine drug testing, you should avoid using Delta 8 products to avoid a potential positive result.</p>"
+            "question": "Why do I get so high on Delta-8 gummies?",
+            "answer": "<p>The kind of rush that comes with Delta-8 gummies can differ in terms of strength based on the amount taken, the tolerance level of the user, and their metabolism system. While Delta-8 is not as strong as Delta-9 THC, taking more than the amount your body is used to, will give a psychoactive impact. To avoid the severity of the side effects, one should begin with a small dose and then build up.</p>"
           }
         },
         "faq_block_AggaV9": {
           "type": "faq_block",
           "settings": {
-            "question": "Are Kush Queen’s Delta 8 THC + CBD Gummies vegan?",
-            "answer": "<p>Yes! Kush Queen’s Delta 8 THC + CBD Gummies are 100% vegan. We use natural fruit flavors and colors, derived from fruits and vegetables. Our gummies are made without gluten, artificial flavors, wax, starch, or any GMO ingredients, ensuring they’re as clean and healthy as possible.</p>"
-          }
-        },
-        "faq_block_fPk4mL": {
-          "type": "faq_block",
-          "settings": {
-            "question": "What’s the shelf life of Delta 8 THC + CBD Gummies?",
-            "answer": "<p>Our Delta 8 THC + CBD Gummies have a shelf life of about 12 months if stored properly in a cool, dry place, away from direct sunlight. However, for the best flavor and potency, we recommend consuming them within 6 months of purchase.</p>"
+            "question": "Does Delta-8 show up in a drug screen?",
+            "answer": "<p>In a drug screen, the presence of Delta-8 is possible. All the drug tests mainly look for THC metabolites and because Delta-8 is a form of THC, the results can come out positive. If you are among those who are tested for drugs, you need to know that Delta-8 products may impact your results.</p>"
           }
         },
         "faq_block_Ymdy7d": {
           "type": "faq_block",
           "settings": {
-            "question": "What is the Delta 8 THC Gummies Bundle?",
-            "answer": "<p>The Delta 8 THC Gummies Bundle includes three flavors: Strawberry, Watermelon, and Lemon. Each pack contains 10 gummies for a total of 30 gummies in the bundle. With a perfectly balanced 1:1 ratio of CBD and Delta 8 THC, this bundle offers the ultimate relaxation and wellness solution for users looking for variety and consistent effects.</p>"
+            "question": "Are Delta-8 THC gummies legal?",
+            "answer": "<p>The legality of Delta-8 THC varies by location. While it is federally legal in the U.S. under the 2018 Farm Bill, several states have banned or restricted its sale and use. It’s crucial to check your local laws before purchasing or consuming Delta-8 products​.</p>"
           }
         },
-        "faq_block_3r34Uh": {
+        "faq_block_9TNpbx": {
           "type": "faq_block",
           "settings": {
-            "question": "How are Kush Queen gummies made?",
-            "answer": "<p>Kush Queen gummies are handcrafted in small batches to ensure quality and consistency. We use full-spectrum hemp extract and combine it with natural fruit flavors to create a sweet, tangy gummy with a perfect balance of CBD and Delta 8 THC. Our production process ensures that each gummy is vegan and free from artificial ingredients, providing a natural, high-quality edible experience.</p>"
-          }
-        },
-        "faq_block_WkiQt3": {
-          "type": "faq_block",
-          "settings": {
-            "question": "What are the ingredients in Delta 8 THC + CBD Gummies?",
-            "answer": "<p>Our gummies are made with:</p><ul><li>Sugar</li><li>Glucose Syrup</li><li>Pectin</li><li>Full-Spectrum Hemp Extract (CBD + Delta 8 THC)</li><li>Citric Acid</li><li>Natural Flavors and Colors derived from fruits and vegetables</li></ul><p>These gummies are free of gluten, animal testing, artificial flavors, fake colors, wax, starch, and GMO ingredients.</p>"
-          }
-        },
-        "faq_block_XjtAYW": {
-          "type": "faq_block",
-          "settings": {
-            "question": "Can I use Delta 8 THC gummies during the day?",
-            "answer": "<p>Yes! Since Delta 8 THC offers a gentle and mild high, many users find it perfect for use during the day to reduce stress and promote a sense of calm without feeling overly sedated. However, we recommend starting with a small dose to assess how it affects you during your daily activities.</p>"
-          }
-        },
-        "faq_block_CQPfnH": {
-          "type": "faq_block",
-          "settings": {
-            "question": "What’s the refund policy for Delta 8 THC Gummies?",
-            "answer": "<p>All Kush Queen products, including our Delta 8 THC Gummies, are final sale. We do not offer refunds, exchanges, or returns. However, if you receive a damaged product or wrong order, please contact us within 48 hours of receiving your order for assistance.</p>"
+            "question": "How long do the effects of Delta-8 THC gummies last?",
+            "answer": "<p>The effects of Delta-8 THC gummies typically last between 4 to 8 hours, depending on factors like your metabolism, dosage, and tolerance. Since the onset is slower with edibles, the effects are often more prolonged compared to other consumption methods.</p>"
           }
         }
       },
       "block_order": [
-        "faq_block_iB7J8g",
-        "faq_block_96qTxw",
-        "faq_block_xNcmri",
-        "faq_block_TzzQDG",
-        "faq_block_dwd9jz",
         "faq_block_jMUhBm",
         "faq_block_73pnQb",
         "faq_block_xPRrxy",
         "faq_block_AggaV9",
-        "faq_block_fPk4mL",
         "faq_block_Ymdy7d",
-        "faq_block_3r34Uh",
-        "faq_block_WkiQt3",
-        "faq_block_XjtAYW",
-        "faq_block_CQPfnH"
+        "faq_block_9TNpbx"
       ],
       "settings": {
         "faq_title": "Frequently Asked Questions"
+      }
+    },
+    "rich_text_PBWXwD": {
+      "type": "rich-text",
+      "settings": {
+        "full_width": false,
+        "section_title": "Need some guidance?",
+        "text": "<p><em>Kush Queen, your trusted wellness partner since 2015, serving over 95,000 customers with 5 star-rated delta 8 thc gummies. Reach out to us at hello@kushqueen.shop. Your well-being is our priority.</em></p>",
+        "text_size": "medium"
       }
     }
   },
@@ -288,6 +225,7 @@
     "new-collection-template",
     "jr_50_50_pNknTj",
     "jr_50_50_hDgyH3",
-    "new_faq_HmgqnV"
+    "new_faq_HmgqnV",
+    "rich_text_PBWXwD"
   ]
 }
