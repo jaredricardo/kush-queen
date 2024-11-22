@@ -82,7 +82,7 @@
         "h3_jH3gqC": {
           "type": "h3",
           "settings": {
-            "h3": "<p><strong>THC Gummies</strong></p>",
+            "h3": "<p><strong>The Delta 9 Gummy Experience</strong></p>",
             "font_size_d": 24,
             "font_size_m": 18,
             "font_family": "Eina03"
@@ -91,7 +91,7 @@
         "p_pMPmTC": {
           "type": "p",
           "settings": {
-            "p": "<p>Looking for a way to ease the day's tension, elevate your mood, or get that much-needed rest? Our THC gummies are here to deliver. Whether you're seeking pain relief, a little less stress, or simply want to unwind after a long day, we've got you covered. Crafted with the highest quality ingredients, each gummy is perfectly dosed to give you that sweet spot of relaxation. Whether you’re just starting your THC journey or you’re a seasoned pro, our gummies are the delicious, reliable way to make THC a part of your daily self-care ritual.</p>",
+            "p": "<p>Get ready to experience a deeper kind of escape with Kush Queen’s Delta 9 Gummies. Infused with a potent combination of hemp-derived Delta 9 THC and full-spectrum CBD, these edibles offer our most powerful mind-body connection. Each gummy delivers potent psychoactive effects that ease tension, boost your mood, and leave you floating in a state of pure relaxation.</p><p>Whether you’re new to Delta 9 or a seasoned connoisseur, these gummies make it easy to find your sweet spot. For beginners, half a gummy (4mg Delta 9 THC + 6mg CBD) offers a gentle lift and light euphoria—perfect for activating your smile. For those seeking deeper relief, a whole gummy (8mg Delta 9 THC + 12mg CBD) delivers full mind and body relaxation, which  can last around  four blissful hours.</p><p>Expect a euphoric shift in consciousness that melts stress, soothes pain, or simply enhances your downtime—all without the grogginess of other options. Whether you’re chasing a good time, better sleep, or serious relief, Kush Queen Delta 9 Gummies are your ticket to the ultimate chill.</p>",
             "font_family": "Eina03"
           }
         },
@@ -124,7 +124,7 @@
         "h3_dVtKCQ": {
           "type": "h3",
           "settings": {
-            "h3": "<p><strong>CBD Gummies</strong></p>",
+            "h3": "<p><strong>The Kush Queen Promise</strong></p>",
             "font_size_d": 24,
             "font_size_m": 18,
             "font_family": "Eina03"
@@ -133,15 +133,15 @@
         "p_QVQrBc": {
           "type": "p",
           "settings": {
-            "p": "<p>Our CBD gummies are the perfect, delicious way to enjoy all the benefits of cannabidiol without any psychoactive effects. Whether you’re looking to ease stress, manage anxiety, relieve pain, or simply boost your overall wellness, these gummies are a delightful addition to your daily routine. At Kush Queen, we use only the finest  sourced hemp to craft our vegan gummies, ensuring each piece delivers a precise dose every time. Whether you’re new to CBD or a seasoned fan, our gummies offer a discreet, tasty, and effective way to tap into CBD’s soothing powers, no matter where your day takes you.</p>",
+            "p": "<p>At Kush Queen, we pride ourselves on hand crafting our gummies using the best ingredients. Every product is lab-tested for potency and purity, so you always know what you’re getting. Our passion for the plant runs deep.</p><ul><li>Handcrafted with Love: Made in small batches right here in the USA for consistency you can count on.</li><li>Vegan & Cruelty-Free: No animal testing, no fillers—just clean, premium ingredients.</li><li>We’re here for the community, creating products that feel as good as they work. Because your wellness deserves nothing less.</li></ul><p>Because you deserve an experience that’s as safe, delicious, and reliable as it is enjoyable.</p>",
             "font_family": "Eina03"
           }
         },
         "button_pEHi9H": {
           "type": "button",
           "settings": {
-            "button_text": "Shop CBD Gummies",
-            "button_url": "",
+            "button_text": "The Kush queen promise",
+            "button_url": "https://kushqueen.shop/pages/the-kush-queen-promise",
             "button_bg_color": "#000000",
             "button_text_color": "#ffffff",
             "font_family": "Eina03"
