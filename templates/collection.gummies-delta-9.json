@@ -195,7 +195,7 @@
           "type": "faq_block",
           "settings": {
             "question": "Will Delta-9 THC show up on a drug test?",
-            "answer": "<p>Yes, Delta-9 THC can absolutely show up on a drug test. Most drug tests look for THC metabolites, and Delta-9 is no exception. So if you’ve got a test coming up, we’d recommend holding off on these goodies for a while.</p>"
+            "answer": "<p>Yes, <a href=\"https://www.cdc.gov/mmwr/preview/mmwrhtml/00000138.htm\" title=\"https://www.cdc.gov/mmwr/preview/mmwrhtml/00000138.htm\">Delta-9 THC can absolutely show up on a drug test.</a> Most drug tests look for THC metabolites, and Delta-9 is no exception. So if you’ve got a test coming up, we’d recommend holding off on these goodies for a while.</p>"
           }
         },
         "faq_block_TYCLHD": {
