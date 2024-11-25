@@ -290,11 +290,12 @@
       "new-header": {
         "type": "new-header",
         "blocks": {
-          "12932e08-fa41-4c58-867f-e78e4087aa74": {
-            "type": "simple_link",
+          "link_linklist_QGbxxn": {
+            "type": "link-linklist",
             "settings": {
               "title": "Shop All",
-              "link": "https://kushqueen.shop/collections/all-cannabis-products"
+              "link": "https://kushqueen.shop/collections/all-cannabis-products",
+              "links": "shop-all"
             }
           },
           "link_linklist_94W3pb": {
@@ -371,7 +372,7 @@
           }
         },
         "block_order": [
-          "12932e08-fa41-4c58-867f-e78e4087aa74",
+          "link_linklist_QGbxxn",
           "link_linklist_94W3pb",
           "47dbf579-c272-4855-88fa-280f24e2846e",
           "1571826560796",
