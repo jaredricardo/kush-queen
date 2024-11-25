@@ -215,7 +215,7 @@
           "type": "faq_block",
           "settings": {
             "question": "{{ product.metafields.custom.faq.value.question2.value }}",
-            "answer": "<p>Sample Answer</p>{{ product.metafields.custom.faq.value.answer_2 | metafield_tag }}"
+            "answer": "{{ product.metafields.custom.faq.value.answer_2 | metafield_tag }}"
           }
         },
         "faq_block_kGfyUU": {
