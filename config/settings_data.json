@@ -990,14 +990,6 @@
               "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/Melt_200mg_54956b2f-5907-4e7c-b852-6b16624e0c62.pdf?v=1708657195"
             }
           },
-          "1577955740941": {
-            "type": "labtest",
-            "settings": {
-              "banner_btm_img": "shopify://shop_images/melt_800_photo.webp",
-              "banner_btm_tp_text": "Melt CBD Lotion 16 oz 800mg",
-              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/Melt_800mg.pdf?v=1708657195"
-            }
-          },
           "db7b8a0c-b43e-44a5-a9b7-da2a5ca3f676": {
             "type": "labtest",
             "settings": {
@@ -1206,7 +1198,6 @@
           "2f32799c-8af2-4218-bca9-921be728fc3c",
           "1577955701847",
           "1577955727746",
-          "1577955740941",
           "db7b8a0c-b43e-44a5-a9b7-da2a5ca3f676",
           "1577955825051",
           "24506604-9c7c-4310-930d-e9a44bfe3edf",
