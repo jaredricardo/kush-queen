@@ -1014,14 +1014,6 @@
               "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/Lube_D9_1ox.pdf?v=1723079005"
             }
           },
-          "e324de0f-9eb7-4629-adf4-16f412de805a": {
-            "type": "labtest",
-            "settings": {
-              "banner_btm_img": "shopify://shop_images/kush-queen-topical-delta-9-thc-lube-39154602508533.jpg",
-              "banner_btm_tp_text": "Delta 9 THC Lube",
-              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/Delta_9_Lube_8oz.pdf?v=1712596141"
-            }
-          },
           "2157461f-0560-48cd-8554-bcf100797f7e": {
             "type": "labtest",
             "settings": {
@@ -1034,7 +1026,7 @@
             "type": "labtest",
             "settings": {
               "banner_btm_img": "shopify://shop_images/kush-queen-ingestibles-full-spectrum-cbd-gummies-39097205194997.jpg",
-              "banner_btm_tp_text": "Full Spectrum CBD Gummies",
+              "banner_btm_tp_text": "Full Spectrum CBD Gummies 10 & 30 Pack",
               "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/Full_Spec_750mg_30.pdf?v=1708657195"
             }
           },
@@ -1201,7 +1193,6 @@
           "db7b8a0c-b43e-44a5-a9b7-da2a5ca3f676",
           "1577955825051",
           "24506604-9c7c-4310-930d-e9a44bfe3edf",
-          "e324de0f-9eb7-4629-adf4-16f412de805a",
           "2157461f-0560-48cd-8554-bcf100797f7e",
           "1577955969162",
           "1583807005682",
