@@ -974,14 +974,6 @@
               "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/Melt_1_1_2oz.pdf?v=1723079004"
             }
           },
-          "76a8be38-59d2-4fbf-960d-2c85c65ad8e7": {
-            "type": "labtest",
-            "settings": {
-              "banner_btm_img": "shopify://shop_images/kush-queen-topical-melt-1-1-thc-cbd-lotion-30-00-off-auto-renew-39350362308853.png",
-              "banner_btm_tp_text": "Melt 1:1 Relief Lotion 16oz",
-              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/COA_Melt_1_1_16oz.pdf?v=1694823782"
-            }
-          },
           "1577955701847": {
             "type": "labtest",
             "settings": {
@@ -1212,7 +1204,6 @@
           "labtest_ytQfzK",
           "1577955903350",
           "2f32799c-8af2-4218-bca9-921be728fc3c",
-          "76a8be38-59d2-4fbf-960d-2c85c65ad8e7",
           "1577955701847",
           "1577955727746",
           "1577955740941",
