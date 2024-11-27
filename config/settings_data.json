@@ -854,14 +854,6 @@
               "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/Black_Magic_250mg_Bath_Bomb.pdf?v=1712596141"
             }
           },
-          "labtest_cihhCe": {
-            "type": "labtest",
-            "settings": {
-              "banner_btm_img": "shopify://shop_images/Love_250_pic_8d3eb74b-1221-4f26-acb2-aacd5b3c8ec9.webp",
-              "banner_btm_tp_text": "Love CBD Bath Bomb",
-              "link": ""
-            }
-          },
           "1583297276483": {
             "type": "labtest",
             "settings": {
@@ -964,14 +956,6 @@
               "banner_btm_img": "shopify://shop_images/Screenshot_2024-05-14_at_11.32.22_AM.png",
               "banner_btm_tp_text": "Mini Sleep 100mg CBD Bath Bomb",
               "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/Sleep_100mg_Mini.pdf?v=1715711392"
-            }
-          },
-          "1577955936293": {
-            "type": "labtest",
-            "settings": {
-              "banner_btm_img": "shopify://shop_images/Renew_Sugarscrub_2oz_min_1024x1024_4d01ed1d-ad12-4c39-93da-682de49f61e5.jpg",
-              "banner_btm_tp_text": "Renew CBD Sugar Scrub 2oz",
-              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/Renew_100mg.pdf?v=1708657195"
             }
           },
           "1577955903350": {
@@ -1169,7 +1153,7 @@
           "labtest_UUGYa4": {
             "type": "labtest",
             "settings": {
-              "banner_btm_img": "shopify://shop_images/Mystery_9_pic_c533d1d8-e658-42f5-8f4d-7b570f62ef2e.webp",
+              "banner_btm_img": "shopify://shop_images/Screenshot_2024-11-27_at_10.36.54_AM.png",
               "banner_btm_tp_text": "Delta 9 THC Mystery Gummies",
               "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/Mystery_D9_10pc_COA.pdf?v=1713221381"
             }
@@ -1205,70 +1189,6 @@
               "banner_btm_tp_text": "Bäre CBD Tincture: Broad-Spectrum 5000mg",
               "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/Bare_5000mg.pdf?v=1708657195"
             }
-          },
-          "e2852aba-c7ac-494f-964b-825b024535dc": {
-            "type": "labtest",
-            "settings": {
-              "banner_btm_img": "shopify://shop_images/kush-queen-live-resin-vape-sour-space-candy.jpg",
-              "banner_btm_tp_text": "Sour Space Candy Live Resin Vape",
-              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/COA_Sour_Space_Candy_VAPE.pdf?v=1694823782"
-            }
-          },
-          "47c979a9-0567-4466-96d2-122daf4c8268": {
-            "type": "labtest",
-            "settings": {
-              "banner_btm_img": "shopify://shop_images/kush-queen-hemp-flower-sour-suver-haze-live-resin-vape-37730488680693.jpg",
-              "banner_btm_tp_text": "Sour Suver Haze Live Resin Vape",
-              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/COA_Sour_Suver_Haze_VAPE.pdf?v=1694823782"
-            }
-          },
-          "labtest_AcD8W7": {
-            "type": "labtest",
-            "settings": {
-              "banner_btm_img": "shopify://shop_images/Screenshot_2024-06-06_at_4.03.47_PM.png",
-              "banner_btm_tp_text": "Hawaiian Haze CBD Pre-Roll",
-              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/Hawaiian_Haze_Pre_Roll.pdf?v=1717714811"
-            }
-          },
-          "labtest_eXREUX": {
-            "type": "labtest",
-            "settings": {
-              "banner_btm_img": "shopify://shop_images/Screenshot_2024-05-14_at_11.44.15_AM.png",
-              "banner_btm_tp_text": "Lemon Octane CBD Pre-Roll",
-              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/Lemon_Octane_Pre_Roll.pdf?v=1717714811"
-            }
-          },
-          "7c15f73a-224a-4049-9b12-87b54df3e038": {
-            "type": "labtest",
-            "settings": {
-              "banner_btm_img": "shopify://shop_images/kush-queen-hemp-flower-lemon-cherry-gelato-thca-flower-39770655129845.jpg",
-              "banner_btm_tp_text": "Lemon Cherry Gelato THCA Flower",
-              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/THCa-lemoncherrygelato-COA.jpg?v=1702671843"
-            }
-          },
-          "92404e03-1dcb-4224-bde6-5ff80619fe53": {
-            "type": "labtest",
-            "settings": {
-              "banner_btm_img": "shopify://shop_images/kush-queen-hemp-flower-super-boof-thca-flower-39770701299957.jpg",
-              "banner_btm_tp_text": "Super Boof THCA Flower",
-              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/THCa-superboof-COA.jpg?v=1702671843"
-            }
-          },
-          "2b58e27c-3965-4411-90f4-c304f794affe": {
-            "type": "labtest",
-            "settings": {
-              "banner_btm_img": "shopify://shop_images/kush-queen-hemp-flower-kush-cake-pr-thca-flower-39770666074357.jpg",
-              "banner_btm_tp_text": "Kush Cake THCA Flower",
-              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/THCa-kushcake-COA.jpg?v=1702671843"
-            }
-          },
-          "99f3c15e-63ea-487d-8d91-793577fbd316": {
-            "type": "labtest",
-            "settings": {
-              "banner_btm_img": "shopify://shop_images/kush-queen-hemp-flower-gelato-41-thca-flower-39770615185653.jpg",
-              "banner_btm_tp_text": "Gelato 41 THCA Flower",
-              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/THCa-gelato41-COA.jpg?v=1702671843"
-            }
           }
         },
         "block_order": [
@@ -1277,7 +1197,6 @@
           "baa556ef-d522-4918-9abc-b35710706d6b",
           "b5b3c11f-6f03-4fb5-b2cd-8dbe7c3ab391",
           "d82d81a3-25d7-40b4-b08c-fee57020d03a",
-          "labtest_cihhCe",
           "1583297276483",
           "0f0ba79e-b560-40fc-8f27-f09e62f8568d",
           "edb9a1ac-9fd4-428d-9c58-b0fd76d42b21",
@@ -1291,7 +1210,6 @@
           "labtest_E6NfUp",
           "labtest_hibL8U",
           "labtest_ytQfzK",
-          "1577955936293",
           "1577955903350",
           "2f32799c-8af2-4218-bca9-921be728fc3c",
           "76a8be38-59d2-4fbf-960d-2c85c65ad8e7",
@@ -1320,15 +1238,7 @@
           "1577955943336",
           "1580317702987",
           "1580318024221",
-          "1580317991671",
-          "e2852aba-c7ac-494f-964b-825b024535dc",
-          "47c979a9-0567-4466-96d2-122daf4c8268",
-          "labtest_AcD8W7",
-          "labtest_eXREUX",
-          "7c15f73a-224a-4049-9b12-87b54df3e038",
-          "92404e03-1dcb-4224-bde6-5ff80619fe53",
-          "2b58e27c-3965-4411-90f4-c304f794affe",
-          "99f3c15e-63ea-487d-8d91-793577fbd316"
+          "1580317991671"
         ],
         "settings": {}
       },
