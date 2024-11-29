@@ -298,12 +298,11 @@
               "links": "shop-all"
             }
           },
-          "link_linklist_94W3pb": {
-            "type": "link-linklist",
+          "simple_link_83T9Hn": {
+            "type": "simple_link",
             "settings": {
               "title": "Bundles",
-              "link": "shopify://collections/bundles",
-              "links": "bundles"
+              "link": "shopify://collections/bundles"
             }
           },
           "47dbf579-c272-4855-88fa-280f24e2846e": {
@@ -373,7 +372,7 @@
         },
         "block_order": [
           "link_linklist_QGbxxn",
-          "link_linklist_94W3pb",
+          "simple_link_83T9Hn",
           "47dbf579-c272-4855-88fa-280f24e2846e",
           "1571826560796",
           "1f88e979-3c5b-443f-a00d-d626dc78106f",
