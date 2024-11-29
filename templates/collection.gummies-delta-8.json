@@ -21,7 +21,7 @@
         "icon_jzAW3E": {
           "type": "icon",
           "settings": {
-            "icon_link": "",
+            "icon_link": "#",
             "icon": "shopify://shop_images/Vegan-icon.png",
             "title": "VEGAN"
           }
@@ -37,7 +37,7 @@
         "icon_9HWK7y": {
           "type": "icon",
           "settings": {
-            "icon_link": "",
+            "icon_link": "#",
             "icon": "shopify://shop_images/Group_219199028_4_small_d2a9bc30-937f-4590-915e-1a4977232511.webp",
             "title": "STRESS REDUCING"
           }
