@@ -1148,6 +1148,30 @@
               "banner_btm_tp_text": "Bäre CBD Tincture: Broad-Spectrum 5000mg",
               "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/Bare_5000mg.pdf?v=1708657195"
             }
+          },
+          "labtest_x4JeEq": {
+            "type": "labtest",
+            "settings": {
+              "banner_btm_img": "shopify://shop_images/Screenshot_2024-11-29_at_12.58.22_PM.png",
+              "banner_btm_tp_text": "Sour Cherry THCa Flower *Private Reserve*",
+              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/SourCherryLab11-4-24.pdf?v=1732913784"
+            }
+          },
+          "labtest_HApWEp": {
+            "type": "labtest",
+            "settings": {
+              "banner_btm_img": "shopify://shop_images/Screenshot_2024-11-29_at_12.59.00_PM.png",
+              "banner_btm_tp_text": "Blackberry Kush THCa Flower",
+              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/BlackberryKLab11-17-24.pdf?v=1732913784"
+            }
+          },
+          "labtest_BR8Vkr": {
+            "type": "labtest",
+            "settings": {
+              "banner_btm_img": "shopify://shop_images/Screenshot_2024-11-29_at_12.59.59_PM.png",
+              "banner_btm_tp_text": "Pistachio Runtz THCa Flower * Exotic Private Reserve*",
+              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/PistachioRuntzLab11-17-24.pdf?v=1732913784"
+            }
           }
         },
         "block_order": [
@@ -1192,7 +1216,10 @@
           "1577955943336",
           "1580317702987",
           "1580318024221",
-          "1580317991671"
+          "1580317991671",
+          "labtest_x4JeEq",
+          "labtest_HApWEp",
+          "labtest_BR8Vkr"
         ],
         "settings": {}
       },
