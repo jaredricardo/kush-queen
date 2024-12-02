@@ -279,7 +279,7 @@ data-currency=“{{ shop.currency }}” data-appkey="dKvesHTcjQgVmwJ3VGeawU22APv
                         image: "http:{{ variant.image.src | img_url: variant_image_size }}",
                   {% endif %}
                   
-                  description: "{{ product.description | strip_html | strip_newlines | escape }}",
+                  description: "{{ seo_description | strip_html | strip_newlines | escape }}",
                   offers: [{
             		  type: 'Offer',
                       price: "{{ product.selected_or_first_available_variant.price | money_without_currency | replace : ',', '' }}",
