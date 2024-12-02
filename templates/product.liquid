@@ -31,29 +31,6 @@
 
 {% assign current_variant = product.selected_or_first_available_variant %}
 
-<script type="application/ld+json">
-{
-  "@context": "http://schema.org/",
-  "@type": "Product",
-  "name": {{ product.title | json }},
-  "url": {{ shop.url | append: product.url | json }},
-  {%- if product.featured_image -%}
-    {%- assign image_size = product.featured_image.width | append: 'x' -%}
-    "image": [
-      {{ product.featured_image.src | img_url: image_size | prepend: "https:" | json }}
-    ],
-  {%- endif -%}
-  "description": {{ product.description | strip_html | json }},
-  {%- if current_variant.sku != blank -%}
-    "sku": {{ current_variant.sku | json }},
-  {%- endif -%}
-  "brand": {
-    "@type": "Thing",
-    "name": {{ product.vendor | json }}
-  }
-}
-</script>
-
 <script type="text/javascript">
   var _learnq = _learnq || [];
 
