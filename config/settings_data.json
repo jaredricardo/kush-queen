@@ -383,7 +383,7 @@
           "1571826552382"
         ],
         "settings": {
-          "announcement_text": "50% OFF + Free Shipping On Orders Over $150",
+          "announcement_text": "Free Shipping On Orders Over $150",
           "announcement_cta_url": "",
           "announcement_cta_text": "",
           "head_site_link": "",
@@ -2303,6 +2303,7 @@
       },
       "d76d763c-6c70-4fea-b4ad-4348f38cb70e": {
         "type": "sitewide-sale-announcement",
+        "disabled": true,
         "settings": {
           "text": "✨ Cyber Sale ✨ Shop 50% OFF!"
         }
