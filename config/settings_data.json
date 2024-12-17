@@ -804,10 +804,21 @@
       },
       "list-collections-template": {
         "type": "list-collections-template",
+        "blocks": {
+          "collection_UrxAUM": {
+            "type": "collection",
+            "settings": {
+              "collection": "cbd-pre-rolled-joints"
+            }
+          }
+        },
+        "block_order": [
+          "collection_UrxAUM"
+        ],
         "settings": {
-          "display_type": "all",
+          "display_type": "selected",
           "sort": "alphabetical",
-          "grid": 3
+          "grid": 2
         }
       },
       "labtest": {
