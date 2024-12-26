@@ -4,7 +4,7 @@
   <div class="prod-wrap">
     <div class="microfull covermicroful">
       <div class="prod-img">
-        <a class="img-effect" href="{{product.url | within:collection}}">
+        <a class="img-effect" href="{{product.url}}">
           <img class="first_img lazyload" src="data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'%20width='{{ product.featured_image.width }}'%20height='{{ product.featured_image.height }}'></svg>" data-src="{{ product.featured_image.src | img_url: '1024x1024' }}" alt="{{ featured.featured_image.alt | escape }}">
           {% if product.images[1].src != blank %}
           <img class="hidden1 lazyload" src="data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'%20width='{{ product.images[1].width }}'%20height='{{ product.images[1].height }}'></svg>" data-src="{{ product.images[1].src | img_url: '1024x1024' }}" alt="" />  
@@ -23,7 +23,7 @@
              <div class="showoption">
                
                     
-                  <a href="{{product.url | within:collection}}"  class="addtocart1" aria-label="Select Option - {{product.title}}" >+ Select Option  </a>
+                  <a href="{{product.url}}"  class="addtocart1" aria-label="Select Option - {{product.title}}" >+ Select Option  </a>
 
             </div>
            
