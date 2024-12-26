@@ -298,19 +298,12 @@
               "links": "shop-all"
             }
           },
-          "simple_link_83T9Hn": {
-            "type": "simple_link",
+          "link_linklist_qNFaDq": {
+            "type": "link-linklist",
             "settings": {
-              "title": "Bundles",
-              "link": "shopify://collections/bundles"
-            }
-          },
-          "47dbf579-c272-4855-88fa-280f24e2846e": {
-            "type": "simple_link",
-            "disabled": true,
-            "settings": {
-              "title": "Flash Sale",
-              "link": "shopify://collections/flash-sale"
+              "title": "Year End Sale",
+              "link": "",
+              "links": "year-end-sale"
             }
           },
           "1571826560796": {
@@ -372,8 +365,7 @@
         },
         "block_order": [
           "link_linklist_QGbxxn",
-          "simple_link_83T9Hn",
-          "47dbf579-c272-4855-88fa-280f24e2846e",
+          "link_linklist_qNFaDq",
           "1571826560796",
           "1f88e979-3c5b-443f-a00d-d626dc78106f",
           "1580399341315",
