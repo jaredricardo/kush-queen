@@ -43,7 +43,7 @@
       <div class="prod-content">
         <div class="block-inline">
           <div class="title-wish">
-            <h5 role="heading" aria-level="3" class="prod-title"> <a href="{{ product.url | within: collection }}"> {{ product.title }} </a> </h5>
+            <h5 role="heading" aria-level="3" class="prod-title"> <a href="{{ product.url}}"> {{ product.title }} </a> </h5>
             <div class="ruk_rating_snippet" data-sku="{{ product.handle }};{{ product.variants | map: 'sku' | join: ';' }};{{ product.variants | map: 'id' | join: ';' }}"></div>
              <div class="prod-price">
                 {% if product.variants.size > 1 %}
