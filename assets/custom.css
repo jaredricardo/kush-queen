@@ -152,3 +152,10 @@
         gap: 1rem;
     }
 }
+
+
+@media screen and (max-width: 410px) {
+    .ruk_rating_snippet i {
+        font-size: 12px !important;
+    }
+  } 
