@@ -29,7 +29,7 @@
         "icon_BfenYq": {
           "type": "icon",
           "settings": {
-            "icon_link": "shopify://products/cbn-gummies",
+            "icon_link": "shopify://products/cbn-gummies-for-sleep",
             "icon": "shopify://shop_images/cbn-sleep-gummies-icon.png",
             "title": "CBN  Gummies"
           }
@@ -172,7 +172,7 @@
           "type": "button",
           "settings": {
             "button_text": "Shop CBN Gummies for Sleep",
-            "button_url": "shopify://products/cbn-gummies",
+            "button_url": "shopify://products/cbn-gummies-for-sleep",
             "button_bg_color": "#000000",
             "button_text_color": "#ffffff",
             "font_family": "Eina03"
