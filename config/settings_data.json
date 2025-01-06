@@ -298,12 +298,11 @@
               "links": "shop-all"
             }
           },
-          "link_linklist_qNFaDq": {
-            "type": "link-linklist",
+          "simple_link_GNnfMB": {
+            "type": "simple_link",
             "settings": {
-              "title": "Year End Sale",
-              "link": "https://kushqueen.shop/collections/year-end-sale",
-              "links": "year-end-sale"
+              "title": "Bundles",
+              "link": "shopify://collections/bundles"
             }
           },
           "1571826560796": {
@@ -365,7 +364,7 @@
         },
         "block_order": [
           "link_linklist_QGbxxn",
-          "link_linklist_qNFaDq",
+          "simple_link_GNnfMB",
           "1571826560796",
           "1f88e979-3c5b-443f-a00d-d626dc78106f",
           "1580399341315",
@@ -2306,6 +2305,7 @@
       },
       "d76d763c-6c70-4fea-b4ad-4348f38cb70e": {
         "type": "sitewide-sale-announcement",
+        "disabled": true,
         "settings": {
           "text": "✨ Shop 30% Off Site Wide + <br>Up 60% Off Selects ✨"
         }
