@@ -91,7 +91,7 @@
         "p_dTWN7m": {
           "type": "p",
           "settings": {
-            "p": "<p><a href=\"https://kushqueen.shop/collections/thc-gummies\"><span style=\"text-decoration:underline\"><strong>THC Gummies</strong></span></a><span style=\"text-decoration:underline\"><strong>:</strong></span><strong> </strong>Best for elevating your mood and creating a strong feeling of euphoria. </p><p><a href=\"https://kushqueen.shop/collections/cbd-gummies\"><span style=\"text-decoration:underline\"><strong>CBD Gummies</strong></span></a><strong>: </strong>Best for general well-being and managing a variety of ailments such as pain and inflammation. No psychoactive properties.</p><p><a href=\"https://kushqueen.shop/products/cbg-gummies\"><span style=\"text-decoration:underline\"><strong>CBG Mood Gummies</strong></span></a><strong>: </strong>Best for uplifting mood with no psychoactive properties. </p><p><a href=\"https://kushqueen.shop/products/thcv-gummies\"><span style=\"text-decoration:underline\"><strong>THCv Focus Gummies</strong></span></a><strong>: </strong>Best for unlocking your flow state through light blissful focused buzz. </p><p><a href=\"https://kushqueen.shop/products/cbn-gummies\" title=\"https://kushqueen.shop/products/cbn-gummies\"><span style=\"text-decoration:underline\"><strong>CBN Sleep Gummies</strong></span></a><span style=\"text-decoration:underline\"><strong>:</strong></span> Best for rest, natural sleep aid, and deep relaxation. Low-mild psychoactive effects. </p>",
+            "p": "<p><a href=\"https://kushqueen.shop/collections/thc-gummies\"><span style=\"text-decoration:underline\"><strong>THC Gummies</strong></span></a><span style=\"text-decoration:underline\"><strong>:</strong></span><strong> </strong>Best for elevating your mood and creating a strong feeling of euphoria. </p><p><a href=\"https://kushqueen.shop/collections/cbd-gummies\"><span style=\"text-decoration:underline\"><strong>Full Spectrum CBD Gummies</strong></span></a><strong>: </strong>Best for general well-being and managing a variety of ailments such as pain and inflammation. </p><p><a href=\"https://kushqueen.shop/products/cbg-gummies\"><span style=\"text-decoration:underline\"><strong>CBG Mood Gummies</strong></span></a><strong>: </strong>Best for uplifting mood with no psychoactive properties. </p><p><a href=\"https://kushqueen.shop/products/thcv-gummies\"><span style=\"text-decoration:underline\"><strong>THCv Focus Gummies</strong></span></a><strong>: </strong>Best for unlocking your flow state through light blissful focused buzz. </p><p><a href=\"https://kushqueen.shop/products/cbn-gummies\" title=\"https://kushqueen.shop/products/cbn-gummies\"><span style=\"text-decoration:underline\"><strong>CBN Sleep Gummies</strong></span></a><span style=\"text-decoration:underline\"><strong>:</strong></span> Best for rest, natural sleep aid, and deep relaxation. Low-mild psychoactive effects. </p>",
             "font_family": "Eina03"
           }
         },
@@ -126,7 +126,7 @@
         "h3_FAUDBQ": {
           "type": "h3",
           "settings": {
-            "h3": "<p><strong>Delta 8 THC Gummies</strong></p>",
+            "h3": "<p><strong>Our Proprietary CBD</strong></p>",
             "font_size_d": 24,
             "font_size_m": 18,
             "font_family": "Eina03"
@@ -135,27 +135,15 @@
         "p_cnx99P": {
           "type": "p",
           "settings": {
-            "p": "<p>Delta-8 THC gummies are an excellent choice for those seeking a milder high, yet still enjoyable psychoactive experience. Each gummy is crafted with high-quality, natural ingredients, and offers a precise dosage of Delta-8 THC, known for its calming and uplifting effects without the intense high often associated with Delta-9 THC. With their delicious natural flavors and easy-to-consume form factor, Kush Queen Delta-8 THC gummies provide a delightful and reliable way to relax, relieve stress, and enjoy a chill state of mind.</p>",
-            "font_family": "Eina03"
-          }
-        },
-        "button_z33Nnw": {
-          "type": "button",
-          "settings": {
-            "button_text": "Shop Delta 8 Gummies",
-            "button_url": "https://kushqueen.shop/collections/delta-8-gummies",
-            "button_bg_color": "#000000",
-            "button_text_color": "#ffffff",
+            "p": "<p>At Kush Queen, our CBD stands out with a full-spectrum hemp extract that's engineered for unmatched quality and consistency. Our proprietary \"KQ Spec\" formulation ensures a perfectly balanced cannabinoid ratio, so you get the same reliable, high-quality experience every time. From relaxation to relief, our CBD is designed to elevate your wellness routine, keeping you feeling great every single time.</p>",
             "font_family": "Eina03"
           }
         }
       },
       "block_order": [
         "h3_FAUDBQ",
-        "p_cnx99P",
-        "button_z33Nnw"
+        "p_cnx99P"
       ],
-      "disabled": true,
       "settings": {
         "background_color": "#ffffff",
         "col_order": "",
