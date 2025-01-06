@@ -26,36 +26,36 @@
             "title": "THC Gummies"
           }
         },
-        "icon_BfenYq": {
-          "type": "icon",
-          "settings": {
-            "icon_link": "shopify://collections/cbd-gummies",
-            "icon": "shopify://shop_images/cbg-mood-gummies-icon.png",
-            "title": "CBD Gummies"
-          }
-        },
         "icon_9HWK7y": {
           "type": "icon",
           "settings": {
-            "icon_link": "shopify://collections/delta-8-gummies",
+            "icon_link": "shopify://products/cbn-gummies-for-sleep",
             "icon": "shopify://shop_images/cbn-sleep-gummies-icon.png",
-            "title": "Delta 8 Gummies"
+            "title": "Sleep Gummies"
           }
         },
         "icon_mALUW6": {
           "type": "icon",
           "settings": {
-            "icon_link": "shopify://collections/delta-9-gummies",
+            "icon_link": "shopify://products/thcv-gummies",
             "icon": "shopify://shop_images/thcv-focus-gummies-icon.png",
-            "title": "Delta 9 Gummies"
+            "title": "Focus Gummies"
+          }
+        },
+        "icon_BfenYq": {
+          "type": "icon",
+          "settings": {
+            "icon_link": "shopify://products/cbg-gummies",
+            "icon": "shopify://shop_images/cbg-mood-gummies-icon.png",
+            "title": "Mood Gummies"
           }
         }
       },
       "block_order": [
         "icon_jzAW3E",
-        "icon_BfenYq",
         "icon_9HWK7y",
-        "icon_mALUW6"
+        "icon_mALUW6",
+        "icon_BfenYq"
       ],
       "settings": {
         "background_color": "#ffffff",
