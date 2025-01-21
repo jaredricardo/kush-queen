@@ -1174,6 +1174,13 @@
               "banner_btm_tp_text": "Pistachio Runtz THCa Flower * Exotic Private Reserve*",
               "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/PistachioRuntzLab11-17-24.pdf?v=1732913784"
             }
+          },
+          "labtest_cAtgwb": {
+            "type": "labtest",
+            "settings": {
+              "banner_btm_tp_text": "Gelato 41",
+              "link": ""
+            }
           }
         },
         "block_order": [
@@ -1221,7 +1228,8 @@
           "1580317991671",
           "labtest_x4JeEq",
           "labtest_HApWEp",
-          "labtest_BR8Vkr"
+          "labtest_BR8Vkr",
+          "labtest_cAtgwb"
         ],
         "settings": {}
       },
