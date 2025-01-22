@@ -1198,28 +1198,6 @@
               "banner_btm_tp_text": "Pistachio Runtz THCa Flower *Exotic*",
               "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/PistachioRuntzLab11-17-24.pdf?v=1732913784"
             }
-          },
-          "labtest_BFPYGq": {
-            "type": "labtest",
-            "settings": {
-              "banner_btm_img": "shopify://shop_images/Screenshot_2025-01-21_at_4.06.13_PM.png",
-              "banner_btm_tp_text": "Gelato 41 THCa AAA Buds Joint",
-              "link": ""
-            }
-          },
-          "labtest_D74Nhp": {
-            "type": "labtest",
-            "settings": {
-              "banner_btm_tp_text": "",
-              "link": ""
-            }
-          },
-          "labtest_BTP9WP": {
-            "type": "labtest",
-            "settings": {
-              "banner_btm_tp_text": "",
-              "link": ""
-            }
           }
         },
         "block_order": [
@@ -1270,10 +1248,7 @@
           "labtest_HApWEp",
           "labtest_JQ6WCW",
           "labtest_x4JeEq",
-          "labtest_BR8Vkr",
-          "labtest_BFPYGq",
-          "labtest_D74Nhp",
-          "labtest_BTP9WP"
+          "labtest_BR8Vkr"
         ],
         "settings": {}
       },
