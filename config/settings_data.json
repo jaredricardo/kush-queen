@@ -1151,32 +1151,18 @@
               "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/Bare_5000mg.pdf?v=1708657195"
             }
           },
-          "labtest_x4JeEq": {
+          "labtest_cAtgwb": {
             "type": "labtest",
             "settings": {
-              "banner_btm_img": "shopify://shop_images/Screenshot_2024-11-29_at_12.58.22_PM.png",
-              "banner_btm_tp_text": "Sour Cherry THCa Flower *Private Reserve*",
-              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/SourCherryLab11-4-24.pdf?v=1732913784"
-            }
-          },
-          "labtest_GJyxbd": {
-            "type": "labtest",
-            "settings": {
-              "banner_btm_tp_text": "",
-              "link": ""
-            }
-          },
-          "labtest_JQ6WCW": {
-            "type": "labtest",
-            "settings": {
-              "banner_btm_tp_text": "Lemon Cherry",
+              "banner_btm_img": "shopify://shop_images/Screenshot_2025-01-21_at_3.57.50_PM.png",
+              "banner_btm_tp_text": "Bacio Gelato 41 THCa Flower *Exotic*",
               "link": ""
             }
           },
           "labtest_fJAbrk": {
             "type": "labtest",
             "settings": {
-              "banner_btm_tp_text": "Blue Warheads",
+              "banner_btm_tp_text": "Blue Warheads THCa Flower *Exotic Private Reserve*",
               "link": ""
             }
           },
@@ -1188,6 +1174,13 @@
               "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/BlackberryKLab11-17-24.pdf?v=1732913784"
             }
           },
+          "labtest_JQ6WCW": {
+            "type": "labtest",
+            "settings": {
+              "banner_btm_tp_text": "Lemon Cherry",
+              "link": ""
+            }
+          },
           "labtest_BR8Vkr": {
             "type": "labtest",
             "settings": {
@@ -1196,18 +1189,12 @@
               "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/PistachioRuntzLab11-17-24.pdf?v=1732913784"
             }
           },
-          "labtest_meKTrU": {
+          "labtest_x4JeEq": {
             "type": "labtest",
             "settings": {
-              "banner_btm_tp_text": "",
-              "link": ""
-            }
-          },
-          "labtest_cAtgwb": {
-            "type": "labtest",
-            "settings": {
-              "banner_btm_tp_text": "Bacio Gelato 41 THCa Flower *Exotic*",
-              "link": ""
+              "banner_btm_img": "shopify://shop_images/Screenshot_2024-11-29_at_12.58.22_PM.png",
+              "banner_btm_tp_text": "Sour Cherry THCa Flower *Private Reserve*",
+              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/SourCherryLab11-4-24.pdf?v=1732913784"
             }
           }
         },
@@ -1254,14 +1241,12 @@
           "1580317702987",
           "1580318024221",
           "1580317991671",
-          "labtest_x4JeEq",
-          "labtest_GJyxbd",
-          "labtest_JQ6WCW",
+          "labtest_cAtgwb",
           "labtest_fJAbrk",
           "labtest_HApWEp",
+          "labtest_JQ6WCW",
           "labtest_BR8Vkr",
-          "labtest_meKTrU",
-          "labtest_cAtgwb"
+          "labtest_x4JeEq"
         ],
         "settings": {}
       },
