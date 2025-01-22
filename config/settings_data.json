@@ -1162,6 +1162,7 @@
           "labtest_fJAbrk": {
             "type": "labtest",
             "settings": {
+              "banner_btm_img": "shopify://shop_images/Screenshot_2025-01-21_at_4.00.22_PM.png",
               "banner_btm_tp_text": "Blue Warheads THCa Flower *Exotic Private Reserve*",
               "link": ""
             }
@@ -1177,7 +1178,8 @@
           "labtest_JQ6WCW": {
             "type": "labtest",
             "settings": {
-              "banner_btm_tp_text": "Lemon Cherry",
+              "banner_btm_img": "shopify://shop_images/Screenshot_2025-01-21_at_4.04.31_PM.png",
+              "banner_btm_tp_text": "Lemon Cherry Gelato THCa Flower *Exotic*",
               "link": ""
             }
           },
