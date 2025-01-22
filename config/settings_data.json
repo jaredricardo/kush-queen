@@ -1202,6 +1202,7 @@
           "labtest_BFPYGq": {
             "type": "labtest",
             "settings": {
+              "banner_btm_img": "shopify://shop_images/Screenshot_2025-01-21_at_4.06.13_PM.png",
               "banner_btm_tp_text": "Gelato 41 THCa AAA Buds Joint",
               "link": ""
             }
