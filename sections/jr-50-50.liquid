@@ -63,7 +63,7 @@
             {% endfor %}
         </div>
         <div class="col">
-            <img src="{{ section.settings.image | img_url: 'master' }}" alt="Section Image">
+            <img src="{{ section.settings.image | img_url: 'master' }}" alt="{{ section.settings.image.alt | default: '' | escape }}">
         </div>
     </div>
 </div>
