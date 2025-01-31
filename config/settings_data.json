@@ -298,11 +298,12 @@
               "links": "shop-all"
             }
           },
-          "simple_link_GNnfMB": {
-            "type": "simple_link",
+          "link_linklist_TMwPpm": {
+            "type": "link-linklist",
             "settings": {
-              "title": "Bundles",
-              "link": "shopify://collections/bundles"
+              "title": "V Day",
+              "link": "https://kushqueen.shop/collections/v-day",
+              "links": "v-day-deals"
             }
           },
           "1571826560796": {
@@ -364,7 +365,7 @@
         },
         "block_order": [
           "link_linklist_QGbxxn",
-          "simple_link_GNnfMB",
+          "link_linklist_TMwPpm",
           "1571826560796",
           "1f88e979-3c5b-443f-a00d-d626dc78106f",
           "1580399341315",
