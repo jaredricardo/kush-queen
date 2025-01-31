@@ -83,7 +83,7 @@
         "h3_bhxK6V": {
           "type": "h3",
           "settings": {
-            "h3": "<p><strong>THC Gummies Crafted With Excellence</strong></p>",
+            "h3": "<p><strong>Gummies with THC – Crafted for Excellence</strong></p>",
             "font_size_d": 24,
             "font_size_m": 14,
             "font_family": "Eina03"
@@ -280,14 +280,14 @@
         "faq_block_BJATBW"
       ],
       "settings": {
-        "faq_title": "Frequently Asked Questions"
+        "faq_title": "Frequently Asked Questions About THC Gummies"
       }
     },
     "rich_text_Kyrk4Y": {
       "type": "rich-text",
       "settings": {
         "full_width": false,
-        "section_title": "Need some guidance?",
+        "section_title": "Need Some Guidance on THC Gummies?",
         "text": "<p><em>Kush Queen, your trusted wellness partner since 2015, serving over 95,000 customers with 5 star-rated weed gummies. Reach out to us at hello@kushqueen.shop. Your well-being is our priority.</em></p>",
         "text_size": "medium"
       }
