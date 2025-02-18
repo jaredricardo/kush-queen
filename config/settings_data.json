@@ -375,7 +375,7 @@
           "1571826552382"
         ],
         "settings": {
-          "announcement_text": "Valentine's Sale 💕 Shop 30% Off, Code LOVER",
+          "announcement_text": "Free Shipping On Orders Over $150",
           "announcement_cta_url": "",
           "announcement_cta_text": "",
           "head_site_link": "",
@@ -2333,6 +2333,7 @@
       },
       "d76d763c-6c70-4fea-b4ad-4348f38cb70e": {
         "type": "sitewide-sale-announcement",
+        "disabled": true,
         "settings": {
           "text": "💕 Shop 30% Off, Code LOVER"
         }
