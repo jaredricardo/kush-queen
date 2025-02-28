@@ -285,6 +285,14 @@ window.TriplePixelData={TripleName:"kush-queen-shop.myshopify.com",ver:"2.12",pl
       </style>
     {% endif %}
 
+     {% if request.page_type == "page" and page.handle == "420-pre" %}
+       <style>
+           .site-breadcumb {
+             display: none;
+           }
+       </style>
+     {% endif %}
+
     <script>
       if (window.location.pathname.startsWith('/tools/recurring')) window.location.href = '/a/account/login';
     </script>
