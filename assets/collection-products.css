@@ -1360,7 +1360,8 @@ i.fa.opened.fa-chevron-up{
   font-size: 22px;
 }
 
-.gem_rt .add-to-cart-btn {
+.gem_rt .add-to-cart-btn,
+.gem_rt .add-to-cart-btn-no-event-copy {
   background-color: #eb7025;
   color: #fff;
   font-size: 16px;
@@ -1375,7 +1376,8 @@ i.fa.opened.fa-chevron-up{
   border: 0px;
   margin-left: 0px !important;
 }
-.gem_rt .add-to-cart-btn i {
+.gem_rt .add-to-cart-btn i,
+.gem_rt .add-to-cart-btn-no-event-copy i {
   font-size: 18px;
   margin-right: 5px;
   color:#fff;
@@ -2084,7 +2086,8 @@ h2.resp-tab-active span.resp-arrow{border-bottom: 12px solid #eb7025;}
   .blog-section .article-listing {
     margin-bottom: 18px;
   }
-  .gem_rt .add-to-cart-btn {
+  .gem_rt .add-to-cart-btn,
+  .gem_rt .add-to-cart-btn-no-event-copy  {
     width: 75%;   
   }
   .elementor-widget-container {
