@@ -87,7 +87,8 @@ div.rc_block__type {
   margin-left: 0;
 }
 
-body.template-product .add-to-cart-btn {
+body.template-product .add-to-cart-btn,
+body.template-product .add-to-cart-btn-no-event-copy{
   margin-left: 0;
   width: 100% !important;
   background-color: #000 !important;

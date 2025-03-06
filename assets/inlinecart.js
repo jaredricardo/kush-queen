@@ -101,7 +101,7 @@ function closeDrawer(e){
 }
 
 function addToCart(e){
-  console.log('ADDING TO CART FROM INLINE CART JS')
+
   if (typeof e !== 'undefined') 
     e.preventDefault();
 

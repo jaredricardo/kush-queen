@@ -361,6 +361,7 @@
               </div>
               <div class="form-group">
                 <button 
+      
                   id="AddToCart-{{ section.id }}" 
                   class="add-to-cart-btn shop-now-btn common-transition theme-btn-hover"
                   type="submit"
@@ -379,7 +380,7 @@
                   </span>
                 </button>
                 {% unless current_variant.available %}
-                  <a class="klaviyo-bis-trigger add-to-cart-btn" href="#" style="text-align: center;">Notify Me When Available</a>
+                  <a class="klaviyo-bis-trigger add-to-cart-btn-no-event-copy" href="#" style="text-align: center;">Notify Me When Available</a>
                 {% endunless %}
                 {% comment %} <button
                   data-add-to-cart
