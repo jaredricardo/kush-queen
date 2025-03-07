@@ -89,7 +89,9 @@ window.TriplePixelData={TripleName:"kush-queen-shop.myshopify.com",ver:"2.12",pl
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="theme-color" content="#F3F2EC">
     <link rel="canonical" href="{{ canonical_url }}">
-
+    {% if template contains 'search' %}
+      <meta name="robots" content="noindex,follow">
+    {% endif %}
     {%- if settings.favicon != blank -%}
       <link rel="shortcut icon" href="{{ settings.favicon | img_url: '32x32' }}" type="image/png">
     {%- endif -%}
@@ -284,8 +286,8 @@ window.TriplePixelData={TripleName:"kush-queen-shop.myshopify.com",ver:"2.12",pl
         }
       </style>
     {% endif %}
-
-     {% if request.page_type == "page" and page.handle == "420-pre" %}
+      
+     {% if request.page_type == "page" and page.handle == "420-prep" %}
        <style>
            .site-breadcumb {
              display: none;
