@@ -1110,6 +1110,22 @@
               "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/Mystery_D9_10pc_COA.pdf?v=1713221381"
             }
           },
+          "labtest_xLxbY7": {
+            "type": "labtest",
+            "settings": {
+              "banner_btm_img": "shopify://shop_images/kush-queen-ingestibles-wetter-for-her-female-sexual-enhancement-gummy-40992023576821.png",
+              "banner_btm_tp_text": "Wetter For Her, Sexual Enhancement Gummy",
+              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/Wetter.pdf?v=1743541242"
+            }
+          },
+          "labtest_d9z4KG": {
+            "type": "labtest",
+            "settings": {
+              "banner_btm_img": "shopify://shop_images/kush-queen-ingestibles-harder-for-him-male-sexual-enhancement-gummy-40991703826677.png",
+              "banner_btm_tp_text": "Harder For Him, Sexual Enhancement Gummy",
+              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/Harder.pdf?v=1743541242"
+            }
+          },
           "1577955943336": {
             "type": "labtest",
             "settings": {
@@ -1230,6 +1246,8 @@
           "labtest_QzCUFp",
           "labtest_aR6twL",
           "labtest_UUGYa4",
+          "labtest_xLxbY7",
+          "labtest_d9z4KG",
           "1577955943336",
           "1580317702987",
           "1580318024221",
