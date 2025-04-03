@@ -867,7 +867,7 @@
             "settings": {
               "banner_btm_img": "shopify://shop_images/kush-queen-cbd-bath-bomb-1000mg-cbd-bath-bomb-39402213441781.jpg",
               "banner_btm_tp_text": "Shield 1000mg CBD Bath Bomb",
-              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/COA_Kush_Queen_-_Shield_1000MG.pdf?v=1694790238"
+              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/Shield_1000MG.pdf?v=1743699074"
             }
           },
           "58108bde-c48e-47ee-8c9b-c912824eb65d": {
@@ -915,7 +915,7 @@
             "settings": {
               "banner_btm_img": "shopify://shop_images/Screenshot_2024-05-14_at_11.31.10_AM.png",
               "banner_btm_tp_text": "Mini Relax 100mg CBD Bath Bomb",
-              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/Relax_100mg_Mini.pdf?v=1715711392"
+              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/Relax_100mg.pdf?v=1743699074"
             }
           },
           "labtest_CMzHxF": {
@@ -923,7 +923,7 @@
             "settings": {
               "banner_btm_img": "shopify://shop_images/Screenshot_2024-05-14_at_11.31.27_AM.png",
               "banner_btm_tp_text": "Mini Black Magic 100mg CBD Bath Bomb",
-              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/BM_100mg_Mini.pdf?v=1715711392"
+              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/Black_Magic_1000MG.pdf?v=1743699074"
             }
           },
           "labtest_E6NfUp": {
@@ -931,7 +931,7 @@
             "settings": {
               "banner_btm_img": "shopify://shop_images/Screenshot_2024-05-14_at_11.31.41_AM.png",
               "banner_btm_tp_text": "Mini Shield 100mg CBD Bath Bomb",
-              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/Shield_100mg_Mini.pdf?v=1715711392"
+              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/Shield_1000MG.pdf?v=1743699074"
             }
           },
           "labtest_hibL8U": {
@@ -939,7 +939,7 @@
             "settings": {
               "banner_btm_img": "shopify://shop_images/Screenshot_2024-05-14_at_11.31.56_AM.png",
               "banner_btm_tp_text": "Mini Relieve 100mg CBD Bath Bomb",
-              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/Relieve_100mg_Mini.pdf?v=1715712013"
+              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/Relieve_1000MG.pdf?v=1743699074"
             }
           },
           "labtest_ytQfzK": {
@@ -947,7 +947,7 @@
             "settings": {
               "banner_btm_img": "shopify://shop_images/Screenshot_2024-05-14_at_11.32.22_AM.png",
               "banner_btm_tp_text": "Mini Sleep 100mg CBD Bath Bomb",
-              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/Sleep_100mg_Mini.pdf?v=1715711392"
+              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/Sleep_100mg.pdf?v=1743699074"
             }
           },
           "1577955903350": {
@@ -955,7 +955,7 @@
             "settings": {
               "banner_btm_img": "shopify://shop_images/Renew_Sugarscrub_16oz_min_1024x1024_e3f17ec3-1aac-4120-9398-765d1629baa7.jpg",
               "banner_btm_tp_text": "Renew CBD Sugar Scrub 16oz",
-              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/Renew_1000mg.pdf?v=1708657195"
+              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/Renew_Scrub_0527b948-529a-4c60-b6b0-6c78037243fb.pdf?v=1743699074"
             }
           },
           "2f32799c-8af2-4218-bca9-921be728fc3c": {
@@ -1110,6 +1110,14 @@
               "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/Myster_D9_10ct.pdf?v=1743541242"
             }
           },
+          "labtest_WM6XMW": {
+            "type": "labtest",
+            "settings": {
+              "banner_btm_img": "shopify://shop_images/kush-queen-topical-tolerance-break-gummies-40173361398005.png",
+              "banner_btm_tp_text": "Tolerance Break Gummies",
+              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/Tolerance_Break.pdf?v=1743699074"
+            }
+          },
           "labtest_xLxbY7": {
             "type": "labtest",
             "settings": {
@@ -1246,6 +1254,7 @@
           "labtest_QzCUFp",
           "labtest_aR6twL",
           "labtest_UUGYa4",
+          "labtest_WM6XMW",
           "labtest_xLxbY7",
           "labtest_d9z4KG",
           "1577955943336",
