@@ -365,9 +365,9 @@
           "1571826552382"
         ],
         "settings": {
-          "announcement_text": "💚 420 Early Bird Sale Is On 💚",
-          "announcement_cta_url": "",
-          "announcement_cta_text": "",
+          "announcement_text": "Today's 420 Deal of the day",
+          "announcement_cta_url": "https://kushqueen.shop/collections/thc-bath-bombs",
+          "announcement_cta_text": "$10 THC Bath bombs",
           "head_site_link": "",
           "head_site_link_txt": "Kush Queen",
           "head_site_king_link": "",
@@ -2350,6 +2350,7 @@
       },
       "d76d763c-6c70-4fea-b4ad-4348f38cb70e": {
         "type": "sitewide-sale-announcement",
+        "disabled": true,
         "settings": {
           "text": "Buy More, Save More!<br> $60 = 20% Off 🚀 $85 = 30% Off <br> $150 = 40% Off"
         }
