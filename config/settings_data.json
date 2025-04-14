@@ -298,13 +298,6 @@
               "links": "shop-all"
             }
           },
-          "simple_link_XJiriU": {
-            "type": "simple_link",
-            "settings": {
-              "title": "Bundles",
-              "link": "shopify://collections/bundles"
-            }
-          },
           "1571826560796": {
             "type": "link-linklist",
             "settings": {
@@ -352,17 +345,24 @@
               "link": "shopify://collections/topical-thc-cbd",
               "links": "topicals"
             }
+          },
+          "simple_link_iUkaie": {
+            "type": "simple_link",
+            "settings": {
+              "title": "Merch",
+              "link": "shopify://collections/kush-queen-merch-1"
+            }
           }
         },
         "block_order": [
           "link_linklist_QGbxxn",
-          "simple_link_XJiriU",
           "1571826560796",
           "1f88e979-3c5b-443f-a00d-d626dc78106f",
           "32f1f937-10ad-4ae8-a64b-705364661315",
           "779aa32a-4620-41dc-ba84-481a090c20d7",
           "4f5ec842-39ff-4f79-9428-f0efaf6153af",
-          "1571826552382"
+          "1571826552382",
+          "simple_link_iUkaie"
         ],
         "settings": {
           "announcement_text": "420 Deal 💚",
