@@ -2350,9 +2350,8 @@
       },
       "d76d763c-6c70-4fea-b4ad-4348f38cb70e": {
         "type": "sitewide-sale-announcement",
-        "disabled": true,
         "settings": {
-          "text": "Buy More, Save More!<br> $60 = 20% Off 🚀 $85 = 30% Off <br> $150 = 40% Off"
+          "text": "Shop 50% Off ✨ Happy 420!"
         }
       }
     },
