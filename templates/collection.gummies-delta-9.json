@@ -15,54 +15,6 @@
         "enable_breadcrumb": true
       }
     },
-    "icon_links_L3CAzk": {
-      "type": "icon-links",
-      "blocks": {
-        "icon_jzAW3E": {
-          "type": "icon",
-          "settings": {
-            "icon_link": "#",
-            "icon": "shopify://shop_images/Euphoric-icon_small_854cc24e-0a06-4b0c-866d-77318e7ce0e5.webp",
-            "title": "EUPHORIC EFFECTS"
-          }
-        },
-        "icon_BfenYq": {
-          "type": "icon",
-          "settings": {
-            "icon_link": "#",
-            "icon": "shopify://shop_images/Group_219199029_1_small_4b3559e8-11b8-4ec4-8846-02496a7b4ff6.webp",
-            "title": "PAIN RELIEVING"
-          }
-        },
-        "icon_9HWK7y": {
-          "type": "icon",
-          "settings": {
-            "icon_link": "#",
-            "icon": "shopify://shop_images/Group_219199028_4_small_d2a9bc30-937f-4590-915e-1a4977232511.webp",
-            "title": "SMILE MAKERS"
-          }
-        },
-        "icon_mALUW6": {
-          "type": "icon",
-          "settings": {
-            "icon_link": "#",
-            "icon": "shopify://shop_images/Taste-Icon_84dfb26f-491b-4f45-9855-f4de11df68c7.png",
-            "title": "DELICIOUS TASTE"
-          }
-        }
-      },
-      "block_order": [
-        "icon_jzAW3E",
-        "icon_BfenYq",
-        "icon_9HWK7y",
-        "icon_mALUW6"
-      ],
-      "settings": {
-        "background_color": "#ffffff",
-        "text_color": "#000000",
-        "icon_title_font": "Gotham-bold"
-      }
-    },
     "new-collection-template": {
       "type": "new-collection-template",
       "settings": {
@@ -261,7 +213,6 @@
   },
   "order": [
     "collection_header_7bBjxG",
-    "icon_links_L3CAzk",
     "new-collection-template",
     "jr_50_50_ifPYW3",
     "jr_50_50_4NwCY3",
