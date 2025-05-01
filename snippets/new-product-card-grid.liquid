@@ -5,9 +5,11 @@
     <div class="microfull covermicroful">
       <div class="prod-img">
         <a class="img-effect" href="{{product.url}}">
-          <img class="first_img lazyload" src="data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'%20width='{{ product.featured_image.width }}'%20height='{{ product.featured_image.height }}'></svg>" data-src="{{ product.featured_image.src | img_url: '1024x1024' }}" alt="{{ featured.featured_image.alt | escape }}">
+          {% comment %} <img class="first_img lazyload border-top-rounded w-100" src="data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'%20width='{{ product.featured_image.width }}'%20height='{{ product.featured_image.height }}'></svg>" data-src="{{ product.featured_image.src | img_url: '500x500' }}" alt="{{ featured.featured_image.alt | escape }}"> {% endcomment %}
+          {{ product.featured_image | image_url: width: 500 | image_tag: widths: '100, 200, 300, 400, 500', height: 'auto', class:'first_img lazyload border-top-rounded' }}
           {% if product.images[1].src != blank %}
-          <img class="hidden1 lazyload" src="data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'%20width='{{ product.images[1].width }}'%20height='{{ product.images[1].height }}'></svg>" data-src="{{ product.images[1].src | img_url: '1024x1024' }}" alt="" />  
+            {{ product.images[1] | image_url: width: 500 | image_tag: widths: '100, 200, 300, 400, 500', height: 'auto', class:'hidden1 lazyload border-top-rounded' }}
+            {% comment %} <img class="hidden1 lazyload border-top-rounded w-100" src="data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'%20width='{{ product.images[1].width }}'%20height='{{ product.images[1].height }}'></svg>" data-src="{{ product.images[1].src | img_url: '00x500' }}" alt="" />   {% endcomment %}
           {% endif %}
           <span class="visually-hidden">{{product.title}}</span>
         </a>   
