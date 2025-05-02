@@ -27,13 +27,12 @@
         <div class="grid__item medium-up--one-half shopleft">
           <div class="prod-single-slider">
             <div class="right prod-slider single-product-image" style="{% if product.images.size == 1 %} width:100%;{% endif %}">
-
-              
               
               {% if product.images.size == 0 %}
               <div class="product-single__photo-wrapper js">
                 <a href="#" class="MagicZoom product-single__photo" data-image-id="{{ image.id }}">
-                  <img class="product-image" src="{{ image | img_url: 'grande' }}" alt="{{ image.alt | escape }}" data-my-custom-image="{{image.id}}">
+                  {{ image | image_url: width: 800 | image_tag: widths: '390, 460, 768, 981, 1080, 1440', height: 'auto', class:'product-image', alt: image.alt, data-my-custom-image: image.id }}
+                  {% comment %} <img class="product-image" src="{{ image | img_url: 'grande' }}" alt="{{ image.alt | escape }}" data-my-custom-image="{{image.id}}"> {% endcomment %}
                 </a>
               </div>
               {% else %}
