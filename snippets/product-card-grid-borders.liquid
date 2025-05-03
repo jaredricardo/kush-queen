@@ -161,21 +161,12 @@
 
 </style>
 
+{% comment %} 
+loaded in theme.liquid
 <script src="https://widget.reviews.io/rating-snippet/dist.js"></script>
-<link rel="stylesheet" href="https://widget.reviews.io/rating-snippet/dist.css"/>
-<script>
-ratingSnippet("ruk_rating_snippet", {
-  store: "kush-queen",
-  mode: "default",
-  color: "#7C6F4C",
-  linebreak: false,
-  text: "Reviews",
-  singularText: "Review",
-  lang: "en",
-  usePolaris: true,
-  showEmptyStars: false,
-});
-</script>
+<link rel="stylesheet" href="https://widget.reviews.io/rating-snippet/dist.css"/> 
+{% endcomment %}
+
 <script>
   $(document).ready(function() {
       var touchStartX = 0;
