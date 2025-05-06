@@ -5,7 +5,7 @@
   {% endif %}
 {% endfor %}
 
-<section style="background-image: url({{ section.settings.bg_image | img_url: 'master' }});" class="two-col-container">
+<section style="background-image: url({{ section.settings.bg_image | image_url: width: 1200 }});" class="two-col-container">
   <div class="page-width-2">
     <div class="two-column-section">
       <div class="left-column">
@@ -19,7 +19,8 @@
               <div class="table-column">
                 <div class="table_top">
                   <div class="table-image">
-                    <img src="{{ block.settings.block_image | img_url: 'master' }}" alt="">
+                    {{ block.settings.block_image | image_url: width: 300 | image_tag: widths: '390, 460, 768, 981, 1080, 1440', height: 'auto'}}
+                    {% comment %} <img src="{{ block.settings.block_image | img_url: 'master' }}" alt=""> {% endcomment %}
                   </div>
                   <div>{{ block.settings.block_text_top }}</div>
                 </div>

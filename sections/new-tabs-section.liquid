@@ -56,15 +56,15 @@
           "
         >
           {% if block.settings.image_1 != blank %}
-            <img src="{{ block.settings.image_1 | img_url: 'master' }}" alt="Gallery Image 1" style='object-fit: {% if block.settings.image_2 == blank %}contain{% else %}cover{% endif %};'>
+            <img src="{{ block.settings.image_1 | img_url: 'large' }}" alt="Gallery Image 1" style='object-fit: {% if block.settings.image_2 == blank %}contain{% else %}cover{% endif %};'>
 
           {% endif %}
           {% if block.settings.image_2 != blank %}
-            <img src="{{ block.settings.image_2 | img_url: 'master' }}" alt="Gallery Image 2">
+            <img src="{{ block.settings.image_2 | img_url: 'large' }}" alt="Gallery Image 2">
 
           {% endif %}
           {% if block.settings.image_3 != blank %}
-            <img src="{{ block.settings.image_3 | img_url: 'master' }}" alt="Gallery Image 3">
+            <img src="{{ block.settings.image_3 | img_url: 'large' }}" alt="Gallery Image 3">
 
           {% endif %}
         </div>

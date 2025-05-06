@@ -1,7 +1,8 @@
 <!doctype html>
 <html class="no-js" lang="{{ shop.locale }}">
   <head>
-	{% render 'pandectes-rules' %}{% render 'skio-head' %}
+	{% render 'pandectes-rules' %}
+  {% render 'skio-head' %}
 	
 	
 	
@@ -52,35 +53,6 @@ window.TriplePixelData={TripleName:"kush-queen-shop.myshopify.com",ver:"2.12",pl
     <!-- Segment Pixel - AL_Tuscaloosa_Kush Queen_SEG_RT - DO NOT MODIFY -->
     <script data-src="https://secure.adnxs.com/seg?add=19895650&t=1" type="lazyload2"></script>
     <!-- End of Segment Pixel -->
-
-    <script data-obct>
-      /** DO NOT MODIFY THIS CODE**/
-      !function(_window, _document) {
-        var OB_ADV_ID = '0007d06b86fd270ba8aafa0650e0d2fa5a';
-        if (_window.obApi) {
-          var toArray = function(object) {
-            return Object.prototype.toString.call(object) === '[object Array]' ? object : [object];
-          };
-          _window.obApi.marketerId = toArray(_window.obApi.marketerId).concat(toArray(OB_ADV_ID));
-          return;
-        }
-        var api = _window.obApi = function() {
-          api.dispatch ? api.dispatch.apply(api, arguments) : api.queue.push(arguments);
-        };
-        api.version = '1.1';
-        api.loaded = true;
-        api.marketerId = OB_ADV_ID;
-        api.queue = [];
-        var tag = _document.createElement('script');
-        tag.async = true;
-        tag.src = '//amplify.outbrain.com/cp/obtp.js';
-        tag.type = 'text/javascript';
-        var script = _document.getElementsByTagName('script')[0];
-        script.parentNode.insertBefore(tag, script);
-      }(window, document);
-
-      obApi('track', 'PAGE_VIEW');
-    </script>
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -213,7 +185,6 @@ window.TriplePixelData={TripleName:"kush-queen-shop.myshopify.com",ver:"2.12",pl
       <script src="{{ 'theme.js' | asset_url }}" defer="defer"></script>
     {% endcomment %}
 
-    <script type="lazyload2" data-src="https://code.jquery.com/ui/1.12.1/jquery-ui.js" defer="defer"></script>
 
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
@@ -224,11 +195,19 @@ window.TriplePixelData={TripleName:"kush-queen-shop.myshopify.com",ver:"2.12",pl
     <script type="lazyload2" data-src="{{ 'easyResponsiveTabs.js' | asset_url }}" defer="defer"></script>
     <script type="lazyload2" data-src="{{ 'magiczoomplus.js' | asset_url }}" defer="defer"></script>
     <script type="lazyload2" data-src="{{ 'jquery.magnific-popup.min.js' | asset_url }}" defer="defer"></script>
-    <script type="lazyload2" data-src="{{ 'slick.min.js' | asset_url }}" defer="defer"></script>
+    {% comment %} 
+      seemed to be unused so its now uncommneted for speed reasons
+      <script type="lazyload2" data-src="{{ 'slick.min.js' | asset_url }}" defer="defer"></script> 
+    {% endcomment %}
     <script type="lazyload2" data-src="{{ 'jquery.pushMenu.js' | asset_url }}" defer="defer"></script>
     <script type="lazyload2" data-src="{{ 'main.js' | asset_url }}" defer="defer"></script>
     <script type="lazyload2" data-src="{{ 'bootstrap-slider.js' | asset_url }}" defer="defer"></script>
     <script type="lazyload2" data-src="{{ 'slider-home.js' | asset_url }}" defer="defer"></script>
+
+    <script src="https://widget.reviews.io/combined/dist.js?v1"></script>
+    <script data-src="https://widget.reviews.io/product/dist.js"></script>
+    <script src="https://widget.reviews.io/rating-snippet/dist.js"></script>
+    <link rel="stylesheet" href="https://widget.reviews.io/rating-snippet/dist.css">
 
     {% comment %}{{ content_for_header }}{% endcomment %}
     {{
@@ -245,14 +224,6 @@ window.TriplePixelData={TripleName:"kush-queen-shop.myshopify.com",ver:"2.12",pl
     {%- render 'bold-common' -%}
 
     <script type="lazyload2" data-src="//staticxx.s3.amazonaws.com/aio_stats_lib_v1.min.js?v=1.0"></script>
-    <script data-obct type="lazyload2">
-        /** DO NOT MODIFY THIS CODE**/
-        !function(_window, _document) {
-          var OB_ADV_ID='005a6097ad468ca5dfef4ce973ea5d1c86';
-          if (_window.obApi) {var toArray = function(object) {return Object.prototype.toString.call(object) === '[object Array]' ? object : [object];};_window.obApi.marketerId = toArray(_window.obApi.marketerId).concat(toArray(OB_ADV_ID));return;}
-          var api = _window.obApi = function() {api.dispatch ? api.dispatch.apply(api, arguments) : api.queue.push(arguments);};api.version = '1.1';api.loaded = true;api.marketerId = OB_ADV_ID;api.queue = [];var tag = _document.createElement('script');tag.async = true;tag.src = '//amplify.outbrain.com/cp/obtp.js';tag.type = 'text/javascript';var script = _document.getElementsByTagName('script')[0];script.parentNode.insertBefore(tag, script);}(window, document);
-      obApi('track', 'PAGE_VIEW');
-    </script>
 
     <!-- Fieldtest Pixel : KQ Q : Generated 2022-02-02 21:44:38 -->
     <script id="ft-43b4e76faa80ed426aeb63c4e45f792e" type="application/javascript">
@@ -266,9 +237,7 @@ window.TriplePixelData={TripleName:"kush-queen-shop.myshopify.com",ver:"2.12",pl
       type="lazyload2"
       data-src="https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=WFnVdx"
     ></script>
-    <script type="lazyload2" data-src="https://widget.reviews.io/product/dist.js"></script>
-    <script type="lazyload2" data-src="https://widget.reviews.io/rating-snippet/dist.js"></script>
-    <link rel="stylesheet" data-href="https://widget.reviews.io/rating-snippet/dist.css">
+
 
     <!-- Gem_Page_Header_Script -->
     {% render 'gem-app-header-scripts' %}
@@ -400,8 +369,6 @@ window.TriplePixelData={TripleName:"kush-queen-shop.myshopify.com",ver:"2.12",pl
 
     <script src="" data-shop="kush-queen-shop.myshopify.com"></script>
 
-    <script src="https://widget.reviews.io/rating-snippet/dist.js"></script>
-    <link rel="stylesheet" href="https://widget.reviews.io/rating-snippet/dist.css">
     <script>
       ratingSnippet("ruk_rating_snippet", {
         store: "kush-queen",
@@ -415,16 +382,6 @@ window.TriplePixelData={TripleName:"kush-queen-shop.myshopify.com",ver:"2.12",pl
         showEmptyStars: false,
       });
     </script>
-
-    <!-- Gorgias Chat Widget Start -->
-    <script
-      id="gorgias-chat-widget-install-v3"
-      src="https://config.gorgias.chat/bundle-loader/01GYCCBFETHNYWPQRR40SGXWZS?source=shopify1click"
-    ></script>
-    <script id="gorgias-chat-shopify-install">
-      !function(_){_.SHOPIFY_PERMANENT_DOMAIN="{{shop.permanent_domain}}",_.SHOPIFY_CUSTOMER_ID="{{customer.id}}",_.SHOPIFY_CUSTOMER_EMAIL="{{customer.email}}"}(window||{});
-    </script>
-    <!-- Gorgias Chat Widget End -->
 
     {% include 'lazy-script' %}
 

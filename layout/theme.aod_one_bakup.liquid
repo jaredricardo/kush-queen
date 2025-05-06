@@ -52,34 +52,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 <!-- End of Segment Pixel -->
     
-<script data-obct type = "text/javascript">
-  /** DO NOT MODIFY THIS CODE**/
-  !function(_window, _document) {
-    var OB_ADV_ID = '0007d06b86fd270ba8aafa0650e0d2fa5a';
-    if (_window.obApi) {
-      var toArray = function(object) {
-        return Object.prototype.toString.call(object) === '[object Array]' ? object : [object];
-      };
-      _window.obApi.marketerId = toArray(_window.obApi.marketerId).concat(toArray(OB_ADV_ID));
-      return;
-    }
-    var api = _window.obApi = function() {
-      api.dispatch ? api.dispatch.apply(api, arguments) : api.queue.push(arguments);
-    };
-    api.version = '1.1';
-    api.loaded = true;
-    api.marketerId = OB_ADV_ID;
-    api.queue = [];
-    var tag = _document.createElement('script');
-    tag.async = true;
-    tag.src = '//amplify.outbrain.com/cp/obtp.js';
-    tag.type = 'text/javascript';
-    var script = _document.getElementsByTagName('script')[0];
-    script.parentNode.insertBefore(tag, script);
-  }(window, document);
-
-  obApi('track', 'PAGE_VIEW');
-</script>
 
 <!-- Hotjar Tracking Code for https://kushqueen.shop/ -->
 <script>
@@ -216,7 +188,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <script src="{{ 'lazysizes.js' | asset_url }}" async="async"></script>
     <script src="{{ 'vendor.js' | asset_url }}"></script>
     <script src="{{ 'theme.js' | asset_url }}" defer="defer"></script>
-    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"  defer="defer"></script>
     <script src="{{ 'jquery.fancybox.min.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'bootstrap.min.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'inlinecart.js' | asset_url }}" defer="defer"></script>
@@ -235,15 +206,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   {% include 'limoniapps-discountninja-header' %}
 {% include 'sca.freegifts' %}
 <script src="//staticxx.s3.amazonaws.com/aio_stats_lib_v1.min.js?v=1.0"></script>
-<script data-obct type="text/javascript">
-  /** DO NOT MODIFY THIS CODE**/
-  !function(_window, _document) {
-    var OB_ADV_ID='005a6097ad468ca5dfef4ce973ea5d1c86';
-    if (_window.obApi) {var toArray = function(object) {return Object.prototype.toString.call(object) === '[object Array]' ? object : [object];};_window.obApi.marketerId = toArray(_window.obApi.marketerId).concat(toArray(OB_ADV_ID));return;}
-    var api = _window.obApi = function() {api.dispatch ? api.dispatch.apply(api, arguments) : api.queue.push(arguments);};api.version = '1.1';api.loaded = true;api.marketerId = OB_ADV_ID;api.queue = [];var tag = _document.createElement('script');tag.async = true;tag.src = '//amplify.outbrain.com/cp/obtp.js';tag.type = 'text/javascript';var script = _document.getElementsByTagName('script')[0];script.parentNode.insertBefore(tag, script);}(window, document);
-obApi('track', 'PAGE_VIEW');
-</script> 
-    
+
 <!-- Fieldtest Pixel : KQ Q : Generated 2022-02-02 21:44:38 -->
 <script id="ft-43b4e76faa80ed426aeb63c4e45f792e" type="application/javascript" >
     !function(w,d,e,u,t,s){if(w.ft_data){return;}
@@ -395,8 +358,6 @@ text: "Reviews"
 </script>
 <!--  END VIA EXIT POPUP SCRIPT  -->
 
-<!--Gorgias Chat Widget Start--><script id="gorgias-chat-widget-install-v2" src="https://config.gorgias.chat/gorgias-chat-bundle-loader.js?applicationId=15445"></script>
-<script id="gorgias-chat-shopify-install">!function(_){_.SHOPIFY_PERMANENT_DOMAIN="{{shop.permanent_domain}}",_.SHOPIFY_CUSTOMER_ID="{{customer.id}}",_.SHOPIFY_CUSTOMER_EMAIL="{{customer.email}}"}(window||{});</script><!--Gorgias Chat Widget End-->
 {% include 'aod-flying-cart' %}</body>
 
 </html>

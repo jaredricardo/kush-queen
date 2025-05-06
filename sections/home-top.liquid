@@ -190,17 +190,29 @@ h1.main-headline {
 
 </style>
 
+{% liquid 
+
+  assign widths = ' 370, 660, 900, 1800, 2400'
+  assign fetch_priority = 'auto'
+
+  if section.index == 1
+    assign fetch_priority = 'high'
+  endif
+
+-%}
+
+
+
 <div class="home-top">
     <div class="image-text-btn-section">
         <div class="img-container img-container-d">
-            <img src="{{ section.settings.desktop_image | img_url: 'master' }}">
+            {{ section.settings.desktop_image | image_url: width: 2400 | image_tag: widths:widths, height:'auto', fetchpriority: fetch_priority }}
         </div>
         <div class="img-container img-container-m">
-            <img src="{{ section.settings.mobile_image | img_url: 'master' }}">
+            {{ section.settings.mobile_image | image_url: width: 900 | image_tag: height:'auto', fetchpriority: fetch_priority }}
         </div>
          <div class="txt-container">
-                       {%  if section.settings.show_ratings %}
-
+           {%  if section.settings.show_ratings %}
           <div class="row top-headline">
             <div class="col read-reviews-header">
               <img src="{{ 'review-stars.png' | file_url }}" alt="5 stars">
