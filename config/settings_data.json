@@ -2730,6 +2730,11 @@
     }
   },
   "platform_customizations": {
-    "custom_css": []
+    "custom_css": [
+      "/* By default, hide both mobile and desktop specific content */.onlyMob {display: none;}",
+      ".onlyDesk {display: none;}",
+      "/* Show elements with the onlyMob class on mobile devices */@media (max-width: 768px) {.onlyMob {display: block; }}",
+      "/* Show elements with the onlyDesk class on desktop devices */@media (min-width: 769px) {.onlyDesk {display: block; }}"
+    ]
   }
 }
