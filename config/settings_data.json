@@ -2386,6 +2386,11 @@
         "type": "shopify://apps/black-crow-ai-that-delivers/blocks/blackcrow_ai_script/3e73f597-cb71-47a1-8a06-0c931482ecd2",
         "disabled": false,
         "settings": {}
+      },
+      "260908246434737815": {
+        "type": "shopify://apps/thoughtmetric/blocks/tm/5a9f9e10-3a9f-41b1-8250-d2eab3bd19a4",
+        "disabled": false,
+        "settings": {}
       }
     }
   },
