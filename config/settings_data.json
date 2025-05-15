@@ -365,9 +365,9 @@
           "simple_link_iUkaie"
         ],
         "settings": {
-          "announcement_text": "Free Shipping On Orders Over 150!",
-          "announcement_cta_url": "",
-          "announcement_cta_text": "",
+          "announcement_text": "Olivia's Birthday Selects Sale!",
+          "announcement_cta_url": "https://kushqueen.shop/collections/olivia-must-haves",
+          "announcement_cta_text": "Shop & Save!",
           "head_site_link": "",
           "head_site_link_txt": "Kush Queen",
           "head_site_king_link": "",
@@ -2352,7 +2352,7 @@
         "type": "sitewide-sale-announcement",
         "disabled": true,
         "settings": {
-          "text": "Shop 50% Off ✨ Happy 420!"
+          "text": "Olivia's Birthday Selects Sale! Shop & Save"
         }
       }
     },
