@@ -631,18 +631,6 @@
           "get_btn": "+ SEE ALL BLOG POSTS"
         }
       },
-      "affiliate-area": {
-        "type": "affiliate-area",
-        "settings": {
-          "register_title": "Register a new affiliate account"
-        }
-      },
-      "affiliate-login": {
-        "type": "affiliate-login",
-        "settings": {
-          "login_title": "Log into your account"
-        }
-      },
       "1571847364296": {
         "type": "home-slider-banner",
         "blocks": {

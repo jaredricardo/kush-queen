@@ -82,7 +82,7 @@
         "h3_xRy4bT": {
           "type": "h3",
           "settings": {
-            "h3": "<p><strong>Find Your Perfect Weed Gummy </strong></p>",
+            "h3": "<p><strong>Gummies Crafted With Excellence</strong></p>",
             "font_size_d": 24,
             "font_size_m": 18,
             "font_family": "Eina03"
@@ -91,7 +91,7 @@
         "p_dTWN7m": {
           "type": "p",
           "settings": {
-            "p": "<p><a href=\"https://kushqueen.shop/collections/thc-gummies\"><span style=\"text-decoration:underline\"><strong>THC Gummies</strong></span></a><span style=\"text-decoration:underline\"><strong>:</strong></span><strong> </strong>Best for elevating your mood and creating a strong feeling of euphoria. </p><p><a href=\"https://kushqueen.shop/collections/cbd-gummies\"><span style=\"text-decoration:underline\"><strong>Full Spectrum CBD Gummies</strong></span></a><strong>: </strong>Best for general well-being and managing a variety of ailments such as pain and inflammation. </p><p><a href=\"https://kushqueen.shop/products/cbg-gummies\"><span style=\"text-decoration:underline\"><strong>CBG Mood Gummies</strong></span></a><strong>: </strong>Best for uplifting mood with no psychoactive properties. </p><p><a href=\"https://kushqueen.shop/products/thcv-gummies\"><span style=\"text-decoration:underline\"><strong>THCv Focus Gummies</strong></span></a><strong>: </strong>Best for unlocking your flow state through light blissful focused buzz. </p><p><a href=\"https://kushqueen.shop/products/cbn-gummies-for-sleep\" title=\"CBN Gummies for sleep\"><span style=\"text-decoration:underline\"><strong>CBN Sleep Gummies</strong></span></a><span style=\"text-decoration:underline\"><strong>:</strong></span> Best for rest, natural sleep aid, and deep relaxation. Low-mild psychoactive effects. </p>",
+            "p": "<p>✓ Ideal for beginners and seasoned users alike</p><p>✓ Relief from stress, pain, and everyday burnout</p><p>✓ Made with clean, premium ingredients</p><p>✓ Precision-dosed for consistent effects</p><p>✓ Lab tested for purity, potency, and safety</p><p>✓ Delicious, effective, and easy way to enjoy the therapeutic benefits of THC</p>",
             "font_family": "Eina03"
           }
         },
@@ -113,6 +113,49 @@
         "button_gE8rKA"
       ],
       "custom_css": [],
+      "settings": {
+        "background_color": "#ffffff",
+        "col_order": "",
+        "text_alignment": "left-aligned",
+        "image": "shopify://shop_images/kush-queen-mobile-fall-home.jpg"
+      }
+    },
+    "jr_50_50_TMmwQB": {
+      "type": "jr-50-50",
+      "blocks": {
+        "h3_r7RMfF": {
+          "type": "h3",
+          "settings": {
+            "h3": "<p><strong>Find Your Perfect Weed Gummy </strong></p>",
+            "font_size_d": 24,
+            "font_size_m": 18,
+            "font_family": "Eina03"
+          }
+        },
+        "p_BwGHAV": {
+          "type": "p",
+          "settings": {
+            "p": "<p><a href=\"https://kushqueen.shop/collections/thc-gummies\"><span style=\"text-decoration:underline\"><strong>THC Gummies</strong></span></a><span style=\"text-decoration:underline\"><strong>:</strong></span><strong> </strong>Best for elevating your mood and creating a strong feeling of euphoria. </p><p><a href=\"https://kushqueen.shop/collections/cbd-gummies\"><span style=\"text-decoration:underline\"><strong>Full Spectrum CBD Gummies</strong></span></a><strong>: </strong>Best for general well-being and managing a variety of ailments such as pain and inflammation. </p><p><a href=\"https://kushqueen.shop/products/cbg-gummies\"><span style=\"text-decoration:underline\"><strong>CBG Mood Gummies</strong></span></a><strong>: </strong>Best for uplifting mood with no psychoactive properties. </p><p><a href=\"https://kushqueen.shop/products/thcv-gummies\"><span style=\"text-decoration:underline\"><strong>THCv Focus Gummies</strong></span></a><strong>: </strong>Best for unlocking your flow state through light blissful focused buzz. </p><p><a href=\"https://kushqueen.shop/products/cbn-gummies-for-sleep\" title=\"CBN Gummies for sleep\"><span style=\"text-decoration:underline\"><strong>CBN Sleep Gummies</strong></span></a><span style=\"text-decoration:underline\"><strong>:</strong></span> Best for rest, natural sleep aid, and deep relaxation. Low-mild psychoactive effects. </p>",
+            "font_family": "Eina03"
+          }
+        },
+        "button_KapewQ": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_text": "Shop Delta 9 Gummies",
+            "button_url": "shopify://collections/delta-9-gummies",
+            "button_bg_color": "#000000",
+            "button_text_color": "#ffffff",
+            "font_family": "Eina03"
+          }
+        }
+      },
+      "block_order": [
+        "h3_r7RMfF",
+        "p_BwGHAV",
+        "button_KapewQ"
+      ],
       "settings": {
         "background_color": "#ffffff",
         "col_order": "reverse",
@@ -232,6 +275,7 @@
     "icon_links_L3CAzk",
     "new-collection-template",
     "jr_50_50_Dbx6rJ",
+    "jr_50_50_TMmwQB",
     "jr_50_50_bMNMUL",
     "new_faq_bfrbfm",
     "rich_text_DWYf8D"
