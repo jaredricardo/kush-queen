@@ -77,122 +77,6 @@
         "main_linklist": ""
       }
     },
-    "jr_50_50_inKjiJ": {
-      "type": "jr-50-50",
-      "blocks": {
-        "h3_bhxK6V": {
-          "type": "h3",
-          "settings": {
-            "h3": "<p><strong>THC Gummies Crafted With Excellence</strong></p>",
-            "font_size_d": 24,
-            "font_size_m": 14,
-            "font_family": "Eina03"
-          }
-        },
-        "p_Dca7Nx": {
-          "type": "p",
-          "settings": {
-            "p": "<p>✓ Perfect for anyone seeking relief from chronic pain, stress, or simply wanting to elevate their day. </p><p>✓ For newbies or seasoned pros</p><p>✓ Made with premium ingredients </p><p>✓ Precisely dosed for a consistent, predictable experience every time. </p><p>✓ Rigorously tested for purity and potency</p><p>✓ The tastiest way to enjoy the therapeutic benefits of THC</p>",
-            "font_family": "Eina03"
-          }
-        }
-      },
-      "block_order": [
-        "h3_bhxK6V",
-        "p_Dca7Nx"
-      ],
-      "custom_css": [],
-      "settings": {
-        "background_color": "#ffffff",
-        "col_order": "",
-        "text_alignment": "left-aligned",
-        "image": "shopify://shop_images/Gummies_753f6687-8680-4b94-991a-99c3ee88f64d.png"
-      }
-    },
-    "jr_50_50_D6MknF": {
-      "type": "jr-50-50",
-      "blocks": {
-        "h3_jVnVHG": {
-          "type": "h3",
-          "settings": {
-            "h3": "<p><strong>Delta 9 THC Gummies</strong></p><p></p>",
-            "font_size_d": 24,
-            "font_size_m": 18,
-            "font_family": "Eina03"
-          }
-        },
-        "p_VdgX66": {
-          "type": "p",
-          "settings": {
-            "p": "<p>Kush Queen Delta 9 THC gummies were made for people looking for the sweet spot of getting high and being totally relaxed. Our in house gummy formula is vegan, gluten-free, and made with high-quality, natural ingredients ensuring a delicious taste without any artificial additives. Handcrafted in small batches creates consistent potency and superior quality with every gummy.</p><p></p>",
-            "font_family": "Eina03"
-          }
-        },
-        "button_pENzLz": {
-          "type": "button",
-          "settings": {
-            "button_text": "Shop Delta 9 gummies",
-            "button_url": "https://kushqueen.shop/collections/delta-9-gummies",
-            "button_bg_color": "#000000",
-            "button_text_color": "#ffffff",
-            "font_family": "Eina03"
-          }
-        }
-      },
-      "block_order": [
-        "h3_jVnVHG",
-        "p_VdgX66",
-        "button_pENzLz"
-      ],
-      "settings": {
-        "background_color": "#ffffff",
-        "col_order": "reverse",
-        "text_alignment": "left-aligned",
-        "image": "shopify://shop_images/kush-queen-ingestibles-420-party-pack-40494826651893.png"
-      }
-    },
-    "jr_50_50_tD6qTd": {
-      "type": "jr-50-50",
-      "blocks": {
-        "h3_Ph9RcC": {
-          "type": "h3",
-          "settings": {
-            "h3": "<p><strong>Delta 8 THC Gummies</strong></p>",
-            "font_size_d": 24,
-            "font_size_m": 18,
-            "font_family": "Eina03"
-          }
-        },
-        "p_93fQ4b": {
-          "type": "p",
-          "settings": {
-            "p": "<p>Delta-8 <a href=\"https://kushqueen.shop/collections/delta-8-gummies\" title=\"https://kushqueen.shop/collections/delta-8-gummies\">THC gummies</a> are an excellent choice for those seeking a milder high, yet still enjoyable psychoactive experience. Each gummy is crafted with high-quality, natural ingredients, and offers a precise dosage of Delta-8 THC, known for its calming and uplifting effects without the intense high often associated with Delta-9 THC. With their delicious natural flavors and easy-to-consume form factor, Kush Queen Delta-8 THC gummies provide a delightful and reliable way to relax, relieve stress, and enjoy a chill state of mind.</p>",
-            "font_family": "Eina03"
-          }
-        },
-        "button_am8nQj": {
-          "type": "button",
-          "settings": {
-            "button_text": "Shop Delta 8 Gummies",
-            "button_url": "shopify://collections/delta-8-gummies",
-            "button_bg_color": "#000000",
-            "button_text_color": "#ffffff",
-            "font_family": "Eina03"
-          }
-        }
-      },
-      "block_order": [
-        "h3_Ph9RcC",
-        "p_93fQ4b",
-        "button_am8nQj"
-      ],
-      "settings": {
-        "background_color": "#ffffff",
-        "col_order": "",
-        "text_alignment": "left-aligned",
-        "image": "shopify://shop_images/kush-queen-delta-8-thc-gummies-bundle-exp.jpg"
-      }
-    },
     "new_faq_w8dhdC": {
       "type": "new-faq",
       "blocks": {
@@ -297,9 +181,6 @@
     "collection_header_7bBjxG",
     "icon_links_L3CAzk",
     "new-collection-template",
-    "jr_50_50_inKjiJ",
-    "jr_50_50_D6MknF",
-    "jr_50_50_tD6qTd",
     "new_faq_w8dhdC",
     "rich_text_Kyrk4Y"
   ]
