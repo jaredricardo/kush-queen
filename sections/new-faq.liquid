@@ -4,14 +4,14 @@
     {% for block in section.blocks %}
       {% if block.settings.answer != blank %}
         <div class="new-faq_item">
-          <div class="new-faq_question" data-faq-toggle>
+          <h3 class="new-faq_question" data-faq-toggle>
             {{ block.settings.question }}
             <span class="new-faq_toggle-icon">
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="9" viewBox="0 0 16 9" fill="none">
                 <path d="M1 1.10986L7.68635 7.32056L14.3726 1.10986" stroke="#929292" stroke-width="2" stroke-linejoin="round"/>
               </svg>
             </span>
-          </div>
+          </h3>
           <div class="new-faq_answer">
             {{ block.settings.answer }}
           </div>
@@ -52,7 +52,7 @@
     color: #191919;
     font-size: 18px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     line-height: 22.5px;
   }
 
