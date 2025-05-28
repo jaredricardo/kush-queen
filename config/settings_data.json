@@ -1201,6 +1201,30 @@
               "banner_btm_tp_text": "Pistachio Runtz THCa Flower *Exotic*",
               "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/PistachioRuntzLab11-17-24.pdf?v=1732913784"
             }
+          },
+          "labtest_eHfnfC": {
+            "type": "labtest",
+            "settings": {
+              "banner_btm_img": "shopify://shop_images/kush-queen-hemp-flower-white-runtz-thca-flower-private-reserve-40524754977013.jpg",
+              "banner_btm_tp_text": "Runtz THCa Flower *Head Stash*",
+              "link": "shopify://products/white-runtz-thca-flower"
+            }
+          },
+          "labtest_CPFDkP": {
+            "type": "labtest",
+            "settings": {
+              "banner_btm_img": "shopify://shop_images/kush-queen-hemp-flower-2g-thca-head-stash-hand-roll-1156860463.png",
+              "banner_btm_tp_text": "Super Boof - 2g THCa Head Stash Hand Roll",
+              "link": ""
+            }
+          },
+          "labtest_rLk6EN": {
+            "type": "labtest",
+            "settings": {
+              "banner_btm_img": "shopify://shop_images/kush-queen-hemp-flower-2g-thca-head-stash-hand-roll-1156860464.png",
+              "banner_btm_tp_text": "",
+              "link": ""
+            }
           }
         },
         "block_order": [
@@ -1254,7 +1278,10 @@
           "labtest_HApWEp",
           "labtest_JQ6WCW",
           "labtest_x4JeEq",
-          "labtest_BR8Vkr"
+          "labtest_BR8Vkr",
+          "labtest_eHfnfC",
+          "labtest_CPFDkP",
+          "labtest_rLk6EN"
         ],
         "settings": {}
       },
