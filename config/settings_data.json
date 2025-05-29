@@ -1170,12 +1170,20 @@
               "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/Blue_Warheads_Flower.pdf?v=1737504640"
             }
           },
-          "labtest_HApWEp": {
+          "labtest_H9X4WV": {
             "type": "labtest",
             "settings": {
-              "banner_btm_img": "shopify://shop_images/Screenshot_2024-11-29_at_12.59.00_PM.png",
-              "banner_btm_tp_text": "Blackberry Kush THCa Flower",
-              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/BlackberryKLab11-17-24.pdf?v=1732913784"
+              "banner_btm_img": "shopify://shop_images/kush-queen-hemp-flower-gelonade-thca-flower-head-stash-1155525556.png",
+              "banner_btm_tp_text": "Gelonade THCa Flower *Head Stash*",
+              "link": ""
+            }
+          },
+          "labtest_B4Vz4W": {
+            "type": "labtest",
+            "settings": {
+              "banner_btm_img": "shopify://shop_images/kush-queen-hemp-flower-1-8-oz-3-5g-legend-og-thca-flower-private-reserve-41435017281781.png",
+              "banner_btm_tp_text": "Legend OG THCa Flower *Private Reserve*",
+              "link": ""
             }
           },
           "labtest_JQ6WCW": {
@@ -1210,20 +1218,36 @@
               "link": "shopify://products/white-runtz-thca-flower"
             }
           },
+          "labtest_Nqzgx4": {
+            "type": "labtest",
+            "settings": {
+              "banner_btm_img": "shopify://shop_images/kush-queen-hemp-flower-thca-flower-pre-roll-40685223510261.png",
+              "banner_btm_tp_text": "Blue Warheads - THCa AAA Buds Joint",
+              "link": ""
+            }
+          },
+          "labtest_YeaL4d": {
+            "type": "labtest",
+            "settings": {
+              "banner_btm_img": "shopify://shop_images/kush-queen-hemp-flower-thca-flower-pre-roll-40685223510261.png",
+              "banner_btm_tp_text": "Lemon Cherry Gelato - THCa AAA Buds Joint",
+              "link": ""
+            }
+          },
+          "labtest_ndTd8Y": {
+            "type": "labtest",
+            "settings": {
+              "banner_btm_img": "shopify://shop_images/kush-queen-hemp-flower-2g-thca-head-stash-hand-roll-1156860463.png",
+              "banner_btm_tp_text": "Gelonade - 2g THCa Head Stash Hand Roll",
+              "link": ""
+            }
+          },
           "labtest_CPFDkP": {
             "type": "labtest",
             "settings": {
               "banner_btm_img": "shopify://shop_images/kush-queen-hemp-flower-2g-thca-head-stash-hand-roll-1156860463.png",
               "banner_btm_tp_text": "Super Boof - 2g THCa Head Stash Hand Roll",
               "link": "shopify://products/white-runtz-thca-flower"
-            }
-          },
-          "labtest_rLk6EN": {
-            "type": "labtest",
-            "settings": {
-              "banner_btm_img": "shopify://shop_images/kush-queen-hemp-flower-2g-thca-head-stash-hand-roll-1156860464.png",
-              "banner_btm_tp_text": "",
-              "link": ""
             }
           }
         },
@@ -1275,13 +1299,16 @@
           "1580317991671",
           "labtest_cAtgwb",
           "labtest_fJAbrk",
-          "labtest_HApWEp",
+          "labtest_H9X4WV",
+          "labtest_B4Vz4W",
           "labtest_JQ6WCW",
           "labtest_x4JeEq",
           "labtest_BR8Vkr",
           "labtest_eHfnfC",
-          "labtest_CPFDkP",
-          "labtest_rLk6EN"
+          "labtest_Nqzgx4",
+          "labtest_YeaL4d",
+          "labtest_ndTd8Y",
+          "labtest_CPFDkP"
         ],
         "settings": {}
       },
