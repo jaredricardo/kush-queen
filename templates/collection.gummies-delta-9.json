@@ -1,12 +1,3 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "sections": {
     "collection_header_7bBjxG": {
@@ -34,7 +25,7 @@
         "h3_jH3gqC": {
           "type": "h3",
           "settings": {
-            "h3": "<p><strong>The Delta 9 Gummy Experience</strong></p>",
+            "h3": "<p><strong>The Delta 9 Gummy Experience<\/strong><\/p>",
             "font_size_d": 24,
             "font_size_m": 18,
             "font_family": "Eina03"
@@ -43,7 +34,7 @@
         "p_pMPmTC": {
           "type": "p",
           "settings": {
-            "p": "<p>Get ready to experience a deeper kind of escape with Kush Queen’s Delta 9 Gummies. Infused with a potent combination of hemp-derived Delta 9 THC and full-spectrum CBD, these edibles offer our most powerful mind-body connection. Each gummy delivers potent psychoactive effects that ease tension, boost your mood, and leave you floating in a state of pure relaxation.</p><p>Whether you’re new to Delta 9 or a seasoned connoisseur, these gummies make it easy to find your sweet spot. For beginners, half a gummy (4mg Delta 9 THC + 6mg CBD) offers a gentle lift and light euphoria—perfect for activating your smile. For those seeking deeper relief, a whole gummy (8mg Delta 9 THC + 12mg CBD) delivers full mind and body relaxation, which  can last around  four blissful hours.</p><p>Expect a euphoric shift in consciousness that melts stress, soothes pain, or simply enhances your downtime—all without the grogginess of other options. Whether you’re chasing a good time, better sleep, or serious relief, Kush Queen Delta 9 Gummies are your ticket to the ultimate chill.</p>",
+            "p": "<p>Get ready to experience a deeper kind of escape with Kush Queen’s Delta 9 Gummies. Infused with a potent combination of hemp-derived Delta 9 THC and full-spectrum CBD, these edibles offer our most powerful mind-body connection. Each gummy delivers potent psychoactive effects that ease tension, boost your mood, and leave you floating in a state of pure relaxation.<\/p><p>Whether you’re new to Delta 9 or a seasoned connoisseur, these gummies make it easy to find your sweet spot. For beginners, half a gummy (4mg Delta 9 THC + 6mg CBD) offers a gentle lift and light euphoria—perfect for activating your smile. For those seeking deeper relief, a whole gummy (8mg Delta 9 THC + 12mg CBD) delivers full mind and body relaxation, which  can last around  four blissful hours.<\/p><p>Expect a euphoric shift in consciousness that melts stress, soothes pain, or simply enhances your downtime—all without the grogginess of other options. Whether you’re chasing a good time, better sleep, or serious relief, Kush Queen Delta 9 Gummies are your ticket to the ultimate chill.<\/p>",
             "font_family": "Eina03"
           }
         },
@@ -67,7 +58,7 @@
         "background_color": "#ffffff",
         "col_order": "reverse",
         "text_alignment": "left-aligned",
-        "image": "shopify://shop_images/kush-queen-thc-gummies-mob-l.png"
+        "image": "shopify:\/\/shop_images\/kush-queen-thc-gummies-mob-l.png"
       }
     },
     "jr_50_50_4NwCY3": {
@@ -76,7 +67,7 @@
         "h3_dVtKCQ": {
           "type": "h3",
           "settings": {
-            "h3": "<p><strong>The Kush Queen Promise</strong></p>",
+            "h3": "<p><strong>The Kush Queen Promise<\/strong><\/p>",
             "font_size_d": 24,
             "font_size_m": 18,
             "font_family": "Eina03"
@@ -85,7 +76,7 @@
         "p_QVQrBc": {
           "type": "p",
           "settings": {
-            "p": "<p>At Kush Queen, we pride ourselves on hand crafting our gummies using the best ingredients. Every product is lab-tested for potency and purity, so you always know what you’re getting. Our passion for the plant runs deep.</p><ul><li>Handcrafted with Love: Made in small batches right here in the USA for consistency you can count on.</li><li>Vegan & Cruelty-Free: No animal testing, no fillers—just clean, premium ingredients.</li><li>We’re here for the community, creating products that feel as good as they work. Because your wellness deserves nothing less.</li></ul><p>Because you deserve an experience that’s as safe, delicious, and reliable as it is enjoyable.</p>",
+            "p": "<p>At Kush Queen, we pride ourselves on hand crafting our gummies using the best ingredients. Every product is lab-tested for potency and purity, so you always know what you’re getting. Our passion for the plant runs deep.<\/p><ul><li>Handcrafted with Love: Made in small batches right here in the USA for consistency you can count on.<\/li><li>Vegan & Cruelty-Free: No animal testing, no fillers—just clean, premium ingredients.<\/li><li>We’re here for the community, creating products that feel as good as they work. Because your wellness deserves nothing less.<\/li><\/ul><p>Because you deserve an experience that’s as safe, delicious, and reliable as it is enjoyable.<\/p>",
             "font_family": "Eina03"
           }
         },
@@ -93,7 +84,7 @@
           "type": "button",
           "settings": {
             "button_text": "The Kush queen promise",
-            "button_url": "https://kushqueen.shop/pages/the-kush-queen-promise",
+            "button_url": "https:\/\/kushqueen.shop\/pages\/the-kush-queen-promise",
             "button_bg_color": "#000000",
             "button_text_color": "#ffffff",
             "font_family": "Eina03"
@@ -109,7 +100,7 @@
         "background_color": "#ffffff",
         "col_order": "",
         "text_alignment": "left-aligned",
-        "image": "shopify://shop_images/CBD.png"
+        "image": "shopify:\/\/shop_images\/CBD.png"
       }
     },
     "new_faq_Cp36Nf": {
@@ -119,77 +110,77 @@
           "type": "faq_block",
           "settings": {
             "question": "How are Delta-9 gummies made?",
-            "answer": "<p>Delta-9 gummies are made by infusing hemp-derived Delta-9 THC into a gummy base that includes ingredients like sugar, natural flavors, and gelatin (or pectin for vegan options). At Kush Queen, we’re all about consistency and flavor, so every gummy is carefully crafted to ensure a delicious experience with every bite.<br/></p>"
+            "answer": "<p>Delta-9 gummies are made by infusing hemp-derived Delta-9 THC into a gummy base that includes ingredients like sugar, natural flavors, and gelatin (or pectin for vegan options). At Kush Queen, we’re all about consistency and flavor, so every gummy is carefully crafted to ensure a delicious experience with every bite.<br\/><\/p>"
           }
         },
         "faq_block_taaCax": {
           "type": "faq_block",
           "settings": {
             "question": "How long do Delta-9 THC gummies last?",
-            "answer": "<p>Delta-9 THC gummies typically last 4 to 8 hours, depending on your metabolism, tolerance, and how much you’ve eaten that day. Most folks feel the effects really kick in around 30 mins to 1 hour after taking them, with a gradual and smooth fade. Always start low and see how you feel before going for another round.</p>"
+            "answer": "<p>Delta-9 THC gummies typically last 4 to 8 hours, depending on your metabolism, tolerance, and how much you’ve eaten that day. Most folks feel the effects really kick in around 30 mins to 1 hour after taking them, with a gradual and smooth fade. Always start low and see how you feel before going for another round.<\/p>"
           }
         },
         "faq_block_ngJHgd": {
           "type": "faq_block",
           "settings": {
             "question": "Is Delta-8 or Delta-9 stronger?",
-            "answer": "<p>Great question! Delta-9 THC is definitely stronger. Delta-9 gives you a more intense, euphoric high, while Delta-8 is the chill cousin—more mellow, less heady. If you want a bigger buzz and more noticeable effects, Delta-9 is the way to go. Delta-8 is awesome for people who want a light lift without going too far.</p>"
+            "answer": "<p>Great question! Delta-9 THC is definitely stronger. Delta-9 gives you a more intense, euphoric high, while Delta-8 is the chill cousin—more mellow, less heady. If you want a bigger buzz and more noticeable effects, Delta-9 is the way to go. Delta-8 is awesome for people who want a light lift without going too far.<\/p>"
           }
         },
         "faq_block_UdmFCn": {
           "type": "faq_block",
           "settings": {
             "question": "What are the effects of Delta-9 THC gummies?",
-            "answer": "<p>Delta-9 gummies deliver a mix of euphoria, relaxation, and even creativity for some. Expect to feel a blissful high, increased sensory awareness, and probably a bit of the munchies! Some users love the way Delta-9 helps them unwind, while others enjoy the enhanced focus or creative boost it provides. Take a gummy, let it hit, and see where it takes you!</p>"
+            "answer": "<p>Delta-9 gummies deliver a mix of euphoria, relaxation, and even creativity for some. Expect to feel a blissful high, increased sensory awareness, and probably a bit of the munchies! Some users love the way Delta-9 helps them unwind, while others enjoy the enhanced focus or creative boost it provides. Take a gummy, let it hit, and see where it takes you!<\/p>"
           }
         },
         "faq_block_38w6Cg": {
           "type": "faq_block",
           "settings": {
             "question": "Will Delta-9 THC show up on a drug test?",
-            "answer": "<p>Yes, <a href=\"https://www.cdc.gov/mmwr/preview/mmwrhtml/00000138.htm\" title=\"https://www.cdc.gov/mmwr/preview/mmwrhtml/00000138.htm\">Delta-9 THC can absolutely show up on a drug test.</a> Most drug tests look for THC metabolites, and Delta-9 is no exception. So if you’ve got a test coming up, we’d recommend holding off on these goodies for a while.</p>"
+            "answer": "<p>Yes, <a href=\"https:\/\/www.cdc.gov\/mmwr\/preview\/mmwrhtml\/00000138.htm\" title=\"https:\/\/www.cdc.gov\/mmwr\/preview\/mmwrhtml\/00000138.htm\">Delta-9 THC can absolutely show up on a drug test.<\/a> Most drug tests look for THC metabolites, and Delta-9 is no exception. So if you’ve got a test coming up, we’d recommend holding off on these goodies for a while.<\/p>"
           }
         },
         "faq_block_TYCLHD": {
           "type": "faq_block",
           "settings": {
             "question": "Are Delta-9 THC gummies safe to use?",
-            "answer": "<p>Yes, Delta-9 THC gummies are safe when taken responsibly. Just make sure to stick to the recommended dosage and listen to your body. If you’re new to THC, start with a low dose to avoid any overwhelming effects. Some folks might experience dry mouth, drowsiness, or increased heart rate, but these effects are usually mild.</p>"
+            "answer": "<p>Yes, Delta-9 THC gummies are safe when taken responsibly. Just make sure to stick to the recommended dosage and listen to your body. If you’re new to THC, start with a low dose to avoid any overwhelming effects. Some folks might experience dry mouth, drowsiness, or increased heart rate, but these effects are usually mild.<\/p>"
           }
         },
         "faq_block_hDj3nh": {
           "type": "faq_block",
           "settings": {
             "question": "Are there any side effects of Delta-9 THC gummies?",
-            "answer": "<p>Some people might notice a few side effects like:</p><ul><li>Dry mouth (keep water handy!)</li><li>Increased heart rate</li><li>Drowsiness (hello, nap time!)</li><li>Dizziness</li><li>Anxiety or paranoia (especially if you overdo it)</li></ul><p>It’s all about finding the right dosage for you, so start small and see how your body reacts.</p>"
+            "answer": "<p>Some people might notice a few side effects like:<\/p><ul><li>Dry mouth (keep water handy!)<\/li><li>Increased heart rate<\/li><li>Drowsiness (hello, nap time!)<\/li><li>Dizziness<\/li><li>Anxiety or paranoia (especially if you overdo it)<\/li><\/ul><p>It’s all about finding the right dosage for you, so start small and see how your body reacts.<\/p>"
           }
         },
         "faq_block_NhBHCJ": {
           "type": "faq_block",
           "settings": {
             "question": "Do you ship Delta-9 THC gummies internationally?",
-            "answer": "<p>Yes, we do! We ship to select international locations. If you're outside the U.S. and want to order, just fill your cart and shoot us an email at support@kushqueen.shop. We'll provide you with an accurate shipping charge based on where you’re located.</p>"
+            "answer": "<p>Yes, we do! We ship to select international locations. If you're outside the U.S. and want to order, just fill your cart and shoot us an email at support@kushqueen.shop. We'll provide you with an accurate shipping charge based on where you’re located.<\/p>"
           }
         },
         "faq_block_Ek7QXA": {
           "type": "faq_block",
           "settings": {
             "question": "Do you ship to Canada?",
-            "answer": "<p>Sadly, we’re not able to ship to Canada right now because of strict customs rules around hemp products. But don’t worry—we’re keeping an eye on things, and if the rules change, we’ll be sure to announce it on Instagram and through our newsletter!</p>"
+            "answer": "<p>Sadly, we’re not able to ship to Canada right now because of strict customs rules around hemp products. But don’t worry—we’re keeping an eye on things, and if the rules change, we’ll be sure to announce it on Instagram and through our newsletter!<\/p>"
           }
         },
         "faq_block_Q4KGPL": {
           "type": "faq_block",
           "settings": {
             "question": "What is your return policy for Delta-9 gummies?",
-            "answer": "<p>At Kush Queen, all of our products, including Delta-9 gummies, are final sale. We don’t offer returns or refunds, but if you received the wrong item or if something was damaged, please email us at support@kushqueen.shop within 48 hours and we’ll make it right.</p>"
+            "answer": "<p>At Kush Queen, all of our products, including Delta-9 gummies, are final sale. We don’t offer returns or refunds, but if you received the wrong item or if something was damaged, please email us at support@kushqueen.shop within 48 hours and we’ll make it right.<\/p>"
           }
         },
         "faq_block_Un4V7d": {
           "type": "faq_block",
           "settings": {
             "question": "Can I purchase Delta-9 gummies in bulk or wholesale?",
-            "answer": "<p>Absolutely! We offer bulk purchasing and wholesale options. If you’re interested, send us an email at support@kushqueen.shop and we’ll help you with pricing, availability, and everything else you need to know about getting our gummies in bulk.</p>"
+            "answer": "<p>Absolutely! We offer bulk purchasing and wholesale options. If you’re interested, send us an email at support@kushqueen.shop and we’ll help you with pricing, availability, and everything else you need to know about getting our gummies in bulk.<\/p>"
           }
         }
       },

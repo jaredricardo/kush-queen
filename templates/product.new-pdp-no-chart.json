@@ -1,12 +1,3 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "sections": {
     "main": {
@@ -16,21 +7,21 @@
           "type": "review",
           "settings": {
             "review_text": "{{ product.metafields.custom.new_pdp_template.value.review_1.value }}",
-            "reviewer": "<p>{{ product.metafields.custom.new_pdp_template.value.reviewer_1.value }}</p>"
+            "reviewer": "<p>{{ product.metafields.custom.new_pdp_template.value.reviewer_1.value }}<\/p>"
           }
         },
         "3f72cdb0-a208-4efa-8c6c-304b3ab38bc6": {
           "type": "review",
           "settings": {
             "review_text": "{{ product.metafields.custom.new_pdp_template.value.review_2.value }}",
-            "reviewer": "<p>{{ product.metafields.custom.new_pdp_template.value.reviewer_2.value }}</p>"
+            "reviewer": "<p>{{ product.metafields.custom.new_pdp_template.value.reviewer_2.value }}<\/p>"
           }
         },
         "bb31f014-6fc2-430b-83b1-8abf26728b7c": {
           "type": "review",
           "settings": {
             "review_text": "{{ product.metafields.custom.new_pdp_template.value.review_3.value }}",
-            "reviewer": "<p>{{ product.metafields.custom.new_pdp_template.value.reviewer_3.value }}</p>"
+            "reviewer": "<p>{{ product.metafields.custom.new_pdp_template.value.reviewer_3.value }}<\/p>"
           }
         }
       },
@@ -44,7 +35,7 @@
         "badge_text": "{{ product.metafields.custom.new_pdp_template.value.badge_text.value }}",
         "show_buymore_banner": true,
         "short_desc_text": "{{ product.metafields.custom.new_pdp_template.value.newpdp_short_description_text.value }}",
-        "promo_text": "<p>{{ product.metafields.custom.new_pdp_template.value.promo_text | metafield_tag }}</p>",
+        "promo_text": "<p>{{ product.metafields.custom.new_pdp_template.value.promo_text | metafield_tag }}<\/p>",
         "image_1": "{{ product.metafields.custom.new_pdp_template.value.icon_1.value }}",
         "svg_code_1": "",
         "text_1": "{{ product.metafields.custom.new_pdp_template.value.icon_text_1.value }}",
@@ -63,7 +54,7 @@
           "type": "tab_block",
           "settings": {
             "tab_title": "{{ product.metafields.custom.new_pdp_details.value.how_to_use_title.value }}",
-            "tab_text": "<p>{{ product.metafields.custom.new_pdp_details.value.tab_section_text | metafield_tag }}</p>",
+            "tab_text": "<p>{{ product.metafields.custom.new_pdp_details.value.tab_section_text | metafield_tag }}<\/p>",
             "image_1": "{{ product.metafields.custom.new_pdp_details.value.tab_section_how_to_use_img_1.value }}",
             "image_2": "{{ product.metafields.custom.new_pdp_details.value.tab_section_how_to_use_img_2.value }}",
             "image_3": "{{ product.metafields.custom.new_pdp_details.value.tab_section_how_to_use_img_3.value }}"
@@ -208,7 +199,7 @@
           "type": "faq_block",
           "settings": {
             "question": "{{ product.metafields.custom.faq.value.question.value }}",
-            "answer": "{{ product.metafields.custom.faq.value.answer | metafield_tag }}<p></p>"
+            "answer": "{{ product.metafields.custom.faq.value.answer | metafield_tag }}<p><\/p>"
           }
         },
         "faq_block_3UCAxz": {

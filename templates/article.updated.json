@@ -1,0 +1,23 @@
+{
+  "sections": {
+    "rich-text": {
+      "type": "rich-text",
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "section_title": "Talk about your brand",
+        "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+        "text_size": "medium"
+      }
+    },
+    "jr_updated_article_header_C7djyk": {
+      "type": "jr-updated-article-header",
+      "name": "JR Article Header",
+      "settings": {}
+    }
+  },
+  "order": [
+    "rich-text",
+    "jr_updated_article_header_C7djyk"
+  ]
+}

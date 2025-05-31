@@ -1,12 +1,3 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "sections": {
     "collection_header_7bBjxG": {
@@ -21,32 +12,32 @@
         "icon_jzAW3E": {
           "type": "icon",
           "settings": {
-            "icon_link": "https://kushqueen.shop/collections/thc-gummies",
-            "icon": "shopify://shop_images/cbd-full-spec-gummies-icon.png",
+            "icon_link": "https:\/\/kushqueen.shop\/collections\/thc-gummies",
+            "icon": "shopify:\/\/shop_images\/cbd-full-spec-gummies-icon.png",
             "title": "THC Gummies"
           }
         },
         "icon_9HWK7y": {
           "type": "icon",
           "settings": {
-            "icon_link": "shopify://products/cbn-gummies-for-sleep",
-            "icon": "shopify://shop_images/cbn-sleep-gummies-icon.png",
+            "icon_link": "shopify:\/\/products\/cbn-gummies-for-sleep",
+            "icon": "shopify:\/\/shop_images\/cbn-sleep-gummies-icon.png",
             "title": "Sleep Gummies"
           }
         },
         "icon_mALUW6": {
           "type": "icon",
           "settings": {
-            "icon_link": "shopify://products/thcv-gummies",
-            "icon": "shopify://shop_images/thcv-focus-gummies-icon.png",
+            "icon_link": "shopify:\/\/products\/thcv-gummies",
+            "icon": "shopify:\/\/shop_images\/thcv-focus-gummies-icon.png",
             "title": "Focus Gummies"
           }
         },
         "icon_BfenYq": {
           "type": "icon",
           "settings": {
-            "icon_link": "shopify://products/cbg-gummies",
-            "icon": "shopify://shop_images/cbg-mood-gummies-icon.png",
+            "icon_link": "shopify:\/\/products\/cbg-gummies",
+            "icon": "shopify:\/\/shop_images\/cbg-mood-gummies-icon.png",
             "title": "Mood Gummies"
           }
         }
@@ -82,7 +73,7 @@
         "h3_xRy4bT": {
           "type": "h3",
           "settings": {
-            "h3": "<p><strong>Gummies Crafted With Excellence</strong></p>",
+            "h3": "<p><strong>Gummies Crafted With Excellence<\/strong><\/p>",
             "font_size_d": 24,
             "font_size_m": 18,
             "font_family": "Eina03"
@@ -91,7 +82,7 @@
         "p_dTWN7m": {
           "type": "p",
           "settings": {
-            "p": "<p>✓ Ideal for beginners and seasoned users alike</p><p>✓ Relief from stress, pain, and everyday burnout</p><p>✓ Made with clean, premium ingredients</p><p>✓ Precision-dosed for consistent effects</p><p>✓ Lab tested for purity, potency, and safety</p><p>✓ Delicious, effective, and easy way to enjoy the therapeutic benefits of THC</p>",
+            "p": "<p>✓ Ideal for beginners and seasoned users alike<\/p><p>✓ Relief from stress, pain, and everyday burnout<\/p><p>✓ Made with clean, premium ingredients<\/p><p>✓ Precision-dosed for consistent effects<\/p><p>✓ Lab tested for purity, potency, and safety<\/p><p>✓ Delicious, effective, and easy way to enjoy the therapeutic benefits of THC<\/p>",
             "font_family": "Eina03"
           }
         },
@@ -100,7 +91,7 @@
           "disabled": true,
           "settings": {
             "button_text": "Shop Delta 9 Gummies",
-            "button_url": "shopify://collections/delta-9-gummies",
+            "button_url": "shopify:\/\/collections\/delta-9-gummies",
             "button_bg_color": "#000000",
             "button_text_color": "#ffffff",
             "font_family": "Eina03"
@@ -117,7 +108,7 @@
         "background_color": "#ffffff",
         "col_order": "",
         "text_alignment": "left-aligned",
-        "image": "shopify://shop_images/kush-queen-mobile-fall-home.jpg"
+        "image": "shopify:\/\/shop_images\/kush-queen-mobile-fall-home.jpg"
       }
     },
     "jr_50_50_TMmwQB": {
@@ -126,7 +117,7 @@
         "h3_r7RMfF": {
           "type": "h3",
           "settings": {
-            "h3": "<p><strong>Find Your Perfect Weed Gummy </strong></p>",
+            "h3": "<p><strong>Find Your Perfect Weed Gummy <\/strong><\/p>",
             "font_size_d": 24,
             "font_size_m": 18,
             "font_family": "Eina03"
@@ -135,7 +126,7 @@
         "p_BwGHAV": {
           "type": "p",
           "settings": {
-            "p": "<p><a href=\"https://kushqueen.shop/collections/thc-gummies\"><span style=\"text-decoration:underline\"><strong>THC Gummies</strong></span></a><span style=\"text-decoration:underline\"><strong>:</strong></span><strong> </strong>Best for elevating your mood and creating a strong feeling of euphoria. </p><p><a href=\"https://kushqueen.shop/collections/cbd-gummies\"><span style=\"text-decoration:underline\"><strong>Full Spectrum CBD Gummies</strong></span></a><strong>: </strong>Best for general well-being and managing a variety of ailments such as pain and inflammation. </p><p><a href=\"https://kushqueen.shop/products/cbg-gummies\"><span style=\"text-decoration:underline\"><strong>CBG Mood Gummies</strong></span></a><strong>: </strong>Best for uplifting mood with no psychoactive properties. </p><p><a href=\"https://kushqueen.shop/products/thcv-gummies\"><span style=\"text-decoration:underline\"><strong>THCv Focus Gummies</strong></span></a><strong>: </strong>Best for unlocking your flow state through light blissful focused buzz. </p><p><a href=\"https://kushqueen.shop/products/cbn-gummies-for-sleep\" title=\"CBN Gummies for sleep\"><span style=\"text-decoration:underline\"><strong>CBN Sleep Gummies</strong></span></a><span style=\"text-decoration:underline\"><strong>:</strong></span> Best for rest, natural sleep aid, and deep relaxation. Low-mild psychoactive effects. </p>",
+            "p": "<p><a href=\"https:\/\/kushqueen.shop\/collections\/thc-gummies\"><span style=\"text-decoration:underline\"><strong>THC Gummies<\/strong><\/span><\/a><span style=\"text-decoration:underline\"><strong>:<\/strong><\/span><strong> <\/strong>Best for elevating your mood and creating a strong feeling of euphoria. <\/p><p><a href=\"https:\/\/kushqueen.shop\/collections\/cbd-gummies\"><span style=\"text-decoration:underline\"><strong>Full Spectrum CBD Gummies<\/strong><\/span><\/a><strong>: <\/strong>Best for general well-being and managing a variety of ailments such as pain and inflammation. <\/p><p><a href=\"https:\/\/kushqueen.shop\/products\/cbg-gummies\"><span style=\"text-decoration:underline\"><strong>CBG Mood Gummies<\/strong><\/span><\/a><strong>: <\/strong>Best for uplifting mood with no psychoactive properties. <\/p><p><a href=\"https:\/\/kushqueen.shop\/products\/thcv-gummies\"><span style=\"text-decoration:underline\"><strong>THCv Focus Gummies<\/strong><\/span><\/a><strong>: <\/strong>Best for unlocking your flow state through light blissful focused buzz. <\/p><p><a href=\"https:\/\/kushqueen.shop\/products\/cbn-gummies-for-sleep\" title=\"CBN Gummies for sleep\"><span style=\"text-decoration:underline\"><strong>CBN Sleep Gummies<\/strong><\/span><\/a><span style=\"text-decoration:underline\"><strong>:<\/strong><\/span> Best for rest, natural sleep aid, and deep relaxation. Low-mild psychoactive effects. <\/p>",
             "font_family": "Eina03"
           }
         },
@@ -144,7 +135,7 @@
           "disabled": true,
           "settings": {
             "button_text": "Shop Delta 9 Gummies",
-            "button_url": "shopify://collections/delta-9-gummies",
+            "button_url": "shopify:\/\/collections\/delta-9-gummies",
             "button_bg_color": "#000000",
             "button_text_color": "#ffffff",
             "font_family": "Eina03"
@@ -160,7 +151,7 @@
         "background_color": "#ffffff",
         "col_order": "reverse",
         "text_alignment": "left-aligned",
-        "image": "shopify://shop_images/kush-queen-ingestibles-420-party-pack-40494826651893.png"
+        "image": "shopify:\/\/shop_images\/kush-queen-ingestibles-420-party-pack-40494826651893.png"
       }
     },
     "jr_50_50_bMNMUL": {
@@ -169,7 +160,7 @@
         "h3_FAUDBQ": {
           "type": "h3",
           "settings": {
-            "h3": "<p><strong>Our Proprietary CBD: The Secret Behind Tasty Edible Weed Gummies</strong></p>",
+            "h3": "<p><strong>Our Proprietary CBD: The Secret Behind Tasty Edible Weed Gummies<\/strong><\/p>",
             "font_size_d": 24,
             "font_size_m": 18,
             "font_family": "Eina03"
@@ -178,7 +169,7 @@
         "p_cnx99P": {
           "type": "p",
           "settings": {
-            "p": "<p>At Kush Queen, our CBD stands out with a full-spectrum hemp extract that's engineered for unmatched quality and consistency. Our proprietary \"KQ Spec\" formulation ensures a perfectly balanced cannabinoid ratio, so you get the same reliable, high-quality experience every time. From relaxation to relief, our CBD is designed to elevate your wellness routine, keeping you feeling great every single time.</p>",
+            "p": "<p>At Kush Queen, our CBD stands out with a full-spectrum hemp extract that's engineered for unmatched quality and consistency. Our proprietary \"KQ Spec\" formulation ensures a perfectly balanced cannabinoid ratio, so you get the same reliable, high-quality experience every time. From relaxation to relief, our CBD is designed to elevate your wellness routine, keeping you feeling great every single time.<\/p>",
             "font_family": "Eina03"
           }
         }
@@ -191,7 +182,7 @@
         "background_color": "#ffffff",
         "col_order": "",
         "text_alignment": "left-aligned",
-        "image": "shopify://shop_images/kush-queen-delta-8-thc-gummies-bundle-exp.jpg"
+        "image": "shopify:\/\/shop_images\/kush-queen-delta-8-thc-gummies-bundle-exp.jpg"
       }
     },
     "new_faq_bfrbfm": {
@@ -201,49 +192,49 @@
           "type": "faq_block",
           "settings": {
             "question": "How Long Do Weed Gummies Take to Kick In?",
-            "answer": "<p>Weed gummies typically take 30 to 90 minutes to kick in, depending on factors like metabolism, body weight, and whether you've eaten recently. Unlike smoking, edibles need to be digested, so patience is key.</p>"
+            "answer": "<p>Weed gummies typically take 30 to 90 minutes to kick in, depending on factors like metabolism, body weight, and whether you've eaten recently. Unlike smoking, edibles need to be digested, so patience is key.<\/p>"
           }
         },
         "faq_block_3i3brd": {
           "type": "faq_block",
           "settings": {
             "question": "What Are The Benefits of Edible Weed Gummies?",
-            "answer": "<p>Edible THC gummies offer several benefits, including pain relief, reduced anxiety and stress, improved sleep, and appetite stimulation. They are also effective in alleviating nausea and vomiting, particularly for chemotherapy patients. Gummies provide a convenient and discreet consumption method, with long-lasting effects that can help manage chronic conditions without the need for smoking or vaping.</p>"
+            "answer": "<p>Edible THC gummies offer several benefits, including pain relief, reduced anxiety and stress, improved sleep, and appetite stimulation. They are also effective in alleviating nausea and vomiting, particularly for chemotherapy patients. Gummies provide a convenient and discreet consumption method, with long-lasting effects that can help manage chronic conditions without the need for smoking or vaping.<\/p>"
           }
         },
         "faq_block_q3NgVT": {
           "type": "faq_block",
           "settings": {
             "question": "How Strong Are Kush Queen’s Weed Gummies?",
-            "answer": "<p>Kush Queen Weed Gummies come in a variety of formulations, primarily featuring Delta 9 THC combined with CBD. Each gummy contains 8mg of Delta 9 THC and 12mg of CBD, designed to offer strong psychoactive effects along with significant relaxation. The combination aims to provide both euphoria and the therapeutic benefits of CBD​.</p><p>The Delta 9 THC content in these gummies is compliant with federal regulations, containing less than 0.3% THC by dry weight, making them legally available for purchase online in most areas​​. For new users, it's recommended to start with half a gummy to assess tolerance, as the effects can last around four hours and include a notable shift in mood and relaxation​​.</p>"
+            "answer": "<p>Kush Queen Weed Gummies come in a variety of formulations, primarily featuring Delta 9 THC combined with CBD. Each gummy contains 8mg of Delta 9 THC and 12mg of CBD, designed to offer strong psychoactive effects along with significant relaxation. The combination aims to provide both euphoria and the therapeutic benefits of CBD​.<\/p><p>The Delta 9 THC content in these gummies is compliant with federal regulations, containing less than 0.3% THC by dry weight, making them legally available for purchase online in most areas​​. For new users, it's recommended to start with half a gummy to assess tolerance, as the effects can last around four hours and include a notable shift in mood and relaxation​​.<\/p>"
           }
         },
         "faq_block_yiA8Rm": {
           "type": "faq_block",
           "settings": {
             "question": "How Many Weed Gummies Should I Take for My First Time?",
-            "answer": "<p>For first-time users, start with a low dose, usually 2.5 to 5 mg of THC. Wait at least two hours before considering another dose. Remember, you can always take more, but you can’t undo taking too much. The Kush Queen rule of thumb for new users is always, \"Start low and go slow.\"</p>"
+            "answer": "<p>For first-time users, start with a low dose, usually 2.5 to 5 mg of THC. Wait at least two hours before considering another dose. Remember, you can always take more, but you can’t undo taking too much. The Kush Queen rule of thumb for new users is always, \"Start low and go slow.\"<\/p>"
           }
         },
         "faq_block_gqBR9U": {
           "type": "faq_block",
           "settings": {
             "question": "How Long Do the Effects of Weed Gummies Last?",
-            "answer": "<p>The effects of weed gummies can last anywhere from 4 to 8 hours, with the peak effects usually occurring 2 to 4 hours after consumption. Duration varies based on dosage, metabolism, and tolerance.</p>"
+            "answer": "<p>The effects of weed gummies can last anywhere from 4 to 8 hours, with the peak effects usually occurring 2 to 4 hours after consumption. Duration varies based on dosage, metabolism, and tolerance.<\/p>"
           }
         },
         "faq_block_3tebeq": {
           "type": "faq_block",
           "settings": {
             "question": "Are Weed Gummies Safe to Consume?",
-            "answer": "<p>Weed gummies are safe when consumed responsibly. It's crucial to follow dosing guidelines, avoid mixing with alcohol or other substances, and store them out of reach of children and pets.</p>"
+            "answer": "<p>Weed gummies are safe when consumed responsibly. It's crucial to follow dosing guidelines, avoid mixing with alcohol or other substances, and store them out of reach of children and pets.<\/p>"
           }
         },
         "faq_block_4Li3Qy": {
           "type": "faq_block",
           "settings": {
             "question": "Are Weed Gummies Legal?",
-            "answer": "<p>The legality of weed gummies varies significantly based on location and the type of THC used. In the United States, THC derived from cannabis is federally illegal but may be legal for medical or recreational use in certain states, such as California, Colorado, and Oregon. However, THC derived from hemp, which contains less than 0.3% Delta-9 THC, is federally <a href=\"https://www.ams.usda.gov/rules-regulations/hemp/enforcement\" title=\"https://www.ams.usda.gov/rules-regulations/hemp/enforcement\">legal under the 2018 Farm Bill,</a> and products containing it can be sold in many states.</p><p>It's important to note that some states have specific regulations regarding the sale and consumption of THC gummies, regardless of their THC source. Additionally, international laws vary widely, with some countries having strict prohibitions on all forms of THC while others allow for medical or recreational use.</p><p>To ensure compliance with local laws, it is essential to check the specific regulations in your area before purchasing or consuming THC gummies.</p>"
+            "answer": "<p>The legality of weed gummies varies significantly based on location and the type of THC used. In the United States, THC derived from cannabis is federally illegal but may be legal for medical or recreational use in certain states, such as California, Colorado, and Oregon. However, THC derived from hemp, which contains less than 0.3% Delta-9 THC, is federally <a href=\"https:\/\/www.ams.usda.gov\/rules-regulations\/hemp\/enforcement\" title=\"https:\/\/www.ams.usda.gov\/rules-regulations\/hemp\/enforcement\">legal under the 2018 Farm Bill,<\/a> and products containing it can be sold in many states.<\/p><p>It's important to note that some states have specific regulations regarding the sale and consumption of THC gummies, regardless of their THC source. Additionally, international laws vary widely, with some countries having strict prohibitions on all forms of THC while others allow for medical or recreational use.<\/p><p>To ensure compliance with local laws, it is essential to check the specific regulations in your area before purchasing or consuming THC gummies.<\/p>"
           }
         }
       },
@@ -265,7 +256,7 @@
       "settings": {
         "full_width": false,
         "section_title": "Need Some Guidance on Weed Edible Gummies?",
-        "text": "<p><em>Kush Queen, your trusted wellness partner since 2015, serving over 95,000 customers with 5 star-rated weed gummies. Reach out to us at hello@kushqueen.shop. Your well-being is our priority.</em></p>",
+        "text": "<p><em>Kush Queen, your trusted wellness partner since 2015, serving over 95,000 customers with 5 star-rated weed gummies. Reach out to us at hello@kushqueen.shop. Your well-being is our priority.<\/em><\/p>",
         "text_size": "medium"
       }
     }

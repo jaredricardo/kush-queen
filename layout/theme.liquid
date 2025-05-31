@@ -23,7 +23,10 @@ window.TriplePixelData={TripleName:"kush-queen-shop.myshopify.com",ver:"2.12",pl
 </script>
 	
 	
-	
+  <script>
+    console.log('///////')
+    console.log({{ request.page_type | json }});
+  </script>
     
 
     <script>
@@ -38,6 +41,9 @@ window.TriplePixelData={TripleName:"kush-queen-shop.myshopify.com",ver:"2.12",pl
           window.location.reload();
         }
       });
+    </script>
+    <script>
+
     </script>
     {% comment %} swiper cdn {% endcomment %}
     <script
@@ -238,7 +244,6 @@ window.TriplePixelData={TripleName:"kush-queen-shop.myshopify.com",ver:"2.12",pl
       data-src="https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=WFnVdx"
     ></script>
 
-
     <!-- Gem_Page_Header_Script -->
     {% render 'gem-app-header-scripts' %}
     <!-- End_Gem_Page_Header_Script -->
@@ -252,6 +257,7 @@ window.TriplePixelData={TripleName:"kush-queen-shop.myshopify.com",ver:"2.12",pl
           word-break: normal;
         }
       </style>
+      
     {% endif %}
       
      {% if request.page_type == "page" and page.handle == "420-prep" %}
@@ -260,6 +266,14 @@ window.TriplePixelData={TripleName:"kush-queen-shop.myshopify.com",ver:"2.12",pl
              display: none;
            }
        </style>
+     {% endif %}
+
+     {% if request.page_type  == "article" or request.page_type == "blog" %}
+        <style>
+          .site-breadcumb {
+            display: none;
+          }
+      </style>
      {% endif %}
 
     <script>
@@ -428,9 +442,6 @@ window.TriplePixelData={TripleName:"kush-queen-shop.myshopify.com",ver:"2.12",pl
        insertMonkProtect();  
       })(); 
      
-
-
-
 
 
     </script>

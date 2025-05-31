@@ -1,0 +1,13 @@
+{% assign archive = 'grid_Bare,grid_Bath Bomb,grid_Blog,grid_Culture,grid_Education,grid_Featured,grid_Giving Back,grid_Healthy,grid_How To,grid_Other,grid_Products,grid_Social Responsibility,grid_Videos' | split: ',' %}
+
+<div class="tag-and-search-container">
+    <input type="search" placeholder="Search articles">
+    <ul class="tag-list">
+        {% for tag in archive %}
+            {% assign formatted_tag = tag | remove: 'grid_' %}
+            <li class="tag-item">
+                <a href="/blogs/all/tagged/{{ tag | handleize }}">{{ formatted_tag }}</a>
+            </li>
+        {% endfor %}
+    </ul>
+</div>
