@@ -1,8 +1,12 @@
 {% assign archive = 'grid_Bare,grid_Bath Bomb,grid_Blog,grid_Culture,grid_Education,grid_Featured,grid_Giving Back,grid_Healthy,grid_How To,grid_Other,grid_Products,grid_Social Responsibility,grid_Videos' | split: ',' %}
 
 <div class="tag-and-search-container">
-    <input type="search" placeholder="Search articles">
+    <div class="article-search-area">
+        <input type="search" placeholder="Search articles">
+        <button id="submit-article-search">Search</button>
+    </div>
     <ul class="tag-list">
+      <p style="margin: 0 0 0.5rem 0; font-weight: 600;">Find articles by tag:</p>
         {% for tag in archive %}
             {% assign formatted_tag = tag | remove: 'grid_' %}
             <li class="tag-item">
@@ -11,3 +15,26 @@
         {% endfor %}
     </ul>
 </div>
+
+
+<script>
+    window.addEventListener('DOMContentLoaded', () => {
+
+        const searchInput = document.querySelector('.article-search-area input[type="search"]')
+        const submitButton = document.getElementById('submit-article-search')
+
+        submitButton.addEventListener('click', () => {
+            const query = searchInput.value.trim();
+            if (query) {
+                window.location.href = `/search?q=${encodeURIComponent(query)}`
+            }
+        });
+
+        searchInput.addEventListener('keypress', (event) => {
+            if (event.key === 'Enter') {
+                event.preventDefault();
+                submitButton.click();
+            }
+        });
+    })
+</script>

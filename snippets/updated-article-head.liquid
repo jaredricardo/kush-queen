@@ -1,3 +1,15 @@
+{% assign full_url = request.host | append: request.path %}
+
 <div class="article-head">
-    ahhhhhh
+    <h1>{{ article.title }}</h1>
+    <h4>Published {{ article.published_at | time_tag: format: 'date' }} | Last updated {{  article.updated_at | time_tag: format: 'date' }}</h4>
+    {% render 'social-sharing-new' %}
+    <div class="tag-container">
+        {% for tag in article.tags %}
+            {% if tag contains 'tags_' %}
+                {% assign formatted = tag.title | remove: 'tags_' %}
+                <span class="article-tag">{{ formatted }}</span>
+            {% endif %}
+        {% endfor %}
+    </div>
 </div>

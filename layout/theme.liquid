@@ -28,6 +28,23 @@ window.TriplePixelData={TripleName:"kush-queen-shop.myshopify.com",ver:"2.12",pl
     console.log({{ request.page_type | json }});
   </script>
     
+    {% comment %} social sharing buttons library {% endcomment %}
+    <script src="https://cdn.jsdelivr.net/npm/sharer.js@0.5.2/sharer.min.js"></script>
+    <script>
+      window.addEventListener('DOMContentLoaded', () => {
+
+        const copyURLButtons = document.querySelectorAll('.copy-url')
+
+        copyURLButtons.forEach((button) => {
+          button.addEventListener('click', (event) => {
+            event.preventDefault()
+            const url = window.location.href
+            navigator.clipboard.writeText(url)
+          })
+        })
+
+      })
+    </script>
 
     <script>
       window.SLIDECART_DISABLE = true

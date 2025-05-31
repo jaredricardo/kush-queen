@@ -1,0 +1,11 @@
+<div class="social-sharing-container">
+    <ul class="social-icons">
+        <button class="fa fa-facebook" data-sharer="facebook" data-title="{{ article.title }}"  data-url="{{ full_url }}"></button>
+        <button class="fa fa-twitter" data-sharer="twitter" data-title="{{ article.title }}"  data-url="{{ full_url }}"></button>
+        <button class="fa fa-linkedin" data-sharer="linkedin" data-title="{{ article.title }}"  data-url="{{ full_url }}"></button>
+        <button class="fa fa-pinterest" data-sharer="pinterest" data-title="{{ article.title }}"  data-url="{{ full_url }}"></button>
+        <button class="copy-url">
+            {% render 'icon-copy-chain' %}
+        </button>
+    </ul>
+</div>

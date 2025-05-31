@@ -159,3 +159,134 @@
         font-size: 12px !important;
     }
   } 
+
+  /* new blog css */
+
+.page-width:has(.updated-blog-header ) {
+    padding-top: 5rem;
+}
+
+.updated-blog-header {
+    display: flex;
+    flex-direction: row;
+    border: 1.5px solid black;
+}
+
+.updated-blog-header .tag-and-search-container {
+    flex: 2;
+    border-right: 1.5px solid black;
+}
+
+.updated-blog-header .tag-and-search-container .tag-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    margin-top: 1rem;
+}
+
+.updated-blog-header .tag-and-search-container .tag-item {
+    color: black;
+    cursor: pointer;
+}
+
+.updated-blog-header .tag-and-search-container .tag-item:hover {
+    text-decoration: underline;
+}
+
+.updated-blog-header .article-head {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    flex: 4;
+}
+
+.updated-blog-header .tag-and-search-container,
+.updated-blog-header .article-head {
+    padding: 2rem;
+}
+
+.article-search-area {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+#submit-article-search {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 2px;
+}
+
+.article-head h1 {
+    font-weight: 600;
+}
+
+.article-head .social-icons button {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: none;
+}
+
+.article-head .social-icons button svg {
+    width: 100%;
+    height: 100%;
+}
+
+.article-head .social-icons button svg path {
+    fill: #3d4246 !important;
+}
+
+.article-head .social-icons {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+
+.article-head .tag-container {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+
+.article-head .tag-container .article-tag {
+    background-color: black;
+    color: white;
+    padding: 6px 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: max-content;
+    border-radius: 30px;
+    font-size: 12px;
+    text-transform: lowercase;
+    font-weight: 500;
+    line-height: 1;
+}
+
+.social-sharing-container {
+    margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+    .updated-blog-header {
+        flex-direction: column-reverse;
+    }
+    .updated-blog-header .tag-and-search-container {
+        border-right: none;
+    }
+
+    .page-width:has(.updated-blog-header) {
+        padding-top: 3rem;
+    }
+    .updated-blog-header .tag-and-search-container,
+    .updated-blog-header .article-head {
+        padding: 1rem;
+    }
+    .tag-and-search-container {
+        display: none;
+    }
+}
