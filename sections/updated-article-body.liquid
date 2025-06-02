@@ -1,0 +1,27 @@
+{% style %}
+
+{% endstyle %}
+
+<div data-section-id="{{ section.id }}">
+    <div class="page-width updated-article-body">
+        {% if article.image != blank %}
+            {{ article.image |  image_url: width: 1440 | image_tag }}
+        {% endif %}
+        <div class="article-content">
+            {{ article.content }}
+        </div>
+    </div>
+</div>
+
+{% schema %}
+{
+  "name": "JR Article Body",
+  "settings": [],
+  "blocks": [],
+  "presets": [
+    {
+        "name": "JR Article Body"
+    }
+  ]
+}
+{% endschema %}

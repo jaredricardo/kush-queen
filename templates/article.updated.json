@@ -14,10 +14,61 @@
       "type": "jr-updated-article-header",
       "name": "JR Article Header",
       "settings": {}
+    },
+    "updated_article_body_c7ca8T": {
+      "type": "updated-article-body",
+      "name": "JR Article Body",
+      "settings": {}
+    },
+    "new_signup_HwfqW7": {
+      "type": "new-signup",
+      "blocks": {
+        "icon_A7CGUB": {
+          "type": "icon",
+          "settings": {
+            "icon_block": "shopify:\/\/shop_images\/Vector.png"
+          }
+        },
+        "icon_VCMFU6": {
+          "type": "icon",
+          "settings": {
+            "icon_block": "shopify:\/\/shop_images\/Vector-3.png"
+          }
+        },
+        "icon_VXFWG7": {
+          "type": "icon",
+          "settings": {
+            "icon_block": "shopify:\/\/shop_images\/Vector-1.png"
+          }
+        },
+        "icon_fia3b9": {
+          "type": "icon",
+          "settings": {
+            "icon_block": "shopify:\/\/shop_images\/Vector-3.png"
+          }
+        }
+      },
+      "block_order": [
+        "icon_A7CGUB",
+        "icon_VCMFU6",
+        "icon_VXFWG7",
+        "icon_fia3b9"
+      ],
+      "name": "New Signup",
+      "settings": {
+        "icon": "shopify:\/\/shop_images\/Vector.png",
+        "section_title": "Join The KQ Fam",
+        "subheading": "Our emails deliver deals, community cares, and cannabinoid education.",
+        "show_background": true,
+        "email_placeholder": "DROP YOUR EMAIL HERE",
+        "link_text": "GO!"
+      }
     }
   },
   "order": [
     "rich-text",
-    "jr_updated_article_header_C7djyk"
+    "jr_updated_article_header_C7djyk",
+    "updated_article_body_c7ca8T",
+    "new_signup_HwfqW7"
   ]
 }
