@@ -27,10 +27,37 @@
             "blog_tag_title_of_subsection": "CBD Wellness",
             "blog_tag_description": "<p>Discover the Ultimate CBD Wellness Products to Elevate Your Lifestyle.<\/p>"
           }
+        },
+        "blog_tag_section_WWyp96": {
+          "type": "blog-tag-section",
+          "settings": {
+            "blog_tag": "tags_Education",
+            "blog_tag_title_of_subsection": "Education",
+            "blog_tag_description": "<p>Expand your understanding of cannabis with Expertly written Articles.<\/p>"
+          }
+        },
+        "blog_tag_section_KYWGTR": {
+          "type": "blog-tag-section",
+          "settings": {
+            "blog_tag": "tags_Cooking",
+            "blog_tag_title_of_subsection": "Cannabis Cooking",
+            "blog_tag_description": "<p>Explore the World of Cannabis-infused Cuisine with Our Blog.<\/p>"
+          }
+        },
+        "blog_tag_section_DBa4Yn": {
+          "type": "blog-tag-section",
+          "settings": {
+            "blog_tag": "tags_Fitness",
+            "blog_tag_title_of_subsection": "Fitness",
+            "blog_tag_description": "<p>Get fit and stay lifted with our expert fitness tips on a cannabis-friendly blog.<\/p>"
+          }
         }
       },
       "block_order": [
-        "blog_tag_section_8GmbbH"
+        "blog_tag_section_8GmbbH",
+        "blog_tag_section_WWyp96",
+        "blog_tag_section_KYWGTR",
+        "blog_tag_section_DBa4Yn"
       ],
       "name": "JR Blog Body",
       "settings": {}
@@ -69,7 +96,6 @@
         "icon_VXFWG7",
         "icon_fia3b9"
       ],
-      "disabled": true,
       "name": "New Signup",
       "settings": {
         "icon": "shopify:\/\/shop_images\/Vector.png",
