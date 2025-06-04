@@ -361,11 +361,6 @@ window.TriplePixelData={TripleName:"kush-queen-shop.myshopify.com",ver:"2.12",pl
             or template == '404'
             or request.path contains 'recurring/portal'
           %}
-          <script>
-            console.log('???????')
-            console.log({{ template | json }})
-
-          </script>
             {% include 'breadcrumb' %}
           {% endunless %}
           {{ content_for_layout }}

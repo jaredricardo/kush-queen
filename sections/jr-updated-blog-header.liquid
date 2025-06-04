@@ -1,0 +1,31 @@
+{% style %}
+
+{% endstyle %}
+
+<div data-section-id="{{ section.id }}">
+    <div class="page-width">
+        <div class="updated-blog-header">
+            {% render 'blog-search-and-articles' %}
+            {% render 'updated-blog-head', blog_description: section.settings.blog_description %}
+        </div>
+    </div>
+</div>
+
+{% schema %}
+{
+  "name": "JR Blog Header",
+  "settings": [
+    {
+      "type": "richtext",
+      "id": "blog_description",
+      "label": "Blog Description"
+    }
+  ],
+  "blocks": [],
+  "presets": [
+    {
+        "name": "JR Blog Header"
+    }
+  ]
+}
+{% endschema %}

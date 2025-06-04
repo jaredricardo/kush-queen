@@ -1,3 +1,4 @@
+{% assign full_url = request.host | append: request.path %}
 <div class="social-sharing-container">
     <ul class="social-icons">
         <button class="fa fa-facebook" data-sharer="facebook" data-title="{{ article.title }}"  data-url="{{ full_url }}"></button>

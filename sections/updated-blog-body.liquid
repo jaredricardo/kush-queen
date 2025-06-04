@@ -1,0 +1,94 @@
+{% style %}
+
+{% endstyle %}
+
+<div data-section-id="{{ section.id }}">
+    <div class="page-width">
+        <div class="updated-blog-body">
+           {% for block in section.blocks %}
+                <div class="blog-subsection-container">
+                    {% if block.settings.blog_tag_title_of_subsection %}
+                        <h2>{{ block.settings.blog_tag_title_of_subsection }}</h2>
+                    {% endif %}
+                    {% if block.settings.blog_tag_description %}
+                        <p>{{ block.settings.blog_tag_description | strip_html }}</p>
+                    {% endif %}
+
+                    {% assign blog_tag = block.settings.blog_tag %}
+                    {% assign article_handles = '' %}
+
+                    {% for article in blogs.all.articles %}
+                        {% if article.tags contains blog_tag %}
+                            <script>
+                                console.log({{ article.tags | json }})
+                                console.log({{ blog_tag | json }})
+                            </script>
+                            {% assign article_handles = article_handles | append: article.handle | append: ',' %}
+                        {% endif %}
+                    {% endfor %}
+
+                    {% assign article_handles = articles_handles | uniq %}
+
+
+                   
+                    <script>
+                        console.log('!!!!!')
+                        console.log({{ blogs.all.articles | json }})
+                        console.log({{ blog_tag | json }})
+                        console.log({{ article_handles | json}})
+                    </script>
+                    <div class="blog-subsection-article-container">
+                        {% for article in articles %}
+                            <div class="blog-article">
+                                <a href="{{ article.url }}" class="blog-article-image">
+                                    {% if article.image %}
+                                        <img src="{{ article.image | img_url: 'medium' }}" alt="{{ article.title }}">
+                                        <h3>{{ article.title }}</h3>
+                                        <p>{{ article.excerpt | strip_html | truncatewords: 20 }}</p>
+                                    {% endif %}
+                                </a>
+                            </div>
+                        {% endfor %}
+                    </div>
+                </div>
+           {% endfor %}
+        </div>
+    </div>
+</div>
+
+{% schema %}
+{
+  "name": "JR Blog Body",
+  "settings": [],
+  "blocks": [
+    {
+        "type": "blog-tag-section",
+        "name": "Blog Tag Section",
+        "settings": [
+            {
+                "type": "text",
+                "id": "blog_tag",
+                "label": "Blog Subsection Tag",
+                "info": "Enter the tag of the articles you want to display in this section. EG. If you have have several articles tagged '420', you coudl enter 420 here. Then 3 of the newest articles will populate in this section"
+            },
+            {
+                "type": "text",
+                "id": "blog_tag_title_of_subsection",
+                "label": "Blog Subsection Title"
+            },
+            {
+                "type": "richtext",
+                "id": "blog_tag_description",
+                "label": "Blog Subsection Description",
+            }
+        
+        ]
+    }
+  ],
+  "presets": [
+    {
+        "name": "JR Blog Body"
+    }
+  ]
+}
+{% endschema %}
