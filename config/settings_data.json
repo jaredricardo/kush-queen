@@ -365,9 +365,9 @@
           "simple_link_iUkaie"
         ],
         "settings": {
-          "announcement_text": "🥳 Shop 30% OFF!",
-          "announcement_cta_url": "",
-          "announcement_cta_text": "",
+          "announcement_text": "Shop 25% Off Sexual Wellness 💦",
+          "announcement_cta_url": "https://kushqueen.shop/collections/cbd-sexual-wellness",
+          "announcement_cta_text": "Code:25SEXY",
           "head_site_link": "",
           "head_site_link_txt": "Kush Queen",
           "head_site_king_link": "",
@@ -2392,8 +2392,9 @@
       },
       "d76d763c-6c70-4fea-b4ad-4348f38cb70e": {
         "type": "sitewide-sale-announcement",
+        "disabled": true,
         "settings": {
-          "text": "Summer Vibes—Take 30% Off!"
+          "text": "National Sex Day Sale! Shop 25% OFF Lube"
         }
       }
     },
