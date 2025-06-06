@@ -1,0 +1,116 @@
+{
+  "sections": {
+    "rich-text": {
+      "type": "rich-text",
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "section_title": "Talk about your brand",
+        "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+        "text_size": "medium"
+      }
+    },
+    "jr_updated_blog_header_VtBfa8": {
+      "type": "jr-updated-blog-header",
+      "name": "JR Blog Header",
+      "settings": {
+        "blog_description": "<h3>From cannabinoid science to real-world wellness tips, we’re here to make cannabis more approachable, more informed, and more personal. Whether you're new to it or live the lifestyle, this is your space to explore, learn, and elevate your routine. <\/h3>"
+      }
+    },
+    "updated_blog_body_DKLFJ8": {
+      "type": "updated-blog-body",
+      "blocks": {
+        "blog_tag_section_8GmbbH": {
+          "type": "blog-tag-section",
+          "settings": {
+            "blog_tag": "tags_CBD Wellness",
+            "blog_tag_title_of_subsection": "CBD Wellness",
+            "blog_tag_description": "<p>Discover the Ultimate CBD Wellness Products to Elevate Your Lifestyle.<\/p>"
+          }
+        },
+        "blog_tag_section_WWyp96": {
+          "type": "blog-tag-section",
+          "settings": {
+            "blog_tag": "tags_Education",
+            "blog_tag_title_of_subsection": "Education",
+            "blog_tag_description": "<p>Expand your understanding of cannabis with Expertly written Articles.<\/p>"
+          }
+        },
+        "blog_tag_section_KYWGTR": {
+          "type": "blog-tag-section",
+          "settings": {
+            "blog_tag": "tags_Cooking",
+            "blog_tag_title_of_subsection": "Cannabis Cooking",
+            "blog_tag_description": "<p>Explore the World of Cannabis-infused Cuisine with Our Blog.<\/p>"
+          }
+        },
+        "blog_tag_section_DBa4Yn": {
+          "type": "blog-tag-section",
+          "settings": {
+            "blog_tag": "tags_Fitness",
+            "blog_tag_title_of_subsection": "Fitness",
+            "blog_tag_description": "<p>Get fit and stay lifted with our expert fitness tips on a cannabis-friendly blog.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "blog_tag_section_8GmbbH",
+        "blog_tag_section_WWyp96",
+        "blog_tag_section_KYWGTR",
+        "blog_tag_section_DBa4Yn"
+      ],
+      "name": "JR Blog Body",
+      "settings": {}
+    },
+    "new_signup_HwfqW7": {
+      "type": "new-signup",
+      "blocks": {
+        "icon_A7CGUB": {
+          "type": "icon",
+          "settings": {
+            "icon_block": "shopify:\/\/shop_images\/Vector.png"
+          }
+        },
+        "icon_VCMFU6": {
+          "type": "icon",
+          "settings": {
+            "icon_block": "shopify:\/\/shop_images\/Vector-3.png"
+          }
+        },
+        "icon_VXFWG7": {
+          "type": "icon",
+          "settings": {
+            "icon_block": "shopify:\/\/shop_images\/Vector-1.png"
+          }
+        },
+        "icon_fia3b9": {
+          "type": "icon",
+          "settings": {
+            "icon_block": "shopify:\/\/shop_images\/Vector-3.png"
+          }
+        }
+      },
+      "block_order": [
+        "icon_A7CGUB",
+        "icon_VCMFU6",
+        "icon_VXFWG7",
+        "icon_fia3b9"
+      ],
+      "name": "New Signup",
+      "settings": {
+        "icon": "shopify:\/\/shop_images\/Vector.png",
+        "section_title": "Join The KQ Fam",
+        "subheading": "Get the latest posts, deals, and cannabis spotlights delivered straight to your inbox.",
+        "show_background": true,
+        "email_placeholder": "DROP YOUR EMAIL HERE",
+        "link_text": "GO!"
+      }
+    }
+  },
+  "order": [
+    "rich-text",
+    "jr_updated_blog_header_VtBfa8",
+    "updated_blog_body_DKLFJ8",
+    "new_signup_HwfqW7"
+  ]
+}

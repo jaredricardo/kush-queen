@@ -1,20 +1,74 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "sections": {
     "rich-text": {
       "type": "rich-text",
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "section_title": "Talk about your brand",
+        "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+        "text_size": "medium"
+      }
+    },
+    "jr_updated_article_header_C7djyk": {
+      "type": "jr-updated-article-header",
+      "name": "JR Article Header",
       "settings": {}
+    },
+    "updated_article_body_c7ca8T": {
+      "type": "updated-article-body",
+      "name": "JR Article Body",
+      "settings": {}
+    },
+    "new_signup_HwfqW7": {
+      "type": "new-signup",
+      "blocks": {
+        "icon_A7CGUB": {
+          "type": "icon",
+          "settings": {
+            "icon_block": "shopify:\/\/shop_images\/Vector.png"
+          }
+        },
+        "icon_VCMFU6": {
+          "type": "icon",
+          "settings": {
+            "icon_block": "shopify:\/\/shop_images\/Vector-3.png"
+          }
+        },
+        "icon_VXFWG7": {
+          "type": "icon",
+          "settings": {
+            "icon_block": "shopify:\/\/shop_images\/Vector-1.png"
+          }
+        },
+        "icon_fia3b9": {
+          "type": "icon",
+          "settings": {
+            "icon_block": "shopify:\/\/shop_images\/Vector-3.png"
+          }
+        }
+      },
+      "block_order": [
+        "icon_A7CGUB",
+        "icon_VCMFU6",
+        "icon_VXFWG7",
+        "icon_fia3b9"
+      ],
+      "name": "New Signup",
+      "settings": {
+        "icon": "shopify:\/\/shop_images\/Vector.png",
+        "section_title": "Join The KQ Fam",
+        "subheading": "Get the latest posts, deals, and cannabis spotlights delivered straight to your inbox.",
+        "show_background": true,
+        "email_placeholder": "DROP YOUR EMAIL HERE",
+        "link_text": "GO!"
+      }
     }
   },
   "order": [
-    "rich-text"
+    "rich-text",
+    "jr_updated_article_header_C7djyk",
+    "updated_article_body_c7ca8T",
+    "new_signup_HwfqW7"
   ]
 }
