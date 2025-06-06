@@ -126,11 +126,24 @@
         "text": "<p><em>Kush Queen, your trusted wellness partner since 2015, serving over 95,000 customers with 5 star-rated weed gummies. Reach out to us at hello@kushqueen.shop. Your well-being is our priority.</em></p>",
         "text_size": "medium"
       }
+    },
+    "feature_row_3PDmee": {
+      "type": "feature-row",
+      "name": "Image with text",
+      "settings": {
+        "image": "shopify://shop_images/kush-queen-mobile-fall-home.jpg",
+        "layout": "right",
+        "title": "Cannabis Gummies Crafted With You In Mind",
+        "text": "<p>✓ Ideal for beginners and seasoned users alike</p><p>✓ Relief from stress, pain, and everyday burnout</p><p>✓ Made with clean, premium ingredients</p><p>✓ Precision-dosed for consistent effects</p><p>✓ Lab tested for purity, potency, and safety</p><p>✓ Delicious, effective, and easy way to enjoy the therapeutic benefits of THC</p>",
+        "button_label": "",
+        "button_link": ""
+      }
     }
   },
   "order": [
     "collection_header_7bBjxG",
     "new-collection-template",
+    "feature_row_3PDmee",
     "new_faq_w8dhdC",
     "rich_text_Kyrk4Y"
   ]
