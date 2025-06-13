@@ -270,10 +270,13 @@
 
 <script>
   document.querySelectorAll('.stack_faq-item').forEach(item => {
+    const question = item.querySelector('.stack_faq-question');
     const plusIcon = item.querySelector('.plus');
     const minusIcon = item.querySelector('.minus');
-    item.addEventListener('click', () => {
+
+    question.addEventListener('click', () => {
       const isActive = item.classList.contains('active');
+
       item.classList.toggle('active');
 
       if (plusIcon && minusIcon) {
