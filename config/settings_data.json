@@ -2445,7 +2445,7 @@
         "type": "banner-stack",
         "settings": {
           "desktop_image": "shopify://shop_images/kush-queen-home-jan-banner.jpg",
-          "banner_height": "auto"
+          "banner_height": "500px"
         }
       },
       "brand-logos-stack": {
