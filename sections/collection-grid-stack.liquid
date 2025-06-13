@@ -1,180 +1,182 @@
 {% assign collection = collections[section.settings.collection] %}
 
 <div class="stack_collection-grid-wrapper">
-  <div class="stack_collection-grid-container">
-    {% if section.settings.heading != blank %}
-      <h2 class="stack_collection-heading stack_align-{{ section.settings.heading_align }}">
-        {{ section.settings.heading }}
-      </h2>
-    {% endif %}
+  <div class="page-width">
+    <div class="stack_collection-grid-container">
+      {% if section.settings.heading != blank %}
+        <h2 class="stack_collection-heading stack_align-{{ section.settings.heading_align }}">
+          {{ section.settings.heading }}
+        </h2>
+      {% endif %}
 
-    {%- assign ns = section.settings.description_metafield_namespace -%}
-    {%- assign key = section.settings.description_metafield_key -%}
-    {%- assign metafield_value = collection.metafields[ns][key].value -%}
-    {%- assign custom_desc = section.settings.custom_description -%}
-    {%- assign fallback_enabled = section.settings.show_collection_description -%}
+      {%- assign ns = section.settings.description_metafield_namespace -%}
+      {%- assign key = section.settings.description_metafield_key -%}
+      {%- assign metafield_value = collection.metafields[ns][key].value -%}
+      {%- assign custom_desc = section.settings.custom_description -%}
+      {%- assign fallback_enabled = section.settings.show_collection_description -%}
 
-    {% if metafield_value != blank %}
-      <div class="stack_collection-description stack_align-{{ section.settings.heading_align }}">
-        {{ metafield_value }}
-      </div>
-    {% elsif custom_desc != blank %}
-      <div class="stack_collection-description stack_align-{{ section.settings.heading_align }}">
-        {{ custom_desc }}
-      </div>
-    {% elsif fallback_enabled and collection.description != blank %}
-      <div class="stack_collection-description stack_align-{{ section.settings.heading_align }}">
-        {{ collection.description }}
-      </div>
-    {% endif %}
-
-    <div class="stack_collection-grid stack_cols-desktop-{{ section.settings.columns_desktop }} stack_cols-mobile-{{ section.settings.columns_mobile }}">
-      {% for product in collection.products %}
-        <div
-          class="stack_collection-card stack_hover-{{ section.settings.card_hover_effect }}"
-          style="border-radius: {{ section.settings.card_radius }}px;"
-        >
-          {% assign first_image = product.featured_image %}
-          {% assign second_image = product.images[1] %}
-
-          <div class="stack_card-image-wrapper stack_ratio-{{ section.settings.card_image_ratio }}">
-            {% if first_image %}
-              <img
-                class="stack_card-image stack_card-image--primary"
-                src="{{ first_image | image_url: width: 600 }}"
-                alt="{{ product.title }}"
-                loading="lazy"
-              >
-            {% endif %}
-
-            {% if section.settings.enable_hover_image and second_image %}
-              <img
-                class="stack_card-image stack_card-image--secondary"
-                src="{{ second_image | image_url: width: 600 }}"
-                alt="{{ product.title }} (hover)"
-                loading="lazy"
-              >
-            {% endif %}
-          </div>
-
-          <div class="stack_card-info">
-            {% if section.settings.show_title %}
-              <div class="stack_card-title">{{ product.title }}</div>
-            {% endif %}
-
-            {% assign pd_ns = section.settings.product_description_metafield_namespace %}
-            {% assign pd_key = section.settings.product_description_metafield_key %}
-            {% assign product_desc = product.metafields[pd_ns][pd_key].value %}
-
-            {% if product_desc %}
-              <div class="stack_card-short-description">{{ product_desc }}</div>
-            {% endif %}
-
-            {%- if section.settings.show_reviews -%}
-              <div class="stack_rating-wrapper">
-                {%- if product.metafields.reviews.rating.value != blank -%}
-                  {% liquid
-                    assign rating_decimal = 0
-                    assign decimal = product.metafields.reviews.rating.value.rating | modulo: 1
-                    if decimal >= 0.3 and decimal <= 0.7
-                      assign rating_decimal = 0.5
-                    elsif decimal > 0.7
-                      assign rating_decimal = 1
-                    endif
-                  %}
-                  <div
-                    class="stack_rating"
-                    role="img"
-                    aria-label="{{ 'accessibility.star_reviews_info' | t: rating_value: product.metafields.reviews.rating.value, rating_max: product.metafields.reviews.rating.value.scale_max }}"
-                  >
-                    <span
-                      aria-hidden="true"
-                      class="stack_rating-stars"
-                      style="--rating: {{ product.metafields.reviews.rating.value.rating | floor }}; --rating-max: {{ product.metafields.reviews.rating.value.scale_max }}; --rating-decimal: {{ rating_decimal }};"
-                    >
-                    </span>
-                  </div>
-                  <div class="stack_rating-info">
-                    <span class="stack_rating-value">
-                      {{ product.metafields.reviews.rating.value }} /
-                      {{ product.metafields.reviews.rating.value.scale_max }}
-                    </span>
-                    <span class="stack_rating-count"> ({{ product.metafields.reviews.rating_count }}) </span>
-                  </div>
-                {%- else -%}
-                  {% assign base = product.id | modulo: 100 %}
-                  {% assign dummy_count = base | plus: 25 %}
-                  <div class="stack_rating-dummy-stars">
-                    {% for i in (1..5) %}
-                      <svg
-                        class="stack_star"
-                        viewBox="0 0 24 24"
-                        xmlns="http://www.w3.org/2000/svg"
-                        aria-hidden="true"
-                        width="16"
-                        height="16"
-                      >
-                        <path d="m11.322 2.923c.126-.259.39-.423.678-.423.289 0 .552.164.678.423.974 1.998 2.65 5.44 2.65 5.44s3.811.524 6.022.829c.403.055.65.396.65.747 0 .19-.072.383-.231.536-1.61 1.538-4.382 4.191-4.382 4.191s.677 3.767 1.069 5.952c.083.462-.275.882-.742.882-.122 0-.244-.029-.355-.089-1.968-1.048-5.359-2.851-5.359-2.851s-3.391 1.803-5.359 2.851c-.111.06-.234.089-.356.089-.465 0-.825-.421-.741-.882.393-2.185 1.07-5.952 1.07-5.952s-2.773-2.653-4.382-4.191c-.16-.153-.232-.346-.232-.535 0-.352.249-.694.651-.748 2.211-.305 6.021-.829 6.021-.829s1.677-3.442 2.65-5.44z"/>
-                      </svg>
-                    {% endfor %}
-                  </div>
-                  <div class="stack_rating-info">
-                    <span class="stack_rating-value">5 / 5</span>
-                    <span class="stack_rating-count">({{ dummy_count }})</span>
-                  </div>
-                {%- endif -%}
-              </div>
-            {%- endif -%}
-
-            {% if section.settings.show_price %}
-              {% if product.price < product.compare_at_price %}
-                <div class="stack_card-price">
-                  <span>{{ product.price | money }}</span>
-                  <span>
-                    <del>{{ product.compare_at_price | money }}</del>
-                  </span>
-                  {%- if section.settings.sale_badge_metafield_key != blank -%}
-                    {%- assign badge_key_parts = section.settings.sale_badge_metafield_key | split: '.' -%}
-                    {%- assign badge_namespace = badge_key_parts[0] -%}
-                    {%- assign badge_key = badge_key_parts[1] -%}
-                    {%- assign sale_badge = product.metafields[badge_namespace][badge_key] -%}
-
-                    {%- if sale_badge != blank -%}
-                      <div class="stack_sale-badge">
-                        {{ sale_badge }}
-                      </div>
-                    {%- endif -%}
-                  {%- endif -%}
-                </div>
-              {% else %}
-                <div class="stack_card-price">
-                  <span>
-                    {{ product.price | money }}
-                  </span>
-                  {%- if section.settings.sale_badge_metafield_key != blank -%}
-                    {%- assign badge_key_parts = section.settings.sale_badge_metafield_key | split: '.' -%}
-                    {%- assign badge_namespace = badge_key_parts[0] -%}
-                    {%- assign badge_key = badge_key_parts[1] -%}
-                    {%- assign sale_badge = product.metafields[badge_namespace][badge_key] -%}
-
-                    {%- if sale_badge != blank -%}
-                      <div class="stack_sale-badge">
-                        {{ sale_badge }}
-                      </div>
-                    {%- endif -%}
-                  {%- endif -%}
-                </div>
-              {% endif %}
-            {% endif %}
-
-            {% if section.settings.show_button %}
-              <a href="{{ product.url }}" class="stack_card-button">
-                {{ section.settings.button_label }}
-              </a>
-            {% endif %}
-          </div>
+      {% if metafield_value != blank %}
+        <div class="stack_collection-description stack_align-{{ section.settings.heading_align }}">
+          {{ metafield_value }}
         </div>
-      {% endfor %}
+      {% elsif custom_desc != blank %}
+        <div class="stack_collection-description stack_align-{{ section.settings.heading_align }}">
+          {{ custom_desc }}
+        </div>
+      {% elsif fallback_enabled and collection.description != blank %}
+        <div class="stack_collection-description stack_align-{{ section.settings.heading_align }}">
+          {{ collection.description }}
+        </div>
+      {% endif %}
+
+      <div class="stack_collection-grid stack_cols-desktop-{{ section.settings.columns_desktop }} stack_cols-mobile-{{ section.settings.columns_mobile }}">
+        {% for product in collection.products %}
+          <div
+            class="stack_collection-card stack_hover-{{ section.settings.card_hover_effect }}"
+            style="border-radius: {{ section.settings.card_radius }}px;"
+          >
+            {% assign first_image = product.featured_image %}
+            {% assign second_image = product.images[1] %}
+
+            <div class="stack_card-image-wrapper stack_ratio-{{ section.settings.card_image_ratio }}">
+              {% if first_image %}
+                <img
+                  class="stack_card-image stack_card-image--primary"
+                  src="{{ first_image | image_url: width: 600 }}"
+                  alt="{{ product.title }}"
+                  loading="lazy"
+                >
+              {% endif %}
+
+              {% if section.settings.enable_hover_image and second_image %}
+                <img
+                  class="stack_card-image stack_card-image--secondary"
+                  src="{{ second_image | image_url: width: 600 }}"
+                  alt="{{ product.title }} (hover)"
+                  loading="lazy"
+                >
+              {% endif %}
+            </div>
+
+            <div class="stack_card-info">
+              {% if section.settings.show_title %}
+                <div class="stack_card-title">{{ product.title }}</div>
+              {% endif %}
+
+              {% assign pd_ns = section.settings.product_description_metafield_namespace %}
+              {% assign pd_key = section.settings.product_description_metafield_key %}
+              {% assign product_desc = product.metafields[pd_ns][pd_key].value %}
+
+              {% if product_desc %}
+                <div class="stack_card-short-description">{{ product_desc }}</div>
+              {% endif %}
+
+              {%- if section.settings.show_reviews -%}
+                <div class="stack_rating-wrapper">
+                  {%- if product.metafields.reviews.rating.value != blank -%}
+                    {% liquid
+                      assign rating_decimal = 0
+                      assign decimal = product.metafields.reviews.rating.value.rating | modulo: 1
+                      if decimal >= 0.3 and decimal <= 0.7
+                        assign rating_decimal = 0.5
+                      elsif decimal > 0.7
+                        assign rating_decimal = 1
+                      endif
+                    %}
+                    <div
+                      class="stack_rating"
+                      role="img"
+                      aria-label="{{ 'accessibility.star_reviews_info' | t: rating_value: product.metafields.reviews.rating.value, rating_max: product.metafields.reviews.rating.value.scale_max }}"
+                    >
+                      <span
+                        aria-hidden="true"
+                        class="stack_rating-stars"
+                        style="--rating: {{ product.metafields.reviews.rating.value.rating | floor }}; --rating-max: {{ product.metafields.reviews.rating.value.scale_max }}; --rating-decimal: {{ rating_decimal }};"
+                      >
+                      </span>
+                    </div>
+                    <div class="stack_rating-info">
+                      <span class="stack_rating-value">
+                        {{ product.metafields.reviews.rating.value }} /
+                        {{ product.metafields.reviews.rating.value.scale_max }}
+                      </span>
+                      <span class="stack_rating-count"> ({{ product.metafields.reviews.rating_count }}) </span>
+                    </div>
+                  {%- else -%}
+                    {% assign base = product.id | modulo: 100 %}
+                    {% assign dummy_count = base | plus: 25 %}
+                    <div class="stack_rating-dummy-stars">
+                      {% for i in (1..5) %}
+                        <svg
+                          class="stack_star"
+                          viewBox="0 0 24 24"
+                          xmlns="http://www.w3.org/2000/svg"
+                          aria-hidden="true"
+                          width="16"
+                          height="16"
+                        >
+                          <path d="m11.322 2.923c.126-.259.39-.423.678-.423.289 0 .552.164.678.423.974 1.998 2.65 5.44 2.65 5.44s3.811.524 6.022.829c.403.055.65.396.65.747 0 .19-.072.383-.231.536-1.61 1.538-4.382 4.191-4.382 4.191s.677 3.767 1.069 5.952c.083.462-.275.882-.742.882-.122 0-.244-.029-.355-.089-1.968-1.048-5.359-2.851-5.359-2.851s-3.391 1.803-5.359 2.851c-.111.06-.234.089-.356.089-.465 0-.825-.421-.741-.882.393-2.185 1.07-5.952 1.07-5.952s-2.773-2.653-4.382-4.191c-.16-.153-.232-.346-.232-.535 0-.352.249-.694.651-.748 2.211-.305 6.021-.829 6.021-.829s1.677-3.442 2.65-5.44z"/>
+                        </svg>
+                      {% endfor %}
+                    </div>
+                    <div class="stack_rating-info">
+                      <span class="stack_rating-value">5 / 5</span>
+                      <span class="stack_rating-count">({{ dummy_count }})</span>
+                    </div>
+                  {%- endif -%}
+                </div>
+              {%- endif -%}
+
+              {% if section.settings.show_price %}
+                {% if product.price < product.compare_at_price %}
+                  <div class="stack_card-price">
+                    <span>{{ product.price | money }}</span>
+                    <span>
+                      <del>{{ product.compare_at_price | money }}</del>
+                    </span>
+                    {%- if section.settings.sale_badge_metafield_key != blank -%}
+                      {%- assign badge_key_parts = section.settings.sale_badge_metafield_key | split: '.' -%}
+                      {%- assign badge_namespace = badge_key_parts[0] -%}
+                      {%- assign badge_key = badge_key_parts[1] -%}
+                      {%- assign sale_badge = product.metafields[badge_namespace][badge_key] -%}
+
+                      {%- if sale_badge != blank -%}
+                        <div class="stack_sale-badge">
+                          {{ sale_badge }}
+                        </div>
+                      {%- endif -%}
+                    {%- endif -%}
+                  </div>
+                {% else %}
+                  <div class="stack_card-price">
+                    <span>
+                      {{ product.price | money }}
+                    </span>
+                    {%- if section.settings.sale_badge_metafield_key != blank -%}
+                      {%- assign badge_key_parts = section.settings.sale_badge_metafield_key | split: '.' -%}
+                      {%- assign badge_namespace = badge_key_parts[0] -%}
+                      {%- assign badge_key = badge_key_parts[1] -%}
+                      {%- assign sale_badge = product.metafields[badge_namespace][badge_key] -%}
+
+                      {%- if sale_badge != blank -%}
+                        <div class="stack_sale-badge">
+                          {{ sale_badge }}
+                        </div>
+                      {%- endif -%}
+                    {%- endif -%}
+                  </div>
+                {% endif %}
+              {% endif %}
+
+              {% if section.settings.show_button %}
+                <a href="{{ product.url }}" class="stack_card-button">
+                  {{ section.settings.button_label }}
+                </a>
+              {% endif %}
+            </div>
+          </div>
+        {% endfor %}
+      </div>
     </div>
   </div>
 </div>
@@ -186,7 +188,7 @@
   .stack_collection-grid-container {
       padding-top: {{ section.settings.padding_top }}px;
       padding-bottom: {{ section.settings.padding_bottom }}px;
-      max-width: {{ section.settings.max_width }}px;
+      /* max-width: {{ section.settings.max_width }}px; */
       margin: 0 auto;
   }
   .stack_collection-heading {
