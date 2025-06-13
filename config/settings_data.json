@@ -2591,7 +2591,8 @@
           "review_kJdxCB"
         ],
         "custom_css": [
-          ".stack_reviews {padding-bottom: 10rem;}"
+          ".stack_reviews {padding-bottom: 10rem;}",
+          ".stack_reviews {padding-bottom: 10rem; display: none;}"
         ],
         "settings": {
           "heading_text": "Customer Reviews",
