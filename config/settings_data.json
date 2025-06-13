@@ -2525,14 +2525,57 @@
       },
       "reviews-stack": {
         "type": "reviews-stack",
+        "blocks": {
+          "review_MDYUca": {
+            "type": "review",
+            "settings": {
+              "image": "shopify://shop_images/Ellipse_26.png",
+              "name": "Alex. M Exender",
+              "review_text": "The MINDFUL MEDICINAL capsules have become a cornerstone of my daily routine. I feel more centered and creative than ever before!"
+            }
+          },
+          "review_tHtVEj": {
+            "type": "review",
+            "settings": {
+              "image": "shopify://shop_images/Ellipse_26.png",
+              "name": "Alex. M Exender",
+              "review_text": "The MINDFUL MEDICINAL capsules have become a cornerstone of my daily routine. I feel more centered and creative than ever before!"
+            }
+          },
+          "review_qF6Ntq": {
+            "type": "review",
+            "settings": {
+              "image": "shopify://shop_images/Ellipse_26.png",
+              "name": "Alex. M Exender",
+              "review_text": "The MINDFUL MEDICINAL capsules have become a cornerstone of my daily routine. I feel more centered and creative than ever before!"
+            }
+          },
+          "review_bgfccU": {
+            "type": "review",
+            "settings": {
+              "image": "shopify://shop_images/Ellipse_26.png",
+              "name": "Alex. M Exender",
+              "review_text": "The MINDFUL MEDICINAL capsules have become a cornerstone of my daily routine. I feel more centered and creative than ever before!"
+            }
+          }
+        },
+        "block_order": [
+          "review_MDYUca",
+          "review_tHtVEj",
+          "review_qF6Ntq",
+          "review_bgfccU"
+        ],
         "settings": {
           "heading_text": "Customer Reviews",
           "summary_text": "4.9/5 (2,034 Reviews)",
-          "heading_size": 28,
-          "summary_size": 16,
+          "heading_size": 45,
+          "heading_size_mobile": 32,
+          "summary_size": 20,
           "star_size": 28,
-          "review_heading_size": 16,
-          "review_content_size": 14,
+          "review_heading_size": 20,
+          "review_heading_size_mobile": 15,
+          "review_content_size": 13,
+          "review_content_size_mobile": 13,
           "bg_color": "#f3f2ea",
           "heading_color": "#111111",
           "summary_color": "#111111",
