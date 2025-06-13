@@ -2571,7 +2571,9 @@
           "heading_size": 45,
           "heading_size_mobile": 32,
           "summary_size": 20,
+          "summary_size_mobile": 14,
           "star_size": 28,
+          "star_size_mobile": 16,
           "review_heading_size": 20,
           "review_heading_size_mobile": 15,
           "review_content_size": 13,
@@ -2583,6 +2585,100 @@
           "divider_color": "#000000",
           "review_text_color": "#111111",
           "heading_alignment": "flex-start"
+        }
+      },
+      "faqs-stack": {
+        "type": "faqs-stack",
+        "blocks": {
+          "faq_EKEhcN": {
+            "type": "faq",
+            "settings": {
+              "question": "What is your return policy?",
+              "answer": "We accept returns within 30 days of purchase with proof of receipt."
+            }
+          },
+          "faq_9VjFNn": {
+            "type": "faq",
+            "settings": {
+              "question": "What is your return policy?",
+              "answer": "We accept returns within 30 days of purchase with proof of receipt."
+            }
+          },
+          "faq_3hi6fC": {
+            "type": "faq",
+            "settings": {
+              "question": "What is your return policy?",
+              "answer": "We accept returns within 30 days of purchase with proof of receipt."
+            }
+          },
+          "faq_gm93Rz": {
+            "type": "faq",
+            "settings": {
+              "question": "What is your return policy?",
+              "answer": "We accept returns within 30 days of purchase with proof of receipt."
+            }
+          },
+          "faq_xc9Ygz": {
+            "type": "faq",
+            "settings": {
+              "question": "What is your return policy?",
+              "answer": "We accept returns within 30 days of purchase with proof of receipt."
+            }
+          },
+          "faq_njk8AW": {
+            "type": "faq",
+            "settings": {
+              "question": "What is your return policy?",
+              "answer": "We accept returns within 30 days of purchase with proof of receipt."
+            }
+          },
+          "faq_fV4yDn": {
+            "type": "faq",
+            "settings": {
+              "question": "What is your return policy?",
+              "answer": "We accept returns within 30 days of purchase with proof of receipt."
+            }
+          },
+          "faq_ciM6m8": {
+            "type": "faq",
+            "settings": {
+              "question": "What is your return policy?",
+              "answer": "We accept returns within 30 days of purchase with proof of receipt."
+            }
+          },
+          "faq_MmhzKh": {
+            "type": "faq",
+            "settings": {
+              "question": "What is your return policy?",
+              "answer": "We accept returns within 30 days of purchase with proof of receipt."
+            }
+          }
+        },
+        "block_order": [
+          "faq_EKEhcN",
+          "faq_9VjFNn",
+          "faq_3hi6fC",
+          "faq_gm93Rz",
+          "faq_xc9Ygz",
+          "faq_njk8AW",
+          "faq_fV4yDn",
+          "faq_ciM6m8",
+          "faq_MmhzKh"
+        ],
+        "settings": {
+          "heading": "Frequently Asked Questions",
+          "subheading": "Got questions? We've got answers.",
+          "icon_style": "chevron",
+          "heading_font_size_desktop": 36,
+          "heading_font_size_mobile": 24,
+          "heading_alignment": "center",
+          "faq_question_size_desktop": 20,
+          "faq_question_size_mobile": 16,
+          "faq_answer_size": 16,
+          "background_color": "#ffffff",
+          "heading_color": "#111111",
+          "text_color": "#333333",
+          "icon_color": "#000000"
         }
       }
     },
