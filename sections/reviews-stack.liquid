@@ -3,9 +3,9 @@
     padding: 3rem 1rem;
   }
   .stack_reviews_upper {
-      display: flex;
-      gap: 10px;
-      align-items: center;
+    display: flex;
+    gap: 10px;
+    align-items: center;
   }
   .stack_reviews__top {
     display: flex;
@@ -74,6 +74,18 @@
     margin: 0;
     font-size: var(--review-content-size);
   }
+
+  @media (max-width: 768px) {
+    .stack_reviews__heading {
+      font-size: var(--heading-size-mobile);
+    }
+    .stack_reviews__content h4 {
+      font-size: var(--review-heading-size-mobile);
+    }
+    .stack_reviews__content p {
+      font-size: var(--review-content-size-mobile);
+    }
+  }
 {% endstylesheet %}
 
 <section
@@ -82,6 +94,7 @@
     background-color: {{ section.settings.bg_color }};
     --heading-align: {{ section.settings.heading_alignment }};
     --heading-size: {{ section.settings.heading_size }}px;
+    --heading-size-mobile: {{ section.settings.heading_size_mobile }}px;
     --heading-color: {{ section.settings.heading_color }};
     --summary-size: {{ section.settings.summary_size }}px;
     --summary-color: {{ section.settings.summary_color }};
@@ -90,7 +103,9 @@
     --divider-color: {{ section.settings.divider_color }};
     --review-text-color: {{ section.settings.review_text_color }};
     --review-heading-size: {{ section.settings.review_heading_size }}px;
+    --review-heading-size-mobile: {{ section.settings.review_heading_size_mobile }}px;
     --review-content-size: {{ section.settings.review_content_size }}px;
+    --review-content-size-mobile: {{ section.settings.review_content_size_mobile }}px;
   "
 >
   <div class="page-width">
@@ -145,10 +160,16 @@
     { "type": "text", "id": "summary_text", "label": "Summary Text", "default": "4.9/5 (2,034 Reviews)" },
 
     { "type": "range", "id": "heading_size", "label": "Heading Font Size (px)", "min": 14, "max": 48, "step": 1, "default": 28 },
+    { "type": "range", "id": "heading_size_mobile", "label": "Heading Font Size (Mobile)", "min": 12, "max": 32, "step": 1, "default": 20 },
+
     { "type": "range", "id": "summary_size", "label": "Summary Font Size (px)", "min": 12, "max": 30, "step": 1, "default": 16 },
     { "type": "range", "id": "star_size", "label": "Star Icon Size (px)", "min": 12, "max": 40, "step": 1, "default": 20 },
+
     { "type": "range", "id": "review_heading_size", "label": "Review Heading Font Size (px)", "min": 10, "max": 24, "step": 1, "default": 16 },
+    { "type": "range", "id": "review_heading_size_mobile", "label": "Review Heading Font Size (Mobile)", "min": 10, "max": 20, "step": 1, "default": 14 },
+
     { "type": "range", "id": "review_content_size", "label": "Review Content Font Size (px)", "min": 10, "max": 24, "step": 1, "default": 14 },
+    { "type": "range", "id": "review_content_size_mobile", "label": "Review Content Font Size (Mobile)", "min": 10, "max": 20, "step": 1, "default": 13 },
 
     { "type": "color", "id": "bg_color", "label": "Background Color", "default": "#ffffff" },
     { "type": "color", "id": "heading_color", "label": "Heading Color", "default": "#111111" },
