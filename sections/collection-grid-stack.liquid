@@ -193,6 +193,8 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
       /* max-width: {{ section.settings.max_width }}px; */
       margin: 0 auto;
+      padding-left: 2rem;
+    padding-right: 2rem;
   }
   .stack_collection-heading {
     margin-bottom: 20px;
@@ -245,6 +247,10 @@
       grid-template-columns: repeat({{ i }}, 1fr);
     }
     {% endfor %}
+    .stack_collection-grid-container {
+          padding-left: .5rem;
+    padding-right: .5rem;
+    }
   }
 
   .stack_collection-card {
