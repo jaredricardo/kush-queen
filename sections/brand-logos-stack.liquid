@@ -22,6 +22,26 @@
           "type": "image_picker",
           "id": "logo_image",
           "label": "Brand Logo"
+        },
+        {
+          "type": "range",
+          "id": "logo_width_desktop",
+          "label": "Logo width (desktop)",
+          "min": 20,
+          "max": 300,
+          "step": 5,
+          "unit": "px",
+          "default": 120
+        },
+        {
+          "type": "range",
+          "id": "logo_width_mobile",
+          "label": "Logo width (mobile)",
+          "min": 20,
+          "max": 300,
+          "step": 5,
+          "unit": "px",
+          "default": 100
         }
       ]
     }
@@ -39,7 +59,12 @@
   <div class="logo-slider">
     <div class="logo-track">
       {% for block in section.blocks %}
-        <div class="logo">
+        {% assign width_desktop = block.settings.logo_width_desktop | default: 120 %}
+        {% assign width_mobile = block.settings.logo_width_mobile | default: 100 %}
+        <div
+          class="logo"
+          style="--logo-width-desktop: {{ width_desktop }}px; --logo-width-mobile: {{ width_mobile }}px;"
+        >
           {% if block.settings.logo_image %}
             <img src="{{ block.settings.logo_image | img_url: 'master' }}" alt="Brand Logo">
           {% endif %}
@@ -55,7 +80,12 @@
         Duplicate for seamless scroll
       {%- endcomment -%}
       {% for block in section.blocks %}
-        <div class="logo">
+        {% assign width_desktop = block.settings.logo_width_desktop | default: 120 %}
+        {% assign width_mobile = block.settings.logo_width_mobile | default: 100 %}
+        <div
+          class="logo"
+          style="--logo-width-desktop: {{ width_desktop }}px; --logo-width-mobile: {{ width_mobile }}px;"
+        >
           {% if block.settings.logo_image %}
             <img src="{{ block.settings.logo_image | img_url: 'master' }}" alt="Brand Logo">
           {% endif %}
@@ -71,74 +101,84 @@
 </div>
 
 <style>
-  #shopify-section-{{ section.id }} {
-    border-top: 1px solid #000;
-    border-bottom: 1px solid #000;
-  }
-  .stack_padding_stem {
-    padding-left: 2rem;
-    padding-right: 2rem;
-  }
-     .logo-slider {
-       overflow: hidden;
-       padding: 20px 0;
-       white-space: nowrap;
-       height: 94px;
-     }
-
-     .logo-slider .logo-track {
-       display: flex;
-       animation: scroll 25s linear infinite;
-       align-items: center;
-       gap: 40px;
-       height: 100%;
-     }
-
-    .logo-slider .logo {
-       display: flex;
-       align-items: center;
-       justify-content: center;
-       width: auto;
-       flex-shrink: 0;
+    #shopify-section-{{ section.id }} {
+      border-top: 1px solid #000;
+      border-bottom: 1px solid #000;
     }
-     .logo-slider .separator {
-       display: flex;
-       align-items: center;
-       justify-content: center;
-       height: 29px;
-       width: 25px;
-       flex-shrink: 0;
-     }
-    .logo-slider .logo {
-       height: 44px;
-     }
-     .logo-slider .logo img {
-       height: 85%;
-       width: 100%;
-       object-fit: contain;
-       display: block;
-     }
-
-     @keyframes scroll {
-       0% {
-         transform: translateX(0%);
+    .stack_padding_stem {
+      padding-left: 2rem;
+      padding-right: 2rem;
+    }
+       .logo-slider {
+         overflow: hidden;
+         padding: 20px 0;
+         white-space: nowrap;
+         height: 94px;
        }
-       100% {
-         transform: translateX(-50%);
+
+       .logo-slider .logo-track {
+         display: flex;
+         animation: scroll 25s linear infinite;
+         align-items: center;
+         gap: 40px;
+         height: 100%;
        }
-     }
 
-    @media(max-width: 768px) {
-
-      .logo-slider {
-      height: 65px;
-  }
       .logo-slider .logo {
-       height: 44px;
-     }
-      .stack_padding_stem {
-    padding-left: 0rem;
-    padding-right: 0rem;
-  }
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         width: auto;
+         flex-shrink: 0;
+      }
+       .logo-slider .separator {
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         height: 29px;
+         width: 25px;
+         flex-shrink: 0;
+       }
+      .logo-slider .logo {
+         height: 44px;
+       }
+       .logo-slider .logo img {
+         height: 85%;
+         width: 100%;
+         object-fit: contain;
+         display: block;
+       }
+
+       @keyframes scroll {
+         0% {
+           transform: translateX(0%);
+         }
+         100% {
+           transform: translateX(-50%);
+         }
+       }
+
+      @media(max-width: 768px) {
+
+        .logo-slider {
+        height: 65px;
     }
+        .logo-slider .logo {
+         height: 44px;
+       }
+        .stack_padding_stem {
+      padding-left: 0rem;
+      padding-right: 0rem;
+    }
+        .logo-slider .logo {
+    width: var(--logo-width-desktop);
+  }
+
+  @media(max-width: 768px) {
+    .logo-slider .logo {
+      width: var(--logo-width-mobile);
+    }
+  }
+
+      }
 </style>
