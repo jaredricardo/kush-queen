@@ -262,8 +262,8 @@
 
   .stack_card-image-wrapper {
     overflow: hidden;
-    margin-bottom: 12px;
-
+    /* margin-bottom: 12px; */
+    border-bottom: {{ section.settings.card_border_width }}px solid {{ section.settings.card_border_color }};
   }
   .stack_card-image-wrapper img {
     width: 100%;
