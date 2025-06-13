@@ -1,16 +1,14 @@
 {% schema %}
 {
-  "name": "Brand Logos Carousel",
+  "name": "Featured Logos",
+  "tag": "section",
+  "class": "featured-logos-section",
   "settings": [
     {
-      "type": "header",
-      "content": "Add your brand logos and a common separator image"
-    },
-    {
-      "type": "image_picker",
-      "id": "separator_image",
-      "label": "Separator image (used between logos)",
-      "info": "Recommended: SVG or small PNG"
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "FEATURED IN"
     }
   ],
   "blocks": [
@@ -20,236 +18,78 @@
       "settings": [
         {
           "type": "image_picker",
-          "id": "logo_image",
-          "label": "Brand Logo"
-        },
-        {
-          "type": "range",
-          "id": "logo_width_desktop",
-          "label": "Logo width (desktop)",
-          "min": 20,
-          "max": 300,
-          "step": 5,
-          "unit": "px",
-          "default": 120
-        },
-         {
-          "type": "range",
-          "id": "logo_height_desktop",
-          "label": "Logo height (desktop)",
-          "min": 20,
-          "max": 200,
-          "step": 5,
-          "unit": "px",
-          "default": 50
-        },
-        {
-          "type": "range",
-          "id": "logo_width_mobile",
-          "label": "Logo width (mobile)",
-          "min": 20,
-          "max": 300,
-          "step": 5,
-          "unit": "px",
-          "default": 100
-        },
-        {
-          "type": "range",
-          "id": "logo_height_mobile",
-          "label": "Logo height (mobile)",
-          "min": 20,
-          "max": 200,
-          "step": 5,
-          "unit": "px",
-          "default": 40
+          "id": "logo",
+          "label": "Logo image"
         }
       ]
     }
   ],
   "presets": [
     {
-      "name": "Brand Logos Carousel",
-      "category": "Custom"
+      "name": "Featured Logos",
+      "blocks": [
+        { "type": "logo" },
+        { "type": "logo" },
+        { "type": "logo" },
+        { "type": "logo" },
+        { "type": "logo" }
+      ]
     }
   ]
 }
 {% endschema %}
 
-<div class="page-width stack_padding_stem">
-  <div class="logo-slider">
-    <div class="logo-track">
-      {% for block in section.blocks %}
-        {% assign width_desktop = block.settings.logo_width_desktop | default: 120 %}
-        {% assign height_desktop = block.settings.logo_height_desktop | default: 44 %}
-        {% assign width_mobile = block.settings.logo_width_mobile | default: 100 %}
-        {% assign height_mobile = block.settings.logo_height_mobile | default: 44 %}
-
-        <div
-          class="logo"
-          style="
-            --logo-width-desktop: {{ width_desktop }}px;
-            --logo-height-desktop: {{ height_desktop }}px;
-            --logo-width-mobile: {{ width_mobile }}px;
-            --logo-height-mobile: {{ height_mobile }}px;
-          "
-        >
-          {% if block.settings.logo_image %}
-            <img src="{{ block.settings.logo_image | img_url: 'master' }}" alt="Brand Logo">
-          {% endif %}
+<div class="featured-logos-wrapper">
+  <h2 class="featured-logos-heading">{{ section.settings.heading }}</h2>
+  <div class="featured-logos-list">
+    {% for block in section.blocks %}
+      {% if block.settings.logo %}
+        <div class="featured-logo">
+          <img src="{{ block.settings.logo | image_url: width: 200 }}" alt="Logo" loading="lazy">
         </div>
-        {% if section.settings.separator_image %}
-          <div class="separator">
-            <img src="{{ section.settings.separator_image | image_url: width: 40 }}" alt="Separator">
-          </div>
-        {% endif %}
-      {% endfor %}
-
-      {%- comment -%}
-        Duplicate for seamless scroll
-      {%- endcomment -%}
-      {% for block in section.blocks %}
-        {% assign width_desktop = block.settings.logo_width_desktop | default: 120 %}
-        {% assign height_desktop = block.settings.logo_height_desktop | default: 44 %}
-        {% assign width_mobile = block.settings.logo_width_mobile | default: 100 %}
-        {% assign height_mobile = block.settings.logo_height_mobile | default: 44 %}
-
-        <div
-          class="logo"
-          style="
-            --logo-width-desktop: {{ width_desktop }}px;
-            --logo-height-desktop: {{ height_desktop }}px;
-            --logo-width-mobile: {{ width_mobile }}px;
-            --logo-height-mobile: {{ height_mobile }}px;
-          "
-        >
-          {% if block.settings.logo_image %}
-            <img src="{{ block.settings.logo_image | img_url: 'master' }}" alt="Brand Logo">
-          {% endif %}
-        </div>
-        {% if section.settings.separator_image %}
-          <div class="separator">
-            <img src="{{ section.settings.separator_image | image_url: width: 40 }}" alt="Separator">
-          </div>
-        {% endif %}
-      {% endfor %}
-
-      {% for block in section.blocks %}
-        {% assign width_desktop = block.settings.logo_width_desktop | default: 120 %}
-        {% assign height_desktop = block.settings.logo_height_desktop | default: 44 %}
-        {% assign width_mobile = block.settings.logo_width_mobile | default: 100 %}
-        {% assign height_mobile = block.settings.logo_height_mobile | default: 44 %}
-
-        <div
-          class="logo"
-          style="
-            --logo-width-desktop: {{ width_desktop }}px;
-            --logo-height-desktop: {{ height_desktop }}px;
-            --logo-width-mobile: {{ width_mobile }}px;
-            --logo-height-mobile: {{ height_mobile }}px;
-          "
-        >
-          {% if block.settings.logo_image %}
-            <img src="{{ block.settings.logo_image | img_url: 'master' }}" alt="Brand Logo">
-          {% endif %}
-        </div>
-        {% if section.settings.separator_image %}
-          <div class="separator">
-            <img src="{{ section.settings.separator_image | image_url: width: 40 }}" alt="Separator">
-          </div>
-        {% endif %}
-      {% endfor %}
-    </div>
+      {% endif %}
+    {% endfor %}
   </div>
 </div>
 
 <style>
-      #shopify-section-{{ section.id }} {
-        border-top: 1px solid #000;
-        border-bottom: 1px solid #000;
-      }
-      .stack_padding_stem {
-        padding-left: 2rem;
-        padding-right: 2rem;
-      }
-         .logo-slider {
-           overflow: hidden;
-           padding: 20px 0;
-           white-space: nowrap;
-           height: 94px;
-         }
-
-         .logo-slider .logo-track {
-           display: flex;
-           animation: scroll 25s linear infinite;
-           align-items: center;
-           gap: 40px;
-           height: 100%;
-         }
-
-        .logo-slider .logo {
-           display: flex;
-           align-items: center;
-           justify-content: center;
-           width: auto;
-           flex-shrink: 0;
-        }
-         .logo-slider .separator {
-           display: flex;
-           align-items: center;
-           justify-content: center;
-           height: 29px;
-           width: 25px;
-           flex-shrink: 0;
-         }
-        .logo-slider .logo {
-           height: 44px;
-         }
-         .logo-slider .logo img {
-           height: 85%;
-           width: 100%;
-           object-fit: contain;
-           display: block;
-         }
-
-         @keyframes scroll {
-           0% {
-             transform: translateX(0%);
-           }
-           100% {
-             transform: translateX(-50%);
-           }
-         }
-
-        @media(max-width: 768px) {
-
-          .logo-slider {
-          height: 65px;
-      }
-          .logo-slider .logo {
-           height: 44px;
-         }
-          .stack_padding_stem {
-        padding-left: 0rem;
-        padding-right: 0rem;
-      }
-
-        }
-
-      .logo-slider .logo {
-    width: var(--logo-width-desktop);
-    height: var(--logo-height-desktop);
+  .featured-logos-wrapper {
+    padding: 40px 20px;
+    text-align: center;
   }
 
-  .logo-slider .logo img {
-    width: 100%;
-    height: 100%;
+  .featured-logos-heading {
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+  }
+
+  .featured-logos-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  .featured-logo img {
+    max-height: 40px;
     object-fit: contain;
+    display: block;
   }
 
-  @media(max-width: 768px) {
-    .logo-slider .logo {
-      width: var(--logo-width-mobile);
-      height: var(--logo-height-mobile);
+  @media screen and (max-width: 768px) {
+    .featured-logos-heading {
+      font-size: 16px;
+      margin-bottom: 15px;
+    }
+
+    .featured-logos-list {
+      gap: 20px;
+    }
+
+    .featured-logo img {
+      max-height: 30px;
     }
   }
 </style>
