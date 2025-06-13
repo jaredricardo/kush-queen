@@ -2453,37 +2453,49 @@
           "logo_pwFYME": {
             "type": "logo",
             "settings": {
-              "logo_image": "shopify://shop_images/Featured_In.png"
+              "logo_image": "shopify://shop_images/Featured_In.png",
+              "logo_width_desktop": 180,
+              "logo_width_mobile": 100
             }
           },
           "logo_kd6WyX": {
             "type": "logo",
             "settings": {
-              "logo_image": "shopify://shop_images/Press-Logos-13-1-300x300_1_665524d6-2c72-4bec-afc6-7a45a1fd9391_1.png"
+              "logo_image": "shopify://shop_images/Press-Logos-13-1-300x300_1_665524d6-2c72-4bec-afc6-7a45a1fd9391_1.png",
+              "logo_width_desktop": 120,
+              "logo_width_mobile": 100
             }
           },
           "logo_FxxkkN": {
             "type": "logo",
             "settings": {
-              "logo_image": "shopify://shop_images/download_1_69d45aae-e7ab-44f6-98ae-1442cc53b4c4_1.png"
+              "logo_image": "shopify://shop_images/download_1_69d45aae-e7ab-44f6-98ae-1442cc53b4c4_1.png",
+              "logo_width_desktop": 120,
+              "logo_width_mobile": 100
             }
           },
           "logo_BQMcye": {
             "type": "logo",
             "settings": {
-              "logo_image": "shopify://shop_images/Press-Logos-10-1-300x300_1_553cc908-5fb0-4348-b1d1-ec4273cf2992-1_1.png"
+              "logo_image": "shopify://shop_images/Press-Logos-10-1-300x300_1_553cc908-5fb0-4348-b1d1-ec4273cf2992-1_1.png",
+              "logo_width_desktop": 120,
+              "logo_width_mobile": 100
             }
           },
           "logo_Pid6bd": {
             "type": "logo",
             "settings": {
-              "logo_image": "shopify://shop_images/Press-Logos-08-1-300x300_1_7c89d89c-e7cb-4763-a5a2-9e7c0912cf54_1.png"
+              "logo_image": "shopify://shop_images/Press-Logos-08-1-300x300_1_7c89d89c-e7cb-4763-a5a2-9e7c0912cf54_1.png",
+              "logo_width_desktop": 120,
+              "logo_width_mobile": 100
             }
           },
           "logo_6qnANA": {
             "type": "logo",
             "settings": {
-              "logo_image": "shopify://shop_images/image_1.png"
+              "logo_image": "shopify://shop_images/image_1.png",
+              "logo_width_desktop": 135,
+              "logo_width_mobile": 100
             }
           }
         },
