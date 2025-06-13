@@ -132,6 +132,32 @@
           </div>
         {% endif %}
       {% endfor %}
+
+      {% for block in section.blocks %}
+        {% assign width_desktop = block.settings.logo_width_desktop | default: 120 %}
+        {% assign height_desktop = block.settings.logo_height_desktop | default: 44 %}
+        {% assign width_mobile = block.settings.logo_width_mobile | default: 100 %}
+        {% assign height_mobile = block.settings.logo_height_mobile | default: 44 %}
+
+        <div
+          class="logo"
+          style="
+            --logo-width-desktop: {{ width_desktop }}px;
+            --logo-height-desktop: {{ height_desktop }}px;
+            --logo-width-mobile: {{ width_mobile }}px;
+            --logo-height-mobile: {{ height_mobile }}px;
+          "
+        >
+          {% if block.settings.logo_image %}
+            <img src="{{ block.settings.logo_image | img_url: 'master' }}" alt="Brand Logo">
+          {% endif %}
+        </div>
+        {% if section.settings.separator_image %}
+          <div class="separator">
+            <img src="{{ section.settings.separator_image | image_url: width: 40 }}" alt="Separator">
+          </div>
+        {% endif %}
+      {% endfor %}
     </div>
   </div>
 </div>
