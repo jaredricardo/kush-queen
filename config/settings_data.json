@@ -2676,8 +2676,8 @@
           "faq_question_size_mobile": 16,
           "faq_answer_size": 16,
           "background_color": "#ffffff",
-          "heading_color": "#111111",
-          "text_color": "#333333",
+          "heading_color": "#000000",
+          "text_color": "#000000",
           "icon_color": "#000000"
         }
       }
