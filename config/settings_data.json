@@ -2416,7 +2416,7 @@
           "max_width": 1200,
           "columns_desktop": 4,
           "columns_mobile": 2,
-          "card_image_ratio": "1-1",
+          "card_image_ratio": "4-5",
           "show_title": true,
           "show_price": true,
           "show_reviews": true,
