@@ -2680,6 +2680,14 @@
           "text_color": "#000000",
           "icon_color": "#000000"
         }
+      },
+      "banner-stack-bottom": {
+        "type": "banner-stack-bottom",
+        "settings": {
+          "desktop_image": "shopify://shop_images/kush-queen-home-jan-banner.jpg",
+          "mobile_image": "shopify://shop_images/kush-queen-jan-mob-banner.jpg",
+          "banner_height": "500px"
+        }
       }
     },
     "content_for_index": [
