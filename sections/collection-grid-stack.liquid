@@ -312,6 +312,11 @@
   .stack_card-title {
     font-weight: 600;
     margin-bottom: 6px;
+    font-size: 16px;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
   }
 
   .stack_card-price {
@@ -404,8 +409,8 @@
   }
 
   .stack_star {
-    width: 16px;
-    height: 16px;
+    width: 11px;
+    height: 11px;
   }
 
   .stack_rating-info {
@@ -457,6 +462,13 @@
       background-color: {{ section.settings.button_background_color }};
       color: {{ section.settings.button_text_color }};
     }
+
+
+  @media(max-width: 768px) {
+    .stack_card-title {
+      font-size: 13px;
+    }
+  }
 </style>
 
 {% schema %}
