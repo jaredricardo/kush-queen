@@ -2422,7 +2422,7 @@
           "show_reviews": true,
           "show_button": true,
           "button_label": "Shop Now",
-          "price_font_size_desktop": 16,
+          "price_font_size_desktop": 14,
           "price_font_size_mobile": 14,
           "card_radius": 0,
           "card_hover_effect": "none",
