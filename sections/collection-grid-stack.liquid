@@ -59,18 +59,6 @@
             </div>
 
             <div class="stack_card-info">
-              {% if section.settings.show_title %}
-                <div class="stack_card-title">{{ product.title }}</div>
-              {% endif %}
-
-              {% assign pd_ns = section.settings.product_description_metafield_namespace %}
-              {% assign pd_key = section.settings.product_description_metafield_key %}
-              {% assign product_desc = product.metafields[pd_ns][pd_key].value %}
-
-              {% if product_desc %}
-                <div class="stack_card-short-description">{{ product_desc }}</div>
-              {% endif %}
-
               {%- if section.settings.show_reviews -%}
                 <div class="stack_rating-wrapper">
                   {%- if product.metafields.reviews.rating.value != blank -%}
@@ -126,6 +114,18 @@
                   {%- endif -%}
                 </div>
               {%- endif -%}
+
+              {% if section.settings.show_title %}
+                <div class="stack_card-title">{{ product.title }}</div>
+              {% endif %}
+
+              {% assign pd_ns = section.settings.product_description_metafield_namespace %}
+              {% assign pd_key = section.settings.product_description_metafield_key %}
+              {% assign product_desc = product.metafields[pd_ns][pd_key].value %}
+
+              {% if product_desc %}
+                <div class="stack_card-short-description">{{ product_desc }}</div>
+              {% endif %}
 
               {% if section.settings.show_price %}
                 {% if product.price < product.compare_at_price %}
