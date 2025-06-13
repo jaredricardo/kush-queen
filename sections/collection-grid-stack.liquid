@@ -108,7 +108,6 @@
                       {% endfor %}
                     </div>
                     <div class="stack_rating-info">
-                      <span class="stack_rating-value">5 / 5</span>
                       <span class="stack_rating-count">({{ dummy_count }})</span>
                     </div>
                   {%- endif -%}
@@ -453,6 +452,10 @@
     .stack_collection-card .stack_price {
       color: {{ section.settings.text_color }};
     }
+  .stack_collection-card .stack_rating-count {
+    font-size: 12px;
+    color: #000;
+  }
 
     .stack_collection-card .stack_rating-wrapper .stack_star path {
       fill: {{ section.settings.star_color }};
@@ -467,6 +470,9 @@
   @media(max-width: 768px) {
     .stack_card-title {
       font-size: 13px;
+    }
+    .stack_collection-card .stack_rating-count {
+      font-size: 10px;
     }
   }
 </style>
