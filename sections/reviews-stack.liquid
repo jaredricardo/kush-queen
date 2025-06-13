@@ -2,11 +2,13 @@
   .stack_reviews {
     padding: 3rem 1rem;
   }
+
   .stack_reviews_upper {
     display: flex;
     gap: 10px;
     align-items: center;
   }
+
   .stack_reviews__top {
     display: flex;
     flex-direction: column;
@@ -14,32 +16,38 @@
     text-align: var(--heading-align);
     margin-bottom: 2rem;
   }
+
   .stack_reviews__stars {
     display: flex;
     gap: 0.3rem;
     margin-bottom: 0.5rem;
   }
+
   .stack_reviews__stars svg {
     width: var(--star-size);
     height: var(--star-size);
     fill: var(--star-color);
   }
+
   .stack_reviews__summary {
     font-size: var(--summary-size);
     color: var(--summary-color);
     margin-bottom: 0.5rem;
   }
+
   .stack_reviews__heading {
     font-size: var(--heading-size);
     color: var(--heading-color);
     font-weight: 600;
     line-height: normal;
   }
+
   .stack_reviews__list {
     display: flex;
     flex-direction: column;
     gap: 2rem;
   }
+
   .stack_reviews__item {
     border-top: 2px solid var(--divider-color);
     padding-top: 1.5rem;
@@ -48,10 +56,12 @@
     align-items: flex-start;
     color: var(--review-text-color);
   }
+
   .stack_reviews__item:last-child {
-   border-bottom: 2px solid var(--divider-color);
+     border-bottom: 2px solid var(--divider-color);
     padding-bottom: 1.5rem;
   }
+
   .stack_reviews__item img,
   .stack_reviews__item .fallback-avatar {
     width: 40px;
@@ -59,21 +69,25 @@
     border-radius: 50%;
     object-fit: cover;
   }
+
   .stack_reviews__content h4 {
     margin: 0;
     font-weight: 700;
     font-size: var(--review-heading-size);
   }
+
   .stack_reviews__content .stars {
     display: flex;
     gap: 0.2rem;
     margin: 0.25rem 0;
   }
+
   .stack_reviews__content .stars svg {
     width: 16px;
     height: 16px;
     fill: var(--star-color);
   }
+
   .stack_reviews__content p {
     margin: 0;
     font-size: var(--review-content-size);
@@ -82,6 +96,13 @@
   @media (max-width: 768px) {
     .stack_reviews__heading {
       font-size: var(--heading-size-mobile);
+    }
+    .stack_reviews__summary {
+      font-size: var(--summary-size-mobile);
+    }
+    .stack_reviews__stars svg {
+      width: var(--star-size-mobile);
+      height: var(--star-size-mobile);
     }
     .stack_reviews__content h4 {
       font-size: var(--review-heading-size-mobile);
@@ -101,8 +122,9 @@
     --heading-size-mobile: {{ section.settings.heading_size_mobile }}px;
     --heading-color: {{ section.settings.heading_color }};
     --summary-size: {{ section.settings.summary_size }}px;
-    --summary-color: {{ section.settings.summary_color }};
+    --summary-size-mobile: {{ section.settings.summary_size_mobile }}px;
     --star-size: {{ section.settings.star_size }}px;
+    --star-size-mobile: {{ section.settings.star_size_mobile }}px;
     --star-color: {{ section.settings.star_color }};
     --divider-color: {{ section.settings.divider_color }};
     --review-text-color: {{ section.settings.review_text_color }};
@@ -167,7 +189,10 @@
     { "type": "range", "id": "heading_size_mobile", "label": "Heading Font Size (Mobile)", "min": 12, "max": 32, "step": 1, "default": 20 },
 
     { "type": "range", "id": "summary_size", "label": "Summary Font Size (px)", "min": 12, "max": 30, "step": 1, "default": 16 },
+    { "type": "range", "id": "summary_size_mobile", "label": "Summary Font Size (Mobile)", "min": 12, "max": 24, "step": 1, "default": 14 },
+
     { "type": "range", "id": "star_size", "label": "Star Icon Size (px)", "min": 12, "max": 40, "step": 1, "default": 20 },
+    { "type": "range", "id": "star_size_mobile", "label": "Star Icon Size (Mobile)", "min": 12, "max": 30, "step": 1, "default": 16 },
 
     { "type": "range", "id": "review_heading_size", "label": "Review Heading Font Size (px)", "min": 10, "max": 24, "step": 1, "default": 16 },
     { "type": "range", "id": "review_heading_size_mobile", "label": "Review Heading Font Size (Mobile)", "min": 10, "max": 20, "step": 1, "default": 14 },
