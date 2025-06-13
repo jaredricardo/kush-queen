@@ -2400,7 +2400,7 @@
       "collection-grid-stack": {
         "type": "collection-grid-stack",
         "settings": {
-          "collection": "30-off",
+          "collection": "thca-flower",
           "heading": "",
           "heading_align": "center",
           "heading_font_size_desktop": 32,
@@ -2433,7 +2433,7 @@
           "sale_badge_metafield_key": "product_sale_badge",
           "background_color": "#ffffff",
           "card_background_color": "#ffffff",
-          "image_background_color": "#f9f9f9",
+          "image_background_color": "#f5b400",
           "text_color": "#1c1c1c",
           "star_color": "#f5b400",
           "button_background_color": "#000000",
