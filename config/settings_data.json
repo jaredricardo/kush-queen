@@ -2590,6 +2590,9 @@
           "review_DRnH7k",
           "review_kJdxCB"
         ],
+        "custom_css": [
+          ".stack_reviews {padding-bottom: 13rem ;}"
+        ],
         "settings": {
           "heading_text": "Customer Reviews",
           "summary_text": "4.9/5 (2,034 Reviews)",
