@@ -5,6 +5,18 @@
   "class": "stack_faq-section",
   "settings": [
     {
+      "type": "select",
+      "id": "max_width",
+      "label": "Max Width Container",
+      "options": [
+        { "value": "default", "label": "Default" },
+        { "value": "narrow", "label": "Narrow (800px)" },
+        { "value": "wide", "label": "Wide (1200px)" },
+        { "value": "full", "label": "Full Width" }
+      ],
+      "default": "default"
+    },
+    {
       "type": "text",
       "id": "heading",
       "label": "Heading",
@@ -155,6 +167,23 @@
     text-align: {{ section.settings.heading_alignment }};
     font-size: {{ section.settings.heading_font_size_desktop }}px;
   }
+
+   .stack_width_container {
+      margin: 0 auto;
+      width: 100%;
+    }
+    .stack_width_container.default {
+      max-width: 1000px;
+    }
+    .stack_width_container.narrow {
+      max-width: 800px;
+    }
+    .stack_width_container.wide {
+      max-width: 1200px;
+    }
+    .stack_width_container.full {
+      max-width: 100%;
+    }
   @media screen and (max-width: 768px) {
     .stack_faq-title {
       font-size: {{ section.settings.heading_font_size_mobile }}px;
@@ -207,49 +236,56 @@
 <div class="stack_faq-wrapper">
   <h2 class="stack_faq-title">{{ section.settings.heading }}</h2>
   <div class="stack_faq-subtitle">{{ section.settings.subheading }}</div>
-  {% for block in section.blocks %}
-    <div class="stack_faq-item" onclick="this.classList.toggle('active')">
-      <div class="stack_faq-question">
-        <span>{{ block.settings.question }}</span>
-        <span class="stack_faq-icon-wrapper">
-          {% if section.settings.icon_style == 'chevron' %}
-            <svg class="stack_faq-icon chevron" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-              <path d="M0 7.33l2.829-2.83 9.175 9.339 9.167-9.339 2.829 2.83-11.996 12.17z"/>
-            </svg>
-          {% else %}
-            <svg class="stack_faq-icon plus" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-              <path d="M11 11H3.75a.75.75 0 0 0 0 1.5H11v7.25a.75.75 0 0 0 1.5 0V12.5h7.25a.75.75 0 0 0 0-1.5H12.5V3.75a.75.75 0 0 0-1.5 0V11Z"/>
-            </svg>
-            <svg
-              class="stack_faq-icon minus"
-              style="display: none;"
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 24 24"
-            >
-              <path d="M21 11.75a.75.75 0 0 0-.75-.75H3.75a.75.75 0 0 0 0 1.5h16.5a.75.75 0 0 0 .75-.75Z"/>
-            </svg>
-          {% endif %}
-        </span>
+
+  <div class="stack_width_container {{ section.settings.max_width }}">
+    {% for block in section.blocks %}
+      <div class="stack_faq-item" onclick="this.classList.toggle('active')">
+        <div class="stack_faq-question">
+          <span>{{ block.settings.question }}</span>
+          <span class="stack_faq-icon-wrapper">
+            {% if section.settings.icon_style == 'chevron' %}
+              <svg class="stack_faq-icon chevron" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path d="M0 7.33l2.829-2.83 9.175 9.339 9.167-9.339 2.829 2.83-11.996 12.17z"/>
+              </svg>
+            {% else %}
+              <svg class="stack_faq-icon plus" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path d="M11 11H3.75a.75.75 0 0 0 0 1.5H11v7.25a.75.75 0 0 0 1.5 0V12.5h7.25a.75.75 0 0 0 0-1.5H12.5V3.75a.75.75 0 0 0-1.5 0V11Z"/>
+              </svg>
+              <svg
+                class="stack_faq-icon minus"
+                style="display: none;"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+              >
+                <path d="M21 11.75a.75.75 0 0 0-.75-.75H3.75a.75.75 0 0 0 0 1.5h16.5a.75.75 0 0 0 .75-.75Z"/>
+              </svg>
+            {% endif %}
+          </span>
+        </div>
+        <div class="stack_faq-answer">{{ block.settings.answer }}</div>
       </div>
-      <div class="stack_faq-answer">{{ block.settings.answer }}</div>
-    </div>
-  {% endfor %}
+    {% endfor %}
+  <div>
 </div>
 
 <script>
   document.querySelectorAll('.stack_faq-item').forEach(item => {
+    const plusIcon = item.querySelector('.plus');
+    const minusIcon = item.querySelector('.minus');
     item.addEventListener('click', () => {
-      if (item.classList.contains('active')) {
-        if (item.querySelector('.plus')) {
-          item.querySelector('.plus').style.display = 'inline';
-          item.querySelector('.minus').style.display = 'none';
-        }
-      } else {
-        if (item.querySelector('.plus')) {
-          item.querySelector('.plus').style.display = 'none';
-          item.querySelector('.minus').style.display = 'inline';
+      const isActive = item.classList.contains('active');
+      item.classList.toggle('active');
+
+      if (plusIcon && minusIcon) {
+        if (!isActive) {
+          plusIcon.style.display = 'none';
+          minusIcon.style.display = 'inline';
+        } else {
+          plusIcon.style.display = 'inline';
+          minusIcon.style.display = 'none';
         }
       }
     });
   });
 </script>
+
