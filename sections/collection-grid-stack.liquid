@@ -129,9 +129,9 @@
               {% if section.settings.show_price %}
                 {% if product.price < product.compare_at_price %}
                   <div class="stack_card-price">
-                    <span>{{ product.price | money }}</span>
+                    <span>{{ product.price | money_without_trailing_zeros }}</span>
                     <span>
-                      <del>{{ product.compare_at_price | money }}</del>
+                      <del>{{ product.compare_at_price | money_without_trailing_zeros }}</del>
                     </span>
                     {%- if section.settings.sale_badge_metafield_key != blank -%}
                       {%- assign badge_key_parts = section.settings.sale_badge_metafield_key | split: '.' -%}
@@ -149,7 +149,7 @@
                 {% else %}
                   <div class="stack_card-price">
                     <span>
-                      {{ product.price | money }}
+                      {{ product.price | money_without_trailing_zeros }}
                     </span>
                     {%- if section.settings.sale_badge_metafield_key != blank -%}
                       {%- assign badge_key_parts = section.settings.sale_badge_metafield_key | split: '.' -%}
