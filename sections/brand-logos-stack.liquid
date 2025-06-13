@@ -35,36 +35,38 @@
 }
 {% endschema %}
 
-<div class="logo-slider">
-  <div class="logo-track">
-    {% for block in section.blocks %}
-      <div class="logo">
-        {% if block.settings.logo_image %}
-          <img src="{{ block.settings.logo_image | image_url: width: 150 }}" alt="Brand Logo">
-        {% endif %}
-      </div>
-      {% if section.settings.separator_image %}
-        <div class="separator">
-          <img src="{{ section.settings.separator_image | image_url: width: 40 }}" alt="Separator">
+<div class="page-width">
+  <div class="logo-slider">
+    <div class="logo-track">
+      {% for block in section.blocks %}
+        <div class="logo">
+          {% if block.settings.logo_image %}
+            <img src="{{ block.settings.logo_image | image_url: width: 150 }}" alt="Brand Logo">
+          {% endif %}
         </div>
-      {% endif %}
-    {% endfor %}
+        {% if section.settings.separator_image %}
+          <div class="separator">
+            <img src="{{ section.settings.separator_image | image_url: width: 40 }}" alt="Separator">
+          </div>
+        {% endif %}
+      {% endfor %}
 
-    {%- comment -%}
-      Duplicate for seamless scroll
-    {%- endcomment -%}
-    {% for block in section.blocks %}
-      <div class="logo">
-        {% if block.settings.logo_image %}
-          <img src="{{ block.settings.logo_image | image_url: width: 150 }}" alt="Brand Logo">
-        {% endif %}
-      </div>
-      {% if section.settings.separator_image %}
-        <div class="separator">
-          <img src="{{ section.settings.separator_image | image_url: width: 40 }}" alt="Separator">
+      {%- comment -%}
+        Duplicate for seamless scroll
+      {%- endcomment -%}
+      {% for block in section.blocks %}
+        <div class="logo">
+          {% if block.settings.logo_image %}
+            <img src="{{ block.settings.logo_image | image_url: width: 150 }}" alt="Brand Logo">
+          {% endif %}
         </div>
-      {% endif %}
-    {% endfor %}
+        {% if section.settings.separator_image %}
+          <div class="separator">
+            <img src="{{ section.settings.separator_image | image_url: width: 40 }}" alt="Separator">
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
   </div>
 </div>
 
