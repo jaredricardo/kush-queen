@@ -2425,7 +2425,7 @@
           "price_font_size_desktop": 14,
           "price_font_size_mobile": 10,
           "card_radius": 0,
-          "card_hover_effect": "lift",
+          "card_hover_effect": "none",
           "enable_hover_image": true,
           "card_border_width": 1,
           "product_description_metafield_namespace": "custom",
