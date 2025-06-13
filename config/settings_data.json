@@ -2653,29 +2653,22 @@
           "faq_njk8AW": {
             "type": "faq",
             "settings": {
-              "question": "What is your return policy?",
-              "answer": "We accept returns within 30 days of purchase with proof of receipt."
+              "question": "What are the distinctive characteristics of a sativa strain?",
+              "answer": "Sativa is one of the three primary categories of cannabis strains, along with indica and hybrid. Sativa strains are known for their energizing and uplifting effects, making them popular among those seeking daytime relief from symptoms such as fatigue, depression, or lack of appetite. Sativa plants typically have tall and thin leaves, with longer flowering times compared to indica strains. They are often associated with promoting creativity, focus, and sociability, and are known for their characteristic cerebral high."
             }
           },
           "faq_fV4yDn": {
             "type": "faq",
             "settings": {
-              "question": "What is your return policy?",
-              "answer": "We accept returns within 30 days of purchase with proof of receipt."
+              "question": "What is an indica strain known for?",
+              "answer": "Indica strains are known for their relaxing and sedating effects, often described as producing a \"body high.\" They are popular among users seeking relief from symptoms such as pain, insomnia, anxiety, and muscle spasms. Indica plants typically have broader leaves and shorter flowering times compared to sativa strains. They are often associated with inducing feelings of calmness, tranquility, and physical relaxation, making them a preferred choice for nighttime or evening use."
             }
           },
           "faq_ciM6m8": {
             "type": "faq",
             "settings": {
-              "question": "What is your return policy?",
-              "answer": "We accept returns within 30 days of purchase with proof of receipt."
-            }
-          },
-          "faq_MmhzKh": {
-            "type": "faq",
-            "settings": {
-              "question": "What is your return policy?",
-              "answer": "We accept returns within 30 days of purchase with proof of receipt."
+              "question": "Product Warning",
+              "answer": "** This product contains a powerful full-spectrum hemp thca flower with compliant (less than 0.3%) but elevated levels of hemp-derived thca, consume with caution. \n\nKEEP OUT OF REACH OF CHILDREN AND ANIMALS. THIS PRODUCT MAY ONLY BE POSSESSED OR CONSUMED BY PERSONS 21 YEARS OF AGE OR OLDER. THE INTOXICATING EFFECTS OF THIS PRODUCT MAY BE DELAYED UP TO 2 HOURS. CONSUMPTION OF THIS PRODUCT WILL IMPAIR YOUR ABILITY TO DRIVE AND OPERATE MACHINERY.\n\nPLEASE USE EXTREME CAUTION"
             }
           }
         },
@@ -2687,8 +2680,7 @@
           "faq_xc9Ygz",
           "faq_njk8AW",
           "faq_fV4yDn",
-          "faq_ciM6m8",
-          "faq_MmhzKh"
+          "faq_ciM6m8"
         ],
         "settings": {
           "max_width": "default",
