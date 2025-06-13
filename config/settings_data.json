@@ -2568,6 +2568,14 @@
               "name": "Fierce",
               "review_text": "I was diagnosed with panic disorder when I was 15. I'm nearly 40 years old and I have to say, this keeps me from using alcohol in times of stress, anxiety, and insomnia."
             }
+          },
+          "review_kJdxCB": {
+            "type": "review",
+            "settings": {
+              "image": "shopify://shop_images/Ellipse_26.png",
+              "name": "Kel Dawg",
+              "review_text": "I was diagnosed with panic disorder when I was 15. I'm nearly 40 years old and I have to say, this keeps me from using alcohol in times of stress, anxiety, and insomnia."
+            }
           }
         },
         "block_order": [
@@ -2579,7 +2587,8 @@
           "review_wVQ7d3",
           "review_piea9B",
           "review_dFRhrh",
-          "review_DRnH7k"
+          "review_DRnH7k",
+          "review_kJdxCB"
         ],
         "settings": {
           "heading_text": "Customer Reviews",
