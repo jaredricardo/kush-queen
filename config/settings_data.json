@@ -2431,7 +2431,7 @@
           "product_description_metafield_namespace": "",
           "product_description_metafield_key": "",
           "sale_badge_metafield_key": "product_sale_badge",
-          "background_color": "#ffffff",
+          "background_color": "#f3f2ea",
           "card_background_color": "#ffffff",
           "image_background_color": "#f5b400",
           "text_color": "#1c1c1c",
