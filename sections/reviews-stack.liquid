@@ -1,0 +1,194 @@
+{% stylesheet %}
+  .stack_reviews {
+    padding: 3rem 1rem;
+  }
+  .stack_reviews_upper {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+  }
+  .stack_reviews__top {
+    display: flex;
+    flex-direction: column;
+    align-items: var(--heading-align);
+    text-align: var(--heading-align);
+    margin-bottom: 2rem;
+  }
+  .stack_reviews__stars {
+    display: flex;
+    gap: 0.3rem;
+    margin-bottom: 0.5rem;
+  }
+  .stack_reviews__stars svg {
+    width: var(--star-size);
+    height: var(--star-size);
+    fill: var(--star-color);
+  }
+  .stack_reviews__summary {
+    font-size: var(--summary-size);
+    color: var(--summary-color);
+    margin-bottom: 0.5rem;
+  }
+  .stack_reviews__heading {
+    font-size: var(--heading-size);
+    color: var(--heading-color);
+    font-weight: 600;
+    line-height: normal;
+  }
+  .stack_reviews__list {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .stack_reviews__item {
+    border-top: 2px solid var(--divider-color);
+    padding-top: 1.5rem;
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+    color: var(--review-text-color);
+  }
+  .stack_reviews__item img,
+  .stack_reviews__item .fallback-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  .stack_reviews__content h4 {
+    margin: 0;
+    font-weight: 700;
+    font-size: var(--review-heading-size);
+  }
+  .stack_reviews__content .stars {
+    display: flex;
+    gap: 0.2rem;
+    margin: 0.25rem 0;
+  }
+  .stack_reviews__content .stars svg {
+    width: 16px;
+    height: 16px;
+    fill: var(--star-color);
+  }
+  .stack_reviews__content p {
+    margin: 0;
+    font-size: var(--review-content-size);
+  }
+{% endstylesheet %}
+
+<section
+  class="stack_reviews"
+  style="
+    background-color: {{ section.settings.bg_color }};
+    --heading-align: {{ section.settings.heading_alignment }};
+    --heading-size: {{ section.settings.heading_size }}px;
+    --heading-color: {{ section.settings.heading_color }};
+    --summary-size: {{ section.settings.summary_size }}px;
+    --summary-color: {{ section.settings.summary_color }};
+    --star-size: {{ section.settings.star_size }}px;
+    --star-color: {{ section.settings.star_color }};
+    --divider-color: {{ section.settings.divider_color }};
+    --review-text-color: {{ section.settings.review_text_color }};
+    --review-heading-size: {{ section.settings.review_heading_size }}px;
+    --review-content-size: {{ section.settings.review_content_size }}px;
+  "
+>
+  <div class="page-width">
+    <div class="stack_reviews__top">
+      <div class="stack_reviews_upper">
+        <div class="stack_reviews__stars">
+          {% for i in (1..5) %}
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <path d="M12 .587l3.668 7.429 8.2 1.193-5.934 5.782 1.401 8.172L12 18.897l-7.335 3.866 1.401-8.172-5.934-5.782 8.2-1.193z"/>
+            </svg>
+          {% endfor %}
+        </div>
+        <div class="stack_reviews__summary">{{ section.settings.summary_text }}</div>
+      </div>
+      <div class="stack_reviews__heading">{{ section.settings.heading_text }}</div>
+    </div>
+
+    <div class="stack_reviews__list">
+      {% for block in section.blocks %}
+        <div class="stack_reviews__item">
+          {% if block.settings.image %}
+            <img src="{{ block.settings.image | img_url: '100x100' }}" alt="{{ block.settings.name }}">
+          {% else %}
+            <div class="fallback-avatar">
+              <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 12c2.7 0 5-2.3 5-5s-2.3-5-5-5-5 2.3-5 5 2.3 5 5 5Zm0 2c-3.3 0-10 1.7-10 5v3h20v-3c0-3.3-6.7-5-10-5Z"/>
+              </svg>
+            </div>
+          {% endif %}
+          <div class="stack_reviews__content">
+            <h4>{{ block.settings.name }}</h4>
+            <div class="stars">
+              {% for i in (1..5) %}
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                  <path d="M12 .587l3.668 7.429 8.2 1.193-5.934 5.782 1.401 8.172L12 18.897l-7.335 3.866 1.401-8.172-5.934-5.782 8.2-1.193z"/>
+                </svg>
+              {% endfor %}
+            </div>
+            <p>{{ block.settings.review_text }}</p>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Stack Reviews",
+  "settings": [
+    { "type": "text", "id": "heading_text", "label": "Heading Text", "default": "Customer Reviews" },
+    { "type": "text", "id": "summary_text", "label": "Summary Text", "default": "4.9/5 (2,034 Reviews)" },
+
+    { "type": "range", "id": "heading_size", "label": "Heading Font Size (px)", "min": 14, "max": 48, "step": 1, "default": 28 },
+    { "type": "range", "id": "summary_size", "label": "Summary Font Size (px)", "min": 12, "max": 30, "step": 1, "default": 16 },
+    { "type": "range", "id": "star_size", "label": "Star Icon Size (px)", "min": 12, "max": 40, "step": 1, "default": 20 },
+    { "type": "range", "id": "review_heading_size", "label": "Review Heading Font Size (px)", "min": 10, "max": 24, "step": 1, "default": 16 },
+    { "type": "range", "id": "review_content_size", "label": "Review Content Font Size (px)", "min": 10, "max": 24, "step": 1, "default": 14 },
+
+    { "type": "color", "id": "bg_color", "label": "Background Color", "default": "#ffffff" },
+    { "type": "color", "id": "heading_color", "label": "Heading Color", "default": "#111111" },
+    { "type": "color", "id": "summary_color", "label": "Summary Text Color", "default": "#111111" },
+    { "type": "color", "id": "star_color", "label": "Star Color", "default": "#facc15" },
+    { "type": "color", "id": "divider_color", "label": "Divider Line Color", "default": "#000000" },
+    { "type": "color", "id": "review_text_color", "label": "Review Text Color", "default": "#111111" },
+
+    {
+      "type": "select",
+      "id": "heading_alignment",
+      "label": "Text Alignment",
+      "default": "center",
+      "options": [
+        { "value": "flex-start", "label": "Left" },
+        { "value": "center", "label": "Center" },
+        { "value": "flex-end", "label": "Right" }
+      ]
+    }
+  ],
+  "blocks": [
+    {
+      "type": "review",
+      "name": "Review",
+      "settings": [
+        { "type": "image_picker", "id": "image", "label": "Reviewer Image" },
+        { "type": "text", "id": "name", "label": "Reviewer Name", "default": "Alex. M Exender" },
+        { "type": "textarea", "id": "review_text", "label": "Review Text", "default": "Lorem Ipsum is simply dummy text of the printing and typesetting industry." }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Stack Reviews",
+      "category": "Testimonials",
+      "blocks": [
+        { "type": "review" },
+        { "type": "review" }
+      ]
+    }
+  ]
+}
+{% endschema %}
