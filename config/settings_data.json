@@ -2444,8 +2444,8 @@
       "banner-stack": {
         "type": "banner-stack",
         "settings": {
-          "desktop_image": "shopify://shop_images/kush-queen-home-jan-banner.jpg",
-          "mobile_image": "shopify://shop_images/banner-tan_copy.jpg",
+          "desktop_image": "shopify://shop_images/Kush-Queen-Hero-banner-1_1.jpg",
+          "mobile_image": "shopify://shop_images/Kush-Queen-Hero-banner-2_2.jpg",
           "banner_height": "500px"
         }
       },
