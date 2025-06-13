@@ -2396,6 +2396,50 @@
         "settings": {
           "text": "National Sex Day Sale! Shop 25% OFF Lube"
         }
+      },
+      "collection-grid-stack": {
+        "type": "collection-grid-stack",
+        "settings": {
+          "collection": "30-off",
+          "heading": "Featured Collection",
+          "heading_align": "center",
+          "heading_font_size_desktop": 32,
+          "heading_font_size_mobile": 20,
+          "description_metafield_namespace": "",
+          "description_metafield_key": "",
+          "custom_description": "",
+          "show_collection_description": false,
+          "desc_font_size_desktop": 16,
+          "desc_font_size_mobile": 14,
+          "padding_top": 40,
+          "padding_bottom": 40,
+          "max_width": 1200,
+          "columns_desktop": 4,
+          "columns_mobile": 2,
+          "card_image_ratio": "1-1",
+          "show_title": true,
+          "show_price": true,
+          "show_reviews": true,
+          "show_button": true,
+          "button_label": "Shop Now",
+          "price_font_size_desktop": 16,
+          "price_font_size_mobile": 14,
+          "card_radius": 4,
+          "card_hover_effect": "none",
+          "enable_hover_image": true,
+          "card_border_width": 1,
+          "product_description_metafield_namespace": "",
+          "product_description_metafield_key": "",
+          "sale_badge_metafield_key": "product_sale_badge",
+          "background_color": "#ffffff",
+          "card_background_color": "#ffffff",
+          "image_background_color": "#f9f9f9",
+          "text_color": "#1c1c1c",
+          "star_color": "#f5b400",
+          "button_background_color": "#000000",
+          "button_text_color": "#ffffff",
+          "card_border_color": "#e0e0e0"
+        }
       }
     },
     "content_for_index": [
