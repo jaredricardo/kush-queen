@@ -2434,12 +2434,68 @@
           "background_color": "#f3f2ea",
           "card_background_color": "#ffffff",
           "image_background_color": "#fce39f",
-          "text_color": "#000",
-          "star_color": "#000",
+          "text_color": "#000000",
+          "star_color": "#000000",
           "button_background_color": "#000000",
           "button_text_color": "#ffffff",
-          "card_border_color": "#000"
+          "card_border_color": "#000000"
         }
+      },
+      "banner-stack": {
+        "type": "banner-stack",
+        "settings": {
+          "banner_height": "auto"
+        }
+      },
+      "brand-logos-stack": {
+        "type": "brand-logos-stack",
+        "blocks": {
+          "logo_pwFYME": {
+            "type": "logo",
+            "settings": {
+              "logo_image": "shopify://shop_images/Featured_In.png"
+            }
+          },
+          "logo_kd6WyX": {
+            "type": "logo",
+            "settings": {
+              "logo_image": "shopify://shop_images/Press-Logos-13-1-300x300_1_665524d6-2c72-4bec-afc6-7a45a1fd9391_1.png"
+            }
+          },
+          "logo_FxxkkN": {
+            "type": "logo",
+            "settings": {
+              "logo_image": "shopify://shop_images/download_1_69d45aae-e7ab-44f6-98ae-1442cc53b4c4_1.png"
+            }
+          },
+          "logo_BQMcye": {
+            "type": "logo",
+            "settings": {
+              "logo_image": "shopify://shop_images/Press-Logos-10-1-300x300_1_553cc908-5fb0-4348-b1d1-ec4273cf2992-1_1.png"
+            }
+          },
+          "logo_Pid6bd": {
+            "type": "logo",
+            "settings": {
+              "logo_image": "shopify://shop_images/Press-Logos-08-1-300x300_1_7c89d89c-e7cb-4763-a5a2-9e7c0912cf54_1.png"
+            }
+          },
+          "logo_6qnANA": {
+            "type": "logo",
+            "settings": {
+              "logo_image": "shopify://shop_images/image_1.png"
+            }
+          }
+        },
+        "block_order": [
+          "logo_pwFYME",
+          "logo_kd6WyX",
+          "logo_FxxkkN",
+          "logo_BQMcye",
+          "logo_Pid6bd",
+          "logo_6qnANA"
+        ],
+        "settings": {}
       }
     },
     "content_for_index": [
