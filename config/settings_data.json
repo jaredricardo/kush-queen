@@ -2434,8 +2434,8 @@
           "background_color": "#f3f2ea",
           "card_background_color": "#ffffff",
           "image_background_color": "#f5b400",
-          "text_color": "#1c1c1c",
-          "star_color": "#f5b400",
+          "text_color": "#000",
+          "star_color": "#000",
           "button_background_color": "#000000",
           "button_text_color": "#ffffff",
           "card_border_color": "#000"
