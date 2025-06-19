@@ -39,23 +39,25 @@
             {% assign second_image = product.images[1] %}
 
             <div class="stack_card-image-wrapper stack_ratio-{{ section.settings.card_image_ratio }}">
-              {% if first_image %}
-                <img
-                  class="stack_card-image stack_card-image--primary"
-                  src="{{ first_image | image_url: width: 600 }}"
-                  alt="{{ product.title }}"
-                  loading="lazy"
-                >
-              {% endif %}
+              <a href="" {{ product.url }}>
+                {% if first_image %}
+                  <img
+                    class="stack_card-image stack_card-image--primary"
+                    src="{{ first_image | image_url: width: 600 }}"
+                    alt="{{ product.title }}"
+                    loading="lazy"
+                  >
+                {% endif %}
 
-              {% if section.settings.enable_hover_image and second_image %}
-                <img
-                  class="stack_card-image stack_card-image--secondary"
-                  src="{{ second_image | image_url: width: 600 }}"
-                  alt="{{ product.title }} (hover)"
-                  loading="lazy"
-                >
-              {% endif %}
+                {% if section.settings.enable_hover_image and second_image %}
+                  <img
+                    class="stack_card-image stack_card-image--secondary"
+                    src="{{ second_image | image_url: width: 600 }}"
+                    alt="{{ product.title }} (hover)"
+                    loading="lazy"
+                  >
+                {% endif %}
+              </a>
             </div>
 
             <div class="stack_card-info">
