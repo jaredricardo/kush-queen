@@ -1,5 +1,5 @@
 (() => {
-  
+  console.log('abra func live theme')
   window.addEventListener('abra:applied', () => {
     const promoDiv = document.querySelector('div.new-pdp_promotxt');
     
