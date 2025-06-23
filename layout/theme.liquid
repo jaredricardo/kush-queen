@@ -22,11 +22,6 @@ window.TriplePixelData={TripleName:"kush-queen-shop.myshopify.com",ver:"2.12",pl
 /* << TriplePixel :: end*/
 </script>
 	
-	
-  <script>
-    console.log('///////')
-    console.log({{ request.page_type | json }});
-  </script>
     
     {% comment %} social sharing buttons library {% endcomment %}
     <script src="https://cdn.jsdelivr.net/npm/sharer.js@0.5.2/sharer.min.js"></script>
@@ -409,12 +404,15 @@ window.TriplePixelData={TripleName:"kush-queen-shop.myshopify.com",ver:"2.12",pl
       });
     </script>
 
+    
     {% include 'lazy-script' %}
+
+     <script src="{{ 'abra.js' | asset_url }}" defer></script>
 
     <!-- Monk Protect Code Start -->
     <script type="text/javascript" defer>
       
-    <script src="{{ 'abra.js' | asset_url }}" defer></script>
+   
       
 
     let monkProtectFailureCounter = 0;
