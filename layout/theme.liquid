@@ -83,13 +83,6 @@ window.TriplePixelData={TripleName:"kush-queen-shop.myshopify.com",ver:"2.12",pl
     {%- if settings.favicon != blank -%}
       <link rel="shortcut icon" href="{{ settings.favicon | img_url: '32x32' }}" type="image/png">
     {%- endif -%}
-  <!-- Remove the default canonical URL for this collection page -->
-  {% if request.path contains '/collections/thc-gummies' %}
-    <link rel="canonical" href="{{ shop.url }}/collections/weed-gummies" />
-  {% else %}
-    <!-- Use the default canonical URL if not on the THC gummies page -->
-    <link rel="canonical" href="{{ canonical_url }}">
-  {% endif %}
     {%- capture seo_title -%}
   {%- if request.page_type == 'search' and search.performed == true -%}
   {{ 'general.search.heading' | t: count: search.results_count }}: {{ 'general.search.results_with_count' | t: terms: search.terms, count: search.results_count }}
