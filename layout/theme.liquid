@@ -83,6 +83,9 @@ window.TriplePixelData={TripleName:"kush-queen-shop.myshopify.com",ver:"2.12",pl
     {%- if settings.favicon != blank -%}
       <link rel="shortcut icon" href="{{ settings.favicon | img_url: '32x32' }}" type="image/png">
     {%- endif -%}
+    {% if collection.handle == 'thc-gummies' %}
+    <link rel="canonical" href="{{ shop.url }}/collections/weed-gummies" />
+    {% endif %}
 
     {%- capture seo_title -%}
   {%- if request.page_type == 'search' and search.performed == true -%}
