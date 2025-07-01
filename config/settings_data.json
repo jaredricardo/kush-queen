@@ -365,9 +365,9 @@
           "simple_link_iUkaie"
         ],
         "settings": {
-          "announcement_text": "Flash Sale 🚀",
-          "announcement_cta_url": "https://kushqueen.shop/collections/flash-sale",
-          "announcement_cta_text": "Shop 30% Off Selects",
+          "announcement_text": "Summer Sale 🚀",
+          "announcement_cta_url": "Shop 25% OFF",
+          "announcement_cta_text": "Shop 25% OFF",
           "head_site_link": "",
           "head_site_link_txt": "Kush Queen",
           "head_site_king_link": "",
@@ -2446,9 +2446,8 @@
       },
       "d76d763c-6c70-4fea-b4ad-4348f38cb70e": {
         "type": "sitewide-sale-announcement",
-        "disabled": true,
         "settings": {
-          "text": "National Sex Day Sale! Shop 25% OFF Lube"
+          "text": "Summer Sale! Shop 25% OFF ☀️"
         }
       },
       "collection-grid-stack": {
