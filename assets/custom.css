@@ -505,3 +505,16 @@
 .hs-footer-layout .monk-protect-app p {
     margin: 5px 0 !important;
 }
+
+.hs-rewards-content {
+
+}
+
+.hs-item-cart-content:has([data-handle="slippers-random-color"]) .hs-item-cart-content-quantity {
+    display: none !important;
+}
+
+.hs-item-cart-content:has([data-handle="slippers-random-color"]) a {
+    pointer-events: none !important;
+}
+
