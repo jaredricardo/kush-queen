@@ -518,3 +518,20 @@
     pointer-events: none !important;
 }
 
+
+.prop-65-warning {
+    color: black;
+    padding: 5% 0;
+    max-width: 500px;
+    font-weight: bold;
+    margin: 0 auto;
+    font-size: 14px;
+}
+.prop-65-warning a {
+    text-decoration: underline;
+
+}
+
+.prop-65-warning h5 {
+    text-align: center;
+}
