@@ -2499,7 +2499,11 @@
         "custom_css": [
           "@media only screen and (max-width: 600px) {.responsive-banner img {padding-top: 20px; }}"
         ],
-        "settings": {}
+        "settings": {
+          "desktop_image": "shopify://shop_images/Website_Banner_-_Desktop.png",
+          "mobile_image": "shopify://shop_images/Website_Banner_-_Mobile.png",
+          "banner_height": "auto"
+        }
       },
       "brand-logos-stack": {
         "type": "brand-logos-stack",
