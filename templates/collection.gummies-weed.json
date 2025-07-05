@@ -71,57 +71,13 @@
         "image": "shopify://shop_images/kush-queen-ingestibles-420-party-pack-40494826651893.png"
       }
     },
-    "jr_50_50_Dbx6rJ": {
-      "type": "jr-50-50",
-      "blocks": {
-        "h3_xRy4bT": {
-          "type": "h3",
-          "settings": {
-            "h3": "<p><strong>Gummies Crafted With Excellence</strong></p>",
-            "font_size_d": 24,
-            "font_size_m": 18,
-            "font_family": "Eina03"
-          }
-        },
-        "p_dTWN7m": {
-          "type": "p",
-          "settings": {
-            "p": "<p>✓ Ideal for beginners and seasoned users alike</p><p>✓ Relief from stress, pain, and everyday burnout</p><p>✓ Made with clean, premium ingredients</p><p>✓ Precision-dosed for consistent effects</p><p>✓ Lab tested for purity, potency, and safety</p><p>✓ Delicious, effective, and easy way to enjoy the therapeutic benefits of THC</p>",
-            "font_family": "Eina03"
-          }
-        },
-        "button_gE8rKA": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_text": "Shop Delta 9 Gummies",
-            "button_url": "shopify://collections/delta-9-gummies",
-            "button_bg_color": "#000000",
-            "button_text_color": "#ffffff",
-            "font_family": "Eina03"
-          }
-        }
-      },
-      "block_order": [
-        "h3_xRy4bT",
-        "p_dTWN7m",
-        "button_gE8rKA"
-      ],
-      "custom_css": [],
-      "settings": {
-        "background_color": "#ffffff",
-        "col_order": "reverse",
-        "text_alignment": "left-aligned",
-        "image": "shopify://shop_images/kush-queen-mobile-fall-home.jpg"
-      }
-    },
     "jr_50_50_bMNMUL": {
       "type": "jr-50-50",
       "blocks": {
         "h3_FAUDBQ": {
           "type": "h3",
           "settings": {
-            "h3": "<p><strong>About Our Proprietary Formulations</strong></p>",
+            "h3": "<p><strong>The Kush Queen Difference</strong></p>",
             "font_size_d": 24,
             "font_size_m": 18,
             "font_family": "Eina03"
@@ -130,7 +86,7 @@
         "p_cnx99P": {
           "type": "p",
           "settings": {
-            "p": "<p>At Kush Queen, our CBD stands out with a full-spectrum hemp extract that's engineered for unmatched quality and consistency. Our proprietary \"KQ Spec\" formulation ensures a perfectly balanced cannabinoid ratio, so you get the same reliable, high-quality experience every time. From relaxation to relief, our CBD is designed to elevate your wellness routine, keeping you feeling great every single time.</p>",
+            "p": "<p>Since 2017, we’ve done one thing really well: make THC gummies that actually taste <em>good, </em>and feel even better. At Kush Queen, we don’t chase trends. We craft edibles with purpose, precision, and premium ingredients you can trust.</p><p>Our full-spectrum blends of Delta 8, Delta 9, and CBD deliver a high that’s smooth, uplifting, and <em>never</em> overwhelming. Whether you’re new to cannabis or a daily user, you’ll feel the difference in every bite.</p><p>Backed by The Kush Queen Promise, our weed gummies are designed to elevate your experience, without the crash, confusion, or couch-lock. Just clean vibes, delicious flavor, and a high that hits right. Every. Single. Time.</p>",
             "font_family": "Eina03"
           }
         }
@@ -226,7 +182,6 @@
     "collection_header_7bBjxG",
     "new-collection-template",
     "jr_50_50_TMmwQB",
-    "jr_50_50_Dbx6rJ",
     "jr_50_50_bMNMUL",
     "new_faq_bfrbfm",
     "rich_text_DWYf8D"
