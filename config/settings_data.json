@@ -2497,7 +2497,7 @@
       "banner-stack": {
         "type": "banner-stack",
         "custom_css": [
-          "@media only screen and (max-width: 600px) {.responsive-banner img {padding-top: 20px; }}"
+          "@media only screen and (max-width: 600px) {.responsive-banner img {padding-top: 0px; }}"
         ],
         "settings": {
           "banner_height": "auto"
