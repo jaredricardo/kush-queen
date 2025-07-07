@@ -8,7 +8,7 @@
     </li>
     {% else %}
     <li>
-      <a href="{{ paginate.previous.url }}" class="btn btn--tertiary btn--narrow">
+      <a rel="prev" href="{{ paginate.previous.url }}" class="btn btn--tertiary btn--narrow">
         {% include 'icon-arrow-left' %}
         <span class="icon__fallback-text">{{ 'general.pagination.previous' | t }}</span>
       </a>
@@ -26,7 +26,7 @@
     </li>
   {% else %}
     <li>
-      <a href="{{ paginate.next.url }}" class="btn btn--tertiary btn--narrow">
+      <a rel="next" href="{{ paginate.next.url }}" class="btn btn--tertiary btn--narrow">
         {% include 'icon-arrow-right' %}
         <span class="icon__fallback-text">{{ 'general.pagination.next' | t }}</span>
       </a>

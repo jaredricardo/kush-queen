@@ -289,7 +289,7 @@
 
                   {% else %}
                     <li class="pagination-item pagination-item--previous">
-                      <a class="pagination-link" href="{{paginate.previous.url}}">
+                      <a rel="prev" class="pagination-link" href="{{paginate.previous.url}}">
                         Prev
                       </a>
                     </li>
@@ -300,9 +300,10 @@
                     {% if part.is_link %}
                       <li class="pagination-item">
                         <a
+                          
                           class="pagination-link"
-                          href="{{part.url }}"
-                          title="{{part.title}}">{{ part.title }}</a>
+                          href="{{ part.url }}"
+                          title="{{ part.title}}">{{ part.title }}</a>
                       </li>
                     {% else %}
                       {% if part.title == paginate.current_page %}
@@ -328,7 +329,7 @@
 
                   {% else %}
                     <li class="pagination-item pagination-item--next">
-                      <a class="pagination-link" href="{{ paginate.next.url }}">
+                      <a class="pagination-link" rel="next" href="{{ paginate.next.url }}">
                         Next
                       </a>
                     </li>
