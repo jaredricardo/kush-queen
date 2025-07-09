@@ -612,58 +612,7 @@ window.TriplePixelData={TripleName:"kush-queen-shop.myshopify.com",ver:"2.12",pl
 		</div>
 	</div>
 </div>
-
-<script>
-(function() {
-	'use strict';
-	function initMonkProtectBanner() {
-		const infoButton = document.getElementById('monkprotect-v2-info-button');
-		const modal = document.getElementById('monkprotect-v2-modal');
-		const closeButton = document.getElementById('monkprotect-v2-close-button');
-		const yearContainer = document.getElementById('monkprotect-v2-copyright-year');
-		if (yearContainer) {
-			const currentYear = new Date().getFullYear();
-			yearContainer.textContent = `${currentYear}`;
-		}
-		if (infoButton && modal) {
-			infoButton.addEventListener('click', function(e) {
-				e.preventDefault();
-				e.stopPropagation();
-				if (modal.parentNode !== document.body) {
-					document.body.appendChild(modal);
-				}
-				modal.style.display = 'block';
-			});
-		}
-		if (closeButton && modal) {
-			closeButton.addEventListener('click', function(e) {
-				e.preventDefault();
-				e.stopPropagation();
-				modal.style.display = 'none';
-			});
-		}
-		if (modal) {
-			modal.addEventListener('click', function(e) {
-				if (e.target === modal) {
-					modal.style.display = 'none';
-				}
-			});
-		}
-		document.addEventListener('keydown', function(e) {
-			if (e.key === 'Escape' && modal && modal.style.display !== 'none') {
-				modal.style.display = 'none';
-			}
-		});
-	}
-	if (document.readyState === 'loading') {
-		document.addEventListener('DOMContentLoaded', initMonkProtectBanner);
-	} else {
-		initMonkProtectBanner();
-	}
-})();
-</script>
-<!-- MonkProtect Banner Snippet End -->
-`); 
+    `); 
               }
             }
           })
@@ -681,9 +630,55 @@ window.TriplePixelData={TripleName:"kush-queen-shop.myshopify.com",ver:"2.12",pl
      
      (function() {
        insertMonkProtect();  
-      })(); 
-     
+      })();
 
+    (function() {
+      'use strict';
+      function initMonkProtectBanner() {
+        const infoButton = document.getElementById('monkprotect-v2-info-button');
+        const modal = document.getElementById('monkprotect-v2-modal');
+        const closeButton = document.getElementById('monkprotect-v2-close-button');
+        const yearContainer = document.getElementById('monkprotect-v2-copyright-year');
+        if (yearContainer) {
+          const currentYear = new Date().getFullYear();
+          yearContainer.textContent = `${currentYear}`;
+        }
+        if (infoButton && modal) {
+          infoButton.addEventListener('click', function(e) {
+            e.preventDefault();
+            e.stopPropagation();
+            if (modal.parentNode !== document.body) {
+              document.body.appendChild(modal);
+            }
+            modal.style.display = 'block';
+          });
+        }
+        if (closeButton && modal) {
+          closeButton.addEventListener('click', function(e) {
+            e.preventDefault();
+            e.stopPropagation();
+            modal.style.display = 'none';
+          });
+        }
+        if (modal) {
+          modal.addEventListener('click', function(e) {
+            if (e.target === modal) {
+              modal.style.display = 'none';
+            }
+          });
+        }
+        document.addEventListener('keydown', function(e) {
+          if (e.key === 'Escape' && modal && modal.style.display !== 'none') {
+            modal.style.display = 'none';
+          }
+        });
+      }
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', initMonkProtectBanner);
+      } else {
+        initMonkProtectBanner();
+      }
+    })();
 
     </script>
     <!-- Monk Protect Code End -->
