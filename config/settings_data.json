@@ -2456,9 +2456,8 @@
       },
       "d76d763c-6c70-4fea-b4ad-4348f38cb70e": {
         "type": "sitewide-sale-announcement",
-        "disabled": true,
         "settings": {
-          "text": "Summer Sale! Shop 25% OFF ☀️"
+          "text": "710 Sale! Shop 30% Off <a href=\"https://kushqueen.shop/collections/710-day\">Selects</a>!"
         }
       },
       "collection-grid-stack": {
