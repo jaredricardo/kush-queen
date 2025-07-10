@@ -346,8 +346,17 @@
               "links": "topicals"
             }
           },
+          "link_linklist_N7MrLg": {
+            "type": "link-linklist",
+            "settings": {
+              "title": "Live Resin & Rosin",
+              "link": "",
+              "links": "live-resin-rosin"
+            }
+          },
           "simple_link_iUkaie": {
             "type": "simple_link",
+            "disabled": true,
             "settings": {
               "title": "KQ Merch",
               "link": "shopify://collections/kush-queen-merch"
@@ -362,6 +371,7 @@
           "779aa32a-4620-41dc-ba84-481a090c20d7",
           "4f5ec842-39ff-4f79-9428-f0efaf6153af",
           "1571826552382",
+          "link_linklist_N7MrLg",
           "simple_link_iUkaie"
         ],
         "settings": {
