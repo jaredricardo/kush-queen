@@ -375,9 +375,9 @@
           "simple_link_iUkaie"
         ],
         "settings": {
-          "announcement_text": "Summer Sale 🚀 Shop 25% OFF",
+          "announcement_text": "Happy 710!",
           "announcement_cta_url": "",
-          "announcement_cta_text": "",
+          "announcement_cta_text": "On Selects",
           "head_site_link": "",
           "head_site_link_txt": "Kush Queen",
           "head_site_king_link": "",
@@ -2456,6 +2456,7 @@
       },
       "d76d763c-6c70-4fea-b4ad-4348f38cb70e": {
         "type": "sitewide-sale-announcement",
+        "disabled": true,
         "settings": {
           "text": "Summer Sale! Shop 25% OFF ☀️"
         }
