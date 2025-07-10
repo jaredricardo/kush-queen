@@ -408,7 +408,6 @@ window.TriplePixelData={TripleName:"kush-queen-shop.myshopify.com",ver:"2.12",pl
 
      <script src="{{ 'abra.js' | asset_url }}" defer></script>
 
-
     <!-- Monk Protect Code Start -->
     <script type="text/javascript" defer>      
 
@@ -572,6 +571,7 @@ window.TriplePixelData={TripleName:"kush-queen-shop.myshopify.com",ver:"2.12",pl
     (function() {
       'use strict';
       function initMonkProtectBanner() {
+        console.log('qqq initMonkProtectBanner')
         const infoButton = document.getElementById('monkprotect-v2-info-button');
         const modal = document.getElementById('monkprotect-v2-modal');
         const closeButton = document.getElementById('monkprotect-v2-close-button');
@@ -582,6 +582,7 @@ window.TriplePixelData={TripleName:"kush-queen-shop.myshopify.com",ver:"2.12",pl
         }
         if (infoButton && modal) {
           infoButton.addEventListener('click', function(e) {
+            console.log('qqq infoButton clicked', modal.parentNode, modal.parentNode !== document.body)
             e.preventDefault();
             e.stopPropagation();
             if (modal.parentNode !== document.body) {
