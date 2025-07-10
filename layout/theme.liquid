@@ -408,7 +408,7 @@ window.TriplePixelData={TripleName:"kush-queen-shop.myshopify.com",ver:"2.12",pl
 
      <script src="{{ 'abra.js' | asset_url }}" defer></script>
 
-    <!-- Monk Protect Code Start -->
+  <!-- Monk Protect Code Start -->
     <script type="text/javascript" defer>      
 
     let monkProtectFailureCounter = 0;
@@ -420,6 +420,48 @@ window.TriplePixelData={TripleName:"kush-queen-shop.myshopify.com",ver:"2.12",pl
             attributes: true
           }
 
+         function initMonkProtectBanner() {
+           console.log('qqq initMonkProtectBanner')
+           const infoButton = document.getElementById('monkprotect-v2-info-button');
+           const modal = document.getElementById('monkprotect-v2-modal');
+           const closeButton = document.getElementById('monkprotect-v2-close-button');
+           const yearContainer = document.getElementById('monkprotect-v2-copyright-year');
+           if (yearContainer) {
+             const currentYear = new Date().getFullYear();
+             yearContainer.textContent = `${currentYear}`;
+           }
+           if (infoButton && modal) {
+             infoButton.addEventListener('click', function(e) {
+               console.log('qqq infoButton clicked', modal.parentNode, modal.parentNode !== document.body)
+               e.preventDefault();
+               e.stopPropagation();
+               if (modal.parentNode !== document.body) {
+                 document.body.appendChild(modal);
+               }
+               modal.style.display = 'block';
+             });
+           }
+           if (closeButton && modal) {
+             closeButton.addEventListener('click', function(e) {
+               e.preventDefault();
+               e.stopPropagation();
+               modal.style.display = 'none';
+             });
+           }
+           if (modal) {
+             modal.addEventListener('click', function(e) {
+               if (e.target === modal) {
+                 modal.style.display = 'none';
+               }
+             });
+           }
+           document.addEventListener('keydown', function(e) {
+             if (e.key === 'Escape' && modal && modal.style.display !== 'none') {
+               modal.style.display = 'none';
+             }
+           });
+         }
+          
         function callback(mutationList, observer) {
           mutationList.forEach(function(mutation) {
             if (mutation.type === 'attributes' && mutation.attributeName === 'class') {
@@ -548,7 +590,8 @@ window.TriplePixelData={TripleName:"kush-queen-shop.myshopify.com",ver:"2.12",pl
 		</div>
 	</div>
 </div>
-`); 
+`);
+                initMonkProtectBanner()
               }
             }
           })
@@ -568,58 +611,9 @@ window.TriplePixelData={TripleName:"kush-queen-shop.myshopify.com",ver:"2.12",pl
        insertMonkProtect();  
       })();
 
-    (function() {
-      'use strict';
-      function initMonkProtectBanner() {
-        console.log('qqq initMonkProtectBanner')
-        const infoButton = document.getElementById('monkprotect-v2-info-button');
-        const modal = document.getElementById('monkprotect-v2-modal');
-        const closeButton = document.getElementById('monkprotect-v2-close-button');
-        const yearContainer = document.getElementById('monkprotect-v2-copyright-year');
-        if (yearContainer) {
-          const currentYear = new Date().getFullYear();
-          yearContainer.textContent = `${currentYear}`;
-        }
-        if (infoButton && modal) {
-          infoButton.addEventListener('click', function(e) {
-            console.log('qqq infoButton clicked', modal.parentNode, modal.parentNode !== document.body)
-            e.preventDefault();
-            e.stopPropagation();
-            if (modal.parentNode !== document.body) {
-              document.body.appendChild(modal);
-            }
-            modal.style.display = 'block';
-          });
-        }
-        if (closeButton && modal) {
-          closeButton.addEventListener('click', function(e) {
-            e.preventDefault();
-            e.stopPropagation();
-            modal.style.display = 'none';
-          });
-        }
-        if (modal) {
-          modal.addEventListener('click', function(e) {
-            if (e.target === modal) {
-              modal.style.display = 'none';
-            }
-          });
-        }
-        document.addEventListener('keydown', function(e) {
-          if (e.key === 'Escape' && modal && modal.style.display !== 'none') {
-            modal.style.display = 'none';
-          }
-        });
-      }
-      if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', initMonkProtectBanner);
-      } else {
-        initMonkProtectBanner();
-      }
-    })();
-
     </script>
     <!-- Monk Protect Code End -->
+
     
     <!-- render Abra Script  -->
     <script src="{{ 'abra.js' | asset_url }}" defer></script>
