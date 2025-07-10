@@ -408,7 +408,8 @@ window.TriplePixelData={TripleName:"kush-queen-shop.myshopify.com",ver:"2.12",pl
 
      <script src="{{ 'abra.js' | asset_url }}" defer></script>
 
-        <!-- Monk Protect Code Start -->
+
+    <!-- Monk Protect Code Start -->
     <script type="text/javascript" defer>      
 
     let monkProtectFailureCounter = 0;
@@ -423,38 +424,132 @@ window.TriplePixelData={TripleName:"kush-queen-shop.myshopify.com",ver:"2.12",pl
         function callback(mutationList, observer) {
           mutationList.forEach(function(mutation) {
             if (mutation.type === 'attributes' && mutation.attributeName === 'class') {
-              if(document.querySelectorAll('.monk-protect-app').length < 1){
+              if(document.querySelectorAll('.monkprotect-v2').length < 1){
                 (Array.from(
                   document.querySelectorAll('.hs-content-additional')
                   ).pop()).insertAdjacentHTML("afterend", `
-<div style="max-width: 240px; margin: 20px auto;">
-	<div style="display: flex; align-items: center; justify-content: center;">
-		<img
-			style="display: block; margin-top: -3px; width: 120px; max-width: 120px;"
-			src="https://app.monkprotect.com/images/MonkProtect-logo-grey.webp"
-			alt="Monk Protect Logo"
-			width="120"
-			height="auto"
-		/>
-		<button
-			id="monkprotect-v2-info-button"
-			style="background: none; min-height: auto; border: 0; width: auto; padding: 0; display: block; cursor: pointer; margin-left: 5px; box-shadow: none;"
-			type="button"
-		>
+<div class="monkprotect-v2">
+	<div style="max-width: 240px; margin: 20px auto;">
+		<div style="display: flex; align-items: center; justify-content: center;">
 			<img
-				style="display: block; width: 16px; height: 16px;"
-				src="https://app.monkprotect.com/images/tooltip-icon.webp"
-				alt="Monk Protect"
-				width="16"
-				height="16"
+				style="display: block; margin-top: -3px; width: 120px; max-width: 120px;"
+				src="https://app.monkprotect.com/images/MonkProtect-logo-grey.webp"
+				alt="Monk Protect Logo"
+				width="120"
+				height="auto"
 			/>
-		</button>
+			<button
+				id="monkprotect-v2-info-button"
+				style="background: none; min-height: auto; border: 0; width: auto; padding: 0; display: block; cursor: pointer; margin-left: 5px; box-shadow: none;"
+				type="button"
+			>
+				<img
+					style="display: block; width: 16px; height: 16px;"
+					src="https://app.monkprotect.com/images/tooltip-icon.webp"
+					alt="Monk Protect"
+					width="16"
+					height="16"
+				/>
+			</button>
+		</div>
+		<p style="text-align: center; padding: 0; margin: 15px 0; font-size: 13px; font-weight: 300; line-height: 20px; color: #000000;">
+			qqqLost, stolen, or damaged goods protected by MonkProtect.
+		</p>
 	</div>
-	<p style="text-align: center; padding: 0; margin: 15px 0; font-size: 13px; font-weight: 300; line-height: 20px; color: #000000;">
-		qqqLost, stolen, or damaged goods protected by MonkProtect.
-	</p>
+	
+	<div
+		id="monkprotect-v2-modal"
+		class="monkprotect-v2-modal"
+		style="box-sizing: border-box; position: fixed; left: 0; top: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.7); z-index: 2147483647; display: none; align-items: center; justify-content: center; backdrop-filter: blur(20px); padding: 15px; overflow: auto;"
+	>
+		<div class="monkprotect-v2-modal__content-wrapper">
+			<div class="monkprotect-v2-modal__content" style="box-sizing: border-box; background: #ffffff; padding: 30px; border-radius: 8px; overflow: hidden; width: 100%; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.29); position: relative; font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; color: #435279; text-align: center;">
+				<div class="monkprotect-v2-modal__shape" style="width: 400px; height: 400px; border-radius: 60px; position: absolute; top: -229px; background: transparent linear-gradient(0, #8039ff 0%, #00d5ff 100%) 0 0 no-repeat padding-box; opacity: 0.4; left: 50%; transform: rotate(135deg) translateX(-50%); transform-origin: left center;">
+				</div>
+				<button
+					type="button"
+					id="monkprotect-v2-close-button"
+					style="z-index: 1; position: absolute; right: 20px; top: 20px; width: 16px; height: 16px; background: none; border: 0; display: block; padding: 0; cursor: pointer; box-shadow: none;"
+				>
+					<span style="position: absolute; left: 7px; height: 20px; width: 1px; background-color: #061334; transform: translateY(-50%) rotate(45deg);"></span>
+					<span style="position: absolute; left: 7px; height: 20px; width: 1px; background-color: #061334; transform: translateY(-50%) rotate(-45deg);"></span>
+				</button>
+				<div style="position: relative;">
+					<div class="monkprotect-v2-modal__logo" style="margin: 20px 0 30px;">
+						<img
+							style="width: 230px; max-width: 100%;"
+							src="https://app.monkprotect.com/images/MonkProtect-logo-horizontal.webp"
+							alt="Monk Protect"
+							width="230"
+							height="auto"
+						/>
+					</div>
+					<div class="monkprotect-v2-modal__info-wrapper" style="display: flex; flex-direction: column;">
+						<div class="monkprotect-v2-modal__image">
+							<img
+								style="display: block; width: 100%; max-width: 100%;"
+								src="https://app.monkprotect.com/images/MonkProtect-phone.webp"
+								width="auto"
+								height="auto"
+								alt="phone"
+							/>
+						</div>
+						<div class="monkprotect-v2-modal__main-text">
+							<h2 class="monkprotect-v2-modal__heading" style="font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-weight: 600; font-size: 20px; color: #061334; line-height: 24px; margin: 0 0 24px; letter-spacing: 0; text-transform: none;">
+								Secure delivery protection with MonkProtect&trade;
+							</h2>
+							<p style="font-size: 14px; line-height: 21px; margin: 0; font-weight: normal; letter-spacing: 0; color: #435279;">
+								Your order's safe delivery is guaranteed with
+								MonkProtect&trade;. Quickly resolve any potential order
+								issues, like lost, damaged, or stolen goods, with just a
+								few clicks via our online claims portal.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="monkprotect-v2-modal__footer" style="border-top: 1px solid #f0f1f2; margin-top: 30px; padding-top: 25px;">
+					<div class="monkprotect-v2-modal__info">
+						<ul style="display: flex; margin: 0; padding: 0; list-style: none; justify-content: center; line-height: 17px;">
+							<li class="monkprotect-v2-modal__footer-list-item" style="margin-right: 6px; padding-right: 6px; position: relative;">
+								<a
+									style="color: #8039ff; font-size: 12px; text-decoration: none;"
+									href="https://app.monkprotect.com"
+									target="_blank"
+									rel="noopener noreferrer"
+								>File a Claim</a
+								>
+								<span style="background: #b4c5d7; position: absolute; right: 0; top: 2px; width: 1px; height: 15px; display: block;"></span>
+							</li>
+							<li class="monkprotect-v2-modal__footer-list-item" style="margin-right: 6px; padding-right: 6px; position: relative;">
+								<a
+									style="color: #8039ff; font-size: 12px; text-decoration: none;"
+									href="https://www.monkprotect.com/privacy-policy/"
+									target="_blank"
+									rel="noopener noreferrer"
+								>Privacy Policy</a
+								>
+								<span style="background: #b4c5d7; position: absolute; right: 0; top: 2px; width: 1px; height: 15px; display: block;"></span>
+							</li>
+							<li class="monkprotect-v2-modal__footer-list-item" style="margin-right: 6px; padding-right: 6px; position: relative;">
+								<a
+									style="color: #8039ff; font-size: 12px; text-decoration: none;"
+									href="https://www.monkprotect.com/terms-of-service/"
+									target="_blank"
+									rel="noopener noreferrer"
+								>Terms of Service</a
+								>
+							</li>
+						</ul>
+						<div class="monkprotect-v2-modal__copy" style="margin-top: 20px; font-size: 12px; color: #777e90;">
+							&copy; MonkProtect&trade; <span id="monkprotect-v2-copyright-year"></span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </div>
-    `); 
+`); 
               }
             }
           })
