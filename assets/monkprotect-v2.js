@@ -1,12 +1,7 @@
 ;(function () {
 	function initMonkProtectBanner() {
-		console.log('qqq initMonkProtectBanner v8')
-
 		document.addEventListener('click', function (e) {
-			console.log('qqq click happened', e.target, e.target.id, e.target.className)
-
 			if (e.target.className === 'monkprotect-v2-info-button') {
-				console.log('qqq infoButton clicked')
 				e.preventDefault()
 				e.stopPropagation()
 				const modal = document.getElementById('monkprotect-v2-modal')
