@@ -86,7 +86,7 @@
         "p_cnx99P": {
           "type": "p",
           "settings": {
-            "p": "<p>Since 2017, we’ve done one thing really well: make THC gummies that actually taste <em>good, </em>and feel even better. At Kush Queen, we don’t chase trends. We craft edibles with purpose, precision, and premium ingredients you can trust.</p><p>Our full-spectrum blends of Delta 8, Delta 9, and CBD deliver a high that’s smooth, uplifting, and <em>never</em> overwhelming. Whether you’re new to cannabis or a daily user, you’ll feel the difference in every bite.</p><p>Backed by The Kush Queen Promise, our weed gummies are designed to elevate your experience, without the crash, confusion, or couch-lock. Just clean vibes, delicious flavor, and a high that hits right. Every. Single. Time.</p>",
+            "p": "<p>Since 2017, we’ve done one thing really well: make THC gummies that actually taste <em>good, </em>and feel even better. At Kush Queen, we don’t chase trends. We craft edible gummies with purpose, precision, and premium ingredients you can trust.</p><p>Our full-spectrum blends of Delta 8, Delta 9, and CBD deliver a high that’s smooth, uplifting, and <em>never</em> overwhelming. Whether you’re new to cannabis gummies or a daily user, you’ll feel the difference in every bite.</p><p>Backed by The Kush Queen Promise, our marijuana gummies are designed to elevate your experience, without the crash, confusion, or couch-lock. Just clean vibes, delicious flavor, and a high that hits right. Every. Single. Time.</p>",
             "font_family": "Eina03"
           }
         }
@@ -99,7 +99,7 @@
         "background_color": "#ffffff",
         "col_order": "",
         "text_alignment": "left-aligned",
-        "image": "shopify://shop_images/kush-queen-delta-8-thc-gummies-bundle-exp.jpg"
+        "image": "shopify://shop_images/Gummies.png"
       }
     },
     "new_faq_bfrbfm": {
@@ -172,7 +172,7 @@
       "type": "rich-text",
       "settings": {
         "full_width": false,
-        "section_title": "Need Some Guidance on Weed Edible Gummies?",
+        "section_title": "Need Some Guidance on Gummy Edibles?",
         "text": "<p><em>Kush Queen, your trusted wellness partner since 2015, serving over 95,000 customers with 5 star-rated weed gummies. Reach out to us at hello@kushqueen.shop. Your well-being is our priority.</em></p>",
         "text_size": "medium"
       }
