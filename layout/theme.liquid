@@ -407,7 +407,7 @@ window.TriplePixelData={TripleName:"kush-queen-shop.myshopify.com",ver:"2.12",pl
     {% include 'lazy-script' %}
 
      <script src="{{ 'abra.js' | asset_url }}" defer></script>
-
+    
   <!-- Monk Protect Code Start -->
     <script type="text/javascript" defer>      
 
@@ -451,11 +451,12 @@ window.TriplePixelData={TripleName:"kush-queen-shop.myshopify.com",ver:"2.12",pl
     <script type="text/javascript" defer>
       (function() {
           function initMonkProtectBanner() {
-            console.log('qqq initMonkProtectBanner v4')
+            console.log('qqq initMonkProtectBanner v5')
     
             document.addEventListener('click', function(e) {
               console.log('qqq click happened', e.target, e.target.id)
-              if (e.target.matches('#monkprotect-v2-info-button')) {
+              
+              if (e.target.closest('#monkprotect-v2-info-button')) {
                 console.log('qqq infoButton clicked')
                 e.preventDefault();
                 e.stopPropagation();
@@ -468,7 +469,7 @@ window.TriplePixelData={TripleName:"kush-queen-shop.myshopify.com",ver:"2.12",pl
                 }
               }
               
-              if (e.target.matches('#monkprotect-v2-close-button')) {
+              if (e.target.closest('#monkprotect-v2-close-button')) {
                 e.preventDefault();
                 e.stopPropagation();
                 const modal = document.getElementById('monkprotect-v2-modal');
@@ -477,7 +478,7 @@ window.TriplePixelData={TripleName:"kush-queen-shop.myshopify.com",ver:"2.12",pl
                 }
               }
               
-              if (e.target.matches('#monkprotect-v2-modal')) {
+              if (e.target.id === 'monkprotect-v2-modal') {
                 const modal = document.getElementById('monkprotect-v2-modal');
                 if (modal) {
                   modal.style.display = 'none';
