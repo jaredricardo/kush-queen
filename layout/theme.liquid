@@ -451,12 +451,12 @@ window.TriplePixelData={TripleName:"kush-queen-shop.myshopify.com",ver:"2.12",pl
     <script type="text/javascript" defer>
       (function() {
           function initMonkProtectBanner() {
-            console.log('qqq initMonkProtectBanner v6')
+            console.log('qqq initMonkProtectBanner v7')
     
             document.addEventListener('click', function(e) {
               console.log('qqq click happened', e.target, e.target.id, e.target.className)
               
-              if (e.target.className('monkprotect-v2-info-button')) {
+              if (e.target.className === 'monkprotect-v2-info-button') {
                 console.log('qqq infoButton clicked')
                 e.preventDefault();
                 e.stopPropagation();
@@ -469,7 +469,7 @@ window.TriplePixelData={TripleName:"kush-queen-shop.myshopify.com",ver:"2.12",pl
                 }
               }
               
-              if (e.target.className('monkprotect-v2-close-button')) {
+              if (e.target.className === 'monkprotect-v2-close-button') {
                 e.preventDefault();
                 e.stopPropagation();
                 const modal = document.getElementById('monkprotect-v2-modal');
