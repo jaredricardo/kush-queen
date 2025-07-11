@@ -394,7 +394,9 @@
             {% else %}
               <div style='display:flex;justify-content:center;align-items:center;width:100%;'>
             {% endunless %}
-              <div class="monk-protect-app"></div>
+
+            {% render 'monkprotect-v2' %}
+                
             </div>
                 <input type="submit" {% if has_subscriptions %}{% else %} name="checkout" onclick="checkoutCart(event);" {% endif %}
                   class="checkout_button cart__submit btn btn--small-wide" id="cart_checkout_btn"

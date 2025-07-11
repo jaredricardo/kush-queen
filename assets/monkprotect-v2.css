@@ -1,0 +1,63 @@
+@media screen and (min-width: 700px) {
+	.monkprotect-v2-modal__content-wrapper {
+		display: flex !important;
+		align-items: center !important;
+		justify-content: center !important;
+		pointer-events: none !important;
+		height: 100% !important;
+		width: 100% !important;
+	}
+
+	.monkprotect-v2-modal__content {
+		pointer-events: auto !important;
+		width: 640px !important;
+		text-align: left !important;
+		padding: 40px !important;
+	}
+	.monkprotect-v2-modal__shape {
+		transform: rotate(135deg) !important;
+		transform-origin: center center !important;
+	}
+	.monkprotect-v2-modal__heading {
+		font-size: 30px !important;
+		line-height: 36px !important;
+	}
+	.monkprotect-v2-modal__logo {
+		margin: 0 !important;
+	}
+	.monkprotect-v2-modal__info {
+		display: flex !important;
+		justify-content: space-between !important;
+	}
+	.monkprotect-v2-modal__footer {
+		margin-top: 0 !important;
+	}
+	.monkprotect-v2-modal__copy {
+		margin-top: 0 !important;
+	}
+	.monkprotect-v2-modal__footer-list-item {
+		margin-right: 20px !important;
+		padding-right: 20px !important;
+	}
+	.monkprotect-v2-modal__info-wrapper {
+		display: flex !important;
+		flex-direction: row !important;
+		justify-content: space-between !important;
+	}
+	.monkprotect-v2-modal__main-text {
+		max-width: 280px !important;
+		padding-top: 50px !important;
+		margin-top: 0 !important;
+	}
+	.monkprotect-v2-modal__image {
+		order: 2 !important;
+		flex-grow: 1 !important;
+		margin-bottom: 0 !important;
+		position: relative !important;
+		right: -38px !important;
+		top: -30px !important;
+	}
+}
+.monkprotect-v2-modal__footer ul a:hover {
+	text-decoration: underline !important;
+}
