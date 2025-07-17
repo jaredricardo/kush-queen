@@ -527,6 +527,7 @@
     font-weight: bold;
     margin: 0 auto;
     font-size: 14px;
+    text-align:center;
 }
 .prop-65-warning a {
     text-decoration: underline;

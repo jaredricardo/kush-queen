@@ -104,7 +104,7 @@
     "custom_liquid_DnzMQD": {
       "type": "custom-liquid",
       "disabled": true,
-      "name": "Custom Liquid Section",
+      "name": "prop 65 ",
       "settings": {
         "liquid_content": "<div class=\"prop-65-warning\">\n    <h4><b>WARNING:</b> This product can expose you to chemicals including Δ9-THC and/or Myrcene, which are known to the State of California to cause cancer and reproductive harm. For more information, visit <a href=\"https://www.P65Warnings.ca.gov\" taget=\"_blank\">https://www.P65Warnings.ca.gov</a></h4>\n  </div>\n\n<style>\n  .shopify-section:has(.prop-65-warning) {\n    background-color: #f3f2ea;\n  }\n\n  .prop-65-warning {\n    background-color: #f3f2ea;\n    color: black;\n    padding: 0% 0 10vh 0;\n    max-width: 500px;\n    width: 100%;\n    margin: 0 auto;\n    text-align: center;\n  }\n\n  .prop-65-warning h5 {\n    text-align: center;\n    font-weight: 700;\n  }\n\n  .prop-65-warning a {\n    text-decoration: underline;\n   }\n</style>"
       }
