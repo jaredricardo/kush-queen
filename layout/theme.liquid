@@ -143,7 +143,7 @@ window.TriplePixelData={TripleName:"kush-queen-shop.myshopify.com",ver:"2.12",pl
     <link rel="stylesheet" href="{{ 'pratibha.css' | asset_url }}">
     <link rel="stylesheet" href="{{ 'partner.css' | asset_url }}">
     <link rel="stylesheet" href="{{ 'blog.css' | asset_url }}">
-    
+    <link rel="stylesheet" href="{{ 'monkprotect-v2.css' | asset_url }}">
 
     {%  if template == "new-pdp" %}
     <link rel="stylesheet" data-href="{{ 'new-pdp.css' | asset_url }}">
@@ -419,14 +419,13 @@ window.TriplePixelData={TripleName:"kush-queen-shop.myshopify.com",ver:"2.12",pl
           const options = {
             attributes: true
           }
-
         function callback(mutationList, observer) {
           mutationList.forEach(function(mutation) {
             if (mutation.type === 'attributes' && mutation.attributeName === 'class') {
-              if(document.querySelectorAll('.monk-protect-app').length < 1){
+              if(document.querySelectorAll('.monkprotect-v2').length < 1){
                 (Array.from(
                   document.querySelectorAll('.hs-content-additional')
-                  ).pop()).insertAdjacentHTML("afterend", `<div class="monk-protect-app"></div>`); 
+                  ).pop()).insertAdjacentHTML("afterend", `{% render 'monkprotect-v2' %}`);
               }
             }
           })
@@ -444,11 +443,12 @@ window.TriplePixelData={TripleName:"kush-queen-shop.myshopify.com",ver:"2.12",pl
      
      (function() {
        insertMonkProtect();  
-      })(); 
-     
-
+      })();
 
     </script>
+
+    <script src="{{ 'monkprotect-v2.js' | asset_url }}" defer></script>
+    
     <!-- Monk Protect Code End -->
 
     <!-- render Abra Script  -->
