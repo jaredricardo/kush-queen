@@ -375,9 +375,9 @@
           "simple_link_iUkaie"
         ],
         "settings": {
-          "announcement_text": "Happy 710! 🍯 Shop New Rosin Drop",
-          "announcement_cta_url": "https://kushqueen.shop/products/rosin-dabpipe",
-          "announcement_cta_text": "Here",
+          "announcement_text": "Subscribe & Save 🚀 40% OFF Site wide",
+          "announcement_cta_url": "",
+          "announcement_cta_text": "",
           "head_site_link": "",
           "head_site_link_txt": "Kush Queen",
           "head_site_king_link": "",
@@ -2456,8 +2456,9 @@
       },
       "d76d763c-6c70-4fea-b4ad-4348f38cb70e": {
         "type": "sitewide-sale-announcement",
+        "disabled": true,
         "settings": {
-          "text": "710 Sale! Shop 30% Off <a href=\"https://kushqueen.shop/collections/710-day\">Selects</a>!"
+          "text": "Shop 40% Off <a href=\"https://kushqueen.shop/collections/710-day\"></a>"
         }
       },
       "collection-grid-stack": {
