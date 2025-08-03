@@ -2456,9 +2456,8 @@
       },
       "d76d763c-6c70-4fea-b4ad-4348f38cb70e": {
         "type": "sitewide-sale-announcement",
-        "disabled": true,
         "settings": {
-          "text": "Shop 40% Off <a href=\"https://kushqueen.shop/collections/710-day\"></a>"
+          "text": "Spend $100, Get 40% Off ✨<br>Spend $75, Get 30% Off 🚀<br> Spend $50, Get 20% Off 💚"
         }
       },
       "collection-grid-stack": {
