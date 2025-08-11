@@ -14,8 +14,7 @@
       {%- assign metafield_value = collection.metafields[ns][key].value -%}
       {%- assign custom_desc = section.settings.custom_description -%}
       {%- assign fallback_enabled = section.settings.show_collection_description -%}
-
-      {% if metafield_value != blank %}
+      {% if metafield_value != blank %}stack_collection-headi
         <div class="stack_collection-description stack_align-{{ section.settings.heading_align }}">
           {{ metafield_value }}
         </div>
@@ -149,7 +148,7 @@
                     {%- endif -%}
                   </div>
                 {% else %}
-                  <div class="stack_card-price">
+                  <div class="stack_card-price else">
                     <span>
                       {{ product.price | money_without_trailing_zeros }}
                     </span>
