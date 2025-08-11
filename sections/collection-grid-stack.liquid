@@ -38,7 +38,7 @@
             {% assign second_image = product.images[1] %}
 
             <div class="stack_card-image-wrapper stack_ratio-{{ section.settings.card_image_ratio }}">
-              <a href="{{ product.url }}">
+              <a href="{{ product.url }}?variant={{ product.selected_or_first_available_variant.id }}">
                 {% if first_image %}
                   <img
                     class="stack_card-image stack_card-image--primary"
