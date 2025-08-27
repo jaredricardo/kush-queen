@@ -2786,6 +2786,17 @@
           "mobile_image": "shopify://shop_images/Group_267.png",
           "banner_height": "auto"
         }
+      },
+      "home-top": {
+        "type": "home-top",
+        "settings": {
+          "desktop_image": "shopify://shop_images/Mask_group_f3d40723-50df-4c0e-b704-8be226d57936.png",
+          "show_ratings": true,
+          "ratings_count": "3,700",
+          "main_header": "30% Off Kush Queen Best-Selling Gummies",
+          "call_to_action_text": "",
+          "call_to_action_url": ""
+        }
       }
     },
     "content_for_index": [
