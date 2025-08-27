@@ -14,7 +14,7 @@
       {%- assign metafield_value = collection.metafields[ns][key].value -%}
       {%- assign custom_desc = section.settings.custom_description -%}
       {%- assign fallback_enabled = section.settings.show_collection_description -%}
-      {% if metafield_value != blank %}stack_collection-headi
+      {% if metafield_value != blank %}
         <div class="stack_collection-description stack_align-{{ section.settings.heading_align }}">
           {{ metafield_value }}
         </div>
