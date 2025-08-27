@@ -2782,8 +2782,6 @@
       "banner-stack-bottom": {
         "type": "banner-stack-bottom",
         "settings": {
-          "desktop_image": "shopify://shop_images/Group_266.png",
-          "mobile_image": "shopify://shop_images/Group_267.png",
           "banner_height": "auto"
         }
       },
