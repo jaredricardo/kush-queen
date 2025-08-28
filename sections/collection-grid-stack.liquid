@@ -14,7 +14,7 @@
       {%- assign metafield_value = collection.metafields[ns][key].value -%}
       {%- assign custom_desc = section.settings.custom_description -%}
       {%- assign fallback_enabled = section.settings.show_collection_description -%}
-      {% if metafield_value != blank %}
+      {% if metafield_value != blank %}stack_collection-headi
         <div class="stack_collection-description stack_align-{{ section.settings.heading_align }}">
           {{ metafield_value }}
         </div>
@@ -116,7 +116,7 @@
               {%- endif -%}
 
               {% if section.settings.show_title %}
-                <a href="{{ product.url }}" class="stack_card-title">{{ product.title }}</div>
+                <div class="stack_card-title">{{ product.title }}</div>
               {% endif %}
 
               {% assign pd_ns = section.settings.product_description_metafield_namespace %}
@@ -258,7 +258,7 @@
     transition: all 0.3s ease;
   }
   .stack_card-info {
-  padding: 5px 0 18px 0;
+  padding: 5px 12px 18px 12px;
   }
 
   .stack_hover-none:hover { transform: none; }
@@ -318,7 +318,6 @@
     -webkit-line-clamp: 1;
     -webkit-box-orient: vertical;
     overflow: hidden;
-    text-decoration: none !important;
   }
 
   .stack_card-price {
@@ -449,7 +448,6 @@
     .stack_collection-card {
       background-color: {{ section.settings.card_background_color }};
       color: {{ section.settings.text_color }};
-      padding: 8px;
       border: {{ section.settings.card_border_width }}px solid {{ section.settings.card_border_color }};
     }
 
@@ -503,7 +501,7 @@
       gap: 5px;
     }
     .stack_card-info {
-        padding: 0px 0 13px 0;
+        padding: 0px 8px 13px 8px;
     }
   }
 </style>
