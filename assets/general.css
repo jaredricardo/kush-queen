@@ -1023,8 +1023,12 @@ section.queen-promise-wrapper.new.gummies-offer {
   padding-top: 0;
   margin-top: 0;
   & .queen-main-wrap.new{
-    padding-bottom: 24px !important;
+    padding-bottom: 0px !important;
     padding-top: 24px !important;
+    
+    @media (min-width: 768px){
+      padding-inline: 2rem;
+    }
   } 
 }
 
