@@ -258,7 +258,7 @@
     transition: all 0.3s ease;
   }
   .stack_card-info {
-  padding: 5px 12px 18px 12px;
+  padding: 5px 0 18px 0;
   }
 
   .stack_hover-none:hover { transform: none; }
@@ -449,6 +449,7 @@
     .stack_collection-card {
       background-color: {{ section.settings.card_background_color }};
       color: {{ section.settings.text_color }};
+      padding: 8px;
       border: {{ section.settings.card_border_width }}px solid {{ section.settings.card_border_color }};
     }
 
@@ -502,7 +503,7 @@
       gap: 5px;
     }
     .stack_card-info {
-        padding: 0px 8px 13px 8px;
+        padding: 0px 0 13px 0;
     }
   }
 </style>
