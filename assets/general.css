@@ -1024,6 +1024,7 @@ section.queen-promise-wrapper.new.gummies-offer {
   margin-top: 0;
   & .queen-main-wrap.new{
     padding-bottom: 24px !important;
+    padding-top: 24px !important;
   } 
 }
 
