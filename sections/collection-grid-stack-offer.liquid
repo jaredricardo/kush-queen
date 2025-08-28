@@ -209,6 +209,11 @@
       margin: 0 auto;
       padding-left: 2rem;
     padding-right: 2rem;
+
+    @media (max-width: 767px){
+      padding-top: {{ section.settings.padding_top | times: 0.55 }}px;
+      padding-bottom: {{ section.settings.padding_bottom | times: 0.65 }}px;
+    }
   }
   .stack_collection-heading {
     margin-bottom: 20px;
