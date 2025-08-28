@@ -160,7 +160,7 @@
   }
   .row.main-description{
     max-width: clamp(370px, 33vw, 560px);
-    padding: 0;
+    padding: 10px 0 0;
     margin: 0;
     text-wrap: balance;
   }
@@ -198,7 +198,7 @@
       .image-text-btn-section{
         flex-direction: column-reverse;
       }
-      ..home-top .txt-container{
+      .home-top .txt-container{
       padding-bottom: 20px
     }
     }
@@ -223,7 +223,6 @@
 
 <div class="home-top">
   <div class="image-text-btn-section">
-    
     <div class="txt-container">
       {% if section.settings.show_ratings %}
         <div class="row top-headline">
@@ -255,7 +254,7 @@
           {% endfor %}
         </ul>
       </div>
-      
+
       {% if section.settings.call_to_action_text != blank %}
         <div class="row main-cta">
           <a class="cta-btn" href="{{ section.settings.call_to_action_url }}">
@@ -263,9 +262,11 @@
           </a>
         </div>
       {% endif %}
-      {% comment %} <div class="row">
-        <img class="home-as-seen-on" src="{{ 'home-as-seen.png' | file_url }}" alt="As seen on">
-      </div> {% endcomment %}
+      {% comment %}
+        <div class="row">
+          <img class="home-as-seen-on" src="{{ 'home-as-seen.png' | file_url }}" alt="As seen on">
+        </div>
+      {% endcomment %}
     </div>
     <div class="img-container img-container-d">
       {{
