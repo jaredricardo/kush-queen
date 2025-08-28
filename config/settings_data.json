@@ -2949,13 +2949,13 @@
           "product_description_metafield_key": "short_description",
           "sale_badge_metafield_key": "custom.sale_badge",
           "background_color": "#ffffff",
-          "card_background_color": "#ffffff",
+          "card_background_color": "#f3f2ea",
           "image_background_color": "#f9f9f9",
           "text_color": "#1c1c1c",
           "star_color": "#f5b400",
           "button_background_color": "#000000",
           "button_text_color": "#ffffff",
-          "card_border_color": "#e0e0e0",
+          "card_border_color": "#000000",
           "text_under_cta": "Free Shipping on orders over $150!"
         }
       },
