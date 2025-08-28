@@ -2860,6 +2860,7 @@
         "settings": {
           "desktop_image": "shopify://shop_images/Mask_group_f3d40723-50df-4c0e-b704-8be226d57936.png",
           "mobile_image": "shopify://shop_images/Mask_group_f3d40723-50df-4c0e-b704-8be226d57936.png",
+          "switch_sides": false,
           "show_ratings": true,
           "ratings_count": "65,000 customers with 5 star-rated",
           "main_header": "30% Off Kush Queen Best-Selling Gummies",
@@ -2916,7 +2917,7 @@
       "collection-grid-stack-offer": {
         "type": "collection-grid-stack-offer",
         "settings": {
-          "collection": "30-off",
+          "collection": "weed-gummies",
           "heading": "",
           "heading_align": "center",
           "heading_font_size_desktop": 32,
