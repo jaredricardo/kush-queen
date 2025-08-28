@@ -1021,6 +1021,10 @@ section.queen-promise-wrapper.new:not(.gummies-offer) {
 }
 section.queen-promise-wrapper.new.gummies-offer {
   padding-top: 0;
+  margin-top: 0;
+  & .queen-main-wrap.new{
+    padding-bottom: 24px !important;
+  } 
 }
 
 
