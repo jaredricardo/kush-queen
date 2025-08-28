@@ -1010,7 +1010,7 @@ p.collection_grid_item_desc {
   Hand Made With Love section
 */
 
-section.queen-promise-wrapper.new {
+section.queen-promise-wrapper.new:not(.gummies-offer) {
   margin-top: 0;
   padding-top: 36px;
   border-top: 1px solid #7C6F4C;
