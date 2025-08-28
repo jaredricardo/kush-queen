@@ -173,6 +173,9 @@
                   {{ section.settings.button_label }}
                 </a>
               {% endif %}
+              {% if section.settings.text_under_cta != blank %}
+                <div class="under_cta_text">{{ section.settings.text_under_cta | escape }}</div>
+              {% endif %}
             </div>
           </div>
         {% endfor %}
@@ -508,7 +511,7 @@
 
 {% schema %}
 {
-  "name": "Collection Grid Offer",
+  "name": "Stack Collection Grid",
   "settings": [
     { "type": "collection", "id": "collection", "label": "Collection" },
 
@@ -648,7 +651,7 @@
   ],
   "presets": [
     {
-      "name": "Collection Grid Offer",
+      "name": "Stack Collection Grid",
       "category": "Stack Custom"
     }
   ]
