@@ -2916,7 +2916,7 @@
       "collection-grid-stack-offer": {
         "type": "collection-grid-stack-offer",
         "settings": {
-          "collection": "30-off",
+          "collection": "weed-gummies",
           "heading": "",
           "heading_align": "center",
           "heading_font_size_desktop": 32,
@@ -2954,7 +2954,8 @@
           "star_color": "#f5b400",
           "button_background_color": "#000000",
           "button_text_color": "#ffffff",
-          "card_border_color": "#e0e0e0"
+          "card_border_color": "#e0e0e0",
+          "text_under_cta": "Free Shipping on orders over $150!"
         }
       },
       "offer-reviews-stack": {
