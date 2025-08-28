@@ -2916,7 +2916,7 @@
       "collection-grid-stack-offer": {
         "type": "collection-grid-stack-offer",
         "settings": {
-          "collection": "weed-gummies",
+          "collection": "30-off",
           "heading": "",
           "heading_align": "center",
           "heading_font_size_desktop": 32,
@@ -2984,10 +2984,86 @@
       },
       "offer-faqs-stack": {
         "type": "offer-faqs-stack",
+        "blocks": {
+          "faq_RGUpKC": {
+            "type": "faq",
+            "settings": {
+              "question": "Is Delta 9 THC legal?",
+              "answer": "We accept returns within 30 days of purchase with proof of receipt."
+            }
+          },
+          "faq_UEdrVT": {
+            "type": "faq",
+            "settings": {
+              "question": "What is the difference between Delta 8 and Delta 9?",
+              "answer": "We accept returns within 30 days of purchase with proof of receipt."
+            }
+          },
+          "faq_FACbKY": {
+            "type": "faq",
+            "settings": {
+              "question": "How much Delta 9 THC should I take?",
+              "answer": "We accept returns within 30 days of purchase with proof of receipt."
+            }
+          },
+          "faq_VK6YMJ": {
+            "type": "faq",
+            "settings": {
+              "question": "How will Delta 9 THC make me feel?",
+              "answer": "We accept returns within 30 days of purchase with proof of receipt."
+            }
+          },
+          "faq_Y7LfGp": {
+            "type": "faq",
+            "settings": {
+              "question": "How long do edibles last?",
+              "answer": "We accept returns within 30 days of purchase with proof of receipt."
+            }
+          },
+          "faq_dmEbNP": {
+            "type": "faq",
+            "settings": {
+              "question": "How long does an edible stay in your system?",
+              "answer": "We accept returns within 30 days of purchase with proof of receipt."
+            }
+          },
+          "faq_i3DYiB": {
+            "type": "faq",
+            "settings": {
+              "question": "Does Delta 9 show up on a drug test?",
+              "answer": "We accept returns within 30 days of purchase with proof of receipt."
+            }
+          },
+          "faq_TEk9pH": {
+            "type": "faq",
+            "settings": {
+              "question": "Disclaimer",
+              "answer": "We accept returns within 30 days of purchase with proof of receipt."
+            }
+          },
+          "faq_EXf4Uy": {
+            "type": "faq",
+            "settings": {
+              "question": "Product Warning",
+              "answer": "We accept returns within 30 days of purchase with proof of receipt."
+            }
+          }
+        },
+        "block_order": [
+          "faq_RGUpKC",
+          "faq_UEdrVT",
+          "faq_FACbKY",
+          "faq_VK6YMJ",
+          "faq_Y7LfGp",
+          "faq_dmEbNP",
+          "faq_i3DYiB",
+          "faq_TEk9pH",
+          "faq_EXf4Uy"
+        ],
         "settings": {
           "max_width": "default",
           "heading": "Frequently Asked Questions",
-          "subheading": "Got questions? We've got answers.",
+          "subheading": "",
           "icon_style": "chevron",
           "heading_font_size_desktop": 36,
           "heading_font_size_mobile": 24,
