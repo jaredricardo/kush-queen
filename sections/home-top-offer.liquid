@@ -1,0 +1,331 @@
+<style>
+  .home-top .icon-img img {
+      -webkit-filter: invert(75%); /* Safari/Chrome */
+      filter: invert(75%);
+  }
+
+  .home-top .image-text-btn-section {
+      display: flex;
+  }
+
+  .home-top .img-container img {
+      /* height: 100%;
+      object-fit: cover; */
+  }
+
+  .img-container-d {
+      display: flex;
+  }
+
+  .img-container-m{
+      display: none;
+  }
+
+    .home-top .img-container-m img {
+      width: 100%;
+  }
+
+  .home-top .img-container,
+  .home-top .txt-container {
+      flex: 1;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      text-align: center;
+  }
+
+    .home-top .txt-container {
+   display:flex;
+    }
+
+  .txt-container h1 {
+      color: #475D43;
+      max-width: 75%;
+      line-height: 1;
+      margin: 0;
+  }
+
+  .txt-container a {
+      background-color: #475D43;
+      color: white;
+      border-radius: 30px;
+      padding: 10px 20px;
+      width: 75%;
+      font-size: 20px;
+      font-weight: bold;
+  }
+
+
+  @media (max-width: 870px) {
+      .image-text-btn-section {
+          flex-direction: column;
+      }
+      .img-container-m {
+          display: flex;
+      }
+      .img-container-d {
+          display: none;
+      }
+  }
+
+  .home-top .txt-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 10px 0px 40px;
+  }
+
+    @media (min-width:871px){
+      .home-top .txt-container {
+          padding: 0px;
+      }
+    }
+
+  .home-top .row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-bottom: 6px;
+  }
+
+  .home-top .col {
+    display: flex;
+    align-items: center;
+  }
+
+  .home-top .col img {
+      height: 15px;
+      margin-right: 5px;
+  }
+
+    p.reviews-count {
+      text-decoration: underline;
+      font-weight: bold;
+  }
+  h1.main-headline {
+      text-transform: uppercase;
+      font-weight: 900;
+      color: #000;
+      letter-spacing: 1.1px;
+      font-size: 29px;
+      margin-bottom: 0px;
+    max-width:320px;
+  }
+
+  .home-top ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      text-align: left;
+  }
+
+  .home-top ul li {
+      margin-bottom: 7px;
+      padding-left: 21px;
+      background-image: url(https://cdn.shopify.com/s/files/1/0124/3594/7616/files/kq-check.png?v=1683261376);
+      background-repeat: no-repeat;
+      background-size: 17px;
+      font-size: 14px;
+      line-height: 17px;
+  }
+
+    .home-top .row.list-contain {
+      column-gap: 10px;
+  }
+  .home-top .row.main-cta {
+      width: 85%;
+      max-width: 400px;
+      margin: 5px auto 10px;
+  }
+  .home-top .cta-btn {
+      padding: 15px;
+      text-align: center;
+      background-color: #000000;
+      color: #fff;
+      text-transform: uppercase;
+      font-weight: bold;
+      border: none;
+      border-radius: 0px;
+      cursor: pointer;
+      text-decoration: none;
+      width: 100%;
+      display: block;
+      letter-spacing: 1px;
+  }
+  .home-top .home-as-seen-on {
+      max-width: 80%;
+      width: 390px;
+      margin: 10px auto 0px;
+  }
+
+    @media(min-width:1200px){
+
+
+        .home-top .row {
+            margin-bottom: 10px;
+        }
+      h1.main-headline {
+      font-size: 40px;
+      max-width: 500px;
+  }
+
+      .home-top ul li {
+          margin-bottom: 8px;
+          padding-left: 23px;
+          background-size: 18px;
+          font-size: 16px;
+          line-height: 19px;
+      }
+      .home-top .row.list-contain {
+      column-gap: 15px;
+  }
+    }
+
+    @media(min-width:1400px){
+      h1.main-headline {
+      font-size: 50px;
+      max-width: 560px;
+  }
+    }
+</style>
+
+{% liquid
+  assign widths = ' 370, 660, 900, 1800, 2400'
+  assign fetch_priority = 'auto'
+
+  if section.index == 1
+    assign fetch_priority = 'high'
+  endif
+-%}
+
+<div class="home-top">
+  <div class="image-text-btn-section">
+    <div class="img-container img-container-d">
+      {{
+        section.settings.desktop_image
+        | image_url: width: 2400
+        | image_tag: widths: widths, height: 'auto', fetchpriority: fetch_priority
+      }}
+    </div>
+    <div class="img-container img-container-m">
+      {{
+        section.settings.mobile_image
+        | image_url: width: 900
+        | image_tag: height: 'auto', fetchpriority: fetch_priority
+      }}
+    </div>
+    <div class="txt-container">
+      {% if section.settings.show_ratings %}
+        <div class="row top-headline">
+          <div class="col read-reviews-header">
+            <img src="{{ 'review-stars.png' | file_url }}" alt="5 stars">
+            <p class="reviews-count">{{ section.settings.ratings_count }}+ Five-Star Reviews</p>
+          </div>
+        </div>
+      {% endif %}
+      <div class="row">
+        <h1 class="main-headline">{{ section.settings.main_header }}</h1>
+      </div>
+      <div class="row list-contain">
+        <ul>
+          {% for block in section.blocks %}
+            {% if forloop.index0 < 2 %}
+              <li>{{ block.settings.value_prop }}</li>
+            {% elsif forloop.index0 == 2 %}
+              </ul>
+              <ul>
+                <li>{{ block.settings.value_prop }}</li>
+            {% else %}
+              <li>{{ block.settings.value_prop }}</li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+
+      <div class="row main-cta">
+        <a class="cta-btn" href="{{ section.settings.call_to_action_url }}">
+          {{- section.settings.call_to_action_text -}}
+        </a>
+      </div>
+      <div class="row">
+        <img class="home-as-seen-on" src="{{ 'home-as-seen.png' | file_url }}" alt="As seen on">
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const readReviewsHeader = document.querySelector('.read-reviews-header');
+    const reviewsCounterText = document.querySelector('.home-reviews');
+
+    readReviewsHeader.addEventListener('click', () => {
+      window.scrollTo({
+        top: reviewsCounterText.offsetTop - 40,
+        behavior: 'instant',
+      });
+    });
+  });
+</script>
+
+{% schema %}
+{
+  "name": "TGC - Home Top",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "desktop_image",
+      "label": "Desktop Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "mobile_image",
+      "label": "Mobile Image"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_ratings",
+      "label": "Show Ratings",
+      "default": true
+    },
+    {
+      "type": "text",
+      "id": "ratings_count",
+      "label": "Ratings Count",
+      "default": "3,700"
+    },
+    {
+      "type": "text",
+      "id": "main_header",
+      "label": "Main Header",
+      "default": "Cannabinoids For All-Day Wellness"
+    },
+    {
+      "type": "text",
+      "id": "call_to_action_text",
+      "label": "Call to Action Text",
+      "default": "SHOP NOW"
+    },
+    {
+      "type": "url",
+      "id": "call_to_action_url",
+      "label": "Call to Action URL"
+    }
+  ],
+  "max_blocks": 4,
+  "blocks": [
+    {
+      "name": "Value Props",
+      "type": "block",
+      "settings": [
+        {
+          "type": "text",
+          "id": "value_prop",
+          "label": "Value Prop"
+        }
+      ]
+    }
+  ],
+  "presets": [{ "name": "TGC - Home Top" }]
+}
+{% endschema %}
