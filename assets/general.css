@@ -1019,6 +1019,9 @@ section.queen-promise-wrapper.new:not(.gummies-offer) {
   display: flex;
   padding-top: 50px;
 }
+section.queen-promise-wrapper.new.gummies-offer {
+  padding-top: 0;
+}
 
 
 .queen-promise-service-wrap.new {
