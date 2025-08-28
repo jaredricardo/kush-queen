@@ -2854,6 +2854,133 @@
           "queen_pro_desc": "In 2015 Kush Queen was born to create intelligently designed cannabis products. We are the source for cannabis wellness tools, where your favorite plant and great products intersect- the fun & functional.",
           "queen_pro_icon": "shopify://shop_images/KQ_MIND_BODY_VERTICAL.png"
         }
+      },
+      "home-top-offer": {
+        "type": "home-top-offer",
+        "settings": {
+          "desktop_image": "shopify://shop_images/Mask_group_f3d40723-50df-4c0e-b704-8be226d57936.png",
+          "show_ratings": true,
+          "ratings_count": "65,000 customers with 5 star-rated",
+          "main_header": "30% Off Kush Queen Best-Selling Gummies",
+          "main_description": "<p>Enjoy 30% off Kush Queen's best-selling weed gummies. Vegan, lab-tested, and crafted to elevate your vibe—grab them now while the deal lasts!</p>",
+          "call_to_action_text": "",
+          "call_to_action_url": ""
+        }
+      },
+      "offer-brand-logos-stack": {
+        "type": "offer-brand-logos-stack",
+        "settings": {
+          "heading": "FEATURED IN"
+        }
+      },
+      "collection-grid-stack-offer": {
+        "type": "collection-grid-stack-offer",
+        "settings": {
+          "collection": "",
+          "heading": "Featured Collection",
+          "heading_align": "center",
+          "heading_font_size_desktop": 32,
+          "heading_font_size_mobile": 20,
+          "description_metafield_namespace": "",
+          "description_metafield_key": "",
+          "custom_description": "",
+          "show_collection_description": false,
+          "desc_font_size_desktop": 16,
+          "desc_font_size_mobile": 14,
+          "padding_top": 40,
+          "padding_bottom": 40,
+          "max_width": 1200,
+          "columns_desktop": 4,
+          "columns_mobile": 2,
+          "card_image_ratio": "1-1",
+          "show_title": true,
+          "show_price": true,
+          "show_reviews": true,
+          "show_button": true,
+          "button_label": "Shop Now",
+          "price_font_size_desktop": 16,
+          "price_font_size_mobile": 14,
+          "card_radius": 4,
+          "card_hover_effect": "none",
+          "enable_hover_image": true,
+          "card_border_width": 1,
+          "product_description_metafield_namespace": "",
+          "product_description_metafield_key": "",
+          "sale_badge_metafield_key": "product_sale_badge",
+          "background_color": "#ffffff",
+          "card_background_color": "#ffffff",
+          "image_background_color": "#f9f9f9",
+          "text_color": "#1c1c1c",
+          "star_color": "#f5b400",
+          "button_background_color": "#000000",
+          "button_text_color": "#ffffff",
+          "card_border_color": "#e0e0e0"
+        }
+      },
+      "offer-reviews-stack": {
+        "type": "offer-reviews-stack",
+        "settings": {
+          "heading_text": "Customer Reviews",
+          "summary_text": "4.9/5 (2,034 Reviews)",
+          "heading_size": 28,
+          "heading_size_mobile": 20,
+          "summary_size": 16,
+          "summary_size_mobile": 14,
+          "star_size": 20,
+          "star_size_mobile": 16,
+          "review_heading_size": 16,
+          "review_heading_size_mobile": 14,
+          "review_content_size": 14,
+          "review_content_size_mobile": 13,
+          "bg_color": "#ffffff",
+          "heading_color": "#111111",
+          "summary_color": "#111111",
+          "star_color": "#facc15",
+          "divider_color": "#000000",
+          "review_text_color": "#111111",
+          "heading_alignment": "center"
+        }
+      },
+      "offer-faqs-stack": {
+        "type": "offer-faqs-stack",
+        "settings": {
+          "max_width": "default",
+          "heading": "Frequently Asked Questions",
+          "subheading": "Got questions? We've got answers.",
+          "icon_style": "chevron",
+          "heading_font_size_desktop": 36,
+          "heading_font_size_mobile": 24,
+          "heading_alignment": "center",
+          "faq_question_size_desktop": 20,
+          "faq_question_size_mobile": 16,
+          "faq_answer_size": 16,
+          "background_color": "#ffffff",
+          "heading_color": "#111111",
+          "text_color": "#333333",
+          "icon_color": "#000000"
+        }
+      },
+      "offer-banner-stack-bottom": {
+        "type": "offer-banner-stack-bottom",
+        "settings": {
+          "banner_height": "auto"
+        }
+      },
+      "offer-home-promise": {
+        "type": "offer-home-promise",
+        "settings": {
+          "queen_pro_title": "",
+          "queen_pro_subtitle": "",
+          "queen_pro_desc": ""
+        }
+      },
+      "offer-message-with-image": {
+        "type": "offer-message-with-image",
+        "settings": {
+          "subheading": "",
+          "heading": "",
+          "description": ""
+        }
       }
     },
     "content_for_index": [
