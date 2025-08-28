@@ -2916,8 +2916,8 @@
       "collection-grid-stack-offer": {
         "type": "collection-grid-stack-offer",
         "settings": {
-          "collection": "",
-          "heading": "Featured Collection",
+          "collection": "30-off",
+          "heading": "",
           "heading_align": "center",
           "heading_font_size_desktop": 32,
           "heading_font_size_mobile": 20,
