@@ -159,7 +159,10 @@
       margin: 10px auto 0px;
   }
   .row.main-description{
-    max-width: 320px;
+    max-width: clamp(320px, 33vw, 560px);
+    padding: 0;
+    margin: 0;
+    text-wrap: balance;
   }
 
     @media(min-width:1200px){
