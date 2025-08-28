@@ -200,20 +200,7 @@
 
 <div class="home-top">
   <div class="image-text-btn-section">
-    <div class="img-container img-container-d">
-      {{
-        section.settings.desktop_image
-        | image_url: width: 2400
-        | image_tag: widths: widths, height: 'auto', fetchpriority: fetch_priority
-      }}
-    </div>
-    <div class="img-container img-container-m">
-      {{
-        section.settings.mobile_image
-        | image_url: width: 900
-        | image_tag: height: 'auto', fetchpriority: fetch_priority
-      }}
-    </div>
+    
     <div class="txt-container">
       {% if section.settings.show_ratings %}
         <div class="row top-headline">
@@ -241,15 +228,31 @@
           {% endfor %}
         </ul>
       </div>
-
-      <div class="row main-cta">
-        <a class="cta-btn" href="{{ section.settings.call_to_action_url }}">
-          {{- section.settings.call_to_action_text -}}
-        </a>
-      </div>
+      
+      {% if section.settings.call_to_action_text != blank %}
+        <div class="row main-cta">
+          <a class="cta-btn" href="{{ section.settings.call_to_action_url }}">
+            {{- section.settings.call_to_action_text -}}
+          </a>
+        </div>
+      {% endif %}
       <div class="row">
         <img class="home-as-seen-on" src="{{ 'home-as-seen.png' | file_url }}" alt="As seen on">
       </div>
+    </div>
+    <div class="img-container img-container-d">
+      {{
+        section.settings.desktop_image
+        | image_url: width: 2400
+        | image_tag: widths: widths, height: 'auto', fetchpriority: fetch_priority
+      }}
+    </div>
+    <div class="img-container img-container-m">
+      {{
+        section.settings.mobile_image
+        | image_url: width: 900
+        | image_tag: height: 'auto', fetchpriority: fetch_priority
+      }}
     </div>
   </div>
 </div>
