@@ -2869,6 +2869,45 @@
       },
       "offer-brand-logos-stack": {
         "type": "offer-brand-logos-stack",
+        "blocks": {
+          "logo_ibiMBd": {
+            "type": "logo",
+            "settings": {
+              "logo": "shopify://shop_images/Press-Logos-13-1-300x300_1_1_ded9fd3c-368a-4cd8-ae98-aa246eeffc2f.png"
+            }
+          },
+          "logo_GhGx4X": {
+            "type": "logo",
+            "settings": {
+              "logo": "shopify://shop_images/Press-Logos-10-1-300x300_1_553cc908-5fb0-4348-b1d1-ec4273cf2992_1.png"
+            }
+          },
+          "logo_HCz9HM": {
+            "type": "logo",
+            "settings": {
+              "logo": "shopify://shop_images/Press-Logos-08-1-300x300_1_1_395e3dfa-f113-44de-9c83-7d25cf6418fa.png"
+            }
+          },
+          "logo_AtDGbH": {
+            "type": "logo",
+            "settings": {
+              "logo": "shopify://shop_images/download_1_1_ffb2334d-9051-4e71-9539-6ff6cc866006.png"
+            }
+          },
+          "logo_y7cPYi": {
+            "type": "logo",
+            "settings": {
+              "logo": "shopify://shop_images/191-1918173_los-angeles-times-lo_1.png"
+            }
+          }
+        },
+        "block_order": [
+          "logo_ibiMBd",
+          "logo_GhGx4X",
+          "logo_HCz9HM",
+          "logo_AtDGbH",
+          "logo_y7cPYi"
+        ],
         "settings": {
           "heading": "FEATURED IN"
         }
