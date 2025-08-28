@@ -192,6 +192,14 @@
         flex-direction: column-reverse;
       }
     }
+
+    {% if section.settings.switch_sides %}
+      @meida (min-width: 768px){
+        .image-text-btn-section{
+          flex-direction: row-reverse;
+        }
+      }
+    {% endif %}
 </style>
 
 {% liquid
