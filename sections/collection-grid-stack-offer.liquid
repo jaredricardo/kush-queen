@@ -116,7 +116,7 @@
               {%- endif -%}
 
               {% if section.settings.show_title %}
-                <div class="stack_card-title">{{ product.title }}</div>
+                <a href="{{ product.url }}" class="stack_card-title">{{ product.title }}</a>
               {% endif %}
 
               {% assign pd_ns = section.settings.product_description_metafield_namespace %}
