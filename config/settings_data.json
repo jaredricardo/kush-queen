@@ -2947,7 +2947,7 @@
           "card_border_width": 1,
           "product_description_metafield_namespace": "custom",
           "product_description_metafield_key": "short_description",
-          "sale_badge_metafield_key": "sale_badge",
+          "sale_badge_metafield_key": "custom.sale_badge",
           "background_color": "#ffffff",
           "card_background_color": "#ffffff",
           "image_background_color": "#f9f9f9",
