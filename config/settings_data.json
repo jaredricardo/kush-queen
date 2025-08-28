@@ -2922,8 +2922,8 @@
           "heading_align": "center",
           "heading_font_size_desktop": 32,
           "heading_font_size_mobile": 20,
-          "description_metafield_namespace": "custom",
-          "description_metafield_key": "short_description",
+          "description_metafield_namespace": "",
+          "description_metafield_key": "",
           "custom_description": "",
           "show_collection_description": false,
           "desc_font_size_desktop": 16,
@@ -2945,17 +2945,17 @@
           "card_hover_effect": "none",
           "enable_hover_image": true,
           "card_border_width": 1,
-          "product_description_metafield_namespace": "custom",
-          "product_description_metafield_key": "short_description",
-          "sale_badge_metafield_key": "custom.sale_badge",
+          "product_description_metafield_namespace": "",
+          "product_description_metafield_key": "",
+          "sale_badge_metafield_key": "product_sale_badge",
           "background_color": "#ffffff",
-          "card_background_color": "#f3f2ea",
+          "card_background_color": "#ffffff",
           "image_background_color": "#f9f9f9",
           "text_color": "#1c1c1c",
           "star_color": "#f5b400",
           "button_background_color": "#000000",
           "button_text_color": "#ffffff",
-          "card_border_color": "#000000",
+          "card_border_color": "#e0e0e0",
           "text_under_cta": "Free Shipping on orders over $150!"
         }
       },
@@ -3086,18 +3086,61 @@
       },
       "offer-home-promise": {
         "type": "offer-home-promise",
+        "blocks": {
+          "promise_Vik6Lp": {
+            "type": "promise",
+            "settings": {
+              "queen_pro_sing_img": "shopify://shop_images/KQ_ICON_6.svg",
+              "queen_pro_sing_title": "Community First",
+              "queen_pro_sing_desc": "Kush Queen is rooted in our passion for cannabis and our commitment to help shape normalization and usage for everyone. All are welcome."
+            }
+          },
+          "promise_zn3ggN": {
+            "type": "promise",
+            "settings": {
+              "queen_pro_sing_img": "shopify://shop_images/KQ_ICON_7.svg",
+              "queen_pro_sing_title": "Advanced Formulas",
+              "queen_pro_sing_desc": "Our products are developed with 3 key values in mind. Science, technology, and delivery methods that make sense."
+            }
+          },
+          "promise_AzWDTU": {
+            "type": "promise",
+            "settings": {
+              "queen_pro_sing_img": "shopify://shop_images/KQ_ICON_1_9e5f09cd-fbcf-4569-8501-cd414664b9c5.svg",
+              "queen_pro_sing_title": "Quality Is Supreme",
+              "queen_pro_sing_desc": "We bend the knee to the plant. Only the highest-quality, lab tested cannabinoids are sourced for Kush Queen products. Made in the USA."
+            }
+          },
+          "promise_7ERUJd": {
+            "type": "promise",
+            "settings": {
+              "queen_pro_sing_img": "shopify://shop_images/atomic.svg",
+              "queen_pro_sing_title": "Effects You Feel",
+              "queen_pro_sing_desc": "All Kush Queen products feature advanced technology, and innovative hemp molecules that make you feel something real."
+            }
+          }
+        },
+        "block_order": [
+          "promise_Vik6Lp",
+          "promise_zn3ggN",
+          "promise_AzWDTU",
+          "promise_7ERUJd"
+        ],
         "settings": {
-          "queen_pro_title": "",
-          "queen_pro_subtitle": "",
-          "queen_pro_desc": ""
+          "queen_pro_title": "Bend",
+          "queen_pro_subtitle": "The Knee",
+          "queen_pro_desc": "In 2015 Kush Queen was born to create intelligently designed cannabis products. We are the source for cannabis wellness tools, where your favorite plant and great products intersect- the fun & functional.",
+          "queen_pro_icon": "shopify://shop_images/KQ_MIND_BODY_VERTICAL.png"
         }
       },
       "offer-message-with-image": {
         "type": "offer-message-with-image",
         "settings": {
-          "subheading": "",
-          "heading": "",
-          "description": ""
+          "main_image": "shopify://shop_images/hailley_howard_-2_3_1_1.png",
+          "icon": "shopify://shop_images/Vector.png",
+          "subheading": "kush queen",
+          "heading": "Elevating You Daily",
+          "description": "<p>Kush Queen delivers perfected wellness tools to elevate daily life.</p><p>Today, with over 55,000 customers we offer a range of daily solutions for wellness that address issues like sleep, stress, mood, relief, and pleasure.</p><p>When legacy status, a relentless commitment to the cannabis plant, and award winning products (that speak to everyone) come together, that’s Kush Queen.</p>"
         }
       }
     },
