@@ -2865,7 +2865,15 @@
           "main_header": "30% Off Kush Queen Best-Selling Gummies",
           "main_description": "<p>Enjoy 30% off Kush Queen's best-selling weed gummies. Vegan, lab-tested, and crafted to elevate your vibe—grab them now while the deal lasts!</p>",
           "call_to_action_text": "",
-          "call_to_action_url": ""
+          "call_to_action_url": "",
+          "doodle_image": "shopify://shop_images/freepik__square-sugar-coated-red-candy-on-transparent-backg__92324_1.png",
+          "doole_width": 200,
+          "desktop_x": 30,
+          "desktop_y": 0,
+          "desktop_visibility": "visible",
+          "mobile_x": 30,
+          "mobile_y": 80,
+          "mobile_visibility": "hidden"
         }
       },
       "offer-brand-logos-stack": {
