@@ -2872,8 +2872,8 @@
           "desktop_y": 0,
           "desktop_visibility": "visible",
           "mobile_x": 30,
-          "mobile_y": 80,
-          "mobile_visibility": "hidden"
+          "mobile_y": 50,
+          "mobile_visibility": "visible"
         }
       },
       "offer-brand-logos-stack": {
