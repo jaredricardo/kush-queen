@@ -291,13 +291,14 @@
         .home-top {
           position: relative;
         }
-        
+
         .image_doodle{
           position: absolute;
           left: {{ section.settings.desktop_x | append: '%'}};
           top: {{ section.settings.desktop_y | append: '%' }};
           max-width: {{ section.settings.doole_width | append: 'px' }};
           visibility: {{ section.settings.desktop_visibility }};
+          transform: translate(-50%);
 
           @media (max-width: 767px){
             top: {{ section.settings.mobile_y | append: '%' }};
