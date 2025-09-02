@@ -380,7 +380,109 @@
       "type": "url",
       "id": "call_to_action_url",
       "label": "Call to Action URL"
+    },
+     {
+      "type": "image_picker",
+      "id": "doodle_image",
+      "label": "Doodle Image",
+      "info": "Select an image to display as a positioned doodle element"
+    },
+    {
+      "type": "range",
+      "id": "doole_width",
+      "label": "Doodle Width",
+      "min": 50,
+      "max": 500,
+      "step": 10,
+      "unit": "px",
+      "default": 200,
+      "info": "Set the maximum width of the doodle image"
+    },
+    {
+      "type": "header",
+      "content": "Desktop Positioning"
+    },
+    {
+      "type": "range",
+      "id": "desktop_x",
+      "label": "Desktop X Position (%)",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "%",
+      "default": 0,
+      "info": "Horizontal position as percentage from left edge"
+    },
+    {
+      "type": "range",
+      "id": "desktop_y",
+      "label": "Desktop Y Position (%)",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "%",
+      "default": 0,
+      "info": "Vertical position as percentage from top edge"
+    },
+    {
+      "type": "select",
+      "id": "desktop_visibility",
+      "label": "Desktop Visibility",
+      "default": "visible",
+      "options": [
+        {
+          "value": "visible",
+          "label": "Visible"
+        },
+        {
+          "value": "hidden",
+          "label": "Hidden"
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "content": "Mobile Positioning"
+    },
+    {
+      "type": "range",
+      "id": "mobile_x",
+      "label": "Mobile X Position (%)",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "%",
+      "default": 0,
+      "info": "Horizontal position as percentage from left edge for mobile"
+    },
+    {
+      "type": "range",
+      "id": "mobile_y",
+      "label": "Mobile Y Position (%)",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "%",
+      "default": 0,
+      "info": "Vertical position as percentage from top edge for mobile"
+    },
+    {
+      "type": "select",
+      "id": "mobile_visibility",
+      "label": "Mobile Visibility",
+      "default": "visible",
+      "options": [
+        {
+          "value": "visible",
+          "label": "Visible"
+        },
+        {
+          "value": "hidden",
+          "label": "Hidden"
+        }
+      ]
     }
+  
   ],
   "max_blocks": 4,
   "blocks": [
