@@ -287,6 +287,11 @@
           {{ section.settings.doodle_image | image_url: width: section.settings.doole_width | image_tag: loading: 'lazy'  }}
         </div>
         {% style %}
+        
+        .home-top {
+          position: relative;
+        }
+        
         .image_doodle{
           position: absolute;
           left: {{ section.settings.desktop_x | append: '%'}};
