@@ -282,7 +282,34 @@
         | image_tag: height: 'auto', fetchpriority: fetch_priority
       }}
     </div>
-  </div>
+    {% if section.settings.doodle_image != blank %}
+        <div class="image_doodle">
+          {{ section.settings.doodle_image | image_url: width: section.settings.doole_width | image_tag: loading: 'lazy'  }}
+        </div>
+        {% style %}
+        .image_doodle{
+          position: absolute;
+          top: {{ section.settings.desktop_y | append: '%' }};
+          left: {{ section.settings.desktop_x | append: '%'}};
+          max-width: {{ section.settings.doole_width | append: 'px' }};
+          visibility: {{ section.settings.desktop_visibility }};
+
+          @media (max-width: 767px){
+            top: {{ section.settings.mobile_y | append: '%' }};
+            left: {{ section.settings.mobile_x | append: '%' }};
+            max-width: {{ section.settings.doole_width | times: 0.75 | append: 'px' }};
+            visibility: {{ section.settings.mobile_visibility }};
+          }
+
+          & img{
+            width: 100%;
+            object-fit: cover;
+            object-position: center;
+          }
+        }
+        {% endstyle %}
+    {% endif %}
+    </div>
 </div>
 
 <script>
