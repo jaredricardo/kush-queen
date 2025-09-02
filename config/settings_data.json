@@ -2868,12 +2868,12 @@
           "call_to_action_url": "",
           "doodle_image": "shopify://shop_images/freepik__square-sugar-coated-red-candy-on-transparent-backg__92324_1.png",
           "doole_width": 200,
-          "desktop_x": 30,
-          "desktop_y": 0,
+          "desktop_x": 43,
+          "desktop_y": 65,
           "desktop_visibility": "visible",
-          "mobile_x": 30,
-          "mobile_y": 50,
-          "mobile_visibility": "visible"
+          "mobile_x": 80,
+          "mobile_y": 30,
+          "mobile_visibility": "hidden"
         }
       },
       "offer-brand-logos-stack": {
