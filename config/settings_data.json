@@ -2997,63 +2997,56 @@
             "type": "faq",
             "settings": {
               "question": "Is Delta 9 THC legal?",
-              "answer": "We accept returns within 30 days of purchase with proof of receipt."
+              "answer": "Delta 9 THC has varying legal status and regulations by location. In some areas, it is legal for medical or recreational use, while in others, it remains prohibited. However, products using hemp-derived Delta 9 THC that contain less than 0.3% (from dry weight basis) can be sold in most places and online since the passing of the 2018 US Farm Bill."
             }
           },
           "faq_UEdrVT": {
             "type": "faq",
             "settings": {
               "question": "What is the difference between Delta 8 and Delta 9?",
-              "answer": "We accept returns within 30 days of purchase with proof of receipt."
+              "answer": "Delta-8 THC and Delta-9 THC are distinct compounds from the cannabis plant, each with unique characteristics across chemical structures, psychoactive effects, and plant source. \n\nDelta-9 THC is the most well-known and abundant compound in cannabis that is typically linked to the \"high\" linked with marijuana. Delta-8 THC on the other hand has a different chemical structure and is considered to be a minor cannabinoid found in lower quantities.\n\nDelta-8 THC also offers psychoactive effects but typically in a milder, more subtle manner, often resulting in a clear-headed high with reduced anxiety\n\nDelta-9 THC is typically associated with marijuana plants, while Delta-8 THC is primarily extracted from the hemp plant. Delta-9 THC can also be extracted from the hemp plant but is less abundant compared to its levels in the marijuana plant."
             }
           },
           "faq_FACbKY": {
             "type": "faq",
             "settings": {
               "question": "How much Delta 9 THC should I take?",
-              "answer": "We accept returns within 30 days of purchase with proof of receipt."
+              "answer": "Your Delta 9 THC dose will depend on your experience level with cannabis as well as a variety of factors such as weight, empty or full stomach, or combination with other medications or substances. We recommend for first timers to start with half a Kush Queen gummy and more experienced consumers to start with one whole gummy, and build on your individual dose from there."
             }
           },
           "faq_VK6YMJ": {
             "type": "faq",
             "settings": {
               "question": "How will Delta 9 THC make me feel?",
-              "answer": "We accept returns within 30 days of purchase with proof of receipt."
+              "answer": "Delta 9 THC produces a classic marijuana euphoric “high” as well as a sense of relaxation, mood elevation, and relief for your body and mind. Common uses include stress relief, pain relief, sleep and also for a bit of fun to elevate any activity or day."
             }
           },
           "faq_Y7LfGp": {
             "type": "faq",
             "settings": {
               "question": "How long do edibles last?",
-              "answer": "We accept returns within 30 days of purchase with proof of receipt."
+              "answer": "The effects of Delta 9 THC edibles can last 4 to 12 hours, with the strongest effects in the first 2 to 4 hours. Keep in mind that onset can be delayed, so start with a low dose and be patient to avoid overconsumption."
             }
           },
           "faq_dmEbNP": {
             "type": "faq",
             "settings": {
               "question": "How long does an edible stay in your system?",
-              "answer": "We accept returns within 30 days of purchase with proof of receipt."
+              "answer": "Edibles with THC can be detected in your system for a few days up to several weeks, depending on various factors including the type of test used, your metabolism, and your frequency of use. In urine tests, it's usually detectable for up to 3-30 days after consumption. Blood tests may show traces for up to 1-2 days, while in hair tests, it can be detectable for up to 90 days or more. Keep in mind that the duration of detection can vary from person to person."
             }
           },
           "faq_i3DYiB": {
             "type": "faq",
             "settings": {
               "question": "Does Delta 9 show up on a drug test?",
-              "answer": "We accept returns within 30 days of purchase with proof of receipt."
-            }
-          },
-          "faq_TEk9pH": {
-            "type": "faq",
-            "settings": {
-              "question": "Disclaimer",
-              "answer": "We accept returns within 30 days of purchase with proof of receipt."
+              "answer": "Yes, Delta-9 THC can be detected on a drug test for several days to weeks after use."
             }
           },
           "faq_EXf4Uy": {
             "type": "faq",
             "settings": {
               "question": "Product Warning",
-              "answer": "We accept returns within 30 days of purchase with proof of receipt."
+              "answer": "** This product contains a powerful full-spectrum hemp extract with compliant (less than 0.3%) but elevated levels of hemp-derived Delta 9 THC, consume with caution. \n\nKEEP OUT OF REACH OF CHILDREN AND ANIMALS. THIS PRODUCT MAY ONLY BE POSSESSED OR CONSUMED BY PERSONS 21 YEARS OF AGE OR OLDER. THE INTOXICATING EFFECTS OF THIS PRODUCT MAY BE DELAYED UP TO 2 HOURS. CONSUMPTION OF THIS PRODUCT WILL IMPAIR YOUR ABILITY TO DRIVE AND OPERATE MACHINERY.\n\nPLEASE USE EXTREME CAUTION"
             }
           }
         },
@@ -3065,7 +3058,6 @@
           "faq_Y7LfGp",
           "faq_dmEbNP",
           "faq_i3DYiB",
-          "faq_TEk9pH",
           "faq_EXf4Uy"
         ],
         "settings": {
