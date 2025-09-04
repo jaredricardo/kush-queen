@@ -5165,3 +5165,24 @@ theme.init = function() {
 };
 
 $(theme.init);
+
+
+const observer = new MutationObserver((mutationsList) => {
+  mutationsList.forEach((mutation) => {
+    if (mutation.type === "attributes" && mutation.attributeName === "class") {
+      if (document.body.classList.contains("klaviyo-prevent-body-scrolling")) {
+        document.body.classList.remove("klaviyo-prevent-body-scrolling");
+      }
+    }
+  });
+});
+
+observer.observe(document.body, {
+  attributes: true,
+  attributeFilter: ["class"],
+});
+
+if (document.body.classList.contains("klaviyo-prevent-body-scrolling")) {
+  document.body.classList.remove("klaviyo-prevent-body-scrolling");
+}
+
