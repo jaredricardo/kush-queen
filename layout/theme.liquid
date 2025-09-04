@@ -425,7 +425,7 @@ window.TriplePixelData={TripleName:"kush-queen-shop.myshopify.com",ver:"2.12",pl
               if(document.querySelectorAll('.monkprotect-v2').length < 1){
                 (Array.from(
                   document.querySelectorAll('.hs-content-additional')
-                  ).pop()).insertAdjacentHTML("afterend", `{% render 'monkprotect-v2' %}`);
+                  ).pop())?.insertAdjacentHTML("afterend", `{% render 'monkprotect-v2' %}`);
               }
             }
           })
