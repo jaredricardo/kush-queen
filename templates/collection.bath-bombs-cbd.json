@@ -81,6 +81,49 @@
         "main_linklist": ""
       }
     },
+    "jr_50_50_Q8mkCF": {
+      "type": "jr-50-50",
+      "blocks": {
+        "h2_XwbApN": {
+          "type": "h2",
+          "settings": {
+            "h2": "<h2><br/><strong>Use our bath bombs once—you’ll never look elsewhere</strong><br/><br/></h2>",
+            "font_size_d": 24,
+            "font_size_m": 14,
+            "font_family": "Eina03"
+          }
+        },
+        "p_qRjxx4": {
+          "type": "p",
+          "settings": {
+            "p": "<p>✓ Relieves tension & soothes muscles<br/><br/>✓ Promotes balance and relaxation<br/><br/>✓ Made with clean, natural ingredients<br/><br/>✓ Free from sulfates, parabens & dyes<br/><br/>✓ Infused with nourishing oils and botanicals<br/><br/>✓ Aromatherapy scents for every mood<br/><br/>✓ Supports restful sleep & stress relief<br/><br/>✓ Leaves skin soft, smooth & refreshed</p>",
+            "font_family": "Eina03"
+          }
+        },
+        "button_zAh4fD": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_text": "Shop Delta 9 Gummies",
+            "button_url": "shopify://collections/delta-9-gummies",
+            "button_bg_color": "#000000",
+            "button_text_color": "#ffffff",
+            "font_family": "Eina03"
+          }
+        }
+      },
+      "block_order": [
+        "h2_XwbApN",
+        "p_qRjxx4",
+        "button_zAh4fD"
+      ],
+      "settings": {
+        "background_color": "#ffffff",
+        "col_order": "",
+        "text_alignment": "left-aligned",
+        "image": "shopify://shop_images/kush-queen-cbd-bath-bomb-complete-mini-collection-40290127610101.jpg"
+      }
+    },
     "new_faq_Uy4dJw": {
       "type": "new-faq",
       "blocks": {
@@ -122,6 +165,7 @@
     "collection_header_7bBjxG",
     "icon_links_L3CAzk",
     "new-collection-template",
+    "jr_50_50_Q8mkCF",
     "new_faq_Uy4dJw"
   ]
 }
