@@ -81,16 +81,6 @@
         "main_linklist": ""
       }
     },
-    "rich_text_RjNEhh": {
-      "type": "rich-text",
-      "name": "Rich text",
-      "settings": {
-        "full_width": false,
-        "section_title": "Why Our CBD Bath Bombs Are a Soothing Essential",
-        "text": "<h3>The Natural Calm of Cannabinoids</h3><p>Our CBD bath bombs work in harmony with your body to promote balance and relaxation. As the bath bomb fizzes and dissolves, cannabinoids interact with receptors in your skin, easing tension, soothing muscles and creating a deeply calming soak from head to toe.</p><h3>Thoughtfully Sourced, Naturally Kind</h3><p>We believe self-care should be as kind to the planet as it is to your skin. Our CBD bath bombs are made with naturally sourced ingredients like nourishing oils and aromatic essential oils. We don’t use sulfates, parabens, or artificial dyes that stain your tub.</p><h3>Scents and Soaks for Every Mood</h3><p>Whether you’re looking to unwind after a long day, lift your spirits, or drift off into a restful sleep, we have a CBD bath bomb for every mood. From calming blends that melt away tension to uplifting scents that brighten your day, each one is thoughtfully crafted to enhance your soak and your state of mind.<br/><br/><br/><br/><br/><br/><br/></p>",
-        "text_size": "medium"
-      }
-    },
     "new_faq_Uy4dJw": {
       "type": "new-faq",
       "blocks": {
@@ -132,7 +122,6 @@
     "collection_header_7bBjxG",
     "icon_links_L3CAzk",
     "new-collection-template",
-    "rich_text_RjNEhh",
     "new_faq_Uy4dJw"
   ]
 }
