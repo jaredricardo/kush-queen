@@ -3233,6 +3233,11 @@
         "type": "shopify://apps/stape-server-gtm/blocks/gtm/7e13c847-7971-409d-8fe0-29ec14d5f048",
         "disabled": false,
         "settings": {}
+      },
+      "7313114205116804392": {
+        "type": "shopify://apps/propel-replays/blocks/app-embed/64fbaaa3-2d4a-49f3-aba7-86e92e44999f",
+        "disabled": false,
+        "settings": {}
       }
     }
   },
