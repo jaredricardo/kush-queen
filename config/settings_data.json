@@ -1308,6 +1308,13 @@
               "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/Runtz_COA.jpg?v=1738503725"
             }
           },
+          "labtest_qtBGJY": {
+            "type": "labtest",
+            "settings": {
+              "banner_btm_tp_text": "Gummy Bears THCa Flower",
+              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/THCA_Melted_Strawberries_Lab_Report.pdf?v=1757621329"
+            }
+          },
           "labtest_x4JeEq": {
             "type": "labtest",
             "settings": {
@@ -1380,6 +1387,7 @@
           "labtest_H9X4WV",
           "labtest_BR8Vkr",
           "labtest_eHfnfC",
+          "labtest_qtBGJY",
           "labtest_x4JeEq"
         ],
         "settings": {}
