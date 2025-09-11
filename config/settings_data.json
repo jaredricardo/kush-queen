@@ -1316,6 +1316,14 @@
               "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/THCA_Melted_Strawberries_Lab_Report.pdf?v=1757621329"
             }
           },
+          "labtest_N7BQLL": {
+            "type": "labtest",
+            "settings": {
+              "banner_btm_img": "shopify://shop_images/kush-queen-hemp-flower-gelato-33-thca-flower-exotic-1184441214.png",
+              "banner_btm_tp_text": "Gelato 33 THCa Flower",
+              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/THCA_September_2024_Gelato_33_Lab_Report.pdf?v=1757621329"
+            }
+          },
           "labtest_x4JeEq": {
             "type": "labtest",
             "settings": {
@@ -1389,6 +1397,7 @@
           "labtest_BR8Vkr",
           "labtest_eHfnfC",
           "labtest_qtBGJY",
+          "labtest_N7BQLL",
           "labtest_x4JeEq"
         ],
         "settings": {}
