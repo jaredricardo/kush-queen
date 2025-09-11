@@ -1311,7 +1311,8 @@
           "labtest_qtBGJY": {
             "type": "labtest",
             "settings": {
-              "banner_btm_tp_text": "Gummy Bears THCa Flower",
+              "banner_btm_img": "shopify://shop_images/kush-queen-hemp-flower-melted-strawberries-thca-flower-1177277612.png",
+              "banner_btm_tp_text": "Melted Strawberries THCa Flower",
               "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/THCA_Melted_Strawberries_Lab_Report.pdf?v=1757621329"
             }
           },
