@@ -3238,6 +3238,11 @@
         "type": "shopify://apps/propel-replays/blocks/app-embed/64fbaaa3-2d4a-49f3-aba7-86e92e44999f",
         "disabled": false,
         "settings": {}
+      },
+      "17790009454750450185": {
+        "type": "shopify://apps/nofraud-fraud-protection/blocks/nf_device/5c2706cf-d458-49c5-a6fa-4fb6b79ce2b4",
+        "disabled": false,
+        "settings": {}
       }
     }
   },
