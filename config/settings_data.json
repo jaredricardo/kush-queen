@@ -1343,6 +1343,7 @@
           "labtest_w7mcYU": {
             "type": "labtest",
             "settings": {
+              "banner_btm_img": "shopify://shop_images/kush-queen-hemp-flower-gelonade-thca-flower-head-stash-1155525556.png",
               "banner_btm_tp_text": "Gelonade",
               "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/Gelonade.jpg?v=1757722042"
             }
