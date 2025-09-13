@@ -1351,8 +1351,9 @@
           "labtest_QPxd7K": {
             "type": "labtest",
             "settings": {
-              "banner_btm_tp_text": "",
-              "link": ""
+              "banner_btm_img": "shopify://shop_images/kush-queen-hemp-flower-super-boof-thca-flower-39770701299957.jpg",
+              "banner_btm_tp_text": "Super Boof THCA Flower",
+              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/THCA_Hemp_-_Super_Boof_COA.pdf?v=1757722042"
             }
           },
           "labtest_GxYKJd": {
