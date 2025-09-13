@@ -1324,6 +1324,49 @@
               "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/THCA_September_2024_Gelato_33_Lab_Report.pdf?v=1757621329"
             }
           },
+          "labtest_prE6iA": {
+            "type": "labtest",
+            "settings": {
+              "banner_btm_img": "shopify://shop_images/kush-queen-hemp-flower-blue-dream-thca-flower-private-reserve-1184441215.png",
+              "banner_btm_tp_text": "Blue Dream THCA Flower",
+              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/THCA_Hemp_-_Blue_Dream_COA.pdf?v=1757722041"
+            }
+          },
+          "labtest_4xicwz": {
+            "type": "labtest",
+            "settings": {
+              "banner_btm_tp_text": "",
+              "link": ""
+            }
+          },
+          "labtest_w7mcYU": {
+            "type": "labtest",
+            "settings": {
+              "banner_btm_tp_text": "",
+              "link": ""
+            }
+          },
+          "labtest_QPxd7K": {
+            "type": "labtest",
+            "settings": {
+              "banner_btm_tp_text": "",
+              "link": ""
+            }
+          },
+          "labtest_GxYKJd": {
+            "type": "labtest",
+            "settings": {
+              "banner_btm_tp_text": "",
+              "link": ""
+            }
+          },
+          "labtest_bn6CzJ": {
+            "type": "labtest",
+            "settings": {
+              "banner_btm_tp_text": "",
+              "link": ""
+            }
+          },
           "labtest_x4JeEq": {
             "type": "labtest",
             "settings": {
@@ -1398,6 +1441,12 @@
           "labtest_eHfnfC",
           "labtest_qtBGJY",
           "labtest_N7BQLL",
+          "labtest_prE6iA",
+          "labtest_4xicwz",
+          "labtest_w7mcYU",
+          "labtest_QPxd7K",
+          "labtest_GxYKJd",
+          "labtest_bn6CzJ",
           "labtest_x4JeEq"
         ],
         "settings": {}
