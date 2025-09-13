@@ -1335,15 +1335,16 @@
           "labtest_4xicwz": {
             "type": "labtest",
             "settings": {
-              "banner_btm_tp_text": "",
-              "link": ""
+              "banner_btm_img": "shopify://shop_images/kush-queen-hemp-flower-blue-nerds-thca-flower-exotic-1191165284.png",
+              "banner_btm_tp_text": "Blue Nerds THCA Flower",
+              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/Blue_Nerdz_2.pdf?v=1757722041"
             }
           },
           "labtest_w7mcYU": {
             "type": "labtest",
             "settings": {
-              "banner_btm_tp_text": "",
-              "link": ""
+              "banner_btm_tp_text": "Gelonade",
+              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/Gelonade.jpg?v=1757722042"
             }
           },
           "labtest_QPxd7K": {
