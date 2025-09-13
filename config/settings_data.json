@@ -1367,8 +1367,9 @@
           "labtest_bn6CzJ": {
             "type": "labtest",
             "settings": {
-              "banner_btm_tp_text": "",
-              "link": ""
+              "banner_btm_img": "shopify://shop_images/kush-queen-hemp-flower-white-runtz-thca-flower-private-reserve-40524755009781.jpg",
+              "banner_btm_tp_text": "White Runtz THCA Flower",
+              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/Blue_Runtz.pdf?v=1757722041"
             }
           },
           "labtest_x4JeEq": {
