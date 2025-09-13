@@ -1359,8 +1359,9 @@
           "labtest_GxYKJd": {
             "type": "labtest",
             "settings": {
-              "banner_btm_tp_text": "",
-              "link": ""
+              "banner_btm_img": "shopify://shop_images/kush-queen-hemp-flower-grape-zkittles-thca-flower-exotic-1117462819.jpg",
+              "banner_btm_tp_text": "Grape Zkittles THCA Flower",
+              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/Grape_Zkittles_COA_1.jpg?v=1757722042"
             }
           },
           "labtest_bn6CzJ": {
