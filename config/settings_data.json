@@ -3214,6 +3214,17 @@
           "heading": "Elevating You Daily",
           "description": "<p>Kush Queen delivers perfected wellness tools to elevate daily life.</p><p>Today, with over 55,000 customers we offer a range of daily solutions for wellness that address issues like sleep, stress, mood, relief, and pleasure.</p><p>When legacy status, a relentless commitment to the cannabis plant, and award winning products (that speak to everyone) come together, that’s Kush Queen.</p>"
         }
+      },
+      "article-template": {
+        "type": "article-template",
+        "custom_css": [
+          ".post-thumbnail img {width: 500px; height: 350px;}"
+        ],
+        "settings": {
+          "blog_show_author": true,
+          "blog_show_date": true,
+          "show_share_buttons": true
+        }
       }
     },
     "content_for_index": [
