@@ -29,6 +29,8 @@ window.TriplePixelData={TripleName:"kush-queen-shop.myshopify.com",ver:"2.12",pl
         const mainATC = document.querySelector('.main-pdp-atc.page-not-yet-loaded')
         if(mainATC) {
           mainATC.classList.remove('page-not-yet-loaded')
+        } else {
+          document.querySelector('.page-not-yet-loaded').classList.remove('page-not-yet-loaded')
         }
       }, 500)
     })
