@@ -26,10 +26,10 @@ window.TriplePixelData={TripleName:"kush-queen-shop.myshopify.com",ver:"2.12",pl
   <script>  
     window.addEventListener('DOMContentLoaded', () => {
       setTimeout(() => {
-        console.log('??????')
-        console.log(document.querySelector('.main-pdp-atc.page-not-yet-loaded'))
-        
-        document.querySelector('.main-pdp-atc.page-not-yet-loaded').classList.remove('page-not-yet-loaded')
+        const mainATC = document.querySelector('.main-pdp-atc.page-not-yet-loaded')
+        if(mainATC) {
+          mainATC.classList.remove()'page-not-yet-loaded')
+        }
       }, 500)
     })
   </script>
