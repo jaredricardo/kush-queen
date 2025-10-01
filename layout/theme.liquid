@@ -24,15 +24,10 @@ window.TriplePixelData={TripleName:"kush-queen-shop.myshopify.com",ver:"2.12",pl
 
 {% if request.page_type == "product" %}
   <script>  
-
-    console.log({{ request.page_type | json }})
     window.addEventListener('DOMContentLoaded', () => {
-  
       setTimeout(() => {
- 
         document.querySelector ('.main-pdp-atc.page-not-yet-loaded').classList.remove('page-not-yet-loaded')
       }, 500)
-
     })
   </script>
   <style>
