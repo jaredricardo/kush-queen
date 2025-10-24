@@ -1,1 +1,155 @@
-{"sections":{"collection_header_7bBjxG":{"type":"collection-header","settings":{"enable_breadcrumb":true}},"icon_links_L3CAzk":{"type":"icon-links","blocks":{"icon_jzAW3E":{"type":"icon","settings":{"icon_link":"shopify:\/\/collections\/bath-bomb-reject-sale","icon":"shopify:\/\/shop_images\/Vector_2_70x_8f3d5bc2-c8e7-42df-94de-f8c510ec5b23.webp","title":"shop all"}},"icon_BfenYq":{"type":"icon","settings":{"icon_link":"","icon":"shopify:\/\/shop_images\/Vector_2_70x_d97f53ba-ea04-4eac-8938-377ee437440e.webp","title":"bundles"}},"icon_9HWK7y":{"type":"icon","settings":{"icon_link":"","icon":"shopify:\/\/shop_images\/Vector_2_70x_d97f53ba-ea04-4eac-8938-377ee437440e.webp","title":"bath bombes"}},"icon_mALUW6":{"type":"icon","settings":{"icon_link":"","icon":"shopify:\/\/shop_images\/Vector_2_70x_68c03c91-0d81-4448-bfbe-96248c221621.webp","title":"topicals"}}},"block_order":["icon_jzAW3E","icon_BfenYq","icon_9HWK7y","icon_mALUW6"],"disabled":true,"settings":{"background_color":"#ffffff","text_color":"#000000","icon_title_font":"Gotham-bold"}},"new-collection-template":{"type":"new-collection-template","settings":{"layout":"grid","grid":4,"rows":30,"show_collection_image":true,"show_vendor":false,"sort_enable":true,"tags_enable":true,"main_linklist":""}}},"order":["collection_header_7bBjxG","icon_links_L3CAzk","new-collection-template"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "collection_header_7bBjxG": {
+      "type": "collection-header",
+      "settings": {
+        "enable_breadcrumb": true
+      }
+    },
+    "icon_links_L3CAzk": {
+      "type": "icon-links",
+      "blocks": {
+        "icon_jzAW3E": {
+          "type": "icon",
+          "settings": {
+            "icon_link": "shopify://collections/bath-bomb-reject-sale",
+            "icon": "shopify://shop_images/Vector_2_70x_8f3d5bc2-c8e7-42df-94de-f8c510ec5b23.webp",
+            "title": "shop all"
+          }
+        },
+        "icon_BfenYq": {
+          "type": "icon",
+          "settings": {
+            "icon_link": "",
+            "icon": "shopify://shop_images/Vector_2_70x_d97f53ba-ea04-4eac-8938-377ee437440e.webp",
+            "title": "bundles"
+          }
+        },
+        "icon_9HWK7y": {
+          "type": "icon",
+          "settings": {
+            "icon_link": "",
+            "icon": "shopify://shop_images/Vector_2_70x_d97f53ba-ea04-4eac-8938-377ee437440e.webp",
+            "title": "bath bombes"
+          }
+        },
+        "icon_mALUW6": {
+          "type": "icon",
+          "settings": {
+            "icon_link": "",
+            "icon": "shopify://shop_images/Vector_2_70x_68c03c91-0d81-4448-bfbe-96248c221621.webp",
+            "title": "topicals"
+          }
+        }
+      },
+      "block_order": [
+        "icon_jzAW3E",
+        "icon_BfenYq",
+        "icon_9HWK7y",
+        "icon_mALUW6"
+      ],
+      "disabled": true,
+      "settings": {
+        "background_color": "#ffffff",
+        "text_color": "#000000",
+        "icon_title_font": "Gotham-bold"
+      }
+    },
+    "new-collection-template": {
+      "type": "new-collection-template",
+      "settings": {
+        "layout": "grid",
+        "grid": 4,
+        "rows": 30,
+        "show_collection_image": true,
+        "show_vendor": false,
+        "sort_enable": true,
+        "tags_enable": true,
+        "main_linklist": ""
+      }
+    },
+    "jr_50_50_yLyJnP": {
+      "type": "jr-50-50",
+      "blocks": {
+        "h2_ddgMyB": {
+          "type": "h2",
+          "settings": {
+            "h2": "<p><strong>Elevating Wellness With Our Cannabis Topicals</strong></p>",
+            "font_size_d": 24,
+            "font_size_m": 18,
+            "font_family": "Eina03"
+          }
+        },
+        "p_Tmg39K": {
+          "type": "p",
+          "settings": {
+            "p": "<p>✓ Targeted pain relief<br/><br/>✓ Perfect post-workout recovery<br/><br/>✓ Clean ingredients, no weird stuff<br/><br/>✓ Fast-absorbing, non-greasy formula<br/><br/>✓ Third-party lab tested<br/><br/>✓ Consistent, effective cannabinoid results<br/><br/>✓ Supports healthy, daily skincare routine<br/><br/>✓ Formulated by industry experts</p>",
+            "font_family": "Eina03"
+          }
+        }
+      },
+      "block_order": [
+        "h2_ddgMyB",
+        "p_Tmg39K"
+      ],
+      "name": "50/50",
+      "settings": {
+        "background_color": "#ffffff",
+        "col_order": "",
+        "text_alignment": "center-aligned",
+        "image": "shopify://shop_images/kush-queen-topical-melt-cbd-lotion-16-oz-39600238461173.jpg"
+      }
+    },
+    "new_faq_baVGpc": {
+      "type": "new-faq",
+      "blocks": {
+        "faq_block_MCq7Kt": {
+          "type": "faq_block",
+          "settings": {
+            "question": "What’s the best way to use cannabis topicals?",
+            "answer": "<p>Apply directly to the area of discomfort and massage into the skin until fully absorbed. For best results, use consistently on clean, dry skin.</p>"
+          }
+        },
+        "faq_block_3AMxbL": {
+          "type": "faq_block",
+          "settings": {
+            "question": "How do THC and CBD lotions work?",
+            "answer": "<p>These lotions interact with cannabinoid receptors in the skin, supporting localized relief for soreness, tension, or irritation without entering the bloodstream.</p>"
+          }
+        },
+        "faq_block_6GeDXx": {
+          "type": "faq_block",
+          "settings": {
+            "question": "Does THC lotion get you high?",
+            "answer": "<p>No. When applied to the skin, THC lotions provide targeted relief without producing intoxicating effects.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "faq_block_MCq7Kt",
+        "faq_block_3AMxbL",
+        "faq_block_6GeDXx"
+      ],
+      "name": "NEW FAQ",
+      "settings": {
+        "faq_title": "Frequently Asked Questions"
+      }
+    }
+  },
+  "order": [
+    "collection_header_7bBjxG",
+    "icon_links_L3CAzk",
+    "new-collection-template",
+    "jr_50_50_yLyJnP",
+    "new_faq_baVGpc"
+  ]
+}
