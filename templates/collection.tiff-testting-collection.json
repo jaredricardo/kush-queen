@@ -9,12 +9,6 @@
  */
 {
   "sections": {
-    "collection_header_7bBjxG": {
-      "type": "collection-header",
-      "settings": {
-        "enable_breadcrumb": true
-      }
-    },
     "hero_iEUaxG": {
       "type": "hero",
       "settings": {
@@ -32,6 +26,12 @@
         "text": "<p>Celebrate the season with Kush Queen’s Holiday Bundles & Gifts. The perfect way to share wellness, self-care, and a little elevated joy.</p>",
         "button_label": "",
         "button_link": ""
+      }
+    },
+    "collection_header_7bBjxG": {
+      "type": "collection-header",
+      "settings": {
+        "enable_breadcrumb": true
       }
     },
     "new-collection-template": {
@@ -53,7 +53,7 @@
         "h2_JtwPRr": {
           "type": "h2",
           "settings": {
-            "h2": "<h2><strong>Shop for the nice list</strong></h2>",
+            "h2": "<h2><strong>Shop the nice list</strong></h2>",
             "font_size_d": 24,
             "font_size_m": 14,
             "font_family": "Eina03"
@@ -95,7 +95,7 @@
         "h2_9PryPy": {
           "type": "h2",
           "settings": {
-            "h2": "<h2><strong>Shop for the naughty list</strong></h2>",
+            "h2": "<h2><strong>Shop the naughty list</strong></h2>",
             "font_size_d": 24,
             "font_size_m": 14,
             "font_family": "Eina03"
@@ -227,8 +227,8 @@
     }
   },
   "order": [
-    "collection_header_7bBjxG",
     "hero_iEUaxG",
+    "collection_header_7bBjxG",
     "new-collection-template",
     "jr_50_50_kngPDW",
     "jr_50_50_q7VJ9i",
