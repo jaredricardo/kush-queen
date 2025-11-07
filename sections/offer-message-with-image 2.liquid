@@ -1,0 +1,62 @@
+<section class="brand-message">
+  <div class="brand-message-container">
+    <div
+      loading="lazy"
+      class="brand-message-main-image"
+      style="background:url('{{ section.settings.main_image | img_url: 'master' }}');background-size: cover;background-repeat: no-repeat;"
+    ></div>
+    <div class="brand-message-content">
+      <div class="brand-message-icon">
+        <img src="{{ section.settings.icon | img_url: '100x100' }}" alt="">
+      </div>
+      <div class="brand-message-subheading uppercase">
+        <h4>{{ section.settings.subheading }}</h4>
+      </div>
+      <div class="brand-message-heading uppercase">
+        <h2>{{ section.settings.heading }}</h2>
+      </div>
+      <div class="brand-message-description">
+        <p>{{ section.settings.description }}</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Brand Message",
+  "settings": [
+    {
+      "id": "main_image",
+      "type": "image_picker",
+      "label": "Main Image"
+    },
+    {
+      "id": "icon",
+      "type": "image_picker",
+      "label": "Icon"
+    },
+    {
+      "id": "subheading",
+      "type": "text",
+      "label": "Sub Heading"
+    },
+    {
+      "id": "heading",
+      "type": "text",
+      "label": "Heading"
+    },
+    {
+      "id": "description",
+      "type": "richtext",
+      "label": "Description"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Offer Message",
+      "category": "Image"
+    }
+  ]
+}
+{% endschema %}

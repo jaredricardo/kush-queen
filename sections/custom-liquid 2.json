@@ -1,0 +1,26 @@
+
+<div data-section-id="{{ section.id }}">
+    <div class="page-width">
+      {{ section.settings.liquid_content }}
+    </div>
+</div>
+
+{% schema %}
+{
+  "name": "Custom Liquid Section",
+  "settings": [
+    {
+      "type": "liquid",
+      "id": "liquid_content",
+      "label": "Liquid Content"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Custom Liquid Section"
+    }
+  ]
+}
+{% endschema %}
+
+

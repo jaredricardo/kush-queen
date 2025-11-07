@@ -27,9 +27,10 @@
   height: 18px; }
 
 /* line 1, /home/richard/www/pushmenu/pub/src/sass/pushMenu/module */
-body {
+/* Upnova changes */
+/* body {
   overflow: auto !important;
-  overflow-x: hidden !important; }
+  overflow-x: hidden !important; } */
 /* line 4, /home/richard/www/pushmenu/pub/src/sass/pushMenu/module */
 .ie8 body {
   overflow: visible; }

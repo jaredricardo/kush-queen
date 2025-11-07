@@ -1,0 +1,315 @@
+{%- assign social_icons = false -%}
+
+{% if
+  settings.social_twitter_link != blank
+or settings.social_facebook_link != blank
+or settings.social_pinterest_link != blank
+or settings.social_instagram_link != blank
+or settings.social_tumblr_link != blank
+or settings.social_snapchat_link != blank
+or settings.social_youtube_link != blank
+or settings.social_vimeo_link != blank
+or template.name == 'article'
+or template.name == 'blog'
+%}
+{%- assign social_icons = true -%}
+{% endif %}
+
+{% if request.page_type == "index" %}
+<footer id="footer">
+{% else %}
+<footer id="footer" class="margin-top" role="contentinfo">
+{% endif %}
+  <div class="page-width">
+    <div class="footer-top">
+      <div class="grid">
+        <div class="grid__item medium-up--one-quarter footer-colunun">
+
+          <div class="footer-logo">
+            {% if section.settings.footer_logo != blank %}
+            {%- assign img_url = section.settings.footer_logo | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+            <a href="/" class="">
+              {% capture logo_alt %}{{ section.settings.footer_logo.alt | default: shop.name }}{% endcapture %}
+              <img class="lazyload js"
+                src="data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'%20width='{{ section.settings.footer_logo.width }}'%20height='{{ section.settings.footer_logo.height }}'></svg>"
+                data-src="{{ section.settings.footer_logo | img_url: 'master' }}"
+                alt="{{ logo_alt | escape }}"
+              >
+            </a>
+            {% else %}
+            <a class="site-header__logo-link" href="/">{{ shop.name }}</a>
+            {% endif %}
+          </div>
+
+          {% if section.settings.foot_phn_hrs_content != blank %}
+          <div class="foot-content-address">
+            {{section.settings.foot_phn_hrs_content}}
+          </div>
+          {% endif %}
+
+          {% if section.settings.foot_email_add != blank %}
+          <div class="foot-email-address-wrap">
+            <a href="mailto:{{section.settings.foot_email_add}}">
+              {{section.settings.foot_email_add}}
+            </a>
+          </div>
+          {% endif %}
+
+          {%- comment %}
+          {% if section.settings.foot_disclaimer_add != blank %}
+          <div class="foot-content-disclaimer">
+            <strong>Disclaimer: </strong>{{section.settings.foot_disclaimer_add}}
+          </div>
+          {% endif %}
+          {% endcomment -%}
+        </div>
+
+        {% if linklists[section.settings.footer_linklist].links.size > 0 %}
+        <div class="grid__item medium-up--one-quarter footer-colunun">
+          <div class="f-box">
+            <div role="heading" aria-level="3" class="foot-menu-title">{{linklists[section.settings.footer_linklist].title}}</div>
+            <ul>
+              {% for link in linklists[section.settings.footer_linklist].links %}
+
+
+              <li>
+                <a class="common-transition{% if link.active %} active{% endif %}" href="{{link.url}}" {% if link.title == 'Refund Policy' or link.title == 'Customer Support' %} target="_blank" {% endif %}>{{link.title}}</a>
+              </li>
+              {% endfor %}
+            </ul>
+          </div>
+        </div>
+        {% endif %}
+
+        {% if linklists[section.settings.footer_linklist_two].links.size > 0 %}
+        <div class="grid__item medium-up--one-quarter footer-colunun">
+          <div class="f-box">
+            <div  role="heading" aria-level="3" class="foot-menu-title">{{linklists[section.settings.footer_linklist_two].title}}</div>
+            <ul>
+              {% for link in linklists[section.settings.footer_linklist_two].links %}
+
+
+              <li>
+                <a class="common-transition{% if link.active %} active{% endif %}" href="{{link.url}}">{{link.title}}</a>
+              </li>
+              {% endfor %}
+            </ul>
+          </div>
+        </div>
+        {% endif %}
+
+        <div class="grid__item medium-up--one-quarter news-foot-social-wrap">
+          {% if section.settings.footer_newsletter_enable %}
+          <div class="f-box border-none">
+            {% if section.settings.footer_newsletter_title != blank %}
+            <div role="heading" aria-level="3" class="foot-menu-title">{{ section.settings.footer_newsletter_title }}</div>
+            {% endif %}
+            <ul role="none">
+              {% if section.settings.footer_newsletter_description != blank %}
+              <p>{{section.settings.footer_newsletter_description}}</p>
+              {% endif %}
+
+              <div class="foot-msg-label-wrap">Email Address:</div>
+
+              {% form 'customer', class:'subscribe-form' %}
+              {%- if form.errors -%}
+              <div class="form-message form-message--error">
+                {{ form.errors | default_errors }}
+              </div>
+              {%- endif -%}
+              {% if form.posted_successfully? %}
+              <p class="form-message form-message--success">{{ 'general.newsletter_form.confirmation' | t }}</p>
+              {% else %}
+              <div class="form-group">
+                <input type="hidden" name="contact[tags]" value="newsletter">
+                <div class="form-foot-wrap">
+                  <input type="email" aria-label="Email" 
+                         name="contact[email]"
+                         id="footer_subscribe_Email"
+                         class=""
+                         value="{% if customer %}{{ customer.email }}{% endif %}"
+                         placeholder="Your email address"
+                         {%- if form.errors -%}
+                         aria-invalid="true"
+                         {%- endif -%}
+                         autocorrect="off"
+                         autocapitalize="off">
+                  <span>
+                    <button type="submit" class="button" name="commit" id="Subscribe">
+                      Sign Up
+                    </button>
+                  </span>
+                </div>
+              </div>
+              {% endif %}
+              {% endform %}
+            </ul>
+          </div>
+          {% endif %}
+
+          <div class="footer-icon">
+            <ul role="list">
+              {% if settings.social_facebook_link != blank %}
+              <li role="listitem">
+                <a target="_blank" href="{{ settings.social_facebook_link | escape }}" role="link" aria-label="{{ 'layout.footer.social_platform' | t: name: shop.name, platform: 'Facebook' }}">
+                  <i class="ion-social-facebook"></i>
+                </a>
+              </li>
+              {% endif %}
+
+              {% if settings.social_youtube_link != blank %}
+              <li role="listitem">
+                <a target="_blank" href="{{ settings.social_youtube_link | escape }}" role="link" aria-label="{{ 'layout.footer.social_platform' | t: name: shop.name, platform: 'Youtube' }}">
+                  <i class="icon-youtube-2"></i>
+                </a>
+              </li>
+              {% endif %}
+
+              {% if settings.social_pinterest_link != blank %}
+              <li role="listitem">
+                <a target="_blank" href="{{ settings.social_pinterest_link | escape }}" role="link" aria-label="{{ 'layout.footer.social_platform' | t: name: shop.name, platform: 'Pinterest' }}">
+                  <i class="ion-social-pinterest"></i>
+                </a>
+              </li>
+              {% endif %}
+
+              {% if settings.social_instagram_link != blank %}
+              <li role="listitem">
+                <a target="_blank" href="{{ settings.social_instagram_link | escape }}" role="link" aria-label="{{ 'layout.footer.social_platform' | t: name: shop.name, platform: 'Instagram' }}">
+                  <i class="ion-social-instagram-outline"></i>
+                </a>
+              </li>
+              {% endif %}
+
+              <li role="listitem">
+                <a target="_blank" href="https://www.tiktok.com/@elevatingyoudaily" role="link" aria-label="TikTok">
+                  <img class="lazyload" data-src="https://cdn.shopify.com/s/files/1/0124/3594/7616/files/pngaaa.com-4768645.png" style="height: 35px;" />
+                </a>
+              </li>
+            </ul>
+            <img class="lazyload" data-src="https://cdn.shopify.com/s/files/1/0124/3594/7616/files/Kush_Queen_Flower_KQ_Only-09.png?v=1659997865" style="width: 100%;" />
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="footer-bottom">
+      {% if section.settings.copyright_txt != blank %}
+      <div class="foot-copy-txt-wrap">
+        {{section.settings.copyright_txt}}
+      </div>
+      {% endif %}
+      
+      {% if section.settings.foot_accept_txt != blank or section.settings.foot_accept_img != blank %}
+      <div class="foot-right-cnt-wrap">
+        
+        {% if section.settings.foot_accept_txt != blank %}
+        <div class="foot-pay-accept-txt" style="width: 68%;">
+          {{section.settings.foot_accept_txt}}
+        </div>
+        {% endif %}
+        
+        {% if section.settings.foot_accept_img != blank %}
+        <div class="foot-pay-accept-img-wrap">
+          <img alt="Visa, Mastercard" src="{{section.settings.foot_accept_img | img_url: 'master'}}">
+        </div>
+        {% endif %}
+      </div>
+      {% endif %}
+      <div style="width: 100%; float: left; color: #FFF; font-size: 12px; line-height: 13px;">
+        <p>&nbsp;</p>
+        <p style="color: #FFF;"><strong style="color: #FFF;">Disclaimer: </strong>The statements made regarding these products have not been evaluated by the Food and Drug Administration. The efficacy of these products has not been confirmed by FDA-approved research. These products are not intended to diagnose, treat, cure or prevent any disease.</p>
+        <p style="color: #FFF;">*Kush Queen™ products are derived from industrial hemp and contain less than 0.3% ∆9-tetrahydroncannabinol (THC) in accordance with the regulations set forth in the 2018 Farm Bill. Ingesting or inhaling products that contain delta-9 THC could result in the consumer failing a drug test for marijuana.</p>
+        <p style="color: #FFF;"><strong style="color: #FFF;">WARNING</strong>: Smoking or consuming cannabis or hemp products can expose you to chemicals, including hemp smoke, which are known to the State of California to cause cancer; methanol, which is known to the State of California to cause birth defects or other reproductive harm; and ∆9- tetrahydroncannabinol, which is known to the State of California to cause reproductive harm. For more information go to <a href="https://www.p65warnings.ca.gov" target="_blank">www.P65Warnings.ca.gov</a>.</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+{% schema %}
+{
+"name": "Footer",
+"settings": [
+{
+"type": "header",
+"content": "Footer section"
+},
+{
+"type": "image_picker",
+"id": "footer_logo",
+"label": "Footer Logo image"
+},
+{
+"type": "html",
+"id": "foot_phn_hrs_content",
+"label": "Phone and hours"
+},
+{
+"type": "text",
+"id": "foot_email_add",
+"label": "Email address"
+},
+{
+"type": "text",
+"id": "foot_disclaimer_add",
+"label": "Disclaimer"
+},
+{
+"type": "header",
+"content": "Menu"
+},
+{
+"type": "link_list",
+"id": "footer_linklist",
+"label": "Primary menu",
+"default": "footer",
+"info": "This menu won't show dropdown items"
+},
+{
+"type": "link_list",
+"id": "footer_linklist_two",
+"label": "Secondary menu",
+"default": "footer",
+"info": "This menu won't show dropdown items"
+},
+{
+"type": "header",
+"content": "Newsletter"
+},
+{
+"type": "checkbox",
+"id": "footer_newsletter_enable",
+"label": "Show newsletter signup",
+"default": true
+},
+{
+"type": "text",
+"id": "footer_newsletter_title",
+"label": "Newsletter Title",
+"default": "Connect with Us"
+},
+{
+"type": "text",
+"id": "footer_newsletter_description",
+"label": "Newsletter Description",
+"default": "Stay Updated on all that’s new and noteworthy"
+},
+{
+"type":"text",
+"id":"copyright_txt",
+"label":"Copyright"
+},
+{
+"type":"text",
+"id":"foot_accept_txt",
+"label":"Accepted payments",
+"default":"Accepted Payments:"
+},
+{
+"type": "image_picker",
+"id": "foot_accept_img",
+"label": "Payment image"
+}
+]
+}
+{% endschema %}

@@ -1,0 +1,154 @@
+<section class="recommend-section">
+  <div class="page-width-2">
+    <h2 class="recommend-heading">{{ section.settings.section_heading }}</h2>
+    <div class="swiper-container recommend-swiper">
+      <div class="swiper-wrapper">
+        {% for block in section.blocks %}
+          {% assign product = all_products[block.settings['selected-product']] %}
+          <div class="swiper-slide">
+            <a href="{{ product.url }}" class="recommend-product">
+              <img src="{{ product.featured_image | img_url: '300x' }}" alt="{{ product.title }}">
+              <div class="recommend-info">
+                <p class='ptitle'>{{ product.title }}</p>
+                <p class='pprice'>{{ product.price | money }}</p>
+              </div>
+            </a>
+          </div>
+        {% endfor %}
+      </div>
+      <!-- Add Arrows -->
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+  </div>
+</section>
+
+<style>
+  .ptitle{
+    padding-block:15px;
+  }
+  .pprice{
+    font-weight:bold;
+  }
+    .recommend-section {
+      padding: 2rem;
+    }
+      .recommend-info p{
+        margin-bottom:0;
+      }
+      .recommend-heading {
+      font-family: Room205;
+      text-transform: capitalize;
+      font-size: 40px;
+      text-align: left;
+      margin-bottom: 1rem;
+    }
+
+    .recommend-product {
+      text-align: center;
+      margin-bottom: 1rem;
+      display: block; /* make the link block-level */
+    }
+
+    .recommend-product img {
+      max-width: 100%;
+      object-fit: cover;
+      height: auto;
+    }
+
+    /* Swiper Navigation Styles */
+    .swiper-button-next, .swiper-button-prev {
+      color: black;
+    }
+
+  .swiper-button-next, .swiper-button-prev {
+      background-image: none;
+      background-color: white; /* White background */
+      border-radius: 50%; /* Makes it circular */
+      width: 40px; /* Adjust as needed */
+      height: 40px; /* Adjust as needed */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow */
+  }
+
+  .swiper-button-next::after, .swiper-button-prev::after {
+      font-size: 20px; /* Adjust arrow size */
+      color: black; /* Black arrow */
+      background-image: none; /* Removes the default arrow image */
+  }
+
+    @media(max-width:768px){
+      .recommend-heading {
+        font-size: 26px;
+      }
+      .swiper-button-next::after, .swiper-button-prev::after{
+        font-size:16px;
+      }
+      .swiper-button-next, .swiper-button-prev{
+        display:none;
+      }
+    }
+</style>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    new Swiper('.recommend-swiper', {
+      loop: true,
+      slidesPerView: 2.5,
+      spaceBetween: 5,
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      breakpoints: {
+        768: {
+          slidesPerView: {{ section.settings.slides_per_view }}
+        }
+      }
+    });
+  });
+</script>
+
+{% schema %}
+{
+  "name": "New Products Sliders",
+  "settings": [
+    {
+      "type": "text",
+      "id": "section_heading",
+      "label": "Section Heading",
+      "default": "You May Also Like"
+    },
+    {
+      "type": "range",
+      "id": "slides_per_view",
+      "label": "Slides Per View",
+      "min": 1,
+      "max": 5,
+      "step": 1,
+      "default": 3
+    }
+  ],
+  "blocks": [
+    {
+      "type": "product_block",
+      "name": "Product Block",
+      "settings": [
+        {
+          "type": "product",
+          "id": "selected-product",
+          "label": "Select Products"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "New Products Sliders",
+      "category": "Custom"
+    }
+  ]
+}
+{% endschema %}

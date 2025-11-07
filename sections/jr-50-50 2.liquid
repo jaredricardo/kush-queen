@@ -1,0 +1,313 @@
+{% style %}
+
+    [data-section-id="{{ section.id }}"] {
+        background-color: {{ section.settings.background_color }};
+    }
+
+    {% for block in section.blocks %}
+        {% case block.type %}
+            {% when 'h2' %}
+                [data-section-id="{{ section.id }}"] h2 {
+                    font-size: {{ block.settings.font_size_d }}px;
+                    font-family: "{{ block.settings.font_family }}";
+                }
+                @media screen and (max-width: 768px) {
+                    [data-section-id="{{ section.id }}"] h2 {
+                        font-size: {{ block.settings.font_size_m }}px;
+                    }
+                }
+            {% when 'h3' %}
+                [data-section-id="{{ section.id }}"] h3 {
+                    font-size: {{ block.settings.font_size_d }}px;
+                    font-family: "{{ block.settings.font_family }}";
+                }
+                @media screen and (max-width: 768px) {
+                    [data-section-id="{{ section.id }}"] h3 {
+                        font-size: {{ block.settings.font_size_m }}px;
+                    }
+                }
+            {% when 'p' %} 
+                [data-section-id="{{ section.id }}"] p {
+                    font-family: "{{ block.settings.font_family }}";
+                }
+            {% when 'button' %} 
+                [data-section-id="{{ section.id }}"] a {
+                    font-family: "{{ block.settings.font_family }}";
+                }
+        {% endcase %}
+
+    {% endfor %}
+
+{% endstyle %}
+
+<div data-section-id="{{ section.id }}">
+    <div class="jr-5050 jr-padding {{ section.settings.col_order }} page-width-2">
+        <div class="col {{ section.settings.text_alignment }} content-area">
+            {% for block in section.blocks %}
+                {% case block.type %}
+                    {% when 'h2' %}
+                        <h2>{{ block.settings.h2 }}</h2>
+                    {% when 'h3' %}
+                        <h3>{{ block.settings.h3 }}</h3>
+                    {% when 'p' %}
+                        <p>{{ block.settings.p }}</p>
+                    {% when 'button' %}
+                        <a 
+                            class="cta-btn" 
+                            style="color: {{ block.settings.button_text_color }}; background-color: {{ block.settings.button_bg_color }} " 
+                            href="{{ block.settings.button_url }}"
+                            >
+                            {{ block.settings.button_text }}
+                        </a>
+                {% endcase %}
+            {% endfor %}
+        </div>
+        <div class="col">
+            {{ section.settings.image | image_url: width: 700 | image_tag: widths: '390, 460, 768, 981, 1080, 1440', height: 'auto', alt: section.settings.image.alt | default: '' | escape }}
+        </div>
+    </div>
+</div>
+
+{% schema %}
+{
+  "name": "JR 50/50",
+  "settings": [
+    {
+        "type": "color",
+        "id": "background_color",
+        "label": "Background Color",
+        "default": "#ffffff"
+    },
+    {
+        "type": "select",
+        "id": "col_order",
+        "label": "Column Order",
+        "default": "",
+        "options": [
+            {
+                "value": "reverse",
+                "label": "Image First"
+            },
+            {
+                "value": "",
+                "label": "Image Second"
+            }
+        ]
+    },
+    {
+        "type": "select",
+        "id": "text_alignment",
+        "label": "Text Alignment",
+        "default": "center-aligned",
+        "options": [
+            {
+                "value": "left-aligned",
+                "label": "Left Aligned"
+            },
+            {
+                "value": "center-aligned",
+                "label": "Center Aligned"
+            },
+            {
+                "value": "right-aligned",
+                "label": "Right Aligned"
+            }
+        ]
+    },
+    {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Section Image"
+    }
+  ],
+  "blocks": [
+    {
+        "type": "h2",
+        "name": "H2",
+        "settings": [
+            {
+                "type": "richtext",
+                "id": "h2",
+                "label": "H2 Text"
+            },
+            {
+                "type": "range",
+                "min": 12,
+                "max": 48,
+                "step": 2,
+                "id": "font_size_d",
+                "label": "Font Size Desktop",
+                "default": 24    
+            },
+            {
+                "type": "range",
+                "min": 10,
+                "max": 32,
+                "step": 2,
+                "id": "font_size_m",
+                "label": "Font Size Mobile",
+                "default": 14
+            },
+            {
+                "type": "select",
+                "id": "font_family",
+                "label": "Font Family",
+                "default": "Eina03",
+                "options": [
+                {
+                    "label": "Room205",
+                    "value": "Room205"
+                }, {
+                    "label": "Gotham",
+                    "value": "Gotham"
+                }, {
+                    "label": "Gotham Bold",
+                    "value": "Gotham-bold"
+                }, {
+                    "label": "Eina03",
+                    "value": "Eina03"
+                }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "h3",
+        "name": "H3",
+        "settings": [
+            {
+                "type": "richtext",
+                "id": "h3",
+                "label": "H3 Text"
+            },
+            {
+                "type": "range",
+                "min": 12,
+                "max": 48,
+                "step": 2,
+                "id": "font_size_d",
+                "label": "Font Size Desktop",
+                "default": 24    
+            },
+            {
+                "type": "range",
+                "min": 10,
+                "max": 32,
+                "step": 2,
+                "id": "font_size_m",
+                "label": "Font Size Mobile",
+                "default": 14
+            },
+            {
+                "type": "select",
+                "id": "font_family",
+                "label": "Font Family",
+                "default": "Eina03",
+                "options": [
+                {
+                    "label": "Room205",
+                    "value": "Room205"
+                }, {
+                    "label": "Gotham",
+                    "value": "Gotham"
+                }, {
+                    "label": "Gotham Bold",
+                    "value": "Gotham-bold"
+                }, {
+                    "label": "Eina03",
+                    "value": "Eina03"
+                }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "p",
+        "name": "Paragraph",
+        "settings": [
+            {
+                "type": "richtext",
+                "id": "p",
+                "label": "Paragraph Text"
+            },
+            {
+                "type": "select",
+                "id": "font_family",
+                "label": "Font Family",
+                "default": "Eina03",
+                "options": [
+                {
+                    "label": "Room205",
+                    "value": "Room205"
+                }, {
+                    "label": "Gotham",
+                    "value": "Gotham"
+                }, {
+                    "label": "Gotham Bold",
+                    "value": "Gotham-bold"
+                }, {
+                    "label": "Eina03",
+                    "value": "Eina03"
+                }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "button",
+        "name": "Button",
+        "settings": [
+            {
+                "type": "text",
+                "id": "button_text",
+                "label": "button text",
+                "default": "Click Me"
+            },
+            {
+                "type": "url",
+                "id": "button_url",
+                "label": "Button url"
+            },
+            {
+                "type": "color",
+                "id": "button_bg_color",
+                "label": "Button Background Color",
+                "default": "#000000"    
+            },
+            {
+                "type": "color",
+                "id": "button_text_color",
+                "label": "Button Text Color",
+                "default": "#ffffff"
+            },
+            {
+                "type": "select",
+                "id": "font_family",
+                "label": "Font Family",
+                "default": "Eina03",
+                "options": [
+                {
+                    "label": "Room205",
+                    "value": "Room205"
+                }, {
+                    "label": "Gotham",
+                    "value": "Gotham"
+                }, {
+                    "label": "Gotham Bold",
+                    "value": "Gotham-bold"
+                }, {
+                    "label": "Eina03",
+                    "value": "Eina03"
+                }
+                ]
+            }
+        ]
+    }
+  ],
+  "presets": [
+    {
+        "name": "50/50"
+    }
+  ]
+}
+{% endschema %}

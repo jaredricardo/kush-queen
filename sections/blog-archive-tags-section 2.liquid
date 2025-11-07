@@ -1,0 +1,104 @@
+
+
+<div class="wrapper-sidebar">
+ <h4 class="title">Archive</h4>
+  
+  <ul class="nav">
+    {% assign archive = section.settings.archive_tag | split: ',' %}
+    {% for archive-tag in archive %}
+{%- comment -%} Wholesale_Club_Product_Visibility_For_Loop Start {%- endcomment -%}
+{%- capture hide_resource -%}{% render "wc_product_visibility", resource: archive-tag %}{%- endcapture -%}
+{%- if hide_resource == "true" -%}
+  {% continue %}
+{%- endif -%}
+{%- comment -%} Wholesale_Club_Product_Visibility_For_Loop End {%- endcomment -%}
+
+  <li>
+      <label class="check">
+        {{ archive-tag}}
+      </label>
+    </li>
+    {% endfor %}
+    
+  </ul>
+  
+  {% comment %}{% assign c = 0 %} 
+  {% for t in blog.all_tags %}
+{%- comment -%} Wholesale_Club_Product_Visibility_For_Loop Start {%- endcomment -%}
+{%- capture hide_resource -%}{% render "wc_product_visibility", resource: t %}{%- endcapture -%}
+{%- if hide_resource == "true" -%}
+  {% continue %}
+{%- endif -%}
+{%- comment -%} Wholesale_Club_Product_Visibility_For_Loop End {%- endcomment -%}
+
+  {% capture cat %}{{ cat }}{% capture temp_cat %}{% if t contains '_' %}{% assign cat_grp = t | split: '_' %}{{ cat_grp.first }}{% endif %}{% endcapture %}{% unless cat contains temp_cat %}{% if t contains '_' %}{% assign new_cat_grp = t | split: '_' %}{{ new_cat_grp.first }}{% endif %}{% unless forloop.last %}+{% endunless %}{% assign c = c | plus: 1 %}{% endunless %}{% endcapture %}
+  {% endfor %}
+
+  {% assign cat_array = 'Archive' | split: '+' %}
+
+  {% for i in cat_array %}
+{%- comment -%} Wholesale_Club_Product_Visibility_For_Loop Start {%- endcomment -%}
+{%- capture hide_resource -%}{% render "wc_product_visibility", resource: i %}{%- endcapture -%}
+{%- if hide_resource == "true" -%}
+  {% continue %}
+{%- endif -%}
+{%- comment -%} Wholesale_Club_Product_Visibility_For_Loop End {%- endcomment -%}
+
+  {% if i == 'Archive' %}
+  <h4 class="title">{{ i }}</h4>
+  {% endif %}
+  {% endfor %}
+  <ul class="nav">
+    {% for i in cat_array %}
+{%- comment -%} Wholesale_Club_Product_Visibility_For_Loop Start {%- endcomment -%}
+{%- capture hide_resource -%}{% render "wc_product_visibility", resource: i %}{%- endcapture -%}
+{%- if hide_resource == "true" -%}
+  {% continue %}
+{%- endif -%}
+{%- comment -%} Wholesale_Club_Product_Visibility_For_Loop End {%- endcomment -%}
+
+    {% unless i == '' %}
+    {% for t in blog.all_tags %}
+{%- comment -%} Wholesale_Club_Product_Visibility_For_Loop Start {%- endcomment -%}
+{%- capture hide_resource -%}{% render "wc_product_visibility", resource: t %}{%- endcapture -%}
+{%- if hide_resource == "true" -%}
+  {% continue %}
+{%- endif -%}
+{%- comment -%} Wholesale_Club_Product_Visibility_For_Loop End {%- endcomment -%}
+
+    {% if t contains i %}
+    {% if current_tags contains t %}
+    <li>
+      <label class="check">
+        {{ t | remove: i | remove: '_' | link_to_remove_tag: t }}
+      </label>
+    </li>
+    {% else %}
+    <li>
+      <label class="check">
+        {{ t | remove: i | remove: '_' | link_to_tag: t }}
+      </label>
+    </li>
+    {% endif %}
+    {% endif %}
+    {% endfor %}
+    {% endunless %}
+    {% endfor %}
+  </ul>{% endcomment %}
+</div>
+
+
+
+{% schema %}
+{
+"name": "Archive Tag",
+"settings": [
+
+{
+   "type": "textarea",
+   "id": "archive_tag",
+   "label": "Archive Tag"
+}
+]
+}
+{% endschema %}

@@ -1,0 +1,52 @@
+<section class="privacy-policy">
+  <div class="page-width">
+    <div class="privacy-contant">
+      {% for block in section.blocks %}
+{%- comment -%} Wholesale_Club_Product_Visibility_For_Loop Start {%- endcomment -%}
+{%- capture hide_resource -%}{% render "wc_product_visibility", resource: block %}{%- endcapture -%}
+{%- if hide_resource == "true" -%}
+  {% continue %}
+{%- endif -%}
+{%- comment -%} Wholesale_Club_Product_Visibility_For_Loop End {%- endcomment -%}
+
+      <div class="privacy-info">
+        <h2>{{ block.settings.sec_heading }}</h2>
+        <p>{{ block.settings.large_text }}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+{% schema %}
+  {
+  "name": "Privacy Section",
+  "settings": [
+   {
+    "id": "privacy_title",
+    "type": "text",
+    "label": "Title"			
+   }
+
+ ],
+    "blocks": [
+    {
+    "type": "select",
+    "name": "privacy Content",
+    "settings": [
+    {
+    "id": "sec_heading",
+    "type": "text",
+    "label": "Title"
+    },
+    {
+    "id": "large_text",
+    "type": "html",
+    "label": "Text"          
+    }
+   ]   
+  }
+ ]
+}
+{% endschema %}
+
