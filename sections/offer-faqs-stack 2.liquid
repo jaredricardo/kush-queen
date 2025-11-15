@@ -1,0 +1,296 @@
+{% schema %}
+{
+  "name": "Offer FAQs",
+  "tag": "section",
+  "class": "stack_faq-section",
+  "settings": [
+    {
+      "type": "select",
+      "id": "max_width",
+      "label": "Max Width Container",
+      "options": [
+        { "value": "default", "label": "Default" },
+        { "value": "narrow", "label": "Narrow (800px)" },
+        { "value": "wide", "label": "Wide (1200px)" },
+        { "value": "full", "label": "Full Width" }
+      ],
+      "default": "default"
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Frequently Asked Questions"
+    },
+    {
+      "type": "text",
+      "id": "subheading",
+      "label": "Subheading",
+      "default": "Got questions? We've got answers."
+    },
+    {
+      "type": "select",
+      "id": "icon_style",
+      "label": "Toggle Icon Style",
+      "options": [
+        { "value": "chevron", "label": "Chevron" },
+        { "value": "plusminus", "label": "Plus / Minus" }
+      ],
+      "default": "chevron"
+    },
+    {
+      "type": "header",
+      "content": "Typography"
+    },
+    {
+      "type": "range",
+      "id": "heading_font_size_desktop",
+      "label": "Heading Font Size (Desktop)",
+      "min": 20,
+      "max": 60,
+      "unit": "px",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "heading_font_size_mobile",
+      "label": "Heading Font Size (Mobile)",
+      "min": 16,
+      "max": 40,
+      "unit": "px",
+      "default": 24
+    },
+    {
+      "type": "select",
+      "id": "heading_alignment",
+      "label": "Text Alignment",
+      "options": [
+        { "value": "left", "label": "Left" },
+        { "value": "center", "label": "Center" },
+        { "value": "right", "label": "Right" }
+      ],
+      "default": "center"
+    },
+    {
+      "type": "range",
+      "id": "faq_question_size_desktop",
+      "label": "FAQ Question Font Size (Desktop)",
+      "min": 14,
+      "max": 28,
+      "unit": "px",
+      "default": 20
+    },
+    {
+      "type": "range",
+      "id": "faq_question_size_mobile",
+      "label": "FAQ Question Font Size (Mobile)",
+      "min": 12,
+      "max": 24,
+      "unit": "px",
+      "default": 16
+    },
+    {
+      "type": "range",
+      "id": "faq_answer_size",
+      "label": "FAQ Answer Font Size",
+      "min": 12,
+      "max": 24,
+      "unit": "px",
+      "default": 16
+    },
+    {
+      "type": "header",
+      "content": "Colors"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background Color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "heading_color",
+      "label": "Heading Text Color",
+      "default": "#111111"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "FAQ Text Color",
+      "default": "#333333"
+    },
+    {
+      "type": "color",
+      "id": "icon_color",
+      "label": "Icon Color",
+      "default": "#000000"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "faq",
+      "name": "FAQ",
+      "settings": [
+        {
+          "type": "text",
+          "id": "question",
+          "label": "Question",
+          "default": "What is your return policy?"
+        },
+        {
+          "type": "textarea",
+          "id": "answer",
+          "label": "Answer",
+          "default": "We accept returns within 30 days of purchase with proof of receipt."
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Offer FAQ"
+    }
+  ]
+}
+{% endschema %}
+
+<style>
+  .stack_faq-section {
+    background-color: {{ section.settings.background_color }};
+    padding: 40px 20px;
+    color: {{ section.settings.text_color }};
+  }
+
+  .stack_faq-title {
+    color: {{ section.settings.heading_color }};
+    text-align: {{ section.settings.heading_alignment }};
+    font-size: {{ section.settings.heading_font_size_desktop }}px;
+    font-weight: 700;
+    text-transform: math-auto;
+    font-family: 'Room205';
+  }
+
+   .stack_width_container {
+      margin: 0 auto;
+      width: 100%;
+    }
+    .stack_width_container.default {
+      max-width: 1000px;
+    }
+    .stack_width_container.narrow {
+      max-width: 800px;
+    }
+    .stack_width_container.wide {
+      max-width: 1200px;
+    }
+    .stack_width_container.full {
+      max-width: 100%;
+    }
+  @media screen and (max-width: 768px) {
+    .stack_faq-title {
+      font-size: {{ section.settings.heading_font_size_mobile }}px;
+    }
+  }
+
+  .stack_faq-subtitle {
+    color: {{ section.settings.text_color }};
+    text-align: {{ section.settings.heading_alignment }};
+    margin-bottom: 30px;
+  }
+
+  .stack_faq-item {
+    border-bottom: 1px solid #ccc;
+    padding: 15px 0;
+    cursor: pointer;
+  }
+  .stack_faq-question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: {{ section.settings.faq_question_size_desktop }}px;
+  }
+  @media screen and (max-width: 768px) {
+    .stack_faq-question {
+      font-size: {{ section.settings.faq_question_size_mobile }}px;
+    }
+  }
+  .stack_faq-icon {
+    width: 14px;
+    height: 20px;
+    fill: {{ section.settings.icon_color }};
+    transition: transform 0.3s ease;
+  }
+  .stack_faq-answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease, padding 0.3s ease;
+    font-size: {{ section.settings.faq_answer_size }}px;
+  }
+  .stack_faq-item.active .stack_faq-answer {
+    padding-top: 10px;
+    max-height: 200px;
+  }
+  .stack_faq-item.active .stack_faq-icon.chevron {
+    transform: rotate(180deg);
+  }
+</style>
+
+<div class="stack_faq-wrapper">
+  <h2 class="stack_faq-title">{{ section.settings.heading }}</h2>
+  <div class="stack_faq-subtitle">{{ section.settings.subheading }}</div>
+
+  <div class="stack_width_container {{ section.settings.max_width }}">
+    {% for block in section.blocks %}
+      <div class="stack_faq-item">
+        <div class="stack_faq-question">
+          <span>{{ block.settings.question }}</span>
+          <span class="stack_faq-icon-wrapper">
+            {% if section.settings.icon_style == 'chevron' %}
+              <svg class="stack_faq-icon chevron" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path d="M0 7.33l2.829-2.83 9.175 9.339 9.167-9.339 2.829 2.83-11.996 12.17z"/>
+              </svg>
+            {% else %}
+              <svg class="stack_faq-icon plus" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path d="M11 11H3.75a.75.75 0 0 0 0 1.5H11v7.25a.75.75 0 0 0 1.5 0V12.5h7.25a.75.75 0 0 0 0-1.5H12.5V3.75a.75.75 0 0 0-1.5 0V11Z"/>
+              </svg>
+              <svg
+                class="stack_faq-icon minus"
+                style="display: none;"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+              >
+                <path d="M21 11.75a.75.75 0 0 0-.75-.75H3.75a.75.75 0 0 0 0 1.5h16.5a.75.75 0 0 0 .75-.75Z"/>
+              </svg>
+            {% endif %}
+          </span>
+        </div>
+        <div class="stack_faq-answer">{{ block.settings.answer }}</div>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+<script>
+  document.querySelectorAll('.stack_faq-item').forEach(item => {
+    const question = item.querySelector('.stack_faq-question');
+    const plusIcon = item.querySelector('.plus');
+    const minusIcon = item.querySelector('.minus');
+
+    question.addEventListener('click', () => {
+      const isActive = item.classList.contains('active');
+
+      item.classList.toggle('active');
+
+      if (plusIcon && minusIcon) {
+        if (!isActive) {
+          plusIcon.style.display = 'none';
+          minusIcon.style.display = 'inline';
+        } else {
+          plusIcon.style.display = 'inline';
+          minusIcon.style.display = 'none';
+        }
+      }
+    });
+  });
+</script>

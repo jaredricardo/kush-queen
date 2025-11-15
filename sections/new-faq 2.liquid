@@ -1,0 +1,146 @@
+<section class="new-faq_section page-width-2">
+  <div class="page-width-2">
+    <h2>{{ section.settings.faq_title }}</h2>
+    {% for block in section.blocks %}
+      {% if block.settings.answer != blank %}
+        <div class="new-faq_item">
+          <h3 class="new-faq_question" data-faq-toggle>
+            {{ block.settings.question }}
+            <span class="new-faq_toggle-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="9" viewBox="0 0 16 9" fill="none">
+                <path d="M1 1.10986L7.68635 7.32056L14.3726 1.10986" stroke="#929292" stroke-width="2" stroke-linejoin="round"/>
+              </svg>
+            </span>
+          </h3>
+          <div class="new-faq_answer">
+            {{ block.settings.answer }}
+          </div>
+          <hr class="new-faq_separator">
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+</section>
+
+{% stylesheet %}
+  .new-faq_section {
+    width: 100%;
+    max-width: 1700px;
+    margin-inline: auto;
+    padding-block: 6rem;
+  }
+  .new-faq_section h2{
+    color: #161616;
+    font-family: Room205;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    text-align:center;
+    margin-bottom: 3rem;
+        text-transform: none;
+  }
+  .new-faq_item {
+    position: relative;
+  }
+
+  .new-faq_question {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #191919;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22.5px;
+  }
+
+  .new-faq_toggle-icon svg {
+    transition: transform 0.3s ease;
+  }
+
+  .new-faq_answer {
+    display: none;
+    padding: 10px 0;
+  }
+
+  .new-faq_separator {
+    width: 100%;
+    height: 1px;
+    background-color: #929292;
+    margin-block: 2rem;
+  }
+
+  @media(max-width:768px){
+    .new-faq_section h2{
+      font-size: 28px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 34px;
+      text-align:left;
+    }
+    .new-faq_question{
+      font-size: 15px;
+    }
+  }
+{% endstylesheet %}
+
+{% javascript %}
+  document.addEventListener('DOMContentLoaded', function() {
+    const faqItems = document.querySelectorAll('.new-faq_item');
+
+    faqItems.forEach(item => {
+      const question = item.querySelector('.new-faq_question');
+      const answer = item.querySelector('.new-faq_answer');
+      const toggleIcon = item.querySelector('.new-faq_toggle-icon svg');
+
+      question.addEventListener('click', function() {
+        const isExpanded = answer.style.display === 'block';
+
+        answer.style.display = isExpanded ? 'none' : 'block';
+        toggleIcon.style.transform = isExpanded ? 'rotate(0deg)' : 'rotate(180deg)';
+      });
+    });
+  });
+{% endjavascript %}
+
+{% schema %}
+{
+  "name": "NEW FAQ",
+  "settings": [
+    {
+      "type": "text",
+      "id": "faq_title",
+      "label": "FAQ Title",
+      "default": "FAQ TITLE"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "faq_block",
+      "name": "FAQ Block",
+      "settings": [
+        {
+          "type": "text",
+          "id": "question",
+          "label": "Question",
+          "default": "Sample Question"
+        },
+        {
+          "type": "richtext",
+          "id": "answer",
+          "label": "Answer",
+          "default": "<p>Sample Answer</p>"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "NEW FAQ",
+      "category": "Custom"
+    }
+  ]
+}
+{% endschema %}

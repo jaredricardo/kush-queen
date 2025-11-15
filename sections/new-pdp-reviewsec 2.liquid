@@ -1,0 +1,129 @@
+<div class="page-width-2">
+  <div
+    class="yotpo yotpo-pictures-widget"
+    data-gallery-id="5e3300c4148e65303115501c"
+    data-product-id="{{ product.id }}"
+  ></div>
+</div>
+
+<div class="page-width-2">
+  <!--
+    div class="yotpo yotpo-main-widget" data-product-id="{{ product.id }}" data-name="{{ product.title | escape }}" data-url="{{ shop.url }}{{ product.url }}" data-image-url="{{ product.featured_image | product_img_url: 'large' |replace: '?', '%3F' | replace: '&','%26'}}" data-price="{{ WCProduct_VariantPrice | money_without_currency }}"
+    data-currency=“{{ shop.currency }}” data-appkey="dKvesHTcjQgVmwJ3VGeawU22APvpVQ5GVQEuI5WQ" data-description=“{{ product.description | escape }}“>
+    </div
+  -->
+  {% comment %} 
+    loaded in theme.liquid
+    <script src="https://widget.reviews.io/combined/dist.js?v1"></script> 
+  {% endcomment %}
+  <div id="ReviewsWidget"></div>
+  <script>
+    new ReviewsWidget('#ReviewsWidget', {
+        store: 'kush-queen',
+        widget: 'combined-widget',
+        options: {
+            types: 'product_review', // store_review,product_review,questions (choose what content you prefer to show in this widget)
+            per_page: 7, // Any number (set how many reviews/questions you want to show per page)
+
+            /* Product Reviews Settings */
+            product_review: {
+                sku: '{{ product.variants | map: "sku" | join: ";" }};{{ product.variants | map: "id" | join: ";" }}',  //Multiple SKU's seperated by semicolon
+                enable_write_review:true,
+                enable_smart_filters:true,
+                enable_rating_filters:true,
+                enable_toggle_filters:true,
+                enable_social_sharing:false,
+                enable_helpful:false,
+                enable_featured_review_photos:true,
+                enable_featured_social_photos:true,
+                show_mention_text:true,
+                show_dates:true,
+                show_replies:true,
+                show_avatars:true,
+                show_photos:true,
+                show_verify_status:true,
+                structured_data: {
+                   category: {{ product.type | json }},
+                   gtin12:"{{product.variants.first.barcode}}",
+                  url: "{{ shop.url }}{{ product.url }}",
+                  {%- if product.featured_image -%}
+                  		image: 'https:{{ product.featured_image | product_img_url: 'grande' }}',
+                  {%- endif -%}
+                  {% if variant.image %}
+                  {% assign variant_image_size = variant.image.width | append: 'x' %}
+                        image: "http:{{ variant.image.src | img_url: variant_image_size }}",
+                  {% endif %}
+
+                  description: "{{ product.description | strip_html | strip_newlines | escape }}",
+                  offers: [{
+            		  type: 'Offer',
+                      price: "{{ product.selected_or_first_available_variant.price | money_without_currency | replace : ',', '' }}",
+                      priceCurrency: "{{ shop.currency }}",
+                      url: "{{ shop.url }}{{ product.url }}",
+                      availability: "http://schema.org/{% if product.available %}InStock{% else %}OutOfStock{% endif %}",
+                      priceValidUntil: "{{ "now" | date: "%s" | plus: 2592000 | date: "%Y-%m-%-d" }}",
+                  }],
+                  brand: {
+                    type: 'Brand',
+                    name: '{{ product.vendor | escape }}',
+                  },
+              }
+
+
+            },
+
+        },
+
+        /* Customise Colours & Fonts */
+        styles: {
+            starColor:'#f47e27',
+            textColor:'#333333',
+            primaryColor:'#333333',
+            textColor:'#666666',
+            neutralColor:'#ececec',
+            backgroundColor:'#ffffff',
+            formColor:'#dcdcdc',
+            baseTextSize:'14px',
+            header_style:''
+        },
+
+        /* Customise Buttons */
+        buttons:{
+            smart_filter:'solid',
+            write_review:'solid',
+            selected_page:'outline'
+        },
+
+        /* Avatar Settings */
+        avatars:{
+            enable_gravatar:false,
+            gravatar_fallback:'identicon'
+        },
+
+        /* Other Options*/
+        reviewsLogo:{
+            show_logo:true,
+            style:'black'
+        }
+
+    });
+  </script>
+</div>
+{% schema %}
+ {
+   "name": "NEW PDP REVIEW SECTION",
+   "settings": [
+],
+   "presets": [
+     {
+       "name": "NEW PDP REVIEW SECTION"
+     }
+   ]
+ }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

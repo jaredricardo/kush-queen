@@ -1,0 +1,145 @@
+<style>
+  .new-icons-section {
+    display: grid;
+    text-align: center;
+    align-items: start;
+    position: relative;
+  }
+
+  .new-icons-section .new-icons_container {
+    position: relative;
+    padding-inline: 3rem;
+  }
+
+  .new-icons-section div:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #e0e0e0;
+    width: 1px;
+    height: 100%;
+    min-height: 285px;
+  }
+  .new-icons-section img {
+    padding-bottom: 30px;
+    height: 90px;
+  }
+  .new-icons-section span{
+    display:block;
+    font-family: Room205;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #222;
+    text-align: center;
+    padding-bottom: 25px;
+  }
+  .new-icons-section p {
+    color: #222;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 27px;
+  }
+
+  @media(max-width:768px){
+    .new-icons-section{
+      grid-template-columns: 1fr !important;
+      padding-inline: 3rem;
+      align-items: center;
+    }
+    .new-icons-section .new-icons_container{
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      gap:3rem;
+      padding-block: 2rem;
+      padding-inline: unset;
+    }
+    .new-icons-section span,
+    .new-icons-section p {
+      text-align:left;
+    }
+    .new-icons-section span{
+      font-size: 28px;
+    }
+    .new-icons-section p{
+      font-size: 15px;
+    }
+    .new-icons-section img{
+      max-width:40px;
+      height: auto;
+    }
+    .new-icons-section .new-icons_container:not(:last-child)::after {
+      width: 100%;
+      min-height: unset;
+      height: 1px;
+      bottom: 0;
+      right: auto;
+      top:auto;
+    }
+  }
+</style>
+
+{% schema %}
+{
+  "name": "New Icons Section",
+  "max_blocks": 3,
+  "blocks": [
+    {
+      "type": "icon_block",
+      "name": "Icon Block",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "icon_image",
+          "label": "Upload Image"
+        },
+        {
+          "type": "text",
+          "id": "icon_title",
+          "label": "Enter Title for Image",
+          "default": "Title Text"
+        },
+        {
+          "type": "richtext",
+          "id": "icon_text",
+          "label": "Enter Text for Image",
+          "default": "<p>Description Text</p>"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Default",
+      "category": "Icons"
+    }
+  ]
+}
+{% endschema %}
+
+{% javascript %}
+{% endjavascript %}
+<div class="page-width-2">
+  <div class="new-icons-section" style="grid-template-columns: repeat({{ section.blocks.size }}, 1fr);">
+    {% for block in section.blocks %}
+      <div class="new-icons_container">
+        {% assign image = block.settings.icon_image %}
+        {% if image == blank %}
+          {% assign image_url = 'http://placehold.it/70x70' %}
+        {% else %}
+          {% assign image_url = image | img_url: '70x' %}
+        {% endif %}
+        <img src="{{ image_url }}" alt="{{ block.settings.icon_title }}">
+        <div class="new-icons_txt">
+          <span>{{ block.settings.icon_title }}</span>
+          {{ block.settings.icon_text }}
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>

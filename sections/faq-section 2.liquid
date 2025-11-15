@@ -1,0 +1,94 @@
+
+<section class="accordion-section sec-space-bottom">
+  <div class="accordion-width">
+    <div class="page-width">
+  <div class="grid">
+    <div class="grid__item medium-up--five-sixths medium-up--push-one-twelfth">
+    <div id="accordion" class="accordion-container">
+
+      {% for block in section.blocks %}
+
+      {%- comment -%} Wholesale_Club_Product_Visibility_For_Loop Start {%- endcomment -%}
+      {%- capture hide_resource -%}{% render "wc_product_visibility", resource: block %}{%- endcapture -%}
+      {%- if hide_resource == "true" -%}
+        {% continue %}
+      {%- endif -%}
+      {%- comment -%} Wholesale_Club_Product_Visibility_For_Loop End {%- endcomment -%}
+
+
+      <article class="content-entry">
+        
+        <h4 class="article-title"><i class="fa fa-plus" aria-hidden="true"></i>{{ block.settings.question }}</h4>
+        
+        <div class="accordion-content">        
+          {{ block.settings.answer }}       
+        </div>        
+       <!--/.accordion-content-->         
+        
+      </article>
+      
+      {% endfor %}
+
+    </div>   
+    </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "FAQ Blocks",
+  "settings": [],
+  "blocks": [
+    {
+      "type": "select",
+      "name": "FAQ Content",
+      "settings": [
+        {
+          "id": "question",
+          "type": "text",
+       		"label": "Title"
+        },
+        {
+          "id": "answer",
+          "type": "html",
+          "label": "Answer"          
+        }
+      ]
+    }
+  ]
+
+}
+{% endschema %}
+
+
+<script>
+  /*----------------FAQ accordion------------------*/
+
+  var Accordion = function(el, multiple) {
+    this.el = el || {};
+    this.multiple = multiple || false;
+
+    var links = this.el.find('.article-title');
+    links.on('click', {
+      el: this.el,
+      multiple: this.multiple
+    }, this.dropdown)
+  }
+
+  Accordion.prototype.dropdown = function(e) {
+    var $el = e.data.el;
+    $this = $(this),
+      $next = $this.next();
+
+    $next.slideToggle();
+    $this.parent().toggleClass('open');
+
+    if (!e.data.multiple) {
+      $el.find('.accordion-content').not($next).slideUp().parent().removeClass('open');
+    };
+  }
+  var accordion = new Accordion($('.accordion-container'), false);
+
+</script>

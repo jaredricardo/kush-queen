@@ -426,7 +426,7 @@ $z-index-announcement-bar: 10;
 $z-index-skip-to-content: 10000; // really high to be safe of app markup
 
 /*================ SVG ================*/
-$svg-select-icon: #{'//kushqueen.shop/cdn/shop/t/126/assets/ico-select.svg?v=146038610840559294621718300443'};
+$svg-select-icon: #{'//kushqueen.shop/cdn/shop/t/159/assets/ico-select.svg?v=146038610840559294621762288785'};
 
 /*================ Drawers ================*/
 $transition-drawer: all 0.45s cubic-bezier(0.29, 0.63, 0.44, 1);
@@ -444,16 +444,16 @@ $color-slideshow-dots: #fff;
   font-family: "Work Sans";
   font-weight: 600;
   font-style: normal;
-  src: url("//kushqueen.shop/cdn/fonts/work_sans/worksans_n6.136d99375282ffb6ea8c3dc4a8fe189c7be691b2.woff2?h1=a3VzaHF1ZWVuLnNob3A&h2=a3VzaC1xdWVlbi1zaG9wLmFjY291bnQubXlzaG9waWZ5LmNvbQ&h3=a3VzaHF1ZWVuY2FubmFiaXMuY29t&hmac=4d454b6583fc6da92599d2f7654b4a690fe64dd26efbe63c1d045cdb6170e38f") format("woff2"),
-       url("//kushqueen.shop/cdn/fonts/work_sans/worksans_n6.399ae4c4dd52d38e3f3214ec0cc9c61a0a67ea08.woff?h1=a3VzaHF1ZWVuLnNob3A&h2=a3VzaC1xdWVlbi1zaG9wLmFjY291bnQubXlzaG9waWZ5LmNvbQ&h3=a3VzaHF1ZWVuY2FubmFiaXMuY29t&hmac=02e6fbf0c23f631a9a0fabae9f073a2fa6122e04f32cb94dbf7ebe3e313ae553") format("woff");
+  src: url("//kushqueen.shop/cdn/fonts/work_sans/worksans_n6.75811c3bd5161ea6e3ceb2d48ca889388f9bd5fe.woff2") format("woff2"),
+       url("//kushqueen.shop/cdn/fonts/work_sans/worksans_n6.defcf26f28f3fa3df4555714d3f2e0f1217d7772.woff") format("woff");
 }
 
 @font-face {
   font-family: "Work Sans";
   font-weight: 400;
   font-style: normal;
-  src: url("//kushqueen.shop/cdn/fonts/work_sans/worksans_n4.29e3afeb38a0ba35e784cf169a40e8beaf814daa.woff2?h1=a3VzaHF1ZWVuLnNob3A&h2=a3VzaC1xdWVlbi1zaG9wLmFjY291bnQubXlzaG9waWZ5LmNvbQ&h3=a3VzaHF1ZWVuY2FubmFiaXMuY29t&hmac=a1a1ef9096551122c04f5ad8efaa689db262a2509f44ed29d7041546b1daf72c") format("woff2"),
-       url("//kushqueen.shop/cdn/fonts/work_sans/worksans_n4.e7c533c4afbed28070f6ac45dbcfe6f37840c0a8.woff?h1=a3VzaHF1ZWVuLnNob3A&h2=a3VzaC1xdWVlbi1zaG9wLmFjY291bnQubXlzaG9waWZ5LmNvbQ&h3=a3VzaHF1ZWVuY2FubmFiaXMuY29t&hmac=d08cb92ab997e6696411451469254302c885c3dbe4bdc0cdca4dfbc4d367b483") format("woff");
+  src: url("//kushqueen.shop/cdn/fonts/work_sans/worksans_n4.b7973b3d07d0ace13de1b1bea9c45759cdbe12cf.woff2") format("woff2"),
+       url("//kushqueen.shop/cdn/fonts/work_sans/worksans_n4.cf5ceb1e6d373a9505e637c1aff0a71d0959556d.woff") format("woff");
 }
 
 
@@ -463,19 +463,33 @@ $color-slideshow-dots: #fff;
   font-family: "Work Sans";
   font-weight: 700;
   font-style: normal;
-  src: url("//kushqueen.shop/cdn/fonts/work_sans/worksans_n7.35eac55373d3da50c529c81066eb2f2f0fbedb82.woff2?h1=a3VzaHF1ZWVuLnNob3A&h2=a3VzaC1xdWVlbi1zaG9wLmFjY291bnQubXlzaG9waWZ5LmNvbQ&h3=a3VzaHF1ZWVuY2FubmFiaXMuY29t&hmac=09d1ea88690ee0d90e1a0901cf326ee1e518c837c480fb2637cb53b87f35c019") format("woff2"),
-       url("//kushqueen.shop/cdn/fonts/work_sans/worksans_n7.1b010d40a44f517d5363112c4aff386332758bc9.woff?h1=a3VzaHF1ZWVuLnNob3A&h2=a3VzaC1xdWVlbi1zaG9wLmFjY291bnQubXlzaG9waWZ5LmNvbQ&h3=a3VzaHF1ZWVuY2FubmFiaXMuY29t&hmac=599b2c637b209cb608041898910bb4a7250dce786bb4c28c64206e65fe8b5981") format("woff");
+  src: url("//kushqueen.shop/cdn/fonts/work_sans/worksans_n7.e2cf5bd8f2c7e9d30c030f9ea8eafc69f5a92f7b.woff2") format("woff2"),
+       url("//kushqueen.shop/cdn/fonts/work_sans/worksans_n7.20f1c80359e7f7b4327b81543e1acb5c32cd03cd.woff") format("woff");
 }
 
 @font-face {
   font-family: "Work Sans";
   font-weight: 700;
   font-style: normal;
-  src: url("//kushqueen.shop/cdn/fonts/work_sans/worksans_n7.35eac55373d3da50c529c81066eb2f2f0fbedb82.woff2?h1=a3VzaHF1ZWVuLnNob3A&h2=a3VzaC1xdWVlbi1zaG9wLmFjY291bnQubXlzaG9waWZ5LmNvbQ&h3=a3VzaHF1ZWVuY2FubmFiaXMuY29t&hmac=09d1ea88690ee0d90e1a0901cf326ee1e518c837c480fb2637cb53b87f35c019") format("woff2"),
-       url("//kushqueen.shop/cdn/fonts/work_sans/worksans_n7.1b010d40a44f517d5363112c4aff386332758bc9.woff?h1=a3VzaHF1ZWVuLnNob3A&h2=a3VzaC1xdWVlbi1zaG9wLmFjY291bnQubXlzaG9waWZ5LmNvbQ&h3=a3VzaHF1ZWVuY2FubmFiaXMuY29t&hmac=599b2c637b209cb608041898910bb4a7250dce786bb4c28c64206e65fe8b5981") format("woff");
+  src: url("//kushqueen.shop/cdn/fonts/work_sans/worksans_n7.e2cf5bd8f2c7e9d30c030f9ea8eafc69f5a92f7b.woff2") format("woff2"),
+       url("//kushqueen.shop/cdn/fonts/work_sans/worksans_n7.20f1c80359e7f7b4327b81543e1acb5c32cd03cd.woff") format("woff");
 }
 
+@font-face {
+  font-family: "Work Sans";
+  font-weight: 400;
+  font-style: italic;
+  src: url("//kushqueen.shop/cdn/fonts/work_sans/worksans_i4.16ff51e3e71fc1d09ff97b9ff9ccacbeeb384ec4.woff2") format("woff2"),
+       url("//kushqueen.shop/cdn/fonts/work_sans/worksans_i4.ed4a1418cba5b7f04f79e4d5c8a5f1a6bd34f23b.woff") format("woff");
+}
 
+@font-face {
+  font-family: "Work Sans";
+  font-weight: 700;
+  font-style: italic;
+  src: url("//kushqueen.shop/cdn/fonts/work_sans/worksans_i7.7cdba6320b03c03dcaa365743a4e0e729fe97e54.woff2") format("woff2"),
+       url("//kushqueen.shop/cdn/fonts/work_sans/worksans_i7.42a9f4016982495f4c0b0fb3dc64cf8f2d0c3eaa.woff") format("woff");
+}
 
 
 $font-weight-body--bold: 700;
@@ -541,7 +555,7 @@ $slick-opacity-not-active: 0.25;
 
 // Only called once so make sure proper file is grabbed
 @function slick-image-url($url) {
-  @return url(//kushqueen.shop/cdn/shop/t/126/assets/ajax-loader.gif?v=33598582663527714551718300268);
+  @return url(//kushqueen.shop/cdn/shop/t/159/assets/ajax-loader.gif?v=33598582663527714551762288587);
 }
 
 // Unused intentionally

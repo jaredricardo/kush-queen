@@ -1,0 +1,33 @@
+<section class="instagram">
+  <div class="page-width">
+    
+<div
+     class="yotpo yotpo-pictures-widget"
+     data-gallery-id="5e2aba4dea00342154697270">
+</div>
+    
+    
+    
+    {% comment %}{% if section.settings.insta_feed_sec != blank %}
+    {{section.settings.insta_feed_sec}}
+    {% endif %}
+  </div>{% endcomment %}
+</section>
+{% schema %}
+{
+"name": "Home instagram feed",
+"settings": [
+{
+"type": "html",
+"id": "insta_feed_sec",
+"label": "Add instagram html from app"
+}
+],
+"presets": [
+{
+"name": "Home instagram feed",
+"category": "Image"
+}
+]
+}
+{% endschema %}

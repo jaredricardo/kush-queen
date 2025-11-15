@@ -3252,11 +3252,6 @@
         "disabled": false,
         "settings": {}
       },
-      "10910696115237310528": {
-        "type": "shopify://apps/sticky-cart-slide-cart-drawer/blocks/slide-cart-app-embed/06f96c51-92d4-4ccf-8798-f65ef7359208",
-        "disabled": false,
-        "settings": {}
-      },
       "1291562577487733835": {
         "type": "shopify://apps/black-crow-ai-that-delivers/blocks/blackcrow_ai_script/3e73f597-cb71-47a1-8a06-0c931482ecd2",
         "disabled": false,
@@ -3311,6 +3306,23 @@
       "17790009454750450185": {
         "type": "shopify://apps/nofraud-fraud-protection/blocks/nf_device/5c2706cf-d458-49c5-a6fa-4fb6b79ce2b4",
         "disabled": false,
+        "settings": {}
+      },
+      "12572425388294658448": {
+        "type": "shopify://apps/upnova/blocks/cart-builder/790eb623-439a-447b-9042-d1ebd7062ab9",
+        "disabled": false,
+        "settings": {
+          "cart_width": "small",
+          "disable_cart_selectors": "",
+          "manual_initialize": false,
+          "load_flows_async": false,
+          "enable_market_specific_products": false,
+          "disable_form_listener": false
+        }
+      },
+      "10910696115237310528": {
+        "type": "shopify://apps/hs-slide-cart-drawer/blocks/slide-cart-app-embed/06f96c51-92d4-4ccf-8798-f65ef7359208",
+        "disabled": true,
         "settings": {}
       }
     }

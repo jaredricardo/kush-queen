@@ -1,0 +1,77 @@
+<section class="partner-with-us"> 
+  <div class="page-width">
+    <div class="partner-boxes">
+      <div class="grid">
+        {% for block in section.blocks %}
+{%- comment -%} Wholesale_Club_Product_Visibility_For_Loop Start {%- endcomment -%}
+{%- capture hide_resource -%}{% render "wc_product_visibility", resource: block %}{%- endcapture -%}
+{%- if hide_resource == "true" -%}
+  {% continue %}
+{%- endif -%}
+{%- comment -%} Wholesale_Club_Product_Visibility_For_Loop End {%- endcomment -%}
+
+        <div class="grid__item medium-up--one-whole partner-box">
+          <div class="partner-box-in"> 
+            <figure class="partner-img"> 
+              <a href="{{block.settings.img_link}}">
+                <img src="{{block.settings.partner_img | img_url: 'master'}}" alt="" /> 
+              </a> 
+            </figure>
+            <h4 class="text-center"> <a href="{{block.settings.title_link}}"> {{block.settings.partner_title}} </a> </h4>
+          </div>
+        </div>
+        {%endfor%}
+      </div>
+    </div>
+  </div>
+</section>  
+  
+{% schema %}
+
+{
+   "name": "Partner With Us",
+   "settings": [
+
+],
+
+
+  "blocks": [
+      {
+        "type": "queen",
+        "name": "Queen Box",
+        "settings": [
+          {
+            "id": "partner_img",
+            "type": "image_picker",
+            "label": "Partner Img"
+          },
+		{
+            "id": "img_link",
+            "type": "url",
+            "label": "Img Link"
+          },
+         {
+            "id": "partner_title",
+            "type": "text",
+            "label": "Partner Title"
+          },
+		{
+            "id": "title_link",
+            "type": "url",
+            "label": "Title Link"
+          } 
+
+
+        ]
+      }
+   ] 
+
+
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

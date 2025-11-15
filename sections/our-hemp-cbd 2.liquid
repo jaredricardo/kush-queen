@@ -1,0 +1,163 @@
+<section class="about">
+  <div class="meet-founder">
+    <div class="page-width">
+      <div class="meet-founder-inner">
+
+        <div class="founder-pic"  style="background-image:url('{{ section.settings.founder_pic | img_url: 'master' }}');">
+          {% if section.settings.logotxt != blank %}
+          <div class="founder-pic-info-left-bar banner-logo-div">
+            <img alt="Kush Queen logo" src="{{section.settings.logotxt | img_url:'master' }}" />
+          </div> 
+          {% endif %}
+          <div class="founder-pic-info contentwrap">
+            {% if section.settings.small_text != blank %}
+            <h6 role="none">{{section.settings.small_text}}</h6>
+            {% endif %}
+            {% if section.settings.large_text != blank %}
+            <h1 role="none">{{section.settings.large_text}}</h1>
+            {% endif %}
+            
+          </div>
+        </div>
+		
+        {% if section.settings.founder_info != blank %}
+        <div class="founder-info contentwrap">{{section.settings.founder_info}}</div>
+        {% endif %}
+      </div>
+      <div class="divider"></div>
+
+      <div class="single-banner">
+        {% if section.settings.add_banner != blank %}
+        <img src="{{ section.settings.add_banner |  img_url: "master"}}"  class="single-img" alt="add banner" />
+        {% endif %}
+      </div>
+
+    </div>
+  </div>
+  <div class="page-content-first">
+    <div class="page-width-2">
+        {{page.content | split:'<!-- split -->' | first }}
+    </div>  
+      <div class="page-width-2">
+        <div class="border-div">
+      		<ul class="colgrid grid grid--uniform">
+        {% for block in section.blocks %}
+{%- comment -%} Wholesale_Club_Product_Visibility_For_Loop Start {%- endcomment -%}
+{%- capture hide_resource -%}{% render "wc_product_visibility", resource: block %}{%- endcapture -%}
+{%- if hide_resource == "true" -%}
+  {% continue %}
+{%- endif -%}
+{%- comment -%} Wholesale_Club_Product_Visibility_For_Loop End {%- endcomment -%}
+
+          <li class="grid__item small--one-half medium-up--one-quarter">
+              <div class="colgrid item"> 
+                <div class="prod-wrap">
+                  <div class="microfull covermicroful">
+                    <div class="prod-img popup-gallery">
+                      {% if block.settings.banner_btm_img != blank %}
+					  <a class="img-effect" href="{{block.settings.banner_btm_img | img_url:'master'}}">
+                        <img class="first_img" alt="{{block.settings.banner_btm_img.alt}}" src="{{block.settings.banner_btm_img | img_url:'master'}}">
+                      </a>   
+                      {% endif %}
+                      
+
+                    
+                    </div>
+        
+                  </div>
+                </div>
+              </div>
+          </li>
+         {% endfor %}
+          
+     </ul>
+        </div>
+    </div>
+    <div class="page-width-2">
+        {{page.content | split:'<!-- split -->' | last }}
+    </div>  
+     <div class="community-inner margin-btn">
+              <a href="{{section.settings.get_btn_url}}">{{section.settings.get_btn}}</a>
+            </div>
+    
+  </div>
+  
+</section> 
+{% schema %}
+  {
+  "name": "Our Hemp CBD",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "founder_pic",
+      "label": "Founder Image"
+    },
+    {
+      "type": "text",
+      "id": "small_text",
+      "label": "Founder Caption"
+    },
+    {
+      "type": "text",
+      "id": "large_text",
+      "label": "Founder Title"
+    },
+    {
+      "type": "image_picker",
+      "id": "logotxt",
+      "label": "Banner Logo"
+    },
+ {
+        "type":"url",
+        "id":"get_btn_url",
+        "label":"Url"
+        },
+        {
+        "type":"text",
+        "id":"get_btn",
+        "label":"Button Text"
+        }
+  ],
+    "blocks":[
+	{
+	"type": "gallrey",
+    "name": "Gallary",
+	"settings":[
+		{
+        "type": "image_picker",
+        "id": "banner_btm_img",
+        "label": "Image"
+        }
+	]
+   }
+   ]
+}
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}
+
+<script>
+  $(document).ready(function() {
+	$('.popup-gallery').magnificPopup({
+		delegate: 'a',
+		type: 'image',
+		tLoading: 'Loading image #%curr%...',
+		mainClass: 'mfp-img-mobile',
+		gallery: {
+			enabled: true,
+			navigateByImgClick: true,
+			preload: [0,1] // Will preload 0 - before current, and 1 after the current image
+		},
+		image: {
+			tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
+			titleSrc: function(item) {
+				return item.el.attr('title') + '<small>by Marsel Van Oosten</small>';
+			}
+		}
+	});
+});
+</script>
