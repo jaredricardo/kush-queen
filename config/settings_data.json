@@ -3262,37 +3262,6 @@
         "disabled": false,
         "settings": {}
       },
-      "2296928500563504527": {
-        "type": "shopify://apps/abra-promotions/blocks/abra/daa1493a-23b5-48bb-8cb5-7ab1267b4642",
-        "disabled": false,
-        "settings": {
-          "popup_preview": true,
-          "popup_background_color": "#e8e9eb",
-          "popup_border_color": "#e8e9eb",
-          "popup_color": "#eb7025",
-          "popup_icon_color": "#eb7025",
-          "popup_border_radius": 4,
-          "popup_border_width": 1,
-          "popup_font_size": 14,
-          "popup_icon_size": 16,
-          "popup_padding_y": 16,
-          "popup_padding_x": 16,
-          "popup_placement": "bottom-center",
-          "popup_dismiss": "manual",
-          "popup_dismiss_delay": 5,
-          "announcement_bar_enabled": true,
-          "announcement_bar_background_color": "#119D52",
-          "announcement_bar_border_color": "#119D52",
-          "announcement_bar_color": "#FFFFFF",
-          "announcement_bar_icon_color": "#FFFFFF",
-          "announcement_bar_border_radius": 0,
-          "announcement_bar_font_size": 14,
-          "announcement_bar_icon_size": 16,
-          "announcement_bar_padding_y": 10,
-          "announcement_bar_padding_x": 10,
-          "sale_price_color": "#FF0000"
-        }
-      },
       "6251270934270006384": {
         "type": "shopify://apps/stape-server-gtm/blocks/gtm/7e13c847-7971-409d-8fe0-29ec14d5f048",
         "disabled": false,
@@ -3324,6 +3293,37 @@
         "type": "shopify://apps/hs-slide-cart-drawer/blocks/slide-cart-app-embed/06f96c51-92d4-4ccf-8798-f65ef7359208",
         "disabled": true,
         "settings": {}
+      },
+      "2296928500563504527": {
+        "type": "shopify://apps/abra-promotions/blocks/abra/daa1493a-23b5-48bb-8cb5-7ab1267b4642",
+        "disabled": false,
+        "settings": {
+          "popup_preview": false,
+          "popup_background_color": "#e8e9eb",
+          "popup_border_color": "#e8e9eb",
+          "popup_color": "#eb7025",
+          "popup_icon_color": "#eb7025",
+          "popup_border_radius": 4,
+          "popup_border_width": 1,
+          "popup_font_size": 14,
+          "popup_icon_size": 16,
+          "popup_padding_y": 16,
+          "popup_padding_x": 16,
+          "popup_placement": "bottom-center",
+          "popup_dismiss": "manual",
+          "popup_dismiss_delay": 5,
+          "announcement_bar_enabled": false,
+          "announcement_bar_background_color": "#119d52",
+          "announcement_bar_border_color": "#119d52",
+          "announcement_bar_color": "#ffffff",
+          "announcement_bar_icon_color": "#ffffff",
+          "announcement_bar_border_radius": 0,
+          "announcement_bar_font_size": 14,
+          "announcement_bar_icon_size": 16,
+          "announcement_bar_padding_y": 10,
+          "announcement_bar_padding_x": 10,
+          "sale_price_color": "#ff0000"
+        }
       }
     }
   },
