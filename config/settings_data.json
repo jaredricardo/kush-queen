@@ -1527,12 +1527,6 @@
           "get_btn": "Shop Now"
         }
       },
-      "new-product-template": {
-        "type": "new-product-template",
-        "settings": {
-          "show_share_buttons": true
-        }
-      },
       "product-recommendations": {
         "type": "product-recommendations",
         "blocks": {
@@ -2327,7 +2321,7 @@
           "icon": "shopify://shop_images/Vector.png",
           "subheading": "kush queen",
           "heading": "Elevating You Daily",
-          "description": "<p>Kush Queen delivers perfected wellness tools to elevate daily life.</p><p>Today, with over 55,000 customers we offer a range of daily solutions for wellness that address issues like sleep, stress, mood, relief, and pleasure.</p><p>When legacy status, a relentless commitment to the cannabis plant, and award winning products (that speak to everyone) come together, that’s Kush Queen.</p>"
+          "description": "<p>Kush Queen delivers perfected wellness tools to elevate daily life.</p><p>Today, with over 55,000 customers we offer a range of daily dp37hhqxhx3mdpfq solutions for wellness that address issues like sleep, stress, mood, relief, and pleasure.</p><p>When legacy status, a relentless commitment to the cannabis plant, and award winning products (that speak to everyone) come together, that’s Kush Queen.</p>"
         }
       },
       "8e1019d2-50f7-496a-8a48-7a24ee814bef": {
