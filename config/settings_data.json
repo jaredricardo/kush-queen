@@ -375,9 +375,9 @@
           "simple_link_iUkaie"
         ],
         "settings": {
-          "announcement_text": "CYBER MONDAY Sale 🚨",
+          "announcement_text": "Shop The Holiday 🎁",
           "announcement_cta_url": "https://kushqueen.shop/collections/holiday-gifiting",
-          "announcement_cta_text": "Shop 50% OFF",
+          "announcement_cta_text": "Gift Guide!",
           "head_site_link": "",
           "head_site_link_txt": "Kush Queen",
           "head_site_king_link": "",
@@ -2530,6 +2530,7 @@
       },
       "d76d763c-6c70-4fea-b4ad-4348f38cb70e": {
         "type": "sitewide-sale-announcement",
+        "disabled": true,
         "settings": {
           "text": "Shop 50% Off — Our Biggest Deal!"
         }
