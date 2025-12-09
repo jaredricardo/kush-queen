@@ -1379,6 +1379,14 @@
               "banner_btm_tp_text": "Sour Cherry THCa Flower *Private Reserve*",
               "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/SourCherryLab11-4-24.pdf?v=1732913784"
             }
+          },
+          "labtest_wPBeff": {
+            "type": "labtest",
+            "settings": {
+              "banner_btm_img": "shopify://shop_images/kush-queen-ingestibles-snickerdoodle-rosin-cookie-50mg-thc-1204451883.png",
+              "banner_btm_tp_text": "Snickerdoodle Rosin Cookie, 50mg",
+              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/Snickerdoodle_Rosin_Cookie_COA.pdf?v=1765239834"
+            }
           }
         },
         "block_order": [
@@ -1452,7 +1460,8 @@
           "labtest_QPxd7K",
           "labtest_GxYKJd",
           "labtest_bn6CzJ",
-          "labtest_x4JeEq"
+          "labtest_x4JeEq",
+          "labtest_wPBeff"
         ],
         "settings": {}
       },
