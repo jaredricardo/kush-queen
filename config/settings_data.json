@@ -1380,6 +1380,14 @@
               "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/SourCherryLab11-4-24.pdf?v=1732913784"
             }
           },
+          "labtest_CY8TKT": {
+            "type": "labtest",
+            "settings": {
+              "banner_btm_img": "shopify://shop_images/kush-queen-cbd-bath-bomb-let-s-get-baked-chocolate-chip-cookie-38528191332597.jpg",
+              "banner_btm_tp_text": "Chocolate Chip Rosin Cookie, 50mg",
+              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/Chocolate_Chip_Rosin_Cookie_COA.pdf?v=1765241779"
+            }
+          },
           "labtest_wPBeff": {
             "type": "labtest",
             "settings": {
@@ -1461,6 +1469,7 @@
           "labtest_GxYKJd",
           "labtest_bn6CzJ",
           "labtest_x4JeEq",
+          "labtest_CY8TKT",
           "labtest_wPBeff"
         ],
         "settings": {}
