@@ -3246,7 +3246,10 @@
       "shoppable-article": {
         "type": "shoppable-article",
         "custom_css": [
-          ".qck-load-more-button,.qck-product-button,.qck-blog-button {border: 1px solid #000;}"
+          ".qck-load-more-button,.qck-product-button,.qck-blog-button {border: 1px solid #000;}",
+          "ul,ol {margin: 0 !important; padding: 0 0 0 30px !important; list-style:auto;}",
+          "ul li{margin: 0 0 5px !important; list-style:disc;}",
+          "ol li {margin: 0 0 5px !important; list-style:auto;}"
         ],
         "settings": {
           "brand_color": "#f3f2ea",
