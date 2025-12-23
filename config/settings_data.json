@@ -3302,7 +3302,10 @@
         "custom_css": [
           ".qck__article-newsletter--wrapper {background: transparent;}",
           ".qck__shop-now-btn,.qck__newsletter-form__button {border: 1px solid #000;}",
-          ".qck__newsletter-form__button:hover {border: 1px solid #000 !important;}"
+          ".qck__newsletter-form__button:hover {border: 1px solid #000 !important;}",
+          ".qck__article-template__content ul li {list-style: disc !important;}",
+          ".qck__article-template__content ol li {list-style: decimal !important;}",
+          ".qck__article-template__content ul, .qck__article-template__content ol {padding-inline-start: 2em !important;}"
         ],
         "settings": {
           "border_radius": 5,
