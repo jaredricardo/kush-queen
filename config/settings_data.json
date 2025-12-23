@@ -3248,7 +3248,8 @@
           ".qck-load-more-button,.qck-product-button,.qck-blog-button {border: 1px solid #000;}",
           "ul,ol {margin: 0 !important; padding: 0 0 0 30px !important; list-style: auto;}",
           "ul li {margin: 0 0 5px !important; list-style: disc;}",
-          "ol li {margin: 0 0 5px !important; list-style: auto;}"
+          "ol li {margin: 0 0 5px !important; list-style: auto;}",
+          ".qck-long-form-text h2 strong, .qck-long-form-text h3 strong {font-weight: 400 !important;}"
         ],
         "settings": {
           "brand_color": "#f3f2ea",
