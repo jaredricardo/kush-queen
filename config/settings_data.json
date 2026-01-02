@@ -374,6 +374,11 @@
           "link_linklist_N7MrLg",
           "simple_link_iUkaie"
         ],
+        "custom_css": [
+          ".second-nav .announcement {list-style: none; text-align: center; background-color: #bc182b;}",
+          "span.announcement-text {color: #ffffff !important; text-transform: uppercase; font-family: Gotham; font-weight: 700; font-size: 0.8em !important;}",
+          "span.announcement-text a {color: #ffffff !important;}"
+        ],
         "settings": {
           "announcement_text": "Shop Up To 60% Off SELECTS 🚨",
           "announcement_cta_url": "https://kushqueen.shop/collections/bundles",
