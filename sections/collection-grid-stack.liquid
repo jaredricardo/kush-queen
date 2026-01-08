@@ -58,7 +58,7 @@
                   >
                 {% endif %}
                 
-                {% unless product.available %}
+                {% unless product.selected_or_first_available_variant.available %}
                 <span class="sold-out-badge">Sold Out</span>
                 <style>
                     .stack_card-image-wrapper {
