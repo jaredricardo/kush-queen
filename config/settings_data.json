@@ -380,9 +380,9 @@
           "span.announcement-text a {color: #ffffff !important;}"
         ],
         "settings": {
-          "announcement_text": "Shop Up To 60% Off SELECTS 🚨",
-          "announcement_cta_url": "https://kushqueen.shop/collections/bundles",
-          "announcement_cta_text": "40% OFF BUNDLES",
+          "announcement_text": "Free Shipping On Orders Over $150",
+          "announcement_cta_url": "",
+          "announcement_cta_text": "",
           "head_site_link": "",
           "head_site_link_txt": "Kush Queen",
           "head_site_king_link": "",
@@ -2542,8 +2542,8 @@
           "8c649c9d-5c4d-44ce-a56b-4ac4d7760ea5"
         ],
         "settings": {
-          "desktop_image": "shopify://shop_images/kush-queen-holiday-home-desktop.jpg",
-          "mobile_image": "shopify://shop_images/kush-queen-holiday-home-mobile.jpg",
+          "desktop_image": "shopify://shop_images/kush-queen-v-day-home-web.jpg",
+          "mobile_image": "shopify://shop_images/kush-queen-vday-mobile.jpg",
           "show_ratings": true,
           "ratings_count": "6,500",
           "main_header": "Cannabinoids For All-Day Wellness",
