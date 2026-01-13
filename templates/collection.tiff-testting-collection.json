@@ -12,18 +12,18 @@
     "hero_iEUaxG": {
       "type": "hero",
       "settings": {
-        "image": "shopify://shop_images/kush-queen-holiday-gift-collection.jpg",
+        "image": "shopify://shop_images/kush-queen-vday-collection.png",
         "alignment": "center",
         "text_alignment": "center",
         "hero_layout": "full_width",
         "hero_size": "medium",
         "text_size": "medium",
-        "title": "Holiday Bundles & Gifts from Kush Queen",
+        "title": "Valentine's Bundles & Gifts from Kush Queen",
         "section_text_color": "#ffffff",
         "overlay_percent": 40,
         "heading_font": "Room205",
         "subheading_font": "Eina03",
-        "text": "<p>Celebrate the season with Kush Queen’s Holiday Bundles & Gifts. The perfect way to share wellness, self-care, and a little elevated joy.</p>",
+        "text": "<p>This Valentine’s Day, fall in love with feeling good. Kush Queen’s curated bundles are made for self-care, connection, and elevated moments worth savoring.</p>",
         "button_label": "",
         "button_link": ""
       }
