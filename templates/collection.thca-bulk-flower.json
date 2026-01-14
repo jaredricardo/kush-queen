@@ -12,18 +12,18 @@
     "hero_iEUaxG": {
       "type": "hero",
       "settings": {
-        "image": "shopify://shop_images/kush-queen-vday-collection.png",
+        "image": "shopify://shop_images/thca-bulk-flower.png",
         "alignment": "center",
         "text_alignment": "center",
         "hero_layout": "full_width",
         "hero_size": "medium",
         "text_size": "medium",
-        "title": "Valentine's Bundles & Gifts from Kush Queen",
+        "title": "THCA Bulk Flower",
         "section_text_color": "#ffffff",
         "overlay_percent": 40,
         "heading_font": "Room205",
         "subheading_font": "Eina03",
-        "text": "<p>This Valentine’s Day, fall in love with feeling good. Kush Queen’s curated bundles are made for self-care, connection, and elevated moments worth savoring.</p>",
+        "text": "<p>Kush Queen THCA bulk flower is all about quality, variety, and choice. We source standout strains at every price point, from everyday favorites to exotic picks, so you can stock up on flower.</p>",
         "button_label": "",
         "button_link": ""
       }
@@ -53,7 +53,7 @@
         "h2_JtwPRr": {
           "type": "h2",
           "settings": {
-            "h2": "<h2><strong>Shop the nice list</strong></h2>",
+            "h2": "<h2><strong>Shop quality thca flower</strong></h2>",
             "font_size_d": 24,
             "font_size_m": 14,
             "font_family": "Eina03"
@@ -62,12 +62,13 @@
         "p_bXfCjf": {
           "type": "p",
           "settings": {
-            "p": "<p>You’ve been good—now it’s time to feel even better. ✨ Kush Queen’s Nice List is your ticket to pure relaxation with our soothing bath bombs, Melt pain relief lotion, and blissful CBD gummies. Unwind, recharge, and stay on the Nice List all season long.</p>",
+            "p": "<p>Every THCA strain we offer is <strong>hand-selected</strong> by our team, drawing on decades of cannabis experience to choose flower that truly delivers on flavor, effects, and overall smoke quality.</p><p><strong>• Hand-picked strains at every price point</strong><br/><strong>• Consistent quality you can trust</strong> <br/><strong>• Bulk value without compromise</strong></p>",
             "font_family": "Eina03"
           }
         },
         "button_PNFXDg": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "button_text": "Shop NOw",
             "button_url": "https://kushqueen.shop/collections/the-nice-list",
@@ -86,7 +87,7 @@
         "background_color": "#f3f0dd",
         "col_order": "",
         "text_alignment": "left-aligned",
-        "image": "shopify://shop_images/kush-quee-holiday-gift-guide-nice-list.png"
+        "image": "shopify://shop_images/kush-queen-hemp-flower-mac-thca-flower-1174215108.webp"
       }
     },
     "jr_50_50_q7VJ9i": {
@@ -95,7 +96,7 @@
         "h2_9PryPy": {
           "type": "h2",
           "settings": {
-            "h2": "<h2><strong>Shop the naughty list</strong></h2>",
+            "h2": "<h2><strong>Shop fresh cali grown thca flower</strong></h2>",
             "font_size_d": 24,
             "font_size_m": 14,
             "font_family": "Eina03"
@@ -104,12 +105,13 @@
         "p_hJNfT3": {
           "type": "p",
           "settings": {
-            "p": "<p>You’ve been bad—in the best way. Kush Queen’s Naughty List is your VIP pass to pleasure with our intoxicating trio: THC-infused lube for unforgettable nights, sex gummies that turn up the heat, and flower that keeps the vibe flowing. </p>",
+            "p": "<p>Our THCA flower is grown by <strong>experienced California cultivators</strong> who treat cannabis like a craft, not a commodity. These are hands-on growers who obsess over genetics, dial in each grow, and harvest at peak.</p>",
             "font_family": "Eina03"
           }
         },
         "button_V9yRWH": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "button_text": "Shop Now",
             "button_url": "https://kushqueen.shop/collections/the-naughty-list",
@@ -128,7 +130,7 @@
         "background_color": "#f3f0dd",
         "col_order": "reverse",
         "text_alignment": "left-aligned",
-        "image": "shopify://shop_images/kush-quee-holiday-gift-guide-nice-list_1.png"
+        "image": "shopify://shop_images/kush-queen-hemp-flower-crunch-berries-thca-flower-1174215114.jpg"
       }
     },
     "new_faq_qg8wEn": {
@@ -137,8 +139,8 @@
         "faq_block_Gw6YxC": {
           "type": "faq_block",
           "settings": {
-            "question": "Can I send Kush Queen products as a gift?",
-            "answer": "<p>Absolutely! Our products make perfect gifts. You can ship directly to your loved one and deliver self care this holiday!</p>"
+            "question": "What is bulk THCA flower?",
+            "answer": "<p>Bulk THCA flower refers to purchasing larger quantities of high-quality hemp flower that is naturally high in THCA. It offers the same premium experience as smaller sizes, with better value per gram and more flexibility for regular use, sharing, or stocking up.</p>"
           }
         },
         "faq_block_B7LaRn": {
@@ -151,22 +153,22 @@
         "faq_block_FL8ti9": {
           "type": "faq_block",
           "settings": {
-            "question": "Do you offer expedited shipping?",
-            "answer": "<p>Yes! At checkout, you can select faster delivery options to make sure your gifts arrive right on time.</p>"
+            "question": "Is THCA flower legal to buy in bulk?",
+            "answer": "<p>Yes. THCA flower is federally legal when it is hemp-derived and compliant with the Farm Bill, meaning it contains less than 0.3% delta-9 THC by dry weight at the time of testing. Always check local and state regulations before purchasing.</p>"
           }
         },
         "faq_block_hXjXr6": {
           "type": "faq_block",
           "settings": {
-            "question": "What’s the best gift for someone new to Kush Queen?",
-            "answer": "<p>Our <strong>Bath Bomb Bundles</strong> and<strong> Gummies</strong> are great introductions to the Kush Queen experience — relaxing, balanced, and perfectly dosed.</p>"
+            "question": "How should bulk THCA flower be stored?",
+            "answer": "<p>To maintain freshness and potency, store bulk THCA flower in an airtight container away from light, heat, and moisture. Proper storage helps preserve terpene profiles, flavor, and overall smoke quality over time.</p>"
           }
         },
         "faq_block_LGNgnU": {
           "type": "faq_block",
           "settings": {
-            "question": "Sample Question",
-            "answer": "<p>Sample Answer</p>"
+            "question": "What should I look for when buying bulk THCA flower?",
+            "answer": "<p>Look for hand-selected strains, transparent lab testing, reputable cultivators, and strong terpene profiles. Quality bulk THCA flower should smoke smoothly, smell fresh, and reflect careful cultivation and curing practices.</p>"
           }
         },
         "faq_block_44zUkN": {
@@ -195,22 +197,22 @@
         "quote_H8XN6y": {
           "type": "quote",
           "settings": {
-            "quote": "<p>I love Kush Queen. I ordered a bundle and will definitely order again! The sleep gummies are a lifesaver. </p>",
-            "author": "Keesha Snead"
+            "quote": "<p>Definitely top of the line flower! </p>",
+            "author": "Dashon D."
           }
         },
         "quote_xH7wHA": {
           "type": "quote",
           "settings": {
-            "quote": "<p>Their website was easy to navigate with all the information easy to find. And useful descriptions of the products. Kush Queen made for a great first experience! </p>",
-            "author": "Laura Mallinson"
+            "quote": "<p>This is a great product! Smooth to hit, does the job and the price point is the best I've found.</p>",
+            "author": "Janice L."
           }
         },
         "quote_qeDYfh": {
           "type": "quote",
           "settings": {
-            "quote": "<p>Kush Queen has the best quality AND flavor. My favorite. </p>",
-            "author": "Bobbi Duncan"
+            "quote": "<p>Great quality for the price! No complaints, I've gotten several orders now.</p>",
+            "author": "Mark S."
           }
         }
       },
@@ -220,7 +222,7 @@
         "quote_qeDYfh"
       ],
       "settings": {
-        "title": "Customers Love The Holidays At Kush Queen",
+        "title": "Quality THCA Flower Customers Love",
         "heading_font_family": "Eina03",
         "quote_font_family": "Eina03"
       }
