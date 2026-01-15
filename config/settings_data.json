@@ -2608,6 +2608,7 @@
           "@media only screen and (max-width: 600px) {.responsive-banner img {padding-top: 25px; }}"
         ],
         "settings": {
+          "desktop_image": "shopify://shop_images/Website_Banner_-_Desktop_-_v1.png",
           "banner_height": "auto"
         }
       },
