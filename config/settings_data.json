@@ -2604,7 +2604,9 @@
       },
       "banner-stack": {
         "type": "banner-stack",
-        "custom_css": [],
+        "custom_css": [
+          "@media only screen and (orientation: landscape) {.responsive-banner img {padding-top: 20px;}}"
+        ],
         "settings": {
           "desktop_image": "shopify://shop_images/Website_Banner_-_Desktop_-_v1_1.png",
           "mobile_image": "shopify://shop_images/Website_Banner_-_Mobile_-_v1_1.png",
