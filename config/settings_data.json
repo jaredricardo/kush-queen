@@ -2609,6 +2609,7 @@
         ],
         "settings": {
           "desktop_image": "shopify://shop_images/Website_Banner_-_Desktop_-_v1.png",
+          "mobile_image": "shopify://shop_images/Website_Banner_-_Mobile_-_v1.png",
           "banner_height": "auto"
         }
       },
