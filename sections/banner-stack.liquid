@@ -66,7 +66,7 @@
 {% endstyle %}
 
 <div class="responsive-banner">
-  {% if section.settings.mobile_image != blank %}
+  {% if section.settings.mobile_image %}
     <img
       class="mobile-banner"
       src="{{ section.settings.mobile_image | image_url: width: 750 }}"
@@ -75,7 +75,7 @@
       style="{{ height_style }}"
     >
   {% endif %}
-  {% if section.settings.desktop_imag != blank %}
+  {% if section.settings.desktop_imag %}
     <img
       class="desktop-banner"
       src="{{ section.settings.desktop_image | image_url: width: 1500 }}"
