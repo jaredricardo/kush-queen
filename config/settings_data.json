@@ -2606,8 +2606,8 @@
         "type": "banner-stack",
         "custom_css": [],
         "settings": {
-          "desktop_image": "shopify://shop_images/Website_Banner_-_Desktop_-_v1.png",
-          "mobile_image": "shopify://shop_images/Website_Banner_-_Mobile_-_v1.png",
+          "desktop_image": "shopify://shop_images/Website_Banner_-_Desktop_-_v1_1.png",
+          "mobile_image": "shopify://shop_images/Website_Banner_-_Mobile_-_v1_1.png",
           "banner_height": "auto"
         }
       },
