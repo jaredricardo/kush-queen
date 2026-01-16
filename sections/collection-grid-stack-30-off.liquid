@@ -1,0 +1,686 @@
+{% assign collection = collections[section.settings.collection] %}
+
+<div class="stack_collection-grid-wrapper collection-grid-stack">
+  <div class="page-width">
+    <div class="stack_collection-grid-container">
+      {% if section.settings.heading != blank %}
+        <h2 class="stack_collection-heading stack_align-{{ section.settings.heading_align }}">
+          {{ section.settings.heading }}
+        </h2>
+      {% endif %}
+
+      {%- assign ns = section.settings.description_metafield_namespace -%}
+      {%- assign key = section.settings.description_metafield_key -%}
+      {%- assign metafield_value = collection.metafields[ns][key].value -%}
+      {%- assign custom_desc = section.settings.custom_description -%}
+      {%- assign fallback_enabled = section.settings.show_collection_description -%}
+      {% if metafield_value != blank %}stack_collection-headi
+        <div class="stack_collection-description stack_align-{{ section.settings.heading_align }}">
+          {{ metafield_value }}
+        </div>
+      {% elsif custom_desc != blank %}
+        <div class="stack_collection-description stack_align-{{ section.settings.heading_align }}">
+          {{ custom_desc }}
+        </div>
+      {% elsif fallback_enabled and collection.description != blank %}
+        <div class="stack_collection-description stack_align-{{ section.settings.heading_align }}">
+          {{ collection.description }}
+        </div>
+      {% endif %}
+
+      <div class="stack_collection-grid stack_cols-desktop-{{ section.settings.columns_desktop }} stack_cols-mobile-{{ section.settings.columns_mobile }}">
+        {% for product in collection.products %}
+          <div
+            class="stack_collection-card stack_hover-{{ section.settings.card_hover_effect }}"
+            style="border-radius: {{ section.settings.card_radius }}px;"
+          >
+            {% assign first_image = product.featured_image %}
+            {% assign second_image = product.images[1] %}
+
+            <div class="stack_card-image-wrapper stack_ratio-{{ section.settings.card_image_ratio }}">
+              <a href="{{ product.url }}?variant={{ product.selected_or_first_available_variant.id }}">
+                
+                {% if first_image %}
+                  <img
+                    class="stack_card-image stack_card-image--primary"
+                    src="{{ first_image | image_url: width: 600 }}"
+                    alt="{{ product.title }}"
+                    loading="lazy"
+                  >
+                {% endif %}
+
+                {% if section.settings.enable_hover_image and second_image %}
+                  <img
+                    class="stack_card-image stack_card-image--secondary"
+                    src="{{ second_image | image_url: width: 600 }}"
+                    alt="{{ product.title }} (hover)"
+                    loading="lazy"
+                  >
+                {% endif %}
+                
+                {% unless product.selected_or_first_available_variant.available %}
+                <span class="sold-out-badge">Sold Out</span>
+                <style>
+                    .stack_card-image-wrapper {
+                      position: relative;
+                    }
+
+                    .sold-out-badge {
+                      position: absolute;
+                      top: 10px;
+                      right: 10px;
+                      z-index: 5;
+                      background: rgb(235 0 0) !important;
+                      color: #fff;
+                      font-size: 9px !important;
+                      font-weight: 600;
+                      padding: 6px 10px !important;
+                      border-radius: 4px;
+                      text-transform: uppercase;
+                      letter-spacing: 0;
+                      pointer-events: none;
+                      line-height: 1.0;
+                    }
+                  </style>
+                {% endunless %}
+
+              </a>
+            </div>
+
+
+            <div class="stack_card-info">
+              {%- if section.settings.show_reviews -%}
+                <div class="stack_rating-wrapper">
+                  {%- if product.metafields.reviews.rating.value != blank -%}
+                    {% liquid
+                      assign rating_decimal = 0
+                      assign decimal = product.metafields.reviews.rating.value.rating | modulo: 1
+                      if decimal >= 0.3 and decimal <= 0.7
+                        assign rating_decimal = 0.5
+                      elsif decimal > 0.7
+                        assign rating_decimal = 1
+                      endif
+                    %}
+                    <div
+                      class="stack_rating"
+                      role="img"
+                      aria-label="{{ 'accessibility.star_reviews_info' | t: rating_value: product.metafields.reviews.rating.value, rating_max: product.metafields.reviews.rating.value.scale_max }}"
+                    >
+                      <span
+                        aria-hidden="true"
+                        class="stack_rating-stars"
+                        style="--rating: {{ product.metafields.reviews.rating.value.rating | floor }}; --rating-max: {{ product.metafields.reviews.rating.value.scale_max }}; --rating-decimal: {{ rating_decimal }};"
+                      >
+                      </span>
+                    </div>
+                    <div class="stack_rating-info">
+                      <span class="stack_rating-value">
+                        {{ product.metafields.reviews.rating.value }} /
+                        {{ product.metafields.reviews.rating.value.scale_max }}
+                      </span>
+                      <span class="stack_rating-count"> ({{ product.metafields.reviews.rating_count }}) </span>
+                    </div>
+                  {%- else -%}
+                    {% assign base = product.id | modulo: 100 %}
+                    {% assign dummy_count = base | plus: 25 %}
+                    <div class="stack_rating-dummy-stars">
+                      {% for i in (1..5) %}
+                        <svg
+                          class="stack_star"
+                          viewBox="0 0 24 24"
+                          xmlns="http://www.w3.org/2000/svg"
+                          aria-hidden="true"
+                          width="16"
+                          height="16"
+                        >
+                          <path d="m11.322 2.923c.126-.259.39-.423.678-.423.289 0 .552.164.678.423.974 1.998 2.65 5.44 2.65 5.44s3.811.524 6.022.829c.403.055.65.396.65.747 0 .19-.072.383-.231.536-1.61 1.538-4.382 4.191-4.382 4.191s.677 3.767 1.069 5.952c.083.462-.275.882-.742.882-.122 0-.244-.029-.355-.089-1.968-1.048-5.359-2.851-5.359-2.851s-3.391 1.803-5.359 2.851c-.111.06-.234.089-.356.089-.465 0-.825-.421-.741-.882.393-2.185 1.07-5.952 1.07-5.952s-2.773-2.653-4.382-4.191c-.16-.153-.232-.346-.232-.535 0-.352.249-.694.651-.748 2.211-.305 6.021-.829 6.021-.829s1.677-3.442 2.65-5.44z"/>
+                        </svg>
+                      {% endfor %}
+                    </div>
+                    <div class="stack_rating-info">
+                      <span class="stack_rating-count">({{ dummy_count }})</span>
+                    </div>
+                  {%- endif -%}
+                </div>
+              {%- endif -%}
+
+              {% if section.settings.show_title %}
+                <div class="stack_card-title">{{ product.title }}</div>
+              {% endif %}
+
+              {% assign pd_ns = section.settings.product_description_metafield_namespace %}
+              {% assign pd_key = section.settings.product_description_metafield_key %}
+              {% assign product_desc = product.metafields[pd_ns][pd_key].value %}
+
+              {% if product_desc %}
+                <div class="stack_card-short-description">{{ product_desc }}</div>
+              {% endif %}
+
+              {% if section.settings.show_price %}
+                {% if product.price < product.compare_at_price %}
+                  <div class="stack_card-price">
+                    <span>{{ product.selected_or_first_available_variant.price | money_without_trailing_zeros }}</span>
+                    <span>
+                      <del>{{ product.selected_or_first_available_variant.compare_at_price | money_without_trailing_zeros }}</del>
+                    </span>
+
+                    {%- if section.settings.sale_badge_metafield_key != blank -%}
+                      {%- assign badge_key_parts = section.settings.sale_badge_metafield_key | split: '.' -%}
+                      {%- assign badge_namespace = badge_key_parts[0] -%}
+                      {%- assign badge_key = badge_key_parts[1] -%}
+                      {%- assign sale_badge = product.metafields[badge_namespace][badge_key] -%}
+
+                      {%- if sale_badge != blank -%}
+                        <div class="stack_sale-badge">
+                          {{ sale_badge }}
+                        </div>
+                      {%- endif -%}
+                    {%- endif -%}
+                  </div>
+                {% else %}
+                  <div class="stack_card-price">
+                    <span>
+                      {{ product.price | money_without_trailing_zeros }}
+                    </span>
+                    {%- if section.settings.sale_badge_metafield_key != blank -%}
+                      {%- assign badge_key_parts = section.settings.sale_badge_metafield_key | split: '.' -%}
+                      {%- assign badge_namespace = badge_key_parts[0] -%}
+                      {%- assign badge_key = badge_key_parts[1] -%}
+                      {%- assign sale_badge = product.metafields[badge_namespace][badge_key] -%}
+
+                      {%- if sale_badge != blank -%}
+                        <div class="stack_sale-badge">
+                          {{ sale_badge }}
+                        </div>
+                      {%- endif -%}
+                    {%- endif -%}
+                  </div>
+                {% endif %}
+              {% endif %}
+
+              {% if section.settings.show_button %}
+                <a href="{{ product.url }}" class="stack_card-button">
+                  {{ section.settings.button_label }}
+                </a>
+              {% endif %}
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+  .site-breadcumb {
+    display: none;
+  }
+  .stack_collection-grid-wrapper {
+    width: 100%;
+  }
+  .stack_collection-grid-container {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+      /* max-width: {{ section.settings.max_width }}px; */
+      margin: 0 auto;
+      padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .stack_collection-heading {
+    margin-bottom: 20px;
+    font-weight: 600;
+  }
+  .stack_collection-description {
+    margin-bottom: 30px;
+    color: #444;
+  }
+
+  .stack_align-left { text-align: left; }
+  .stack_align-center { text-align: center; }
+  .stack_align-right { text-align: right; }
+
+  @media (min-width: 769px) {
+    .stack_collection-heading {
+      font-size: {{ section.settings.heading_font_size_desktop }}px;
+    }
+    .stack_collection-description {
+      font-size: {{ section.settings.desc_font_size_desktop }}px;
+    }
+    .stack_card-price {
+      font-size: {{ section.settings.price_font_size_desktop }}px;
+    }
+  }
+  @media (max-width: 768px) {
+    .stack_collection-heading {
+      font-size: {{ section.settings.heading_font_size_mobile }}px;
+    }
+    .stack_collection-description {
+      font-size: {{ section.settings.desc_font_size_mobile }}px;
+    }
+    .stack_card-price {
+      font-size: {{ section.settings.price_font_size_mobile }}px;
+    }
+  }
+
+  .stack_collection-grid {
+    display: grid;
+    gap: 15px;
+  }
+  {% for i in (1..6) %}
+  .stack_cols-desktop-{{ i }} {
+    grid-template-columns: repeat({{ i }}, 1fr);
+  }
+  {% endfor %}
+  @media (max-width: 768px) {
+    {% for i in (1..3) %}
+    .stack_cols-mobile-{{ i }} {
+      grid-template-columns: repeat({{ i }}, 1fr);
+    }
+    {% endfor %}
+    .stack_collection-grid-container {
+          padding-left: 0rem;
+    padding-right: 0rem;
+    }
+  }
+
+  .stack_collection-card {
+    text-align: center;
+    transition: all 0.3s ease;
+  }
+  .stack_card-info {
+  padding: 5px 12px 18px 12px;
+  }
+
+  .stack_hover-none:hover { transform: none; }
+  .stack_hover-lift:hover { transform: translateY(-6px); box-shadow: 0 8px 20px rgba(0,0,0,0.08); }
+  .stack_hover-zoom:hover img { transform: scale(1.05); }
+  .stack_hover-fade:hover { opacity: 0.85; }
+
+  .stack_card-image-wrapper {
+    overflow: hidden;
+    /* margin-bottom: 12px; */
+    border-bottom: {{ section.settings.card_border_width }}px solid {{ section.settings.card_border_color }};
+  }
+  .stack_card-image-wrapper img {
+    width: 100%;
+    display: block;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+
+  .stack_ratio-1-1::before {
+    content: "";
+    display: block;
+    padding-top: 100%;
+  }
+  .stack_ratio-4-5::before {
+    content: "";
+    display: block;
+    padding-top: 125%;
+  }
+  .stack_ratio-3-4::before {
+    content: "";
+    display: block;
+    padding-top: 133.33%;
+  }
+  .stack_ratio-16-9::before {
+    content: "";
+    display: block;
+    padding-top: 56.25%;
+  }
+  .stack_card-image-wrapper {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  }
+  .stack_card-image-wrapper img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+  }
+  .stack_card-title {
+    font-weight: 600;
+    margin-bottom: 6px;
+    font-family: 'Eina03';
+    font-size: 16px;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .stack_card-price {
+    margin-bottom: 10px;
+    display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 5px;
+    font-family: 'Gotham';
+  }
+
+  .stack_card-button {
+    display: inline-block;
+    padding: 8px 14px;
+    text-decoration: none;
+    font-size: 14px;
+    border-radius: 0px;
+  }
+  .stack_card-image-wrapper {
+    position: relative;
+    overflow: hidden;
+    /* margin-bottom: 12px; */
+  }
+
+  .stack_card-image {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 0.4s ease;
+    backface-visibility: hidden;
+  }
+
+  .stack_card-image--primary {
+    opacity: 1;
+    z-index: 1;
+  }
+  .stack_card-image--secondary {
+    opacity: 0;
+    z-index: 2;
+  }
+
+  {% if section.settings.enable_hover_image %}
+  .stack_collection-card:hover .stack_card-image--primary {
+    opacity: 0;
+  }
+  .stack_collection-card:hover .stack_card-image--secondary {
+    opacity: 1;
+  }
+  {% endif %}
+
+  .stack_card-title {
+    font-weight: 600;
+    margin-bottom: 2px;
+  }
+  .stack_card-price {
+    margin-bottom: 6px;
+    line-height: normal;
+  }
+
+  .stack_card-button {
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    border-radius: 0px;
+    transition: background 0.3s ease;
+    text-transform: uppercase;
+  }
+  .stack_card-short-description {
+    margin-bottom: 2px;
+    font-size: 12px;
+    line-height: 1.4;
+    font-family: 'Gotham';
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .stack_rating-wrapper {
+    display: flex;
+      flex-direction: row;
+      gap: 4px;
+      font-family: inherit;
+      margin-top: 0.5rem;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .stack_rating, .stack_rating-dummy-stars {
+    display: flex;
+    align-items: center;
+    gap: 0px;
+  }
+
+  .stack_star {
+    width: 11px;
+    height: 11px;
+  }
+
+  .stack_rating-info {
+    font-size: 0.85rem;
+  }
+
+  .stack_rating-value {
+    font-weight: 500;
+    margin-right: 4px;
+  }
+  .stack_sale-badge {
+    background: #EB0000;
+    color: #fff;
+    padding: 0.1em 0.8em;
+    font-size: 10px;
+    font-weight: bold;
+    border-radius: 0px;
+    /* z-index: 10; */
+    text-transform: uppercase;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    line-height: 1.5;
+  }
+
+   .stack_collection-grid-wrapper {
+      background-color: {{ section.settings.background_color }};
+    }
+
+    .stack_collection-card {
+      background-color: {{ section.settings.card_background_color }};
+      color: {{ section.settings.text_color }};
+      border: {{ section.settings.card_border_width }}px solid {{ section.settings.card_border_color }};
+    }
+
+    .stack_collection-card .stack_card-image-wrapper {
+      background-color: {{ section.settings.image_background_color }};
+    }
+
+    .stack_collection-card .stack_title,
+    .stack_collection-card .stack_description,
+    .stack_collection-card .stack_rating-count,
+    .stack_collection-card .stack_price {
+      color: {{ section.settings.text_color }};
+    }
+  .stack_collection-card .stack_rating-count {
+    font-size: 10px;
+  }
+
+    .stack_collection-card .stack_rating-wrapper .stack_star path {
+      fill: {{ section.settings.star_color }};
+    }
+
+    .stack_collection-card .stack_card-button {
+      background-color: {{ section.settings.button_background_color }};
+      color: {{ section.settings.button_text_color }};
+      font-weight: 700;
+      font-size: 16px;
+      font-family: 'Eina03';
+    }
+
+
+  @media(max-width: 768px) {
+    .stack_card-title {
+      font-size: 13px;
+    }
+    .stack_collection-card .stack_rating-count {
+      font-size: 10px;
+    }
+    .stack_card-short-description {
+      margin-bottom: 2px;
+      font-size: 10px;
+      line-height: 1.4;
+    }
+    .stack_sale-badge {
+      font-size: 10px;
+    }
+    .stack_card-button {
+      font-size: 13px !important;
+      padding: 6px;
+    }
+    .stack_collection-grid {
+      gap: 5px;
+    }
+    .stack_card-info {
+        padding: 0px 8px 13px 8px;
+    }
+  }
+</style>
+
+{% schema %}
+{
+  "name": "Stack Collection Grid",
+  "settings": [
+    { "type": "collection", "id": "collection", "label": "Collection" },
+
+    {
+      "type": "header", "content": "Heading Settings"
+    },
+    { "type": "text", "id": "heading", "label": "Section Heading", "default": "Featured Collection" },
+    {
+      "type": "select", "id": "heading_align", "label": "Heading Alignment",
+      "options": [
+        { "value": "left", "label": "Left" },
+        { "value": "center", "label": "Center" },
+        { "value": "right", "label": "Right" }
+      ],
+      "default": "center"
+    },
+    { "type": "range", "id": "heading_font_size_desktop", "label": "Heading Font Size (Desktop)", "min": 16, "max": 48, "step": 1, "default": 32, "unit": "px" },
+    { "type": "range", "id": "heading_font_size_mobile", "label": "Heading Font Size (Mobile)", "min": 12, "max": 32, "step": 1, "default": 20, "unit": "px" },
+    {
+      "type": "header", "content": "Description Settings"
+    },
+    { "type": "text", "id": "description_metafield_namespace", "label": "Metafield Namespace" },
+    { "type": "text", "id": "description_metafield_key", "label": "Metafield Key" },
+    { "type": "richtext", "id": "custom_description", "label": "Custom Description" },
+    { "type": "checkbox", "id": "show_collection_description", "label": "Show Collection Description (Fallback)", "default": false },
+    { "type": "range", "id": "desc_font_size_desktop", "label": "Description Font Size (Desktop)", "min": 12, "max": 24, "step": 1, "default": 16, "unit": "px" },
+    { "type": "range", "id": "desc_font_size_mobile", "label": "Description Font Size (Mobile)", "min": 10, "max": 20, "step": 1, "default": 14, "unit": "px" },
+    {
+      "type": "header", "content": "Page Settings"
+    },
+    { "type": "range", "id": "padding_top", "label": "Top Padding (px)", "min": 0, "max": 100, "step": 4, "default": 40 },
+    { "type": "range", "id": "padding_bottom", "label": "Bottom Padding (px)", "min": 0, "max": 100, "step": 4, "default": 40 },
+    { "type": "range", "id": "max_width", "label": "Max Width (px)", "min": 400, "max": 1600, "step": 50, "default": 1200 },
+    { "type": "range", "id": "columns_desktop", "label": "Columns on Desktop", "min": 1, "max": 6, "step": 1, "default": 4 },
+    { "type": "range", "id": "columns_mobile", "label": "Columns on Mobile", "min": 1, "max": 3, "step": 1, "default": 2 },
+    {
+      "type": "header", "content": "Card Settings"
+    },
+    {
+      "type": "select", "id": "card_image_ratio", "label": "Image Ratio",
+      "options": [
+        { "value": "1-1", "label": "1:1" },
+        { "value": "4-5", "label": "4:5" },
+        { "value": "3-4", "label": "3:4" },
+        { "value": "16-9", "label": "16:9" }
+      ],
+      "default": "1-1"
+    },
+    { "type": "checkbox", "id": "show_title", "label": "Show Title", "default": true },
+    { "type": "checkbox", "id": "show_price", "label": "Show Price", "default": true },
+    { "type": "checkbox", "id": "show_reviews", "label": "Show product reviews", "default": true },
+    { "type": "checkbox", "id": "show_button", "label": "Show Shop Now Button", "default": true },
+    { "type": "text", "id": "button_label", "label": "Button Label", "default": "Shop Now" },
+    { "type": "range", "id": "price_font_size_desktop", "label": "Price Font Size (Desktop)", "min": 12, "max": 32, "step": 1, "default": 16, "unit": "px" },
+    { "type": "range", "id": "price_font_size_mobile", "label": "Price Font Size (Mobile)", "min": 10, "max": 24, "step": 1, "default": 14, "unit": "px" },
+    { "type": "range", "id": "card_radius", "label": "Card Border Radius", "min": 0, "max": 20, "step": 1, "default": 4, "unit": "px" },
+    {
+      "type": "select", "id": "card_hover_effect", "label": "Card Hover Effect",
+      "options": [
+        { "value": "none", "label": "None" },
+        { "value": "lift", "label": "Lift" },
+        { "value": "zoom", "label": "Zoom Image" },
+        { "value": "fade", "label": "Fade" }
+      ],
+      "default": "none"
+    },
+    {
+        "type": "checkbox",
+        "id": "enable_hover_image",
+        "label": "Enable Hover Image",
+        "default": true
+    },
+    {
+        "type": "range",
+        "id": "card_border_width",
+        "label": "Card border width (px)",
+        "min": 0,
+        "max": 10,
+        "step": 1,
+        "default": 1
+    },
+    { "type": "text", "id": "product_description_metafield_namespace", "label": "Product Description Metafield Namespace" },
+    { "type": "text", "id": "product_description_metafield_key", "label": "Product Description Metafield Key" },
+    { "type": "text", "id": "sale_badge_metafield_key", "label": "Sale Badge Metafield (e.g. product_sale_badge)", "default": "product_sale_badge" },
+    {
+      "type": "header",
+      "content": "Colors Setting"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Section background",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "card_background_color",
+      "label": "Product card background",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "image_background_color",
+      "label": "Image background",
+      "default": "#f9f9f9"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text color",
+      "default": "#1c1c1c"
+    },
+    {
+      "type": "color",
+      "id": "star_color",
+      "label": "Star color",
+      "default": "#f5b400"
+    },
+    {
+      "type": "color",
+      "id": "button_background_color",
+      "label": "Button background",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "button_text_color",
+      "label": "Button text",
+      "default": "#ffffff"
+    },
+    {
+        "type": "color",
+        "id": "card_border_color",
+        "label": "Card border color",
+        "default": "#e0e0e0"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Stack Collection Grid",
+      "category": "Stack Custom"
+    }
+  ]
+}
+{% endschema %}
