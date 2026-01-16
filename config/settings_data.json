@@ -1169,6 +1169,30 @@
               "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/Bare_5000mg_b3eb95ae-8d74-4cce-a21f-0d5fe856f7ed.pdf?v=1743699074"
             }
           },
+          "labtest_4xicwz": {
+            "type": "labtest",
+            "settings": {
+              "banner_btm_img": "shopify://shop_images/kush-queen-hemp-flower-blue-nerds-thca-flower-exotic-1191165284.png",
+              "banner_btm_tp_text": "Blue Nerds THCA Flower",
+              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/Blue_Nerdz_2.pdf?v=1757722041"
+            }
+          },
+          "labtest_fJAbrk": {
+            "type": "labtest",
+            "settings": {
+              "banner_btm_img": "shopify://shop_images/Screenshot_2025-01-21_at_4.00.22_PM.png",
+              "banner_btm_tp_text": "Blue Warheads THCa Flower *Exotic Private Reserve*",
+              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/Runtz_COA.png?v=1748633013"
+            }
+          },
+          "labtest_H9X4WV": {
+            "type": "labtest",
+            "settings": {
+              "banner_btm_img": "shopify://shop_images/kush-queen-hemp-flower-gelonade-thca-flower-head-stash-1155525556.png",
+              "banner_btm_tp_text": "Gelonade THCa Flower *Head Stash*",
+              "link": ""
+            }
+          },
           "labtest_6p4Twe": {
             "type": "labtest",
             "settings": {
@@ -1177,20 +1201,12 @@
               "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/newLCG-COA.jpg?v=1750791869"
             }
           },
-          "labtest_WpEqzX": {
+          "labtest_w7mcYU": {
             "type": "labtest",
             "settings": {
-              "banner_btm_img": "shopify://shop_images/kush-queen-hemp-flower-mac-thca-flower-1174215107.webp",
-              "banner_btm_tp_text": "MAC THCa Flower",
-              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/mac-COA-THCA.jpg?v=1750791869"
-            }
-          },
-          "labtest_JwCgnh": {
-            "type": "labtest",
-            "settings": {
-              "banner_btm_img": "shopify://shop_images/kush-queen-hemp-flower-crunch-berries-thca-flower-1174215113.jpg",
-              "banner_btm_tp_text": "Crunch Berries THCa Flower",
-              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/chrunch-berries_coa.pdf?v=1750791871"
+              "banner_btm_img": "shopify://shop_images/kush-queen-hemp-flower-gelonade-thca-flower-head-stash-1155525556.png",
+              "banner_btm_tp_text": "Gelonade",
+              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/Gelonade.jpg?v=1757722042"
             }
           },
           "labtest_JQ6WCW": {
@@ -1201,6 +1217,14 @@
               "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/Lemon_Cherry_Gelato_THCA_Flower_COA_Oct_2024.pdf?v=1748652999"
             }
           },
+          "labtest_BR8Vkr": {
+            "type": "labtest",
+            "settings": {
+              "banner_btm_img": "shopify://shop_images/Screenshot_2024-11-29_at_12.59.59_PM.png",
+              "banner_btm_tp_text": "Pistachio Runtz THCa Flower *Exotic*",
+              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/PistachioRuntzLab11-17-24.pdf?v=1732913784"
+            }
+          },
           "labtest_G9W4Nj": {
             "type": "labtest",
             "settings": {
@@ -1209,44 +1233,20 @@
               "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/runtz-COA.jpg?v=1750791869"
             }
           },
-          "labtest_7Lqaax": {
+          "labtest_eHfnfC": {
             "type": "labtest",
             "settings": {
-              "banner_btm_img": "shopify://shop_images/kush-queen-hemp-flower-slapz-thca-flower-1174215110.jpg",
-              "banner_btm_tp_text": "Slapz THCa Flower",
-              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/slapz-coa.webp?v=1750791869"
+              "banner_btm_img": "shopify://shop_images/kush-queen-hemp-flower-white-runtz-thca-flower-private-reserve-40524754977013.jpg",
+              "banner_btm_tp_text": "Runtz THCa Flower *Head Stash*",
+              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/Runtz_COA.jpg?v=1738503725"
             }
           },
-          "labtest_rchEnd": {
+          "labtest_x4JeEq": {
             "type": "labtest",
             "settings": {
-              "banner_btm_img": "shopify://shop_images/kush-queen-hemp-flower-la-pop-rocks-thca-flower-1174215111.png",
-              "banner_btm_tp_text": "LA Pop Rocks THCa Flower",
-              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/LA-POP-ROCKS-THCa-Flower-COA.pdf?v=1750791869"
-            }
-          },
-          "labtest_B4Vz4W": {
-            "type": "labtest",
-            "settings": {
-              "banner_btm_img": "shopify://shop_images/kush-queen-hemp-flower-1-8-oz-3-5g-legend-og-thca-flower-private-reserve-41435017281781.png",
-              "banner_btm_tp_text": "Legend OG THCa Flower *Private Reserve*",
-              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/legend-OG-COA.pdf?v=1748633013"
-            }
-          },
-          "labtest_cAtgwb": {
-            "type": "labtest",
-            "settings": {
-              "banner_btm_img": "shopify://shop_images/Screenshot_2025-01-21_at_3.57.50_PM.png",
-              "banner_btm_tp_text": "Bacio Gelato 41 THCa Flower *Exotic*",
-              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/Gelato_41.pdf?v=1737504640"
-            }
-          },
-          "labtest_fJAbrk": {
-            "type": "labtest",
-            "settings": {
-              "banner_btm_img": "shopify://shop_images/Screenshot_2025-01-21_at_4.00.22_PM.png",
-              "banner_btm_tp_text": "Blue Warheads THCa Flower *Exotic Private Reserve*",
-              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/Runtz_COA.png?v=1748633013"
+              "banner_btm_img": "shopify://shop_images/Screenshot_2024-11-29_at_12.58.22_PM.png",
+              "banner_btm_tp_text": "Sour Cherry THCa Flower *Private Reserve*",
+              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/SourCherryLab11-4-24.pdf?v=1732913784"
             }
           },
           "labtest_ndTd8Y": {
@@ -1263,102 +1263,6 @@
               "banner_btm_img": "shopify://shop_images/kush-queen-hemp-flower-2g-thca-head-stash-hand-roll-1156860463.png",
               "banner_btm_tp_text": "Super Boof - 2g THCa Head Stash Hand Roll",
               "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/Lemon_Octane_Pre_Roll.pdf?v=1717714811"
-            }
-          },
-          "labtest_H9X4WV": {
-            "type": "labtest",
-            "settings": {
-              "banner_btm_img": "shopify://shop_images/kush-queen-hemp-flower-gelonade-thca-flower-head-stash-1155525556.png",
-              "banner_btm_tp_text": "Gelonade THCa Flower *Head Stash*",
-              "link": ""
-            }
-          },
-          "labtest_BR8Vkr": {
-            "type": "labtest",
-            "settings": {
-              "banner_btm_img": "shopify://shop_images/Screenshot_2024-11-29_at_12.59.59_PM.png",
-              "banner_btm_tp_text": "Pistachio Runtz THCa Flower *Exotic*",
-              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/PistachioRuntzLab11-17-24.pdf?v=1732913784"
-            }
-          },
-          "labtest_eHfnfC": {
-            "type": "labtest",
-            "settings": {
-              "banner_btm_img": "shopify://shop_images/kush-queen-hemp-flower-white-runtz-thca-flower-private-reserve-40524754977013.jpg",
-              "banner_btm_tp_text": "Runtz THCa Flower *Head Stash*",
-              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/Runtz_COA.jpg?v=1738503725"
-            }
-          },
-          "labtest_qtBGJY": {
-            "type": "labtest",
-            "settings": {
-              "banner_btm_img": "shopify://shop_images/kush-queen-hemp-flower-melted-strawberries-thca-flower-1177277612.png",
-              "banner_btm_tp_text": "Melted Strawberries THCa Flower",
-              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/THCA_Melted_Strawberries_Lab_Report.pdf?v=1757621329"
-            }
-          },
-          "labtest_N7BQLL": {
-            "type": "labtest",
-            "settings": {
-              "banner_btm_img": "shopify://shop_images/kush-queen-hemp-flower-gelato-33-thca-flower-exotic-1184441214.png",
-              "banner_btm_tp_text": "Gelato 33 THCa Flower",
-              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/THCA_September_2024_Gelato_33_Lab_Report.pdf?v=1757621329"
-            }
-          },
-          "labtest_prE6iA": {
-            "type": "labtest",
-            "settings": {
-              "banner_btm_img": "shopify://shop_images/kush-queen-hemp-flower-blue-dream-thca-flower-private-reserve-1184441215.png",
-              "banner_btm_tp_text": "Blue Dream THCA Flower",
-              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/THCA_Hemp_-_Blue_Dream_COA.pdf?v=1757722041"
-            }
-          },
-          "labtest_4xicwz": {
-            "type": "labtest",
-            "settings": {
-              "banner_btm_img": "shopify://shop_images/kush-queen-hemp-flower-blue-nerds-thca-flower-exotic-1191165284.png",
-              "banner_btm_tp_text": "Blue Nerds THCA Flower",
-              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/Blue_Nerdz_2.pdf?v=1757722041"
-            }
-          },
-          "labtest_w7mcYU": {
-            "type": "labtest",
-            "settings": {
-              "banner_btm_img": "shopify://shop_images/kush-queen-hemp-flower-gelonade-thca-flower-head-stash-1155525556.png",
-              "banner_btm_tp_text": "Gelonade",
-              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/Gelonade.jpg?v=1757722042"
-            }
-          },
-          "labtest_QPxd7K": {
-            "type": "labtest",
-            "settings": {
-              "banner_btm_img": "shopify://shop_images/kush-queen-hemp-flower-super-boof-thca-flower-39770701299957.jpg",
-              "banner_btm_tp_text": "Super Boof THCA Flower",
-              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/THCA_Hemp_-_Super_Boof_COA.pdf?v=1757722042"
-            }
-          },
-          "labtest_GxYKJd": {
-            "type": "labtest",
-            "settings": {
-              "banner_btm_img": "shopify://shop_images/kush-queen-hemp-flower-grape-zkittles-thca-flower-exotic-1117462819.jpg",
-              "banner_btm_tp_text": "Grape Zkittles THCA Flower",
-              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/Grape_Zkittles_COA_1.jpg?v=1757722042"
-            }
-          },
-          "labtest_bn6CzJ": {
-            "type": "labtest",
-            "settings": {
-              "banner_btm_img": "shopify://shop_images/kush-queen-hemp-flower-white-runtz-thca-flower-private-reserve-40524755009781.jpg",
-              "banner_btm_tp_text": "White Runtz THCA Flower",
-              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/Blue_Runtz.pdf?v=1757722041"
-            }
-          },
-          "labtest_x4JeEq": {
-            "type": "labtest",
-            "settings": {
-              "banner_btm_img": "shopify://shop_images/Screenshot_2024-11-29_at_12.58.22_PM.png",
-              "banner_btm_tp_text": "Sour Cherry THCa Flower *Private Reserve*",
-              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/SourCherryLab11-4-24.pdf?v=1732913784"
             }
           }
         },
@@ -1407,30 +1311,18 @@
           "labtest_d9z4KG",
           "1580318024221",
           "1580317991671",
-          "labtest_6p4Twe",
-          "labtest_WpEqzX",
-          "labtest_JwCgnh",
-          "labtest_JQ6WCW",
-          "labtest_G9W4Nj",
-          "labtest_7Lqaax",
-          "labtest_rchEnd",
-          "labtest_B4Vz4W",
-          "labtest_cAtgwb",
-          "labtest_fJAbrk",
-          "labtest_ndTd8Y",
-          "labtest_CPFDkP",
-          "labtest_H9X4WV",
-          "labtest_BR8Vkr",
-          "labtest_eHfnfC",
-          "labtest_qtBGJY",
-          "labtest_N7BQLL",
-          "labtest_prE6iA",
           "labtest_4xicwz",
+          "labtest_fJAbrk",
+          "labtest_H9X4WV",
+          "labtest_6p4Twe",
           "labtest_w7mcYU",
-          "labtest_QPxd7K",
-          "labtest_GxYKJd",
-          "labtest_bn6CzJ",
-          "labtest_x4JeEq"
+          "labtest_JQ6WCW",
+          "labtest_BR8Vkr",
+          "labtest_G9W4Nj",
+          "labtest_eHfnfC",
+          "labtest_x4JeEq",
+          "labtest_ndTd8Y",
+          "labtest_CPFDkP"
         ],
         "settings": {}
       },
