@@ -1,6 +1,6 @@
 {% assign collection = collections[section.settings.collection] %}
 
-<div class="stack_collection-grid-wrapper collection-grid-stack">
+<div class="stack_collection-grid-wrapper collection-grid-stack" id="section--{{ section.id }}">
   <div class="page-width">
     <div class="stack_collection-grid-container">
       {% if section.settings.heading != blank %}
@@ -218,7 +218,7 @@
   .stack_collection-grid-wrapper {
     width: 100%;
   }
-  .stack_collection-grid-container {
+  #section--{{ section.id }} .stack_collection-grid-container {
       padding-top: {{ section.settings.padding_top }}px;
       padding-bottom: {{ section.settings.padding_bottom }}px;
       /* max-width: {{ section.settings.max_width }}px; */
@@ -277,7 +277,7 @@
       grid-template-columns: repeat({{ i }}, 1fr);
     }
     {% endfor %}
-    .stack_collection-grid-container {
+    #section--{{ section.id }} .stack_collection-grid-container {
           padding-left: 0rem;
     padding-right: 0rem;
     }
