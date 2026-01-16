@@ -39,7 +39,7 @@
 }
 {% endschema %}
 
-<div class="page-width stack_width_custom">
+<div class="page-width stack_width_custom" id="section-{{section.id }}">
   <div class="featured-logos-wrapper">
     <h2 class="featured-logos-heading">{{ section.settings.heading }}</h2>
     <div class="featured-logos-list">
@@ -66,7 +66,7 @@
     align-items: center;
     justify-content: space-between;
   }
-  .stack_width_custom {
+  #section-{{section.id }} .stack_width_custom {
     padding-left: 2rem;
     padding-right: 2rem;
   }
@@ -100,7 +100,7 @@
       font-size: 22px;
       margin-bottom: 5px;
     }
-    .stack_width_custom {
+  #section-{{section.id }} .stack_width_custom {
     padding-left: 0rem;
     padding-right: 0rem;
   }
