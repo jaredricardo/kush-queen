@@ -1017,14 +1017,6 @@
               "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/D9_Lube_1oz_16oz.pdf?v=1743541242"
             }
           },
-          "2157461f-0560-48cd-8554-bcf100797f7e": {
-            "type": "labtest",
-            "settings": {
-              "banner_btm_img": "shopify://shop_images/kush-queen-infused-chocolate-chip-cookie.jpg",
-              "banner_btm_tp_text": "Let's Get Baked Chocolate Chip Cookie",
-              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/Cookie.pdf?v=1743699074"
-            }
-          },
           "1577955969162": {
             "type": "labtest",
             "settings": {
@@ -1121,6 +1113,22 @@
               "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/Myster_D9_10ct.pdf?v=1743541242"
             }
           },
+          "labtest_CY8TKT": {
+            "type": "labtest",
+            "settings": {
+              "banner_btm_img": "shopify://shop_images/kush-queen-cbd-bath-bomb-let-s-get-baked-chocolate-chip-cookie-38528191332597.jpg",
+              "banner_btm_tp_text": "Chocolate Chip Rosin Cookie, 50mg",
+              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/Chocolate_Chip_Rosin_Cookie_COA.pdf?v=1765241779"
+            }
+          },
+          "labtest_wPBeff": {
+            "type": "labtest",
+            "settings": {
+              "banner_btm_img": "shopify://shop_images/kush-queen-ingestibles-snickerdoodle-rosin-cookie-50mg-thc-1204451883.png",
+              "banner_btm_tp_text": "Snickerdoodle Rosin Cookie, 50mg",
+              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/Snickerdoodle_Rosin_Cookie_COA.pdf?v=1765239834"
+            }
+          },
           "labtest_WM6XMW": {
             "type": "labtest",
             "settings": {
@@ -1143,22 +1151,6 @@
               "banner_btm_img": "shopify://shop_images/kush-queen-ingestibles-harder-for-him-male-sexual-enhancement-gummy-40991703826677.png",
               "banner_btm_tp_text": "Harder For Him, Sexual Enhancement Gummy",
               "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/Harder.pdf?v=1743541242"
-            }
-          },
-          "1577955943336": {
-            "type": "labtest",
-            "settings": {
-              "banner_btm_img": "shopify://shop_images/kush-queen-ingestibles-500mg-bare-cbd-tincture-broad-spectrum-30070610198686.jpg",
-              "banner_btm_tp_text": "Bäre CBD Tincture: Broad-Spectrum 500mg",
-              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/Bare_500mg_6896a807-9197-4ab1-ad35-3787f9554234.pdf?v=1743699074"
-            }
-          },
-          "1580317702987": {
-            "type": "labtest",
-            "settings": {
-              "banner_btm_img": "shopify://shop_images/kush-queen-ingestibles-1000mg-bare-cbd-tincture-broad-spectrum-30070610264222.jpg",
-              "banner_btm_tp_text": "Bäre CBD Tincture: Broad-Spectrum 1000mg",
-              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/Bare_1000mg_7f04a76f-d094-4a6d-a68f-6cf72cb115ef.pdf?v=1743699074"
             }
           },
           "1580318024221": {
@@ -1273,22 +1265,6 @@
               "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/Lemon_Octane_Pre_Roll.pdf?v=1717714811"
             }
           },
-          "labtest_Nqzgx4": {
-            "type": "labtest",
-            "settings": {
-              "banner_btm_img": "shopify://shop_images/kush-queen-hemp-flower-thca-flower-pre-roll-40685223510261.png",
-              "banner_btm_tp_text": "Blue Warheads - THCa AAA Buds Joint",
-              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/Runtz_COA.png?v=1748633013"
-            }
-          },
-          "labtest_YeaL4d": {
-            "type": "labtest",
-            "settings": {
-              "banner_btm_img": "shopify://shop_images/kush-queen-hemp-flower-thca-flower-pre-roll-40685223510261.png",
-              "banner_btm_tp_text": "Lemon Cherry Gelato - THCa AAA Buds Joint",
-              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/Lemon_Cherry_Gelato_THCA_Flower_COA_Oct_2024.pdf?v=1748652999"
-            }
-          },
           "labtest_H9X4WV": {
             "type": "labtest",
             "settings": {
@@ -1384,22 +1360,6 @@
               "banner_btm_tp_text": "Sour Cherry THCa Flower *Private Reserve*",
               "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/SourCherryLab11-4-24.pdf?v=1732913784"
             }
-          },
-          "labtest_CY8TKT": {
-            "type": "labtest",
-            "settings": {
-              "banner_btm_img": "shopify://shop_images/kush-queen-cbd-bath-bomb-let-s-get-baked-chocolate-chip-cookie-38528191332597.jpg",
-              "banner_btm_tp_text": "Chocolate Chip Rosin Cookie, 50mg",
-              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/Chocolate_Chip_Rosin_Cookie_COA.pdf?v=1765241779"
-            }
-          },
-          "labtest_wPBeff": {
-            "type": "labtest",
-            "settings": {
-              "banner_btm_img": "shopify://shop_images/kush-queen-ingestibles-snickerdoodle-rosin-cookie-50mg-thc-1204451883.png",
-              "banner_btm_tp_text": "Snickerdoodle Rosin Cookie, 50mg",
-              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/Snickerdoodle_Rosin_Cookie_COA.pdf?v=1765239834"
-            }
           }
         },
         "block_order": [
@@ -1428,7 +1388,6 @@
           "db7b8a0c-b43e-44a5-a9b7-da2a5ca3f676",
           "1577955825051",
           "24506604-9c7c-4310-930d-e9a44bfe3edf",
-          "2157461f-0560-48cd-8554-bcf100797f7e",
           "1577955969162",
           "1583807005682",
           "f5471b71-b2a8-4422-ad60-3c20a0e4c92a",
@@ -1441,11 +1400,11 @@
           "labtest_QzCUFp",
           "labtest_aR6twL",
           "labtest_UUGYa4",
+          "labtest_CY8TKT",
+          "labtest_wPBeff",
           "labtest_WM6XMW",
           "labtest_xLxbY7",
           "labtest_d9z4KG",
-          "1577955943336",
-          "1580317702987",
           "1580318024221",
           "1580317991671",
           "labtest_6p4Twe",
@@ -1460,8 +1419,6 @@
           "labtest_fJAbrk",
           "labtest_ndTd8Y",
           "labtest_CPFDkP",
-          "labtest_Nqzgx4",
-          "labtest_YeaL4d",
           "labtest_H9X4WV",
           "labtest_BR8Vkr",
           "labtest_eHfnfC",
@@ -1473,9 +1430,7 @@
           "labtest_QPxd7K",
           "labtest_GxYKJd",
           "labtest_bn6CzJ",
-          "labtest_x4JeEq",
-          "labtest_CY8TKT",
-          "labtest_wPBeff"
+          "labtest_x4JeEq"
         ],
         "settings": {}
       },
