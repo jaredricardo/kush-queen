@@ -3201,7 +3201,7 @@
       "collection-grid-stack-30-off": {
         "type": "collection-grid-stack-30-off",
         "settings": {
-          "collection": "thca-smalls-30-off-offer",
+          "collection": "thca-smalls-no-offer",
           "heading": "THCa Smalls",
           "heading_align": "center",
           "heading_font_size_desktop": 32,
