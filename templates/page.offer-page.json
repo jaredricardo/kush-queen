@@ -66,10 +66,24 @@
         "mobile_image": "shopify://shop_images/kQ-40-off-mobile-banner.png",
         "banner_height": "auto"
       }
+    },
+    "new_science_khpgqf": {
+      "type": "new-science",
+      "name": "New Science",
+      "settings": {
+        "title": "TITLE",
+        "subtitle": "<p>SUBTITLE</p>",
+        "left_heading": "",
+        "left_text": "",
+        "center_text": "",
+        "right_heading": "",
+        "right_text": ""
+      }
     }
   },
   "order": [
     "icon_links_L3CAzk",
-    "banner_stack_MqfgnD"
+    "banner_stack_MqfgnD",
+    "new_science_khpgqf"
   ]
 }
