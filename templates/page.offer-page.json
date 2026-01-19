@@ -9,7 +9,7 @@
  */
 {
   "sections": {
-        "icon_links_L3CAzk": {
+    "icon_links_L3CAzk": {
       "type": "icon-links",
       "blocks": {
         "icon_jzAW3E": {
@@ -58,8 +58,18 @@
         "icon_title_font": "Gotham-bold"
       }
     },
+    "banner_stack_MqfgnD": {
+      "type": "banner-stack",
+      "name": "Responsive Banner",
+      "settings": {
+        "desktop_image": "shopify://shop_images/kQ_40-off-desktop_banner.png",
+        "mobile_image": "shopify://shop_images/kQ-40-off-mobile-banner.png",
+        "banner_height": "auto"
+      }
+    }
   },
   "order": [
-    "icon_links_L3CAzk"
+    "icon_links_L3CAzk",
+    "banner_stack_MqfgnD"
   ]
 }
