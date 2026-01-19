@@ -1,0 +1,65 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+        "icon_links_L3CAzk": {
+      "type": "icon-links",
+      "blocks": {
+        "icon_jzAW3E": {
+          "type": "icon",
+          "settings": {
+            "icon_link": "shopify://collections/bath-bomb-reject-sale",
+            "icon": "shopify://shop_images/Vector_2_70x_8f3d5bc2-c8e7-42df-94de-f8c510ec5b23.webp",
+            "title": "shop all"
+          }
+        },
+        "icon_BfenYq": {
+          "type": "icon",
+          "settings": {
+            "icon_link": "",
+            "icon": "shopify://shop_images/Vector_2_70x_d97f53ba-ea04-4eac-8938-377ee437440e.webp",
+            "title": "bundles"
+          }
+        },
+        "icon_9HWK7y": {
+          "type": "icon",
+          "settings": {
+            "icon_link": "",
+            "icon": "shopify://shop_images/Vector_2_70x_d97f53ba-ea04-4eac-8938-377ee437440e.webp",
+            "title": "bath bombes"
+          }
+        },
+        "icon_mALUW6": {
+          "type": "icon",
+          "settings": {
+            "icon_link": "",
+            "icon": "shopify://shop_images/Vector_2_70x_68c03c91-0d81-4448-bfbe-96248c221621.webp",
+            "title": "topicals"
+          }
+        }
+      },
+      "block_order": [
+        "icon_jzAW3E",
+        "icon_BfenYq",
+        "icon_9HWK7y",
+        "icon_mALUW6"
+      ],
+      "disabled": true,
+      "settings": {
+        "background_color": "#ffffff",
+        "text_color": "#000000",
+        "icon_title_font": "Gotham-bold"
+      }
+    },
+  },
+  "order": [
+    "icon_links_L3CAzk"
+  ]
+}
