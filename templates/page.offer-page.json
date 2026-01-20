@@ -207,6 +207,13 @@
         "queen_pro_desc": "",
         "queen_pro_icon": "shopify://shop_images/Rectangle_4513_4.png"
       }
+    },
+    "custom_liquid_g3KWr3": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid Section",
+      "settings": {
+        "liquid_content": "{{ 'offer-page-style.css' | stylesheet_tag }}"
+      }
     }
   },
   "order": [
@@ -214,6 +221,7 @@
     "banner_stack_kKbDWp",
     "banner_stack_XqjXzg",
     "new_faq_RpW4gz",
-    "new_home_promise_RdjTM7"
+    "new_home_promise_RdjTM7",
+    "custom_liquid_g3KWr3"
   ]
 }
