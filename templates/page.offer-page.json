@@ -67,9 +67,19 @@
         "banner_height": "auto"
       }
     },
+    "banner_stack_kKbDWp": {
+      "type": "banner-stack",
+      "name": "Responsive Banner",
+      "settings": {
+        "desktop_image": "shopify://shop_images/Rectangle_4514.png",
+        "mobile_image": "shopify://shop_images/Rectangle_4514_1.png",
+        "banner_height": "auto"
+      }
+    }
   },
   "order": [
     "icon_links_L3CAzk",
-    "banner_stack_MqfgnD"
+    "banner_stack_MqfgnD",
+    "banner_stack_kKbDWp"
   ]
 }
