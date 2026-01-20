@@ -1,3 +1,8 @@
 .site-breadcumb{
     display: none;
 }
+
+.home-promise-large-section{
+    padding: 0 !important;
+    background-color: transparent !important;
+}
