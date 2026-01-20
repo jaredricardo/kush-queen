@@ -212,7 +212,7 @@
       "type": "custom-liquid",
       "name": "Custom Liquid Section",
       "settings": {
-        "liquid_content": "{{ 'offer-page-style.css' | stylesheet_tag }}"
+        "liquid_content": "{{ 'offer-page-style.css' | asset_url | stylesheet_tag }}"
       }
     }
   },
