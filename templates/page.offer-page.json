@@ -75,11 +75,21 @@
         "mobile_image": "shopify://shop_images/Rectangle_4514_1.png",
         "banner_height": "auto"
       }
+    },
+    "banner_stack_XqjXzg": {
+      "type": "banner-stack",
+      "name": "Responsive Banner",
+      "settings": {
+        "desktop_image": "shopify://shop_images/Screenshot_2026-01-18_at_17.54.55_1.png",
+        "mobile_image": "shopify://shop_images/Screenshot_2026-01-18_at_19.38.47_1.png",
+        "banner_height": "auto"
+      }
     }
   },
   "order": [
     "icon_links_L3CAzk",
     "banner_stack_MqfgnD",
-    "banner_stack_kKbDWp"
+    "banner_stack_kKbDWp",
+    "banner_stack_XqjXzg"
   ]
 }
