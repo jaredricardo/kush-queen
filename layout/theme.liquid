@@ -326,7 +326,7 @@ window.TriplePixelData={TripleName:"kush-queen-shop.myshopify.com",ver:"2.12",pl
   </head>
   <div class="evm-multiple evm-us-main-div" data-page="{{template}}"></div>
 
-  <body class="template-{{ request.page_type | handle }}">
+  <body class="template-{{ request.page_type | handle }} template--{{ template.name }}">
     {% render 'age-verify' %}
     {% comment %}
       <!-- MANAGED BY AGE GATE APP. DO NOT DELETE -->
