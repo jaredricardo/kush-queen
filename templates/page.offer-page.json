@@ -67,23 +67,9 @@
         "banner_height": "auto"
       }
     },
-    "new_science_khpgqf": {
-      "type": "new-science",
-      "name": "New Science",
-      "settings": {
-        "title": "TITLE",
-        "subtitle": "<p>SUBTITLE</p>",
-        "left_heading": "",
-        "left_text": "",
-        "center_text": "",
-        "right_heading": "",
-        "right_text": ""
-      }
-    }
   },
   "order": [
     "icon_links_L3CAzk",
-    "banner_stack_MqfgnD",
-    "new_science_khpgqf"
+    "banner_stack_MqfgnD"
   ]
 }
