@@ -84,12 +84,32 @@
         "mobile_image": "shopify://shop_images/Screenshot_2026-01-18_at_19.38.47_1.png",
         "banner_height": "auto"
       }
+    },
+    "new_faq_nBJiYf": {
+      "type": "new-faq",
+      "blocks": {
+        "faq_block_tkxYWX": {
+          "type": "faq_block",
+          "settings": {
+            "question": "Sample Question",
+            "answer": "<p>Sample Answer</p>"
+          }
+        }
+      },
+      "block_order": [
+        "faq_block_tkxYWX"
+      ],
+      "name": "NEW FAQ",
+      "settings": {
+        "faq_title": "FAQ TITLE"
+      }
     }
   },
   "order": [
     "icon_links_L3CAzk",
     "banner_stack_MqfgnD",
     "banner_stack_kKbDWp",
-    "banner_stack_XqjXzg"
+    "banner_stack_XqjXzg",
+    "new_faq_nBJiYf"
   ]
 }
