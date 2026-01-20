@@ -207,12 +207,59 @@
         "faq_title": "Frequently Asked Questions"
       }
     },
+    "new_home_promise_RdjTM7": {
+      "type": "new-home-promise",
+      "blocks": {
+        "promise_cVxyYU": {
+          "type": "promise",
+          "settings": {
+            "queen_pro_sing_title": "",
+            "queen_pro_sing_desc": ""
+          }
+        },
+        "promise_F8M8pd": {
+          "type": "promise",
+          "settings": {
+            "queen_pro_sing_title": "",
+            "queen_pro_sing_desc": ""
+          }
+        },
+        "promise_wdLjN3": {
+          "type": "promise",
+          "settings": {
+            "queen_pro_sing_title": "",
+            "queen_pro_sing_desc": ""
+          }
+        },
+        "promise_dEnL9b": {
+          "type": "promise",
+          "settings": {
+            "queen_pro_sing_title": "",
+            "queen_pro_sing_desc": ""
+          }
+        }
+      },
+      "block_order": [
+        "promise_cVxyYU",
+        "promise_F8M8pd",
+        "promise_wdLjN3",
+        "promise_dEnL9b"
+      ],
+      "name": "New Home Promise",
+      "settings": {
+        "queen_pro_title": "",
+        "queen_pro_subtitle": "",
+        "queen_pro_desc": "",
+        "queen_pro_icon": "shopify://shop_images/Rectangle_4513_4.png"
+      }
+    }
   },
   "order": [
     "icon_links_L3CAzk",
     "banner_stack_MqfgnD",
     "banner_stack_kKbDWp",
     "banner_stack_XqjXzg",
-    "new_faq_RpW4gz"
+    "new_faq_RpW4gz",
+    "new_home_promise_RdjTM7"
   ]
 }
