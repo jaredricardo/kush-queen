@@ -85,31 +85,134 @@
         "banner_height": "auto"
       }
     },
-    "new_faq_nBJiYf": {
+    "new_faq_RpW4gz": {
       "type": "new-faq",
       "blocks": {
-        "faq_block_tkxYWX": {
+        "faq_block_gLCeGr": {
           "type": "faq_block",
           "settings": {
-            "question": "Sample Question",
-            "answer": "<p>Sample Answer</p>"
+            "question": "What are CBD gummies good for?",
+            "answer": "<p>CBD gummies are perfect for those moments when you just need to chill, reset, or catch some extra Zzz’s. They’re easy, pre-dosed, and tasty, making them a go-to for stress relief, better sleep, and all-around wellness. Plus, they’re discreet enough to toss in your bag and take anywhere—like a little secret to keep you feeling good on the go.</p>"
+          }
+        },
+        "faq_block_fY7AmD": {
+          "type": "faq_block",
+          "settings": {
+            "question": "Are there any side effects from taking CBD gummies?",
+            "answer": "<p>Most people vibe well with CBD, but hey, everyone’s body is different! Some folks experience mild effects like drowsiness, dry mouth, or a slight shift in appetite. We recommend starting with a lower dose to see how you feel, and if you have any concerns, reach out to a healthcare provider.</p>"
+          }
+        },
+        "faq_block_ncayAy": {
+          "type": "faq_block",
+          "settings": {
+            "question": "Will CBD gummies make me high?",
+            "answer": "<p>Nope, not a chance. Our CBD gummies are made with hemp-derived CBD, meaning they contain less than 0.3% THC—way too little to make you feel high. So you can enjoy all the wellness benefits of CBD without any of the “heady” vibes. Just pure relaxation, naturally.</p>"
+          }
+        },
+        "faq_block_jBtPRG": {
+          "type": "faq_block",
+          "settings": {
+            "question": "What’s the difference between CBD gummies and CBD oil tinctures?",
+            "answer": "<p>Think of CBD gummies as your low-key, tasty treat that’s ready to go whenever you are. Gummies take a little longer to kick in (usually 30-90 minutes) but offer longer-lasting effects. CBD tinctures, on the other hand, are faster-acting because you drop them under your tongue for quick absorption. So, if you want a quicker boost, tinctures are where it’s at. Want something that feels more like a treat? Gummies are your BFF.</p>"
+          }
+        },
+        "faq_block_gMVPhf": {
+          "type": "faq_block",
+          "settings": {
+            "question": "How long do CBD gummies last?",
+            "answer": "<p>Think of CBD gummies as your low-key, tasty treat that’s ready to go whenever you are. Gummies take a little longer to kick in (usually 30-90 minutes) but offer longer-lasting effects. <a href=\"https://kushqueen.shop/products/bare-cbd-tincture\" title=\"https://kushqueen.shop/products/bare-cbd-tincture\">CBD tinctures</a>, on the other hand, are faster-acting because you drop them under your tongue for quick absorption. So, if you want a quicker boost, tinctures are where it’s at. Want something that feels more like a treat? Gummies are your BFF. Answer</p>"
+          }
+        },
+        "faq_block_7Rhyy4": {
+          "type": "faq_block",
+          "settings": {
+            "question": "Will full-spectrum CBD make me fail a drug test?",
+            "answer": "<p>It’s rare, but possible. Our <a href=\"https://kushqueen.shop/products/full-spectrum-cbd-chews\" title=\"https://kushqueen.shop/products/full-spectrum-cbd-chews\">full-spectrum CBD gummies</a> contain only trace amounts of THC (within the legal limit), but if you’re taking high doses consistently, there’s a slim chance it could show up on a drug test. If this is a big concern, we recommend going with a broad-spectrum or THC-free option just to be extra safe.</p>"
+          }
+        },
+        "faq_block_WbqHam": {
+          "type": "faq_block",
+          "settings": {
+            "question": "How should I take my CBD gummies for the best effect?",
+            "answer": "<p>It’s simple—pop a gummy and see how you feel! If you’re new to CBD, start with one gummy and give it about an hour to work its magic. You can adjust from there depending on your needs. Consistency is key, so taking your gummies around the same time each day can help you enjoy those long-term benefits.</p>"
+          }
+        },
+        "faq_block_NKEgnq": {
+          "type": "faq_block",
+          "settings": {
+            "question": "Are CBD gummies legal in my state?",
+            "answer": "<p>Maybe! CBD from hemp (with less than 0.3% THC) is federally legal, thanks to the 2018 Farm Bill. Most states allow CBD, but it’s always smart to double-<a href=\"https://www.fda.gov/news-events/public-health-focus/fda-regulation-cannabis-and-cannabis-derived-products-including-cannabidiol-cbd\" title=\"https://www.fda.gov/news-events/public-health-focus/fda-regulation-cannabis-and-cannabis-derived-products-including-cannabidiol-cbd\">check local regulations</a> if you’re unsure.</p>"
+          }
+        },
+        "faq_block_PFJ8cA": {
+          "type": "faq_block",
+          "settings": {
+            "question": "How long does it take for CBD gummies to work?",
+            "answer": "<p>Expect your gummies to start working in about 30 to 90 minutes. Since they’re digested like regular food, they take a bit longer than other forms of CBD, but the effects tend to last longer, too. Perfect for sustained chill!</p>"
+          }
+        },
+        "faq_block_nPtGA6": {
+          "type": "faq_block",
+          "settings": {
+            "question": "What are Kush Queen’s CBD gummies made of?",
+            "answer": "<p>We’re all about quality ingredients! Our CBD gummies are crafted with full-spectrum hemp-derived CBD and natural flavors, giving you a clean, delicious experience with no artificial colors or fillers. Plus, they’re vegan, cruelty-free, and made with love—only the best for our community!</p>"
+          }
+        },
+        "faq_block_3pkPYL": {
+          "type": "faq_block",
+          "settings": {
+            "question": "Do you ship CBD gummies internationally?",
+            "answer": "<p>Yes! We’re excited to offer international shipping to select locations. Just pop your items in the cart and reach out to us at support@kushqueen.shop, and we’ll get back to you with international shipping details!</p>"
+          }
+        },
+        "faq_block_3hyj4M": {
+          "type": "faq_block",
+          "settings": {
+            "question": "What’s the recommended dose for CBD gummies?",
+            "answer": "<p>Most people start with one gummy (about 25mg CBD) and see how they feel. You can adjust your dose over time to find what works best for your body. It’s all about listening to your body and finding your sweet spot.</p>"
+          }
+        },
+        "faq_block_MzM6Kw": {
+          "type": "faq_block",
+          "settings": {
+            "question": "Can I take CBD gummies every day?",
+            "answer": "<p>Absolutely! In fact, a lot of our customers find that taking CBD daily gives them the best results. Whether it’s to keep calm, manage stress, or support sleep, consistent use can make a big difference.</p>"
+          }
+        },
+        "faq_block_qKXUmt": {
+          "type": "faq_block",
+          "settings": {
+            "question": "Are CBD gummies suitable for beginners?",
+            "answer": "<p>Yes! CBD gummies are perfect for beginners because they’re pre-dosed, tasty, and so easy to use. Just start with a low dose, enjoy, and adjust as you go.</p>"
           }
         }
       },
       "block_order": [
-        "faq_block_tkxYWX"
+        "faq_block_gLCeGr",
+        "faq_block_fY7AmD",
+        "faq_block_ncayAy",
+        "faq_block_jBtPRG",
+        "faq_block_gMVPhf",
+        "faq_block_7Rhyy4",
+        "faq_block_WbqHam",
+        "faq_block_NKEgnq",
+        "faq_block_PFJ8cA",
+        "faq_block_nPtGA6",
+        "faq_block_3pkPYL",
+        "faq_block_3hyj4M",
+        "faq_block_MzM6Kw",
+        "faq_block_qKXUmt"
       ],
-      "name": "NEW FAQ",
       "settings": {
-        "faq_title": "FAQ TITLE"
+        "faq_title": "Frequently Asked Questions"
       }
-    }
+    },
   },
   "order": [
     "icon_links_L3CAzk",
     "banner_stack_MqfgnD",
     "banner_stack_kKbDWp",
     "banner_stack_XqjXzg",
-    "new_faq_nBJiYf"
+    "new_faq_RpW4gz"
   ]
 }
