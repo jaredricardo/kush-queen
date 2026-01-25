@@ -120,7 +120,7 @@
       display: inline-block;
       background-color: {{ section.settings.button_bg_color }};
       color: {{ section.settings.button_text_color }};
-      padding: {{ section.settings.button_padding_mobile }}px {{ section.settings.button_padding_mobile | times: 1.75 }}px;
+      padding: {{ section.settings.button_padding_mobile }}px {{ section.settings.button_padding_mobile | times: 1.5 }}px;
       border-radius: {{ section.settings.button_border_radius }}px;
       font-size: {{ section.settings.button_font_size_mobile }}px;
       font-weight: {{ section.settings.button_font_weight }};
@@ -135,7 +135,7 @@
 
     @media (min-width: 768px) {
       #shopify-section-{{ section_id }} .cta-button {
-        padding: {{ section.settings.button_padding_desktop }}px;
+        padding: {{ section.settings.button_padding_desktop }}px {{ section.settings.button_padding_desktop | times: 2 }}px;
         font-size: {{ section.settings.button_font_size_desktop }}px;
       }
     }
