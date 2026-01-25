@@ -23,12 +23,13 @@
 
   {% if section.settings.heading_text != blank or section.settings.subheading_text != blank %}
     #shopify-section-{{ section_id }} .section-header {
-      text-align: {{ section.settings.heading_alignment }};
-      margin-bottom: {{ section.settings.heading_margin_bottom_mobile }}px;
+        margin-bottom: {{ section.settings.heading_margin_bottom_mobile }}px;
+        text-align: center;
     }
-
+    
     @media (min-width: 768px) {
-      #shopify-section-{{ section_id }} .section-header {
+        #shopify-section-{{ section_id }} .section-header {
+            text-align: {{ section.settings.heading_alignment }};
         margin-bottom: {{ section.settings.heading_margin_bottom_desktop }}px;
       }
     }
