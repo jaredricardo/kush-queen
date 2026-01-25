@@ -232,7 +232,7 @@
   #shopify-section-{{ section_id }} .product-pricing {
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: clamp(3px, 1vw, 10px);
     flex-wrap: wrap;
     margin-top: auto;
     margin-bottom: {{ section.settings.pricing_margin_bottom_mobile }}px;
