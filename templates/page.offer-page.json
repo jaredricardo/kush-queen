@@ -327,6 +327,18 @@
       "settings": {
         "liquid_content": "{{ 'offer-page-style.css' | asset_url | stylesheet_tag }}"
       }
+    },
+    "feature_row_RTR7bc": {
+      "type": "feature-row",
+      "name": "Image with text",
+      "settings": {
+        "image": "shopify://shop_images/Rectangle_4513_1.png",
+        "layout": "left",
+        "title": "Our namesake, Kush Queen…",
+        "text": "<p>In six years, Kush Queen has grown into a multi-million dollar, multifaceted cannabis brand manufacturing category-leading hemp, compliant cannabis, transdermal, and minor cannabinoid products. The Kush Queen product line includes award-winning cannabis infused bath bombs, transdermal topicals, flower, pre-rolls, edibles, wellness supplements, and skincare.<br/><br/>Like all good things, Kush Queen was born out of community; at the intersection of social media and cannabis. Here’s the story of who we are and how we got here.</p>",
+        "button_label": "Shop Now",
+        "button_link": "#PageContainer"
+      }
     }
   },
   "order": [
@@ -336,6 +348,7 @@
     "banner_stack_XqjXzg",
     "new_faq_RpW4gz",
     "new_home_promise_RdjTM7",
-    "custom_liquid_g3KWr3"
+    "custom_liquid_g3KWr3",
+    "feature_row_RTR7bc"
   ]
 }
