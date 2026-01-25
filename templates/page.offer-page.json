@@ -34,7 +34,7 @@
         "section_padding_horizontal_desktop": 40,
         "section_heading": "2 GRAMS VAPES",
         "section_subtitle": "Transform your bath into a luxurious escape with Kush Queen's handcrafted CBD bath bomb",
-        "heading_color": "#D4AF37",
+        "heading_color": "#d4af37",
         "heading_alignment_mobile": "left",
         "heading_alignment_desktop": "left",
         "heading_font_family": "Arial, sans-serif",
@@ -86,7 +86,7 @@
         "show_reviews": true,
         "show_review_count": true,
         "star_icon": "★",
-        "stars_color": "#FFD700",
+        "stars_color": "#ffd700",
         "stars_size_mobile": 14,
         "stars_size_desktop": 16,
         "stars_gap": 2,
@@ -156,8 +156,8 @@
         "pricing_margin_bottom_mobile": 16,
         "pricing_margin_bottom_desktop": 20,
         "button_text": "SHOP NOW",
-        "button_bg_color": "#D4AF37",
-        "button_bg_hover_color": "#B8941F",
+        "button_bg_color": "#d4af37",
+        "button_bg_hover_color": "#b8941f",
         "button_text_color": "#000000",
         "button_text_hover_color": "#000000",
         "button_font_family": "Arial, sans-serif",
@@ -426,56 +426,6 @@
         "faq_title": "Frequently Asked Questions"
       }
     },
-    "new_home_promise_RdjTM7": {
-      "type": "new-home-promise",
-      "blocks": {
-        "promise_cVxyYU": {
-          "type": "promise",
-          "settings": {
-            "queen_pro_sing_img": "shopify://shop_images/KQ_ICON_6.svg",
-            "queen_pro_sing_title": "Community First",
-            "queen_pro_sing_desc": "Kush Queen is rooted in our passion for cannabis and our commitment to help shape normalization and usage for everyone. All are welcome."
-          }
-        },
-        "promise_F8M8pd": {
-          "type": "promise",
-          "settings": {
-            "queen_pro_sing_img": "shopify://shop_images/KQ_ICON_7.svg",
-            "queen_pro_sing_title": "Advanced Formulas",
-            "queen_pro_sing_desc": "Our products are developed with 3 key values in mind. Science, technology, and delivery methods that make sense."
-          }
-        },
-        "promise_wdLjN3": {
-          "type": "promise",
-          "settings": {
-            "queen_pro_sing_img": "shopify://shop_images/KQ_ICON_1_9e5f09cd-fbcf-4569-8501-cd414664b9c5.svg",
-            "queen_pro_sing_title": "Quality Is Supreme",
-            "queen_pro_sing_desc": "We bend the knee to the plant. Only the highest-quality, lab tested cannabinoids are sourced for Kush Queen products. Made in the USA."
-          }
-        },
-        "promise_dEnL9b": {
-          "type": "promise",
-          "settings": {
-            "queen_pro_sing_img": "shopify://shop_images/atomic.svg",
-            "queen_pro_sing_title": "Effects You Feel",
-            "queen_pro_sing_desc": "All Kush Queen products feature advanced technology, and innovative hemp molecules that make you feel something real."
-          }
-        }
-      },
-      "block_order": [
-        "promise_cVxyYU",
-        "promise_F8M8pd",
-        "promise_wdLjN3",
-        "promise_dEnL9b"
-      ],
-      "name": "New Home Promise",
-      "settings": {
-        "queen_pro_title": "",
-        "queen_pro_subtitle": "",
-        "queen_pro_desc": "",
-        "queen_pro_icon": "shopify://shop_images/Rectangle_4513_4.png"
-      }
-    },
     "custom_liquid_g3KWr3": {
       "type": "custom-liquid",
       "name": "Custom Liquid Section",
@@ -503,7 +453,6 @@
     "banner_stack_kKbDWp",
     "banner_stack_XqjXzg",
     "new_faq_RpW4gz",
-    "new_home_promise_RdjTM7",
     "custom_liquid_g3KWr3",
     "feature_row_RTR7bc"
   ]
