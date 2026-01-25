@@ -18,6 +18,45 @@
         "banner_height": "auto"
       }
     },
+    "offer_brand_logos_stack_ygzzJ7": {
+      "type": "offer-brand-logos-stack",
+      "blocks": {
+        "logo_3JAJmV": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Grupo_3418.svg"
+          }
+        },
+        "logo_KhwQtA": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Vector_21.svg"
+          }
+        },
+        "logo_CntwwU": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/los_angeles_times_logo_svg.svg"
+          }
+        },
+        "logo_a9fDJ4": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/new_york_post_logo_svg.svg"
+          }
+        }
+      },
+      "block_order": [
+        "logo_3JAJmV",
+        "logo_KhwQtA",
+        "logo_CntwwU",
+        "logo_a9fDJ4"
+      ],
+      "name": "Offer Logos",
+      "settings": {
+        "heading": "FEATURED IN"
+      }
+    },
     "featured_collection_custom_Ez9BxM": {
       "type": "featured-collection-custom",
       "name": "Product Grid",
@@ -645,6 +684,7 @@
   },
   "order": [
     "banner_stack_MqfgnD",
+    "offer_brand_logos_stack_ygzzJ7",
     "featured_collection_custom_Ez9BxM",
     "featured_collection_custom_Tmz6V6",
     "featured_collection_custom_6d4Jc3",
