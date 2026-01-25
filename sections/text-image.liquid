@@ -120,7 +120,7 @@
       display: inline-block;
       background-color: {{ section.settings.button_bg_color }};
       color: {{ section.settings.button_text_color }};
-      padding: {{ section.settings.button_padding_mobile }}px;
+      padding: {{ section.settings.button_padding_mobile }}px {{ section.settings.button_padding_mobile | times: 1.75 }}px;
       border-radius: {{ section.settings.button_border_radius }}px;
       font-size: {{ section.settings.button_font_size_mobile }}px;
       font-weight: {{ section.settings.button_font_weight }};
