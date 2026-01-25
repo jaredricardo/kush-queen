@@ -213,7 +213,7 @@
       font-size: {{ section.settings.description_font_size_mobile }}px;
       font-weight: {{ section.settings.description_font_weight }};
       line-height: {{ section.settings.description_line_height_mobile }};
-      margin: auto 0 {{ section.settings.description_margin_bottom_mobile }}px 0;        display: -webkit-box;
+      margin: 0 0 {{ section.settings.description_margin_bottom_mobile }}px 0;        display: -webkit-box;
         -webkit-box-orient: vertical;
         -webkit-line-clamp: 4;
         text-overflow: ellipsis;
@@ -281,6 +281,7 @@
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 0.5px;
+    line-height: 1.5
   }
 
   #shopify-section-{{ section_id }} .product-cta {
