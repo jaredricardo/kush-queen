@@ -336,7 +336,7 @@
     {% if collection != blank %}
       <ul class="product-grid">
         {% for product in collection.products limit: product_limit %}
-          <li class="product-card">
+          <li class="product-card" data-product-id="{{ product.id }}" data-variant-id="{{ product.selected_or_first_available_variant.id }}">
             <div class="product-image-container">
               {% if product.featured_image %}
                 <img
@@ -413,9 +413,15 @@
                 {% endif %}
               </div>
 
-              <a href="{{ product.url }}" class="product-cta">
-                {{ section.settings.button_text }}
-              </a>
+              {% if product.available %}
+                <a href="{{ product.url }}" class="product-cta">
+                  {{ section.settings.button_text }}
+                </a>
+              {% else %}
+                <a href="{{ product.url }}" disabled class="product-cta">
+                  Sold Out
+                </a>
+              {% endif %}
             </div>
           </li>
         {% endfor %}
