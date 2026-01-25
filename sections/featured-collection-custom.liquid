@@ -21,33 +21,36 @@
 
   #shopify-section-{{ section.id }}
   .section-heading {
-    text-align: {{ section.settings.heading_alignment_mobile }};
-    color: {{ section.settings.heading_color }};
-    font-family: {{ section.settings.heading_font_family }};
-    font-size: {{ section.settings.heading_font_size_mobile }}px;
-    font-weight: {{ section.settings.heading_font_weight }};
-    line-height: {{ section.settings.heading_line_height_mobile }};
-    letter-spacing: {{ section.settings.heading_letter_spacing_mobile }}px;
-    text-transform: {{ section.settings.heading_text_transform }};
-    margin: 0 0{{ section.settings.heading_margin_bottom_mobile }}px;
+    text-align: center;
+    color: #000000;
+    font-family: Arial
+    , sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 1.2;
+    letter-spacing: 0;
+    text-transform: uppercase;
+    margin: 0 0 10px;
   }
 
   #shopify-section-{{ section.id }}
   .section-subtitle {
-    text-align: {{ section.settings.heading_alignment_mobile }};
-    color: {{ section.settings.subtitle_color }};
-    font-family: {{ section.settings.subtitle_font_family }};
-    font-size: {{ section.settings.subtitle_font_size_mobile }}px;
-    font-weight: {{ section.settings.subtitle_font_weight }};
-    line-height: {{ section.settings.subtitle_line_height }};
-    margin: 0 0{{ section.settings.heading_margin_bottom_mobile }}px;
+    text-align: center;
+    color: #666666;
+    font-family: Arial
+    , sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.4;
+    margin: 0 auto 30px;
+    max-width: 600px;
   }
 
   #shopify-section-{{ section.id }}
   .products-grid {
     display: grid;
     grid-template-columns: repeat({{ section.settings.grid_columns_mobile }}, 1fr);
-    gap: {{ section.settings.grid_gap_mobile }}px;
+    gap: 20px;
     margin: 0;
     padding: 0;
     list-style: none;
@@ -55,9 +58,9 @@
 
   #shopify-section-{{ section.id }}
   .product-card {
-    background-color: {{ section.settings.card_bg_color }};
-    border-radius: {{ section.settings.card_roundness }}px;
-    padding: {{ section.settings.card_padding_mobile }}px;
+    background-color: #ffffff;
+    border-radius: 0;
+    padding: 0;
     display: flex;
     flex-direction: column;
     height: 100%;
@@ -66,10 +69,10 @@
 
   #shopify-section-{{ section.id }}
   .product-image-wrapper {
-    background-color: {{ section.settings.image_bg_color }};
-    border-radius: {{ section.settings.image_roundness }}px;
+    background-color: #f5f5f5;
+    border-radius: 0;
     overflow: hidden;
-    margin-bottom: {{ section.settings.image_margin_bottom_mobile }}px;
+    margin-bottom: 0;
     position: relative;
   }
 
@@ -109,6 +112,7 @@
     display: flex;
     flex-direction: column;
     flex: 1;
+    padding: 15px 10px;
   }
 
   #shopify-section-{{ section.id }}
@@ -123,9 +127,9 @@
   #shopify-section-{{ section.id }}
   .stars {
     display: flex;
-    gap: {{ section.settings.stars_gap }}px;
-    color: {{ section.settings.stars_color }};
-    font-size: {{ section.settings.stars_size_mobile }}px;
+    gap: 2px;
+    color: #000000;
+    font-size: 12px;
   }
 
   #shopify-section-{{ section.id }}
@@ -139,26 +143,28 @@
 
   #shopify-section-{{ section.id }}
   .product-title {
-    color: {{ section.settings.title_color }};
-    font-family: {{ section.settings.title_font_family }};
-    font-size: 18px;
+    color: #000000;
+    font-family: Arial
+    , sans-serif;
+    font-size: 16px;
     font-weight: bold;
-    line-height: 1.5;
-    letter-spacing: 0.5px;
-    text-transform: uppercase;
-    margin: 0 0 10px;
+    line-height: 1.2;
+    letter-spacing: 0;
+    text-transform: none;
+    margin: 0 0 8px;
   }
 
   #shopify-section-{{ section.id }}
   .product-description {
-    color: {{ section.settings.description_color }};
-    font-family: {{ section.settings.description_font_family }};
-    font-size: {{ section.settings.description_font_size_mobile }}px;
-    font-weight: {{ section.settings.description_font_weight }};
-    line-height: {{ section.settings.description_line_height_mobile }};
-    letter-spacing: 0.5px;
-    text-transform: uppercase;
-    margin: 0 0{{ section.settings.description_margin_bottom_mobile }}px;
+    color: #666666;
+    font-family: Arial
+    , sans-serif;
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 1.4;
+    letter-spacing: 0;
+    text-transform: none;
+    margin: 0 0 12px;
   }
 
   #shopify-section-{{ section.id }}
@@ -185,9 +191,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: {{ section.settings.pricing_gap }}px;
+    gap: 8px;
     flex-wrap: wrap;
-    margin-bottom: {{ section.settings.pricing_margin_bottom_mobile }}px;
+    margin-bottom: 12px;
     font-weight: bold;
   }
 
@@ -226,16 +232,17 @@
   #shopify-section-{{ section.id }}
   .cta-button {
     width: 100%;
-    background-color: {{ section.settings.button_bg_color }};
-    color: {{ section.settings.button_text_color }};
-    font-family: {{ section.settings.button_font_family }};
-    font-size: {{ section.settings.button_font_size_mobile }}px;
-    font-weight: {{ section.settings.button_font_weight }};
-    text-transform: {{ section.settings.button_text_transform }};
-    letter-spacing: {{ section.settings.button_letter_spacing }}px;
-    padding: {{ section.settings.button_padding_vertical_mobile }}px{{ section.settings.button_padding_horizontal_mobile }}px;
+    background-color: #000000;
+    color: #ffffff;
+    font-family: Arial
+    , sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    padding: 12px 15px;
     border: none;
-    border-radius: {{ section.settings.button_roundness }}px;
+    border-radius: 0;
     cursor: pointer;
     transition: all 0.3s ease;
     text-decoration: none;
@@ -292,8 +299,8 @@
 
     #shopify-section-{{ section.id }}
     .products-grid {
-      grid-template-columns: repeat({{ section.settings.grid_columns_desktop }}, 1fr);
-      gap: {{ section.settings.grid_gap_desktop }}px;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 20px;
     }
 
     #shopify-section-{{ section.id }}
