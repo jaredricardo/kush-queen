@@ -276,7 +276,7 @@
     background-color: {{ section.settings.badge_bg_color }};
     color: {{ section.settings.badge_text_color }};
     font-size: {{ section.settings.badge_font_size }}px;
-    padding: {{ section.settings.badge_padding }}px;
+    padding: {{ section.settings.badge_padding }}px {{ section.settings.badge_padding | times: 1.5 }}px;
     border-radius: {{ section.settings.badge_border_radius }}px;
     font-weight: 600;
     text-transform: uppercase;
