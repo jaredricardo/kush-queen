@@ -364,7 +364,7 @@
     {% endif %}
 
     {% if request.page_type == 'page' %}
-      {% if request.page.handle contains '40-off' or page.handle == '420-prep' %}
+      {% if page.handle == '40-off' or page.handle == '420-prep' %}
         <style>
           .site-breadcumb {
             display: none;
