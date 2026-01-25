@@ -18,6 +18,119 @@
         "banner_height": "auto"
       }
     },
+    "standalone_multicolumn_image_VChLwF": {
+      "type": "standalone-multicolumn-image",
+      "blocks": {
+        "feature_a3hpiy": {
+          "type": "feature",
+          "settings": {
+            "icon_image": "shopify://shop_images/KQ_ICON_6.svg",
+            "icon_svg": "",
+            "heading": "Community First",
+            "description": "<p>Kush Queen is rooted in our passion for cannabis and our commitment to help shape normalization and usage for everyone. All are welcome.</p>"
+          }
+        },
+        "feature_Bt4dUc": {
+          "type": "feature",
+          "settings": {
+            "icon_image": "shopify://shop_images/KQ_ICON_7.svg",
+            "icon_svg": "",
+            "heading": "Advanced Formulas",
+            "description": "<p>Our products are developed with 3 key values in mind. Science, technology, and delivery methods that make sense.</p>"
+          }
+        },
+        "feature_egQVQK": {
+          "type": "feature",
+          "settings": {
+            "icon_image": "shopify://shop_images/KQ_ICON_1_9e5f09cd-fbcf-4569-8501-cd414664b9c5.svg",
+            "icon_svg": "",
+            "heading": "Quality Is Supreme",
+            "description": "<p>We bend the knee to the plant. Only the highest-quality, lab tested cannabinoids are sourced for Kush Queen products. Made in the USA.</p>"
+          }
+        },
+        "feature_hFp4r7": {
+          "type": "feature",
+          "settings": {
+            "icon_image": "shopify://shop_images/KQ_ICON_2.svg",
+            "icon_svg": "",
+            "heading": "Effects You Feel",
+            "description": "<p>All Kush Queen products feature advanced technology, and innovative hemp molecules that make you feel something real.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "feature_a3hpiy",
+        "feature_Bt4dUc",
+        "feature_egQVQK",
+        "feature_hFp4r7"
+      ],
+      "name": "Image with Multi-Column",
+      "settings": {
+        "heading_font": "assistant_n4",
+        "body_font": "assistant_n4",
+        "section_heading": "",
+        "section_description": "",
+        "section_header_alignment": "left",
+        "section_header_spacing_mobile": 24,
+        "section_header_spacing_desktop": 32,
+        "container_max_width": 1200,
+        "desktop_image_position": "left",
+        "mobile_image_position": "top",
+        "columns_per_row_mobile": "1",
+        "columns_per_row_desktop": "2",
+        "main_gap_mobile": 12,
+        "main_gap_desktop": 12,
+        "columns_gap_mobile": 12,
+        "columns_gap_desktop": 12,
+        "enable_image": true,
+        "image_desktop": "shopify://shop_images/Rectangle_4513_3.png",
+        "image_mobile": "shopify://shop_images/Rectangle_4513_4.png",
+        "image_fit": "cover",
+        "image_radius": 12,
+        "section_heading_weight": "700",
+        "section_heading_size_mobile": 24,
+        "section_heading_size_desktop": 32,
+        "section_heading_line_height": 1.2,
+        "section_heading_letter_spacing": 0,
+        "section_heading_spacing": 12,
+        "section_description_size_mobile": 14,
+        "section_description_size_desktop": 16,
+        "section_description_line_height": 1.6,
+        "section_description_letter_spacing": 0,
+        "column_heading_weight": "600",
+        "column_heading_size_mobile": 18,
+        "column_heading_size_desktop": 20,
+        "column_heading_line_height": 1.3,
+        "column_heading_letter_spacing": 0,
+        "column_description_size_mobile": 14,
+        "column_description_size_desktop": 15,
+        "column_description_line_height": 1.5,
+        "column_description_letter_spacing": 0,
+        "section_bg_color": "#ffffff",
+        "section_text_color": "#111111",
+        "section_heading_color": "#111111",
+        "section_description_color": "#444444",
+        "card_bg_color": "#f3f2ea",
+        "card_heading_color": "#222222",
+        "card_text_color": "#222222",
+        "icon_bg_color": "rgba(255, 255, 255, 0.1)",
+        "icon_color": "#ffffff",
+        "card_text_alignment": "left",
+        "card_radius": 4,
+        "card_padding_mobile": 16,
+        "card_padding_desktop": 24,
+        "card_content_gap": 8,
+        "icon_size": 40,
+        "icon_radius": 40,
+        "icon_spacing": 8,
+        "padding_top_mobile": 32,
+        "padding_bottom_mobile": 32,
+        "padding_horizontal_mobile": 16,
+        "padding_top_desktop": 48,
+        "padding_bottom_desktop": 48,
+        "padding_horizontal_desktop": 32
+      }
+    },
     "banner_stack_kKbDWp": {
       "type": "banner-stack",
       "name": "Responsive Banner",
@@ -218,6 +331,7 @@
   },
   "order": [
     "banner_stack_MqfgnD",
+    "standalone_multicolumn_image_VChLwF",
     "banner_stack_kKbDWp",
     "banner_stack_XqjXzg",
     "new_faq_RpW4gz",
