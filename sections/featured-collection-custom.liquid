@@ -170,7 +170,11 @@
     background: #F5F5F5;
     width: 100%;
     max-width: max-content;
-    border-radius: 5px;
+    border-radius: 5px;    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    text-overflow: ellipsis;
+    overflow: hidden;
     }
 
     @media (min-width: 768px) {
