@@ -330,6 +330,24 @@
         "button_bg_color_hover": "#333333"
       }
     },
+    "banner_stack_kKbDWp": {
+      "type": "banner-stack",
+      "name": "Responsive Banner",
+      "settings": {
+        "desktop_image": "shopify://shop_images/Rectangle_4514.png",
+        "mobile_image": "shopify://shop_images/Rectangle_4514_1.png",
+        "banner_height": "auto"
+      }
+    },
+    "banner_stack_XqjXzg": {
+      "type": "banner-stack",
+      "name": "Responsive Banner",
+      "settings": {
+        "desktop_image": "shopify://shop_images/Screenshot_2026-01-18_at_17.54.55_1.png",
+        "mobile_image": "shopify://shop_images/Screenshot_2026-01-18_at_19.38.47_1.png",
+        "banner_height": "auto"
+      }
+    },
     "standalone_multicolumn_image_VChLwF": {
       "type": "standalone-multicolumn-image",
       "blocks": {
@@ -441,24 +459,6 @@
         "padding_top_desktop": 48,
         "padding_bottom_desktop": 48,
         "padding_horizontal_desktop": 32
-      }
-    },
-    "banner_stack_kKbDWp": {
-      "type": "banner-stack",
-      "name": "Responsive Banner",
-      "settings": {
-        "desktop_image": "shopify://shop_images/Rectangle_4514.png",
-        "mobile_image": "shopify://shop_images/Rectangle_4514_1.png",
-        "banner_height": "auto"
-      }
-    },
-    "banner_stack_XqjXzg": {
-      "type": "banner-stack",
-      "name": "Responsive Banner",
-      "settings": {
-        "desktop_image": "shopify://shop_images/Screenshot_2026-01-18_at_17.54.55_1.png",
-        "mobile_image": "shopify://shop_images/Screenshot_2026-01-18_at_19.38.47_1.png",
-        "banner_height": "auto"
       }
     },
     "new_faq_RpW4gz": {
@@ -648,9 +648,9 @@
     "featured_collection_custom_Ez9BxM",
     "featured_collection_custom_Tmz6V6",
     "featured_collection_custom_6d4Jc3",
-    "standalone_multicolumn_image_VChLwF",
     "banner_stack_kKbDWp",
     "banner_stack_XqjXzg",
+    "standalone_multicolumn_image_VChLwF",
     "new_faq_RpW4gz",
     "custom_liquid_g3KWr3",
     "text_image_bcjAm4"
