@@ -113,6 +113,12 @@
     object-fit: cover;
     display: block;
   }
+  #shopify-section-{{ section_id }} .product-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
 
   {% if section.settings.show_reviews %}
     #shopify-section-{{ section_id }} .product-reviews {
