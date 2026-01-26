@@ -21,7 +21,7 @@
     "offer_brand_logos_stack_ygzzJ7": {
       "type": "offer-brand-logos-stack",
       "blocks": {
-        "logo_3JAJmV": {
+        "logo_3JAJmV": {    
           "type": "logo",
           "settings": {
             "logo": "shopify://shop_images/Grupo_3418.svg"
