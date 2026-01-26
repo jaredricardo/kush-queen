@@ -287,12 +287,12 @@ div#PageContainer {
   #shopify-section-{{ section_id }} .discount-badge {
     background-color: {{ section.settings.badge_bg_color }};
     color: {{ section.settings.badge_text_color }};
-    font-size: {{ section.settings.badge_font_size }}px;
-    padding: {{ section.settings.badge_padding }}px {{ section.settings.badge_padding | times: 1.5 }}px;
+    font-size: clamp({{ section.settings.badge_font_size | times: 0.6 }}px, 2.5vw, {{ section.settings.badge_font_size }}px);
+    padding: clamp({{ section.settings.badge_padding | times: 0.6 }}px, 1.5vw,{{ section.settings.badge_padding }}px) clamp({{ section.settings.badge_padding }}px, 2.5vw, {{ section.settings.badge_padding | times: 1.5 }}px);
     border-radius: {{ section.settings.badge_border_radius }}px;
     font-weight: 600;
     text-transform: uppercase;
-    letter-spacing: 0.5px;
+    letter-spacing: normal;
     line-height: 1.5;
     margin-left: auto;
   }
