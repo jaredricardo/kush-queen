@@ -1,0 +1,85 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://kushqueen.shop/#organization",
+  "name": "Kush Queen",
+  "alternateName": "KQ Shop",
+  "url": "https://kushqueen.shop/",
+  "logo": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/Kush_Queen_Flower_KQ_Only-09.png?v=1659997865",
+  "description": "Kush Queen creates cannabinoid wellness products including THC & CBD options such as gummies, bath bombs, tinctures, topicals, and sexual wellness products. Products are third-party lab tested, made in the USA, and designed for daily wellness routines including mood, relief, rest, and elevated experiences.",
+  "slogan": "Elevating You Daily",
+  "foundingDate": "2015",
+  "email": "support@kushqueen.shop",
+  "contactPoint": [
+    {
+      "@type": "ContactPoint",
+      "contactType": "Customer Support",
+      "email": "support@kushqueen.shop",
+      "availableLanguage": ["en"],
+      "hoursAvailable": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        "opens": "09:00",
+        "closes": "17:00"
+      }
+    }
+  ],
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "8306 Wilshire Blvd., #300",
+    "addressLocality": "Beverly Hills",
+    "addressRegion": "CA",
+    "postalCode": "90211",
+    "addressCountry": "US"
+  },
+  "sameAs": [
+    "https://www.instagram.com/kushqueenshop/",
+    "https://www.facebook.com/kqwellnessblog",
+    "https://www.facebook.com/iamkushqueen/",
+    "https://www.youtube.com/channel/UCCzceDGj0poKiqwkv9x3MBg",
+    "https://www.pinterest.com/TheKushQueenShop/",
+    "https://www.tiktok.com/@elevatingyoudaily"
+  ]
+}
+</script>
+
+
+{% if template contains 'collection' and collection.products_count > 0 %}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": {{ collection.title | json }},
+    "url": {{ collection.url | json }},
+    "itemListElement": [
+      {% assign counter = 0 %}
+      {% for product in collection.products %}
+        {% if counter == 15 %}{% break %}{% endif %}
+        {% assign counter = counter | plus: 1 %}
+        {
+          "@type": "Product",
+          "position": {{ counter }},
+          "name": {{ product.title | json }},
+          "description": {{ product.description | strip_html | truncate: 160 | json }},
+          "url": {{ product.url | json }},
+          "image": {{ product.featured_image | image_url: '800x' | json }},
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "{{ shop.currency }}",
+            "price": {{ product.price | divided_by: 100.0 | remove: ','  }},
+            "availability": "https://schema.org/{% if product.available %}InStock{% else %}OutOfStock{% endif %}"
+          }
+          {% if product.metafields.reviews.rating.value and product.metafields.reviews.rating_count.value and product.metafields.reviews.rating_count.value > 0 %},
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "{{ product.metafields.reviews.rating.value }}",
+            "reviewCount": "{{ product.metafields.reviews.rating_count.value }}"
+          }
+          {% endif %}
+        }{% unless counter == 15 or forloop.last or counter == collection.products_count %},{% endunless %}
+      {% endfor %}
+    ]
+  }
+  </script>
+{% endif %}
