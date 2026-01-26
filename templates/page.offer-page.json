@@ -485,7 +485,7 @@
         "icon_bg_color": "#ffffff1a",
         "icon_color": "#ffffff",
         "card_text_alignment": "center",
-        "card_radius": 4,
+        "card_radius": 16,
         "card_padding_mobile": 16,
         "card_padding_desktop": 24,
         "card_content_gap": 8,
