@@ -500,6 +500,24 @@
         "padding_horizontal_desktop": 0
       }
     },
+    "176944125642dcb5f1": {
+      "type": "apps",
+      "blocks": {
+        "reviews_io_reviewsio_nuggets_zh7GTz": {
+          "type": "shopify://apps/reviews-io/blocks/reviewsio-nuggets/92a082e5-b297-4e88-b428-ac96cbc505f9",
+          "settings": {
+            "widget_id": "",
+            "is_product_specific": false,
+            "tags": "",
+            "branch": ""
+          }
+        }
+      },
+      "block_order": [
+        "reviews_io_reviewsio_nuggets_zh7GTz"
+      ],
+      "settings": {}
+    },
     "new_faq_RpW4gz": {
       "type": "new-faq",
       "blocks": {
@@ -692,6 +710,7 @@
     "banner_stack_kKbDWp",
     "banner_stack_XqjXzg",
     "standalone_multicolumn_image_VChLwF",
+    "176944125642dcb5f1",
     "new_faq_RpW4gz",
     "custom_liquid_g3KWr3",
     "text_image_bcjAm4"
