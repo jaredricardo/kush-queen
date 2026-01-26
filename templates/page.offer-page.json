@@ -147,7 +147,7 @@
         "badge_padding": 6,
         "badge_border_radius": 4,
         "pricing_margin_bottom_desktop": 16,
-        "pricing_margin_bottom_mobile": 10,
+        "pricing_margin_bottom_mobile": 4,
         "button_text": "SHOP NOW",
         "button_text_color": "#ffffff",
         "button_bg_color": "#000000",
@@ -631,7 +631,7 @@
         "faq_block_qKXUmt"
       ],
       "custom_css": [
-        "h2 {color: #231f20; font-size: 36px; font-weight: 400; line-height: 1.2; margin: 0; margin-bottom: 16px; text-align: center; font-family: \"Room205\", sans-serif;}",
+        "h2 {color: #231f20; font-size: 44px; font-weight: 400; line-height: 1.2; margin: 0; margin-bottom: 16px; text-align: center; font-family: \"Room205\", sans-serif;}",
         "@media (min-width: 768px) {h2 {font-size: 48px; line-height: 1.2; margin-bottom: 32px; }}"
       ],
       "settings": {
