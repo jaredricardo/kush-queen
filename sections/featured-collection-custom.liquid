@@ -348,7 +348,7 @@ div#PageContainer {
       <ul class="product-grid">
         {% for product in collection.products limit: product_limit %}
           <li class="product-card" data-product-id="{{ product.id }}" data-variant-id="{{ product.selected_or_first_available_variant.id }}">
-            <div class="product-image-container">
+            <a href="{{ product.url }}" class="product-image-container">
               {% if product.featured_image %}
                 <img
                   src="{{ product.featured_image | image_url: width: 800 }}"
@@ -365,7 +365,7 @@ div#PageContainer {
               {% else %}
                 {{ 'product-1' | placeholder_svg_tag: 'product-image' }}
               {% endif %}
-            </div>
+            </a>
 
             <div class="product-content">
               {% assign review_count = product.metafields.reviewscouk.total %}
