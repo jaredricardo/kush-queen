@@ -1,5 +1,5 @@
 <section class="new-faq_section page-width-2">
-  <div class="page-width-2">
+  <div class="{{ section.settings.faq_class }}">
     <h2>{{ section.settings.faq_title }}</h2>
     {% for block in section.blocks %}
       {% if block.settings.answer != blank %}
@@ -114,6 +114,12 @@
       "id": "faq_title",
       "label": "FAQ Title",
       "default": "FAQ TITLE"
+    },
+    {
+      "type": "text",
+      "id": "faq_class",
+      "label": "FAQ Classes",
+      "default": "page-width-2"
     }
   ],
   "blocks": [
