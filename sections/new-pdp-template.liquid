@@ -1055,3 +1055,26 @@
     })
   });
 </script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    var thumbSwiper = new Swiper(".thumbSwiper", {
+      slidesPerView: 4.9,
+      spaceBetween: 8,
+      watchSlidesProgress: true,
+      watchSlidesVisibility: true,
+    });
+    var mainSwiper = new Swiper(".mainSwiper", {
+      slidesPerView: 1,
+      spaceBetween: 0,
+      loop: false,
+      navigation: {
+        nextEl: ".mainSwiper .swiper-button-next",
+        prevEl: ".mainSwiper .swiper-button-prev"
+      },
+      thumbs: {
+        swiper: thumbSwiper
+      }
+    });
+  });
+</script>
