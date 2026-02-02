@@ -162,65 +162,65 @@ $(function ($) {
   });*/
 
   /*---------------- EQUAL HEIGHT ENDS ------------------*/
-  $('.prod-slider').slick({
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    dots: false,
-    arrows: false,
-    infinite: false,
-    fade: false,
-    adaptiveHeight: true,
-    asNavFor: '.shop-slider-nav'
-  });
-  $('.shop-slider-nav').slick({
-    slidesToShow: 4,
-    slidesToScroll: 1,
-    asNavFor: '.prod-slider',
-    dots: false,
-    arrows: true,
-    focusOnSelect: true,
+  // $('.prod-slider').slick({
+  //   slidesToShow: 1,
+  //   slidesToScroll: 1,
+  //   dots: false,
+  //   arrows: false,
+  //   infinite: false,
+  //   fade: false,
+  //   adaptiveHeight: true,
+  //   asNavFor: '.shop-slider-nav'
+  // });
+  // $('.shop-slider-nav').slick({
+  //   slidesToShow: 4,
+  //   slidesToScroll: 1,
+  //   asNavFor: '.prod-slider',
+  //   dots: false,
+  //   arrows: true,
+  //   focusOnSelect: true,
     
-    responsive: [
-      {
-        breakpoint: 1080,
-        settings: {
-          slidesToShow: 4,
-          slidesToScroll: 1,
-          arrows: false
-        }
-      },
-      {
-        breakpoint: 769,
-        settings: {
-          slidesToShow: 4,
-          slidesToScroll: 1,
-          vertical: false,
-          arrows: false
-        }
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          slidesToShow: 3,
-          slidesToScroll: 1,
-          vertical: false,
+  //   responsive: [
+  //     {
+  //       breakpoint: 1080,
+  //       settings: {
+  //         slidesToShow: 4,
+  //         slidesToScroll: 1,
+  //         arrows: false
+  //       }
+  //     },
+  //     {
+  //       breakpoint: 769,
+  //       settings: {
+  //         slidesToShow: 4,
+  //         slidesToScroll: 1,
+  //         vertical: false,
+  //         arrows: false
+  //       }
+  //     },
+  //     {
+  //       breakpoint: 480,
+  //       settings: {
+  //         slidesToShow: 3,
+  //         slidesToScroll: 1,
+  //         vertical: false,
           
-          arrows: false
-        }
-      },
-      {
-        breakpoint: 360,
-        settings: {
-          slidesToShow: 3,
-          slidesToScroll: 1,
-          vertical: false,
-          arrows: false,
+  //         arrows: false
+  //       }
+  //     },
+  //     {
+  //       breakpoint: 360,
+  //       settings: {
+  //         slidesToShow: 3,
+  //         slidesToScroll: 1,
+  //         vertical: false,
+  //         arrows: false,
           
-        }
-      }
+  //       }
+  //     }
 
-    ]
-  });
+  //   ]
+  // });
   $('.btn.plus').click(function(e) {
     e.preventDefault();
     fieldName = $(this).attr('field');
