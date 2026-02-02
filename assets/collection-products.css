@@ -1159,7 +1159,7 @@ i.fa.opened.fa-chevron-up{
 }
 .product-single .left {
   float: none;
-  width: 86%;
+  width: 100%;
   padding-right: 0;
   display: inline-block;
 }
