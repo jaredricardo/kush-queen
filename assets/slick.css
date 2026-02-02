@@ -114,29 +114,3 @@
 
     border: 1px solid transparent;
 }
-
-/* .prod-slider {
-    visibility: hidden;
-}
-
-.prod-slider.slick-initialized {
-    visibility: visible;
-} */
-
-.prod-slider .product-single__photo-wrapper:not(:first-child) {
-    visibility: hidden;
-}
-
-.shop-slider-nav {
-    visibility: hidden;
-    height: 0;
-}
-
-.shop-slider-nav.slick-initialized {
-    visibility: visible;
-    height: auto;
-}
-
-.prod-slider.slick-initialized .product-single__photo-wrapper{
-    visibility: visible;
-}
