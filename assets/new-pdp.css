@@ -1,3 +1,95 @@
+
+.prod-slider:not(.swiper-initialized) .product-single__photo-wrapper:not(:first-child) {
+  display: none;
+}
+
+.shop-slider-nav:not(.swiper-initialized) .swiper-wrapper {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 8px;
+}
+
+.shop-slider-nav:not(.swiper-initialized) [data-zoom-id="zoom"]:nth-child(n+6) {
+  display: none;
+}
+
+[data-zoom-id="zoom"].swiper-slide {
+  border: 1.72px solid #fff;
+}
+
+[data-zoom-id="zoom"].swiper-slide-thumb-active {
+  border-color: #333333;
+}
+
+.shop-slider-nav.swiper-initialized:after {
+  content: "";
+  background: linear-gradient(270deg, #fff, #fff0);
+  width: 30px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  opacity: .8;
+  pointer-events: none;
+}
+
+.prod-slider.single-product-image.swiper.mainSwiper.swiper-initialized .swiper-button-next:after,
+.prod-slider.single-product-image.swiper.mainSwiper.swiper-initialized .swiper-button-prev:after {
+  content: unset;
+}
+
+.prod-slider.single-product-image.swiper.mainSwiper.swiper-initialized .swiper-button-next,
+.prod-slider.single-product-image.swiper.mainSwiper.swiper-initialized .swiper-button-prev {
+  background: transparent;
+}
+
+.prod-slider.single-product-image.swiper.mainSwiper.swiper-initialized .swiper-button-next:focus,
+.prod-slider.single-product-image.swiper.mainSwiper.swiper-initialized .swiper-button-prev:focus {
+  outline: unset;
+}
+
+.shop-slider-nav .product-single__thumbnail {
+  display: flex;
+  align-items: center;
+}
+
+.shop-slider-nav .thumbnail-table-container {
+  display: flex;
+  align-items: center;
+  aspect-ratio: 1 / 1;
+  border: unset;
+}
+
+.mainSwiper .swiper-button-next,
+.mainSwiper .swiper-button-prev {
+  display: none;
+}
+
+.mainSwiper.swiper-initialized:has(.swiper-slide:nth-child(2)) .swiper-button-next,
+.mainSwiper.swiper-initialized:has(.swiper-slide:nth-child(2)) .swiper-button-prev {
+  display: block !important;
+}
+
+.shop-slider-nav .product-single__thumbnail img {
+  padding: 0;
+  border: unset;
+}
+
+@media (max-width: 768px) {
+  .mainSwiper .swiper-button-next,
+  .mainSwiper .swiper-button-prev {
+    width: 27px;
+    height: 27px;
+  }
+
+  .shop-slider-nav .thumbnail-table-container {
+    height: max-content;
+  }
+}
+
+/* -------- */
+
 .template-product {
   max-width: 100%;
 }
