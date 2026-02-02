@@ -1185,11 +1185,11 @@ i.fa.opened.fa-chevron-up{
 }
 .thumbnail-table-container {
   display: table;
-  height: 130px;
-  width: 95%;
+  height: 100%;
+  width: 100%;
   table-layout: fixed;
   overflow: hidden;
-  border: 1px solid #ddd;
+  padding: 0;
   margin: 0 auto;
 }
 .shop-slider-nav .thumb {
