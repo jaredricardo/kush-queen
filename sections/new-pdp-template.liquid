@@ -87,22 +87,30 @@
                 {%- assign featured_image = product.selected_or_first_available_variant.featured_image
                   | default: product.featured_image
                 -%}
-                {% for image in product.images %}
-                  {%- assign img_url = image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
-                  <div class="product-single__photo-wrapper js">
-                    <a
-                      href="{{ image | img_url: 'master' }}"
-                      class="MagicZoom product-single__photo"
-                      data-image-id="{{ image.id }}"
-                    >
-                      <img
-                        src="{{ image | img_url: 'grande' }}"
-                        alt="{{ image.alt | escape }}"
-                        data-my-custom-image="{{image.id}}"
+                <div class="swiper-wrapper">
+                  {% for image in product.images %}
+                    {%- assign img_url = image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+                    <div class="swiper-slide product-single__photo-wrapper js">
+                      <a
+                        href="{{ image | img_url: 'master' }}"
+                        class="MagicZoom product-single__photo"
+                        data-image-id="{{ image.id }}"
                       >
-                    </a>
-                  </div>
-                {% endfor %}
+                        <img
+                          src="{{ image | img_url: 'grande' }}"
+                          alt="{{ image.alt | escape }}"
+                          data-my-custom-image="{{image.id}}"
+                        >
+                      </a>
+                    </div>
+                  {% endfor %}
+                </div>
+                <div class="swiper-button-next">
+                  <svg class="swiper-next" xmlns="http://www.w3.org/2000/svg" width="33" height="33" viewBox="0 0 33 33" fill="none"> <rect x="0.6" y="0.6" width="31.2" height="31.2" rx="15.6" stroke="#3D4246" stroke-width="1.2"/> <path d="M12.852 10.4384C13.1881 10.1203 13.7334 10.1204 14.0696 10.4384L19.5481 15.624C19.8841 15.9421 19.884 16.4577 19.5481 16.7759L14.0696 21.9615C13.7334 22.2796 13.1882 22.2796 12.852 21.9615C12.516 21.6433 12.5161 21.1277 12.852 20.8095L17.7223 16.2005L12.852 11.5915C12.5158 11.2733 12.5158 10.7566 12.852 10.4384Z" fill="#3D4246"/> </svg>
+                </div>
+                <div class="swiper-button-prev">
+                  <svg class="swiper-prev" xmlns="http://www.w3.org/2000/svg" width="33" height="33" viewBox="0 0 33 33" fill="none"> <g opacity="1"> <rect x="-0.6" y="0.6" width="31.2" height="31.2" rx="15.6" transform="matrix(-1 0 0 1 31.2 0)" stroke="#3D4246" stroke-width="1.2"/> <path d="M19.5478 10.4384C19.2116 10.1203 18.6664 10.1204 18.3302 10.4384L12.8517 15.624C12.5157 15.9421 12.5158 16.4577 12.8517 16.7759L18.3302 21.9615C18.6664 22.2796 19.2116 22.2796 19.5478 21.9615C19.8838 21.6433 19.8837 21.1277 19.5478 20.8095L14.6775 16.2005L19.5478 11.5915C19.8839 11.2733 19.8839 10.7566 19.5478 10.4384Z" fill="#3D4246"/> </g> </svg>
+                </div>
               {% endif %}
             </div>
             {% if product.images.size > 1 %}
