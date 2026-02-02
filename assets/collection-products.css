@@ -2050,7 +2050,7 @@ h2.resp-tab-active span.resp-arrow{border-bottom: 12px solid #eb7025;}
   .thumbnail-table-container {
     display: table;
     height: 50px;
-    width: 95%;
+    width: 100%;
     margin: 0 auto;
   }
 
@@ -2061,7 +2061,7 @@ h2.resp-tab-active span.resp-arrow{border-bottom: 12px solid #eb7025;}
     margin: 0 auto;
     width: 100%;
     text-align: center;
-    height: 105px;
+    height: 100%;
   }
 
 
