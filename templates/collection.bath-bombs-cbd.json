@@ -1,1 +1,196 @@
-{"sections":{"17328949387d8c0cbc":{"type":"apps","settings":{}},"collection_header_7bBjxG":{"type":"collection-header","settings":{"enable_breadcrumb":true}},"icon_links_L3CAzk":{"type":"icon-links","blocks":{"icon_jzAW3E":{"type":"icon","settings":{"icon_link":"shopify:\/\/collections\/bath-bomb-reject-sale","icon":"shopify:\/\/shop_images\/Vector_2_70x_8f3d5bc2-c8e7-42df-94de-f8c510ec5b23.webp","title":"shop all"}},"icon_BfenYq":{"type":"icon","settings":{"icon_link":"","icon":"shopify:\/\/shop_images\/Vector_2_70x_d97f53ba-ea04-4eac-8938-377ee437440e.webp","title":"bundles"}},"icon_9HWK7y":{"type":"icon","settings":{"icon_link":"","icon":"shopify:\/\/shop_images\/Vector_2_70x_d97f53ba-ea04-4eac-8938-377ee437440e.webp","title":"bath bombes"}},"icon_mALUW6":{"type":"icon","settings":{"icon_link":"","icon":"shopify:\/\/shop_images\/Vector_2_70x_68c03c91-0d81-4448-bfbe-96248c221621.webp","title":"topicals"}}},"block_order":["icon_jzAW3E","icon_BfenYq","icon_9HWK7y","icon_mALUW6"],"disabled":true,"settings":{"background_color":"#ffffff","text_color":"#000000","icon_title_font":"Gotham-bold"}},"new-collection-template":{"type":"new-collection-template","settings":{"layout":"grid","grid":4,"rows":30,"show_collection_image":true,"show_vendor":false,"sort_enable":true,"tags_enable":true,"main_linklist":""}},"jr_50_50_Q8mkCF":{"type":"jr-50-50","blocks":{"h2_XwbApN":{"type":"h2","settings":{"h2":"<h2><br\/><strong>Use our bath bombs once—you’ll never look elsewhere<\/strong><br\/><br\/><\/h2>","font_size_d":24,"font_size_m":14,"font_family":"Eina03"}},"p_qRjxx4":{"type":"p","settings":{"p":"<p>✓ Relieves tension & soothes muscles<br\/><br\/>✓ Promotes balance and relaxation<br\/><br\/>✓ Made with clean, natural ingredients<br\/><br\/>✓ Free from sulfates, parabens & dyes<br\/><br\/>✓ Infused with nourishing & essential oils<br\/><br\/>✓ Aromatherapy scents for every mood<br\/><br\/>✓ Supports restful sleep & stress relief<br\/><br\/>✓ Leaves skin soft, smooth & refreshed<\/p>","font_family":"Eina03"}},"button_zAh4fD":{"type":"button","disabled":true,"settings":{"button_text":"Shop Delta 9 Gummies","button_url":"shopify:\/\/collections\/delta-9-gummies","button_bg_color":"#000000","button_text_color":"#ffffff","font_family":"Eina03"}}},"block_order":["h2_XwbApN","p_qRjxx4","button_zAh4fD"],"settings":{"background_color":"#ffffff","col_order":"","text_alignment":"left-aligned","image":"shopify:\/\/shop_images\/kush-queen-cbd-bath-bomb-complete-mini-collection-40290127610101.jpg"}},"new_faq_Uy4dJw":{"type":"new-faq","blocks":{"faq_block_dawUp7":{"type":"faq_block","settings":{"question":"What do CBD bath bombs do?","answer":"<p>CBD bath bombs combine the benefits of CBD with warm water therapy, helping to relax muscles, ease tension, and promote a sense of calm while leaving skin feeling soft and nourished.<\/p>"}},"faq_block_MDKBrG":{"type":"faq_block","settings":{"question":"Are these safe for sensitive skin?","answer":"<p>Yes, our bath bombs are made with gentle, naturally sourced ingredients and without harsh chemicals, making them suitable for most skin types, including sensitive skin.<\/p>"}},"faq_block_8xWgUA":{"type":"faq_block","settings":{"question":"How long should I soak for?","answer":"<p>We recommend soaking for at least 20 minutes to fully enjoy the benefits of the CBD, essential oils, and skin-loving ingredients.<\/p>"}}},"block_order":["faq_block_dawUp7","faq_block_MDKBrG","faq_block_8xWgUA"],"name":"NEW FAQ","settings":{"faq_title":"Frequently Asked Questions"}}},"order":["17328949387d8c0cbc","collection_header_7bBjxG","icon_links_L3CAzk","new-collection-template","jr_50_50_Q8mkCF","new_faq_Uy4dJw"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "17328949387d8c0cbc": {
+      "type": "apps",
+      "settings": {}
+    },
+    "collection_header_7bBjxG": {
+      "type": "collection-header",
+      "settings": {
+        "enable_breadcrumb": true
+      }
+    },
+    "icon_links_L3CAzk": {
+      "type": "icon-links",
+      "blocks": {
+        "icon_jzAW3E": {
+          "type": "icon",
+          "settings": {
+            "icon_link": "shopify://collections/bath-bomb-reject-sale",
+            "icon": "shopify://shop_images/Vector_2_70x_8f3d5bc2-c8e7-42df-94de-f8c510ec5b23.webp",
+            "title": "shop all"
+          }
+        },
+        "icon_BfenYq": {
+          "type": "icon",
+          "settings": {
+            "icon_link": "",
+            "icon": "shopify://shop_images/Vector_2_70x_d97f53ba-ea04-4eac-8938-377ee437440e.webp",
+            "title": "bundles"
+          }
+        },
+        "icon_9HWK7y": {
+          "type": "icon",
+          "settings": {
+            "icon_link": "",
+            "icon": "shopify://shop_images/Vector_2_70x_d97f53ba-ea04-4eac-8938-377ee437440e.webp",
+            "title": "bath bombes"
+          }
+        },
+        "icon_mALUW6": {
+          "type": "icon",
+          "settings": {
+            "icon_link": "",
+            "icon": "shopify://shop_images/Vector_2_70x_68c03c91-0d81-4448-bfbe-96248c221621.webp",
+            "title": "topicals"
+          }
+        }
+      },
+      "block_order": [
+        "icon_jzAW3E",
+        "icon_BfenYq",
+        "icon_9HWK7y",
+        "icon_mALUW6"
+      ],
+      "disabled": true,
+      "settings": {
+        "background_color": "#ffffff",
+        "text_color": "#000000",
+        "icon_title_font": "Gotham-bold"
+      }
+    },
+    "new-collection-template": {
+      "type": "new-collection-template",
+      "settings": {
+        "layout": "grid",
+        "grid": 4,
+        "rows": 30,
+        "show_collection_image": true,
+        "show_vendor": false,
+        "sort_enable": true,
+        "tags_enable": true,
+        "main_linklist": ""
+      }
+    },
+    "jr_50_50_Q8mkCF": {
+      "type": "jr-50-50",
+      "blocks": {
+        "h2_XwbApN": {
+          "type": "h2",
+          "settings": {
+            "h2": "<h2><br/><strong>Use our bath bombs once—you’ll never look elsewhere</strong><br/><br/></h2>",
+            "font_size_d": 24,
+            "font_size_m": 14,
+            "font_family": "Eina03"
+          }
+        },
+        "p_qRjxx4": {
+          "type": "p",
+          "settings": {
+            "p": "<p>✓ Relieves tension & soothes muscles<br/><br/>✓ Promotes balance and relaxation<br/><br/>✓ Made with clean, natural ingredients<br/><br/>✓ Free from sulfates, parabens & dyes<br/><br/>✓ Infused with nourishing & essential oils<br/><br/>✓ Aromatherapy scents for every mood<br/><br/>✓ Supports restful sleep & stress relief<br/><br/>✓ Leaves skin soft, smooth & refreshed</p>",
+            "font_family": "Eina03"
+          }
+        },
+        "button_zAh4fD": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_text": "Shop Delta 9 Gummies",
+            "button_url": "shopify://collections/delta-9-gummies",
+            "button_bg_color": "#000000",
+            "button_text_color": "#ffffff",
+            "font_family": "Eina03"
+          }
+        }
+      },
+      "block_order": [
+        "h2_XwbApN",
+        "p_qRjxx4",
+        "button_zAh4fD"
+      ],
+      "settings": {
+        "background_color": "#ffffff",
+        "col_order": "",
+        "text_alignment": "left-aligned",
+        "image": "shopify://shop_images/kush-queen-cbd-bath-bomb-complete-mini-collection-40290127610101.jpg"
+      }
+    },
+    "new_faq_Uy4dJw": {
+      "type": "new-faq",
+      "blocks": {
+        "faq_block_dawUp7": {
+          "type": "faq_block",
+          "settings": {
+            "question": "What Are CBD Bath Bombs And How Do They Work?",
+            "answer": "<p>CBD bath bombs are designed to turn a standard bath into a focused wellness experience using hemp-derived ingredients and aromatherapy. They support relaxation, skin care, and muscle comfort through topical application rather than ingestion. This makes them a complementary option alongside products like THC gummies in a balanced routine:</p><h3><strong>What CBD Bath Bombs Are Made Of</strong></h3><p>CBD bath bombs combine cannabidiol from hemp with essential oils, botanical extracts, and skin-conditioning ingredients. As a CBD bath bomb dissolves in warm water, it releases these components evenly throughout the bath. This formula allows bath bombs with CBD to deliver consistent coverage across the body.</p><h3><strong>How CBD Is Absorbed During A Bath</strong></h3><p>Warm water helps open the pores, allowing CBD to interact with receptors in the skin. Unlike THC gummies, which work internally, CBD bath bombs focus on topical exposure for localized effects. This process supports relaxation without psychoactive impact.</p><h3><strong>How CBD Bath Bombs Fit Into A Body Collection</strong></h3><p>Hemp bath bombs work best as part of a complete <a href=\"https://kushqueen.shop/collections/body\" target=\"_blank\"><span style=\"text-decoration:underline\">body collection</span></a> that prioritizes external care. Many users follow a soak with a melt CBD lotion to maintain hydration and extend the calming effects. Together, these products create a structured self-care routine centered on topical CBD use.</p><h3><strong>Benefits Of Using CBD Bath Bombs Regularly</strong></h3><p>Consistent use of CBD bath bombs can help support daily stress recovery, muscle tension relief, and healthier skin. Over time, they may contribute to better rest, improved mood, and a more balanced wellness routine. When paired with THC gummies and other products in your body collection, the effects can feel more complete and personalized.</p>"
+          }
+        },
+        "faq_block_MDKBrG": {
+          "type": "faq_block",
+          "settings": {
+            "question": "Can I Use A CBD Bath Bomb If I Have Sensitive Skin?",
+            "answer": "<p>CBD bath bombs are often recommended for those with sensitive skin because of their clean, gentle ingredient profiles. They are formulated without common irritants and focus on plant-based care that aligns with a mindful skincare routine. Here’s how they support skin sensitivity and overall comfort:</p><h3><strong>Clean Ingredients Designed For Comfort</strong></h3><p>CBD bath bombs are made without artificial dyes, parabens, or synthetic fragrances that often trigger irritation. Instead, they use essential oils and natural colorants to provide a more skin-friendly experience. This approach reduces the risk of reactions while supporting hydration and softness.</p><h3><strong>Gentle Formulation With Hemp Benefits</strong></h3><p>The hemp extract in these bath bombs delivers calming support through topical contact. By targeting the skin’s surface, it offers a subtle way to incorporate CBD into your body collection without harsh effects. Hemp bath bombs are ideal for those looking to maintain calm skin while enjoying daily wellness rituals.</p><h3><strong>Soothing Effects Through Aromatherapy And CBD</strong></h3><p>Aromatherapy plays a key role in the overall experience, helping to calm the mind while the CBD works on the skin. For sensitive skin types, this combination creates a more balanced and less aggressive bath ritual. It turns a simple soak into a supportive, relaxing session that fits easily into any evening routine.</p><h3><strong>Pairing With Melt CBD Lotion For Added Support</strong></h3><p>After using a CBD bath bomb, applying <a href=\"https://kushqueen.shop/products/melt-cbd-lotion\" target=\"_blank\"><span style=\"text-decoration:underline\">melt CBD lotion</span></a> helps reinforce hydration and nourish sensitive areas. This lotion contains a blend of cannabinoids and botanicals designed to support skin health without clogging pores or causing flare-ups. Together, these two products support consistent skin comfort from bath to post-care.</p>"
+          }
+        },
+        "faq_block_8xWgUA": {
+          "type": "faq_block",
+          "settings": {
+            "question": "How Long Should I Soak With A CBD Bath Bomb?",
+            "answer": "<p>The amount of time you spend in the bath affects how well your skin absorbs the CBD and other active ingredients. Soaking allows the warm water to soften the skin and enhance the effects of the bath bomb. To get the most benefit, it's important to understand the optimal timing and follow-up care:</p><h3><strong>Recommended Soak Time For Maximum Absorption</strong></h3><p>Spending 20 to 30 minutes in the bath allows CBD to interact with the skin effectively. This window gives enough time for the hemp extract and essential oils to be absorbed while still feeling comfortable. Shorter soaks may limit the potential impact, while longer soaks may cause skin to feel dry.</p><h3><strong>Why Warm Water Enhances Results</strong></h3><p>Warm water opens the pores and increases blood flow, making it easier for the CBD and botanical ingredients to penetrate the skin. This process creates the ideal environment for hemp bath bombs to deliver their benefits. It also contributes to the relaxing experience that defines a full-body CBD soak.</p><h3><strong>Following Up With Melt CBD Lotion</strong></h3><p>Once the bath is complete, applying melted CBD lotion helps lock in moisture and reinforce the effects of the bath bomb. The lotion works well on areas that need extra attention, like shoulders or knees, providing continued topical support. This follow-up step helps extend the calm, moisturized feeling long after the bath ends.</p><h3><strong>Combining With Other Wellness Products</strong></h3><p>CBD bath bombs fit well into a broader wellness routine that may also include products like THC gummies. The bath provides external support, while other products contribute to internal balance. Together, they support a multi-dimensional approach to personal care.</p>"
+          }
+        },
+        "faq_block_QHPLXn": {
+          "type": "faq_block",
+          "settings": {
+            "question": "Can I Combine CBD Bath Bombs With Other Kush Queen Products?",
+            "answer": "<p>Using CBD bath bombs alongside other targeted products can elevate the effects and create a more complete self-care experience. Kush Queen's product lineup is designed to work together, allowing you to personalize your routine with multiple layers of support. Here's how these combinations enhance the results of your bath ritual:</p><h3><strong>Layering For Deeper Relief And Hydration</strong></h3><p>Combining a CBD bath bomb with melt CBD lotion allows you to experience full-body relaxation followed by targeted topical support. The bath opens the pores and prepares the skin, making it more receptive to the ingredients in the lotion. This layering technique delivers both immediate and lasting comfort.</p><h3><strong>Creating A Consistent Self-Care Routine</strong></h3><p>Using Kush Queen’s products together helps build a routine that supports both mind and body. The CBD bath bomb sets the tone with its calming formula, while the melt CBD lotion continues the ritual by focusing on hydration and localized tension. Over time, this consistency may lead to improved wellness and better recovery.</p><h3><strong>Supporting Skin Health With Complementary Formulas</strong></h3><p>The ingredients in both the bath bombs and lotion are chosen to support sensitive skin and deliver nourishment without harsh chemicals. Their combined use offers a plant-based solution for maintaining smooth, healthy skin. This pairing fits easily into a daily or weekly body collection focused on restorative care.</p><h3><strong>Pairing Topicals With THC Gummies For Balanced Effects</strong></h3><p>While CBD bath bombs and melt CBD lotion work on the surface, THC gummies provide internal balance that can support relaxation and stress relief. Together, they form a dual-approach routine that targets wellness from multiple angles. This method allows users to tailor their experience depending on their needs and preferences.</p>"
+          }
+        },
+        "faq_block_hTqbhW": {
+          "type": "faq_block",
+          "settings": {
+            "question": "Are There Different CBD Bath Bomb Scents And Formulas For Specific Needs?",
+            "answer": "<p>CBD bath bombs come in a variety of scents and strengths, each crafted to support specific wellness goals. Kush Queen’s collection focuses on targeted results, making it easier to choose a product that fits your mood or physical state. Here's how these unique formulas and fragrances offer personalized care:</p><h3><strong>Formulas Designed For Stress, Sleep, And Recovery</strong></h3><p>Each CBD bath bomb is created with a clear purpose, from calming the mind to supporting physical recovery. The Relax formula helps manage tension, while the Sleep option is ideal for unwinding in the evening. For muscle support, the Relieve bath bomb blends CBD with essential oils to support post-activity care.</p><h3><strong>Scent Profiles That Enhance The Experience</strong></h3><p>Scents like lavender, citrus, and eucalyptus work alongside CBD to create a full-sensory experience. These aromas not only complement the effects of the bath bomb but also contribute to the overall mood of your soak. The combination of fragrance and hemp extract helps define the purpose of each product.</p><h3><strong>High-Potency Options For Stronger Effects</strong></h3><p>Kush Queen offers high-dose bath bombs, such as the 1000mg version, for those seeking more intense results. These are suitable for individuals with higher needs or more physically demanding routines. Stronger options allow users to stay within a topical routine while still getting a powerful CBD boost.</p><h3><strong>How Scented Bath Bombs Fit Into A Body Collection</strong></h3><p>The variety of formulas makes it easy to include different CBD bath bombs in your body collection based on daily needs. A soothing scent might be ideal after a long day, while an energizing option works better in the morning. These choices help you build a flexible, intentional wellness routine.</p><h3><strong>Choosing The Right Formula Based On CBD Strength</strong></h3><p>CBD bath bombs vary in potency, allowing users to select a strength that matches their needs. Lower-dose options work well for routine relaxation, while higher-strength formulas support deeper physical recovery. This range gives more control over topical CBD use without changing products or routines.</p>"
+          }
+        },
+        "faq_block_WqNjtb": {
+          "type": "faq_block",
+          "settings": {
+            "question": "Can I Gift Kush Queen CBD Bath Bombs As Part Of A Self-Care Package?",
+            "answer": "<p>CBD bath bombs make thoughtful and functional gifts that fit into a wide range of wellness-focused occasions. Kush Queen offers several curated sets designed to simplify gifting while still delivering high-quality, targeted products. Here's how these options work well for self-care and sharing:</p><h3><strong>CBD Bath Bomb Bundles For Easy Gifting</strong></h3><p>Kush Queen offers pre-assembled bath bomb bundles with varying scents and strengths. These sets take the guesswork out of choosing individual products while offering variety within a single package. They are ideal for birthdays, holidays, or wellness-themed care kits.</p><h3><strong>Holiday Best Sellers Set As A Ready-Made Gift</strong></h3><p>The Holiday Best Sellers Set features two Relax CBD bath bombs and one Relieve CBD bath bomb, each with 250mg of full-spectrum CBD. This curated trio offers both mood-focused and body-targeted benefits, making it a complete and thoughtful gift option. With pH-friendly, vegan ingredients and handmade quality, it reflects a commitment to comfort and clean wellness.</p><h3><strong>Adding Melt CBD Lotion For A Complete Body Collection</strong></h3><p>Including melt CBD lotion alongside bath bombs rounds out a self-care gift set with both soaking and post-bath care. This combination introduces the benefits of topical CBD in two different formats. Together, they offer a more complete experience centered on relaxation and skin support.</p><h3><strong>Wellness-Focused Gifts That Align With Modern Routines</strong></h3><p>Gifting hemp bath bombs reflects a shift toward wellness-based, intentional giving. These products align with routines that prioritize recovery, mindfulness, and rest. Their growing popularity makes them a relevant and appreciated addition to any self-care package.</p><h3><strong>How CBD Gifts Pair With Other Product Types</strong></h3><p>CBD bath bombs can be paired with other wellness items like THC gummies for a full-spectrum gift. While the bath bomb supports the body through external care, other products contribute to internal balance. This combination allows the recipient to customize how they relax and recharge.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "faq_block_dawUp7",
+        "faq_block_MDKBrG",
+        "faq_block_8xWgUA",
+        "faq_block_QHPLXn",
+        "faq_block_hTqbhW",
+        "faq_block_WqNjtb"
+      ],
+      "name": "NEW FAQ",
+      "settings": {
+        "faq_title": "Frequently Asked Questions",
+        "faq_class": "page-width-2"
+      }
+    }
+  },
+  "order": [
+    "17328949387d8c0cbc",
+    "collection_header_7bBjxG",
+    "icon_links_L3CAzk",
+    "new-collection-template",
+    "jr_50_50_Q8mkCF",
+    "new_faq_Uy4dJw"
+  ]
+}
