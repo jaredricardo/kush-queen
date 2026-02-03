@@ -129,6 +129,30 @@
       "blocks": {
         "faq_block_dawUp7": {
           "type": "faq_block",
+          "disabled": true,
+          "settings": {
+            "question": "What do CBD bath bombs do?",
+            "answer": "<p>CBD bath bombs combine the benefits of CBD with warm water therapy, helping to relax muscles, ease tension, and promote a sense of calm while leaving skin feeling soft and nourished.</p>"
+          }
+        },
+        "faq_block_jWrAbe": {
+          "type": "faq_block",
+          "disabled": true,
+          "settings": {
+            "question": "Are these safe for sensitive skin?",
+            "answer": "<p>Yes, our bath bombs are made with gentle, naturally sourced ingredients and without harsh chemicals, making them suitable for most skin types, including sensitive skin.</p>"
+          }
+        },
+        "faq_block_4YTwWc": {
+          "type": "faq_block",
+          "disabled": true,
+          "settings": {
+            "question": "How long should I soak for?",
+            "answer": "<p>We recommend soaking for at least 20 minutes to fully enjoy the benefits of the CBD, essential oils, and skin-loving ingredients.</p>"
+          }
+        },
+        "faq_block_6fxTEP": {
+          "type": "faq_block",
           "settings": {
             "question": "What Are CBD Bath Bombs And How Do They Work?",
             "answer": "<p>CBD bath bombs are designed to turn a standard bath into a focused wellness experience using hemp-derived ingredients and aromatherapy. They support relaxation, skin care, and muscle comfort through topical application rather than ingestion. This makes them a complementary option alongside products like THC gummies in a balanced routine:</p><h3><strong>What CBD Bath Bombs Are Made Of</strong></h3><p>CBD bath bombs combine cannabidiol from hemp with essential oils, botanical extracts, and skin-conditioning ingredients. As a CBD bath bomb dissolves in warm water, it releases these components evenly throughout the bath. This formula allows bath bombs with CBD to deliver consistent coverage across the body.</p><h3><strong>How CBD Is Absorbed During A Bath</strong></h3><p>Warm water helps open the pores, allowing CBD to interact with receptors in the skin. Unlike THC gummies, which work internally, CBD bath bombs focus on topical exposure for localized effects. This process supports relaxation without psychoactive impact.</p><h3><strong>How CBD Bath Bombs Fit Into A Body Collection</strong></h3><p>Hemp bath bombs work best as part of a complete <a href=\"https://kushqueen.shop/collections/body\" target=\"_blank\"><span style=\"text-decoration:underline\">body collection</span></a> that prioritizes external care. Many users follow a soak with a melt CBD lotion to maintain hydration and extend the calming effects. Together, these products create a structured self-care routine centered on topical CBD use.</p><h3><strong>Benefits Of Using CBD Bath Bombs Regularly</strong></h3><p>Consistent use of CBD bath bombs can help support daily stress recovery, muscle tension relief, and healthier skin. Over time, they may contribute to better rest, improved mood, and a more balanced wellness routine. When paired with THC gummies and other products in your body collection, the effects can feel more complete and personalized.</p>"
@@ -172,6 +196,9 @@
       },
       "block_order": [
         "faq_block_dawUp7",
+        "faq_block_jWrAbe",
+        "faq_block_4YTwWc",
+        "faq_block_6fxTEP",
         "faq_block_MDKBrG",
         "faq_block_8xWgUA",
         "faq_block_QHPLXn",
