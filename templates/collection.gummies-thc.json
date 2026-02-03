@@ -76,6 +76,7 @@
       "blocks": {
         "faq_block_WwBmMh": {
           "type": "faq_block",
+          "disabled": true,
           "settings": {
             "question": "What are THC gummies good for?",
             "answer": "<p>THC gummies are great for relieving stress, boosting mood, and soothing physical discomfort. Whether you're looking to unwind after a long day, ease anxiety, or enjoy a mild euphoric buzz, our THC gummies provide a delicious, convenient way to experience the benefits of cannabis. They also help with sleep, pain relief, and body relaxation.</p>"
@@ -83,6 +84,7 @@
         },
         "faq_block_fbqA3V": {
           "type": "faq_block",
+          "disabled": true,
           "settings": {
             "question": "What’s the difference between a CBD and a THC gummy?",
             "answer": "<p>THC gummies are psychoactive, which means they can produce a mild to moderate high. In contrast, CBD gummies are non-psychoactive and focus more on relaxation and overall wellness. THC provides a euphoric or body buzz, while CBD is more about easing tension without altering your mental state. Want the best of both? Our 1:1 ratio gummies balance THC and CBD for a smooth, balanced experience.</p>"
@@ -90,6 +92,7 @@
         },
         "faq_block_rYJfxN": {
           "type": "faq_block",
+          "disabled": true,
           "settings": {
             "question": "How long do THC gummies take to kick in?",
             "answer": "<p>THC gummies typically take between 30-60 minutes to kick in, but the timing can vary based on your metabolism and whether you’ve eaten beforehand. Because they’re edibles, the effects are usually more prolonged, lasting anywhere from 4 to 8 hours.</p>"
@@ -97,6 +100,7 @@
         },
         "faq_block_pH8qiP": {
           "type": "faq_block",
+          "disabled": true,
           "settings": {
             "question": "What are Kush Queen THC gummies made of?",
             "answer": "<p>Kush Queen THC gummies are made from natural, vegan ingredients that we craft in small batches. Each gummy contains:</p><ul><li>Full-spectrum hemp extract with THC and CBD</li><li>Natural flavors and colors derived from fruits and vegetables</li><li>Sugar, glucose syrup, pectin, and citric acid</li></ul><p>We never use artificial flavors, gluten, or GMOs, and our products are 100% cruelty-free. You get delicious gummies packed with natural goodness in every bite!</p>"
@@ -104,6 +108,7 @@
         },
         "faq_block_jEgqUF": {
           "type": "faq_block",
+          "disabled": true,
           "settings": {
             "question": "What side effects do THC gummies have?",
             "answer": "<p>While most people enjoy the relaxing and euphoric effects of THC gummies, there can be some side effects like dry mouth, drowsiness, dizziness, or changes in perception. These are generally mild and temporary. If you're new to THC, start with a low dose and gradually increase to find what feels best for you.</p>"
@@ -111,6 +116,7 @@
         },
         "faq_block_zbLhXP": {
           "type": "faq_block",
+          "disabled": true,
           "settings": {
             "question": "What’s the difference between Delta-9 and Delta-8 THC?",
             "answer": "<p>Delta-9 THC is the classic form of THC and provides a stronger high. Delta-8 THC, on the other hand, offers a milder, smoother experience that’s great for people who want the benefits of THC without an intense high. Think of Delta-9 as the full-blown experience and Delta-8 as the more relaxed, functional version.</p>"
@@ -118,6 +124,7 @@
         },
         "faq_block_h9GtGD": {
           "type": "faq_block",
+          "disabled": true,
           "settings": {
             "question": "What are Kush Queen’s shipping policies?",
             "answer": "<p>We ship nationwide to states where THC products are legal. Processing times typically range from 5-7 business days, and we strive to ship out orders as soon as possible—often the next business day. However, shipping times may vary based on your location and state laws.</p><ul><li>Pro Tip: Always check your local state laws before ordering to ensure compliance with THC regulations in your area.</li></ul>"
@@ -125,6 +132,7 @@
         },
         "faq_block_yenLNA": {
           "type": "faq_block",
+          "disabled": true,
           "settings": {
             "question": "Can I return THC gummies if I don’t like them?",
             "answer": "<p>Unfortunately, all Kush Queen products are final sale, including our THC gummies. We’re unable to accept returns, exchanges, or provide refunds. If your order arrives damaged or incorrect, please contact us within 48 hours at support@kushqueen.shop, and we’ll make it right.</p>"
@@ -132,6 +140,7 @@
         },
         "faq_block_x6GRKw": {
           "type": "faq_block",
+          "disabled": true,
           "settings": {
             "question": "How do I store THC gummies to keep them fresh?",
             "answer": "<p>To keep your THC gummies fresh and potent, store them in a cool, dark place, away from direct sunlight or moisture. We recommend using an airtight container. If you live in a warmer climate, refrigeration is also a good option.</p>"
@@ -139,9 +148,52 @@
         },
         "faq_block_BJATBW": {
           "type": "faq_block",
+          "disabled": true,
           "settings": {
             "question": "Can THC gummies show up on a drug test?",
             "answer": "<p>Yes, consuming <a href=\"https://www.cdc.gov/mmwr/preview/mmwrhtml/00000138.htm\" title=\"https://www.cdc.gov/mmwr/preview/mmwrhtml/00000138.htm\">THC gummies can cause a positive drug test</a>, as most tests screen for THC metabolites. If you’re regularly drug tested, be mindful of this when using any THC products.</p>"
+          }
+        },
+        "faq_block_KXWg4U": {
+          "type": "faq_block",
+          "settings": {
+            "question": "What Are THC Gummies?",
+            "answer": "<p>THC gummies are a popular form of cannabis-infused edibles designed for controlled dosing and long-lasting effects. They offer a flavorful and discreet way to consume THC without inhalation. Understanding how THC gummies work, what they contain, and how they fit into the broader edibles category helps set proper expectations:</p><h3><strong>What THC Gummies Are Made Of</strong></h3><p><a href=\"https://kushqueen.shop/collections/thc-gummies\" target=\"_blank\"><span style=\"text-decoration:underline\">THC gummies</span></a> are infused with tetrahydrocannabinol, the compound in cannabis responsible for psychoactive effects. Kush Queen formulates their gummies using hemp-derived THC, including Delta 9 gummies, to stay compliant with federal guidelines. These formulations often include complementary cannabinoids like CBD or THCV to support a more balanced experience.</p><h3><strong>How THC Gummies Work In The Body</strong></h3><p>After consumption, THC gummies are processed through digestion rather than the lungs. This metabolic process causes a slower onset but allows THC edibles to deliver effects that last longer compared to inhaled cannabis. Many users choose gummies for sustained relaxation, mood support, or evening use.</p><h3><strong>How THC Gummies Compare To Other Cannabis Gummies</strong></h3><p>Within the category of cannabis gummies and weed gummies, THC gummies stand out for their potency and duration. Hemp gummies with THC provide similar effects to traditional cannabis products while remaining federally compliant. For users tracking how long THC <a href=\"https://kushqueen.shop/blogs/all\" target=\"_blank\"><span style=\"text-decoration:underline\">gummies last</span></a>, effects commonly extend several hours, depending on dose and tolerance.</p>"
+          }
+        },
+        "faq_block_Q4zDzM": {
+          "type": "faq_block",
+          "settings": {
+            "question": "Are Delta 9 Gummies Legal?",
+            "answer": "<p>Delta 9 gummies have become widely available through online retailers and local dispensaries, but their legality still raises questions. The source of the THC and how it’s processed play a key role in determining if these products meet legal standards. Here’s a breakdown of what makes Delta 9 gummies legally accessible in many states:</p><h3><strong>How Delta 9 THC Is Legally Sourced</strong></h3><p>Delta 9 THC can be extracted from both marijuana and hemp plants. Kush Queen uses hemp-derived Delta 9 THC, which is sourced from federally legal hemp containing less than 0.3% THC by dry weight. This allows their Delta 9 gummies to meet the requirements of the 2018 Farm Bill.</p><h3><strong>What The 2018 Farm Bill Allows</strong></h3><p>The 2018 Farm Bill made it legal to grow, process, and sell hemp and its derivatives, including cannabinoids like Delta 9 THC, as long as THC content stays within the 0.3% limit. This legislation opened the door for compliant THC edibles, including cannabis gummies, to enter the market. Kush Queen’s products fall within these legal limits, making them available in many states across the U.S.</p><h3><strong>Why Delta 9 Gummies Are Still Restricted In Some Areas</strong></h3><p>Even though hemp-derived THC is federally legal, states can create their own laws restricting or banning weed gummies and similar products. Some states prohibit the sale of THC-infused edibles regardless of source. It's important to check local laws before purchasing or using THC gummies, even when they meet federal standards.</p>"
+          }
+        },
+        "faq_block_cWiLgJ": {
+          "type": "faq_block",
+          "settings": {
+            "question": "How Long Do THC Gummies Take To Kick In?",
+            "answer": "<p>THC gummies affect the body differently compared to other forms of cannabis. The timing depends on digestion, metabolism, and the user’s individual tolerance. To better understand when the effects start and how long they may last, here’s a closer look at key factors:</p><h3><strong>How THC Is Absorbed Through Digestion</strong></h3><p>When you consume THC gummies, the cannabinoids are processed through the liver and gastrointestinal system. This method of absorption takes longer than inhalation but can create more intense and sustained effects. The average onset time ranges from 30 to 60 minutes.</p><h3><strong>What Influences The Onset Of Effects</strong></h3><p>Several factors affect how fast THC edibles begin working, including your metabolism, whether food was consumed recently, and the strength of the gummy. People with faster metabolisms or empty stomachs may notice the effects sooner. Delta 9 gummies and <a href=\"https://kushqueen.shop/products/thcv-gummies\" target=\"_blank\"><span style=\"text-decoration:underline\">THCV gummies</span></a> are formulated with predictable, consistent dosing to support a reliable onset.</p><h3><strong>How Long Do THC Gummies Last</strong></h3><p>After the effects begin, they can last anywhere from 4 to 8 hours, depending on dosage and individual response. This extended duration makes <a href=\"https://kushqueen.shop/collections/weed-gummies\" target=\"_blank\"><span style=\"text-decoration:underline\">weed gummies</span></a> and other cannabis gummies appealing for people seeking long-term relief or relaxation. Many users prefer this format for evening use or for managing symptoms throughout the day.</p><h3><strong>Why Consistent Dosing Matters</strong></h3><p>Accurate dosing helps avoid unwanted side effects and allows the user to find their ideal comfort zone. THC gummies are crafted in small batches to ensure every piece delivers the same amount of active cannabinoids. This consistency improves reliability and makes it easier to track how long each serving will affect you.</p>"
+          }
+        },
+        "faq_block_c74LLn": {
+          "type": "faq_block",
+          "settings": {
+            "question": "What Types Of THC Gummies Does Kush Queen Offer?",
+            "answer": "<p>Kush Queen offers a curated variety of THC gummies designed to match different preferences, potencies, and cannabinoid combinations. Each product is crafted for consistency, flavor, and targeted effects. Here’s a breakdown of what you’ll find in their collection:</p><h3><strong>Delta 9 THC Gummies</strong></h3><p>These Delta 9 gummies are infused with hemp-derived Delta 9 THC and paired with CBD for a balanced, full-spectrum effect. Flavors like Strawberry, Watermelon, and Raspberry offer a vibrant taste without artificial additives. Each gummy delivers consistent potency to support relaxation, comfort, and mood enhancement.</p><h3><strong>Delta 8 THC Gummies</strong></h3><p>Kush Queen also features Delta 8 THC gummies, known for their milder psychoactive profile compared to Delta 9. These gummies offer a more subtle body high that can help with stress or tension without overwhelming intensity. They’re a great choice for users looking for gentle support with functional clarity.</p><h3><strong>Broad-Spectrum Cannabis Gummies</strong></h3><p>These cannabis gummies combine multiple cannabinoids, including THC, CBD, and sometimes minor compounds like CBG or CBN. The result is a more layered effect that can support both physical and mental relief. Kush Queen’s formulations are designed to maintain compliance while maximizing impact.</p><h3><strong>Low-Sugar And Natural Ingredient Options</strong></h3><p>Some THC edibles in the collection are made without added sugar or artificial coloring. These hemp gummies prioritize clean labels for those mindful of ingredients. They still deliver the same reliable experience with a simpler ingredient profile.</p>"
+          }
+        },
+        "faq_block_aVhjWa": {
+          "type": "faq_block",
+          "settings": {
+            "question": "What Effects Should I Expect From THC Edibles?",
+            "answer": "<p>THC edibles affect the body and mind differently than other cannabis formats. Because they’re metabolized through the digestive system, they tend to produce longer, more gradual effects. Below are the most common outcomes users can expect from consuming THC gummies:</p><h3><strong>A Gradual Onset Followed By A Full-Body Effect</strong></h3><p>THC gummies typically begin working 30 to 60 minutes after consumption, as the body breaks down the cannabinoids. Once activated, they may produce a full-body sensation that feels deeply relaxing and steady. Many people describe the experience as calm, centered, and lasting several hours.</p><h3><strong>Mental And Emotional Shifts</strong></h3><p>Users often report enhanced mood, reduced tension, and a more uplifted state of mind. These mental effects can be subtle or pronounced, depending on the dosage and type of gummy taken. Delta 9 gummies and cannabis gummies are crafted to support comfort without overwhelming intensity.</p><h3><strong>Physical Relief And Tension Reduction</strong></h3><p>Many turn to weed gummies for their ability to ease physical discomfort and reduce tightness in the body. The calming sensation often spreads from head to toe, offering noticeable relief for people managing physical strain or restlessness. These effects make THC edibles a popular choice for winding down at the end of the day.</p><h3><strong>Longer-Lasting Support Compared To Inhaled Cannabis</strong></h3><p>Compared to vaping or smoking, THC edibles deliver a more extended experience due to how the cannabinoids are absorbed. It's not uncommon for THC gummies to last 4 to 8 hours, depending on the dose and the user’s tolerance. This extended duration makes them a reliable option for sustained relief.</p><h3><strong>Different Effects Based On Cannabinoid Combinations</strong></h3><p>Kush Queen uses blends like THC with CBD or Delta 8 to create specific results. A formula with more CBD may feel calmer, while a Delta 8 blend may offer a lighter, more functional effect. This variety gives users the ability to select THC gummies based on their individual goals.</p><h3><strong>Shifts In Sensory Perception</strong></h3><p>THC can heighten sensory awareness, making sounds, tastes, or visuals feel more pronounced. Some users describe a shift in how they perceive time or physical surroundings. These sensory effects are common with THC edibles, particularly in higher doses or with full-spectrum formulations.</p>"
+          }
+        },
+        "faq_block_zYznt4": {
+          "type": "faq_block",
+          "settings": {
+            "question": "How Should I Store THC Gummies?",
+            "answer": "<p>Proper storage helps preserve the potency, flavor, and texture of THC gummies over time. These cannabis edibles contain active cannabinoids and natural ingredients that can degrade when exposed to heat, light, or moisture. Taking a few simple steps can help ensure your THC gummies stay fresh, effective, and enjoyable for longer.</p><h3><strong>Keep Them In A Cool, Dark Place</strong></h3><p>Direct sunlight and high temperatures can cause THC to degrade, diminishing both the effectiveness and quality of your gummies. A cool, dark space, such as a cabinet, pantry, or drawer away from heat sources, offers ideal short-term storage. Keeping gummies out of light and heat also helps prevent melting and preserves their structure and flavor.</p><h3><strong>Use Airtight Containers For Freshness</strong></h3><p>Air exposure can dry out gummies and reduce their cannabinoid potency over time. Storing THC edibles in a tightly sealed, airtight container helps protect against oxygen and moisture, which can lead to stickiness or staleness. This method also helps maintain the original flavor and aroma, keeping your gummies tasting as intended.</p><h3><strong>Refrigerate In Warmer Climates</strong></h3><p>If you live in a hot or humid environment, refrigeration can be a smart way to extend the shelf life of your THC gummies. Cold storage keeps the gummies firm and prevents spoilage from heat or moisture buildup. Just make sure the container is well-sealed to avoid flavor transfer from other foods in the fridge.</p><h3><strong>Keep Them Out Of Reach Of Children And Pets</strong></h3><p>Since THC gummies resemble regular candy, it's essential to store them in a secure, child-proof location. Accidental consumption by kids or pets can be dangerous, so always prioritize safety when deciding where to keep your edibles. Responsible storage isn’t just good practice; it’s critical for household safety and legal compliance.</p>"
           }
         }
       },
@@ -155,10 +207,17 @@
         "faq_block_h9GtGD",
         "faq_block_yenLNA",
         "faq_block_x6GRKw",
-        "faq_block_BJATBW"
+        "faq_block_BJATBW",
+        "faq_block_KXWg4U",
+        "faq_block_Q4zDzM",
+        "faq_block_cWiLgJ",
+        "faq_block_c74LLn",
+        "faq_block_aVhjWa",
+        "faq_block_zYznt4"
       ],
       "settings": {
-        "faq_title": "Frequently Asked Questions About THC Gummies"
+        "faq_title": "Frequently Asked Questions About THC Gummies",
+        "faq_class": "page-width-2"
       }
     },
     "rich_text_Kyrk4Y": {
