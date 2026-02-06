@@ -817,16 +817,34 @@
       "labtest": {
         "type": "labtest",
         "blocks": {
+          "labtest_LLNGxm": {
+            "type": "labtest",
+            "settings": {
+              "banner_btm_img": "shopify://shop_images/Screenshot_2026-02-06_at_11.43.44_AM.png",
+              "banner_btm_tp_text": "Yuzu Shiso Delta 9 THC + CBD Gummies",
+              "link": ""
+            }
+          },
+          "labtest_knnhDc": {
+            "type": "labtest",
+            "settings": {
+              "banner_btm_img": "shopify://shop_images/Screenshot_2026-02-06_at_11.43.20_AM.png",
+              "banner_btm_tp_text": "Grape Delta 9 THC + CBD Gummies",
+              "link": ""
+            }
+          },
           "labtest_aT7dHb": {
             "type": "labtest",
             "settings": {
+              "banner_btm_img": "shopify://shop_images/Screenshot_2026-02-06_at_11.44.04_AM.png",
               "banner_btm_tp_text": "Zero Sugar Strawberry Delta 9 THC + CBD Gummies",
-              "link": ""
+              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/2602EXL0967.4157_-_Kush_Queen_-_Zero_Sugar_Strawberry_Delta_9_THC_Gummies_10mg_THC_10mg_CBD_10ct_b758a84c-95ed-4aa3-b684-39ad7e749d71.pdf?v=1770407449"
             }
           },
           "labtest_4CVdYR": {
             "type": "labtest",
             "settings": {
+              "banner_btm_img": "shopify://shop_images/Screenshot_2026-02-06_at_11.43.29_AM.png",
               "banner_btm_tp_text": "Raspberry Delta 9 THC + CBD Gummies",
               "link": ""
             }
@@ -1281,6 +1299,8 @@
           }
         },
         "block_order": [
+          "labtest_LLNGxm",
+          "labtest_knnhDc",
           "labtest_aT7dHb",
           "labtest_4CVdYR",
           "8f4ce21f-a01b-44df-935b-996f81665d7b",
