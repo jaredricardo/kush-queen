@@ -817,6 +817,20 @@
       "labtest": {
         "type": "labtest",
         "blocks": {
+          "labtest_aT7dHb": {
+            "type": "labtest",
+            "settings": {
+              "banner_btm_tp_text": "Zero Sugar Strawberry Delta 9 THC + CBD Gummies",
+              "link": ""
+            }
+          },
+          "labtest_4CVdYR": {
+            "type": "labtest",
+            "settings": {
+              "banner_btm_tp_text": "Raspberry Delta 9 THC + CBD Gummies",
+              "link": ""
+            }
+          },
           "8f4ce21f-a01b-44df-935b-996f81665d7b": {
             "type": "labtest",
             "settings": {
@@ -1267,6 +1281,8 @@
           }
         },
         "block_order": [
+          "labtest_aT7dHb",
+          "labtest_4CVdYR",
           "8f4ce21f-a01b-44df-935b-996f81665d7b",
           "11510b8e-43ba-4e6e-8e98-98d03abc620b",
           "baa556ef-d522-4918-9abc-b35710706d6b",
@@ -3300,11 +3316,6 @@
           "enable_market_specific_products": false,
           "disable_form_listener": false
         }
-      },
-      "10910696115237310528": {
-        "type": "shopify://apps/hs-slide-cart-drawer/blocks/slide-cart-app-embed/06f96c51-92d4-4ccf-8798-f65ef7359208",
-        "disabled": true,
-        "settings": {}
       },
       "2296928500563504527": {
         "type": "shopify://apps/abra-promotions/blocks/abra/daa1493a-23b5-48bb-8cb5-7ab1267b4642",
