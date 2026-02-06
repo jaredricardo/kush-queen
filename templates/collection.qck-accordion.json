@@ -76,11 +76,72 @@
         "tags_enable": true,
         "main_linklist": "product-category"
       }
+    },
+    "new_faq_BcX7D4": {
+      "type": "new-faq",
+      "blocks": {
+        "faq_block_H9tX8T": {
+          "type": "faq_block",
+          "settings": {
+            "question": "{{ collection.metafields.custom.qck_accordion.value.question_1.value }}",
+            "answer": "{{ collection.metafields.custom.qck_accordion.value.answer_1 | metafield_tag }}"
+          }
+        },
+        "faq_block_qnKT7r": {
+          "type": "faq_block",
+          "settings": {
+            "question": "{{ collection.metafields.custom.qck_accordion.value.question_2.value }}",
+            "answer": "{{ collection.metafields.custom.qck_accordion.value.answer_2 | metafield_tag }}"
+          }
+        },
+        "faq_block_q9jdPT": {
+          "type": "faq_block",
+          "settings": {
+            "question": "{{ collection.metafields.custom.qck_accordion.value.question_3.value }}",
+            "answer": "{{ collection.metafields.custom.qck_accordion.value.answer_3 | metafield_tag }}"
+          }
+        },
+        "faq_block_DQbMdF": {
+          "type": "faq_block",
+          "settings": {
+            "question": "{{ collection.metafields.custom.qck_accordion.value.question_4.value }}",
+            "answer": "{{ collection.metafields.custom.qck_accordion.value.answer_4 | metafield_tag }}"
+          }
+        },
+        "faq_block_y9cAj3": {
+          "type": "faq_block",
+          "settings": {
+            "question": "{{ collection.metafields.custom.qck_accordion.value.question_5.value }}",
+            "answer": "{{ collection.metafields.custom.qck_accordion.value.answer_5 | metafield_tag }}"
+          }
+        },
+        "faq_block_Wnjf39": {
+          "type": "faq_block",
+          "settings": {
+            "question": "{{ collection.metafields.custom.qck_accordion.value.question_6.value }}",
+            "answer": "{{ collection.metafields.custom.qck_accordion.value.answer_6 | metafield_tag }}"
+          }
+        }
+      },
+      "block_order": [
+        "faq_block_H9tX8T",
+        "faq_block_qnKT7r",
+        "faq_block_q9jdPT",
+        "faq_block_DQbMdF",
+        "faq_block_y9cAj3",
+        "faq_block_Wnjf39"
+      ],
+      "name": "NEW FAQ",
+      "settings": {
+        "faq_title": "Frequently Asked Questions",
+        "faq_class": "page-width-2"
+      }
     }
   },
   "order": [
     "collection_header_7bBjxG",
     "icon_links_L3CAzk",
-    "new-collection-template"
+    "new-collection-template",
+    "new_faq_BcX7D4"
   ]
 }
