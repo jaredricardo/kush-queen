@@ -1433,75 +1433,11 @@
               "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/Cherry_Warheads.pdf?v=1770426714"
             }
           },
-          "labtest_YJxGkd": {
+          "labtest_BJnRW3": {
             "type": "labtest",
             "settings": {
               "banner_btm_tp_text": "",
               "link": ""
-            }
-          },
-          "labtest_H9X4WV": {
-            "type": "labtest",
-            "settings": {
-              "banner_btm_img": "shopify://shop_images/kush-queen-hemp-flower-gelonade-thca-flower-head-stash-1155525556.png",
-              "banner_btm_tp_text": "Gelonade THCa Flower *Head Stash*",
-              "link": ""
-            }
-          },
-          "labtest_6p4Twe": {
-            "type": "labtest",
-            "settings": {
-              "banner_btm_img": "shopify://shop_images/kush-queen-hemp-flower-lemon-cherry-gelato-thca-flower-39770654474485.jpg",
-              "banner_btm_tp_text": "Lemon Cherry Gelato THCa Flower",
-              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/newLCG-COA.jpg?v=1750791869"
-            }
-          },
-          "labtest_w7mcYU": {
-            "type": "labtest",
-            "settings": {
-              "banner_btm_img": "shopify://shop_images/kush-queen-hemp-flower-gelonade-thca-flower-head-stash-1155525556.png",
-              "banner_btm_tp_text": "Gelonade",
-              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/Gelonade.jpg?v=1757722042"
-            }
-          },
-          "labtest_JQ6WCW": {
-            "type": "labtest",
-            "settings": {
-              "banner_btm_img": "shopify://shop_images/Screenshot_2025-01-21_at_4.04.31_PM.png",
-              "banner_btm_tp_text": "Lemon Cherry Gelato THCa Flower *Exotic*",
-              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/Lemon_Cherry_Gelato_THCA_Flower_COA_Oct_2024.pdf?v=1748652999"
-            }
-          },
-          "labtest_BR8Vkr": {
-            "type": "labtest",
-            "settings": {
-              "banner_btm_img": "shopify://shop_images/Screenshot_2024-11-29_at_12.59.59_PM.png",
-              "banner_btm_tp_text": "Pistachio Runtz THCa Flower *Exotic*",
-              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/PistachioRuntzLab11-17-24.pdf?v=1732913784"
-            }
-          },
-          "labtest_G9W4Nj": {
-            "type": "labtest",
-            "settings": {
-              "banner_btm_img": "shopify://shop_images/kush-queen-hemp-flower-pistachio-runtz-thca-flower-exotic-private-reserve-42389192442101.png",
-              "banner_btm_tp_text": "Runtz THCa Flower",
-              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/runtz-COA.jpg?v=1750791869"
-            }
-          },
-          "labtest_eHfnfC": {
-            "type": "labtest",
-            "settings": {
-              "banner_btm_img": "shopify://shop_images/kush-queen-hemp-flower-white-runtz-thca-flower-private-reserve-40524754977013.jpg",
-              "banner_btm_tp_text": "Runtz THCa Flower *Head Stash*",
-              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/Runtz_COA.jpg?v=1738503725"
-            }
-          },
-          "labtest_x4JeEq": {
-            "type": "labtest",
-            "settings": {
-              "banner_btm_img": "shopify://shop_images/Screenshot_2024-11-29_at_12.58.22_PM.png",
-              "banner_btm_tp_text": "Sour Cherry THCa Flower *Private Reserve*",
-              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/SourCherryLab11-4-24.pdf?v=1732913784"
             }
           },
           "labtest_ndTd8Y": {
@@ -1601,15 +1537,7 @@
           "labtest_4xicwz",
           "labtest_Jici8e",
           "labtest_zzGced",
-          "labtest_YJxGkd",
-          "labtest_H9X4WV",
-          "labtest_6p4Twe",
-          "labtest_w7mcYU",
-          "labtest_JQ6WCW",
-          "labtest_BR8Vkr",
-          "labtest_G9W4Nj",
-          "labtest_eHfnfC",
-          "labtest_x4JeEq",
+          "labtest_BJnRW3",
           "labtest_ndTd8Y",
           "labtest_CPFDkP"
         ],
