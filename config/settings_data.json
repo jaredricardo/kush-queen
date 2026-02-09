@@ -1201,6 +1201,14 @@
               "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/Bare_5000mg_BA.pdf_1.pdf?v=1770614395"
             }
           },
+          "labtest_8FGLDM": {
+            "type": "labtest",
+            "settings": {
+              "banner_btm_img": "shopify://shop_images/kush-queen-hemp-flower-1-hawaiian-haze-live-resin-vape-1177223422.png",
+              "banner_btm_tp_text": "H Haze Vape",
+              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/Bare_5000mg_BA.pdf_1.pdf?v=1770614395"
+            }
+          },
           "labtest_AbjVWY": {
             "type": "labtest",
             "settings": {
@@ -1371,6 +1379,7 @@
           "labtest_d9z4KG",
           "1580318024221",
           "1580317991671",
+          "labtest_8FGLDM",
           "labtest_AbjVWY",
           "labtest_Q3hhJK",
           "labtest_nGLieB",
