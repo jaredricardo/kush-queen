@@ -1209,6 +1209,14 @@
               "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/Bare_5000mg_BA.pdf_1.pdf?v=1770614395"
             }
           },
+          "labtest_JwW7YE": {
+            "type": "labtest",
+            "settings": {
+              "banner_btm_img": "shopify://shop_images/kush-queen-hemp-flower-live-rosin-dabpipe-1177277607.png",
+              "banner_btm_tp_text": "Dab Pipe, Super Boof",
+              "link": "https://cdn.shopify.com/s/files/1/0124/3594/7616/files/2025.5.1-Super-Boof-Hemp-Rosin-Suace-GLLCOA_G5D0259-01_1.pdf?v=1770615422"
+            }
+          },
           "labtest_AbjVWY": {
             "type": "labtest",
             "settings": {
@@ -1380,6 +1388,7 @@
           "1580318024221",
           "1580317991671",
           "labtest_8FGLDM",
+          "labtest_JwW7YE",
           "labtest_AbjVWY",
           "labtest_Q3hhJK",
           "labtest_nGLieB",
