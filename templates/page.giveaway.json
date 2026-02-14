@@ -57,9 +57,29 @@
         "text_color": "#000000",
         "icon_title_font": "Gotham-bold"
       }
+    },
+    "rich_text_wJUTP8": {
+      "type": "rich-text",
+      "custom_css": [],
+      "name": "Rich text",
+      "settings": {
+        "full_width": false,
+        "section_title": "",
+        "text": "<p>To enter our giveaway for a chance to win our Valentine's Ultimate Prize Pack please enter your email below and follow @kushqueenshop and @cubiqfunctional on Instagram. </p><p></p>",
+        "text_size": "medium"
+      }
+    },
+    "custom_liquid_exhUD9": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid Section",
+      "settings": {
+        "liquid_content": "<div class=\"klaviyo-form-XfiN95\"></div>"
+      }
     }
   },
   "order": [
-    "icon_links_L3CAzk"
+    "icon_links_L3CAzk",
+    "rich_text_wJUTP8",
+    "custom_liquid_exhUD9"
   ]
 }
