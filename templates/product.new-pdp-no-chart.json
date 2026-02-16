@@ -44,7 +44,7 @@
         "badge_text": "{{ product.metafields.custom.new_pdp_template.value.badge_text.value }}",
         "show_buymore_banner": true,
         "short_desc_text": "{{ product.metafields.custom.new_pdp_template.value.newpdp_short_description_text.value }}",
-        "promo_text": "<p>{{ product.metafields.custom.new_pdp_template.value.promo_text | metafield_tag }}</p>",
+        "promo_text": "{{ product.metafields.custom.new_pdp_template.value.promo_text | metafield_tag }}",
         "image_1": "{{ product.metafields.custom.new_pdp_template.value.icon_1.value }}",
         "svg_code_1": "",
         "text_1": "{{ product.metafields.custom.new_pdp_template.value.icon_text_1.value }}",
@@ -53,7 +53,9 @@
         "text_2": "{{ product.metafields.custom.new_pdp_template.value.icon_text_2.value }}",
         "image_3": "{{ product.metafields.custom.new_pdp_template.value.icon_3.value }}",
         "svg_code_3": "",
-        "text_3": "{{ product.metafields.custom.new_pdp_template.value.icon_text_3.value }}"
+        "text_3": "{{ product.metafields.custom.new_pdp_template.value.icon_text_3.value }}",
+        "shipping_icon": "shopify://shop_images/Vector.svg",
+        "shipping_text": "Dispensary-quality goods, shipped straight to your door."
       }
     },
     "3e7835e8-2f5b-45de-ba95-daff6cf35a6f": {
@@ -296,7 +298,8 @@
         "faq_block_8zbzNM"
       ],
       "settings": {
-        "faq_title": "Frequently Asked Questions"
+        "faq_title": "Frequently Asked Questions",
+        "faq_class": "page-width-2"
       }
     },
     "bbaa8eca-23b9-4734-9b3a-f0e81e692fec": {
