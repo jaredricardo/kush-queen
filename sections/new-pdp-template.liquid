@@ -282,6 +282,15 @@
                 {%  endif %}
               </div>
 
+              {% if section.settings.shipping_text != blank %}
+                <div class="new-pdp__shipping-info">
+                  {% if section.settings.shipping_icon != blank %}
+                    <img class="new-pdp__shipping-icon" src="{{ section.settings.shipping_icon.src | img_url: '50x' }}" width="27" height="27">
+                  {% endif %}
+                  <p class="new-pdp__shipping-text">{{ section.settings.shipping_text }}</p>
+                </div>
+              {% endif %}
+
               <!-- Begin ReCharge code -->
               {% unless customer.b2b? %}
                 {% if product.available %}
@@ -581,6 +590,20 @@
       "id": "text_3",
       "label": "Enter Text for Image 3",
       "default": "Text for Image 3"
+    },
+    {
+      "type": "header",
+      "content": "Shipping information"
+    },
+    {
+      "type": "image_picker",
+      "id": "shipping_icon",
+      "label": "Icon"
+    },
+    {
+      "type": "text",
+      "id": "shipping_text",
+      "label": "Text"
     }
   ],
   "blocks": [

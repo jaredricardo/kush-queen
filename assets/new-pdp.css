@@ -492,3 +492,37 @@ div#rc_container {
 .new-pdp_reviewslider.onlyDesk {
   padding-top: 30px;
 }
+
+.new-pdp__shipping-info {
+  display: flex;
+  align-items: center;
+  gap: 8.7px;
+  margin-bottom: 16px;
+}
+
+.new-pdp__shipping-icon {
+  width: 27px;
+}
+
+.new-pdp__shipping-text {
+  color: #333 !important;
+  font-size: 13px !important;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 16px !important;
+}
+
+@media (max-width: 768px) {
+  .new-pdp__shipping-info {
+    gap: 8px;
+  }
+
+  .new-pdp__shipping-icon {
+    width: 25px;
+  }
+
+  .new-pdp__shipping-text {
+    font-size: 12px !important;
+    line-height: 15px !important;
+  }
+}
