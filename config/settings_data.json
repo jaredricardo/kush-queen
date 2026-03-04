@@ -3322,6 +3322,14 @@
           "button_text_color": "#ffffff",
           "card_border_color": "#000000"
         }
+      },
+      "banner-stack-gummies": {
+        "type": "banner-stack-gummies",
+        "settings": {
+          "desktop_image": "shopify://shop_images/Website_Banner_-_Desktop_v3.png",
+          "mobile_image": "shopify://shop_images/Website_Banner_-_Mobile_v3.png",
+          "banner_height": "auto"
+        }
       }
     },
     "content_for_index": [
