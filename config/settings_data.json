@@ -2536,8 +2536,8 @@
           "@media screen and (max-width: 600px) {.responsive-banner img {padding-top: 20px; }}"
         ],
         "settings": {
-          "desktop_image": "shopify://shop_images/Website_Banner_-_Desktop_v3.png",
-          "mobile_image": "shopify://shop_images/Website_Banner_-_Mobile_v3.png",
+          "desktop_image": "shopify://shop_images/Website_Banner_-_Desktop_-_v1_1.png",
+          "mobile_image": "shopify://shop_images/Website_Banner_-_Mobile_-_v1_1.png",
           "banner_height": "auto"
         }
       },
