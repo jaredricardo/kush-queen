@@ -20,6 +20,13 @@
       {% endif %}
     {% endfor %}
   </div>
+  {% if section.settings.faq_button_url %}
+  <div style="text-align: center; margin-top: 20px;">
+<a class="queen-promise-cta border-rounded mobile-display" href="{{ section.settings.faq_button_url }}">
+{{ section.settings.faq_button_text}}
+</a>
+</div>
+{% endif %}
 </section>
 
 {% stylesheet %}
@@ -84,6 +91,13 @@
       font-size: 15px;
     }
   }
+  .mobile-display:hover{
+  color: white;
+  background: black;
+}
+.mobile-display:hover::after{
+  background-image: url(https://cdn.shopify.com/s/files/1/0124/3594/7616/t/178/assets/ArrowRightWhite.svg);
+}
 {% endstylesheet %}
 
 {% javascript %}
@@ -120,6 +134,17 @@
       "id": "faq_class",
       "label": "FAQ Classes",
       "default": "page-width-2"
+    },
+    {
+      "type": "text",
+      "id": "faq_button_text",
+      "label": "Call to Action Text",
+      "default": "SHOP NOW"
+    },
+    {
+      "type": "url",
+      "id": "faq_button_url",
+      "label": "Call to Action URL"
     }
   ],
   "blocks": [
