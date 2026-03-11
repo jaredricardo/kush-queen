@@ -98,7 +98,7 @@
             "logo_width_desktop": 180,
             "logo_height_desktop": 70,
             "logo_width_mobile": 120,
-            "logo_height_mobile": 40
+            "logo_height_mobile": 50
           }
         }
       },
@@ -110,7 +110,7 @@
       ],
       "name": "Brand Logos Carousel",
       "settings": {
-        "full_width": true,
+        "full_width": false,
         "speed": 25,
         "color_scheme": "",
         "padding_top": 36,
