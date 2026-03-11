@@ -75,29 +75,29 @@
           "type": "logo",
           "settings": {
             "logo_image": "shopify://shop_images/Vector_21.svg",
-            "logo_width_desktop": 120,
-            "logo_height_desktop": 50,
-            "logo_width_mobile": 100,
-            "logo_height_mobile": 40
+            "logo_width_desktop": 180,
+            "logo_height_desktop": 70,
+            "logo_width_mobile": 120,
+            "logo_height_mobile": 50
           }
         },
         "logo_iacWnb": {
           "type": "logo",
           "settings": {
             "logo_image": "shopify://shop_images/los_angeles_times_logo_svg.svg",
-            "logo_width_desktop": 120,
-            "logo_height_desktop": 50,
-            "logo_width_mobile": 100,
-            "logo_height_mobile": 40
+            "logo_width_desktop": 180,
+            "logo_height_desktop": 70,
+            "logo_width_mobile": 120,
+            "logo_height_mobile": 50
           }
         },
         "logo_N7DTw7": {
           "type": "logo",
           "settings": {
             "logo_image": "shopify://shop_images/new_york_post_logo_svg.svg",
-            "logo_width_desktop": 120,
-            "logo_height_desktop": 50,
-            "logo_width_mobile": 100,
+            "logo_width_desktop": 180,
+            "logo_height_desktop": 70,
+            "logo_width_mobile": 120,
             "logo_height_mobile": 40
           }
         }
