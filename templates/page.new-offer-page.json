@@ -1,0 +1,709 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "banner_stack_MqfgnD": {
+      "type": "banner-stack",
+      "name": "Responsive Banner",
+      "settings": {
+        "desktop_image": "shopify://shop_images/Website_Banner_-_Desktop_1.png",
+        "mobile_image": "shopify://shop_images/Website_Banner_-_Mobile_1.png",
+        "banner_height": "auto"
+      }
+    },
+    "offer_brand_logos_stack_ygzzJ7": {
+      "type": "offer-brand-logos-stack",
+      "blocks": {
+        "logo_3JAJmV": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Grupo_3418.svg"
+          }
+        },
+        "logo_KhwQtA": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Vector_21.svg"
+          }
+        },
+        "logo_CntwwU": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/los_angeles_times_logo_svg.svg"
+          }
+        },
+        "logo_a9fDJ4": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/new_york_post_logo_svg.svg"
+          }
+        }
+      },
+      "block_order": [
+        "logo_3JAJmV",
+        "logo_KhwQtA",
+        "logo_CntwwU",
+        "logo_a9fDJ4"
+      ],
+      "name": "Offer Logos",
+      "settings": {
+        "heading": "FEATURED IN"
+      }
+    },
+    "featured_collection_custom_Ez9BxM": {
+      "type": "featured-collection-custom",
+      "name": "Product Grid",
+      "settings": {
+        "collection": "thc-bath-bombs",
+        "product_limit": 50,
+        "section_bg_color": "#ffffff",
+        "section_padding_top_desktop": 60,
+        "section_padding_bottom_desktop": 60,
+        "section_padding_top_mobile": 40,
+        "section_padding_bottom_mobile": 40,
+        "heading_text": "THC Bath Bombs",
+        "subheading_text": "Indulge in the ultimate relaxation with our luxurious, high-quality THC-infused bath bombs, designed to sooth your body and mind.",
+        "heading_alignment": "left",
+        "heading_color": "#231f20",
+        "heading_font_size_desktop": 48,
+        "heading_font_size_mobile": 36,
+        "heading_font_weight": 400,
+        "heading_line_height_desktop": 1.2,
+        "heading_line_height_mobile": 1.2,
+        "subheading_color": "#231f20",
+        "subheading_font_size_desktop": 16,
+        "subheading_font_size_mobile": 14,
+        "subheading_font_weight": 400,
+        "subheading_line_height_desktop": 1.2,
+        "subheading_line_height_mobile": 1.2,
+        "heading_margin_bottom_desktop": 32,
+        "heading_margin_bottom_mobile": 16,
+        "grid_columns_desktop": 4,
+        "grid_columns_mobile": 2,
+        "grid_gap_desktop": 16,
+        "grid_gap_mobile": 10,
+        "card_bg_color": "#ffffff",
+        "card_border_radius": 8,
+        "card_padding_desktop": 12,
+        "card_padding_mobile": 8,
+        "image_bg_color": "#b8d8e0",
+        "image_aspect_ratio": 1,
+        "image_border_radius": 8,
+        "show_reviews": true,
+        "star_color": "#231f20",
+        "reviews_text_color": "#231f20",
+        "reviews_font_size_desktop": 12,
+        "reviews_font_size_mobile": 8,
+        "reviews_font_weight": 500,
+        "reviews_margin_bottom_desktop": 8,
+        "reviews_margin_bottom_mobile": 6,
+        "concentration_source": "metafield",
+        "concentration_namespace": "custom",
+        "concentration_key": "thca_concentration",
+        "concentration_color": "#000000",
+        "concentration_font_size_desktop": 14,
+        "concentration_font_size_mobile": 12,
+        "concentration_font_weight": 600,
+        "concentration_line_height_desktop": 1.3,
+        "concentration_line_height_mobile": 1.4,
+        "concentration_margin_bottom_desktop": 8,
+        "concentration_margin_bottom_mobile": 6,
+        "title_color": "#231f20",
+        "title_font_size_desktop": 24,
+        "title_font_size_mobile": 16,
+        "title_font_weight": 400,
+        "title_line_height_desktop": 1.3,
+        "title_line_height_mobile": 1.2,
+        "title_margin_bottom_desktop": 12,
+        "title_margin_bottom_mobile": 8,
+        "description_source": "product_description",
+        "description_namespace": "custom",
+        "description_key": "description",
+        "description_color": "#000000",
+        "description_font_size_desktop": 14,
+        "description_font_size_mobile": 10,
+        "description_font_weight": 400,
+        "description_line_height_desktop": 1.5,
+        "description_line_height_mobile": 1.5,
+        "description_margin_bottom_desktop": 12,
+        "description_margin_bottom_mobile": 2,
+        "price_color": "#231f20",
+        "price_font_size_desktop": 24,
+        "price_font_size_mobile": 14,
+        "price_font_weight": 400,
+        "compare_price_color": "#cfcfcf",
+        "compare_price_font_size_desktop": 18,
+        "compare_price_font_size_mobile": 14,
+        "badge_bg_color": "#231f20",
+        "badge_text_color": "#ffffff",
+        "badge_font_size": 11,
+        "badge_padding": 6,
+        "badge_border_radius": 4,
+        "pricing_margin_bottom_desktop": 16,
+        "pricing_margin_bottom_mobile": 2,
+        "button_text": "SHOP NOW",
+        "button_text_color": "#ffffff",
+        "button_bg_color": "#000000",
+        "button_padding_desktop": 14,
+        "button_padding_mobile": 10,
+        "button_border_radius": 8,
+        "button_font_size_desktop": 16,
+        "button_font_size_mobile": 13,
+        "button_font_weight": 600,
+        "button_text_color_hover": "#ffffff",
+        "button_bg_color_hover": "#333333"
+      }
+    },
+    "featured_collection_custom_Tmz6V6": {
+      "type": "featured-collection-custom",
+      "name": "Product Grid",
+      "settings": {
+        "collection": "cbd-bath-bombs",
+        "product_limit": 50,
+        "section_bg_color": "#f3f2ea",
+        "section_padding_top_desktop": 60,
+        "section_padding_bottom_desktop": 60,
+        "section_padding_top_mobile": 40,
+        "section_padding_bottom_mobile": 40,
+        "heading_text": "CBD Bath Bombs",
+        "subheading_text": "Elevate your self-care journey with the world's #1 CBD bath bombs. Our luxurious bath bombs harness the power of CBD to soothe your mind and body.",
+        "heading_alignment": "left",
+        "heading_color": "#231f20",
+        "heading_font_size_desktop": 48,
+        "heading_font_size_mobile": 36,
+        "heading_font_weight": 400,
+        "heading_line_height_desktop": 1.2,
+        "heading_line_height_mobile": 1.2,
+        "subheading_color": "#231f20",
+        "subheading_font_size_desktop": 16,
+        "subheading_font_size_mobile": 14,
+        "subheading_font_weight": 400,
+        "subheading_line_height_desktop": 1.2,
+        "subheading_line_height_mobile": 1.2,
+        "heading_margin_bottom_desktop": 32,
+        "heading_margin_bottom_mobile": 16,
+        "grid_columns_desktop": 4,
+        "grid_columns_mobile": 2,
+        "grid_gap_desktop": 16,
+        "grid_gap_mobile": 10,
+        "card_bg_color": "#ffffff",
+        "card_border_radius": 8,
+        "card_padding_desktop": 12,
+        "card_padding_mobile": 8,
+        "image_bg_color": "#b8d8e0",
+        "image_aspect_ratio": 1,
+        "image_border_radius": 8,
+        "show_reviews": true,
+        "star_color": "#231f20",
+        "reviews_text_color": "#231f20",
+        "reviews_font_size_desktop": 12,
+        "reviews_font_size_mobile": 8,
+        "reviews_font_weight": 500,
+        "reviews_margin_bottom_desktop": 8,
+        "reviews_margin_bottom_mobile": 6,
+        "concentration_source": "metafield",
+        "concentration_namespace": "custom",
+        "concentration_key": "thca_concentration",
+        "concentration_color": "#000000",
+        "concentration_font_size_desktop": 14,
+        "concentration_font_size_mobile": 12,
+        "concentration_font_weight": 600,
+        "concentration_line_height_desktop": 1.3,
+        "concentration_line_height_mobile": 1.4,
+        "concentration_margin_bottom_desktop": 8,
+        "concentration_margin_bottom_mobile": 6,
+        "title_color": "#231f20",
+        "title_font_size_desktop": 24,
+        "title_font_size_mobile": 16,
+        "title_font_weight": 400,
+        "title_line_height_desktop": 1.3,
+        "title_line_height_mobile": 1.2,
+        "title_margin_bottom_desktop": 12,
+        "title_margin_bottom_mobile": 8,
+        "description_source": "product_description",
+        "description_namespace": "custom",
+        "description_key": "description",
+        "description_color": "#000000",
+        "description_font_size_desktop": 14,
+        "description_font_size_mobile": 10,
+        "description_font_weight": 400,
+        "description_line_height_desktop": 1.5,
+        "description_line_height_mobile": 1.5,
+        "description_margin_bottom_desktop": 12,
+        "description_margin_bottom_mobile": 2,
+        "price_color": "#231f20",
+        "price_font_size_desktop": 24,
+        "price_font_size_mobile": 14,
+        "price_font_weight": 400,
+        "compare_price_color": "#cfcfcf",
+        "compare_price_font_size_desktop": 18,
+        "compare_price_font_size_mobile": 14,
+        "badge_bg_color": "#231f20",
+        "badge_text_color": "#ffffff",
+        "badge_font_size": 11,
+        "badge_padding": 4,
+        "badge_border_radius": 4,
+        "pricing_margin_bottom_desktop": 16,
+        "pricing_margin_bottom_mobile": 10,
+        "button_text": "SHOP NOW",
+        "button_text_color": "#ffffff",
+        "button_bg_color": "#000000",
+        "button_padding_desktop": 14,
+        "button_padding_mobile": 10,
+        "button_border_radius": 8,
+        "button_font_size_desktop": 16,
+        "button_font_size_mobile": 13,
+        "button_font_weight": 600,
+        "button_text_color_hover": "#ffffff",
+        "button_bg_color_hover": "#333333"
+      }
+    },
+    "featured_collection_custom_6d4Jc3": {
+      "type": "featured-collection-custom",
+      "name": "Product Grid",
+      "settings": {
+        "collection": "high-dose-mini-bath-bombs",
+        "product_limit": 50,
+        "section_bg_color": "#ffffff",
+        "section_padding_top_desktop": 60,
+        "section_padding_bottom_desktop": 60,
+        "section_padding_top_mobile": 40,
+        "section_padding_bottom_mobile": 40,
+        "heading_text": "High Dose & mini Bath Bombs",
+        "subheading_text": "The ultimate high dose CBD bath bomb experience with 5 Unique Blends, 100mg CBD Per Bath Bomb.",
+        "heading_alignment": "left",
+        "heading_color": "#231f20",
+        "heading_font_size_desktop": 48,
+        "heading_font_size_mobile": 36,
+        "heading_font_weight": 400,
+        "heading_line_height_desktop": 1.2,
+        "heading_line_height_mobile": 1.2,
+        "subheading_color": "#231f20",
+        "subheading_font_size_desktop": 16,
+        "subheading_font_size_mobile": 14,
+        "subheading_font_weight": 400,
+        "subheading_line_height_desktop": 1.2,
+        "subheading_line_height_mobile": 1.2,
+        "heading_margin_bottom_desktop": 32,
+        "heading_margin_bottom_mobile": 16,
+        "grid_columns_desktop": 4,
+        "grid_columns_mobile": 2,
+        "grid_gap_desktop": 16,
+        "grid_gap_mobile": 10,
+        "card_bg_color": "#ffffff",
+        "card_border_radius": 8,
+        "card_padding_desktop": 12,
+        "card_padding_mobile": 8,
+        "image_bg_color": "#b8d8e0",
+        "image_aspect_ratio": 1,
+        "image_border_radius": 8,
+        "show_reviews": true,
+        "star_color": "#231f20",
+        "reviews_text_color": "#231f20",
+        "reviews_font_size_desktop": 12,
+        "reviews_font_size_mobile": 8,
+        "reviews_font_weight": 400,
+        "reviews_margin_bottom_desktop": 8,
+        "reviews_margin_bottom_mobile": 6,
+        "concentration_source": "metafield",
+        "concentration_namespace": "custom",
+        "concentration_key": "thca_concentration",
+        "concentration_color": "#000000",
+        "concentration_font_size_desktop": 14,
+        "concentration_font_size_mobile": 12,
+        "concentration_font_weight": 400,
+        "concentration_line_height_desktop": 1.3,
+        "concentration_line_height_mobile": 1.4,
+        "concentration_margin_bottom_desktop": 8,
+        "concentration_margin_bottom_mobile": 6,
+        "title_color": "#231f20",
+        "title_font_size_desktop": 24,
+        "title_font_size_mobile": 16,
+        "title_font_weight": 400,
+        "title_line_height_desktop": 1.3,
+        "title_line_height_mobile": 1.2,
+        "title_margin_bottom_desktop": 12,
+        "title_margin_bottom_mobile": 8,
+        "description_source": "product_description",
+        "description_namespace": "custom",
+        "description_key": "description",
+        "description_color": "#000000",
+        "description_font_size_desktop": 14,
+        "description_font_size_mobile": 10,
+        "description_font_weight": 400,
+        "description_line_height_desktop": 1.5,
+        "description_line_height_mobile": 1.5,
+        "description_margin_bottom_desktop": 12,
+        "description_margin_bottom_mobile": 2,
+        "price_color": "#231f20",
+        "price_font_size_desktop": 24,
+        "price_font_size_mobile": 14,
+        "price_font_weight": 400,
+        "compare_price_color": "#cfcfcf",
+        "compare_price_font_size_desktop": 18,
+        "compare_price_font_size_mobile": 14,
+        "badge_bg_color": "#231f20",
+        "badge_text_color": "#ffffff",
+        "badge_font_size": 11,
+        "badge_padding": 6,
+        "badge_border_radius": 4,
+        "pricing_margin_bottom_desktop": 16,
+        "pricing_margin_bottom_mobile": 10,
+        "button_text": "SHOP NOW",
+        "button_text_color": "#ffffff",
+        "button_bg_color": "#000000",
+        "button_padding_desktop": 14,
+        "button_padding_mobile": 10,
+        "button_border_radius": 8,
+        "button_font_size_desktop": 16,
+        "button_font_size_mobile": 13,
+        "button_font_weight": 600,
+        "button_text_color_hover": "#ffffff",
+        "button_bg_color_hover": "#333333"
+      }
+    },
+    "banner_stack_kKbDWp": {
+      "type": "banner-stack",
+      "name": "Responsive Banner",
+      "settings": {
+        "desktop_image": "shopify://shop_images/Rectangle_4514.png",
+        "mobile_image": "shopify://shop_images/Rectangle_4514_1.png",
+        "banner_height": "auto"
+      }
+    },
+    "banner_stack_XqjXzg": {
+      "type": "banner-stack",
+      "name": "Responsive Banner",
+      "settings": {
+        "desktop_image": "shopify://shop_images/Screenshot_2026-01-18_at_17.54.55_1.png",
+        "mobile_image": "shopify://shop_images/Screenshot_2026-01-18_at_19.38.47_1.png",
+        "banner_height": "auto"
+      }
+    },
+    "standalone_multicolumn_image_VChLwF": {
+      "type": "standalone-multicolumn-image",
+      "blocks": {
+        "feature_a3hpiy": {
+          "type": "feature",
+          "settings": {
+            "icon_image": "shopify://shop_images/KQ_ICON_6.svg",
+            "icon_svg": "",
+            "heading": "Community First",
+            "description": "<p>Kush Queen is rooted in our passion for cannabis and our commitment to help shape normalization and usage for everyone. All are welcome.</p>"
+          }
+        },
+        "feature_Bt4dUc": {
+          "type": "feature",
+          "settings": {
+            "icon_image": "shopify://shop_images/KQ_ICON_7.svg",
+            "icon_svg": "",
+            "heading": "Advanced Formulas",
+            "description": "<p>Our products are developed with 3 key values in mind. Science, technology, and delivery methods that make sense.</p>"
+          }
+        },
+        "feature_egQVQK": {
+          "type": "feature",
+          "settings": {
+            "icon_image": "shopify://shop_images/KQ_ICON_1_9e5f09cd-fbcf-4569-8501-cd414664b9c5.svg",
+            "icon_svg": "",
+            "heading": "Quality Is Supreme",
+            "description": "<p>We bend the knee to the plant. Only the highest-quality, lab tested cannabinoids are sourced for Kush Queen products. Made in the USA.</p>"
+          }
+        },
+        "feature_hFp4r7": {
+          "type": "feature",
+          "settings": {
+            "icon_image": "shopify://shop_images/KQ_ICON_2.svg",
+            "icon_svg": "",
+            "heading": "Effects You Feel",
+            "description": "<p>All Kush Queen products feature advanced technology, and innovative hemp molecules that make you feel something real.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "feature_a3hpiy",
+        "feature_Bt4dUc",
+        "feature_egQVQK",
+        "feature_hFp4r7"
+      ],
+      "name": "Image with Multi-Column",
+      "settings": {
+        "heading_font": "assistant_n4",
+        "body_font": "assistant_n4",
+        "section_heading": "",
+        "section_description": "",
+        "section_header_alignment": "left",
+        "section_header_spacing_mobile": 24,
+        "section_header_spacing_desktop": 32,
+        "container_max_width": 1200,
+        "desktop_image_position": "left",
+        "mobile_image_position": "top",
+        "columns_per_row_mobile": "1",
+        "columns_per_row_desktop": "2",
+        "main_gap_mobile": 12,
+        "main_gap_desktop": 12,
+        "columns_gap_mobile": 12,
+        "columns_gap_desktop": 12,
+        "enable_image": true,
+        "image_desktop": "shopify://shop_images/Rectangle_4513_d77c98b7-ffed-4892-b294-b51c8ca6e4aa.png",
+        "image_mobile": "shopify://shop_images/Rectangle_4513_d77c98b7-ffed-4892-b294-b51c8ca6e4aa.png",
+        "image_fit": "cover",
+        "image_radius": 16,
+        "section_heading_weight": "700",
+        "section_heading_size_mobile": 24,
+        "section_heading_size_desktop": 32,
+        "section_heading_line_height": 1.2,
+        "section_heading_letter_spacing": 0,
+        "section_heading_spacing": 12,
+        "section_description_size_mobile": 14,
+        "section_description_size_desktop": 16,
+        "section_description_line_height": 1.6,
+        "section_description_letter_spacing": 0,
+        "column_heading_weight": "500",
+        "column_heading_size_mobile": 20,
+        "column_heading_size_desktop": 24,
+        "column_heading_line_height": 1.3,
+        "column_heading_letter_spacing": 0,
+        "column_description_size_mobile": 14,
+        "column_description_size_desktop": 16,
+        "column_description_line_height": 1.3,
+        "column_description_letter_spacing": 0,
+        "section_bg_color": "#ffffff",
+        "section_text_color": "#222222",
+        "section_heading_color": "#222222",
+        "section_description_color": "#222222",
+        "card_bg_color": "#f3f2ea",
+        "card_heading_color": "#222222",
+        "card_text_color": "#222222",
+        "icon_bg_color": "#ffffff1a",
+        "icon_color": "#ffffff",
+        "card_text_alignment": "center",
+        "card_radius": 16,
+        "card_padding_mobile": 16,
+        "card_padding_desktop": 24,
+        "card_content_gap": 8,
+        "icon_size": 40,
+        "icon_radius": 40,
+        "icon_spacing": 8,
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 40,
+        "padding_horizontal_mobile": 0,
+        "padding_top_desktop": 80,
+        "padding_bottom_desktop": 40,
+        "padding_horizontal_desktop": 0
+      }
+    },
+    "custom_liquid_g3KWr3": {
+      "type": "custom-liquid",
+      "custom_css": [
+        ".section-header {margin-bottom: 16px; text-align: center;}",
+        ".section-heading {color: #231f20; font-size: 36px; font-weight: 400; line-height: 1.2; margin: 0; font-family: \"Room205\", sans-serif;}",
+        "@media (min-width: 768px) {.section-heading {font-size: 48px; line-height: 1.2; } .section-header {text-align: left; margin-bottom: 32px; }}"
+      ],
+      "name": "Custom Liquid Section",
+      "settings": {
+        "liquid_content": "{{ 'offer-page-style.css' | asset_url | stylesheet_tag }}\n\n<div class=\"section-header\">\n <h2 class=\"section-heading\">Customer Reviews</h2>\n      </div>\n<script src=\"https://widget.reviews.io/polaris/build.js\"></script>\n<div id=\"ReviewsWidget\"></div>\n<script>\nnew ReviewsWidget('#ReviewsWidget', {\n//Your REVIEWS.io Store ID and widget type:\nstore: 'kush-queen',\nwidget: 'polaris',\n\n//Content settings (store_review,product_review,third_party_review,questions). Choose what to display in this widget:\noptions: {\n    types: 'product_review',\n    enable_sentiment_analysis: true,\n    lang: 'en',\n    //Possible layout options: bordered, large and reverse.\n    layout: '',\n    //How many reviews & questions to show per page?\n    per_page: 15,\n    store_review:{\n      hide_if_no_results: false,\n    },\n    third_party_review:{\n      hide_if_no_results: false,\n    },\n    product_review: {\n      sku: \"{{ product.variants | map: 'sku' | join: ';' }};{{ product.variants | map: 'id' | join: ';' }}\",\n      enable_rich_snippets: true,\n\n      /* Your custom Structured Data */\n      structured_data: {\n\n        category: {{ product.type | json }},\n        {% capture gtin_length %}{{ product.variants.first.barcode | size }}{% endcapture %}\n\n\n        {% if gtin_length == \"14\" %}\n           gtin14:\"{{product.variants.first.barcode}}\",\n        {% elsif gtin_length == \"13\" %}\n           gtin13:\"{{product.variants.first.barcode}}\",\n        {% elsif gtin_length == \"12\" %}\n           gtin12:\"{{product.variants.first.barcode}}\",\n        {% endif %}\n\n        url: \"{{ shop.url }}{{ product.url }}\",\n\n        {%- if product.featured_image -%}\n          image: \"https:{{ product.featured_image | image_url: 'grande' }}\",\n        {%- endif -%}\n\n        {% if variant.image %}\n          {% assign variant_image_size = variant.image.width | append: 'x' %}\n          image: \"http:{{ variant.image.src | image_url: variant_image_size }}\",\n        {% endif %}\n\n        description: \"{{ product.description | strip_html | strip_newlines | escape }}\",\n        {% assign ruk_current_variant = product.selected_or_first_available_variant %}\n        {% assign ruk_variant_count = product.variants | size %}\n        {% assign ruk_count = 0 %}\n\n        {% if product.variants %}\n          {% assign ruk_count = ruk_count | plus: 1 %}\n\n          offers: [{\n              type: \"Offer\",\n              priceCurrency: \"{{ cart.currency.iso_code }}\",\n              price: \"{{ ruk_current_variant.price | money_without_currency }}\",\n              itemCondition: \"http://schema.org/NewCondition\",\n              availability: \"http://schema.org/{% if product.available %}InStock{% else %}OutOfStock{% endif %}\",\n              url: \"{{ shop.url }}{{ ruk_current_variant.url }}\",\n\n              {% if ruk_current_variant.image %}\n                  {% assign variant_image_size = ruk_current_variant.image.width | append: 'x' %}\n                  image: \"https:{{ ruk_current_variant.image.src | image_url: variant_image_size }}\",\n              {% else %}\n                  image: \"https:{{ product.featured_image.src | image_url: 'grande' }}\",\n              {% endif %}\n\n              {% if ruk_current_variant.title != 'Default Title' %}\n                  name: \"{{ product.title | strip_html | escape }} - {{ fa_current_variant.title | escape }}\",\n              {% else %}\n                  name: \"{{ product.title | strip_html | escape }}\",\n              {% endif %}\n\n              {% if ruk_current_variant.barcode.size == 12 %}\n                  gtin12: \"{{ ruk_current_variant.barcode }}\",\n              {% endif %}\n\n              {% if ruk_current_variant.barcode.size == 13 %}\n                  gtin13: \"{{ ruk_current_variant.barcode }}\",\n              {% endif %}\n\n              {% if ruk_current_variant.barcode.size == 14 %}\n                  gtin14: \"{{ ruk_current_variant.barcode }}\",\n              {% endif %}\n\n              {% if ruk_current_variant.sku != blank %}\n                  sku: \"{{ ruk_current_variant.sku }}\",\n              {% else %}\n                  sku: \"{{ ruk_current_variant.id }}\",\n              {% endif %}\n\n              {% if product.description != blank %}\n                  description: \"{{ product.description | strip_html | escape | strip_newlines }}\",\n              {% endif %}\n\n              priceValidUntil: \"{{ 'now' | date: '%s' | plus: 31536000 | date: '%Y-%m-%d' | replace:' ','%20' }}\"\n          }],\n        {% endif %}\n\n        brand: {\n          type: 'Brand',\n          name: '{{ product.vendor | escape }}',\n        },\n      },\n    },\n\n    /* Toggle Options */\n    questions:{\n          hide_if_no_results:false,\n          enable_ask_question:true,\n          show_dates:true,\n          grouping:\"{{ product.variants | map: 'sku' | join: ';' }};{{ product.variants | map: 'id' | join: ';' }}\"\n    },\n\n    //Header settings:\n    header:{\n        enable_summary: true, //Show overall rating & review count\n        enable_ratings: true,\n        enable_attributes: true,\n        enable_image_gallery: true, //Show photo & video gallery\n        enable_percent_recommended: false, //Show what percentage of reviewers recommend it\n        enable_write_review: true, //Show \"Write Review\" button\n        enable_ask_question: true, //Show \"Ask Question\" button\n        enable_sub_header: true, //Show subheader\n        rating_decimal_places: 2,\n        use_write_review_button:  false, //Show \"be the first to leave a review\" text as a button\n        enable_if_no_results:  false, //Show header when there are no results\n        show_review_title_field:  false, //Show review title field in write review form\n    },\n\n    //AI summary settings\n    sentiment:{\n        badge_text: 'Our Customers Say'\n    },\n\n    //Filtering settings:\n    filtering:{\n        enable: true, //Show filtering options\n        enable_text_search: true, //Show search field\n        enable_sorting: true, //Show sorting options (most recent, most popular)\n        enable_product_filter: false, //Show product options filter\n        enable_media_filter: true, //Show reviews with images/video/media options\n        enable_overall_rating_filter: true, //Show overall rating breakdown filter\n        enable_language_filter: false, // Filter by review language\n        enable_language_filter_language_change: false, // Update widget language based on language selected\n        enable_ratings_filters: true, //Show product attributes filter\n        enable_attributes_filters: true, //Show author attributes filter\n        enable_expanded_filters: false, //Show filters as a section instead of dropdown\n    },\n\n    //Review settings:\n    reviews:{\n        enable_avatar: true, //Show author avatar\n        enable_reviewer_name:  true, //Show author name\n        enable_reviewer_address:  true, //Show author location\n        reviewer_address_format: 'city, country', //Author location display format\n        enable_verified_badge: true, //Show \"Verified Customer\" badge\n        enable_subscriber_badge: true, //Show \"Verified Subscriber\" badge\n        review_content_filter: 'undefined', //Filter content\n        enable_reviewer_recommends: true, //Show \"I recommend it\" badge\n        enable_attributes: true, //Show author attributes\n        enable_product_name: true, //Show display product name\n        enable_link_product: true, //Link review to product page\n        enable_review_title: true, //Show review title\n        enable_replies: true, //Show review replies\n        enable_images: true, //Show display review photos\n        enable_ratings: true, //Show product attributes (additional ratings)\n        enable_share: true, //Show share buttons\n        enable_helpful_vote: true, //Show \"was this helpful?\" section\n        enable_helpful_display: true, //Show how many times times review upvoted\n        enable_report: true, //Show report button\n        enable_date: true, //Show when review was published\n        date_format: 'undefined', ////Review date format (undefined, 'DD/MM/YYYY', 'MM/DD/YYYY', 'YYYY/MM/DD')\n        date_location: 'top-right', //Review date location (undefined, 'top-right')\n        enable_third_party_source: true, //Show third party source\n        enable_duplicate_reviews: undefined, //Show multiple reviews from the same user\n        combine_title_stars: true, //Combine review title and star rating in a single line\n\n    },\n},\n//Translation settings\ntranslations: {\n    'Verified Customer': 'Verified Customer'\n},\n//Style settings:\nstyles: {\n    //Base font size is a reference size for all text elements. When base value gets changed, all TextHeading and TexBody elements get proportionally adjusted.\n    '--base-font-size': '16px',\n\n    //Button styles (shared between buttons):\n    '--common-button-font-family': 'inherit',\n    '--common-button-font-size':'16px',\n    '--common-button-font-weight':'500',\n    '--common-button-letter-spacing':'0',\n    '--common-button-text-transform':'none',\n    '--common-button-vertical-padding':'10px',\n    '--common-button-horizontal-padding':'20px',\n    '--common-button-border-width':'2px',\n    '--common-button-border-radius':'0px',\n\n    //Primary button styles:\n    '--primary-button-bg-color': '#0E1311',\n    '--primary-button-border-color': '#0E1311',\n    '--primary-button-text-color': '#ffffff',\n\n    //Secondary button styles:\n    '--secondary-button-bg-color': 'transparent',\n    '--secondary-button-border-color': '#0E1311',\n    '--secondary-button-text-color': '#0E1311',\n\n    //Star styles:\n    '--common-star-color': '#0E1311',\n    '--common-star-disabled-color': 'rgba(0,0,0,0.25)',\n    '--medium-star-size': '22px',\n    '--small-star-size': '19px',\n\n    //Heading styles:\n    '--heading-text-color': '#0E1311',\n    '--heading-text-font-weight': '600',\n    '--heading-text-font-family': 'inherit',\n    '--heading-text-line-height': '1.4',\n    '--heading-text-letter-spacing': '0',\n    '--heading-text-transform': 'none',\n\n    //Body text styles:\n    '--body-text-color': '#0E1311',\n    '--body-text-font-weight': '400',\n    '--body-text-font-family': 'inherit',\n    '--body-text-line-height': '1.4',\n    '--body-text-letter-spacing': '0',\n    '--body-text-transform': 'none',\n\n    //Input field styles:\n    '--inputfield-text-font-family': 'inherit',\n    '--input-text-font-size': '14px',\n    '--inputfield-text-font-weight': '400',\n    '--inputfield-text-color': '#0E1311',\n    '--inputfield-border-color': 'rgba(0,0,0,0.2)',\n    '--inputfield-background-color': 'transparent',\n    '--inputfield-border-width': '1px',\n    '--inputfield-border-radius': '0px',\n\n    '--common-border-color': 'rgba(0,0,0,0.15)',\n    '--common-border-width': '1px',\n    '--common-sidebar-width': '190px',\n\n    //Filters panel styles:\n    '--filters-panel-bg-color': 'transparent',\n    '--filters-panel-font-size': '16px',\n    '--filters-panel-text-color': '16px',\n    '--filters-panel-horizontal-padding': '0',\n    '--filters-panel-vertical-padding': '0',\n\n    //Slider indicator (for attributes) styles:\n    '--slider-indicator-bg-color': 'rgba(0,0,0,0.1)',\n    '--slider-indicator-button-color': '#0E1311',\n    '--slider-indicator-width': '190px',\n\n    //Badge styles:\n    '--badge-icon-color': '#0E1311',\n    '--badge-icon-font-size': 'inherit',\n    '--badge-text-color': '#0E1311',\n    '--badge-text-font-size': 'inherit',\n    '--badge-text-letter-spacing': 'inherit',\n    '--badge-text-transform': 'inherit',\n\n    //Author styles:\n    '--author-font-size': 'inherit',\n    '--author-text-transform': 'none',\n\n    //Author avatar styles:\n    '--avatar-thumbnail-size': '60px',\n    '--avatar-thumbnail-border-radius': '100px',\n    '--avatar-thumbnail-text-color': '#0E1311',\n    '--avatar-thumbnail-bg-color': 'rgba(0,0,0,0.1)',\n\n    //Product photo or review photo styles:\n    '--photo-video-thumbnail-size': '80px',\n    '--photo-video-thumbnail-border-radius': '0px',\n\n    //Media (photo & video) slider styles:\n    '--mediaslider-scroll-button-icon-color': '#0E1311',\n    '--mediaslider-scroll-button-bg-color': 'rgba(255, 255, 255, 0.85)',\n    '--mediaslider-overlay-text-color': '#ffffff',\n    '--mediaslider-overlay-bg-color': 'rgba(0, 0, 0, 0.8))',\n    '--mediaslider-item-size': '110px',\n\n    //Pagination & tabs styles (normal):\n    '--pagination-tab-text-color': '#0E1311',\n    '--pagination-tab-text-transform': 'none',\n    '--pagination-tab-text-letter-spacing': '0',\n    '--pagination-tab-text-font-size': '16px',\n    '--pagination-tab-text-font-weight': '600',\n\n    //Pagination & tabs styles (active):\n    '--pagination-tab-active-text-color': '#0E1311',\n    '--pagination-tab-active-text-font-weight': '600',\n    '--pagination-tab-active-border-color': '#0E1311',\n    '--pagination-tab-border-width': '3px',\n\n    //AI summary styles\n    '--sentiment-base-font-size': '15px',\n    '--sentiment-panel-bg-color': 'transparent',\n    '--sentiment-panel-border-size': '1px',\n    '--sentiment-panel-border-color': 'rgba(0, 0, 0, 0.1)',\n    '--sentiment-panel-border-radius': '0px',\n    '--sentiment-panel-shadow-size': '0px',\n    '--sentiment-panel-shadow-color': 'rgba(0, 0, 0, 0.1)',\n    '--sentiment-heading-text-color': '#0E1311',\n    '--sentiment-heading-text-font-weight': '600',\n    '--sentiment-heading-text-font-family': 'inherit',\n    '--sentiment-heading-text-line-height': '1.4',\n    '--sentiment-heading-text-letter-spacing': '0',\n    '--sentiment-heading-text-transform': 'none',\n    '--sentiment-body-text-color': '#0E1311',\n    '--sentiment-body-text-font-weight': '400',\n    '--sentiment-body-text-font-family': 'inherit',\n    '--sentiment-body-text-line-height': '1.4',\n    '--sentiment-body-text-letter-spacing': '0',\n    '--sentiment-body-text-transform': 'none',\n    '--sentiment-panel-vertical-padding': '25px',\n    '--sentiment-panel-horizontal-padding': '20px',\n    '--sentiment-header-text-color': 'inherit',\n    '--sentiment-header-text-font-size': '12px',\n    '--sentiment-header-text-font-weight': 'inherit',\n    '--sentiment-header-bg-color': 'rgba(0, 0, 0, 0.04)',\n    '--sentiment-header-border-radius': '50px',\n    '--sentiment-header-shadow-size': '0px',\n    '--sentiment-header-shadow-color': 'rgba(0, 0, 0, 0.1)',\n    '--sentiment-header-vertical-padding': '7px',\n    '--sentiment-header-horizontal-padding': '10px',\n    '--sentiment-pagination-tab-text-font-size': '13px',\n    '--sentiment-pagination-tab-text-font-weight': '600',\n    '--sentiment-pagination-tab-text-color': '#0E1311',\n    '--sentiment-pagination-tab-text-transform': 'none',\n    '--sentiment-pagination-tab-text-letter-spacing': '0',\n    '--sentiment-pagination-tab-active-text-color': '#0E1311',\n    '--sentiment-pagination-tab-active-text-font-weight': '600',\n    '--sentiment-pagination-tab-active-border-color': '#0E1311',\n    '--sentiment-pagination-tab-border-width': '3px',\n},\n});\n</script>"
+      }
+    },
+    "new_faq_RpW4gz": {
+      "type": "new-faq",
+      "blocks": {
+        "faq_block_gLCeGr": {
+          "type": "faq_block",
+          "settings": {
+            "question": "What are CBD gummies good for?",
+            "answer": "<p>CBD gummies are perfect for those moments when you just need to chill, reset, or catch some extra Zzz’s. They’re easy, pre-dosed, and tasty, making them a go-to for stress relief, better sleep, and all-around wellness. Plus, they’re discreet enough to toss in your bag and take anywhere—like a little secret to keep you feeling good on the go.</p>"
+          }
+        },
+        "faq_block_fY7AmD": {
+          "type": "faq_block",
+          "settings": {
+            "question": "Are there any side effects from taking CBD gummies?",
+            "answer": "<p>Most people vibe well with CBD, but hey, everyone’s body is different! Some folks experience mild effects like drowsiness, dry mouth, or a slight shift in appetite. We recommend starting with a lower dose to see how you feel, and if you have any concerns, reach out to a healthcare provider.</p>"
+          }
+        },
+        "faq_block_ncayAy": {
+          "type": "faq_block",
+          "settings": {
+            "question": "Will CBD gummies make me high?",
+            "answer": "<p>Nope, not a chance. Our CBD gummies are made with hemp-derived CBD, meaning they contain less than 0.3% THC—way too little to make you feel high. So you can enjoy all the wellness benefits of CBD without any of the “heady” vibes. Just pure relaxation, naturally.</p>"
+          }
+        },
+        "faq_block_jBtPRG": {
+          "type": "faq_block",
+          "settings": {
+            "question": "What’s the difference between CBD gummies and CBD oil tinctures?",
+            "answer": "<p>Think of CBD gummies as your low-key, tasty treat that’s ready to go whenever you are. Gummies take a little longer to kick in (usually 30-90 minutes) but offer longer-lasting effects. CBD tinctures, on the other hand, are faster-acting because you drop them under your tongue for quick absorption. So, if you want a quicker boost, tinctures are where it’s at. Want something that feels more like a treat? Gummies are your BFF.</p>"
+          }
+        },
+        "faq_block_gMVPhf": {
+          "type": "faq_block",
+          "settings": {
+            "question": "How long do CBD gummies last?",
+            "answer": "<p>Think of CBD gummies as your low-key, tasty treat that’s ready to go whenever you are. Gummies take a little longer to kick in (usually 30-90 minutes) but offer longer-lasting effects. <a href=\"https://kushqueen.shop/products/bare-cbd-tincture\" title=\"https://kushqueen.shop/products/bare-cbd-tincture\">CBD tinctures</a>, on the other hand, are faster-acting because you drop them under your tongue for quick absorption. So, if you want a quicker boost, tinctures are where it’s at. Want something that feels more like a treat? Gummies are your BFF. Answer</p>"
+          }
+        },
+        "faq_block_7Rhyy4": {
+          "type": "faq_block",
+          "settings": {
+            "question": "Will full-spectrum CBD make me fail a drug test?",
+            "answer": "<p>It’s rare, but possible. Our <a href=\"https://kushqueen.shop/products/full-spectrum-cbd-chews\" title=\"https://kushqueen.shop/products/full-spectrum-cbd-chews\">full-spectrum CBD gummies</a> contain only trace amounts of THC (within the legal limit), but if you’re taking high doses consistently, there’s a slim chance it could show up on a drug test. If this is a big concern, we recommend going with a broad-spectrum or THC-free option just to be extra safe.</p>"
+          }
+        },
+        "faq_block_WbqHam": {
+          "type": "faq_block",
+          "settings": {
+            "question": "How should I take my CBD gummies for the best effect?",
+            "answer": "<p>It’s simple—pop a gummy and see how you feel! If you’re new to CBD, start with one gummy and give it about an hour to work its magic. You can adjust from there depending on your needs. Consistency is key, so taking your gummies around the same time each day can help you enjoy those long-term benefits.</p>"
+          }
+        },
+        "faq_block_NKEgnq": {
+          "type": "faq_block",
+          "settings": {
+            "question": "Are CBD gummies legal in my state?",
+            "answer": "<p>Maybe! CBD from hemp (with less than 0.3% THC) is federally legal, thanks to the 2018 Farm Bill. Most states allow CBD, but it’s always smart to double-<a href=\"https://www.fda.gov/news-events/public-health-focus/fda-regulation-cannabis-and-cannabis-derived-products-including-cannabidiol-cbd\" title=\"https://www.fda.gov/news-events/public-health-focus/fda-regulation-cannabis-and-cannabis-derived-products-including-cannabidiol-cbd\">check local regulations</a> if you’re unsure.</p>"
+          }
+        },
+        "faq_block_PFJ8cA": {
+          "type": "faq_block",
+          "settings": {
+            "question": "How long does it take for CBD gummies to work?",
+            "answer": "<p>Expect your gummies to start working in about 30 to 90 minutes. Since they’re digested like regular food, they take a bit longer than other forms of CBD, but the effects tend to last longer, too. Perfect for sustained chill!</p>"
+          }
+        },
+        "faq_block_nPtGA6": {
+          "type": "faq_block",
+          "settings": {
+            "question": "What are Kush Queen’s CBD gummies made of?",
+            "answer": "<p>We’re all about quality ingredients! Our CBD gummies are crafted with full-spectrum hemp-derived CBD and natural flavors, giving you a clean, delicious experience with no artificial colors or fillers. Plus, they’re vegan, cruelty-free, and made with love—only the best for our community!</p>"
+          }
+        },
+        "faq_block_3pkPYL": {
+          "type": "faq_block",
+          "settings": {
+            "question": "Do you ship CBD gummies internationally?",
+            "answer": "<p>Yes! We’re excited to offer international shipping to select locations. Just pop your items in the cart and reach out to us at support@kushqueen.shop, and we’ll get back to you with international shipping details!</p>"
+          }
+        },
+        "faq_block_3hyj4M": {
+          "type": "faq_block",
+          "settings": {
+            "question": "What’s the recommended dose for CBD gummies?",
+            "answer": "<p>Most people start with one gummy (about 25mg CBD) and see how they feel. You can adjust your dose over time to find what works best for your body. It’s all about listening to your body and finding your sweet spot.</p>"
+          }
+        },
+        "faq_block_MzM6Kw": {
+          "type": "faq_block",
+          "settings": {
+            "question": "Can I take CBD gummies every day?",
+            "answer": "<p>Absolutely! In fact, a lot of our customers find that taking CBD daily gives them the best results. Whether it’s to keep calm, manage stress, or support sleep, consistent use can make a big difference.</p>"
+          }
+        },
+        "faq_block_qKXUmt": {
+          "type": "faq_block",
+          "settings": {
+            "question": "Are CBD gummies suitable for beginners?",
+            "answer": "<p>Yes! CBD gummies are perfect for beginners because they’re pre-dosed, tasty, and so easy to use. Just start with a low dose, enjoy, and adjust as you go.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "faq_block_gLCeGr",
+        "faq_block_fY7AmD",
+        "faq_block_ncayAy",
+        "faq_block_jBtPRG",
+        "faq_block_gMVPhf",
+        "faq_block_7Rhyy4",
+        "faq_block_WbqHam",
+        "faq_block_NKEgnq",
+        "faq_block_PFJ8cA",
+        "faq_block_nPtGA6",
+        "faq_block_3pkPYL",
+        "faq_block_3hyj4M",
+        "faq_block_MzM6Kw",
+        "faq_block_qKXUmt"
+      ],
+      "custom_css": [
+        "h2 {color: #231f20; font-size: 48px; font-weight: 400; line-height: 1.2; margin: 0; margin-bottom: 16px; text-align: center; font-family: \"Room205\", sans-serif;}",
+        "@media (min-width: 768px) {h2 {margin-bottom: 32px; }}",
+        ".new-faq_section {padding-block: 0 4rem;}"
+      ],
+      "settings": {
+        "faq_title": "Frequently Asked Questions",
+        "faq_class": "page-width"
+      }
+    },
+    "text_image_bcjAm4": {
+      "type": "text-image",
+      "name": "Image with Text",
+      "settings": {
+        "section_bg_color": "#f5f5f0",
+        "section_padding_top_desktop": 60,
+        "section_padding_bottom_desktop": 60,
+        "section_padding_top_mobile": 40,
+        "section_padding_bottom_mobile": 40,
+        "layout_direction": "row",
+        "layout_alignment": "center",
+        "content_spacing_desktop": 40,
+        "content_spacing_mobile": 40,
+        "image": "shopify://shop_images/Rectangle_4513_1.png",
+        "image_width_desktop": 50,
+        "image_aspect_ratio": 1.6,
+        "image_border_radius": 16,
+        "image_bg_color": "",
+        "content_alignment_desktop": "left",
+        "content_alignment_mobile": "left",
+        "heading_text": "OUR NAMESAKE, KUSH QUEEN...",
+        "heading_color": "#231f20",
+        "heading_font_size_desktop": 48,
+        "heading_font_size_mobile": 32,
+        "heading_font_weight": 400,
+        "heading_line_height_desktop": 1.2,
+        "heading_line_height_mobile": 1.2,
+        "heading_margin_bottom_desktop": 20,
+        "heading_margin_bottom_mobile": 8,
+        "paragraph_content": "<p>In six years, Kush Queen has grown into a multi-million dollar, multifaceted cannabis brand manufacturing category-leading hemp, compliant cannabis, transdermal, and minor cannabinoid products. The Kush Queen product line includes award-winning cannabis infused bath bombs, transdermal topicals, flower, pre-rolls, edibles, wellness supplements, and skincare.</p><p>Like all good things, Kush Queen was born out of community; at the intersection of social media and cannabis. Here’s the story of who we are and how we got here.</p>",
+        "text_color": "#231f20",
+        "text_font_size_desktop": 16,
+        "text_font_size_mobile": 14,
+        "text_font_weight": 400,
+        "text_line_height_desktop": 1.4,
+        "text_line_height_mobile": 1.4,
+        "text_margin_bottom_desktop": 32,
+        "text_margin_bottom_mobile": 24,
+        "button_text": "SHOP NOW",
+        "button_link": "#PageContainer",
+        "button_text_color": "#ffffff",
+        "button_bg_color": "#000000",
+        "button_padding_desktop": 18,
+        "button_padding_mobile": 14,
+        "button_border_radius": 6,
+        "button_font_size_desktop": 18,
+        "button_font_size_mobile": 14,
+        "button_font_weight": 600,
+        "button_text_color_hover": "#ffffff",
+        "button_bg_color_hover": "#222222"
+      }
+    }
+  },
+  "order": [
+    "banner_stack_MqfgnD",
+    "offer_brand_logos_stack_ygzzJ7",
+    "featured_collection_custom_Ez9BxM",
+    "featured_collection_custom_Tmz6V6",
+    "featured_collection_custom_6d4Jc3",
+    "banner_stack_kKbDWp",
+    "banner_stack_XqjXzg",
+    "standalone_multicolumn_image_VChLwF",
+    "custom_liquid_g3KWr3",
+    "new_faq_RpW4gz",
+    "text_image_bcjAm4"
+  ]
+}
