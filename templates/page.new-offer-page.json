@@ -52,9 +52,69 @@
         "logo_CntwwU",
         "logo_a9fDJ4"
       ],
+      "disabled": true,
       "name": "Offer Logos",
       "settings": {
         "heading": "FEATURED IN"
+      }
+    },
+    "brand_logos_stack_MbL79M": {
+      "type": "brand-logos--stack",
+      "blocks": {
+        "logo_nLgjb8": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/Grupo_3418.svg",
+            "logo_width_desktop": 160,
+            "logo_height_desktop": 70,
+            "logo_width_mobile": 120,
+            "logo_height_mobile": 50
+          }
+        },
+        "logo_ieWCWD": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/Vector_21.svg",
+            "logo_width_desktop": 120,
+            "logo_height_desktop": 50,
+            "logo_width_mobile": 100,
+            "logo_height_mobile": 40
+          }
+        },
+        "logo_iacWnb": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/los_angeles_times_logo_svg.svg",
+            "logo_width_desktop": 120,
+            "logo_height_desktop": 50,
+            "logo_width_mobile": 100,
+            "logo_height_mobile": 40
+          }
+        },
+        "logo_N7DTw7": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/new_york_post_logo_svg.svg",
+            "logo_width_desktop": 120,
+            "logo_height_desktop": 50,
+            "logo_width_mobile": 100,
+            "logo_height_mobile": 40
+          }
+        }
+      },
+      "block_order": [
+        "logo_nLgjb8",
+        "logo_ieWCWD",
+        "logo_iacWnb",
+        "logo_N7DTw7"
+      ],
+      "name": "Brand Logos Carousel",
+      "settings": {
+        "full_width": true,
+        "speed": 25,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "standalone_multicolumn_image_VChLwF": {
@@ -304,6 +364,7 @@
   "order": [
     "banner_stack_MqfgnD",
     "offer_brand_logos_stack_ygzzJ7",
+    "brand_logos_stack_MbL79M",
     "standalone_multicolumn_image_VChLwF",
     "new_faq_RpW4gz"
   ]
