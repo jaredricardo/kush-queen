@@ -431,7 +431,7 @@
                       {%- unless current_variant.available %}
                         disabled aria-disabled="true"
                       {%- endunless %}
-                      style="font-family: var(--stack-font-body); border-radius: var(--stack-btn-radius); background: var(--stack-color-btn-bg); color: var(--stack-color-btn-text);"
+                      style=" border-radius: var(--stack-btn-radius); background: var(--stack-color-btn-bg); color: var(--stack-color-btn-text);"
                     >
                       {%- if current_variant.available -%}
                         {{ section.settings.atc_text | default: 'ADD TO CART' }}
@@ -445,7 +445,7 @@
                   <a
                     href="{{ product.url }}"
                     class="stack_link-btn"
-                    style="font-family: var(--stack-font-body); border-radius: var(--stack-btn-radius); background: var(--stack-color-btn-bg); color: var(--stack-color-btn-text);"
+                    style="f  border-radius: var(--stack-btn-radius); background: var(--stack-color-btn-bg); color: var(--stack-color-btn-text);"
                   >
                     {{ section.settings.link_btn_text | default: 'VIEW PRODUCT' }}
                   </a>
@@ -488,7 +488,7 @@
                       {%- unless current_variant.available %}
                         disabled aria-disabled="true"
                       {%- endunless %}
-                      style="font-family: var(--stack-font-body); border-radius: var(--stack-btn-radius); background: var(--stack-color-btn-bg); color: var(--stack-color-btn-text);"
+                      style="f  border-radius: var(--stack-btn-radius); background: var(--stack-color-btn-bg); color: var(--stack-color-btn-text);"
                     >
                       {%- if current_variant.available -%}
                         {{ section.settings.atc_text | default: 'ADD TO CART' }}
@@ -500,7 +500,7 @@
                   <a
                     href="{{ product.url }}"
                     class="stack_link-btn stack_link-btn--outline"
-                    style="font-family: var(--stack-font-body); border-radius: var(--stack-btn-radius); border-color: var(--stack-color-btn-bg); color: var(--stack-color-btn-bg);"
+                    style="f  border-radius: var(--stack-btn-radius); border-color: var(--stack-color-btn-bg); color: var(--stack-color-btn-bg);"
                   >
                     {{ section.settings.link_btn_text | default: 'VIEW PRODUCT' }}
                   </a>
@@ -535,7 +535,7 @@
       {%- else -%}
         <div
           class="stack_empty-collection"
-          style="color: var(--stack-color-text); font-family: var(--stack-font-body);"
+          style="color: var(--stack-color-text); f "
         >
           <p>No products found in this collection.</p>
         </div>
@@ -546,7 +546,7 @@
 
 <style>
   #stack_section-{{ section_id }} {
-    font-family: var(--stack-font-body);
+    f 
   }
 
   #stack_section-{{ section_id }} .stack_container {
@@ -829,7 +829,7 @@
   }
   #stack_section-{{ section_id }} .stack_option-btn {
     padding: 8px 8px;
-    font-family: var(--stack-font-body);
+    f 
     font-size: 14px;
     font-weight: 600;
     cursor: pointer;
@@ -1066,7 +1066,7 @@
         if (!compareEl) {
           compareEl = document.createElement('span');
           compareEl.className = 'stack_price-compare';
-          compareEl.style.cssText = 'color: var(--stack-color-compare-price); font-family: var(--stack-font-body);';
+          compareEl.style.cssText = 'color: var(--stack-color-compare-price); f ';
           priceDiv.appendChild(compareEl);
         }
         compareEl.innerHTML = '<s>$' + formatMoney(variant.compare_at_price) + '</s>';
@@ -1076,7 +1076,7 @@
         if (!badgeEl) {
           badgeEl = document.createElement('span');
           badgeEl.className = 'stack_price-badge';
-          badgeEl.style.cssText = 'background: var(--stack-color-label-sale); color: var(--stack-color-label-sale-text); font-family: var(--stack-font-body); display: inline-block; padding: 3px 8px; font-size: 11px; font-weight: 700; border-radius: 4px; letter-spacing: 0.05em;';
+          badgeEl.style.cssText = 'background: var(--stack-color-label-sale); color: var(--stack-color-label-sale-text); f  display: inline-block; padding: 3px 8px; font-size: 11px; font-weight: 700; border-radius: 4px; letter-spacing: 0.05em;';
           priceDiv.appendChild(badgeEl);
         }
         badgeEl.textContent = discountPct + '% OFF';
