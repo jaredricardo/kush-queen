@@ -21,7 +21,7 @@
     {% if section.settings.featured_heading %}
       <div class="section_heading">
         <h2>{{ section.settings.featured_heading }}</h2>
-      </div>
+      </div>          
     {% endif %}
     <div class="stack_padding_stem section-{{ section.id }}-padding">
         <div class="logo-slider">
@@ -182,6 +182,12 @@
 {
   "name": "Brand Logos Carousel",
   "settings": [
+    {
+      "type": "text",
+      "id": "featured_heading",
+      "label": "Section heading",
+      "default": "FEATURED IN"
+    },
     {
         "type": "checkbox",
         "id": "full_width",
