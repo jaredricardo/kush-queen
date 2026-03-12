@@ -367,19 +367,24 @@
                 class="stack_card-price"
                 data-product-handle="{{ product.handle }}"
                 data-product-id="{{ current_variant.id }}">
-                <span
-                  class="stack_price-current"
-                  style="color: var(--stack-color-price); "
-                >
-                  {{ current_variant.price | money }}
-                </span>
+                <div class="price_container">
+                    <span
+                    class="stack_price-current"
+                    style="color: var(--stack-color-price); "
+                    >
+                    {{ current_variant.price | money }}
+                    </span>
+                    {%- if current_variant.compare_at_price > current_variant.price -%}
+                    <span
+                        class="stack_price-compare"
+                        style="color: var(--stack-color-compare-price); "
+                    >
+                        <s>{{ current_variant.compare_at_price | money }}</s>
+                    </span>
+                    {%- endif -%}
+                </div>
+
                 {%- if current_variant.compare_at_price > current_variant.price -%}
-                  <span
-                    class="stack_price-compare"
-                    style="color: var(--stack-color-compare-price); "
-                  >
-                    <s>{{ current_variant.compare_at_price | money }}</s>
-                  </span>
                   {%- if show_labels -%}
                     {%- assign discount_pct = current_variant.compare_at_price
                       | minus: current_variant.price
