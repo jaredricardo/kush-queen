@@ -185,8 +185,8 @@
         "label_new_text": "#ffffff",
         "label_best_bg": "#22c55e",
         "label_best_text": "#ffffff",
-        "metafield_badge_bg": "#0d2b0d",
-        "metafield_badge_text": "#4ade80",
+        "metafield_badge_bg": "#f1f0e8",
+        "metafield_badge_text": "#231f20",
         "padding_top": 36,
         "padding_bottom": 0,
         "show_vendor": false
