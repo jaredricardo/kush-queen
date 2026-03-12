@@ -121,8 +121,8 @@
       "type": "featured-collection--stack",
       "name": "Stack Featured Collection",
       "settings": {
-        "collection": "30-off-offer",
-        "products_to_show": 8,
+        "collection": "all-cannabis-products",
+        "products_to_show": 24,
         "heading": "Premium THCa Flower",
         "subheading": "",
         "content_alignment": "left",
