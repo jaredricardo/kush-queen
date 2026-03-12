@@ -16,7 +16,7 @@
   }
 {%- endstyle -%}
 
-<div class="color-{{ section.settings.color_scheme }}">
+<div class="">
   <div class="{% unless section.settings.full_width %}page-width{% endunless %}">
     <div class="stack_padding_stem section-{{ section.id }}-padding">
         <div class="logo-slider">
@@ -207,12 +207,6 @@
       "label": "Separator image (used between logos)",
       "info": "Recommended: SVG or small PNG"
     },
-    {
-      "type": "color_scheme",
-      "id": "color_scheme",
-      "label": "Color Scheme",
-      "default": "scheme-1"
-    }, 
     {
       "type": "header",
       "content": "Paddings"
