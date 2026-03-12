@@ -153,7 +153,7 @@
 
     <div class="stack_faq-list">
       {% for block in section.blocks %}
-        <div class="stack_faq-item {% if section.settings.first_open and forloop.first %}active{% endif %}">
+        <div class="stack_faq-item {% if section.settings.first_open and forloop.first %}active{% endif %} {% if section.settings.background_active %}stack_background{% endif %}">
           <div class="stack_faq-question">
             <span>{{ block.settings.question }}</span>
 
@@ -227,6 +227,12 @@
       "type": "checkbox",
       "id": "first_open",
       "label": "Keep first faq open",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "background_active",
+      "label": "Add background color",
       "default": false
     },
     {
