@@ -121,7 +121,7 @@
       "type": "featured-collection--stack",
       "name": "Stack Featured Collection",
       "settings": {
-        "collection": "all-cannabis-products",
+        "collection": "thca-flower",
         "products_to_show": 24,
         "heading": "Premium THCa Flower",
         "subheading": "",
