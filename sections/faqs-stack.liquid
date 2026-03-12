@@ -137,7 +137,7 @@
   </div> {% endcomment %}
 
 
-  <div class="stack_width_container {{ section.settings.max_width }}">
+  <div class="stack_width_container {% if section.settings.max_width == 'default' %}page-width {% else %}{{ section.settings.max_width }}{% endif %}">
   
   <div class="stack_faq-layout {% if section.settings.faq_image != blank %}has-image{% endif %}">
 
