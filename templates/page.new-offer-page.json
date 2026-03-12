@@ -230,6 +230,38 @@
         "padding_horizontal_desktop": 0
       }
     },
+    "faqs_stack_L9bMFQ": {
+      "type": "faqs-stack",
+      "blocks": {
+        "faq_E6BU3E": {
+          "type": "faq",
+          "settings": {
+            "question": "What is your return policy?",
+            "answer": "We accept returns within 30 days of purchase with proof of receipt."
+          }
+        }
+      },
+      "block_order": [
+        "faq_E6BU3E"
+      ],
+      "name": "Stack FAQ",
+      "settings": {
+        "max_width": "default",
+        "heading": "FAQS",
+        "subheading": "",
+        "icon_style": "plusminus",
+        "heading_font_size_desktop": 48,
+        "heading_font_size_mobile": 36,
+        "heading_alignment": "center",
+        "faq_question_size_desktop": 24,
+        "faq_question_size_mobile": 18,
+        "faq_answer_size": 15,
+        "background_color": "#ffffff",
+        "heading_color": "#111111",
+        "text_color": "#333333",
+        "icon_color": "#000000"
+      }
+    },
     "new_faq_RpW4gz": {
       "type": "new-faq",
       "blocks": {
@@ -366,6 +398,7 @@
     "offer_brand_logos_stack_ygzzJ7",
     "brand_logos_stack_MbL79M",
     "standalone_multicolumn_image_VChLwF",
+    "faqs_stack_L9bMFQ",
     "new_faq_RpW4gz"
   ]
 }
