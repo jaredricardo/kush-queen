@@ -67,7 +67,9 @@
   }
 
   .stack_faq-item {
+    {% unless section.settings.background_active %}
     border-bottom: 1px solid #ccc;
+    {% endunless %}
     padding: 15px 0;
     cursor: pointer;
   }
