@@ -152,7 +152,7 @@
         "sale_label": "Sale",
         "show_ratings": true,
         "show_metafields": true,
-        "metafield_1": "custom.thca_percentage",
+        "metafield_1": "custom.thca_concentration",
         "metafield_1_label": "THCA",
         "metafield_2": "custom.flower_type",
         "metafield_2_label": "",
