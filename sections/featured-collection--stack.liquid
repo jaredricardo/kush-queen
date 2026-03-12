@@ -134,6 +134,7 @@
             data-product-id="{{ product.id }}"
             data-product-handle="{{ product.handle }}"
             data-section-id="{{ section_id }}"
+            style="padding: var(--stack-padding-card-desktop);"
           >
             <div class="stack_card-image-wrap stack_ratio-{{ image_ratio }}">
               <a href="{{ product.url }}" class="stack_card-image-link" aria-label="{{ product.title | escape }}">
@@ -272,7 +273,7 @@
 
             <div
               class="stack_card-body"
-              style="padding: var(--stack-padding-card-desktop); text-align: {{ alignment }};"
+              style="text-align: {{ alignment }};"
             >
               {%- if show_rating -%}
                 <div class="stack_card-rating">
