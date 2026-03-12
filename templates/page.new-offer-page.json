@@ -236,13 +236,61 @@
         "faq_E6BU3E": {
           "type": "faq",
           "settings": {
-            "question": "What is your return policy?",
+            "question": "How do you create the different Cura Spectrum?",
+            "answer": "Lots of people have heard of cannabis being indica or sativa — but we go way beyond these simple definitions! Our in-house cannabis experts start by reviewing detailed lab tests which measure levels of naturally occurring minor cannabinoids and terpenes. We classify these results based on the sum of their parts, which allows us to determine way more about the results than simple Indica or Sativa types. Everybody reacts slightly differently to cannabis, so it’s not a 100% perfect science, but most people who shop are very satisfied!"
+          }
+        },
+        "faq_tJfPXp": {
+          "type": "faq",
+          "settings": {
+            "question": "Whats our lab testing process?",
+            "answer": "We accept returns within 30 days of purchase with proof of receipt."
+          }
+        },
+        "faq_nBh6UF": {
+          "type": "faq",
+          "settings": {
+            "question": "Will this show up on a drug test?",
+            "answer": "We accept returns within 30 days of purchase with proof of receipt."
+          }
+        },
+        "faq_d4baW9": {
+          "type": "faq",
+          "settings": {
+            "question": "Getting high: what our cannabis feels like?",
+            "answer": "We accept returns within 30 days of purchase with proof of receipt."
+          }
+        },
+        "faq_hGEtkp": {
+          "type": "faq",
+          "settings": {
+            "question": "How long will it take for my order to arrive?",
+            "answer": "We accept returns within 30 days of purchase with proof of receipt."
+          }
+        },
+        "faq_hWkrG6": {
+          "type": "faq",
+          "settings": {
+            "question": "What payment methods do you accept?",
+            "answer": "We accept returns within 30 days of purchase with proof of receipt."
+          }
+        },
+        "faq_ViNWUG": {
+          "type": "faq",
+          "settings": {
+            "question": "How can I contact customer support?",
             "answer": "We accept returns within 30 days of purchase with proof of receipt."
           }
         }
       },
       "block_order": [
-        "faq_E6BU3E"
+        "faq_E6BU3E",
+        "faq_tJfPXp",
+        "faq_nBh6UF",
+        "faq_d4baW9",
+        "faq_hGEtkp",
+        "faq_hWkrG6",
+        "faq_ViNWUG"
       ],
       "name": "Stack FAQ",
       "settings": {
