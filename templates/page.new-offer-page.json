@@ -296,6 +296,7 @@
       "settings": {
         "faq_image": "shopify://shop_images/Rectangle_304.png",
         "first_open": true,
+        "background_active": true,
         "max_width": "default",
         "heading": "FAQS",
         "subheading": "",
