@@ -110,6 +110,7 @@
       ],
       "name": "Brand Logos Carousel",
       "settings": {
+        "featured_heading": "FEATURED IN",
         "full_width": false,
         "speed": 9,
         "padding_top": 20,
@@ -181,8 +182,8 @@
         "columns_gap_mobile": 12,
         "columns_gap_desktop": 12,
         "enable_image": true,
-        "image_desktop": "shopify://shop_images/Rectangle_4513_d77c98b7-ffed-4892-b294-b51c8ca6e4aa.png",
-        "image_mobile": "shopify://shop_images/Rectangle_4513_d77c98b7-ffed-4892-b294-b51c8ca6e4aa.png",
+        "image_desktop": "shopify://shop_images/Rectangle_4513_6fd50a08-b67c-4eb9-afdc-fcbfe162865b.png",
+        "image_mobile": "shopify://shop_images/Rectangle_4513_6fd50a08-b67c-4eb9-afdc-fcbfe162865b.png",
         "image_fit": "cover",
         "image_radius": 16,
         "section_heading_weight": "700",
