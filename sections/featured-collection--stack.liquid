@@ -343,7 +343,26 @@
                 <div class="stack_variant-selector">
                   {%- for option in product.options_with_values -%}
                     <div class="stack_option-group">
-                      <div class="stack_option-btns">
+                        <div class="stack_option-btns">
+                            <select 
+                                class="stack_option-btn" 
+                                data-option-index="{{ forloop.index0 }}" 
+                                data-product-id="{{ product.id }}" 
+                                data-section-id="{{ section_id }}"
+                                style="border-radius: var(--stack-btn-radius); padding: 5px 10px;"
+                            >
+                                {%- for value in option.values -%}
+                                <option 
+                                    value="{{ value | escape }}" 
+                                    data-option-value="{{ value | escape }}"
+                                    {% if forloop.first %}selected{% endif %}
+                                >
+                                    {{ value }}
+                                </option>
+                                {%- endfor -%}
+                            </select>
+                        </div>
+                      {% comment %} <div class="stack_option-btns">
                         {%- for value in option.values -%}
                           {%- assign variant_for_value = product.variants | where: 'option1', value | first -%}
                           <button
@@ -357,7 +376,7 @@
                             {{ value }}
                           </button>
                         {%- endfor -%}
-                      </div>
+                      </div> {% endcomment %}
                     </div>
                   {%- endfor -%}
                 </div>
@@ -1142,7 +1161,39 @@
       }
     }
 
-    document.addEventListener('click', function(e) {
+    document.addEventListener('change', function(e) {
+        var btn = e.target.closest('.stack_option-btn[data-section-id="' + SECTION_ID + '"]');
+        if (!btn) return;
+
+        var productId   = btn.getAttribute('data-product-id');
+        var optionIndex = parseInt(btn.getAttribute('data-option-index'), 10);
+        var card        = btn.closest('.stack_product-card');
+        if (!card || !productId) return;
+
+        var product = getProductData(productId);
+        if (!product) return;
+
+        var siblings = card.querySelectorAll('.stack_option-btn[data-option-index="' + optionIndex + '"]');
+        btn.classList.add('stack_option-btn--active');
+
+        var selectedOptions = [];
+        [0, 1, 2].forEach(function(i) {
+            var selectEl = card.querySelector('select.stack_option-btn[data-option-index="' + i + '"]');
+            selectedOptions[i] = selectEl ? selectEl.value : undefined;
+        });
+
+        var variant = findVariant(product, selectedOptions);
+        if (variant) {
+            updatePriceBlock(card, variant);
+            updateAtcButton(
+            card, variant,
+            {{ section.settings.atc_text | default: 'ADD TO CART' | json }},
+            {{ section.settings.sold_out_text | default: 'SOLD OUT' | json }}
+            );
+        }
+    });
+
+    {% comment %} document.addEventListener('click', function(e) {
       var btn = e.target.closest('.stack_option-btn[data-section-id="' + SECTION_ID + '"]');
       if (!btn) return;
 
@@ -1173,7 +1224,7 @@
           {{ section.settings.sold_out_text | default: 'SOLD OUT' | json }}
         );
       }
-    });
+    }); {% endcomment %}
 
     document.addEventListener('click', function(e) {
       var btn = e.target.closest(
