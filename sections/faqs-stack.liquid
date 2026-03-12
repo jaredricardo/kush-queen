@@ -177,12 +177,12 @@
                 </svg>
               {% else %}
 
-                <svg class="stack_faq-icon plus" width="29" height="28" viewBox="0 0 29 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg class="stack_faq-icon plus" {% if section.settings.first_open and forloop.first %} style="display: none;" {% endif %} width="29" height="28" viewBox="0 0 29 28" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M21.3999 15.4H15.6932V21H12.8399V15.4H7.13329V12.6H12.8399V7H15.6932V12.6H21.3999M14.2666 0C12.3931 0 10.5379 0.362121 8.80699 1.06569C7.07609 1.76925 5.50336 2.80048 4.17858 4.1005C1.50308 6.72601 0 10.287 0 14C0 17.713 1.50308 21.274 4.17858 23.8995C5.50336 25.1995 7.07609 26.2307 8.80699 26.9343C10.5379 27.6379 12.3931 28 14.2666 28C18.0503 28 21.6791 26.525 24.3546 23.8995C27.0301 21.274 28.5332 17.713 28.5332 14C28.5332 12.1615 28.1641 10.341 27.4472 8.64243C26.7302 6.94387 25.6793 5.40053 24.3546 4.1005C23.0298 2.80048 21.4571 1.76925 19.7262 1.06569C17.9953 0.362121 16.1401 0 14.2666 0Z" fill="black"/>
                 </svg>
 
 
-                <svg class="stack_faq-icon minus" style="display: none;" width="29" height="28" viewBox="0 0 29 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg class="stack_faq-icon minus" {% unless section.settings.first_open and forloop.first %} style="display: none;" {% endunless %} style="display: none;" width="29" height="28" viewBox="0 0 29 28" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M14.2666 0C10.4828 0 6.85409 1.475 4.17858 4.1005C1.50308 6.72601 0 10.287 0 14C0 17.713 1.50308 21.274 4.17858 23.8995C6.85409 26.525 10.4828 28 14.2666 28C18.0503 28 21.6791 26.525 24.3546 23.8995C27.0301 21.274 28.5332 17.713 28.5332 14C28.5332 10.287 27.0301 6.72601 24.3546 4.1005C21.6791 1.475 18.0503 0 14.2666 0ZM6.11425 13V15H22.4189V13H6.11425Z" fill="#F5F5F5"/>
                 </svg>
 
