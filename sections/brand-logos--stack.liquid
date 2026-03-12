@@ -18,6 +18,11 @@
 
 <div class="">
   <div class="{% unless section.settings.full_width %}page-width{% endunless %}">
+    {% if section.settings.featured_heading %}
+      <div class="section_heading">
+        <h2>{{ section.settings.featured_heading }}</h2>
+      </div>
+    {% endif %}
     <div class="stack_padding_stem section-{{ section.id }}-padding">
         <div class="logo-slider">
             <div class="logo-track">
