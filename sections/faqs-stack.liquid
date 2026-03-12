@@ -153,7 +153,7 @@
 
     <div class="stack_faq-list">
       {% for block in section.blocks %}
-        <div class="stack_faq-item">
+        <div class="stack_faq-item {% if section.settings.first_open and forloop.first %}active{% endif %}">
           <div class="stack_faq-question">
             <span>{{ block.settings.question }}</span>
 
@@ -222,6 +222,12 @@
       "type": "image_picker",
       "id": "faq_image",
       "label": "FAQ Image"
+    },
+    {
+      "type": "checkbox",
+      "id": "first_open",
+      "label": "Keep first faq open",
+      "default": false
     },
     {
       "type": "select",
