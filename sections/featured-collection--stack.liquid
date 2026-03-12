@@ -216,8 +216,14 @@
                   </a>
                 </div>
               {%- endif -%}
+            </div>
 
-              {%- if show_metafields -%}
+            <div
+              class="stack_card-body"
+              style="text-align: {{ alignment }};"
+            >
+              
+                {%- if show_metafields -%}
                 <div class="stack_meta-badges">
                   {%- assign meta1_ns_key = section.settings.metafield_1 | split: '.' -%}
                   {%- assign meta2_ns_key = section.settings.metafield_2 | split: '.' -%}
@@ -269,13 +275,6 @@
                   {%- endif -%}
                 </div>
               {%- endif -%}
-            </div>
-
-            <div
-              class="stack_card-body"
-              style="text-align: {{ alignment }};"
-            >
-              
 
               <h3
                 class="stack_card-title"
@@ -767,10 +766,10 @@
     display: flex;
     flex-wrap: wrap;
     gap: 6px;
-    position: absolute;
+    {% comment %} position: absolute;
     z-index: 5;
     top: 3%;
-    left: 3%;
+    left: 3%; {% endcomment %}
   }
   #stack_section-{{ section_id }} .stack_meta-badge {
     display: inline-flex;
