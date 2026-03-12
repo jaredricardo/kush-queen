@@ -63,12 +63,12 @@
                     "
                     >
                     {% if block.settings.logo_image %}
-                        <img src="{{ block.settings.logo_image | img_url: 'master' }}" alt="Brand Logo">
+                        <img src="{{ block.settings.logo_image | img_url: 'master' }}" alt="Brand Logo" width="100%" height="100%">
                     {% endif %}
                     </div>
                     {% if section.settings.separator_image %}
                     <div class="separator">
-                        <img src="{{ section.settings.separator_image | image_url: width: 40 }}" alt="Separator">
+                        <img src="{{ section.settings.separator_image | image_url: width: 40 }}" alt="Separator" width="100%" height="100%">
                     </div>
                     {% endif %}
                 {% endfor %}
