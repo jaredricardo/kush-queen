@@ -286,19 +286,6 @@
               </h3>
 
               {%- if show_rating -%}
-
-                {% assign review_count = product.metafields.reviewscouk.total %}
-                <div class="product-reviews">
-                  <div class="review-stars" aria-label="5 out of 5 stars">
-                    {% for i in (1..5) %}
-                      <svg width="14" height="14" viewBox="0 0 14 14" fill="currentColor" aria-hidden="true">
-                        <path d="M7 0l1.796 5.528h5.814l-4.703 3.416 1.796 5.528L7 11.056l-4.703 3.416 1.796-5.528L-.61 5.528h5.814z"/>
-                      </svg>
-                    {% endfor %}
-                  </div>
-                  <p class="review-count">({{ review_count }} REVIEWS)</p>
-                </div>
-
                 <div class="stack_card-rating">
                   {%- if product.metafields.judgeme.widget != blank -%}
                     <span class="jdgm-widget jdgm-preview-badge" data-id="{{ product.id }}">
@@ -311,6 +298,18 @@
                       data-rating="{{ product.metafields.loox.avg_rating }}"
                       data-raters="{{ product.metafields.loox.num_reviews }}"
                     ></div>
+                  {%- elsif product.metafields.reviewscouk.total -%}
+                    {% assign review_count = product.metafields.reviewscouk.total %}
+                    <div class="stack_review-rating">
+                      <div class="review-stars" aria-label="5 out of 5 stars">
+                        {% for i in (1..5) %}
+                          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                          </svg>
+                        {% endfor %}
+                      </div>
+                      <p class="stack_rating-count">({{ review_count }} REVIEWS)</p>
+                    </div>
                   {%- else -%}
                     <div class="stack_dummy-rating" aria-label="5 out of 5 stars">
                       <div class="stack_stars" style="color: var(--stack-color-star);">
@@ -807,7 +806,8 @@
     display: flex;
     align-items: center;
   }
-  #stack_section-{{ section_id }} .stack_dummy-rating {
+  #stack_section-{{ section_id }} .stack_dummy-rating,
+  #stack_section-{{ section_id }} .stack_review-rating {
     display: flex;
     align-items: center;
     gap: 4px;
