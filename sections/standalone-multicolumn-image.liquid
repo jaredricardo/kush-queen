@@ -56,6 +56,10 @@
       gap: var(--gap-main-desktop);
       justify-content: space-between;
     }
+    .section-{{ section.id }} .section-inner::before,
+    .section-{{ section.id }} .section-inner::after {
+      display: none;
+    }
   }
 
   .section-{{ section.id }}.layout-desktop-image-right .section-inner {
