@@ -286,6 +286,13 @@
               </h3>
 
               {%- if show_rating -%}
+
+                <div class="product-card-reviews">
+  <div 
+    class="reviewsio-product-rating"
+    data-product-id="{{ product.id }}">
+  </div>
+</div>
                 <div class="stack_card-rating">
                   {%- if product.metafields.judgeme.widget != blank -%}
                     <span class="jdgm-widget jdgm-preview-badge" data-id="{{ product.id }}">
