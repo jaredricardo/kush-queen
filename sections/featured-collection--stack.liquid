@@ -288,7 +288,6 @@
               {%- if show_rating -%}
 
                 {% assign review_count = product.metafields.reviewscouk.total %}
-              {% if section.settings.show_reviews and review_count != blank %}
                 <div class="product-reviews">
                   <div class="review-stars" aria-label="5 out of 5 stars">
                     {% for i in (1..5) %}
@@ -299,7 +298,6 @@
                   </div>
                   <p class="review-count">({{ review_count }} REVIEWS)</p>
                 </div>
-              {% endif %}
 
                 <div class="stack_card-rating">
                   {%- if product.metafields.judgeme.widget != blank -%}
