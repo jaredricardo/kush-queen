@@ -573,7 +573,7 @@
 
 <style>
   #stack_section-{{ section_id }} {
-    f 
+    
   }
 
   #stack_section-{{ section_id }} .stack_container {
@@ -1020,6 +1020,10 @@
   }
 
   @media (max-width: 767px) {
+    #stack_section-{{ section_id }} {
+      padding-top: calc(var(--stack-section-padding-top) - 20px) !important;
+    }
+
     #stack_section-{{ section_id }} .stack_stars svg {
         width: 10px;
         height: 10px;
