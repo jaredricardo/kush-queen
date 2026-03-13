@@ -2211,3 +2211,16 @@ h1.page-title {
   line-height: 60px;
 }
 
+.stack_sale-badge {
+  display: inline-block;
+  background-color: #e53935;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  padding: 4px 10px;
+  border-radius: 20px;
+  margin-left: 8px;
+  vertical-align: middle;
+}
