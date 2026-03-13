@@ -247,7 +247,7 @@
         "section_header_alignment": "left",
         "section_header_spacing_mobile": 24,
         "section_header_spacing_desktop": 32,
-        "container_max_width": 1200,
+        "container_max_width": 1400,
         "desktop_image_position": "left",
         "mobile_image_position": "top",
         "columns_per_row_mobile": "1",
