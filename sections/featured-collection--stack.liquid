@@ -287,12 +287,20 @@
 
               {%- if show_rating -%}
 
-                <div class="product-card-reviews">
-  <div 
-    class="reviewsio-product-rating"
-    data-product-id="{{ product.id }}">
-  </div>
-</div>
+                {% assign review_count = product.metafields.reviewscouk.total %}
+              {% if section.settings.show_reviews and review_count != blank %}
+                <div class="product-reviews">
+                  <div class="review-stars" aria-label="5 out of 5 stars">
+                    {% for i in (1..5) %}
+                      <svg width="14" height="14" viewBox="0 0 14 14" fill="currentColor" aria-hidden="true">
+                        <path d="M7 0l1.796 5.528h5.814l-4.703 3.416 1.796 5.528L7 11.056l-4.703 3.416 1.796-5.528L-.61 5.528h5.814z"/>
+                      </svg>
+                    {% endfor %}
+                  </div>
+                  <p class="review-count">({{ review_count }} REVIEWS)</p>
+                </div>
+              {% endif %}
+
                 <div class="stack_card-rating">
                   {%- if product.metafields.judgeme.widget != blank -%}
                     <span class="jdgm-widget jdgm-preview-badge" data-id="{{ product.id }}">
