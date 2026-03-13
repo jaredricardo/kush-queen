@@ -23,3 +23,8 @@
     } 
   });
 })();
+
+window.addEventListener('stack:variant:change', (e) => {
+  console.log('variant changed:', e.detail);
+  if (window.Abra?.render) window.Abra.render();
+});
