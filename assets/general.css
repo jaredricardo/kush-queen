@@ -2211,19 +2211,6 @@ h1.page-title {
   line-height: 60px;
 }
 
-.stack_product-card .stack_card-price {
-  display: block;
-  width: 100%;
-}
-
-.stack_product-card .price_container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 100%;
-  flex-wrap: nowrap;
-}
-
 .stack_sale-badge {
   display: inline-block;
   background-color: #e53935;
