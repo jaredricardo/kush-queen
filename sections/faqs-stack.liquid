@@ -1,8 +1,8 @@
 
 <style>
-  .stack_faq-section {
+  .stack_faq-section_item {
     background-color: {{ section.settings.background_color }};
-    padding: 0px 0px 40px 0px;
+    padding: 0px 0px 40px 0px !important;
     color: {{ section.settings.text_color }};
   }
   .stack_width_container.page-width {
@@ -87,7 +87,7 @@
     .stack_faq-question {
       font-size: {{ section.settings.faq_question_size_mobile }}px;
     }
-    .stack_faq-section {
+    .stack_faq-section_item {
       background-color: #ffffff;
       padding: 0px 0px 40px 0px;
       color: #333333;
@@ -245,7 +245,7 @@
 {
   "name": "Stack FAQ Section",
   "tag": "section",
-  "class": "stack_faq-section",
+  "class": "stack_faq-section_item",
   "settings": [
     {
       "type": "image_picker",
