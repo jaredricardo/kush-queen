@@ -24,7 +24,9 @@
   });
 })();
 
-window.addEventListener('stack:variant:change', (e) => {
-  console.log('variant changed:', e.detail);
-  if (window.Abra?.render) window.Abra.render();
-});
+(() => {
+  document.addEventListener('change', (e) => {
+    if (!e.target.matches('.stack_option-btn')) return;
+    window.dispatchEvent(new CustomEvent('stack:variant:change'));
+  });
+})();
