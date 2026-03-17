@@ -2536,8 +2536,8 @@
           "@media screen and (max-width: 600px) {.responsive-banner img {padding-top: 20px; }}"
         ],
         "settings": {
-          "desktop_image": "shopify://shop_images/Website_Banner_-_Desktop_-_v3.png",
-          "mobile_image": "shopify://shop_images/Website_Banner_-_Mobile_-_v3.png",
+          "desktop_image": "shopify://shop_images/Website_Banner_-_Desktop_-_v3-2.jpg",
+          "mobile_image": "shopify://shop_images/Website_Banner_-_Mobile_-_v3-2.jpg",
           "banner_height": "auto"
         }
       },
@@ -2799,6 +2799,8 @@
           "faq_tRfGUk"
         ],
         "settings": {
+          "first_open": false,
+          "background_active": false,
           "max_width": "default",
           "heading": "Frequently Asked Questions",
           "subheading": "",
