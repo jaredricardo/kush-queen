@@ -2213,7 +2213,7 @@ h1.page-title {
 
 .stack_product-card .price_container {
   position: relative;
-  width: 100%;
+  width: auto;
   padding-right: 0px;
 }
 
