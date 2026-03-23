@@ -340,7 +340,7 @@
               {%- endif -%}
 
               {% if product.description != blank%}
-                <span class="stack_small--description">{{ product.description | escape }}</span>
+                <span class="stack_small--description">{{ product.description | strip_html | truncatewords: 5 }}</span>
               {% endif %}
 
               {%- if show_vendor -%}
