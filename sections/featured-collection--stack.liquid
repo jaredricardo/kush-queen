@@ -881,7 +881,9 @@
     margin-top: auto !important;
     display: flex;
     align-items: center;
+    {% if template.suffix == 'new-gummies' %}
     justify-content: center;
+    {% endif %}
     flex-wrap: wrap;
     gap: 6px;
     width: 100%;
