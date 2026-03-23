@@ -340,7 +340,7 @@
               {%- endif -%}
 
               {% if product.description != blank%}
-                <span class="stack_small--description">{{ product.description }}</span>
+                <span class="stack_small--description">{{ product.description | escape }}</span>
               {% endif %}
 
               {%- if show_vendor -%}
