@@ -598,6 +598,13 @@
     padding: 0 24px; {% endcomment %}
   }
 
+  .stack_small--description {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+  }
+
   #stack_section-{{ section_id }} .stack_section-header {
     margin-bottom: 15px;
   }
