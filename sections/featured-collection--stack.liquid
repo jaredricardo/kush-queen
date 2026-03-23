@@ -285,6 +285,10 @@
                 </a>
               </h3>
 
+              {% if product.description != blank%}
+                <span class="stack_small--description">{{ product.description }}</span>
+              {% endif %}
+
               {%- if show_rating -%}
                 <div class="stack_card-rating">
                   {%- if product.metafields.judgeme.widget != blank -%}
