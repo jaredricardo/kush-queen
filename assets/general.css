@@ -2211,7 +2211,7 @@ h1.page-title {
   line-height: 60px;
 }
 
-.stack_product-card .price_container {
+.stack_product-card {
   position: relative;
   width: 100%;
   padding-right: 70px;
