@@ -2245,5 +2245,6 @@ h1.page-title {
     letter-spacing: .01em;
     text-align: center;
     display: inline-block;
+    line-height: 1.9;
   }
 }
