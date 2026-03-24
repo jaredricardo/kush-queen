@@ -354,6 +354,7 @@
 
               
 
+              {% unless template.suffix == 'new-gummies-offer-page-st' %}
               {%- if product.variants.size > 1 -%}
                 <div class="stack_variant-selector">
                   {%- for option in product.options_with_values -%}
@@ -396,6 +397,7 @@
                   {%- endfor -%}
                 </div>
               {%- endif -%}
+            {% endunless %}
 
               <div
                 class="stack_card-price"
