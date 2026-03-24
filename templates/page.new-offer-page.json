@@ -119,6 +119,9 @@
     },
     "featured_collection_stack_TARDkq": {
       "type": "featured-collection--stack",
+      "custom_css": [
+        ".stack_card-price .price_container {margin-top: auto !important; display: flex; flex-wrap: wrap;}"
+      ],
       "name": "Stack Featured Collection",
       "settings": {
         "collection": "thca-flower",
@@ -324,63 +327,63 @@
           "type": "faq",
           "settings": {
             "question": "What is THCA Flower?",
-            "answer": "THCA flower is raw, unheated cannabis that contains high levels of tetrahydrocannabinolic acid (THCA). When heated—through smoking or vaping—THCA converts into THC, producing effects similar to traditional cannabis."
+            "answer": "<p>THCA flower is raw, unheated cannabis that contains high levels of tetrahydrocannabinolic acid (THCA). When heated—through smoking or vaping—THCA converts into THC, producing effects similar to traditional cannabis.</p>"
           }
         },
         "faq_tJfPXp": {
           "type": "faq",
           "settings": {
             "question": "Is THCA Flower Legal?",
-            "answer": "Yes. THCA flower is federally legal under the 2018 Farm Bill as long as it contains less than 0.3% Delta-9 THC before heating. Some states have additional regulations, so please check your local laws."
+            "answer": "<p>Yes. THCA flower is federally legal under the 2018 Farm Bill as long as it contains less than 0.3% Delta-9 THC before heating. Some states have additional regulations, so please check your local laws.</p>"
           }
         },
         "faq_nBh6UF": {
           "type": "faq",
           "settings": {
             "question": "Will this show up on a drug test?",
-            "answer": "Yes. When heated, THCA converts into THC, which can produce uplifting, calming, euphoric, or relaxing effects depending on the strain."
+            "answer": "<p>Yes. When heated, THCA converts into THC, which can produce uplifting, calming, euphoric, or relaxing effects depending on the strain.</p>"
           }
         },
         "faq_d4baW9": {
           "type": "faq",
           "settings": {
             "question": "What Effects Can I Expect?",
-            "answer": "Effects vary by strain and individual, but customers commonly report relaxation, mood elevation, body relief, focus, and creativity. Everyone’s experience is different."
+            "answer": "<p>Effects vary by strain and individual, but customers commonly report relaxation, mood elevation, body relief, focus, and creativity. Everyone’s experience is different.</p>"
           }
         },
         "faq_hGEtkp": {
           "type": "faq",
           "settings": {
             "question": "Will THCA Show Up on a Drug Test?",
-            "answer": "Yes. Because THCA converts into THC when heated, it can trigger a positive result on drug tests that check for THC metabolites."
+            "answer": "<p>Yes. Because THCA converts into THC when heated, it can trigger a positive result on drug tests that check for THC metabolites.</p>"
           }
         },
         "faq_hWkrG6": {
           "type": "faq",
           "settings": {
             "question": "How Is Your THCA Flower Different?",
-            "answer": "Our THCA flower is grown in premium conditions, hand-selected for quality, and third-party lab-tested for purity and potency. We focus on freshness, consistent quality, and top-grade buds with no shake or fillers."
+            "answer": "<p>Our THCA flower is grown in premium conditions, hand-selected for quality, and third-party lab-tested for purity and potency. We focus on freshness, consistent quality, and top-grade buds with no shake or fillers.</p>"
           }
         },
         "faq_ViNWUG": {
           "type": "faq",
           "settings": {
             "question": "Are Lab Reports Available?",
-            "answer": "Yes. Every batch includes third-party Certificates of Analysis (COAs) verifying potency, cannabinoid content, and legal compliance."
+            "answer": "<p>Yes. Every batch includes third-party Certificates of Analysis (COAs) verifying potency, cannabinoid content, and legal compliance.</p>"
           }
         },
         "faq_Rt8P9E": {
           "type": "faq",
           "settings": {
             "question": "How Fast Is Shipping?",
-            "answer": "Orders typically ship within 24 hours. Delivery usually takes 2–5 business days depending on your location. Tracking is provided with every order."
+            "answer": "<p>Orders typically ship within 24 hours. Delivery usually takes 2–5 business days depending on your location. Tracking is provided with every order.</p>"
           }
         },
         "faq_DgQJ6V": {
           "type": "faq",
           "settings": {
             "question": "Is The Packaging Discreet?",
-            "answer": "Absolutely. All orders are shipped in plain, unbranded, smell-proof packaging with no mention of hemp or cannabis."
+            "answer": "<p>Absolutely. All orders are shipped in plain, unbranded, smell-proof packaging with no mention of hemp or cannabis.</p>"
           }
         }
       },
