@@ -893,7 +893,11 @@
     margin-top: auto !important;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    {% if template.suffix == 'new-gummies-offer-page-st' %}
+      justify-content: center;
+    {% else %}
+      justify-content: space-between;
+    {% endif %}
     flex-wrap: wrap;
     gap: 6px;
     width: 100%;
