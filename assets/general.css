@@ -2213,8 +2213,8 @@ h1.page-title {
 
 .stack_product-card .price_container {
   position: relative;
-  width: auto;
-  padding-right: 0px;
+  width: 100%;
+  padding-right: 70px;
 }
 
 .stack_sale-badge {
