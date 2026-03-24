@@ -2237,9 +2237,9 @@ h1.page-title {
   .stack_sale-badge {
     background: #ff0000;
     color: #fff;
-    padding: 1px 4px;
+    padding: 1px 4px !important;
     border-radius: 5px;
-    font-size: 9px;
+    font-size: 9px !important;
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: .01em;
