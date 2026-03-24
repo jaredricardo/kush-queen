@@ -120,7 +120,7 @@
     "featured_collection_stack_TARDkq": {
       "type": "featured-collection--stack",
       "custom_css": [
-        ".stack_card-price .price_container {margin-top: auto !important; display: flex; flex-wrap: wrap;}"
+        ".stack_card-price .price_container {margin-top: auto !important; display: flex; flex-wrap: wrap; justify-content: flex-start}"
       ],
       "name": "Stack Featured Collection",
       "settings": {
