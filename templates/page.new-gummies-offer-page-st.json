@@ -13,8 +13,8 @@
       "type": "banner-stack",
       "name": "Responsive Banner",
       "settings": {
-        "desktop_image": "shopify://shop_images/Group_1312318753.png",
-        "mobile_image": "shopify://shop_images/Group_1312318754.png",
+        "desktop_image": "shopify://shop_images/Website_Banner_-_Desktop_v3.png",
+        "mobile_image": "shopify://shop_images/Website_Banner_-_Mobile_v3.png",
         "banner_height": "auto"
       }
     },
