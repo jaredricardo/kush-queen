@@ -2214,7 +2214,7 @@ h1.page-title {
 .stack_product-card .price_container {
   position: relative;
   width: 100%;
-  padding-right: 70px;
+  padding-right: 0px;
 }
 
 .stack_sale-badge {
