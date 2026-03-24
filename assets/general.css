@@ -488,6 +488,7 @@ h5.prod-card-title {
 }
 
 .queen-promise-cta{
+  display: inline-block;
   padding: 14px 28px !important;
     text-transform: uppercase;
     border: 1px solid #C9B9E4;
