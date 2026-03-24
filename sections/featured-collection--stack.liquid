@@ -223,58 +223,58 @@
               style="text-align: {{ alignment }};"
             >
               
-                {%- if show_metafields -%}
-                <div class="stack_meta-badges">
-                  {%- assign meta1_ns_key = section.settings.metafield_1 | split: '.' -%}
-                  {%- assign meta2_ns_key = section.settings.metafield_2 | split: '.' -%}
-                  {%- assign meta3_ns_key = section.settings.metafield_3 | split: '.' -%}
+              <div class="stack_meta-badges">
+                  {%- if show_metafields -%}
+                    {%- assign meta1_ns_key = section.settings.metafield_1 | split: '.' -%}
+                    {%- assign meta2_ns_key = section.settings.metafield_2 | split: '.' -%}
+                    {%- assign meta3_ns_key = section.settings.metafield_3 | split: '.' -%}
 
-                  {%- if meta1_ns_key.size == 2 -%}
-                    {%- assign mf1 = product.metafields[meta1_ns_key[0]][meta1_ns_key[1]] -%}
-                    {%- if mf1 != blank -%}
-                      <span
-                        class="stack_meta-badge"
-                        style="background: var(--stack-color-meta); color: var(--stack-color-meta-text); "
-                      >
-                        {%- if section.settings.metafield_1_label != blank -%}
-                          {{ section.settings.metafield_1_label }}
-                        {%- endif -%}
-                        {{ mf1 }}
-                      </span>
+                    {%- if meta1_ns_key.size == 2 -%}
+                      {%- assign mf1 = product.metafields[meta1_ns_key[0]][meta1_ns_key[1]] -%}
+                      {%- if mf1 != blank -%}
+                        <span
+                          class="stack_meta-badge"
+                          style="background: var(--stack-color-meta); color: var(--stack-color-meta-text); "
+                        >
+                          {%- if section.settings.metafield_1_label != blank -%}
+                            {{ section.settings.metafield_1_label }}
+                          {%- endif -%}
+                          {{ mf1 }}
+                        </span>
+                      {%- endif -%}
+                    {%- endif -%}
+
+                    {%- if meta2_ns_key.size == 2 -%}
+                      {%- assign mf2 = product.metafields[meta2_ns_key[0]][meta2_ns_key[1]] -%}
+                      {%- if mf2 != blank -%}
+                        <span
+                          class="stack_meta-badge"
+                          style="background: var(--stack-color-meta); color: var(--stack-color-meta-text); "
+                        >
+                          {%- if section.settings.metafield_2_label != blank -%}
+                            {{ section.settings.metafield_2_label }}
+                          {%- endif -%}
+                          {{ mf2 }}
+                        </span>
+                      {%- endif -%}
+                    {%- endif -%}
+
+                    {%- if meta3_ns_key.size == 2 -%}
+                      {%- assign mf3 = product.metafields[meta3_ns_key[0]][meta3_ns_key[1]] -%}
+                      {%- if mf3 != blank -%}
+                        <span
+                          class="stack_meta-badge"
+                          style="background: var(--stack-color-meta); color: var(--stack-color-meta-text); "
+                        >
+                          {%- if section.settings.metafield_3_label != blank -%}
+                            {{ section.settings.metafield_3_label }}
+                          {%- endif -%}
+                          {{ mf3 }}
+                        </span>
+                      {%- endif -%}
                     {%- endif -%}
                   {%- endif -%}
-
-                  {%- if meta2_ns_key.size == 2 -%}
-                    {%- assign mf2 = product.metafields[meta2_ns_key[0]][meta2_ns_key[1]] -%}
-                    {%- if mf2 != blank -%}
-                      <span
-                        class="stack_meta-badge"
-                        style="background: var(--stack-color-meta); color: var(--stack-color-meta-text); "
-                      >
-                        {%- if section.settings.metafield_2_label != blank -%}
-                          {{ section.settings.metafield_2_label }}
-                        {%- endif -%}
-                        {{ mf2 }}
-                      </span>
-                    {%- endif -%}
-                  {%- endif -%}
-
-                  {%- if meta3_ns_key.size == 2 -%}
-                    {%- assign mf3 = product.metafields[meta3_ns_key[0]][meta3_ns_key[1]] -%}
-                    {%- if mf3 != blank -%}
-                      <span
-                        class="stack_meta-badge"
-                        style="background: var(--stack-color-meta); color: var(--stack-color-meta-text); "
-                      >
-                        {%- if section.settings.metafield_3_label != blank -%}
-                          {{ section.settings.metafield_3_label }}
-                        {%- endif -%}
-                        {{ mf3 }}
-                      </span>
-                    {%- endif -%}
-                  {%- endif -%}
-                </div>
-              {%- endif -%}
+                  </div>
 
               <h3
                 class="stack_card-title"
@@ -797,6 +797,7 @@
     display: flex;
     flex-wrap: wrap;
     gap: 6px;
+    min-height: 30px;
     {% comment %} position: absolute;
     z-index: 5;
     top: 3%;
