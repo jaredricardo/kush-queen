@@ -674,7 +674,7 @@
       "name": "Stack FAQ",
       "settings": {
         "faq_image": "shopify://shop_images/Rectangle_304_0c76942b-94f0-4dab-b801-53e5043882b7.png",
-        "first_open": true,
+        "first_open": false,
         "background_active": true,
         "max_width": "default",
         "heading": "FAQS",
