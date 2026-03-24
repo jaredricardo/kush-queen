@@ -119,9 +119,7 @@
     },
     "featured_collection_stack_TARDkq": {
       "type": "featured-collection--stack",
-      "custom_css": [
-        ".stack_card-price .price_container {margin-top: auto !important; display: flex; flex-wrap: wrap; justify-content: flex-start}"
-      ],
+      "custom_css": [],
       "name": "Stack Featured Collection",
       "settings": {
         "collection": "thca-flower",
