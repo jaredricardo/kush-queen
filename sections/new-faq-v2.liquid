@@ -1,0 +1,142 @@
+{{ 'section-new-faq-v2.css' | asset_url | stylesheet_tag }}
+
+<section class="new-faq-v2">
+  <div class="new-faq-v2__title-wrapper">
+    {% if section.settings.faq_title != blank %}
+      <h2 class="new-faq-v2__title">{{ section.settings.faq_title }}</h2>
+    {% endif %}
+    {% if section.settings.faq_description != blank %}
+      <div class="new-faq-v2__description">
+        {{ section.settings.faq_description }}
+      </div>
+    {% endif %}
+    {% if section.settings.faq_button_url %}
+      <a class="queen-promise-cta border-rounded visible-desktop" href="{{ section.settings.faq_button_url }}">
+        {{ section.settings.faq_button_text }}
+      </a>
+    {% endif %}
+  </div>
+  <div class="new-faq-v2_items-wrapper">
+    {% for block in section.blocks %}
+      {% if block.settings.answer != blank %}
+        <faq-item class="new-faq-v2_item">
+          <div class="new-faq-v2_question" aria-expanded="false" data-accordion-button>
+            {{ block.settings.question }}
+            <span class="new-faq-v2_toggle-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="9" viewBox="0 0 16 9" fill="none">
+                <path d="M1 1.10986L7.68635 7.32056L14.3726 1.10986" stroke="#929292" stroke-width="2" stroke-linejoin="round"/>
+              </svg>
+            </span>
+          </div>
+          <div class="new-faq-v2_answer" data-accordion-content>
+            <div>
+              {{ block.settings.answer }}
+            </div>
+          </div>
+        </faq-item>
+      {% endif %}
+    {% endfor %}
+
+    {% if section.settings.faq_button_url %}
+      <a class="queen-promise-cta border-rounded visible-mobile" href="{{ section.settings.faq_button_url }}">
+        {{ section.settings.faq_button_text }}
+      </a>
+    {% endif %}
+  </div>
+</section>
+
+{% javascript %}
+  class FaqItem extends HTMLElement {
+    constructor() {
+      super();
+    }
+
+    connectedCallback() {
+      this.button = this.querySelector('[data-accordion-button]');
+      this.content = this.querySelector('[data-accordion-content]');
+      this.button.addEventListener('click', () => {
+        this.handleButtonClick();
+      });
+    }
+
+    handleButtonClick() {
+      const isActive = this.classList.contains('active');
+
+      if (isActive) {
+        this.closeAccordion(this, this.button, this.content);
+      } else {
+        this.openAccordion(this, this.button, this.content);
+      }
+    }
+
+    openAccordion(item, button, content) {
+      item.classList.add('active');
+      button.setAttribute('aria-expanded', 'true');
+      content.style.maxHeight = content.scrollHeight + 'px';
+    }
+
+    closeAccordion(item, button, content) {
+      item.classList.remove('active');
+      button.setAttribute('aria-expanded', 'false');
+      content.style.maxHeight = '0';
+    }
+  }
+
+  customElements.define('faq-item', FaqItem);
+{% endjavascript %}
+
+{% schema %}
+{
+  "name": "NEW FAQ V2",
+  "settings": [
+    {
+      "type": "text",
+      "id": "faq_title",
+      "label": "FAQ Title",
+      "default": "FAQ TITLE"
+    },
+    {
+      "type": "richtext",
+      "id": "faq_description",
+      "label": "FAQ Description"
+    },
+    {
+      "type": "text",
+      "id": "faq_button_text",
+      "label": "Call to Action Text",
+      "default": "SHOP NOW"
+    },
+    {
+      "type": "url",
+      "id": "faq_button_url",
+      "label": "Call to Action URL"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "faq_block",
+      "name": "FAQ Block",
+      "settings": [
+        {
+          "type": "text",
+          "id": "question",
+          "label": "Question",
+          "default": "Sample Question"
+        },
+        {
+          "type": "richtext",
+          "id": "answer",
+          "label": "Answer",
+          "default": "<p>Sample Answer</p>"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "NEW FAQ V2",
+      "category": "Custom"
+    }
+  ]
+}
+{% endschema %}
