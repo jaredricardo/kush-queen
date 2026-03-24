@@ -2214,14 +2214,13 @@ h1.page-title {
 .stack_product-card .price_container {
   position: relative;
   width: 100%;
-  padding-right: 0px;
 }
 
 .stack_sale-badge {
-  position: absolute;
+  /* position: absolute;
   right: 0;
   top: 50%;
-  transform: translateY(-50%);
+  transform: translateY(-50%); */
   background: #ff0000;
   color: #fff;
   padding: 2px 8px;
