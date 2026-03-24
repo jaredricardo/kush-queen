@@ -2718,63 +2718,63 @@
             "type": "faq",
             "settings": {
               "question": "What is THCA Flower?",
-              "answer": "THCA flower is raw, unheated cannabis that contains high levels of tetrahydrocannabinolic acid (THCA). When heated—through smoking or vaping—THCA converts into THC, producing effects similar to traditional cannabis."
+              "answer": "<p>THCA flower is raw, unheated cannabis that contains high levels of tetrahydrocannabinolic acid (THCA). When heated—through smoking or vaping—THCA converts into THC, producing effects similar to traditional cannabis.</p>"
             }
           },
           "faq_9VjFNn": {
             "type": "faq",
             "settings": {
               "question": "Is THCA Flower Legal?",
-              "answer": "Yes. THCA flower is federally legal under the 2018 Farm Bill as long as it contains less than 0.3% Delta-9 THC before heating. Some states have additional regulations, so please check your local laws."
+              "answer": "<p>Yes. THCA flower is federally legal under the 2018 Farm Bill as long as it contains less than 0.3% Delta-9 THC before heating. Some states have additional regulations, so please check your local laws.</p>"
             }
           },
           "faq_3hi6fC": {
             "type": "faq",
             "settings": {
               "question": "Will THCA Flower Get Me High?",
-              "answer": "Yes. When heated, THCA converts into THC, which can produce uplifting, calming, euphoric, or relaxing effects depending on the strain."
+              "answer": "<p>Yes. When heated, THCA converts into THC, which can produce uplifting, calming, euphoric, or relaxing effects depending on the strain.</p>"
             }
           },
           "faq_gm93Rz": {
             "type": "faq",
             "settings": {
               "question": "What Effects Can I Expect?",
-              "answer": "Effects vary by strain and individual, but customers commonly report relaxation, mood elevation, body relief, focus, and creativity. Everyone’s experience is different."
+              "answer": "<p>Effects vary by strain and individual, but customers commonly report relaxation, mood elevation, body relief, focus, and creativity. Everyone’s experience is different.</p>"
             }
           },
           "faq_xc9Ygz": {
             "type": "faq",
             "settings": {
               "question": "Will THCA Show Up on a Drug Test?",
-              "answer": "Yes. Because THCA converts into THC when heated, it can trigger a positive result on drug tests that check for THC metabolites."
+              "answer": "<p>Yes. Because THCA converts into THC when heated, it can trigger a positive result on drug tests that check for THC metabolites.</p>"
             }
           },
           "faq_njk8AW": {
             "type": "faq",
             "settings": {
               "question": "How Is Your THCA Flower Different?",
-              "answer": "Our THCA flower is grown in premium conditions, hand-selected for quality, and third-party lab-tested for purity and potency. We focus on freshness, consistent quality, and top-grade buds with no shake or fillers."
+              "answer": "<p>Our THCA flower is grown in premium conditions, hand-selected for quality, and third-party lab-tested for purity and potency. We focus on freshness, consistent quality, and top-grade buds with no shake or fillers.</p>"
             }
           },
           "faq_fV4yDn": {
             "type": "faq",
             "settings": {
               "question": "Are Lab Reports Available?",
-              "answer": "Yes. Every batch includes third-party Certificates of Analysis (COAs) verifying potency, cannabinoid content, and legal compliance."
+              "answer": "<p>Yes. Every batch includes third-party Certificates of Analysis (COAs) verifying potency, cannabinoid content, and legal compliance.</p>"
             }
           },
           "faq_ciM6m8": {
             "type": "faq",
             "settings": {
               "question": "How Fast Is Shipping?",
-              "answer": "Orders typically ship within 24 hours. Delivery usually takes 2–5 business days depending on your location. Tracking is provided with every order."
+              "answer": "<p>Orders typically ship within 24 hours. Delivery usually takes 2–5 business days depending on your location. Tracking is provided with every order.</p>"
             }
           },
           "faq_qxek6i": {
             "type": "faq",
             "settings": {
               "question": "Is The Packaging Discreet?",
-              "answer": "Absolutely. All orders are shipped in plain, unbranded, smell-proof packaging with no mention of hemp or cannabis."
+              "answer": "<p>Absolutely. All orders are shipped in plain, unbranded, smell-proof packaging with no mention of hemp or cannabis.</p>"
             }
           },
           "faq_tRfGUk": {
@@ -2782,7 +2782,7 @@
             "disabled": true,
             "settings": {
               "question": "What Strain Should I Choose If I’m New?",
-              "answer": "Indica: Best for relaxation, nighttime use, and winding down.\n\nSativa: Great for daytime focus, energy, and creativity.\n\nHybrid: Offers a balanced blend of both effects.\n\nIf you're unsure, hybrids are a great starting point."
+              "answer": "<p>Indica: Best for relaxation, nighttime use, and winding down.\n\nSativa: Great for daytime focus, energy, and creativity.\n\nHybrid: Offers a balanced blend of both effects.\n\nIf you're unsure, hybrids are a great starting point.</p>"
             }
           }
         },
@@ -3369,11 +3369,59 @@
           "faq_button_text": "SHOP NOW",
           "faq_button_url": "shopify://collections/weed-gummies"
         }
+      },
+      "new_faq_v2_FNNWXh": {
+        "type": "new-faq-v2",
+        "blocks": {
+          "faq_block_QLUWtJ": {
+            "type": "faq_block",
+            "settings": {
+              "question": "Sample Question",
+              "answer": "<p>Sample Answer</p>"
+            }
+          },
+          "faq_block_z9DnyN": {
+            "type": "faq_block",
+            "settings": {
+              "question": "Sample Question",
+              "answer": "<p>Sample Answer</p>"
+            }
+          },
+          "faq_block_hhCGM3": {
+            "type": "faq_block",
+            "settings": {
+              "question": "Sample Question",
+              "answer": "<p>Sample Answer</p>"
+            }
+          },
+          "faq_block_YNaeNr": {
+            "type": "faq_block",
+            "settings": {
+              "question": "Sample Question",
+              "answer": "<p>Sample Answer</p>"
+            }
+          }
+        },
+        "block_order": [
+          "faq_block_QLUWtJ",
+          "faq_block_z9DnyN",
+          "faq_block_hhCGM3",
+          "faq_block_YNaeNr"
+        ],
+        "disabled": true,
+        "name": "NEW FAQ V2",
+        "settings": {
+          "faq_title": "Important Information!",
+          "faq_description": "<p>Find answers to common questions about our products and services.</p>",
+          "faq_button_text": "SHOP NOW",
+          "faq_button_url": "shopify://collections/weed-gummies"
+        }
       }
     },
     "content_for_index": [
       "d76d763c-6c70-4fea-b4ad-4348f38cb70e",
       "9ef9d7f7-cf1f-4a27-99a2-e69b360f3f30",
+      "new_faq_v2_FNNWXh",
       "new_faq_fhyqBi",
       "1571847364296",
       "1588906688415",
