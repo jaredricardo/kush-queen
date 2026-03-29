@@ -12,18 +12,18 @@
     "hero_iEUaxG": {
       "type": "hero",
       "settings": {
-        "image": "shopify://shop_images/kush-queen-vday-collection.png",
+        "image": "shopify://shop_images/Kush_Queen_Website_Collection_Banner-420.png",
         "alignment": "center",
         "text_alignment": "center",
         "hero_layout": "full_width",
         "hero_size": "medium",
         "text_size": "medium",
-        "title": "Valentine's Bundles & Gifts from Kush Queen",
+        "title": "Your 420 Starts Here",
         "section_text_color": "#ffffff",
         "overlay_percent": 40,
         "heading_font": "Room205",
         "subheading_font": "Eina03",
-        "text": "<p>This Valentine’s Day, fall in love with feeling good. Kush Queen’s curated bundles are made for self-care, connection, and elevated moments worth savoring.</p>",
+        "text": "<p>This 420, your seat is saved and the menu is loaded. Kush Queen’s curated bundles, best-sellers, and elevated essentials are made for sharing, celebrating, and savoring every moment.</p>",
         "button_label": "",
         "button_link": ""
       }
@@ -53,7 +53,7 @@
         "h2_JtwPRr": {
           "type": "h2",
           "settings": {
-            "h2": "<h2><strong>Shop the nice list</strong></h2>",
+            "h2": "<h2><strong>Shop BEst Sellers</strong></h2>",
             "font_size_d": 24,
             "font_size_m": 14,
             "font_family": "Eina03"
@@ -62,7 +62,7 @@
         "p_bXfCjf": {
           "type": "p",
           "settings": {
-            "p": "<p>You’ve been good—now it’s time to feel even better. ✨ Kush Queen’s Nice List is your ticket to pure relaxation with our soothing bath bombs, Melt pain relief lotion, and blissful CBD gummies. Unwind, recharge, and stay on the Nice List all season long.</p>",
+            "p": "<p>The gummies everyone’s talking about.  Shop Kush Queen’s best sellers — juicy, flavorful, and made for feel-good moments you’ll keep coming back to.</p>",
             "font_family": "Eina03"
           }
         },
@@ -70,7 +70,7 @@
           "type": "button",
           "settings": {
             "button_text": "Shop NOw",
-            "button_url": "https://kushqueen.shop/collections/the-nice-list",
+            "button_url": "shopify://collections/delta-9-gummies",
             "button_bg_color": "#000000",
             "button_text_color": "#ffffff",
             "font_family": "Eina03"
@@ -86,7 +86,7 @@
         "background_color": "#f3f0dd",
         "col_order": "",
         "text_alignment": "left-aligned",
-        "image": "shopify://shop_images/kush-quee-holiday-gift-guide-nice-list.png"
+        "image": "shopify://shop_images/Kush-Queen-420-Bundles-THC-Gummies-Best-Sellers.png"
       }
     },
     "jr_50_50_q7VJ9i": {
@@ -95,7 +95,7 @@
         "h2_9PryPy": {
           "type": "h2",
           "settings": {
-            "h2": "<h2><strong>Shop the naughty list</strong></h2>",
+            "h2": "<h2><strong>Shop THCA Flower</strong></h2>",
             "font_size_d": 24,
             "font_size_m": 14,
             "font_family": "Eina03"
@@ -104,7 +104,7 @@
         "p_hJNfT3": {
           "type": "p",
           "settings": {
-            "p": "<p>You’ve been bad—in the best way. Kush Queen’s Naughty List is your VIP pass to pleasure with our intoxicating trio: THC-infused lube for unforgettable nights, sex gummies that turn up the heat, and flower that keeps the vibe flowing. </p>",
+            "p": "<p>Our most-loved THCa flower, all in one place. Discover premium strains with rich aroma, complex flavor, and a consistently elevated experience.</p>",
             "font_family": "Eina03"
           }
         },
@@ -112,7 +112,7 @@
           "type": "button",
           "settings": {
             "button_text": "Shop Now",
-            "button_url": "https://kushqueen.shop/collections/the-naughty-list",
+            "button_url": "shopify://collections/thca-flower",
             "button_bg_color": "#000000",
             "button_text_color": "#ffffff",
             "font_family": "Eina03"
@@ -128,7 +128,7 @@
         "background_color": "#f3f0dd",
         "col_order": "reverse",
         "text_alignment": "left-aligned",
-        "image": "shopify://shop_images/kush-quee-holiday-gift-guide-nice-list_1.png"
+        "image": "shopify://shop_images/THCA-Flower.png"
       }
     },
     "new_faq_qg8wEn": {
@@ -186,7 +186,10 @@
         "faq_block_44zUkN"
       ],
       "settings": {
-        "faq_title": "Frequently Asked Questions"
+        "faq_title": "Frequently Asked Questions",
+        "faq_class": "page-width-2",
+        "faq_button_text": "SHOP NOW",
+        "faq_button_url": ""
       }
     },
     "quotes_JdF8WK": {
@@ -220,7 +223,7 @@
         "quote_qeDYfh"
       ],
       "settings": {
-        "title": "Customers Love The Holidays At Kush Queen",
+        "title": "Customers Love 420 At Kush Queen",
         "heading_font_family": "Eina03",
         "quote_font_family": "Eina03"
       }
