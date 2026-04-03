@@ -408,7 +408,7 @@
 
 {% render 'collection-schema' %}
 {% render 'collection-faq-schema' %}
-{% render 'blog-faq-schema' %}
+{%- render 'blog-faq-schema', article: article -%}
 
   </head>
   <div class="evm-multiple evm-us-main-div" data-page="{{template}}"></div>
