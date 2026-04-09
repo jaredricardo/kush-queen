@@ -537,3 +537,82 @@
 .prop-65-warning h5 {
     text-align: center;
 }
+
+/* Variant picker redesign */
+.product-form fieldset {
+    border: none;
+    padding: 0;
+    margin-bottom: 16px;
+}
+
+.product-form fieldset legend {
+    color: #222;
+    font-family: Gotham;
+    font-size: 13.077px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 11px;
+}
+
+.product-form fieldset .product-form-container {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.product-form fieldset .product-form__input-wrapper {
+    width: calc(50% - 5px);
+}
+
+.product-form fieldset input {
+    display: none;
+}
+
+.product-form fieldset label {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 12px 14px;
+    background: #FFF;
+    border: 1px solid #222;
+    color: #222;
+    font-family: Gotham;
+    font-size: 15px;
+    line-height: 1;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.product-form fieldset input:checked+label {
+    background: #222;
+    color: #FFF;
+}
+
+@media (max-width: 768px) {
+    .product-form fieldset {
+        margin-bottom: 15px;
+    }
+
+    .product-form fieldset legend {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+
+    .product-form fieldset .product-form-container {
+        gap: 9px;
+    }
+
+    .product-form fieldset .product-form__input-wrapper {
+        width: calc(50% - 4.5px);
+    }
+
+    .product-form fieldset label {
+        padding: 11px 13px;
+        font-size: 14px;
+    }
+}

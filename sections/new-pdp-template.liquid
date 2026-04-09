@@ -298,7 +298,7 @@
               {% endunless %}
               <!-- End ReCharge code -->
 
-              <div class="product-form form-btn-none">
+              <div class="product-form form-btn-none"{% if section.settings.variant_picker_type == 'button' %} style="display: none !important;"{% endif %}>
                 <select
                   name="id"
                   data-productid="{{ product.id }}"
@@ -356,6 +356,61 @@
                   {% endunless %}
                 {% endif %}
               </div>
+
+              {% if section.settings.variant_picker_type == 'button' %}
+                <div class="product-form form-btn-none">
+                  {% if product.variants.size > 1 %}
+                    {% unless product.has_only_default_variant %}
+                      {% for option in product.options_with_values %}
+                        <fieldset class="js product-form__input product-form__input--pill">
+                          <legend class="form__label">{{ option.name }}:</legend>
+                          <div class="product-form-container">
+                            {%- for value in option.values -%}
+                              <div class="product-form__input-wrapper">
+                                {%- liquid
+                                  assign option_disabled = true
+                                  if value.available
+                                    assign option_disabled = false
+                                  endif
+                                -%}
+                                {%- capture input_id -%}
+                                  {{ section.id }}-{{ option.position }}-{{ forloop.index0 -}}
+                                {%- endcapture -%}
+
+                                {%- capture input_name -%}
+                                  {{ option.name }}-{{ option.position }}
+                                {%- endcapture -%}
+
+                                {%- capture input_dataset -%}
+                                  data-product-url="{{ value.product_url }}"
+                                  data-option-value-id="{{ value.id }}"
+                                {%- endcapture -%}
+                                <input
+                                  type="radio"
+                                  id="{{ input_id }}"
+                                  name="{{ input_name | escape }}"
+                                  value="{{ value | escape }}"
+                                  form="ProductSelectButton-{{ section.id }}"
+                                  {% if value.selected %}
+                                    checked
+                                  {% endif %}
+                                  {% if option_disabled %}
+                                    class="disabled"
+                                  {% endif %}
+                                  {{ input_dataset }}
+                                >
+                                <label for="{{ input_id }}">
+                                  {{ value }}
+                                </label>
+                              </div>
+                            {% endfor %}
+                          </div>
+                        </fieldset>
+                      {% endfor %}
+                    {% endunless %}
+                  {% endif %}
+                </div>
+              {% endif %}
 
               {% unless customer.b2b? %}
               {% if product.metafields.custom.buy3offer == true %}
@@ -510,6 +565,22 @@
   "name": "Product pages",
   "settings": [
     {
+      "type": "select",
+      "id": "variant_picker_type",
+      "label": "Variant picker",
+      "options": [
+        {
+          "value": "dropdown",
+          "label": "Dropdown"
+        },
+        {
+          "value": "button",
+          "label": "Button"
+        }
+      ],
+      "default": "button"
+    },
+    {
       "type": "text",
       "id": "badge_text",
       "label": "Badge Text",
@@ -636,6 +707,22 @@
 {% assign current_variant = product.selected_or_first_available_variant %}
 
 <script>
+  const variantSelectors = document.querySelectorAll('.single-option-selector');
+  const variantButtonSelectors = document.querySelectorAll('.product-form fieldset');
+
+  if (variantButtonSelectors.length) {
+    variantButtonSelectors.forEach((variantButtonSelector, index) => {
+      variantButtonSelector.querySelectorAll('input').forEach((input, idx) => {
+        input.addEventListener('change', function () {
+          variantSelectors[index].options[idx].selected = true;
+          variantSelectors[index].dispatchEvent(new Event('change', { bubbles: true }));
+        });
+      });
+    });
+  }
+</script>
+
+<script>
   document.addEventListener('DOMContentLoaded', (event) => {
      
     var reviewSwiper = new Swiper('.swiper.review-swiper-container', {
@@ -657,6 +744,7 @@
     const rechargeOptions = document.querySelectorAll('input[name="purchase_type"]');
     const buy3Button = document.querySelector('#BuyThree');
     const newPDPPromo = document.querySelector('.new-pdp_promotxt');
+
    
     // Check if buy3Button exists
     if (!buy3Button) {
@@ -732,14 +820,14 @@
           return parseFloat(priceMatch[1]);
         }
       }
-    // If the product has no variants, fetch the price from the specified element
-    const priceElement = document.querySelector('.new-pdp-price .price .price-item');
-    if (priceElement) {
-      const priceMatch = priceElement.textContent.match(/(\d+\.\d{2})/);
-      if (priceMatch) {
-        return parseFloat(priceMatch[1]);
+      // If the product has no variants, fetch the price from the specified element
+      const priceElement = document.querySelector('.new-pdp-price .price .price-item');
+      if (priceElement) {
+        const priceMatch = priceElement.textContent.match(/(\d+\.\d{2})/);
+        if (priceMatch) {
+          return parseFloat(priceMatch[1]);
+        }
       }
-    }
       console.log('Unable to fetch the price from any source.');
       return null;
     }
