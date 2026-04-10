@@ -100,6 +100,14 @@
     src="https://www.facebook.com/tr?id=1470356557777294&ev=PageView&noscript=1"
     /></noscript>
 
+    {% if customer.b2b? %}
+      <style>
+        [data-model="shopping-goals-v-2"] {
+          /* display: none !important; */
+        }
+      </style>
+    {% endif %}
+
 
     {% if request.page_type == 'product' %}
       <script>
@@ -113,7 +121,7 @@
             }
           }, 500);
         });
-      </script>
+      </script>      
       <style>
         .main-pdp-atc.page-not-yet-loaded {
           opacity: 0.5;

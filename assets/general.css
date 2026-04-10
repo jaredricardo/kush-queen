@@ -10,7 +10,7 @@ body {
   font-weight: 400;
   /*font-size: 1rem;*/
   font-size: 15px;
-  /* max-width: 1920px; */
+  max-width: none !important;
   margin: 0 auto;
   position: relative;
   line-height: 22px;
