@@ -346,8 +346,16 @@
               "links": "topicals"
             }
           },
+          "simple_link_FVrTXN": {
+            "type": "simple_link",
+            "settings": {
+              "title": "Vapes",
+              "link": "shopify://products/thca-live-resin-vape-cart"
+            }
+          },
           "link_linklist_N7MrLg": {
             "type": "link-linklist",
+            "disabled": true,
             "settings": {
               "title": "Live Resin & Rosin",
               "link": "https://kushqueen.shop/collections/710-day",
@@ -371,6 +379,7 @@
           "779aa32a-4620-41dc-ba84-481a090c20d7",
           "4f5ec842-39ff-4f79-9428-f0efaf6153af",
           "1571826552382",
+          "simple_link_FVrTXN",
           "link_linklist_N7MrLg",
           "simple_link_iUkaie"
         ],
