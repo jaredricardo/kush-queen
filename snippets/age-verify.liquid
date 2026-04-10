@@ -95,8 +95,8 @@ window.addEventListener('load', function() {
   var under18Button = document.getElementById('under-18-button');
   var ageVerificationOverlay = document.getElementById('age-verification-overlay');
 
-  // Check if user is coming from the deal page
-  var isFromDealPage = document.referrer && document.referrer.includes('try.kqueen.shop/deal');
+  // Check if user is coming from the deal page or kq-shop.store
+  var isFromDealPage = document.referrer && (document.referrer.includes('try.kqueen.shop/deal') || document.referrer.includes('www.kq-shop.store'));
 
   if (!localStorage.getItem('ageVerification') && !isFromDealPage) {
     ageVerificationOverlay.style.display = 'block';
