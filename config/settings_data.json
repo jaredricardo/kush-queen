@@ -3559,6 +3559,11 @@
         "type": "shopify://apps/blockify-fraud-filter/blocks/app_embed/2e3e0ba5-0e70-447a-9ec5-3bf76b5ef12e",
         "disabled": false,
         "settings": {}
+      },
+      "14457260383111678000": {
+        "type": "shopify://apps/gdpr-cookie-consent/blocks/banner/58c0baa2-6cc1-480c-9ea6-38d6d559556a",
+        "disabled": false,
+        "settings": {}
       }
     }
   },
