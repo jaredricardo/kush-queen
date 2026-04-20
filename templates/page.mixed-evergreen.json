@@ -13,8 +13,8 @@
       "type": "banner-stack",
       "name": "Responsive Banner",
       "settings": {
-        "desktop_image": "shopify://shop_images/50_OFF_BUNDLES_BEST-SELLERS.png",
-        "mobile_image": "shopify://shop_images/50_OFF_KUSH_QUEEN_1.png",
+        "desktop_image": "shopify://shop_images/LP_PAID_BANNERs_OFF_BUNDLES_BEST-SELLERS.png",
+        "mobile_image": "shopify://shop_images/Landing_Page_PAID_BANNERS_KUSH_QUEEN.png",
         "banner_height": "auto"
       }
     },
@@ -123,7 +123,7 @@
       "settings": {
         "collection": "shop-kush-queens-420-menu-copy",
         "products_to_show": 24,
-        "heading": "420 Faves",
+        "heading": "Bundles & Best Sellers",
         "subheading": "",
         "content_alignment": "center",
         "heading_size_desktop": 42,
