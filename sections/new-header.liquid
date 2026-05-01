@@ -20,7 +20,7 @@
             {% endif %}
             {% if section.settings.head_site_link != blank %}
             <a href="{{section.settings.head_site_link}}">
-              {{section.settings.head_site_link_txt}}
+              {{sectilogo-img-wrapon.settings.head_site_link_txt}}
             </a>
             {% endif %}
           </li>
@@ -37,17 +37,29 @@
         
 
 
-{% assign announcement_text = section.settings.announcement_text %}
-{% assign cta_url = section.settings.announcement_cta_url %}
-{% assign cta_text = section.settings.announcement_cta_text %}
+        {% assign announcement_text = section.settings.announcement_text %}
+        {% assign cta_url = section.settings.announcement_cta_url %}
+        {% assign cta_text = section.settings.announcement_cta_text %}
 
 
-  <div class="announcement">
-  <span class="announcement-text">{{ announcement_text }} <a href="{{ cta_url }}">{{ cta_text }}</a></span>
-</div>
- 
+          <div class="announcement">
+          <span class="announcement-text">{{ announcement_text }} <a href="{{ cta_url }}">{{ cta_text }}</a></span>
+        </div>
+      </div>
 
-        
+      <div class="third-nav tab switcher">
+        <ul>
+          <li class="active">
+            <a href="/">
+              <img src="{{ section.settings.logo | img_url: 'master' }}" alt="{{ section.settings.logo.alt | default: shop.name | escape }}">
+            </a>
+          </li>
+          <li>
+            <a href="http://www.cubiqworld.com/">
+              <img style="max-width: 80px;"src="https://cdn.shopify.com/s/files/1/0124/3594/7616/files/cubiq_world_logo_blue.avif?v=1777673140" alt="Cubique World Logo">
+            </a>
+          </li>
+        </ul>
       </div>
 
     </div>
