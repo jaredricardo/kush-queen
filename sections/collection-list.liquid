@@ -19,12 +19,12 @@
   <div class="collection-grid">
     <ul class="grid grid--uniform">
       {% for block in section.blocks limit: section.blocks.size %}
-{%- comment -%} Wholesale_Club_Product_Visibility_For_Loop Start {%- endcomment -%}
-{%- capture hide_resource -%}{% render "wc_product_visibility", resource: block %}{%- endcapture -%}
-{%- if hide_resource == "true" -%}
-  {% continue %}
-{%- endif -%}
-{%- comment -%} Wholesale_Club_Product_Visibility_For_Loop End {%- endcomment -%}
+        {%- comment -%} Wholesale_Club_Product_Visibility_For_Loop Start {%- endcomment -%}
+        {%- capture hide_resource -%}{% render "wc_product_visibility", resource: block %}{%- endcapture -%}
+        {%- if hide_resource == 'true' -%}
+          {% continue %}
+        {%- endif -%}
+        {%- comment -%} Wholesale_Club_Product_Visibility_For_Loop End {%- endcomment -%}
 
         <li class="grid__item {{ grid_item_width }}" {{ block.shopify_attributes }}>
           {%- assign collection = collections[block.settings.collection] -%}
@@ -38,8 +38,6 @@
     {% include 'no-blocks' %}
   {% endif %}
 </div>
-
-
 
 {% schema %}
 {
