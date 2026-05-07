@@ -2281,7 +2281,10 @@
           "icon": "shopify://shop_images/Vector.png",
           "subheading": "kush queen",
           "heading": "Elevating You Daily",
-          "description": "<p>Kush Queen delivers perfected wellness tools to elevate daily life.</p><p>Today, with over 55,000 customers we offer a range of daily solutions for wellness that address issues like sleep, stress, mood, relief, and pleasure.</p><p>When legacy status, a relentless commitment to the cannabis plant, and award winning products (that speak to everyone) come together, that’s Kush Queen.</p>"
+          "description": "<p>Kush Queen delivers perfected wellness tools to elevate daily life.</p><p>Today, with over 55,000 customers we offer a range of daily solutions for wellness that address issues like sleep, stress, mood, relief, and pleasure.</p><p>When legacy status, a relentless commitment to the cannabis plant, and award winning products (that speak to everyone) come together, that’s Kush Queen.</p>",
+          "show_button": true,
+          "button_label": "",
+          "button_link": ""
         }
       },
       "8e1019d2-50f7-496a-8a48-7a24ee814bef": {
@@ -3425,11 +3428,63 @@
           "faq_button_text": "SHOP NOW",
           "faq_button_url": "shopify://collections/weed-gummies"
         }
+      },
+      "hero_v2_aRnYmi": {
+        "type": "hero-v2",
+        "blocks": {
+          "block_me98kM": {
+            "type": "block",
+            "settings": {
+              "value_prop": ""
+            }
+          },
+          "block_aANtLB": {
+            "type": "block",
+            "settings": {
+              "value_prop": ""
+            }
+          },
+          "block_drGMLy": {
+            "type": "block",
+            "settings": {
+              "value_prop": ""
+            }
+          },
+          "block_H4YEJq": {
+            "type": "block",
+            "settings": {
+              "value_prop": ""
+            }
+          }
+        },
+        "block_order": [
+          "block_me98kM",
+          "block_aANtLB",
+          "block_drGMLy",
+          "block_H4YEJq"
+        ],
+        "name": "Hero v2",
+        "settings": {
+          "image": "shopify://shop_images/hero.png",
+          "mobile_image": "shopify://shop_images/Hero_1.png",
+          "alignment": "center",
+          "text_alignment": "left",
+          "hero_layout": "full_width",
+          "hero_size": "adapt",
+          "title": "Cannabinoids For All-Day Wellness",
+          "section_text_color": "#FFFFFF",
+          "overlay_percent": 0,
+          "heading_font": "Eina03",
+          "content_font": "Gotham",
+          "button_label": "SHOP NOW",
+          "button_link": ""
+        }
       }
     },
     "content_for_index": [
       "d76d763c-6c70-4fea-b4ad-4348f38cb70e",
       "9ef9d7f7-cf1f-4a27-99a2-e69b360f3f30",
+      "hero_v2_aRnYmi",
       "new_faq_v2_FNNWXh",
       "new_faq_fhyqBi",
       "1571847364296",
