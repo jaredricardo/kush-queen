@@ -3543,6 +3543,25 @@
           "ptop_mobile": 20,
           "pbottom_mobile": 20
         }
+      },
+      "featured_collection_v1_ExjRdM": {
+        "type": "featured-collection-v1",
+        "name": "Featured Collection V1",
+        "settings": {
+          "collection": "homepage-best-sellers",
+          "heading": "our best sellers",
+          "heading_font": "Room205",
+          "content": "<p>Join 50,000 others who love these for <strong>wellness</strong>, <strong>lifted chill</strong>, and <strong>all over relief!</strong></p>",
+          "content_font": "Gotham",
+          "section_text_color": "#000000",
+          "show_button": true,
+          "button_label": "Shop all",
+          "button_link": "",
+          "ptop": 20,
+          "pbottom": 20,
+          "ptop_mobile": 20,
+          "pbottom_mobile": 20
+        }
       }
     },
     "content_for_index": [
@@ -3551,6 +3570,7 @@
       "new_faq_v2_FNNWXh",
       "featured_collections_v2_ytmxMx",
       "featured_collections_v3_qKLcQq",
+      "featured_collection_v1_ExjRdM",
       "b49e170a-f5b7-4b17-b460-9dbb4385fb11",
       "cd11dcb9-5075-433e-a1f2-bf2f76dd893c",
       "237dbedb-9d1f-47c0-b144-99e8f417ff78",
