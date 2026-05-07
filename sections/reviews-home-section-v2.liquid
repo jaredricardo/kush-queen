@@ -1,0 +1,285 @@
+{% style %}
+  [data-section-id='{{ section.id }}'] {
+    padding-top: {{ section.settings.ptop }}px;
+    padding-bottom: {{ section.settings.pbottom }}px;
+  }
+
+  [data-section-id='{{ section.id }}'] .home-reviews-v2__heading {
+    font-family: '{{ section.settings.heading_font }}';
+  }
+
+  [data-section-id="{{ section.id }}"] .home-reviews-v2__heading {
+    color: {{ section.settings.section_text_color }} !important;
+  }
+
+  @media screen and (max-width: 768px) {
+    [data-section-id='{{ section.id }}'] {
+      padding-top: {{ section.settings.ptop_mobile }}px;
+      padding-bottom: {{ section.settings.pbottom_mobile }}px;
+    }
+  }
+{% endstyle %}
+
+<div class="page-width" data-section-id="{{ section.id }}">
+  <div class="home-reviews-v2__container">
+    {% if section.settings.heading != blank %}
+      <h2 class="home-reviews-v2__heading">{{ section.settings.heading | escape }}</h2>
+    {% endif %}
+
+    <div class="swiper reviews-v2-swiper">
+      <div class="swiper-wrapper" id="reviews-section-v2"></div>
+    </div>
+
+    <div class="swiper-pagination" aria-hidden="true"></div>
+
+    {%- liquid
+      assign button_link = section.settings.collection.url
+      if section.settings.button_link != blank
+        assign button_link = section.settings.button_link
+      endif
+    -%}
+
+    {%- if section.settings.show_button and section.settings.button_label != blank and button_link != blank -%}
+      <a
+        href="{{ button_link }}"
+        class="btn btn--primary btn--primary-with-icon home-reviews-v2__button"
+      >
+        {{ section.settings.button_label | escape }}
+      </a>
+    {%- endif -%}
+  </div>
+</div>
+
+<script>
+  const reviewsV2Section = document.getElementById('reviews-section-v2');
+
+  //fetch('https://api.reviews.io/product/review?store=kush-queen&sku=BB-RV25HP25D8&per_page=100', test_options)
+  fetch(
+    'https://api.reviews.io/product/review?store=kush-queen&sku=BB-RV25HP25D8;TPC-WB30HP30ML;TPC-MT100HP2;ING-GMSD9STR200&per_page=100',
+    { method: 'GET', headers: { accept: 'application/json' } }
+  )
+    .then((response) => response.json())
+    .then((data) => {
+      let product_rating_count = data.stats.count;
+      let store_average = data.stats.average;
+      let review_total_count = `<span class="review-card-count"><span class="review-count-number">4,100 Verified Reviews, <strong>Average 4.5 Star Rating</strong></span>`;
+      //`<span class="review-card-count"><span class="review-count-number">${product_rating_count}</span>+ reviews with a 4.7/5 average rating</span>`
+      //reviewSection.insertAdjacentHTML("beforebegin", review_total_count)
+      for (review in data.reviews.data) {
+        let testText = data.reviews.data[review].review;
+        let reviewerName = data.reviews.data[review].reviewer.first_name;
+        if (testText != '' && reviewerName != 'Anonymous' && testText.length < 130) {
+          let product_image = data.reviews.data[review].product.image_url;
+          let product_title = data.reviews.data[review].product.name;
+          let product_link = data.reviews.data[review].product.link;
+          let product_review_text = data.reviews.data[review].review;
+          let reviewer_name = `${data.reviews.data[review].reviewer.first_name} ${data.reviews.data[review].reviewer.last_name}`;
+          let reviewer_stars = data.reviews.data[review].rating;
+          let reviewer_verified = data.reviews.data[review].reviewer.verified_buyer;
+          let review_card_content = `<div class="swiper-slide">
+          <div class="review-card">
+            <div class="review-card-heading">
+                <div class="review-card-header-content">
+                  <div class="rating-star-section">
+                    <span class="review-card-stars">
+                        <div class="review-star-container"><img class="star" src="{{ 'GoldStar.png' | asset_img_url }}">
+                            <img class="star" src="{{ 'GoldStar.png' | asset_img_url }}"><img class="star" src="{{ 'GoldStar.png' | asset_img_url }}"><img class="star" src="{{ 'GoldStar.png' | asset_img_url }}"><img class="star" src="{{ 'GoldStar.png' | asset_img_url }}"> 
+                        </div>
+                    </span>
+                  </div>
+                  <div class="review-star__image-wrapper">
+                    <img class="prod-img" src="${product_image}" alt="" width="60px" height="60px">
+                  <h4 class="review-card-title">${product_title.replace('- Wholesale', '')}</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="review-card-text">
+                <p class="review-card-text">${product_review_text}</p>
+              </div>
+              <div class="review-card-footer">
+                <div class="review-card-user-info">
+                  <h4 class="review-card-user-name">${reviewer_name}</h4>
+                  <span class="review-card-verified"><img class="verified-checkmark" src="{{ 'GoldCircle.png' | asset_img_url  }}" alt=""> VERIFIED BUYER</span>
+                </div>
+                <a href="${product_link}" class="btn btn--primary btn--primary-with-icon review-card-product-link">SHOP NOW</a>
+              </div>
+            </div>
+        </div>`;
+          reviewsV2Section.insertAdjacentHTML('afterbegin', review_card_content);
+        }
+      }
+    })
+    .then((newdata) => {
+      var swiper = new Swiper('.reviews-v2-swiper', {
+        slidesPerView: 1,
+        spaceBetween: 0,
+        centeredSlides: true,
+        loop: true,
+        grabCursor: true,
+        pagination: {
+          el: '.home-reviews-v2 .swiper-pagination',
+          clickable: true,
+        },
+        breakpoints: {
+          768: {
+            slidesPerView: 2.5,
+            spaceBetween: 25,
+          },
+          1024: {
+            slidesPerView: 2.8,
+            spaceBetween: 25,
+          },
+        },
+      });
+    });
+</script>
+
+{% schema %}
+{
+  "name": "Reviews Section V2",
+  "class": "home-reviews-v2",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Section Heading"
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Explore our categories"
+    },
+
+    {
+      "type": "select",
+      "id": "heading_font",
+      "label": "Heading Font",
+      "default": "Room205",
+      "options": [
+        {
+          "label": "Room205",
+          "value": "Room205"
+        },
+        {
+          "label": "Gotham",
+          "value": "Gotham"
+        },
+        {
+          "label": "Gotham Bold",
+          "value": "Gotham-bold"
+        },
+        {
+          "label": "Eina03",
+          "value": "Eina03"
+        }
+      ]
+    },
+    {
+      "type": "checkbox",
+      "id": "show_button",
+      "label": "Show Button",
+      "default": true
+    },
+    {
+      "type": "text",
+      "id": "button_label",
+      "label": {
+        "da": "Knapetiket",
+        "de": "Button-Etikett",
+        "en": "Button label",
+        "es": "Etiqueta de botón",
+        "fi": "Painikkeen merkintä",
+        "fr": "Texte du bouton",
+        "hi": "बटन लेबल",
+        "it": "Etichetta pulsante",
+        "ja": "ボタンラベル",
+        "ko": "버튼 레이블",
+        "ms": "Label butang",
+        "nb": "Knappetikett",
+        "nl": "Knoplabel",
+        "pt-BR": "Etiqueta do botão",
+        "pt-PT": "Etiqueta do botão",
+        "sv": "Knappetikett",
+        "th": "ป้ายกำกับปุ่ม",
+        "zh-CN": "按钮标签",
+        "zh-TW": "按鈕標籤"
+      }
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": {
+        "da": "Knaplink",
+        "de": "Button-Etikett",
+        "en": "Button link",
+        "es": "Enlace de botón",
+        "fi": "Painikkeen linkki",
+        "fr": "Lien du bouton",
+        "hi": "बटन लिंक",
+        "it": "Link pulsante",
+        "ja": "ボタンリンク",
+        "ko": "버튼 링크",
+        "ms": "Pautan butang",
+        "nb": "Kobling for knapp",
+        "nl": "Knoplink",
+        "pt-BR": "Link do botão",
+        "pt-PT": "Ligação do botão",
+        "sv": "Knapplänk",
+        "th": "ลิงก์ของปุ่ม",
+        "zh-CN": "按钮链接",
+        "zh-TW": "按鈕連結"
+      }
+    },
+    {
+      "type": "header",
+      "content": "Section Padding"
+    },
+    {
+      "type": "range",
+      "id": "ptop",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Padding Top",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "pbottom",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Padding Bottom",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "ptop_mobile",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Padding Top",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "pbottom_mobile",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Padding Bottom",
+      "default": 0
+    }
+  ],
+  "presets": [
+    {
+      "name": "Reviews Section V2",
+      "category": "Image"
+    }
+  ]
+}
+{% endschema %}
