@@ -3562,6 +3562,21 @@
           "ptop_mobile": 20,
           "pbottom_mobile": 20
         }
+      },
+      "reviews_home_section_v2_BpMk8g": {
+        "type": "reviews-home-section-v2",
+        "name": "Reviews Section V2",
+        "settings": {
+          "heading": "loved by many",
+          "heading_font": "Room205",
+          "show_button": true,
+          "button_label": "Read 6.5k+ more reviews",
+          "button_link": "#",
+          "ptop": 20,
+          "pbottom": 20,
+          "ptop_mobile": 20,
+          "pbottom_mobile": 20
+        }
       }
     },
     "content_for_index": [
@@ -3571,6 +3586,7 @@
       "featured_collections_v2_ytmxMx",
       "featured_collections_v3_qKLcQq",
       "featured_collection_v1_ExjRdM",
+      "reviews_home_section_v2_BpMk8g",
       "b49e170a-f5b7-4b17-b460-9dbb4385fb11",
       "cd11dcb9-5075-433e-a1f2-bf2f76dd893c",
       "237dbedb-9d1f-47c0-b144-99e8f417ff78",
