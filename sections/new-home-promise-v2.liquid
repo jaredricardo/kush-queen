@@ -1,0 +1,192 @@
+{% style %}
+  #shopify-section-{{ section.id }} {
+    padding-top: {{ section.settings.ptop }}px;
+    padding-bottom: {{ section.settings.pbottom }}px;
+  }
+
+  [data-section-id='{{ section.id }}'] {
+    background-color: {{ section.settings.section_bg_color }};
+  }
+
+  [data-section-id='{{ section.id }}'] .new-home-primise-v2__heading * {
+    font-family: '{{ section.settings.heading_font }}';
+  }
+
+  [data-section-id='{{ section.id }}'] .new-home-primise-v2__content * {
+    font-family: '{{ section.settings.content_font }}';
+  }
+
+  [data-section-id="{{ section.id }}"] .new-home-primise-v2__heading *,
+  [data-section-id="{{ section.id }}"] .new-home-primise-v2__content * {
+    color: {{ section.settings.section_text_color }};
+  }
+
+  @media screen and (max-width: 768px) {
+    #shopify-section-{{ section.id }} {
+      padding-top: {{ section.settings.ptop_mobile }}px;
+      padding-bottom: {{ section.settings.pbottom_mobile }}px;
+    }
+  }
+{% endstyle %}
+
+<div data-section-id="{{ section.id }}">
+  <div class="page-width">
+    {% if section.settings.image != blank %}
+      <img
+        src="{{ section.settings.image | img_url: '100x' }}"
+        width="93"
+        height="auto"
+        loading="lazy"
+        alt="{{ section.settings.image.alt }}"
+      >
+    {% endif %}
+    <div class="new-home-primise-v2__content-wrapper">
+      {% if section.settings.heading != blank %}
+        <div class="new-home-primise-v2__heading">{{ section.settings.heading }}</div>
+      {% endif %}
+
+      {% if section.settings.content != blank %}
+        <div class="rte new-home-primise-v2__content">
+          {{ section.settings.content }}
+        </div>
+      {% endif %}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "New Home Promise V2",
+  "class": "new-home-promise-v2",
+  "settings": [
+    {
+      "type": "color",
+      "id": "section_bg_color",
+      "label": "Section Background Color",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "section_text_color",
+      "label": "Section Text Color",
+      "default": "#FFFFFF"
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image"
+    },
+    {
+      "type": "header",
+      "content": "Section Heading"
+    },
+    {
+      "type": "richtext",
+      "id": "heading",
+      "label": "Heading"
+    },
+    {
+      "type": "select",
+      "id": "heading_font",
+      "label": "Heading Font",
+      "default": "Room205",
+      "options": [
+        {
+          "label": "Room205",
+          "value": "Room205"
+        },
+        {
+          "label": "Gotham",
+          "value": "Gotham"
+        },
+        {
+          "label": "Gotham Bold",
+          "value": "Gotham-bold"
+        },
+        {
+          "label": "Eina03",
+          "value": "Eina03"
+        }
+      ]
+    },
+    {
+      "type": "richtext",
+      "id": "content",
+      "label": "Content"
+    },
+    {
+      "type": "select",
+      "id": "content_font",
+      "label": "Font",
+      "default": "Gotham",
+      "options": [
+        {
+          "label": "Room205",
+          "value": "Room205"
+        },
+        {
+          "label": "Gotham",
+          "value": "Gotham"
+        },
+        {
+          "label": "Gotham Bold",
+          "value": "Gotham-bold"
+        },
+        {
+          "label": "Eina03",
+          "value": "Eina03"
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "content": "Section Padding"
+    },
+    {
+      "type": "range",
+      "id": "ptop",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Padding Top",
+      "default": 35
+    },
+    {
+      "type": "range",
+      "id": "pbottom",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Padding Bottom",
+      "default": 70
+    },
+    {
+      "type": "range",
+      "id": "ptop_mobile",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Padding Top",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "pbottom_mobile",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Padding Bottom",
+      "default": 80
+    }
+  ],
+  "presets": [
+    {
+      "name": "New Home Promise V2"
+    }
+  ]
+}
+{% endschema %}
