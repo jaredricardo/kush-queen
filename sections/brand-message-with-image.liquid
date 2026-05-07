@@ -1,61 +1,126 @@
-<section class="brand-message">
-    <div class="brand-message-container">
-        <div loading="lazy" class="brand-message-main-image" style="background:url('{{ section.settings.main_image | img_url: 'master' }}');background-size: cover;background-repeat: no-repeat;">
-            
-        </div>
-        <div class="brand-message-content">
-            <div class="brand-message-icon">
-                <img src="{{ section.settings.icon | img_url: '100x100' }}" alt="">
-            </div>
-            <div class="brand-message-subheading uppercase">
-                <h4>{{ section.settings.subheading }}</h4>
-            </div>
-            <div class="brand-message-heading uppercase">
-                <h2>{{ section.settings.heading }}</h2>
-            </div>
-            <div class="brand-message-description">
-                <p>{{ section.settings.description }}</p>
-            </div>
-        </div>
+<section class="page-width brand-message">
+  <div class="brand-message-container">
+    <div
+      loading="lazy"
+      class="brand-message-main-image"
+      style="background:url('{{ section.settings.main_image | img_url: 'master' }}');background-size: cover;background-repeat: no-repeat;"
+    ></div>
+    <div class="brand-message-content">
+      <div class="brand-message-icon">
+        <img src="{{ section.settings.icon | img_url: '100x100' }}" alt="">
+      </div>
+      <div class="brand-message-subheading uppercase">
+        <h4>{{ section.settings.subheading }}</h4>
+      </div>
+      <div class="brand-message-heading uppercase">
+        <h2>{{ section.settings.heading }}</h2>
+      </div>
+      <div class="brand-message-description">
+        <p>{{ section.settings.description }}</p>
+      </div>
+      {%- if section.settings.show_button and section.settings.button_label != blank and section.settings.button_link != blank -%}
+        <a
+          href="{{ section.settings.button_link }}"
+          class="btn btn--primary brand-message__button"
+        >
+          {{ section.settings.button_label | escape }}
+        </a>
+      {%- endif -%}
     </div>
+  </div>
 </section>
 
-
 {% schema %}
+{
+  "name": "Brand Message",
+  "settings": [
     {
-        "name": "Brand Message",
-        "settings": [
-            {
-                "id":"main_image",
-                "type":"image_picker",
-                "label":"Main Image"
-            },
-            {
-                "id":"icon",
-                "type":"image_picker",
-                "label":"Icon"
-            },
-            {
-                "id":"subheading",
-                "type":"text",
-                "label":"Sub Heading"
-            },
-            {
-                "id":"heading",
-                "type":"text",
-                "label":"Heading"
-            },
-            {
-                "id":"description",
-                "type":"richtext",
-                "label":"Description"
-            }
-        ],
-        "presets":[
-                    {
-                    "name": "Brand Message",
-                    "category":"Image"
-                    }
-                    ]
+      "id": "main_image",
+      "type": "image_picker",
+      "label": "Main Image"
+    },
+    {
+      "id": "icon",
+      "type": "image_picker",
+      "label": "Icon"
+    },
+    {
+      "id": "subheading",
+      "type": "text",
+      "label": "Sub Heading"
+    },
+    {
+      "id": "heading",
+      "type": "text",
+      "label": "Heading"
+    },
+    {
+      "id": "description",
+      "type": "richtext",
+      "label": "Description"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_button",
+      "label": "Show Button",
+      "default": true
+    },
+    {
+      "type": "text",
+      "id": "button_label",
+      "label": {
+        "da": "Knapetiket",
+        "de": "Button-Etikett",
+        "en": "Button label",
+        "es": "Etiqueta de botón",
+        "fi": "Painikkeen merkintä",
+        "fr": "Texte du bouton",
+        "hi": "बटन लेबल",
+        "it": "Etichetta pulsante",
+        "ja": "ボタンラベル",
+        "ko": "버튼 레이블",
+        "ms": "Label butang",
+        "nb": "Knappetikett",
+        "nl": "Knoplabel",
+        "pt-BR": "Etiqueta do botão",
+        "pt-PT": "Etiqueta do botão",
+        "sv": "Knappetikett",
+        "th": "ป้ายกำกับปุ่ม",
+        "zh-CN": "按钮标签",
+        "zh-TW": "按鈕標籤"
+      }
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": {
+        "da": "Knaplink",
+        "de": "Button-Etikett",
+        "en": "Button link",
+        "es": "Enlace de botón",
+        "fi": "Painikkeen linkki",
+        "fr": "Lien du bouton",
+        "hi": "बटन लिंक",
+        "it": "Link pulsante",
+        "ja": "ボタンリンク",
+        "ko": "버튼 링크",
+        "ms": "Pautan butang",
+        "nb": "Kobling for knapp",
+        "nl": "Knoplink",
+        "pt-BR": "Link do botão",
+        "pt-PT": "Ligação do botão",
+        "sv": "Knapplänk",
+        "th": "ลิงก์ของปุ่ม",
+        "zh-CN": "按钮链接",
+        "zh-TW": "按鈕連結"
+      }
     }
+  ],
+  "presets": [
+    {
+      "name": "Brand Message",
+      "category": "Image"
+    }
+  ]
+}
 {% endschema %}
