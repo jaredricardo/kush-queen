@@ -2007,157 +2007,6 @@
           "queen_pro_desc": ""
         }
       },
-      "b49e170a-f5b7-4b17-b460-9dbb4385fb11": {
-        "type": "home-collection-list-new",
-        "blocks": {
-          "af6bbb7d-5d41-4b12-b784-d4aea0b3c80d": {
-            "type": "featured_collection",
-            "settings": {
-              "collection": "thc",
-              "wholesale_collection": "ingestibles-wholesale",
-              "product": "",
-              "collection_description": "Get legal THC products shipped to your door.",
-              "coll_title": "Get Elevated",
-              "alt_image": "shopify://shop_images/kush-queen-gummies-home.jpg"
-            }
-          },
-          "14933143-69e3-4693-9cc8-025178803dbd": {
-            "type": "featured_collection",
-            "settings": {
-              "collection": "cbd-bath-bombs",
-              "wholesale_collection": "cbd-bath-bombs-wholesale",
-              "product": "",
-              "collection_description": "Kush Queen bath bombs are next level. Period.",
-              "coll_title": "CBD Bath Bombs",
-              "alt_image": "shopify://shop_images/starsofthetub.jpg"
-            }
-          },
-          "b49e170a-f5b7-4b17-b460-9dbb4385fb11-167536121917a3c9fa-1": {
-            "type": "featured_collection",
-            "settings": {
-              "collection": "cbd-sexual-wellness",
-              "wholesale_collection": "lube-wholesale",
-              "product": "",
-              "collection_description": "The perfect amount of enhanced pleasure.",
-              "coll_title": "Sexual Wellness",
-              "alt_image": "shopify://shop_images/kush-queen-sexual-wellness.jpg"
-            }
-          },
-          "b49e170a-f5b7-4b17-b460-9dbb4385fb11-167536121917a3c9fa-0": {
-            "type": "featured_collection",
-            "settings": {
-              "collection": "feel-totally-relaxed",
-              "wholesale_collection": "topicals-wholesale",
-              "product": "boost-cannabinoid-concentrate",
-              "collection_description": "Wellness products you can’t live without.",
-              "coll_title": "Mood Boosters",
-              "alt_image": "shopify://shop_images/Kush-queen-wellness_home.jpg"
-            }
-          },
-          "b49e170a-f5b7-4b17-b460-9dbb4385fb11-167536121917a3c9fa-2": {
-            "type": "featured_collection",
-            "settings": {
-              "collection": "sleepy-time-essentials",
-              "wholesale_collection": "minor-cannabinoids-wholesale",
-              "product": "",
-              "collection_description": "Don’t go another night without sleep.",
-              "coll_title": "Rest & Reset",
-              "alt_image": "shopify://shop_images/rest.jpg"
-            }
-          },
-          "3d3634c2-7368-40da-b4f0-3a3ba695031c": {
-            "type": "featured_collection",
-            "settings": {
-              "collection": "get-relief-now",
-              "wholesale_collection": "topicals-wholesale",
-              "product": "melt-cbd-lotion",
-              "collection_description": "Give your body the relief it’s asking for.",
-              "coll_title": "Get Real Relief",
-              "alt_image": "shopify://shop_images/kush-queen-pain-relief.jpg"
-            }
-          }
-        },
-        "block_order": [
-          "af6bbb7d-5d41-4b12-b784-d4aea0b3c80d",
-          "14933143-69e3-4693-9cc8-025178803dbd",
-          "b49e170a-f5b7-4b17-b460-9dbb4385fb11-167536121917a3c9fa-1",
-          "b49e170a-f5b7-4b17-b460-9dbb4385fb11-167536121917a3c9fa-0",
-          "b49e170a-f5b7-4b17-b460-9dbb4385fb11-167536121917a3c9fa-2",
-          "3d3634c2-7368-40da-b4f0-3a3ba695031c"
-        ],
-        "settings": {
-          "title": "BY EFFECT",
-          "grid": 3,
-          "icon": "shopify://shop_images/KQ_ICON_4.svg",
-          "sub-title": "Shop",
-          "desc": "Build a cannabis routine for real life, shop by effect for <strong>mood, relief, sleep, sex and getting elevated.</strong>",
-          "col_link": "shopify://collections/all",
-          "col_link_text": "Shop All",
-          "banner_image": "shopify://shop_images/kush-queen-thc-gummies-watermelon-mobile.jpg",
-          "banner_image_mobile": "shopify://shop_images/kush-queen-thc-gummies-watermelon-mobile.jpg"
-        }
-      },
-      "cd11dcb9-5075-433e-a1f2-bf2f76dd893c": {
-        "type": "new-home-promise",
-        "blocks": {
-          "d1ce0b64-b5b7-4d5d-9569-02b4a2e20987": {
-            "type": "promise",
-            "settings": {
-              "queen_pro_sing_img": "shopify://shop_images/KQ_ICON_6.svg",
-              "queen_pro_sing_title": "Community First",
-              "queen_pro_sing_desc": "Kush Queen is rooted in our passion for cannabis and our commitment to help shape normalization and usage for everyone. All are welcome."
-            }
-          },
-          "01e32f74-5485-41f4-89af-d17bcd86fc03": {
-            "type": "promise",
-            "settings": {
-              "queen_pro_sing_img": "shopify://shop_images/KQ_ICON_7.svg",
-              "queen_pro_sing_title": "Advanced Formulas",
-              "queen_pro_sing_desc": "Our products are developed with 3 key values in mind. Science, technology, and delivery methods that make sense."
-            }
-          },
-          "b38eee6b-560d-40a8-9474-1387c9d526b4": {
-            "type": "promise",
-            "settings": {
-              "queen_pro_sing_img": "shopify://shop_images/KQ_ICON_1_9e5f09cd-fbcf-4569-8501-cd414664b9c5.svg",
-              "queen_pro_sing_title": "Quality Is Supreme",
-              "queen_pro_sing_desc": "We bend the knee to the plant. Only the highest-quality, lab tested cannabinoids are sourced for Kush Queen products. Made in the USA."
-            }
-          },
-          "1db6edb9-bdf3-41c8-8ec6-3145c0fd89fa": {
-            "type": "promise",
-            "settings": {
-              "queen_pro_sing_img": "shopify://shop_images/atomic.svg",
-              "queen_pro_sing_title": "Effects You Feel",
-              "queen_pro_sing_desc": "All Kush Queen products feature advanced technology, and innovative hemp molecules that make you feel something real."
-            }
-          }
-        },
-        "block_order": [
-          "d1ce0b64-b5b7-4d5d-9569-02b4a2e20987",
-          "01e32f74-5485-41f4-89af-d17bcd86fc03",
-          "b38eee6b-560d-40a8-9474-1387c9d526b4",
-          "1db6edb9-bdf3-41c8-8ec6-3145c0fd89fa"
-        ],
-        "settings": {
-          "queen_pro_title": "Bend",
-          "queen_pro_subtitle": "The Knee",
-          "queen_pro_desc": "In 2015 Kush Queen was born to create intelligently designed cannabis products. We are the source for cannabis wellness tools, where your favorite plant and great products intersect- the fun & functional.",
-          "queen_pro_icon": "shopify://shop_images/KQ_MIND_BODY_VERTICAL.png"
-        }
-      },
-      "237dbedb-9d1f-47c0-b144-99e8f417ff78": {
-        "type": "reviews-home-section",
-        "settings": {
-          "title": "Recent Reviews",
-          "review-counter-text": "4,100 Verified Reviews, <strong>Average 4.5 Star Rating</strong>",
-          "icon": "shopify://shop_images/KQ_ICON_5.svg",
-          "sub-title": "Loved By Many",
-          "desc": "lorem ipsum",
-          "col_link": "",
-          "col_link_text": ""
-        }
-      },
       "472c0296-a3b4-410c-bdfd-b5308fc72c55": {
         "type": "brand-message-with-image",
         "settings": {
@@ -2167,69 +2016,8 @@
           "heading": "Elevating You Daily",
           "description": "<p>Kush Queen delivers perfected wellness tools to elevate daily life.</p><p>Today, with over 55,000 customers we offer a range of daily solutions for wellness that address issues like sleep, stress, mood, relief, and pleasure.</p><p>When legacy status, a relentless commitment to the cannabis plant, and award winning products (that speak to everyone) come together, that’s Kush Queen.</p>",
           "show_button": true,
-          "button_label": "",
-          "button_link": ""
-        }
-      },
-      "8e1019d2-50f7-496a-8a48-7a24ee814bef": {
-        "type": "new-home-look-talking",
-        "blocks": {
-          "b4140f1c-43c5-45d0-a523-85c5d9ea639f": {
-            "type": "look_talk",
-            "settings": {
-              "look_sing_img": "shopify://shop_images/Press-Logos-13-1-300x300_1_665524d6-2c72-4bec-afc6-7a45a1fd9391.jpg",
-              "look_sing_link": ""
-            }
-          },
-          "a46cd5e1-46af-4d69-9742-a5e748934052": {
-            "type": "look_talk",
-            "settings": {
-              "look_sing_img": "shopify://shop_images/Press-Logos-10-1-300x300_1_553cc908-5fb0-4348-b1d1-ec4273cf2992.jpg",
-              "look_sing_link": ""
-            }
-          },
-          "e114d9bc-f46e-456c-8db5-f5fbf4323817": {
-            "type": "look_talk",
-            "settings": {
-              "look_sing_img": "shopify://shop_images/Press-Logos-09-1-300x300_1_664f48e4-f192-4236-864d-8d6249fae74f.jpg",
-              "look_sing_link": ""
-            }
-          },
-          "3049f7ab-f00f-49b6-9d18-246c283ffd2f": {
-            "type": "look_talk",
-            "settings": {
-              "look_sing_img": "shopify://shop_images/Press-Logos-08-1-300x300_1_7c89d89c-e7cb-4763-a5a2-9e7c0912cf54.jpg",
-              "look_sing_link": ""
-            }
-          },
-          "302a85e0-64fe-41fe-b9af-0c6ca14870cd": {
-            "type": "look_talk",
-            "settings": {
-              "look_sing_img": "shopify://shop_images/download_1_69d45aae-e7ab-44f6-98ae-1442cc53b4c4.png",
-              "look_sing_link": ""
-            }
-          },
-          "8f4bed02-c9e2-4b99-8920-f79f7ecb4992": {
-            "type": "look_talk",
-            "settings": {
-              "look_sing_img": "shopify://shop_images/191-1918173_los-angeles-times-logo-png-transparent-png_21710c4d-3fb1-443a-825c-00abc34fdcba.png",
-              "look_sing_link": ""
-            }
-          }
-        },
-        "block_order": [
-          "b4140f1c-43c5-45d0-a523-85c5d9ea639f",
-          "a46cd5e1-46af-4d69-9742-a5e748934052",
-          "e114d9bc-f46e-456c-8db5-f5fbf4323817",
-          "3049f7ab-f00f-49b6-9d18-246c283ffd2f",
-          "302a85e0-64fe-41fe-b9af-0c6ca14870cd",
-          "8f4bed02-c9e2-4b99-8920-f79f7ecb4992"
-        ],
-        "settings": {
-          "look_subtitle": "Look Who Is Talking",
-          "look_title": "Featured In",
-          "look_talk_link": "",
-          "look_talk_link_text": ""
+          "button_label": "SHOP NOW",
+          "button_link": "shopify://collections"
         }
       },
       "2e371b21-3c9e-42d5-a856-8e67edb127ef": {
@@ -3577,6 +3365,42 @@
           "ptop_mobile": 20,
           "pbottom_mobile": 20
         }
+      },
+      "new_home_promise_v2_jtYhQD": {
+        "type": "new-home-promise-v2",
+        "name": "New Home Promise V2",
+        "settings": {
+          "section_bg_color": "#000000",
+          "section_text_color": "#FFFFFF",
+          "image": "shopify://shop_images/KQ_MIND_BODY_VERTICAL.png",
+          "heading": "<p>Bend <em>The Knee</em></p>",
+          "heading_font": "Room205",
+          "content": "<p>In 2015 Kush Queen was born to create intelligently designed cannabis products. We are the source for cannabis wellness tools, where your favorite plant and great products intersect- the fun & functional.</p>",
+          "content_font": "Gotham",
+          "ptop": 20,
+          "pbottom": 20,
+          "ptop_mobile": 20,
+          "pbottom_mobile": 20
+        }
+      },
+      "featured_collection_v1_JQjqjj": {
+        "type": "featured-collection-v1",
+        "name": "Featured Collection V1",
+        "settings": {
+          "collection": "flash-sale",
+          "heading": "shop our favorites",
+          "heading_font": "Room205",
+          "content": "<p>Join 50,000 others who love these for <strong>wellness</strong>, <strong>lifted chill</strong>, and <strong>all over relief!</strong></p>",
+          "content_font": "Gotham",
+          "section_text_color": "#000000",
+          "show_button": true,
+          "button_label": "",
+          "button_link": "",
+          "ptop": 35,
+          "pbottom": 35,
+          "ptop_mobile": 40,
+          "pbottom_mobile": 40
+        }
       }
     },
     "content_for_index": [
@@ -3587,11 +3411,9 @@
       "featured_collections_v3_qKLcQq",
       "featured_collection_v1_ExjRdM",
       "reviews_home_section_v2_BpMk8g",
-      "b49e170a-f5b7-4b17-b460-9dbb4385fb11",
-      "cd11dcb9-5075-433e-a1f2-bf2f76dd893c",
-      "237dbedb-9d1f-47c0-b144-99e8f417ff78",
+      "new_home_promise_v2_jtYhQD",
       "472c0296-a3b4-410c-bdfd-b5308fc72c55",
-      "8e1019d2-50f7-496a-8a48-7a24ee814bef",
+      "featured_collection_v1_JQjqjj",
       "2e371b21-3c9e-42d5-a856-8e67edb127ef",
       "45192939-485e-47e2-b6c1-56ad7a97a5c2"
     ],
