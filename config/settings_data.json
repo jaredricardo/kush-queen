@@ -2007,20 +2007,6 @@
           "queen_pro_desc": ""
         }
       },
-      "99ac90b0-667e-465c-a70f-75217bd1fdf8": {
-        "type": "home-featured-collection-cards",
-        "settings": {
-          "icon": "shopify://shop_images/KQ_ICON_3.svg",
-          "sub-title": "Our",
-          "title": "Best Sellers",
-          "desc": "Join 50,000 others who love these for <strong>wellness, lifted chill, and all over relief!</strong>",
-          "collection": "all-cannabis-products",
-          "col_link": "https://kushqueen.shop/collections/all-cannabis-products",
-          "collection_wholesale": "wholesale-homepage-collection",
-          "col_link_wholesale": "",
-          "col_link_text": "Shop All"
-        }
-      },
       "b49e170a-f5b7-4b17-b460-9dbb4385fb11": {
         "type": "home-collection-list-new",
         "blocks": {
@@ -3472,6 +3458,91 @@
           "ptop_mobile": 20,
           "pbottom_mobile": 20
         }
+      },
+      "featured_collections_v3_qKLcQq": {
+        "type": "featured-collections-v3",
+        "blocks": {
+          "collection_KCaDqk": {
+            "type": "collection",
+            "settings": {
+              "collection": "cbd-gummies",
+              "heading": "gummies",
+              "image": "shopify://shop_images/f680da4f8d01e0b87267159af3ceb845b622c8e0.png"
+            }
+          },
+          "collection_dNzAcU": {
+            "type": "collection",
+            "settings": {
+              "collection": "cbd-bath-bombs",
+              "heading": "Bath Bombs",
+              "image": "shopify://shop_images/a18bc66ed5328509fc9c088b986b190a774eed03.png"
+            }
+          },
+          "collection_tcUhkj": {
+            "type": "collection",
+            "settings": {
+              "collection": "thc-lube",
+              "heading": "lube",
+              "image": "shopify://shop_images/24076ee5fa73b3a727624aba2034c1694060c866.png"
+            }
+          },
+          "collection_VWHW8d": {
+            "type": "collection",
+            "settings": {
+              "collection": "thca-hemp-flower",
+              "heading": "flower",
+              "image": "shopify://shop_images/eacc6bfb09cd7e6da340aadd8c929971110bae1f.png"
+            }
+          },
+          "collection_6n8wcz": {
+            "type": "collection",
+            "settings": {
+              "collection": "cbd-for-pain",
+              "heading": "tinctures",
+              "image": "shopify://shop_images/17004b437b08c3c02a7cf8e21546b8c60189fa2f.png"
+            }
+          },
+          "collection_wmRXLp": {
+            "type": "collection",
+            "settings": {
+              "collection": "topical-thc-cbd",
+              "heading": "topicals",
+              "image": "shopify://shop_images/890c6088571a8c61ac6e82df5de0da34f3000c31.png"
+            }
+          },
+          "collection_QpYwyD": {
+            "type": "collection",
+            "settings": {
+              "collection": "solventless",
+              "heading": "live resin & rosin",
+              "image": "shopify://shop_images/d5f1ba87fb5733f77f2d63715afc9777ff3d7b1e.png"
+            }
+          }
+        },
+        "block_order": [
+          "collection_KCaDqk",
+          "collection_dNzAcU",
+          "collection_tcUhkj",
+          "collection_VWHW8d",
+          "collection_6n8wcz",
+          "collection_wmRXLp",
+          "collection_QpYwyD"
+        ],
+        "name": "Featured Collections V3",
+        "settings": {
+          "heading": "Explore our categories",
+          "heading_font": "Room205",
+          "content": "",
+          "content_font": "Gotham",
+          "section_text_color": "#000000",
+          "button_label": "Shop all",
+          "button_link": "shopify://collections",
+          "blocks_font": "Gotham",
+          "ptop": 20,
+          "pbottom": 20,
+          "ptop_mobile": 20,
+          "pbottom_mobile": 20
+        }
       }
     },
     "content_for_index": [
@@ -3479,7 +3550,7 @@
       "featured_collections_tab_zTqYfL",
       "new_faq_v2_FNNWXh",
       "featured_collections_v2_ytmxMx",
-      "99ac90b0-667e-465c-a70f-75217bd1fdf8",
+      "featured_collections_v3_qKLcQq",
       "b49e170a-f5b7-4b17-b460-9dbb4385fb11",
       "cd11dcb9-5075-433e-a1f2-bf2f76dd893c",
       "237dbedb-9d1f-47c0-b144-99e8f417ff78",
