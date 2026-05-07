@@ -2447,57 +2447,6 @@
           "heading": "Related Products"
         }
       },
-      "9ef9d7f7-cf1f-4a27-99a2-e69b360f3f30": {
-        "type": "home-top",
-        "blocks": {
-          "769adfdb-876c-468a-ad66-8c69629b5822": {
-            "type": "block",
-            "settings": {
-              "value_prop": "3rd Party Lab Tested"
-            }
-          },
-          "70e8dc93-8163-4ee9-bbd4-702e07fb8c3a": {
-            "type": "block",
-            "settings": {
-              "value_prop": "THC & CBD Options"
-            }
-          },
-          "05a4a20f-1e75-4b9d-91f0-8b0eb9b43bd3": {
-            "type": "block",
-            "settings": {
-              "value_prop": "Made in The USA"
-            }
-          },
-          "8c649c9d-5c4d-44ce-a56b-4ac4d7760ea5": {
-            "type": "block",
-            "settings": {
-              "value_prop": "Community Driven"
-            }
-          }
-        },
-        "block_order": [
-          "769adfdb-876c-468a-ad66-8c69629b5822",
-          "70e8dc93-8163-4ee9-bbd4-702e07fb8c3a",
-          "05a4a20f-1e75-4b9d-91f0-8b0eb9b43bd3",
-          "8c649c9d-5c4d-44ce-a56b-4ac4d7760ea5"
-        ],
-        "settings": {
-          "desktop_image": "shopify://shop_images/Kush_Queen_Website_Collection_Banner-420.png",
-          "mobile_image": "shopify://shop_images/kush-queen-420-mobile_copy.png",
-          "show_ratings": true,
-          "ratings_count": "9,000",
-          "main_header": "Cannabinoids For All-Day Wellness",
-          "call_to_action_text": "SHOP NOW",
-          "call_to_action_url": "https://kushqueen.shop/collections/all-cannabis-products"
-        }
-      },
-      "d76d763c-6c70-4fea-b4ad-4348f38cb70e": {
-        "type": "sitewide-sale-announcement",
-        "disabled": true,
-        "settings": {
-          "text": "60 - 40% Off Selects +<br>30% Off Sitewide"
-        }
-      },
       "collection-grid-stack": {
         "type": "collection-grid-stack",
         "settings": {
@@ -3479,12 +3428,128 @@
           "button_label": "SHOP NOW",
           "button_link": "https://kushqueen.shop/collections/all-cannabis-products"
         }
+      },
+      "featured_collections_tab_zTqYfL": {
+        "type": "featured-collections-tab",
+        "blocks": {
+          "collection_eEtzDj": {
+            "type": "collection",
+            "settings": {
+              "collection": "aroused",
+              "heading": "Aroused",
+              "description": "<p>For your naughtiest and most sensual mood.</p>",
+              "button_label": "SHOP Aroused",
+              "button_link": ""
+            }
+          },
+          "collection_4jYCyD": {
+            "type": "collection",
+            "settings": {
+              "collection": "sleepy",
+              "heading": "sleepy",
+              "description": "<p>For when you're ready to drift into your deepest sleep.</p>",
+              "button_label": "SHOP sleepy",
+              "button_link": ""
+            }
+          },
+          "collection_NEU3GH": {
+            "type": "collection",
+            "settings": {
+              "collection": "classic",
+              "heading": "classic",
+              "description": "<p>Our everyday essentials.</p>",
+              "button_label": "SHOP classic",
+              "button_link": ""
+            }
+          },
+          "collection_Hnnp8b": {
+            "type": "collection",
+            "settings": {
+              "collection": "happy",
+              "heading": "happy",
+              "description": "<p>For brightening your mood and lifting your spirits.</p>",
+              "button_label": "SHOP happy",
+              "button_link": ""
+            }
+          },
+          "collection_kJXAmn": {
+            "type": "collection",
+            "settings": {
+              "collection": "chill",
+              "heading": "chill",
+              "description": "<p>For taking the edge off and just breathing.</p>",
+              "button_label": "SHOP chill",
+              "button_link": ""
+            }
+          },
+          "collection_89fqKj": {
+            "type": "collection",
+            "settings": {
+              "collection": "soothing",
+              "heading": "soothing",
+              "description": "<p>For calming the tension your body's been holding onto.</p>",
+              "button_label": "SHOP soothing",
+              "button_link": ""
+            }
+          },
+          "collection_dah8wE": {
+            "type": "collection",
+            "settings": {
+              "collection": "focused",
+              "heading": "focused",
+              "description": "<p>For getting into the zone and staying there.</p>",
+              "button_label": "SHOP focused",
+              "button_link": ""
+            }
+          },
+          "collection_aECriy": {
+            "type": "collection",
+            "settings": {
+              "collection": "creative",
+              "heading": "creative",
+              "description": "<p>For unlocking your most inspired and imaginative self</p>",
+              "button_label": "SHOP creative",
+              "button_link": ""
+            }
+          },
+          "collection_qRreJK": {
+            "type": "collection",
+            "settings": {
+              "collection": "social",
+              "heading": "social",
+              "description": "<p>For showing up as your most confident, open self.</p>",
+              "button_label": "SHOP social",
+              "button_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "collection_eEtzDj",
+          "collection_4jYCyD",
+          "collection_NEU3GH",
+          "collection_Hnnp8b",
+          "collection_kJXAmn",
+          "collection_89fqKj",
+          "collection_dah8wE",
+          "collection_aECriy",
+          "collection_qRreJK"
+        ],
+        "name": "Featured Collections Tab",
+        "settings": {
+          "heading": "Shop by mood",
+          "heading_font": "Room205",
+          "button_label": "",
+          "button_link": "",
+          "ptop": 20,
+          "pbottom": 20,
+          "ptop_mobile": 20,
+          "pbottom_mobile": 20
+        }
       }
     },
     "content_for_index": [
-      "d76d763c-6c70-4fea-b4ad-4348f38cb70e",
-      "9ef9d7f7-cf1f-4a27-99a2-e69b360f3f30",
       "hero_v2_aRnYmi",
+      "featured_collections_tab_zTqYfL",
       "new_faq_v2_FNNWXh",
       "new_faq_fhyqBi",
       "1571847364296",
