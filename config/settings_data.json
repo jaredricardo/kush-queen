@@ -3435,25 +3435,25 @@
           "block_me98kM": {
             "type": "block",
             "settings": {
-              "value_prop": ""
+              "value_prop": "3rd Party Lab Tested"
             }
           },
           "block_aANtLB": {
             "type": "block",
             "settings": {
-              "value_prop": ""
+              "value_prop": "Made in The USA"
             }
           },
           "block_drGMLy": {
             "type": "block",
             "settings": {
-              "value_prop": ""
+              "value_prop": "THC & CBD Options"
             }
           },
           "block_H4YEJq": {
             "type": "block",
             "settings": {
-              "value_prop": ""
+              "value_prop": "Community Driven"
             }
           }
         },
@@ -3477,7 +3477,7 @@
           "heading_font": "Eina03",
           "content_font": "Gotham",
           "button_label": "SHOP NOW",
-          "button_link": ""
+          "button_link": "https://kushqueen.shop/collections/all-cannabis-products"
         }
       }
     },
