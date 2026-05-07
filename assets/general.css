@@ -29,7 +29,7 @@ body {
 ol, ul {
   margin: 0;
 }
-.btn {font-family: 'Eina03';font-weight: 700;}
+.btn {font-family: 'Eina03';font-weight: 500;}
 p, p:first-child, p:last-child {color: #222;}
 a, img {
   color: #333;
