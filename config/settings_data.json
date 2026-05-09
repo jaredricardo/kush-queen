@@ -350,24 +350,14 @@
             "type": "simple_link",
             "settings": {
               "title": "Vapes",
-              "link": "shopify://products/thca-live-resin-vape-cart"
+              "link": "shopify://collections/vapes"
             }
           },
-          "link_linklist_N7MrLg": {
-            "type": "link-linklist",
-            "disabled": true,
-            "settings": {
-              "title": "Live Resin & Rosin",
-              "link": "https://kushqueen.shop/collections/710-day",
-              "links": "live-resin-rosin"
-            }
-          },
-          "simple_link_iUkaie": {
+          "simple_link_gmh9xU": {
             "type": "simple_link",
-            "disabled": true,
             "settings": {
-              "title": "KQ Merch",
-              "link": "shopify://collections/kush-queen-merch"
+              "title": "Edibles",
+              "link": "shopify://collections/thc-gummies"
             }
           }
         },
@@ -380,8 +370,7 @@
           "4f5ec842-39ff-4f79-9428-f0efaf6153af",
           "1571826552382",
           "simple_link_FVrTXN",
-          "link_linklist_N7MrLg",
-          "simple_link_iUkaie"
+          "simple_link_gmh9xU"
         ],
         "custom_css": [
           ".second-nav .announcement {list-style: none; text-align: center; background-color: #bc182b;}",

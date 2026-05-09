@@ -2150,19 +2150,13 @@ div#prev-arrow:hover{
 }
 
 div#PageContainer {
-  margin-top: 65px;
+  margin-top: var(--header-height, 110px);
 }
-
-
 
 @media(min-width:1050px){
   div#PageContainer {
-  margin-top: 95px;
-
-}
-
-
-    
+    margin-top: var(--header-height, 140px);
+  }
 }
 
 /* POST PRODUCTION FIXES */
