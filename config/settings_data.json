@@ -346,19 +346,18 @@
               "links": "topicals"
             }
           },
-          "link_linklist_EkXcgm": {
-            "type": "link-linklist",
-            "settings": {
-              "title": "Edibles",
-              "link": "shopify://collections/thc-gummies",
-              "links": "thc-edibles"
-            }
-          },
           "simple_link_FVrTXN": {
             "type": "simple_link",
             "settings": {
               "title": "Vapes",
               "link": "shopify://collections/vapes"
+            }
+          },
+          "simple_link_gmh9xU": {
+            "type": "simple_link",
+            "settings": {
+              "title": "Edibles",
+              "link": "shopify://collections/thc-gummies"
             }
           }
         },
@@ -370,8 +369,8 @@
           "779aa32a-4620-41dc-ba84-481a090c20d7",
           "4f5ec842-39ff-4f79-9428-f0efaf6153af",
           "1571826552382",
-          "link_linklist_EkXcgm",
-          "simple_link_FVrTXN"
+          "simple_link_FVrTXN",
+          "simple_link_gmh9xU"
         ],
         "custom_css": [
           ".second-nav .announcement {list-style: none; text-align: center; background-color: #bc182b;}",
