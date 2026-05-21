@@ -46,20 +46,22 @@
         
       </div>
 
-            <div class="third-nav tab switcher">
-        <ul>
-          <li class="active">
-            <a href="/">
-              <img src="{{ section.settings.logo | img_url: 'master' }}" alt="{{ section.settings.logo.alt | default: shop.name | escape }}">
-            </a>
-          </li>
-          <li>
-            <a href="http://www.cubiqworld.com/">
-              <img style="max-width: 80px;"src="https://cdn.shopify.com/s/files/1/0124/3594/7616/files/cubiq_world_logo_blue.avif?v=1777673140" alt="Cubique World Logo">
-            </a>
-          </li>
-        </ul>
-      </div>
+      {% comment %}
+        <div class="third-nav tab switcher">
+          <ul>
+            <li class="active">
+              <a href="/">
+                <img src="{{ section.settings.logo | img_url: 'master' }}" alt="{{ section.settings.logo.alt | default: shop.name | escape }}">
+              </a>
+            </li>
+            <li>
+              <a href="http://www.cubiqworld.com/">
+                <img style="max-width: 80px;"src="https://cdn.shopify.com/s/files/1/0124/3594/7616/files/cubiq_world_logo_blue.avif?v=1777673140" alt="Cubique World Logo">
+              </a>
+            </li>
+          </ul>
+        </div>
+      {% endcomment  %}
 
     </div>
     {% endif %}
