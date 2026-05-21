@@ -2150,12 +2150,12 @@ div#prev-arrow:hover{
 }
 
 div#PageContainer {
-  margin-top: var(--header-height, 110px);
+  margin-top: var(--header-height, 85px);
 }
 
 @media(min-width:1050px){
   div#PageContainer {
-    margin-top: var(--header-height, 140px);
+    margin-top: var(--header-height, 94.25px);
   }
 }
 
