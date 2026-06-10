@@ -17,9 +17,6 @@
         {%- assign links_small = block.settings.links -%}
         <ul class="ms-category-level second-level-menu">
           {% for link in linklists[links_small].links %}
-          {%- comment %}<locksmith:0008>{% endcomment -%}
-            {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: link, subject_parent: linklists[links_small], variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
-          {%- comment %}</locksmith:0008>{% endcomment -%}
           <li class="col-category level-1">
             <a class="form-group{% if link.active %} active{% endif %}" href="{{link.url}}">
               {{link.title}}
