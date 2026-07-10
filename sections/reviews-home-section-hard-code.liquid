@@ -1,0 +1,278 @@
+{% style %}
+  [data-section-id='{{ section.id }}'] {
+    padding-top: {{ section.settings.ptop }}px;
+    padding-bottom: {{ section.settings.pbottom }}px;
+  }
+
+  [data-section-id='{{ section.id }}'] .home-reviews-v2__heading {
+    font-family: '{{ section.settings.heading_font }}';
+  }
+
+  [data-section-id="{{ section.id }}"] .home-reviews-v2__heading {
+    color: {{ section.settings.section_text_color }} !important;
+  }
+
+  @media screen and (max-width: 768px) {
+    [data-section-id='{{ section.id }}'] {
+      padding-top: {{ section.settings.ptop_mobile }}px;
+      padding-bottom: {{ section.settings.pbottom_mobile }}px;
+    }
+  }
+{% endstyle %}
+
+<div class="page-width" data-section-id="{{ section.id }}">
+  <div class="home-reviews-v2__container">
+    {% if section.settings.heading != blank %}
+      <h2 class="home-reviews-v2__heading">{{ section.settings.heading | escape }}</h2>
+    {% endif %}
+
+    <div class="swiper reviews-v2-swiper">
+      <div class="swiper-wrapper" id="reviews-section-v2">
+        {% for block in section.blocks %}
+          <div class="swiper-slide" {{ block.shopify_attributes }}>
+            <div class="review-card">
+              <div class="review-card-heading">
+                <div class="review-card-header-content">
+                  <div class="rating-star-section">
+                    <span class="review-card-stars">
+                      <div class="review-star-container">
+                        {% for i in (1..5) %}
+                          {% if i <= block.settings.rating %}
+                            <img class="star" src="{{ 'GoldStar.png' | asset_img_url }}" alt="Star">
+                          {% endif %}
+                        {% endfor %}
+                      </div>
+                    </span>
+                  </div>
+                  <div class="review-star__image-wrapper">
+                    {% if block.settings.product != blank %}
+                      <img class="prod-img" src="{{ block.settings.product.featured_image | image_url: width: 60 }}" alt="{{ block.settings.product.title }}" width="60" height="60">
+                      <h4 class="review-card-title">{{ block.settings.product.title | escape }}</h4>
+                    {% endif %}
+                  </div>
+                </div>
+              </div>
+              <div class="review-card-text">
+                {% if block.settings.review_text != blank %}
+                  <p class="review-card-text">{{ block.settings.review_text | escape }}</p>
+                {% endif %}
+              </div>
+              <div class="review-card-footer">
+                <div class="review-card-user-info">
+                  {% if block.settings.reviewer_name != blank %}
+                    <h4 class="review-card-user-name">{{ block.settings.reviewer_name | escape }}</h4>
+                  {% endif %}
+                  {% if block.settings.verified_buyer %}
+                    <span class="review-card-verified">
+                      <img class="verified-checkmark" src="{{ 'GoldCircle.png' | asset_img_url }}" alt="">
+                      VERIFIED BUYER
+                    </span>
+                  {% endif %}
+                </div>
+                {% if block.settings.product != blank and block.settings.button_label != blank %}
+                  <a href="{{ block.settings.product.url }}" class="btn btn--primary btn--primary-with-icon review-card-product-link">
+                    {{ block.settings.button_label | escape }}
+                  </a>
+                {% endif %}
+              </div>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+
+    <div class="swiper-pagination" aria-hidden="true"></div>
+
+    {%- liquid
+      assign button_link = section.settings.button_link
+    -%}
+
+    {%- if section.settings.show_button and section.settings.button_label != blank and button_link != blank -%}
+      <a
+        href="{{ button_link }}"
+        class="btn btn--primary btn--primary-with-icon home-reviews-v2__button"
+      >
+        {{ section.settings.button_label | escape }}
+      </a>
+    {%- endif -%}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Reviews Hard Code",
+  "class": "home-reviews-v2",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Section Heading"
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Customer Reviews"
+    },
+    {
+      "type": "select",
+      "id": "heading_font",
+      "label": "Heading Font",
+      "default": "Room205",
+      "options": [
+        {
+          "label": "Room205",
+          "value": "Room205"
+        },
+        {
+          "label": "Gotham",
+          "value": "Gotham"
+        },
+        {
+          "label": "Gotham Bold",
+          "value": "Gotham-bold"
+        },
+        {
+          "label": "Eina03",
+          "value": "Eina03"
+        }
+      ]
+    },
+    {
+      "type": "color",
+      "id": "section_text_color",
+      "label": "Section Text Color",
+      "default": "#000000"
+    },
+    {
+      "type": "header",
+      "content": "Bottom Button"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_button",
+      "label": "Show Button",
+      "default": true
+    },
+    {
+      "type": "text",
+      "id": "button_label",
+      "label": "Button label",
+      "default": "View All Reviews"
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": "Button link"
+    },
+    {
+      "type": "header",
+      "content": "Section Padding"
+    },
+    {
+      "type": "range",
+      "id": "ptop",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Padding Top (Desktop)",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "pbottom",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Padding Bottom (Desktop)",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "ptop_mobile",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Padding Top (Mobile)",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "pbottom_mobile",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Padding Bottom (Mobile)",
+      "default": 0
+    }
+  ],
+  "blocks": [
+    {
+      "type": "review",
+      "name": "Review",
+      "settings": [
+        {
+          "type": "header",
+          "content": "Product Information"
+        },
+        {
+          "type": "product",
+          "id": "product",
+          "label": "Product"
+        },
+        {
+          "type": "header",
+          "content": "Review Content"
+        },
+        {
+          "type": "range",
+          "id": "rating",
+          "min": 1,
+          "max": 5,
+          "step": 1,
+          "label": "Star Rating",
+          "default": 5
+        },
+        {
+          "type": "textarea",
+          "id": "review_text",
+          "label": "Review Text",
+          "default": "This product is amazing! Highly recommend."
+        },
+        {
+          "type": "header",
+          "content": "Reviewer Information"
+        },
+        {
+          "type": "text",
+          "id": "reviewer_name",
+          "label": "Reviewer Name",
+          "default": "John D."
+        },
+        {
+          "type": "checkbox",
+          "id": "verified_buyer",
+          "label": "Verified Buyer",
+          "default": true
+        },
+        {
+          "type": "text",
+          "id": "button_label",
+          "label": "Button Label",
+          "default": "SHOP NOW"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Reviews Hard Code",
+      "category": "Reviews",
+      "blocks": []
+    }
+  ]
+}
+{% endschema %}

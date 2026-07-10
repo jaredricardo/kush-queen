@@ -3342,6 +3342,7 @@
       },
       "reviews_home_section_v2_BpMk8g": {
         "type": "reviews-home-section-v2",
+        "disabled": true,
         "name": "Reviews Section V2",
         "settings": {
           "heading": "loved by many",
@@ -3390,6 +3391,146 @@
           "ptop_mobile": 40,
           "pbottom_mobile": 40
         }
+      },
+      "reviews_home_section_hard_code_faGFqB": {
+        "type": "reviews-home-section-hard-code",
+        "blocks": {
+          "review_8kR3mP": {
+            "type": "review",
+            "settings": {
+              "product": "strawberry-delta-9-thc-chews",
+              "rating": 5,
+              "review_text": "The Best Gummies I've ever had. They work surprisingly fast and they last a very long time. Really good for a good time! Would 100% recommend.",
+              "reviewer_name": "Eugene",
+              "verified_buyer": true,
+              "button_label": "SHOP NOW"
+            }
+          },
+          "review_7nQ2pL": {
+            "type": "review",
+            "settings": {
+              "product": "cbn-gummies-for-sleep",
+              "rating": 5,
+              "review_text": "These are my go to for gummies used for my sleep aid. Thanks to this product no longer require anything else, and find myself getting a healthy good night's sleep.",
+              "reviewer_name": "Allen",
+              "verified_buyer": true,
+              "button_label": "SHOP NOW"
+            }
+          },
+          "review_5mT9xK": {
+            "type": "review",
+            "settings": {
+              "product": "cbg-gummies",
+              "rating": 5,
+              "review_text": "This is my daily go-to gummy for relieving anxiety and inflammation. They work so well.",
+              "reviewer_name": "Lisa",
+              "verified_buyer": true,
+              "button_label": "SHOP NOW"
+            }
+          },
+          "review_9pW4vN": {
+            "type": "review",
+            "settings": {
+              "product": "thcv-gummies",
+              "rating": 5,
+              "review_text": "They give me energy for the whole day and also decrease my appetite. I was trying to lose 5 pounds and I've succeeded with these!",
+              "reviewer_name": "Randy",
+              "verified_buyer": true,
+              "button_label": "SHOP NOW"
+            }
+          },
+          "review_3hL8qM": {
+            "type": "review",
+            "settings": {
+              "product": "full-spectrum-cbd-chews",
+              "rating": 5,
+              "review_text": "These gummies have a nice soft, smooth texture and a yummy taste! After eating one, it's not long before I began feeling more calm and relaxed.",
+              "reviewer_name": "Melanie",
+              "verified_buyer": true,
+              "button_label": "SHOP NOW"
+            }
+          },
+          "review_6jX2nR": {
+            "type": "review",
+            "settings": {
+              "product": "boost-cannabinoid-concentrate",
+              "rating": 5,
+              "review_text": "Perfect product for the experienced user, Able to control doses much easier than a gummy. Affordable pricing fast delivery.",
+              "reviewer_name": "Marina",
+              "verified_buyer": true,
+              "button_label": "SHOP NOW"
+            }
+          },
+          "review_4rB7pQ": {
+            "type": "review",
+            "settings": {
+              "product": "relieve-cbd-delta-9-thc-bath-bomb",
+              "rating": 5,
+              "review_text": "The Bath Bomb was awesome. Soaking took care of my aches and pains from exercise. Worth every penny!",
+              "reviewer_name": "Mary",
+              "verified_buyer": true,
+              "button_label": "SHOP NOW"
+            }
+          },
+          "review_2mK9tS": {
+            "type": "review",
+            "settings": {
+              "product": "pride-edition-delta-8-thc-lube",
+              "rating": 5,
+              "review_text": "It has become our lube of choice, it really helps the area of application become more relaxed and more sensitive to touch.",
+              "reviewer_name": "Faustino",
+              "verified_buyer": true,
+              "button_label": "SHOP NOW"
+            }
+          },
+          "review_1nH5yW": {
+            "type": "review",
+            "settings": {
+              "product": "melt-thc-cbd-lotion",
+              "rating": 5,
+              "review_text": "I thought it was a fluke when I put it on my knees but I felt instant relief, time and time again!",
+              "reviewer_name": "Leslie",
+              "verified_buyer": true,
+              "button_label": "SHOP NOW"
+            }
+          },
+          "review_8pC3kT": {
+            "type": "review",
+            "settings": {
+              "product": "male-sexual-enhancement-gummy",
+              "rating": 5,
+              "review_text": "Within 30 minutes, I've become a hunter-gatherer and I'm looking for the goods 😈",
+              "reviewer_name": "Anonymous",
+              "verified_buyer": true,
+              "button_label": "SHOP NOW"
+            }
+          }
+        },
+        "block_order": [
+          "review_8kR3mP",
+          "review_7nQ2pL",
+          "review_5mT9xK",
+          "review_9pW4vN",
+          "review_3hL8qM",
+          "review_6jX2nR",
+          "review_4rB7pQ",
+          "review_2mK9tS",
+          "review_1nH5yW",
+          "review_8pC3kT"
+        ],
+        "name": "Reviews Hard Code",
+        "settings": {
+          "heading": "Customer Reviews",
+          "heading_font": "Room205",
+          "section_text_color": "#000000",
+          "show_button": true,
+          "button_label": "View All Reviews",
+          "button_link": "",
+          "ptop": 0,
+          "pbottom": 0,
+          "ptop_mobile": 0,
+          "pbottom_mobile": 0
+        }
       }
     },
     "content_for_index": [
@@ -3400,6 +3541,7 @@
       "featured_collections_v3_qKLcQq",
       "featured_collection_v1_ExjRdM",
       "reviews_home_section_v2_BpMk8g",
+      "reviews_home_section_hard_code_faGFqB",
       "new_home_promise_v2_jtYhQD",
       "472c0296-a3b4-410c-bdfd-b5308fc72c55",
       "featured_collection_v1_JQjqjj",
