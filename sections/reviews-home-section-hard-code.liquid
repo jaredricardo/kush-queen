@@ -98,6 +98,32 @@
   </div>
 </div>
 
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var swiper = new Swiper('[data-section-id="{{ section.id }}"] .reviews-v2-swiper', {
+      slidesPerView: 1,
+      spaceBetween: 0,
+      centeredSlides: true,
+      loop: true,
+      grabCursor: true,
+      pagination: {
+        el: '[data-section-id="{{ section.id }}"] .swiper-pagination',
+        clickable: true,
+      },
+      breakpoints: {
+        768: {
+          slidesPerView: 2.5,
+          spaceBetween: 25,
+        },
+        1024: {
+          slidesPerView: 2.8,
+          spaceBetween: 25,
+        },
+      },
+    })
+  })
+</script>
+
 {% schema %}
 {
   "name": "Reviews Hard Code",

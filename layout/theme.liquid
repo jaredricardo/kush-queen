@@ -173,9 +173,17 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="theme-color" content="#F3F2EC">
     <link rel="canonical" href="{{ canonical_url }}">
-    {% if template contains 'search' %}
+    {% if template contains 'search' or current_tags or request.path contains '?' or request.path contains '/tagged/' or current_page > 1 %}
       <meta name="robots" content="noindex,follow">
     {% endif %}
+    {%- if template.name == 'index' -%}
+      {%- for section in sections -%}
+        {%- if section.type == 'hero-v2' and section.settings.image != blank -%}
+          <link rel="preload" as="image" href="{{ section.settings.image | image_url: width: 2048 }}" fetchpriority="high">
+          {%- break -%}
+        {%- endif -%}
+      {%- endfor -%}
+    {%- endif -%}
     {%- if settings.favicon != blank -%}
       <link rel="shortcut icon" href="{{ settings.favicon | img_url: '32x32' }}" type="image/png">
     {%- endif -%}
@@ -218,7 +226,9 @@
     <link rel="stylesheet" data-href="{{ 'jquery.fancybox.min.css' | asset_url }}">
     <link rel="stylesheet" data-href="{{ 'magnific-popup.css' | asset_url }}">
     <link rel="stylesheet" href="{{ 'slick.css' | asset_url }}">
-    <link rel="stylesheet" href="{{ 'bootstrap.min.css' | asset_url }}">
+    {% unless template.name == 'index' %}
+      <link rel="stylesheet" href="{{ 'bootstrap.min.css' | asset_url }}">
+    {% endunless %}
 
     <link rel="stylesheet" href="{{ 'bootstrap-slider.css' | asset_url }}">
     <link rel="stylesheet" href="{{ 'theme.scss.css' | asset_url }}">
