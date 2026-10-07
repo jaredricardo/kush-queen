@@ -4,7 +4,7 @@
     <div class="blog-grid">
       <div class="grid">
         
-        {% paginate blogs.my_new_blog.articles  %}
+        {% paginate blogs.my_new_blog.articles by nil %}
 
         {% for article in blog.articles %}
 {%- comment -%} Wholesale_Club_Product_Visibility_For_Loop Start {%- endcomment -%}
@@ -160,3 +160,13 @@
 
 {% javascript %}
 {% endjavascript %}
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{% paginate blogs.my_new_blog.articles  %}"
+  to: "{% paginate blogs.my_new_blog.articles by nil %}"
+  position: 198..246
+{% endcomment %}
