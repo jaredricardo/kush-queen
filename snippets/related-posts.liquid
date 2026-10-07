@@ -111,7 +111,7 @@
             {% capture img_wrapper_id %}ArticleImageWrapper-{{ article.image.id }}{% endcapture %}
             {%- assign img_url = article.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
 
-            {% include 'image-style' with image: article.image, small_style: false, width: 905, height: 600, wrapper_id: img_wrapper_id, img_id: img_id %}
+            {% include 'image-style' with image, image: article.image, small_style: false, width: 905, height: 600, wrapper_id: img_wrapper_id, img_id: img_id %}
 
             <div id="{{ img_wrapper_id }}" class="article__list-image-wrapper js">
               <a href="{{ article.url }}" style="padding-top:{{ 1 | divided_by: article.image.aspect_ratio | times: 100}}%;" class="img-effect article__list-image-container">
@@ -146,3 +146,15 @@
   </div>
 </div>
 
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{% include 'image-style' with image: article.image, small_style: false, width:
+    905, height: 600, wrapper_id: img_wrapper_id, img_id: img_id %}"
+  to: "{% include 'image-style' with image, image: article.image, small_style: false,
+    width: 905, height: 600, wrapper_id: img_wrapper_id, img_id: img_id %}"
+  position: 4585..4734
+{% endcomment %}
