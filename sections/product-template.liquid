@@ -123,7 +123,7 @@
         {% capture img_wrapper_id %}{{ zoom_img_id }}-wrapper{% endcapture %}
         {%- assign img_url = image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
 
-        {% include 'image-style' with image: image, height: height, wrapper_id: img_wrapper_id, img_id: img_id %}
+        {% include 'image-style' with image, image: image, height: height, wrapper_id: img_wrapper_id, img_id: img_id %}
 
         <div id="{{ img_wrapper_id }}" class="product-single__photo-wrapper js">
           <div
@@ -214,7 +214,7 @@
             </div>
           {%- endif -%}
 
-          {% capture "form_classes" -%}
+          {% capture form_classes -%}
             product-form product-form-{{ section.id }}{% unless section.settings.show_variant_labels %} product-form--hide-variant-labels{% endunless %}{% if section.settings.enable_payment_button and product.has_only_default_variant%} product-form--payment-button-no-variants{% endif %}
           {%- endcapture %}
 
@@ -737,3 +737,18 @@
   ]
 }
 {% endschema %}
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{% include 'image-style' with image: image, height: height, wrapper_id: img_wrapper_id,
+    img_id: img_id %}"
+  to: "{% include 'image-style' with image, image: image, height: height, wrapper_id:
+    img_wrapper_id, img_id: img_id %}"
+  position: 6679..6791
+- from: '{% capture "form_classes" -%}'
+  to: "{% capture form_classes -%}"
+  position: 11577..11604
+{% endcomment %}
